@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Elanaz'ın Ders Dünyası",
+    "slug": "elanaz-ders-dunyasi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8F0"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.elanaz.dersdunyasi"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8F0"
+      },
+      "package": "com.elanaz.dersdunyasi"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+import { useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import type { Soru } from '../types/content';
+import { colors } from '../theme/colors';
+import { PrimaryButton } from './PrimaryButton';
+
+const MAX_DEGISIKLIK = 2;
+
+interface Props {
+  soru: Soru;
+  onAnswer: (cevap: string, dogruMu: boolean) => void;
+}
+
+export function TestQuestion({ soru, onAnswer }: Props) {
+  const [secim, setSecim] = useState<string | null>(null);
+  const [degisiklikSayisi, setDegisiklikSayisi] = useState(0);
+  const [kilitli, setKilitli] = useState(false);
+  const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis' | 'kilit'>('bekle');
+
+  const kalanHak = MAX_DEGISIKLIK - degisiklikSayisi;
+
+  const secimYap = (secenek: string) => {
+    if (kilitli || durum !== 'bekle') return;
+    if (secim === secenek) return;
+    if (secim !== null) {
+      const yeniSayi = degisiklikSayisi + 1;
+      setDegisiklikSayisi(yeniSayi);
+      if (yeniSayi >= MAX_DEGISIKLIK) {
+        setKilitli(true);
+      }
+    }
+    setSecim(secenek);
+  };
+
+  const onayla = () => {
+    if (!secim) return;
+    const dogruMu = secim === soru.dogruCevap;
+    setDurum(dogruMu ? 'dogru' : 'yanlis');
+    setKilitli(true);
+    onAnswer(secim, dogruMu);
+  };
+
+  const gosterimDurumu = durum === 'bekle' && kilitli && secim ? 'kilit' : durum;
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.soru}>{soru.soru}</Text>
+      <Text style={styles.hakMetni}>
+        Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}
+      </Text>
+      <View style={styles.secenekler}>
+        {(soru.secenekler ?? []).map((secenek) => {
+          const secili = secim === secenek;
+          const dogruGoster = gosterimDurumu === 'dogru' && secili;
+          const yanlisGoster = gosterimDurumu === 'yanlis' && secili;
+          return (
+            <Pressable
+              key={secenek}
+              onPress={() => secimYap(secenek)}
+              disabled={kilitli || durum !== 'bekle'}
+              style={[
+                styles.secenek,
+                secili && !dogruGoster && !yanlisGoster && styles.secenekSecili,
+                dogruGoster && styles.secenekDogru,
+                yanlisGoster && styles.secenekYanlis,
+              ]}
+            >
+              <Text
+                style={[
+                  styles.secenekMetin,
+                  secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
+                  dogruGoster && styles.secenekMetinDogru,
+                  yanlisGoster && styles.secenekMetinYanlis,
+                ]}
+              >
+                {secenek}
+              </Text>
+            </Pressable>
+          );
+        })}
+      </View>
+      {durum === 'bekle' && (
+        <PrimaryButton label="Cevabım Bu" onPress={onayla} disabled={!secim} />
+      )}
+      {durum === 'dogru' && (
+        <View style={styles.feedbackDogru}>
+          <Text style={styles.feedbackBaslik}>Süper! ⭐</Text>
+          <Text style={styles.feedbackMetin}>Çok iyi düşündün!</Text>
+        </View>
+      )}
+      {durum === 'yanlis' && (
+        <View style={styles.feedbackYanlis}>
+          <Text style={styles.feedbackBaslikYanlis}>Bu sefer olmadı</Text>
+          <Text style={styles.feedbackMetin}>{soru.ipucu}</Text>
+        </View>
+      )}
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: { gap: 16 },
+  soru: {
+    fontSize: 22,
+    lineHeight: 32,
+    color: colors.baslik,
+    fontWeight: '600',
+  },
+  hakMetni: {
+    fontSize: 16,
+    color: colors.turuncu,
+    fontWeight: '600',
+  },
+  secenekler: { gap: 12 },
+  secenek: {
+    borderWidth: 2,
+    borderColor: colors.kenarlik,
+    borderRadius: 12,
+    padding: 16,
+    backgroundColor: colors.kart,
+  },
+  secenekSecili: {
+    borderColor: colors.birincil,
+    backgroundColor: colors.birincilAcik,
+  },
+  secenekDogru: {
+    borderColor: colors.basari,
+    backgroundColor: colors.basariAcik,
+  },
+  secenekYanlis: {
+    borderColor: colors.hata,
+    backgroundColor: colors.hataAcik,
+  },
+  secenekMetin: {
+    fontSize: 18,
+    color: colors.metin,
+    textAlign: 'center',
+  },
+  secenekMetinSecili: {
+    color: colors.birincil,
+    fontWeight: '700',
+  },
+  secenekMetinDogru: {
+    color: colors.basari,
+    fontWeight: '700',
+  },
+  secenekMetinYanlis: {
+    color: colors.hata,
+    fontWeight: '700',
+  },
+  feedbackDogru: {
+    backgroundColor: colors.basariAcik,
+    padding: 16,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: colors.basari,
+  },
+  feedbackYanlis: {
+    backgroundColor: colors.hataAcik,
+    padding: 16,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: colors.hata,
+  },
+  feedbackBaslik: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: colors.basari,
+    marginBottom: 6,
+  },
+  feedbackBaslikYanlis: {
+    fontSize: 20,
+    fontWeight: '700',
+    color: colors.hata,
+    marginBottom: 6,
+  },
+  feedbackMetin: {
+    fontSize: 17,
+    lineHeight: 26,
+    color: colors.metin,
+  },
+});

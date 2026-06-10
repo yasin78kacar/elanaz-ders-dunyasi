@@ -1,0 +1,15 @@
+export const colors = {
+  arkaPlan: '#FFF8F0',
+  kart: '#FFFFFF',
+  birincil: '#2E6BE6',
+  birincilAcik: '#E8F0FE',
+  baslik: '#1A2B4A',
+  metin: '#3D4F6F',
+  basari: '#2E9E5B',
+  basariAcik: '#E6F7ED',
+  hata: '#D64545',
+  hataAcik: '#FDECEC',
+  turuncu: '#E67E22',
+  kenarlik: '#E0D8CE',
+  yildiz: '#F5B800',
+} as const;
