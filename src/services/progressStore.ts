@@ -1,10 +1,14 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { IlerlemeVerisi, KonuIlerleme, SoruKaydi } from '../types/progress';
+import type { HikayeIlerleme, IlerlemeVerisi, KonuIlerleme, SoruKaydi } from '../types/progress';
 
 const STORAGE_KEY = '@elanaz/ilerleme';
 
 function konuKey(dersId: string, konuId: string): string {
   return `${dersId}:${konuId}`;
+}
+
+function hikayeKey(dersId: string, hikayeId: string): string {
+  return `${dersId}:hikaye:${hikayeId}`;
 }
 
 function yildizHesapla(dogru: number, toplam: number): number {
@@ -18,11 +22,12 @@ function yildizHesapla(dogru: number, toplam: number): number {
 
 async function load(): Promise<IlerlemeVerisi> {
   const raw = await AsyncStorage.getItem(STORAGE_KEY);
-  if (!raw) return { konular: {} };
+  if (!raw) return { konular: {}, hikayeler: {} };
   try {
-    return JSON.parse(raw) as IlerlemeVerisi;
+    const parsed = JSON.parse(raw) as Partial<IlerlemeVerisi>;
+    return { konular: parsed.konular ?? {}, hikayeler: parsed.hikayeler ?? {} };
   } catch {
-    return { konular: {} };
+    return { konular: {}, hikayeler: {} };
   }
 }
 
@@ -33,6 +38,11 @@ async function save(data: IlerlemeVerisi): Promise<void> {
 export async function getKonuIlerleme(dersId: string, konuId: string): Promise<KonuIlerleme | null> {
   const data = await load();
   return data.konular[konuKey(dersId, konuId)] ?? null;
+}
+
+export async function getHikayeIlerleme(dersId: string, hikayeId: string): Promise<HikayeIlerleme | null> {
+  const data = await load();
+  return data.hikayeler[hikayeKey(dersId, hikayeId)] ?? null;
 }
 
 export async function kaydetSoruCevabi(
@@ -54,6 +64,28 @@ export async function kaydetSoruCevabi(
 
   mevcut.sorular.push({ ...kayit, konuId, dersId });
   data.konular[key] = mevcut;
+  await save(data);
+}
+
+export async function kaydetHikayeCevabi(
+  dersId: string,
+  hikayeId: string,
+  kayit: Omit<SoruKaydi, 'konuId' | 'dersId'>,
+): Promise<void> {
+  const data = await load();
+  const key = hikayeKey(dersId, hikayeId);
+  const mevcut = data.hikayeler[key] ?? {
+    hikayeId,
+    dersId,
+    tamamlandi: false,
+    testSkoru: 0,
+    testToplam: 0,
+    yildiz: 0,
+    sorular: [],
+  };
+
+  mevcut.sorular.push({ ...kayit, konuId: hikayeId, dersId, tip: 'hikaye' });
+  data.hikayeler[key] = mevcut;
   await save(data);
 }
 
@@ -84,11 +116,40 @@ export async function tamamlaKonu(
   return mevcut;
 }
 
+export async function tamamlaHikaye(
+  dersId: string,
+  hikayeId: string,
+  testDogru: number,
+  testToplam: number,
+): Promise<HikayeIlerleme> {
+  const data = await load();
+  const key = hikayeKey(dersId, hikayeId);
+  const mevcut = data.hikayeler[key] ?? {
+    hikayeId,
+    dersId,
+    tamamlandi: false,
+    testSkoru: 0,
+    testToplam: 0,
+    yildiz: 0,
+    sorular: [],
+  };
+
+  mevcut.tamamlandi = true;
+  mevcut.testSkoru = testDogru;
+  mevcut.testToplam = testToplam;
+  mevcut.yildiz = yildizHesapla(testDogru, testToplam);
+  data.hikayeler[key] = mevcut;
+  await save(data);
+  return mevcut;
+}
+
 export async function getTumIlerleme(): Promise<IlerlemeVerisi> {
   return load();
 }
 
 export async function getTumSoruKayitlari(): Promise<SoruKaydi[]> {
   const data = await load();
-  return Object.values(data.konular).flatMap((k) => k.sorular);
+  const konuKayitlari = Object.values(data.konular).flatMap((k) => k.sorular);
+  const hikayeKayitlari = Object.values(data.hikayeler).flatMap((h) => h.sorular);
+  return [...konuKayitlari, ...hikayeKayitlari];
 }

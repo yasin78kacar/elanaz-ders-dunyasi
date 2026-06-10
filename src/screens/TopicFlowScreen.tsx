@@ -1,13 +1,16 @@
-import { useLayoutEffect, useState } from 'react';
+import { useLayoutEffect, useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
 import { kaydetSoruCevabi, tamamlaKonu } from '../services/progressStore';
+import { oturumSorulariSec } from '../services/sessionPicker';
 import { PracticeQuestion } from '../components/PracticeQuestion';
 import { TestQuestion } from '../components/TestQuestion';
 import { PrimaryButton } from '../components/PrimaryButton';
+import { ContentIllustration } from '../components/ContentIllustration';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
+import type { Soru } from '../types/content';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TopicFlow'>;
 
@@ -21,6 +24,14 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const { dersId, konuId, konuBaslik } = route.params;
   const konu = getKonu(dersId, konuId);
 
+  const oturum = useMemo(() => {
+    if (!konu) return null;
+    return {
+      alistirmalar: oturumSorulariSec(konu.alistirma),
+      testler: oturumSorulariSec(konu.test),
+    };
+  }, [konu]);
+
   const [adim, setAdim] = useState<Adim>({ tip: 'anlatim', index: 0 });
   const [testDogru, setTestDogru] = useState(0);
   const [cevapBekleniyor, setCevapBekleniyor] = useState(false);
@@ -29,7 +40,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     navigation.setOptions({ title: konuBaslik });
   }, [navigation, konuBaslik]);
 
-  if (!konu) {
+  if (!konu || !oturum) {
     return (
       <View style={styles.container}>
         <Text style={styles.hata}>Konu bulunamadı.</Text>
@@ -38,8 +49,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   }
 
   const anlatimEkranlari = konu.anlatim.ekranlar;
-  const alistirmalar = konu.alistirma;
-  const testler = konu.test;
+  const alistirmalar: Soru[] = oturum.alistirmalar;
+  const testler: Soru[] = oturum.testler;
 
   const sonrakiAnlatim = () => {
     if (adim.tip !== 'anlatim') return;
@@ -58,6 +69,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     } else {
       setAdim({ tip: 'test', index: 0 });
       setCevapBekleniyor(false);
+      setTestDogru(0);
     }
   };
 
@@ -117,6 +129,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       {adim.tip === 'anlatim' && (
         <View style={styles.kutu}>
           <Text style={styles.etiket}>Konu Anlatımı</Text>
+          <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} />
           <Text style={styles.anlatimMetin}>{anlatimEkranlari[adim.index].metin}</Text>
           <Text style={styles.sayac}>
             {adim.index + 1} / {anlatimEkranlari.length}
@@ -172,9 +185,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <Text style={styles.sonucBaslik}>
             Test: {adim.dogru} / {adim.toplam} doğru
           </Text>
-          <Text style={styles.yildizlar}>
-            {'⭐'.repeat(adim.yildiz) || '—'}
-          </Text>
+          <Text style={styles.yildizlar}>{'⭐'.repeat(adim.yildiz) || '—'}</Text>
           <Text style={styles.yildizAciklama}>
             {adim.yildiz === 3
               ? 'Muhteşem! Bu konuyu çok iyi öğrendin.'
@@ -184,7 +195,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
                   ? 'İyi başlangıç! Tekrar denemek her zaman faydalıdır.'
                   : 'Bu konuyu birlikte tekrar edebiliriz.'}
           </Text>
-          <PrimaryButton label="Ana Sayfaya Dön" onPress={() => navigation.popToTop()} />
+          <PrimaryButton label="Haritaya Dön" onPress={() => navigation.goBack()} />
         </View>
       )}
     </ScrollView>
@@ -206,23 +217,9 @@ const styles = StyleSheet.create({
     lineHeight: 34,
     color: colors.baslik,
   },
-  sayac: {
-    fontSize: 15,
-    color: colors.metin,
-  },
+  sayac: { fontSize: 15, color: colors.metin },
   hata: { fontSize: 18, color: colors.hata, padding: 20 },
-  sonucBaslik: {
-    fontSize: 24,
-    fontWeight: '700',
-    color: colors.baslik,
-  },
-  yildizlar: {
-    fontSize: 40,
-    textAlign: 'center',
-  },
-  yildizAciklama: {
-    fontSize: 18,
-    lineHeight: 28,
-    color: colors.metin,
-  },
+  sonucBaslik: { fontSize: 24, fontWeight: '700', color: colors.baslik },
+  yildizlar: { fontSize: 40, textAlign: 'center' },
+  yildizAciklama: { fontSize: 18, lineHeight: 28, color: colors.metin },
 });

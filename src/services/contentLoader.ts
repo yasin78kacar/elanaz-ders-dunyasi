@@ -1,8 +1,42 @@
-import sinif2Icerik from '../../content/sinif2/index.json';
-import type { Ders, DersOzet, Konu, SinifIcerik } from '../types/content';
+import indexJson from '../../content/sinif2/index.json';
+import ritmikSayma from '../../content/sinif2/matematik/ritmik-sayma.json';
+import sayilariOkuma from '../../content/sinif2/matematik/sayilari-okuma-yazma.json';
+import onlukBirlik from '../../content/sinif2/matematik/onluk-birlik.json';
+import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
+import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
 
-const icerik = sinif2Icerik as SinifIcerik;
+const konuDosyalari: Record<string, Konu> = {
+  'matematik/ritmik-sayma.json': ritmikSayma as Konu,
+  'matematik/sayilari-okuma-yazma.json': sayilariOkuma as Konu,
+  'matematik/onluk-birlik.json': onlukBirlik as Konu,
+};
+
+const hikayeDosyalari: Record<string, Hikaye> = {
+  'okuma-kosesi/elanaz-kayip-boya-kalemi.json': elanazHikaye as Hikaye,
+};
+
+interface IndexDers {
+  id: string;
+  baslik: string;
+  unite: { id: string; baslik: string; konuDosyalari?: string[] }[];
+  hikayeDosyalari?: string[];
+}
+
+function buildDersler(): Ders[] {
+  return (indexJson.dersler as IndexDers[]).map((d) => ({
+    id: d.id,
+    baslik: d.baslik,
+    unite: d.unite.map((u) => ({
+      id: u.id,
+      baslik: u.baslik,
+      konular: (u.konuDosyalari ?? []).map((dosya) => konuDosyalari[dosya]).filter(Boolean),
+    })),
+    hikayeler: (d.hikayeDosyalari ?? []).map((dosya) => hikayeDosyalari[dosya]).filter(Boolean),
+  }));
+}
+
+const icerik: SinifIcerik = { sinif: indexJson.sinif, dersler: buildDersler() };
 
 export function getDersListesi(): DersOzet[] {
   return icerik.dersler.map((d) => ({ id: d.id, baslik: d.baslik }));
@@ -22,6 +56,20 @@ export function getKonu(dersId: string, konuId: string): Konu | undefined {
   return undefined;
 }
 
+export function getDersKonuYolu(dersId: string): KonuOzet[] {
+  const ders = getDers(dersId);
+  if (!ders) return [];
+  const yol: KonuOzet[] = [];
+  let sira = 0;
+  for (const unite of ders.unite) {
+    for (const konu of unite.konular) {
+      yol.push({ id: konu.id, baslik: konu.baslik, uniteBaslik: unite.baslik, sira });
+      sira++;
+    }
+  }
+  return yol;
+}
+
 export function getKonuListesi(dersId: string): { uniteBaslik: string; konular: Konu[] }[] {
   const ders = getDers(dersId);
   if (!ders) return [];
@@ -30,6 +78,18 @@ export function getKonuListesi(dersId: string): { uniteBaslik: string; konular: 
     .map((u) => ({ uniteBaslik: u.baslik, konular: u.konular }));
 }
 
+export function getHikayeListesi(dersId: string): Hikaye[] {
+  return getDers(dersId)?.hikayeler ?? [];
+}
+
+export function getHikaye(dersId: string, hikayeId: string): Hikaye | undefined {
+  return getHikayeListesi(dersId).find((h) => h.id === hikayeId);
+}
+
 export function getSinif(): number {
   return appConfig.sinif;
+}
+
+export function okumaKosesiMi(dersId: string): boolean {
+  return dersId === 'okuma-kosesi';
 }

@@ -1,0 +1,392 @@
+{
+  "id": "onluk-birlik",
+  "baslik": "Onluk ve Birlik",
+  "kazanimKodu": "MAT.2.1.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Onluk blokları uzun, birlik blokları kısadır. 3 onluk 5 birlik = 35 sayısı demektir.",
+        "gorsel": "onluk-blok-35"
+      },
+      {
+        "metin": "Elanaz bloklarla oynarken fark etti: 10 birlik bir araya gelince 1 onluk olur. Bu yüzden 47 = 4 onluk + 7 birlik.",
+        "gorsel": "onluk-blok-47"
+      },
+      {
+        "metin": "Bir sayının onluk ve birliklerini bulmak, sayıları anlamanın en güzel yoludur. Şimdi dene!"
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ob-a-1",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "47 sayısında kaç onluk vardır?",
+      "dogruCevap": "4",
+      "ipucu": "Onluk basamağına bak.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-2",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "47 sayısında kaç birlik vardır?",
+      "dogruCevap": "7",
+      "ipucu": "Birlik basamağına bak.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-3",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "3 onluk 5 birlik hangi sayıdır?",
+      "dogruCevap": "35",
+      "ipucu": "30 + 5",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-4",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "6 onluk 0 birlik hangi sayıdır?",
+      "dogruCevap": "60",
+      "ipucu": "Sadece onluk var.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-5",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "82 sayısında kaç birlik vardır?",
+      "dogruCevap": "2",
+      "ipucu": "Sağdaki rakam birliktir.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-82"
+    },
+    {
+      "id": "ob-a-6",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "5 onluk 9 birlik hangi sayıdır?",
+      "dogruCevap": "59",
+      "ipucu": "50 + 9",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-7",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "70 sayısında kaç onluk vardır?",
+      "dogruCevap": "7",
+      "ipucu": "0 birlik var.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-70"
+    },
+    {
+      "id": "ob-a-8",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "4 onluk 4 birlik hangi sayıdır?",
+      "dogruCevap": "44",
+      "ipucu": "40 + 4",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-9",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "91 sayısında kaç onluk vardır?",
+      "dogruCevap": "9",
+      "ipucu": "Onluk basamağı 9.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-91"
+    },
+    {
+      "id": "ob-a-10",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "2 onluk 8 birlik hangi sayıdır?",
+      "dogruCevap": "28",
+      "ipucu": "20 + 8",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-11",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "36 sayısında kaç birlik vardır?",
+      "dogruCevap": "6",
+      "ipucu": "6 birlik.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-36"
+    },
+    {
+      "id": "ob-a-12",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "8 onluk 3 birlik hangi sayıdır?",
+      "dogruCevap": "83",
+      "ipucu": "80 + 3",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-13",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "50 sayısında kaç birlik vardır?",
+      "dogruCevap": "0",
+      "ipucu": "Onluk tam, birlik yok.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-50"
+    },
+    {
+      "id": "ob-a-14",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "1 onluk 7 birlik hangi sayıdır?",
+      "dogruCevap": "17",
+      "ipucu": "10 + 7",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "ob-a-15",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "64 sayısında kaç onluk vardır?",
+      "dogruCevap": "6",
+      "ipucu": "6 onluk 4 birlik.",
+      "cevapTipi": "sayi",
+      "gorsel": "onluk-blok-64"
+    },
+    {
+      "id": "ob-a-sas-1",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "yazili",
+      "soru": "47 sayısında 7 onluk var mı? \"evet\" veya \"hayır\"",
+      "dogruCevap": "hayır",
+      "ipucu": "47'de 4 onluk 7 birlik vardır. Tuzağı fark et!",
+      "cevapTipi": "metin",
+      "sasirtma": true
+    }
+  ],
+  "test": [
+    {
+      "id": "ob-t-1",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimdeki bloklarda kaç onluk var?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "5",
+        "50",
+        "6"
+      ],
+      "ipucu": "Her uzun blok 1 onluktur.",
+      "gorsel": "onluk-blok-53"
+    },
+    {
+      "id": "ob-t-2",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "3 onluk 7 birlik hangi sayıdır?",
+      "dogruCevap": "37",
+      "secenekler": [
+        "73",
+        "30",
+        "7",
+        "37"
+      ],
+      "ipucu": "30 + 7"
+    },
+    {
+      "id": "ob-t-3",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "58 sayısında kaç birlik vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "8",
+        "0",
+        "5",
+        "58"
+      ],
+      "ipucu": "Sağdaki rakam."
+    },
+    {
+      "id": "ob-t-4",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde toplam kaç birlik var?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "6",
+        "40",
+        "4",
+        "64"
+      ],
+      "ipucu": "Kısa bloklar birliktir.",
+      "gorsel": "onluk-blok-64"
+    },
+    {
+      "id": "ob-t-5",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "9 onluk 0 birlik hangi sayıdır?",
+      "dogruCevap": "90",
+      "secenekler": [
+        "09",
+        "9",
+        "90",
+        "99"
+      ],
+      "ipucu": "Sadece onluk."
+    },
+    {
+      "id": "ob-t-6",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimdeki sayı kaçtır?",
+      "dogruCevap": "42",
+      "secenekler": [
+        "40",
+        "42",
+        "24",
+        "2"
+      ],
+      "ipucu": "4 onluk 2 birlik.",
+      "gorsel": "onluk-blok-42"
+    },
+    {
+      "id": "ob-t-7",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "76 sayısında kaç onluk vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "6",
+        "7",
+        "17",
+        "76"
+      ],
+      "ipucu": "Soldaki rakam onluk."
+    },
+    {
+      "id": "ob-t-8",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "2 onluk 5 birlik hangi sayıdır?",
+      "dogruCevap": "25",
+      "secenekler": [
+        "52",
+        "20",
+        "5",
+        "25"
+      ],
+      "ipucu": "20 + 5"
+    },
+    {
+      "id": "ob-t-9",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç onluk görüyorsun?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "8",
+        "2",
+        "38",
+        "3"
+      ],
+      "ipucu": "Uzun blok sayısı.",
+      "gorsel": "onluk-blok-38"
+    },
+    {
+      "id": "ob-t-10",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "40 sayısında kaç birlik vardır?",
+      "dogruCevap": "0",
+      "secenekler": [
+        "0",
+        "4",
+        "40",
+        "10"
+      ],
+      "ipucu": "4 onluk, 0 birlik."
+    },
+    {
+      "id": "ob-t-11",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "7 onluk 1 birlik hangi sayıdır?",
+      "dogruCevap": "71",
+      "secenekler": [
+        "70",
+        "1",
+        "17",
+        "71"
+      ],
+      "ipucu": "70 + 1"
+    },
+    {
+      "id": "ob-t-12",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimdeki bloklar hangi sayıyı gösterir?",
+      "dogruCevap": "29",
+      "secenekler": [
+        "9",
+        "29",
+        "20",
+        "92"
+      ],
+      "ipucu": "2 onluk 9 birlik.",
+      "gorsel": "onluk-blok-29"
+    },
+    {
+      "id": "ob-t-13",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "85 sayısında kaç onluk vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "8",
+        "5",
+        "18",
+        "85"
+      ],
+      "ipucu": "8 onluk 5 birlik."
+    },
+    {
+      "id": "ob-t-14",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi 6 onluk 3 birlik DEĞİLDİR?",
+      "dogruCevap": "36",
+      "secenekler": [
+        "60+3",
+        "36",
+        "603",
+        "63"
+      ],
+      "ipucu": "6 onluk 3 birlik = 63. Tuzağı fark et!",
+      "sasirtma": true
+    },
+    {
+      "id": "ob-t-15",
+      "kazanimKodu": "MAT.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde toplam kaç onluk var?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "7",
+        "9",
+        "2",
+        "72"
+      ],
+      "ipucu": "Uzun sütunları say.",
+      "gorsel": "onluk-blok-72"
+    }
+  ]
+}

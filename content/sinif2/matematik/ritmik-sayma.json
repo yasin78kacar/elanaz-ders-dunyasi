@@ -1,0 +1,532 @@
+{
+  "id": "ritmik-sayma",
+  "baslik": "Ritmik Sayma",
+  "kazanimKodu": "MAT.2.1.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz bahçede oynarken taşları sayıyor. İkişer ikişer sayınca işi daha kolay oluyor: 2, 4, 6, 8… Bu yönteme ritmik sayma denir.",
+        "gorsel": "sayi-kartlari"
+      },
+      {
+        "metin": "Beşer beşer saymak da ritmik saymadır: 5, 10, 15, 20… Onar onar saymak en hızlısıdır: 10, 20, 30, 40…",
+        "gorsel": "elma-gruplari"
+      },
+      {
+        "metin": "Ritmik sayarken her adımda aynı sayıyı ekleriz. İkişer giderken 2 ekleriz, beşer giderken 5 ekleriz. Şimdi sen de dene!"
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "rs-a-ik-0",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2… Sıradaki sayı kaç?",
+      "dogruCevap": "4",
+      "ipucu": "2'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-1",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4… Sıradaki sayı kaç?",
+      "dogruCevap": "6",
+      "ipucu": "4'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-2",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6… Sıradaki sayı kaç?",
+      "dogruCevap": "8",
+      "ipucu": "6'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-3",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8… Sıradaki sayı kaç?",
+      "dogruCevap": "10",
+      "ipucu": "8'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-4",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10… Sıradaki sayı kaç?",
+      "dogruCevap": "12",
+      "ipucu": "10'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-5",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12… Sıradaki sayı kaç?",
+      "dogruCevap": "14",
+      "ipucu": "12'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-6",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12, 14… Sıradaki sayı kaç?",
+      "dogruCevap": "16",
+      "ipucu": "14'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-7",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12, 14, 16… Sıradaki sayı kaç?",
+      "dogruCevap": "18",
+      "ipucu": "16'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-8",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12, 14, 16, 18… Sıradaki sayı kaç?",
+      "dogruCevap": "20",
+      "ipucu": "18'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-9",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20… Sıradaki sayı kaç?",
+      "dogruCevap": "22",
+      "ipucu": "20'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-ik-10",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Elanaz ikişer sayıyor: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22… Sıradaki sayı kaç?",
+      "dogruCevap": "24",
+      "ipucu": "22'ye 2 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-0",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 5'den sonra hangi sayı gelir?",
+      "dogruCevap": "10",
+      "ipucu": "5'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-1",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 10'den sonra hangi sayı gelir?",
+      "dogruCevap": "15",
+      "ipucu": "10'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-2",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 15'den sonra hangi sayı gelir?",
+      "dogruCevap": "20",
+      "ipucu": "15'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-3",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 20'den sonra hangi sayı gelir?",
+      "dogruCevap": "25",
+      "ipucu": "20'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-4",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 25'den sonra hangi sayı gelir?",
+      "dogruCevap": "30",
+      "ipucu": "25'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-5",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 30'den sonra hangi sayı gelir?",
+      "dogruCevap": "35",
+      "ipucu": "30'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-bes-6",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Beşer ritmik sayarken 35'den sonra hangi sayı gelir?",
+      "dogruCevap": "40",
+      "ipucu": "35'ye 5 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-on-0",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Onar onar sayarken 10'den sonra hangi sayı gelir?",
+      "dogruCevap": "20",
+      "ipucu": "10'ye 10 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-on-1",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Onar onar sayarken 20'den sonra hangi sayı gelir?",
+      "dogruCevap": "30",
+      "ipucu": "20'ye 10 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-on-2",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Onar onar sayarken 30'den sonra hangi sayı gelir?",
+      "dogruCevap": "40",
+      "ipucu": "30'ye 10 ekle.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "rs-a-on-3",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "yazili",
+      "soru": "Onar onar sayarken 40'den sonra hangi sayı gelir?",
+      "dogruCevap": "50",
+      "ipucu": "40'ye 10 ekle.",
+      "cevapTipi": "sayi"
+    }
+  ],
+  "test": [
+    {
+      "id": "rs-t-1",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer ritmik sayarken 14'ten sonra hangi sayı gelir?",
+      "dogruCevap": "16",
+      "secenekler": [
+        "15",
+        "16",
+        "18",
+        "17"
+      ],
+      "ipucu": "14'e 2 ekle."
+    },
+    {
+      "id": "rs-t-2",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Beşer ritmik sayarken 35'ten sonra hangi sayı gelir?",
+      "dogruCevap": "40",
+      "secenekler": [
+        "40",
+        "45",
+        "38",
+        "36"
+      ],
+      "ipucu": "35'e 5 ekle."
+    },
+    {
+      "id": "rs-t-3",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar ritmik sayarken 60'tan sonra hangi sayı gelir?",
+      "dogruCevap": "70",
+      "secenekler": [
+        "90",
+        "65",
+        "70",
+        "80"
+      ],
+      "ipucu": "60'a 10 ekle."
+    },
+    {
+      "id": "rs-t-4",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi ikişer ritmik sayma dizisidir?",
+      "dogruCevap": "2, 4, 6, 8",
+      "secenekler": [
+        "1, 2, 3, 4",
+        "5, 10, 15",
+        "2, 4, 6, 8",
+        "3, 6, 9"
+      ],
+      "ipucu": "Her adımda 2 eklenir."
+    },
+    {
+      "id": "rs-t-5",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz beşer sayıyor: 5, 10, 15… Sıradaki sayı?",
+      "dogruCevap": "20",
+      "secenekler": [
+        "25",
+        "18",
+        "20",
+        "16"
+      ],
+      "ipucu": "15'e 5 ekle."
+    },
+    {
+      "id": "rs-t-6",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer sayarken 20'den sonra hangi sayı gelir?",
+      "dogruCevap": "22",
+      "secenekler": [
+        "24",
+        "22",
+        "23",
+        "21"
+      ],
+      "ipucu": "20'ye 2 ekle."
+    },
+    {
+      "id": "rs-t-7",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar sayarken 40'tan sonra hangi sayı gelir?",
+      "dogruCevap": "50",
+      "secenekler": [
+        "60",
+        "45",
+        "50",
+        "55"
+      ],
+      "ipucu": "40'a 10 ekle."
+    },
+    {
+      "id": "rs-t-8",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Beşer sayarken 45'ten sonra hangi sayı gelir?",
+      "dogruCevap": "50",
+      "secenekler": [
+        "55",
+        "50",
+        "46",
+        "48"
+      ],
+      "ipucu": "45'e 5 ekle."
+    },
+    {
+      "id": "rs-t-9",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer sayarken 8'den sonra hangi sayı gelir?",
+      "dogruCevap": "10",
+      "secenekler": [
+        "11",
+        "10",
+        "12",
+        "9"
+      ],
+      "ipucu": "8'e 2 ekle."
+    },
+    {
+      "id": "rs-t-10",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar sayarken 20'den sonra hangi sayı gelir?",
+      "dogruCevap": "30",
+      "secenekler": [
+        "25",
+        "40",
+        "50",
+        "30"
+      ],
+      "ipucu": "20'ye 10 ekle."
+    },
+    {
+      "id": "rs-t-11",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'ın 3 kırmızı, 3 mavi çıkartması var. İkişer sayarsa kaç adım sayar?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "4",
+        "3",
+        "2",
+        "6"
+      ],
+      "ipucu": "6 çıkartmayı 2'li gruplara böl."
+    },
+    {
+      "id": "rs-t-12",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Beşer dizisinde 25'ten sonra hangi sayı gelir?",
+      "dogruCevap": "30",
+      "secenekler": [
+        "26",
+        "35",
+        "30",
+        "28"
+      ],
+      "ipucu": "25'e 5 ekle."
+    },
+    {
+      "id": "rs-t-13",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer dizisinde 18'den sonra hangi sayı gelir?",
+      "dogruCevap": "20",
+      "secenekler": [
+        "19",
+        "22",
+        "20",
+        "21"
+      ],
+      "ipucu": "18'e 2 ekle."
+    },
+    {
+      "id": "rs-t-14",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar dizisinde 90'dan sonra hangi sayı gelir?",
+      "dogruCevap": "100",
+      "secenekler": [
+        "100",
+        "110",
+        "95",
+        "120"
+      ],
+      "ipucu": "90'a 10 ekle."
+    },
+    {
+      "id": "rs-t-15",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Beşer dizisinde 50'den sonra hangi sayı gelir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "55",
+        "51",
+        "53",
+        "60"
+      ],
+      "ipucu": "50'ye 5 ekle."
+    },
+    {
+      "id": "rs-t-16",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer sayarken 30'dan sonra hangi sayı gelir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "33",
+        "34",
+        "31",
+        "32"
+      ],
+      "ipucu": "30'a 2 ekle."
+    },
+    {
+      "id": "rs-t-17",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi beşer ritmik sayma DEĞİLDİR?",
+      "dogruCevap": "2, 4, 6, 8",
+      "secenekler": [
+        "10, 15, 20",
+        "20, 25, 30",
+        "5, 10, 15",
+        "2, 4, 6, 8"
+      ],
+      "ipucu": "Beşer giderken 5 eklenir. Tuzağı fark et!",
+      "sasirtma": true
+    },
+    {
+      "id": "rs-t-18",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar sayarken 70'ten sonra hangi sayı gelir?",
+      "dogruCevap": "80",
+      "secenekler": [
+        "90",
+        "85",
+        "75",
+        "80"
+      ],
+      "ipucu": "70'e 10 ekle."
+    },
+    {
+      "id": "rs-t-19",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz ikişer sayıyor. 10'dan sonra 13 mü gelir?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Evet",
+        "İkisi de",
+        "Hayır",
+        "Bilmiyorum"
+      ],
+      "ipucu": "İkişer dizide 10, 12 gelir. Dikkatle oku!",
+      "sasirtma": true
+    },
+    {
+      "id": "rs-t-20",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Beşer sayarken 15'ten sonra hangi sayı gelir?",
+      "dogruCevap": "20",
+      "secenekler": [
+        "20",
+        "18",
+        "25",
+        "16"
+      ],
+      "ipucu": "15'e 5 ekle."
+    },
+    {
+      "id": "rs-t-21",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "Onar sayarken 50'den sonra hangi sayı gelir?",
+      "dogruCevap": "60",
+      "secenekler": [
+        "60",
+        "55",
+        "70",
+        "80"
+      ],
+      "ipucu": "50'ye 10 ekle."
+    },
+    {
+      "id": "rs-t-22",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "İkişer sayarken 24'ten sonra hangi sayı gelir?",
+      "dogruCevap": "26",
+      "secenekler": [
+        "25",
+        "28",
+        "27",
+        "26"
+      ],
+      "ipucu": "24'e 2 ekle."
+    }
+  ]
+}

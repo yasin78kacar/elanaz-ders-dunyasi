@@ -3,6 +3,7 @@ import { StyleSheet, Text, TextInput, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
+import { ContentIllustration } from './ContentIllustration';
 
 interface Props {
   soru: Soru;
@@ -11,6 +12,13 @@ interface Props {
 
 function normalizeCevap(s: string): string {
   return s.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function yanlisMesaj(soru: Soru): string {
+  if (soru.sasirtma) {
+    return 'Tuzağı fark ettin mi? Bir daha dikkatle oku. ' + soru.ipucu;
+  }
+  return soru.ipucu;
 }
 
 export function PracticeQuestion({ soru, onAnswer }: Props) {
@@ -25,6 +33,7 @@ export function PracticeQuestion({ soru, onAnswer }: Props) {
 
   return (
     <View style={styles.container}>
+      <ContentIllustration gorsel={soru.gorsel} />
       <Text style={styles.soru}>{soru.soru}</Text>
       <TextInput
         style={styles.input}
@@ -46,8 +55,10 @@ export function PracticeQuestion({ soru, onAnswer }: Props) {
       )}
       {durum === 'yanlis' && (
         <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>Bir daha dene</Text>
-          <Text style={styles.feedbackMetin}>{soru.ipucu}</Text>
+          <Text style={styles.feedbackBaslikYanlis}>
+            {soru.sasirtma ? 'Dikkatli oku!' : 'Bir daha dene'}
+          </Text>
+          <Text style={styles.feedbackMetin}>{yanlisMesaj(soru)}</Text>
         </View>
       )}
     </View>

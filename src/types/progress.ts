@@ -7,7 +7,7 @@ export interface SoruKaydi {
   tarih: string;
   soruMetni: string;
   dogruCevap: string;
-  tip: 'alistirma' | 'test';
+  tip: 'alistirma' | 'test' | 'hikaye';
 }
 
 export interface KonuIlerleme {
@@ -20,6 +20,17 @@ export interface KonuIlerleme {
   sorular: SoruKaydi[];
 }
 
+export interface HikayeIlerleme {
+  hikayeId: string;
+  dersId: string;
+  tamamlandi: boolean;
+  testSkoru: number;
+  testToplam: number;
+  yildiz: number;
+  sorular: SoruKaydi[];
+}
+
 export interface IlerlemeVerisi {
   konular: Record<string, KonuIlerleme>;
+  hikayeler: Record<string, HikayeIlerleme>;
 }

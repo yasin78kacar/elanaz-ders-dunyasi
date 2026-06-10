@@ -3,6 +3,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
+import { ContentIllustration } from './ContentIllustration';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -11,11 +12,18 @@ interface Props {
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
+function yanlisMesaj(soru: Soru): string {
+  if (soru.sasirtma) {
+    return 'Tuzağı fark ettin mi? Bir daha dikkatle oku. ' + soru.ipucu;
+  }
+  return soru.ipucu;
+}
+
 export function TestQuestion({ soru, onAnswer }: Props) {
   const [secim, setSecim] = useState<string | null>(null);
   const [degisiklikSayisi, setDegisiklikSayisi] = useState(0);
   const [kilitli, setKilitli] = useState(false);
-  const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis' | 'kilit'>('bekle');
+  const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
 
   const kalanHak = MAX_DEGISIKLIK - degisiklikSayisi;
 
@@ -25,9 +33,7 @@ export function TestQuestion({ soru, onAnswer }: Props) {
     if (secim !== null) {
       const yeniSayi = degisiklikSayisi + 1;
       setDegisiklikSayisi(yeniSayi);
-      if (yeniSayi >= MAX_DEGISIKLIK) {
-        setKilitli(true);
-      }
+      if (yeniSayi >= MAX_DEGISIKLIK) setKilitli(true);
     }
     setSecim(secenek);
   };
@@ -40,10 +46,9 @@ export function TestQuestion({ soru, onAnswer }: Props) {
     onAnswer(secim, dogruMu);
   };
 
-  const gosterimDurumu = durum === 'bekle' && kilitli && secim ? 'kilit' : durum;
-
   return (
     <View style={styles.container}>
+      <ContentIllustration gorsel={soru.gorsel} />
       <Text style={styles.soru}>{soru.soru}</Text>
       <Text style={styles.hakMetni}>
         Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}
@@ -51,8 +56,8 @@ export function TestQuestion({ soru, onAnswer }: Props) {
       <View style={styles.secenekler}>
         {(soru.secenekler ?? []).map((secenek) => {
           const secili = secim === secenek;
-          const dogruGoster = gosterimDurumu === 'dogru' && secili;
-          const yanlisGoster = gosterimDurumu === 'yanlis' && secili;
+          const dogruGoster = durum === 'dogru' && secili;
+          const yanlisGoster = durum === 'yanlis' && secili;
           return (
             <Pressable
               key={secenek}
@@ -90,8 +95,10 @@ export function TestQuestion({ soru, onAnswer }: Props) {
       )}
       {durum === 'yanlis' && (
         <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>Bu sefer olmadı</Text>
-          <Text style={styles.feedbackMetin}>{soru.ipucu}</Text>
+          <Text style={styles.feedbackBaslikYanlis}>
+            {soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
+          </Text>
+          <Text style={styles.feedbackMetin}>{yanlisMesaj(soru)}</Text>
         </View>
       )}
     </View>

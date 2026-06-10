@@ -1,0 +1,390 @@
+{
+  "id": "sayilari-okuma-yazma",
+  "baslik": "Sayıları Okuma ve Yazma (100'e kadar)",
+  "kazanimKodu": "MAT.2.1.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz sınıfta sayıları okumayı öğreniyor. 23 sayısı \"yirmi üç\" diye okunur. Soldaki rakam onluk, sağdaki birliktir.",
+        "gorsel": "sayi-kartlari"
+      },
+      {
+        "metin": "47 sayısında 4 onluk ve 7 birlik vardır. \"Kırk yedi\" diye okuruz. 100'e kadar tüm sayıları okuyup yazabilirsin.",
+        "gorsel": "sayi-kart-47"
+      },
+      {
+        "metin": "Sayıları karşılaştırırken önce onluklara bakarız. 56, 45'ten büyüktür çünkü 5 onluk, 4 onluktan fazladır."
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "so-a-0",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"12\" sayısını yaz.",
+      "dogruCevap": "12",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"24\" sayısını yaz.",
+      "dogruCevap": "24",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"36\" sayısını yaz.",
+      "dogruCevap": "36",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-3",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"47\" sayısını yaz.",
+      "dogruCevap": "47",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-4",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"58\" sayısını yaz.",
+      "dogruCevap": "58",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-5",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"63\" sayısını yaz.",
+      "dogruCevap": "63",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-6",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"71\" sayısını yaz.",
+      "dogruCevap": "71",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-7",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"85\" sayısını yaz.",
+      "dogruCevap": "85",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-8",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"92\" sayısını yaz.",
+      "dogruCevap": "92",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-9",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"99\" sayısını yaz.",
+      "dogruCevap": "99",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-10",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"34\" sayısını yaz.",
+      "dogruCevap": "34",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-11",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"56\" sayısını yaz.",
+      "dogruCevap": "56",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-12",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"78\" sayısını yaz.",
+      "dogruCevap": "78",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-13",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"41\" sayısını yaz.",
+      "dogruCevap": "41",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-14",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "\"67\" sayısını yaz.",
+      "dogruCevap": "67",
+      "ipucu": "Onluk ve birlikleri düşün.",
+      "cevapTipi": "sayi"
+    },
+    {
+      "id": "so-a-sas-1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Elanaz 47 elma saydı. Hangi sayı YÜZDE kırk yediden KÜÇÜKTÜR? (sayı yaz)",
+      "dogruCevap": "35",
+      "ipucu": "47'den küçük bir sayı ara. Tuzağı fark et!",
+      "cevapTipi": "sayi",
+      "sasirtma": true
+    },
+    {
+      "id": "so-a-sas-2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "58 sayısından sonra 57 mi gelir? \"evet\" veya \"hayır\"",
+      "dogruCevap": "evet",
+      "ipucu": "Sayı doğrusunda 58'den önce 57 gelir.",
+      "cevapTipi": "metin",
+      "sasirtma": true
+    }
+  ],
+  "test": [
+    {
+      "id": "so-t-1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kırk beş\" hangi sayıdır?",
+      "dogruCevap": "45",
+      "secenekler": [
+        "40",
+        "54",
+        "45",
+        "35"
+      ],
+      "ipucu": "40 + 5"
+    },
+    {
+      "id": "so-t-2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "67 sayısı nasıl okunur?",
+      "dogruCevap": "Altmış yedi",
+      "secenekler": [
+        "Yetmiş altı",
+        "Altmış dokuz",
+        "Altmış yedi",
+        "Yedi altı"
+      ],
+      "ipucu": "6 onluk 7 birlik."
+    },
+    {
+      "id": "so-t-3",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi en büyük sayıdır?",
+      "dogruCevap": "89",
+      "secenekler": [
+        "89",
+        "79",
+        "98",
+        "88"
+      ],
+      "ipucu": "Onluklara bak."
+    },
+    {
+      "id": "so-t-4",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "32 sayısından sonra hangi sayı gelir?",
+      "dogruCevap": "33",
+      "secenekler": [
+        "34",
+        "33",
+        "31",
+        "32"
+      ],
+      "ipucu": "Bir artır."
+    },
+    {
+      "id": "so-t-5",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Seksen\" hangi sayıdır?",
+      "dogruCevap": "80",
+      "secenekler": [
+        "18",
+        "8",
+        "80",
+        "88"
+      ],
+      "ipucu": "8 onluk."
+    },
+    {
+      "id": "so-t-6",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 56 çıkartma saydı. Bu sayı nasıl okunur?",
+      "dogruCevap": "Elli altı",
+      "secenekler": [
+        "Elli altı",
+        "Altmış beş",
+        "Elli dokuz",
+        "Altı elli"
+      ],
+      "ipucu": "5 onluk 6 birlik."
+    },
+    {
+      "id": "so-t-7",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "91 ile 19'dan hangisi daha büyük?",
+      "dogruCevap": "91",
+      "secenekler": [
+        "Bilmiyorum",
+        "19",
+        "91",
+        "İkisi eşit"
+      ],
+      "ipucu": "Onlukları karşılaştır."
+    },
+    {
+      "id": "so-t-8",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "44 sayısının okunuşu hangisidir?",
+      "dogruCevap": "Kırk dört",
+      "secenekler": [
+        "Kırk altı",
+        "Dört kırk",
+        "Kırk dört",
+        "Otuz dört"
+      ],
+      "ipucu": "4 onluk 4 birlik."
+    },
+    {
+      "id": "so-t-9",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "100'e en yakın sayı hangisidir?",
+      "dogruCevap": "99",
+      "secenekler": [
+        "75",
+        "50",
+        "99",
+        "10"
+      ],
+      "ipucu": "99'a 1 ekleyince 100 olur."
+    },
+    {
+      "id": "so-t-10",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "73 sayısı hangi iki onluk arasındadır?",
+      "dogruCevap": "70 ile 80",
+      "secenekler": [
+        "70-80",
+        "50-60",
+        "80-90",
+        "60-70"
+      ],
+      "ipucu": "7 onluk."
+    },
+    {
+      "id": "so-t-11",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Doksan dokuz\" hangi sayıdır?",
+      "dogruCevap": "99",
+      "secenekler": [
+        "89",
+        "19",
+        "99",
+        "90"
+      ],
+      "ipucu": "9 onluk 9 birlik."
+    },
+    {
+      "id": "so-t-12",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "28 sayısından önce hangi sayı gelir?",
+      "dogruCevap": "27",
+      "secenekler": [
+        "26",
+        "29",
+        "27",
+        "28"
+      ],
+      "ipucu": "Bir eksilt."
+    },
+    {
+      "id": "so-t-13",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi DOĞRU yazılmış sayı DEĞİLDİR?",
+      "dogruCevap": "1000",
+      "secenekler": [
+        "67",
+        "82",
+        "1000",
+        "45"
+      ],
+      "ipucu": "2. sınıfta 100'e kadar sayıları öğreniyoruz.",
+      "sasirtma": true
+    },
+    {
+      "id": "so-t-14",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "50 sayısı nasıl okunur?",
+      "dogruCevap": "Elli",
+      "secenekler": [
+        "Beş",
+        "On beş",
+        "Elli beş",
+        "Elli"
+      ],
+      "ipucu": "5 onluk, 0 birlik."
+    },
+    {
+      "id": "so-t-15",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 38 tane düğme saydı. Bu sayıyı yaz.",
+      "dogruCevap": "38",
+      "secenekler": [
+        "48",
+        "83",
+        "38",
+        "28"
+      ],
+      "ipucu": "3 onluk 8 birlik."
+    }
+  ]
+}
