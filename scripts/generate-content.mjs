@@ -1,6 +1,7 @@
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
+import { gorev2bAlistirma, gorev2bTest } from './gorev-2b-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -237,8 +238,8 @@ const ritmikSayma = {
       { metin: 'Ritmik sayarken her adımda aynı sayıyı ekleriz. İkişer giderken 2 ekleriz, beşer giderken 5 ekleriz. Şimdi sen de dene!' },
     ],
   },
-  alistirma: ritmikAlistirma(),
-  test: ritmikTest(),
+  alistirma: [...ritmikAlistirma(), ...gorev2bAlistirma()],
+  test: [...ritmikTest(), ...gorev2bTest(karistir)],
 };
 
 const sayiOkuma = {
