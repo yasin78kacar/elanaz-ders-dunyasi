@@ -10,6 +10,12 @@ import {
 } from './gorev-3b-questions.mjs';
 import { geometrikCisimler, gorev3RitmikTablo, sayiSeridiGorselEkle } from './gorev-3-content.mjs';
 import { gorev3cAlistirma, gorev3cTest } from './gorev-3c-questions.mjs';
+import {
+  gorev3dOnlukAlistirma,
+  gorev3dOnlukTest,
+  gorev3dSayiAlistirma,
+  gorev3dSayiTest,
+} from './gorev-3d-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -268,8 +274,8 @@ const sayiOkuma = {
       { metin: 'Sayıları karşılaştırırken önce onluklara bakarız. 56, 45\'ten büyüktür çünkü 5 onluk, 4 onluktan fazladır.' },
     ],
   },
-  alistirma: [...sayiOkumaAlistirma(), ...gorev3bSayiAlistirma()],
-  test: [...sayiOkumaTest(), ...gorev3bSayiTest(karistir)],
+  alistirma: [...sayiOkumaAlistirma(), ...gorev3bSayiAlistirma(), ...gorev3dSayiAlistirma()],
+  test: [...sayiOkumaTest(), ...gorev3bSayiTest(karistir), ...gorev3dSayiTest(karistir)],
 };
 
 const onlukBirlik = {
@@ -283,8 +289,8 @@ const onlukBirlik = {
       { metin: 'Bir sayının onluk ve birliklerini bulmak, sayıları anlamanın en güzel yoludur. Şimdi dene!' },
     ],
   },
-  alistirma: [...onlukBirlikAlistirma(), ...gorev3bOnlukAlistirma()],
-  test: [...onlukBirlikTest(), ...gorev3bOnlukTest(karistir)],
+  alistirma: [...onlukBirlikAlistirma(), ...gorev3bOnlukAlistirma(), ...gorev3dOnlukAlistirma()],
+  test: [...onlukBirlikTest(), ...gorev3bOnlukTest(karistir), ...gorev3dOnlukTest(karistir)],
 };
 
 writeFileSync(join(contentDir, 'ritmik-sayma.json'), JSON.stringify(ritmikSayma, null, 2));

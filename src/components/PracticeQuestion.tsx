@@ -12,7 +12,7 @@ interface Props {
 }
 
 function normalizeCevap(s: string): string {
-  return s.trim().toLowerCase().replace(/\s+/g, ' ');
+  return s.trim().toLocaleLowerCase('tr-TR').replace(/\s+/g, ' ');
 }
 
 function yanlisMesaj(soru: Soru): string {
