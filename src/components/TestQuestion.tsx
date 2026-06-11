@@ -5,6 +5,7 @@ import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
+import { SecenekIkon } from './nesneler/SecenekIkon';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -71,16 +72,21 @@ export function TestQuestion({ soru, onAnswer }: Props) {
                 yanlisGoster && styles.secenekYanlis,
               ]}
             >
-              <Text
-                style={[
-                  styles.secenekMetin,
-                  secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
-                  dogruGoster && styles.secenekMetinDogru,
-                  yanlisGoster && styles.secenekMetinYanlis,
-                ]}
-              >
-                {secenek}
-              </Text>
+              <View style={styles.secenekIcerik}>
+                {soru.secenekIkonlari?.[secenek] && (
+                  <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={32} />
+                )}
+                <Text
+                  style={[
+                    styles.secenekMetin,
+                    secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
+                    dogruGoster && styles.secenekMetinDogru,
+                    yanlisGoster && styles.secenekMetinYanlis,
+                  ]}
+                >
+                  {secenek}
+                </Text>
+              </View>
             </Pressable>
           );
         })}
@@ -120,6 +126,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   secenekler: { gap: 12 },
+  secenekIcerik: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 10,
+    flexWrap: 'wrap',
+  },
   secenek: {
     borderWidth: 2,
     borderColor: colors.kenarlik,

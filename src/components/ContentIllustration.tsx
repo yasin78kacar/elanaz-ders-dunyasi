@@ -4,6 +4,7 @@ import { ElmaGruplari, SayiKart47, SayiKartlari } from '../../assets/illustratio
 import { CizimKalemleri, PanoyaAsilanResim, RenkKaristirma } from '../../assets/illustrations/HikayeIllustrations';
 import { SayiSeridi } from './SayiSeridi';
 import { GeoGorsel } from '../../assets/illustrations/GeometriIllustrations';
+import { NesneGorsel } from './nesneler/NesneGorsel';
 import { colors } from '../theme/colors';
 import type { Gorsel } from '../types/content';
 
@@ -18,7 +19,12 @@ export function ContentIllustration({ gorsel }: Props) {
     return (
       <View style={styles.kutu}>
         {gorsel.tur === 'sayi-seridi' && <SayiSeridi {...gorsel} />}
-        {gorsel.tur === 'nesne' && <GeoGorsel sahne={gorsel.sahne} />}
+        {gorsel.tur === 'nesne' &&
+          (gorsel.sahne.startsWith('g2m-') ? (
+            <NesneGorsel sahne={gorsel.sahne} />
+          ) : (
+            <GeoGorsel sahne={gorsel.sahne} />
+          ))}
       </View>
     );
   }

@@ -15,6 +15,12 @@ export interface GorselNesne {
   sahne: string;
 }
 
+export type SecenekIkon =
+  | { tip: 'nesne'; anahtar: string }
+  | { tip: 'model'; anahtar: string }
+  | { tip: 'cift'; sol: string; sag: string }
+  | { tip: 'eslestirme'; nesne: string; model: string };
+
 export type Gorsel = string | GorselSayiSeridi | GorselNesne | null;
 
 export interface AnlatimEkrani {
@@ -38,6 +44,7 @@ export interface Soru {
   dogruCevap?: string;
   ipucu: string;
   secenekler?: string[];
+  secenekIkonlari?: Record<string, SecenekIkon>;
   cevapTipi?: CevapTipi;
   gorsel?: Gorsel;
   sasirtma?: boolean;
