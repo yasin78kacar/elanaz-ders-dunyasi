@@ -2,6 +2,12 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { gorev2bAlistirma, gorev2bTest } from './gorev-2b-questions.mjs';
+import {
+  gorev3bOnlukAlistirma,
+  gorev3bOnlukTest,
+  gorev3bSayiAlistirma,
+  gorev3bSayiTest,
+} from './gorev-3b-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -253,8 +259,8 @@ const sayiOkuma = {
       { metin: 'Sayıları karşılaştırırken önce onluklara bakarız. 56, 45\'ten büyüktür çünkü 5 onluk, 4 onluktan fazladır.' },
     ],
   },
-  alistirma: sayiOkumaAlistirma(),
-  test: sayiOkumaTest(),
+  alistirma: [...sayiOkumaAlistirma(), ...gorev3bSayiAlistirma()],
+  test: [...sayiOkumaTest(), ...gorev3bSayiTest(karistir)],
 };
 
 const onlukBirlik = {
@@ -268,8 +274,8 @@ const onlukBirlik = {
       { metin: 'Bir sayının onluk ve birliklerini bulmak, sayıları anlamanın en güzel yoludur. Şimdi dene!' },
     ],
   },
-  alistirma: onlukBirlikAlistirma(),
-  test: onlukBirlikTest(),
+  alistirma: [...onlukBirlikAlistirma(), ...gorev3bOnlukAlistirma()],
+  test: [...onlukBirlikTest(), ...gorev3bOnlukTest(karistir)],
 };
 
 writeFileSync(join(contentDir, 'ritmik-sayma.json'), JSON.stringify(ritmikSayma, null, 2));
