@@ -20,11 +20,18 @@ export type SecenekIkon =
   | { tip: 'model'; anahtar: string }
   | { tip: 'sekil'; anahtar: string }
   | { tip: 'sekil-nesne'; anahtar: string }
+  | { tip: 'kap'; anahtar: string }
   | { tip: 'cift'; sol: string; sag: string }
   | { tip: 'eslestirme'; nesne: string; model: string }
   | { tip: 'eslestirme-sekil'; nesne: string; sekil: string };
 
-export type Gorsel = string | GorselSayiSeridi | GorselNesne | null;
+/** Sıvı ölçme kap illüstrasyonu — sahne anahtarı G5mGorsel'de tanımlı */
+export interface GorselKap {
+  tur: 'kap';
+  sahne: string;
+}
+
+export type Gorsel = string | GorselSayiSeridi | GorselNesne | GorselKap | null;
 
 export interface AnlatimEkrani {
   metin: string;

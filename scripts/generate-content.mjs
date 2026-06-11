@@ -7,6 +7,7 @@
  * - { tur: "sayi-seridi", baslangic, adim, adimSayisi, vurgulananlar? } (GOREV-3)
  * - { tur: "nesne", sahne } → GeoGorsel sahne anahtarı (GOREV-3E)
  *   [GÖRSEL: tarif] brifinglerinde nesne türüne eşlenir.
+ * - { tur: "kap", sahne } → G5mGorsel (GOREV-3I sıvı ölçme kap illüstrasyonları)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -30,6 +31,7 @@ import { geoGorselEkle } from './gorev-3e-gorseller.mjs';
 import { geometrikCisimModelleri } from './gorev-3f-questions.mjs';
 import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
 import { bicimselOzellikler } from './gorev-3h-questions.mjs';
+import { siviOlcme } from './gorev-3i-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -325,6 +327,8 @@ writeFileSync(
   join(contentDir, 'bicimsel-ozellikler.json'),
   JSON.stringify(bicimselOzelliklerKonu, null, 2),
 );
+const siviOlcmeKonu = siviOlcme(karistir);
+writeFileSync(join(contentDir, 'sivi-olcme.json'), JSON.stringify(siviOlcmeKonu, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -403,6 +407,7 @@ const index = {
             'matematik/geometrik-cisim-modelleri.json',
             'matematik/geometrik-sekil-modelleri.json',
             'matematik/bicimsel-ozellikler.json',
+            'matematik/sivi-olcme.json',
           ],
         },
         {
@@ -454,6 +459,7 @@ console.log(
   '+',
   bicimselOzelliklerKonu.test.length,
 );
+console.log('Sıvı ölçme:', siviOlcmeKonu.alistirma.length, '+', siviOlcmeKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

@@ -1,0 +1,961 @@
+{
+  "id": "sivi-olcme",
+  "baslik": "Sıvı Ölçme",
+  "kazanimKodu": "MAT.2.1.5",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Sıvıları ölçmek için farklı kaplar kullanırız: bardak, sürahi, şişe, kova, bidon. Hangi kap daha büyükse içine daha çok sıvı sığar!",
+        "gorsel": {
+          "tur": "kap",
+          "sahne": "g5m-anlatim-1"
+        }
+      },
+      {
+        "metin": "Büyük kap boşaltılınca küçük kaplara daha çok dolar. 1 kova suyla kaç sürahi dolar?",
+        "gorsel": {
+          "tur": "kap",
+          "sahne": "g5m-anlatim-2"
+        }
+      },
+      {
+        "metin": "Tahmin etmek de önemli! \"Bu şişeye kaç bardak su sığar?\" diye sormadan önce TAHMİN EDERİZ, sonra deneriz. Tahminimiz fazlaysa FAZLA, azsa AZ tahmin etmişizdir.",
+        "gorsel": {
+          "tur": "kap",
+          "sahne": "g5m-anlatim-3"
+        }
+      },
+      {
+        "metin": "Sami Bey 2 bidon gül suyu şişelere koydu — 6 şişe doldu. Onur 8 şişe yeterli diye tahmin etmişti. Onur FAZLA tahmin etmiş!",
+        "gorsel": {
+          "tur": "kap",
+          "sahne": "g5m-anlatim-4"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "g5m-a1",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Bardak mı büyüktür, kova mı?",
+      "dogruCevap": "kova",
+      "ipucu": "Kova bardaktan daha büyük bir kaptır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a1"
+      },
+      "alternatifCevaplar": [
+        "Kova"
+      ]
+    },
+    {
+      "id": "g5m-a2",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Sürahi mi büyüktür, bardak mı?",
+      "dogruCevap": "sürahi",
+      "ipucu": "Sürahi bardaktan daha büyük bir kaptır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a2"
+      },
+      "alternatifCevaplar": [
+        "Sürahi"
+      ]
+    },
+    {
+      "id": "g5m-a3",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Hangisine daha çok su sığar: küçük şişeye mi, büyük kovaya mı?",
+      "dogruCevap": "büyük kova",
+      "ipucu": "Büyük kap daha çok su tutar.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a3"
+      },
+      "alternatifCevaplar": [
+        "Büyük kova",
+        "kova",
+        "Kova"
+      ]
+    },
+    {
+      "id": "g5m-a4",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz kovayı bardakla doldurursa çok mu, az mı bardak gerekir?",
+      "dogruCevap": "çok",
+      "ipucu": "Kova büyük olduğu için çok bardak gerekir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a4"
+      },
+      "alternatifCevaplar": [
+        "Çok"
+      ]
+    },
+    {
+      "id": "g5m-a5",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "🎭 Büyük sürahi mi yoksa küçük bardak mı daha az su tutar?",
+      "dogruCevap": "küçük bardak",
+      "ipucu": "\"Az tutan\" hangisi? Büyük/küçük sıfatlarına dikkat!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a5"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Küçük bardak",
+        "bardak",
+        "Bardak"
+      ]
+    },
+    {
+      "id": "g5m-a6",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "1 kova suyu şişelere doldurduk, 4 şişe doldu. Kova mı büyüktür, şişe mi?",
+      "dogruCevap": "kova",
+      "ipucu": "1 kova 4 şişeye eşit — kova daha büyüktür.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a6"
+      },
+      "alternatifCevaplar": [
+        "Kova"
+      ]
+    },
+    {
+      "id": "g5m-a7",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz sürahiyi bardakla doldurdu: 5 bardak gerekti. Sürahi mi büyüktür, bardak mı?",
+      "dogruCevap": "sürahi",
+      "ipucu": "5 bardak sürahiye sığdı — sürahi daha büyüktür.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a7"
+      },
+      "alternatifCevaplar": [
+        "Sürahi"
+      ]
+    },
+    {
+      "id": "g5m-a8",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "1 bidon suyu şişelere boşalttık, 6 şişe doldu. 1 bidon kaç şişeye eşittir?",
+      "dogruCevap": "6",
+      "ipucu": "Resimde 6 şişe doldu.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a8"
+      }
+    },
+    {
+      "id": "g5m-a9",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "🎭 Büyük şişe 4 bardak, küçük şişe 2 bardak su tutuyor. Hangisi daha çok su tutar?",
+      "dogruCevap": "büyük şişe",
+      "ipucu": "Bardak sayısı fazla olan daha büyüktür!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a9"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Büyük şişe",
+        "büyük şişe"
+      ]
+    },
+    {
+      "id": "g5m-a10",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz sürahiyi doldurmak için 3 bardak su kullandı. Sürahiye kaç bardak sığmış?",
+      "dogruCevap": "3",
+      "ipucu": "3 bardak sürahiye sığdı.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a10"
+      }
+    },
+    {
+      "id": "g5m-a11",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Kova mu yoksa bardak mı daha büyüktür?",
+      "dogruCevap": "kova",
+      "ipucu": "Kova bardaktan daha büyük bir kaptır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a11"
+      },
+      "alternatifCevaplar": [
+        "Kova"
+      ]
+    },
+    {
+      "id": "g5m-a12",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Bir şişeyi doldurmak için 2 bardak gerekti. Şişe mi büyüktür, bardak mı?",
+      "dogruCevap": "şişe",
+      "ipucu": "2 bardak şişeye sığdı — şişe daha büyüktür.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a12"
+      },
+      "alternatifCevaplar": [
+        "Şişe"
+      ]
+    },
+    {
+      "id": "g5m-a13",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz \"Kovayı doldurmak için kaç bardak gerekir?\" diye sormadan önce ne yapmalı?",
+      "dogruCevap": "tahmin etmeli",
+      "ipucu": "Önce tahmin ederiz, sonra deneriz.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a13"
+      },
+      "alternatifCevaplar": [
+        "Tahmin etmeli",
+        "tahmin et",
+        "Tahmin et"
+      ]
+    },
+    {
+      "id": "g5m-a14",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "🎭 Onur 5 bardak yetecek dedi, 8 bardak gerekti. Onur az mı fazla mı tahmin etmiş?",
+      "dogruCevap": "az tahmin etmiş",
+      "ipucu": "5 mi çok, 8 mi çok? Gerçek daha çok çıktı!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a14"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "az",
+        "Az",
+        "Az tahmin etmiş"
+      ]
+    },
+    {
+      "id": "g5m-a15",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Büyük bidon mu, küçük şişe mi daha az suyla dolar?",
+      "dogruCevap": "küçük şişe",
+      "ipucu": "Küçük kap az su sığar, az suyla dolar.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a15"
+      },
+      "alternatifCevaplar": [
+        "Küçük şişe",
+        "şişe",
+        "Şişe"
+      ]
+    },
+    {
+      "id": "g5m-a16",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "2 büyük kova su 10 şişeye dolduruldu. Resimdeki şişeleri sayarak 1 kova kaç şişe eder?",
+      "dogruCevap": "5",
+      "ipucu": "10 şişe 2 kovaya eşit — 1 kova 5 şişe eder.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a16"
+      }
+    },
+    {
+      "id": "g5m-a17",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Hangisi daha büyük bir kaptır: sürahi mi bidon mu?",
+      "dogruCevap": "bidon",
+      "ipucu": "Bidon sürahiden daha büyük bir kaptır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a17"
+      },
+      "alternatifCevaplar": [
+        "Bidon"
+      ]
+    },
+    {
+      "id": "g5m-a18",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "🎭 Kovayı doldurmak için 10 bardak mı, 3 sürahi mi daha kolay olur?",
+      "dogruCevap": "3 sürahi",
+      "ipucu": "Sürahi bardaktan büyük — az sayıda büyük kapla doldurmak kolaydır!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a18"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "3 sürahi",
+        "sürahi",
+        "Sürahi"
+      ]
+    },
+    {
+      "id": "g5m-a19",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz'ın sürahisi 4 bardak su tutuyor. Resimdeki 2 sürahide toplam kaç bardak su var?",
+      "dogruCevap": "8",
+      "ipucu": "Her sürahide 4 bardak — 4 + 4 = 8.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a19"
+      }
+    },
+    {
+      "id": "g5m-a20",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Büyük kap mı çok su tutar, küçük kap mı?",
+      "dogruCevap": "büyük kap",
+      "ipucu": "Büyük kap daha çok su tutar.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a20"
+      },
+      "alternatifCevaplar": [
+        "Büyük kap"
+      ]
+    },
+    {
+      "id": "g5m-a21",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "1 sürahi su 3 bardağı doldurdu. Sürahi mi büyüktür, bardak mı?",
+      "dogruCevap": "sürahi",
+      "ipucu": "3 bardak sürahiye eşit — sürahi daha büyüktür.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a21"
+      },
+      "alternatifCevaplar": [
+        "Sürahi"
+      ]
+    },
+    {
+      "id": "g5m-a22",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "🎭 Elanaz \"Büyük kova küçük bardaktan az su tutar\" dedi. Bu doğru mu?",
+      "dogruCevap": "hayır, yanlış",
+      "ipucu": "Büyük kap HER ZAMAN daha çok su tutar!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a22"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "hayır",
+        "Hayır",
+        "yanlış",
+        "Yanlış",
+        "Hayır, yanlış"
+      ]
+    },
+    {
+      "id": "g5m-a23",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "3 şişe su 1 kovayı doldurdu. Kova mı büyüktür, şişe mi?",
+      "dogruCevap": "kova",
+      "ipucu": "3 şişe 1 kovaya eşit — kova daha büyüktür.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a23"
+      },
+      "alternatifCevaplar": [
+        "Kova"
+      ]
+    },
+    {
+      "id": "g5m-a24",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "1 sürahi 3 bardak tutuyor. Resimdeki 3 sürahide kaç bardak su var?",
+      "dogruCevap": "9",
+      "ipucu": "Her sürahide 3 bardak — 3 + 3 + 3 = 9.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a24"
+      }
+    },
+    {
+      "id": "g5m-a25",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "yazili",
+      "soru": "Elanaz şişeye 3 bardak koydu, şişe dolmadı. En az kaç bardak daha gerekir?",
+      "dogruCevap": "en az 1",
+      "ipucu": "Şişe dolmadı — en az 1 bardak daha gerekir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-a25"
+      },
+      "alternatifCevaplar": [
+        "1",
+        "En az 1",
+        "en az bir",
+        "En az bir"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "g5m-t1",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisine daha çok su sığar?",
+      "dogruCevap": "Kova",
+      "secenekler": [
+        "Bardak",
+        "Kova",
+        "Şişe",
+        "Sürahi"
+      ],
+      "ipucu": "Kap ne kadar büyükse o kadar çok su sığar.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t1"
+      },
+      "secenekIkonlari": {
+        "Bardak": {
+          "tip": "kap",
+          "anahtar": "bardak"
+        },
+        "Kova": {
+          "tip": "kap",
+          "anahtar": "kova"
+        },
+        "Şişe": {
+          "tip": "kap",
+          "anahtar": "sise"
+        },
+        "Sürahi": {
+          "tip": "kap",
+          "anahtar": "surahi"
+        }
+      }
+    },
+    {
+      "id": "g5m-t2",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sürahiyi doldurmak için 4 bardak gerekti. Hangisi doğrudur?",
+      "dogruCevap": "Sürahi daha büyüktür",
+      "secenekler": [
+        "Bardak 4 kat büyüktür",
+        "Sürahi daha büyüktür",
+        "İkisi eşittir",
+        "Bardak daha büyüktür"
+      ],
+      "ipucu": "4 bardak sürahiye sığdı — sürahi daha büyüktür.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t2"
+      }
+    },
+    {
+      "id": "g5m-t3",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz kovayı bardakla dolduruyor. Kaç bardak gerekir: az mı çok mu?",
+      "dogruCevap": "Çok bardak",
+      "secenekler": [
+        "Az bardak",
+        "1 bardak",
+        "Hiç gerekmez",
+        "Çok bardak"
+      ],
+      "ipucu": "Kova büyük — çok bardak gerekir.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t3"
+      }
+    },
+    {
+      "id": "g5m-t4",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "1 büyük şişe kaç küçük şişeye eşit? Resimdeki şişeleri say.",
+      "dogruCevap": "3",
+      "secenekler": [
+        "10",
+        "5",
+        "3",
+        "1"
+      ],
+      "ipucu": "Resimde 1 büyük şişe 3 küçük şişeye eşit.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t4"
+      }
+    },
+    {
+      "id": "g5m-t5",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Onur 3 bardak yetecek dedi, 6 bardak gerekti. Nasıl tahmin etmiş?",
+      "dogruCevap": "Az",
+      "secenekler": [
+        "Az",
+        "Fazla",
+        "Doğru",
+        "Hiç tahmin etmemiş"
+      ],
+      "ipucu": "3 yetmez dedi, 6 gerekti — az tahmin etmiş.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t5"
+      }
+    },
+    {
+      "id": "g5m-t6",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi en az su tutar?",
+      "dogruCevap": "Bardak",
+      "secenekler": [
+        "Bardak",
+        "Kova",
+        "Sürahi",
+        "Bidon"
+      ],
+      "ipucu": "En küçük kap en az su tutar.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t6"
+      },
+      "secenekIkonlari": {
+        "Bidon": {
+          "tip": "kap",
+          "anahtar": "bidon"
+        },
+        "Kova": {
+          "tip": "kap",
+          "anahtar": "kova"
+        },
+        "Sürahi": {
+          "tip": "kap",
+          "anahtar": "surahi"
+        },
+        "Bardak": {
+          "tip": "kap",
+          "anahtar": "bardak"
+        }
+      }
+    },
+    {
+      "id": "g5m-t7",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "1 kova su 5 şişeyi doldurdu. Resimdeki 2 kova kaç şişeyi doldurur?",
+      "dogruCevap": "10",
+      "secenekler": [
+        "10",
+        "5",
+        "3",
+        "7"
+      ],
+      "ipucu": "1 kova 5 şişe — 2 kova 10 şişe eder.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t7"
+      }
+    },
+    {
+      "id": "g5m-t8",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Küçük bardak mı, büyük sürahi mi daha az suyla dolar?",
+      "dogruCevap": "Küçük bardak",
+      "secenekler": [
+        "İkisi eşit",
+        "Önce doldurulan",
+        "Büyük sürahi",
+        "Küçük bardak"
+      ],
+      "ipucu": "KÜÇÜK kap az su sığar — az su gerekir, çabuk dolar!",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t8"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g5m-t9",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sürahiye 4 bardak koydu, sürahi doldu. Sürahiye kaç bardak sığar?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "ipucu": "4 bardak sürahiyi doldurdu.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t9"
+      }
+    },
+    {
+      "id": "g5m-t10",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Kap ne kadar büyükse içine ne kadar su sığar?",
+      "dogruCevap": "Çok su sığar",
+      "secenekler": [
+        "Az su sığar",
+        "Hiç su sığmaz",
+        "Çok su sığar",
+        "Eşit su sığar"
+      ],
+      "ipucu": "Büyük kap daha çok su tutar.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t10"
+      }
+    },
+    {
+      "id": "g5m-t11",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "2 bidon gül suyu 6 şişeyi doldurdu. Resimdeki şişeleri iki gruba ayırınca 1 bidon kaç şişeyi doldurur?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "2",
+        "6",
+        "3",
+        "8"
+      ],
+      "ipucu": "6 şişe 2 bidona eşit — 1 bidon 3 şişe eder.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t11"
+      }
+    },
+    {
+      "id": "g5m-t12",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz \"Büyük kova ile küçük kova aynı suyu tutar\" dedi. Hangisi doğrudur?",
+      "dogruCevap": "Büyük kova daha çok tutar",
+      "secenekler": [
+        "Büyük kova daha çok tutar",
+        "İkisi de boştur",
+        "Küçük kova daha çok tutar",
+        "Evet, aynıdır"
+      ],
+      "ipucu": "BÜYÜK kap her zaman DAHA ÇOK su tutar!",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t12"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g5m-t13",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi en büyük kaptır?",
+      "dogruCevap": "Bidon",
+      "secenekler": [
+        "Sürahi",
+        "Bardak",
+        "Bidon",
+        "Şişe"
+      ],
+      "ipucu": "Bidon en büyük kaptır.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t13"
+      },
+      "secenekIkonlari": {
+        "Bardak": {
+          "tip": "kap",
+          "anahtar": "bardak"
+        },
+        "Şişe": {
+          "tip": "kap",
+          "anahtar": "sise"
+        },
+        "Sürahi": {
+          "tip": "kap",
+          "anahtar": "surahi"
+        },
+        "Bidon": {
+          "tip": "kap",
+          "anahtar": "bidon"
+        }
+      }
+    },
+    {
+      "id": "g5m-t14",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 1 sürahi = 3 bardak olduğunu öğrendi. Resimdeki 3 sürahide kaç bardak su var? (Resimdeki bardakları say.)",
+      "dogruCevap": "9",
+      "secenekler": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "ipucu": "Her sürahide 3 bardak — 3 × 3 = 9.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t14"
+      }
+    },
+    {
+      "id": "g5m-t15",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi doğrudur?",
+      "dogruCevap": "Büyük kap daha çok su tutar",
+      "secenekler": [
+        "Tüm kaplar eşit tutar",
+        "Büyük kap daha çok su tutar",
+        "Küçük kap daha çok su tutar",
+        "Büyük kap daha az su tutar"
+      ],
+      "ipucu": "Büyük kap daha çok su tutar.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t15"
+      }
+    },
+    {
+      "id": "g5m-t16",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz şişeye 5 bardak koyacak dedi, 3 bardakta şişe doldu. Elanaz nasıl tahmin etmiş?",
+      "dogruCevap": "Fazla",
+      "secenekler": [
+        "Az",
+        "Doğru",
+        "Hiç tahmin etmemiş",
+        "Fazla"
+      ],
+      "ipucu": "5 dedi ama 3'te doldu — daha az gerekti, fazla mı yoksa az mı düşünmüş?",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t16"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g5m-t17",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Resimdeki 4 sürahide toplam kaç bardak su var? (Her sürahide 2 bardak su var.)",
+      "dogruCevap": "8",
+      "secenekler": [
+        "4",
+        "6",
+        "10",
+        "8"
+      ],
+      "ipucu": "Her sürahide 2 bardak — 2 + 2 + 2 + 2 = 8.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t17"
+      }
+    },
+    {
+      "id": "g5m-t18",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi doğru sıralamadır (küçükten büyüğe)?",
+      "dogruCevap": "Bardak, sürahi, kova",
+      "secenekler": [
+        "Kova, bardak, sürahi",
+        "Kova, sürahi, bardak",
+        "Bardak, sürahi, kova",
+        "Sürahi, bardak, kova"
+      ],
+      "ipucu": "Bardak en küçük, kova en büyük.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t18"
+      }
+    },
+    {
+      "id": "g5m-t19",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 10 bardak suyu 2 sürahiye eşit doldurdu. Resimdeki bardakları iki gruba ayır: 1 sürahiye kaç bardak sığmış?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "2",
+        "8",
+        "5",
+        "10"
+      ],
+      "ipucu": "10 bardak 2 sürahiye eşit — 1 sürahiye 5 bardak sığmış.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t19"
+      }
+    },
+    {
+      "id": "g5m-t20",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Bardakla kova doldurmak zor, sürahiyle daha kolay. Neden?",
+      "dogruCevap": "Sürahi daha büyük, daha az sayıda gerekir",
+      "secenekler": [
+        "Sürahi daha büyük, daha az sayıda gerekir",
+        "İkisi aynıdır",
+        "Bardak daha büyüktür",
+        "Sürahi daha küçüktür"
+      ],
+      "ipucu": "Büyük kapla doldururken sayı AZALIR!",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t20"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g5m-t21",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sürahiyi 4 bardakla doldurdu. 2 sürahi için kaç bardak gerekir?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "2",
+        "6",
+        "8",
+        "4"
+      ],
+      "ipucu": "1 sürahi 4 bardak — 2 sürahi 8 bardak eder.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t21"
+      }
+    },
+    {
+      "id": "g5m-t22",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 \"Az su tutan kap daha hızlı dolar.\" Bu doğru mu?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Hiçbir zaman",
+        "Bazen",
+        "Hayır"
+      ],
+      "ipucu": "Az su SIĞAR = az su gerekir = çabuk dolar!",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t22"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g5m-t23",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "1 büyük bidon 8 şişeyi doldurdu. Resimdeki 2 bidona bakarak kaç şişe dolar?",
+      "dogruCevap": "16",
+      "secenekler": [
+        "8",
+        "4",
+        "16",
+        "12"
+      ],
+      "ipucu": "1 bidon 8 şişe — 2 bidon 16 şişe eder.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t23"
+      }
+    },
+    {
+      "id": "g5m-t24",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sürahiyi 4 bardakla doldurdu. 3 sürahi için kaç bardak gerekir?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "12",
+        "4",
+        "16",
+        "8"
+      ],
+      "ipucu": "1 sürahi 4 bardak — 3 sürahi 12 bardak eder.",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t24"
+      }
+    },
+    {
+      "id": "g5m-t25",
+      "kazanimKodu": "MAT.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Büyük kap dolduktan sonra küçük kaba dökülürse ne olur?",
+      "dogruCevap": "Küçük kap taşar",
+      "secenekler": [
+        "Hiçbir şey olmaz",
+        "Küçük kap yarı dolar",
+        "Küçük kap taşar",
+        "İkisi eşit olur"
+      ],
+      "ipucu": "Büyük kaptan fazla su var — küçük kaba sığmaz, taşar!",
+      "gorsel": {
+        "tur": "kap",
+        "sahne": "g5m-t25"
+      },
+      "sasirtma": true
+    }
+  ]
+}

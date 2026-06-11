@@ -5,6 +5,8 @@ import { EslestirmeIkon } from './G2mAnlatim';
 import { EslestirmeSekilIkon } from './G3mAnlatim';
 import { SekilNesneler, type SekilNesneTipi } from './SekilNesneler';
 import { SekillerIcon, type SekilTipi } from './SekillerIcon';
+import { KapIkon } from '../kaplar/KapIkon';
+import type { KapTipi } from '../kaplar/KapPrimitives';
 import type { SecenekIkon as SecenekIkonTip } from '../../types/content';
 
 interface Props {
@@ -21,6 +23,9 @@ export function SecenekIkon({ ikon, size = 28 }: Props) {
   }
   if (ikon.tip === 'sekil') {
     return <SekillerIcon tip={ikon.anahtar as SekilTipi} size={size} />;
+  }
+  if (ikon.tip === 'kap') {
+    return <KapIkon tip={ikon.anahtar as KapTipi} size={size} />;
   }
   if (ikon.tip === 'sekil-nesne') {
     return <SekilNesneler tip={ikon.anahtar as SekilNesneTipi} size={size} />;
