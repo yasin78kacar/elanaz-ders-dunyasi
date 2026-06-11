@@ -4,6 +4,7 @@ import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
+import { NesneIkon, type NesneTipi } from '../../assets/illustrations/GeometriIllustrations';
 import { soruMetni } from '../utils/soruHelpers';
 
 const MAX_DENEME = 2;
@@ -31,7 +32,7 @@ function yanlisMesaj(soru: Soru): string {
 
 export function MatchingQuestion({ soru, onAnswer }: Props) {
   const ciftler = soru.ciftler ?? [];
-  const solOğeler = ciftler.map((c) => c.sol);
+  const solOgeler = ciftler.map((c) => c.sol);
   const sagSecenekler = useMemo(() => karistir([...new Set(ciftler.map((c) => c.sag))]), [soru.id]);
 
   const [seciliSol, setSeciliSol] = useState<string | null>(null);
@@ -41,7 +42,7 @@ export function MatchingQuestion({ soru, onAnswer }: Props) {
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
   const [yanlisSollar, setYanlisSollar] = useState<string[]>([]);
 
-  const tumEslesti = solOğeler.every((sol) => eslesmeler[sol]);
+  const tumEslesti = solOgeler.every((sol) => eslesmeler[sol]);
 
   const solSec = (sol: string) => {
     if (kilitli || durum !== 'bekle') return;
@@ -110,7 +111,8 @@ export function MatchingQuestion({ soru, onAnswer }: Props) {
       <View style={styles.sutunlar}>
         <View style={styles.sutun}>
           <Text style={styles.sutunBaslik}>Nesneler</Text>
-          {solOğeler.map((sol) => {
+          {ciftler.map((cift) => {
+            const sol = cift.sol;
             const secili = seciliSol === sol;
             const eslesmis = eslesmeler[sol];
             const yanlis = yanlisSollar.includes(sol);
@@ -126,7 +128,10 @@ export function MatchingQuestion({ soru, onAnswer }: Props) {
                   yanlis && styles.ogeYanlis,
                 ]}
               >
-                <Text style={[styles.ogeMetin, secili && styles.ogeMetinSecili]}>{sol}</Text>
+                <View style={styles.solSatir}>
+                  {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={30} />}
+                  <Text style={[styles.ogeMetin, secili && styles.ogeMetinSecili]}>{sol}</Text>
+                </View>
                 {eslesmis && <Text style={styles.baglanti}>→ {eslesmis}</Text>}
               </Pressable>
             );
@@ -207,6 +212,11 @@ const styles = StyleSheet.create({
     padding: 12,
     backgroundColor: colors.kart,
     gap: 4,
+  },
+  solSatir: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
   },
   ogeSecili: {
     borderColor: colors.birincil,

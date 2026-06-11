@@ -3,6 +3,7 @@ import { OnlukBlokIllustration, parseOnlukBlokId } from '../../assets/illustrati
 import { ElmaGruplari, SayiKart47, SayiKartlari } from '../../assets/illustrations/SayiKartlari';
 import { CizimKalemleri, PanoyaAsilanResim, RenkKaristirma } from '../../assets/illustrations/HikayeIllustrations';
 import { SayiSeridi } from './SayiSeridi';
+import { GeoGorsel } from '../../assets/illustrations/GeometriIllustrations';
 import { colors } from '../theme/colors';
 import type { Gorsel } from '../types/content';
 
@@ -13,10 +14,11 @@ interface Props {
 export function ContentIllustration({ gorsel }: Props) {
   if (!gorsel) return null;
 
-  if (typeof gorsel !== 'string') {
+  if (typeof gorsel === 'object') {
     return (
       <View style={styles.kutu}>
-        <SayiSeridi {...gorsel} />
+        {gorsel.tur === 'sayi-seridi' && <SayiSeridi {...gorsel} />}
+        {gorsel.tur === 'nesne' && <GeoGorsel sahne={gorsel.sahne} />}
       </View>
     );
   }

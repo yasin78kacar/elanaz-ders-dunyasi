@@ -1,3 +1,13 @@
+/**
+ * İçerik üretim scripti.
+ *
+ * gorsel alanı türleri:
+ * - string (onluk-blok): "onluk-blok-47" → OnlukBlokIllustration (GOREV-2)
+ * - string (sabit): "sayi-kartlari", "elma-gruplari" vb.
+ * - { tur: "sayi-seridi", baslangic, adim, adimSayisi, vurgulananlar? } (GOREV-3)
+ * - { tur: "nesne", sahne } → GeoGorsel sahne anahtarı (GOREV-3E)
+ *   [GÖRSEL: tarif] brifinglerinde nesne türüne eşlenir.
+ */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -16,6 +26,7 @@ import {
   gorev3dSayiAlistirma,
   gorev3dSayiTest,
 } from './gorev-3d-questions.mjs';
+import { geoGorselEkle } from './gorev-3e-gorseller.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -257,11 +268,11 @@ const ritmikSayma = {
 };
 
 const geoBase = geometrikCisimler(karistir);
-const geometrikCisimlerKonu = {
+const geometrikCisimlerKonu = geoGorselEkle({
   ...geoBase,
   alistirma: [...geoBase.alistirma, ...gorev3cAlistirma()],
   test: [...geoBase.test, ...gorev3cTest(karistir)],
-};
+});
 
 const sayiOkuma = {
   id: 'sayilari-okuma-yazma',

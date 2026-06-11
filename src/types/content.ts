@@ -9,7 +9,13 @@ export interface GorselSayiSeridi {
   vurgulananlar?: number[];
 }
 
-export type Gorsel = string | GorselSayiSeridi | null;
+/** Tek/çoklu nesne illüstrasyonu (geometri vb.) — sahne anahtarı GeoGorsel'de tanımlı */
+export interface GorselNesne {
+  tur: 'nesne';
+  sahne: string;
+}
+
+export type Gorsel = string | GorselSayiSeridi | GorselNesne | null;
 
 export interface AnlatimEkrani {
   metin: string;
@@ -19,6 +25,8 @@ export interface AnlatimEkrani {
 export interface EslestirmeCift {
   sol: string;
   sag: string;
+  /** Küçük nesne ikonu (top, kitap, portakal, hediye-kutusu vb.) */
+  ikon?: string;
 }
 
 export interface Soru {
