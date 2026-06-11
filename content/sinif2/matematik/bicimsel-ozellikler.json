@@ -1,0 +1,1123 @@
+{
+  "id": "bicimsel-ozellikler",
+  "baslik": "Geometrik Cisim ve Şekillerin Biçimsel Özellikleri",
+  "kazanimKodu": "MAT.2.1.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Cisimlerin ve şekillerin yuvarlak ya da köşeli olması, onların biçimsel özelliğidir.",
+        "gorsel": {
+          "tur": "nesne",
+          "sahne": "g4m-anlatim-1"
+        }
+      },
+      {
+        "metin": "Davul SİLİNDİRE benzer — yuvarlak bir cisimdir. Zil DAİREYE benzer — yuvarlak bir şekildir. Kutu PRİZMAYA benzer — köşeli bir cisimdir.",
+        "gorsel": {
+          "tur": "nesne",
+          "sahne": "g4m-anlatim-2"
+        }
+      },
+      {
+        "metin": "En önemli sır: Bir cismin YERİ, YÖNÜ veya BÜYÜKLÜĞÜ değişse de biçimsel özellikleri DEĞİŞMEZ! Küçük top da yuvarlak, kocaman top da yuvarlak.",
+        "gorsel": {
+          "tur": "nesne",
+          "sahne": "g4m-anlatim-3"
+        }
+      },
+      {
+        "metin": "Kutuyu ters çevirsen de köşeleri kaybolmaz. Zarı masanın öbür ucuna koysan da küp olmaktan çıkmaz. Biçim, her yerde biçimdir!",
+        "gorsel": {
+          "tur": "nesne",
+          "sahne": "g4m-anlatim-4"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "g4m-a1",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Davul hangi geometrik cisme benzer?",
+      "dogruCevap": "silindir",
+      "ipucu": "Davulun yuvarlak gövdesi silindire benzer.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-davul"
+      },
+      "alternatifCevaplar": [
+        "Silindir"
+      ]
+    },
+    {
+      "id": "g4m-a2",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Zil hangi geometrik şekle benzer?",
+      "dogruCevap": "daire",
+      "ipucu": "Zil içi dolu yuvarlak bir şekildir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zil"
+      },
+      "alternatifCevaplar": [
+        "Daire"
+      ]
+    },
+    {
+      "id": "g4m-a3",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Topun biçimsel özelliği nedir: yuvarlak mı, köşeli mi?",
+      "dogruCevap": "yuvarlak",
+      "ipucu": "Top her yönden yuvarlaktır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top"
+      },
+      "alternatifCevaplar": [
+        "Yuvarlak"
+      ]
+    },
+    {
+      "id": "g4m-a4",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Hediye kutusunun biçimsel özelliği nedir? (yuvarlak/köşeli)",
+      "dogruCevap": "köşeli",
+      "ipucu": "Kutunun köşeleri vardır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-hediye-kutu"
+      },
+      "alternatifCevaplar": [
+        "Köşeli"
+      ]
+    },
+    {
+      "id": "g4m-a5",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Küçük bir top ile büyük bir topun ikisi de hangi özelliğe sahiptir?",
+      "dogruCevap": "yuvarlak",
+      "ipucu": "Büyüklük değişse de ikisi de yuvarlaktır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top-kucuk-buyuk"
+      },
+      "alternatifCevaplar": [
+        "Yuvarlak"
+      ]
+    },
+    {
+      "id": "g4m-a6",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "🎭 Elanaz zarı ters çevirdi. Zarın köşeleri kayboldu mu? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "Yön değişince biçim özellikleri DEĞİŞMEZ!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zar-duz-ters"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "g4m-a7",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Silindirin gövdesi yuvarlak mıdır, köşeli midir?",
+      "dogruCevap": "yuvarlak",
+      "ipucu": "Silindirin gövdesi yuvarlaktır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-silindir"
+      },
+      "alternatifCevaplar": [
+        "Yuvarlak"
+      ]
+    },
+    {
+      "id": "g4m-a8",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Kürenin köşesi var mıdır? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "Küre her yönden yuvarlaktır, köşesi yoktur.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kure"
+      },
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "g4m-a9",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Küpün köşesi var mıdır? (evet/hayır)",
+      "dogruCevap": "evet",
+      "ipucu": "Küpün köşeleri vardır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kup-koseler"
+      },
+      "alternatifCevaplar": [
+        "Evet"
+      ]
+    },
+    {
+      "id": "g4m-a10",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "🎭 Kocaman bir karpuz ile küçücük bir misket: ikisi de küreye benzer mi? (evet/hayır)",
+      "dogruCevap": "evet",
+      "ipucu": "BÜYÜKLÜK değişse de biçim değişmez!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-karpuz-misket"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Evet"
+      ]
+    },
+    {
+      "id": "g4m-a11",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Üçgenin kaç köşesi vardır?",
+      "dogruCevap": "3",
+      "ipucu": "Üçgenin üç köşesi vardır.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-ucgen-koseler"
+      }
+    },
+    {
+      "id": "g4m-a12",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Karenin kaç kenarı vardır?",
+      "dogruCevap": "4",
+      "ipucu": "Karenin dört kenarı vardır.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-kenarlar"
+      }
+    },
+    {
+      "id": "g4m-a13",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Dairenin köşesi var mıdır? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "Daire yuvarlaktır, köşesi yoktur.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-daire"
+      },
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "g4m-a14",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Elanaz bateri çaldı. Davulun üst yüzü hangi şekle benzer?",
+      "dogruCevap": "daire",
+      "ipucu": "Davulun üst yüzü yuvarlaktır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-davul-ustten"
+      },
+      "alternatifCevaplar": [
+        "Daire"
+      ]
+    },
+    {
+      "id": "g4m-a15",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Dikdörtgenin kaç köşesi vardır?",
+      "dogruCevap": "4",
+      "ipucu": "Dikdörtgenin dört köşesi vardır.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-dikdortgen-koseler"
+      }
+    },
+    {
+      "id": "g4m-a16",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "🎭 Elanaz kitabını çantasına koydu. Kitap çantadayken köşeli olma özelliğini kaybeder mi? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "YER değişince biçim değişmez!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kitap-canta"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "g4m-a17",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Konserve kutusunun alt ve üst yüzleri hangi şekle benzer?",
+      "dogruCevap": "daire",
+      "ipucu": "Konserve kutusunun alt ve üst yüzleri yuvarlaktır.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-konserve"
+      },
+      "alternatifCevaplar": [
+        "Daire"
+      ]
+    },
+    {
+      "id": "g4m-a18",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Üçgenin kaç kenarı vardır?",
+      "dogruCevap": "3",
+      "ipucu": "Üçgenin üç kenarı vardır.",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-ucgen-kenarlar"
+      }
+    },
+    {
+      "id": "g4m-a19",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Hangisinin kenarı yoktur: kare mi, çember mi?",
+      "dogruCevap": "çember",
+      "ipucu": "Çemberin düz kenarı yoktur.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-cember"
+      },
+      "alternatifCevaplar": [
+        "Çember"
+      ]
+    },
+    {
+      "id": "g4m-a20",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Süt kutusunun yüzleri hangi şekle benzer?",
+      "dogruCevap": "dikdörtgen",
+      "ipucu": "Süt kutusunun yüzleri dikdörtgendir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-sut-kutusu"
+      },
+      "alternatifCevaplar": [
+        "Dikdörtgen"
+      ]
+    },
+    {
+      "id": "g4m-a21",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "🎭 Top yokuştan aşağı yuvarlandı. Yuvarlanınca topun biçimi değişti mi? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "Hareket etmek biçimi DEĞİŞTİRMEZ!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top-yokus"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "g4m-a22",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Zekâ küpünün her yüzü hangi şekle benzer?",
+      "dogruCevap": "kare",
+      "ipucu": "Zekâ küpünün her yüzü karedir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zeka-kupu"
+      },
+      "alternatifCevaplar": [
+        "Kare"
+      ]
+    },
+    {
+      "id": "g4m-a23",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Karenin kenarları birbirine göre nasıldır: eşit mi, farklı mı?",
+      "dogruCevap": "eşit",
+      "ipucu": "Karenin dört kenarı da eşittir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-esit"
+      },
+      "alternatifCevaplar": [
+        "Eşit"
+      ]
+    },
+    {
+      "id": "g4m-a24",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Çadırın ön yüzü hangi şekle benzer?",
+      "dogruCevap": "üçgen",
+      "ipucu": "Çadırın ön yüzü üçgendir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-cadir"
+      },
+      "alternatifCevaplar": [
+        "Üçgen"
+      ]
+    },
+    {
+      "id": "g4m-a25",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "yazili",
+      "soru": "Elanaz büyük bir kare, kardeşi Elif küçük bir kare çizdi. İkisi de kare midir? (evet/hayır)",
+      "dogruCevap": "evet",
+      "ipucu": "Büyüklük değişse de ikisi de karedir.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-buyuk-kucuk"
+      },
+      "alternatifCevaplar": [
+        "Evet"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "g4m-t1",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Davul hangi cisme benzer?",
+      "dogruCevap": "Silindir",
+      "secenekler": [
+        "Küre",
+        "Silindir",
+        "Üçgen prizma",
+        "Küp"
+      ],
+      "ipucu": "Davulun yuvarlak gövdesi silindire benzer.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-davul"
+      },
+      "secenekIkonlari": {
+        "Küp": {
+          "tip": "model",
+          "anahtar": "kup"
+        },
+        "Silindir": {
+          "tip": "model",
+          "anahtar": "silindir"
+        },
+        "Küre": {
+          "tip": "model",
+          "anahtar": "kure"
+        },
+        "Üçgen prizma": {
+          "tip": "model",
+          "anahtar": "ucgen-prizma"
+        }
+      }
+    },
+    {
+      "id": "g4m-t2",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisinin köşesi VARDIR?",
+      "dogruCevap": "Zar",
+      "secenekler": [
+        "Zar",
+        "Top",
+        "Portakal",
+        "Misket"
+      ],
+      "ipucu": "Köşeli cisimleri düşün.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zar-duz-ters"
+      },
+      "secenekIkonlari": {
+        "Top": {
+          "tip": "nesne",
+          "anahtar": "top"
+        },
+        "Misket": {
+          "tip": "nesne",
+          "anahtar": "misket"
+        },
+        "Zar": {
+          "tip": "nesne",
+          "anahtar": "zar"
+        },
+        "Portakal": {
+          "tip": "nesne",
+          "anahtar": "portakal"
+        }
+      }
+    },
+    {
+      "id": "g4m-t3",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Zil hangi şekle benzer?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Dikdörtgen",
+        "Üçgen"
+      ],
+      "ipucu": "Zil içi dolu yuvarlak bir şekildir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zil"
+      },
+      "secenekIkonlari": {
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Dikdörtgen": {
+          "tip": "sekil",
+          "anahtar": "dikdortgen"
+        }
+      }
+    },
+    {
+      "id": "g4m-t4",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz topunu kocaman bir topla değiştirdi. Yeni topun biçimsel özelliği nedir?",
+      "dogruCevap": "Yine yuvarlaktır",
+      "secenekler": [
+        "Artık köşelidir",
+        "Yine yuvarlaktır",
+        "Büyüyünce biçimi bozulur",
+        "Kare olmuştur"
+      ],
+      "ipucu": "BÜYÜKLÜK değişir, BİÇİM değişmez!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top-kucuk-buyuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g4m-t5",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Üçgenin kaç köşesi vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "3",
+        "2",
+        "5",
+        "4"
+      ],
+      "ipucu": "Üçgenin üç köşesi vardır.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-ucgen-koseler"
+      }
+    },
+    {
+      "id": "g4m-t6",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Karenin kenarları nasıldır?",
+      "dogruCevap": "Hepsi eşittir",
+      "secenekler": [
+        "Hepsi eşittir",
+        "Üç tanedir",
+        "Yuvarlaktır",
+        "Hepsi farklıdır"
+      ],
+      "ipucu": "Karenin dört kenarı da eşittir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-esit"
+      }
+    },
+    {
+      "id": "g4m-t7",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisinin kenarı ve köşesi YOKTUR?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Dikdörtgen",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Yuvarlak şekillerin köşesi yoktur.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-daire"
+      },
+      "secenekIkonlari": {
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Dikdörtgen": {
+          "tip": "sekil",
+          "anahtar": "dikdortgen"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        }
+      }
+    },
+    {
+      "id": "g4m-t8",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Kutu ters çevrilince ne olur?",
+      "dogruCevap": "Köşeleri aynen durur",
+      "secenekler": [
+        "Köşeleri kaybolur",
+        "Köşeleri aynen durur",
+        "Daireye dönüşür",
+        "Yuvarlak olur"
+      ],
+      "ipucu": "YÖN değişince biçim DEĞİŞMEZ!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kutu-ters"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g4m-t9",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Konserve kutusunun üst yüzü hangi şekle benzer?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Dikdörtgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Konserve kutusunun üst yüzü yuvarlaktır.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-konserve-ust"
+      },
+      "secenekIkonlari": {
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Dikdörtgen": {
+          "tip": "sekil",
+          "anahtar": "dikdortgen"
+        }
+      }
+    },
+    {
+      "id": "g4m-t10",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yuvarlak bir CİSİMDİR?",
+      "dogruCevap": "Küre",
+      "secenekler": [
+        "Daire",
+        "Küre",
+        "Üçgen",
+        "Çember"
+      ],
+      "ipucu": "Cisimler üç boyutludur — daire ve çember şekildir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kure"
+      },
+      "secenekIkonlari": {
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Çember": {
+          "tip": "sekil",
+          "anahtar": "cember"
+        },
+        "Küre": {
+          "tip": "model",
+          "anahtar": "kure"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        }
+      }
+    },
+    {
+      "id": "g4m-t11",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Zekâ küpünün bir yüzü hangi şekle benzer?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Çember",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Zekâ küpünün her yüzü karedir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-zeka-kupu"
+      },
+      "secenekIkonlari": {
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Çember": {
+          "tip": "sekil",
+          "anahtar": "cember"
+        }
+      }
+    },
+    {
+      "id": "g4m-t12",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Hangisi DOĞRUDUR?",
+      "dogruCevap": "Top nereye giderse gitsin yuvarlaktır",
+      "secenekler": [
+        "Büyük top köşelidir",
+        "Kutu ters dönünce yuvarlak olur",
+        "Top nereye giderse gitsin yuvarlaktır",
+        "Küçük zar yuvarlaktır"
+      ],
+      "ipucu": "Biçim özellikleri yer-yön-büyüklükle DEĞİŞMEZ!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top-konumlar"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g4m-t13",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Dikdörtgenin kaç kenarı vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "3",
+        "5",
+        "2",
+        "4"
+      ],
+      "ipucu": "Dikdörtgenin dört kenarı vardır.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-dikdortgen-koseler"
+      }
+    },
+    {
+      "id": "g4m-t14",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Çadırın ön yüzü hangi şekle benzer?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Çember",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Çadırın ön yüzü üçgendir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-cadir"
+      },
+      "secenekIkonlari": {
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Çember": {
+          "tip": "sekil",
+          "anahtar": "cember"
+        }
+      }
+    },
+    {
+      "id": "g4m-t15",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisinin BÜTÜN kenarları eşittir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Dikdörtgen",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Karenin dört kenarı da eşittir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-kenarlar"
+      },
+      "secenekIkonlari": {
+        "Dikdörtgen": {
+          "tip": "sekil",
+          "anahtar": "dikdortgen"
+        },
+        "Kare": {
+          "tip": "sekil",
+          "anahtar": "kare"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        }
+      }
+    },
+    {
+      "id": "g4m-t16",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Süt kutusunun ön yüzü hangi şekle benzer?",
+      "dogruCevap": "Dikdörtgen",
+      "secenekler": [
+        "Daire",
+        "Çember",
+        "Üçgen",
+        "Dikdörtgen"
+      ],
+      "ipucu": "Süt kutusunun yüzleri dikdörtgendir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-sut-kutusu"
+      },
+      "secenekIkonlari": {
+        "Dikdörtgen": {
+          "tip": "sekil",
+          "anahtar": "dikdortgen"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Çember": {
+          "tip": "sekil",
+          "anahtar": "cember"
+        }
+      }
+    },
+    {
+      "id": "g4m-t17",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz misketini cebine koydu. Misket cepteyken hangi özelliğini KORUR?",
+      "dogruCevap": "Yuvarlaklığını",
+      "secenekler": [
+        "Görünmezliğini",
+        "Yuvarlaklığını",
+        "Köşelerini",
+        "Cepte özellik kalmaz"
+      ],
+      "ipucu": "YER değişti ama misket hâlâ misket!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-misket-cep"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g4m-t18",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Pilin gövdesi nasıldır?",
+      "dogruCevap": "Yuvarlak",
+      "secenekler": [
+        "Köşeli",
+        "Kare",
+        "Üçgen",
+        "Yuvarlak"
+      ],
+      "ipucu": "Pilin gövdesi yuvarlaktır.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-davul-pil"
+      }
+    },
+    {
+      "id": "g4m-t19",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi köşeli bir ŞEKİLDİR?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Küp",
+        "Silindir",
+        "Üçgen",
+        "Küre"
+      ],
+      "ipucu": "Şekiller düz çizimlerdir — küre, silindir ve küp cisimdir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-ucgen-koseler"
+      },
+      "secenekIkonlari": {
+        "Küre": {
+          "tip": "model",
+          "anahtar": "kure"
+        },
+        "Silindir": {
+          "tip": "model",
+          "anahtar": "silindir"
+        },
+        "Üçgen": {
+          "tip": "sekil",
+          "anahtar": "ucgen"
+        },
+        "Küp": {
+          "tip": "model",
+          "anahtar": "kup"
+        }
+      }
+    },
+    {
+      "id": "g4m-t20",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Topun üzerinde köşe arayan Elanaz ne bulur?",
+      "dogruCevap": "Hiç köşe bulamaz",
+      "secenekler": [
+        "Hiç köşe bulamaz",
+        "4 köşe",
+        "1 köşe",
+        "3 köşe"
+      ],
+      "ipucu": "Top yuvarlaktır, köşesi yoktur.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-top-buyutec"
+      }
+    },
+    {
+      "id": "g4m-t21",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Kare ile dikdörtgenin ORTAK özelliği nedir?",
+      "dogruCevap": "İkisinin de 4 köşesi vardır",
+      "secenekler": [
+        "İkisi de yuvarlaktır",
+        "İkisinin de 4 köşesi vardır",
+        "İkisinin de 3 kenarı vardır",
+        "Kenarları hep eşittir"
+      ],
+      "ipucu": "Kare ve dikdörtgenin dört köşesi vardır.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-dikdortgen"
+      }
+    },
+    {
+      "id": "g4m-t22",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Dev bir küp ile minik bir zar için hangisi DOĞRUDUR?",
+      "dogruCevap": "İkisi de küpe benzer",
+      "secenekler": [
+        "Büyüklük biçimi değiştirir",
+        "Sadece büyük olan küptür",
+        "Küçük olan küre sayılır",
+        "İkisi de küpe benzer"
+      ],
+      "ipucu": "BÜYÜKLÜK farklı, BİÇİM aynı!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-dev-kup-zar"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "g4m-t23",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Davulun gövdesi ile pilin gövdesi hangi ortak cisme benzer?",
+      "dogruCevap": "Silindir",
+      "secenekler": [
+        "Küp",
+        "Küre",
+        "Üçgen prizma",
+        "Silindir"
+      ],
+      "ipucu": "İkisinin gövdesi de yuvarlaktır — silindire benzer.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-davul-pil"
+      },
+      "secenekIkonlari": {
+        "Küp": {
+          "tip": "model",
+          "anahtar": "kup"
+        },
+        "Silindir": {
+          "tip": "model",
+          "anahtar": "silindir"
+        },
+        "Küre": {
+          "tip": "model",
+          "anahtar": "kure"
+        },
+        "Üçgen prizma": {
+          "tip": "model",
+          "anahtar": "ucgen-prizma"
+        }
+      }
+    },
+    {
+      "id": "g4m-t24",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yuvarlak bir ŞEKİLDİR?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Silindir",
+        "Küre",
+        "Daire",
+        "Küp"
+      ],
+      "ipucu": "Şekiller düz çizimlerdir — küre, silindir ve küp cisimdir.",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-daire"
+      },
+      "secenekIkonlari": {
+        "Küre": {
+          "tip": "model",
+          "anahtar": "kure"
+        },
+        "Daire": {
+          "tip": "sekil",
+          "anahtar": "daire"
+        },
+        "Silindir": {
+          "tip": "model",
+          "anahtar": "silindir"
+        },
+        "Küp": {
+          "tip": "model",
+          "anahtar": "kup"
+        }
+      }
+    },
+    {
+      "id": "g4m-t25",
+      "kazanimKodu": "MAT.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz kare çizdi, sonra kâğıdı ters çevirdi. Kâğıttaki şekil ne oldu?",
+      "dogruCevap": "Hâlâ kare",
+      "secenekler": [
+        "Dikdörtgen oldu",
+        "Üçgen oldu",
+        "Silindi",
+        "Hâlâ kare"
+      ],
+      "ipucu": "Kâğıt dönünce şekil DEĞİŞMEZ!",
+      "gorsel": {
+        "tur": "nesne",
+        "sahne": "g4m-kare-kagit"
+      },
+      "sasirtma": true
+    }
+  ]
+}

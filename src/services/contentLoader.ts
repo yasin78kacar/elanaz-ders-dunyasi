@@ -5,6 +5,7 @@ import onlukBirlik from '../../content/sinif2/matematik/onluk-birlik.json';
 import geometrikCisimler from '../../content/sinif2/matematik/geometrik-cisimler.json';
 import geometrikCisimModelleri from '../../content/sinif2/matematik/geometrik-cisim-modelleri.json';
 import geometrikSekilModelleri from '../../content/sinif2/matematik/geometrik-sekil-modelleri.json';
+import bicimselOzellikler from '../../content/sinif2/matematik/bicimsel-ozellikler.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -16,6 +17,7 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/geometrik-cisimler.json': geometrikCisimler as Konu,
   'matematik/geometrik-cisim-modelleri.json': geometrikCisimModelleri as Konu,
   'matematik/geometrik-sekil-modelleri.json': geometrikSekilModelleri as Konu,
+  'matematik/bicimsel-ozellikler.json': bicimselOzellikler as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

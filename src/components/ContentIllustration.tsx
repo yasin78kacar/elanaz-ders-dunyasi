@@ -6,6 +6,7 @@ import { SayiSeridi } from './SayiSeridi';
 import { GeoGorsel } from '../../assets/illustrations/GeometriIllustrations';
 import { NesneGorsel } from './nesneler/NesneGorsel';
 import { SekilGorsel } from './nesneler/SekilGorsel';
+import { G4mGorsel } from './nesneler/G4mGorsel';
 import { colors } from '../theme/colors';
 import type { Gorsel } from '../types/content';
 
@@ -21,7 +22,9 @@ export function ContentIllustration({ gorsel }: Props) {
       <View style={styles.kutu}>
         {gorsel.tur === 'sayi-seridi' && <SayiSeridi {...gorsel} />}
         {gorsel.tur === 'nesne' &&
-          (gorsel.sahne.startsWith('g3m-') ? (
+          (gorsel.sahne.startsWith('g4m-') ? (
+            <G4mGorsel sahne={gorsel.sahne} />
+          ) : gorsel.sahne.startsWith('g3m-') ? (
             <SekilGorsel sahne={gorsel.sahne} />
           ) : gorsel.sahne.startsWith('g2m-') ? (
             <NesneGorsel sahne={gorsel.sahne} />

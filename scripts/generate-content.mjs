@@ -29,6 +29,8 @@ import {
 import { geoGorselEkle } from './gorev-3e-gorseller.mjs';
 import { geometrikCisimModelleri } from './gorev-3f-questions.mjs';
 import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
+import { bicimselOzellikler } from './gorev-3h-questions.mjs';
+import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -192,7 +194,7 @@ function sayiOkumaTest() {
   ekle('so-t-7', '91 ile 19\'dan hangisi daha büyük?', '91', ['91', '19', 'İkisi eşit', 'Bilmiyorum'], 'Onlukları karşılaştır.');
   ekle('so-t-8', '44 sayısının okunuşu hangisidir?', 'Kırk dört', ['Dört kırk', 'Kırk dört', 'Kırk altı', 'Otuz dört'], '4 onluk 4 birlik.');
   ekle('so-t-9', '100\'e en yakın sayı hangisidir?', '99', ['50', '75', '99', '10'], '99\'a 1 ekleyince 100 olur.');
-  ekle('so-t-10', '73 sayısı hangi iki onluk arasındadır?', '70 ile 80', ['60-70', '70-80', '80-90', '50-60'], '7 onluk.');
+  ekle('so-t-10', '73 sayısı hangi iki onluk arasındadır?', '70-80', ['60-70', '70-80', '80-90', '50-60'], '7 onluk.');
   ekle('so-t-11', '"Doksan dokuz" hangi sayıdır?', '99', ['90', '99', '89', '19'], '9 onluk 9 birlik.');
   ekle('so-t-12', '28 sayısından önce hangi sayı gelir?', '27', ['26', '27', '28', '29'], 'Bir eksilt.');
   ekle('so-t-13', 'Hangisi DOĞRU yazılmış sayı DEĞİLDİR?', '1000', ['45', '67', '1000', '82'], '2. sınıfta 100\'e kadar sayıları öğreniyoruz.', { sasirtma: true });
@@ -318,6 +320,11 @@ writeFileSync(
   join(contentDir, 'geometrik-sekil-modelleri.json'),
   JSON.stringify(geometrikSekilModelleri(karistir), null, 2),
 );
+const bicimselOzelliklerKonu = bicimselOzellikler(karistir);
+writeFileSync(
+  join(contentDir, 'bicimsel-ozellikler.json'),
+  JSON.stringify(bicimselOzelliklerKonu, null, 2),
+);
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -395,6 +402,7 @@ const index = {
             'matematik/geometrik-cisimler.json',
             'matematik/geometrik-cisim-modelleri.json',
             'matematik/geometrik-sekil-modelleri.json',
+            'matematik/bicimsel-ozellikler.json',
           ],
         },
         {
@@ -440,3 +448,14 @@ const yeniTipler = (konu) =>
   [...konu.alistirma, ...konu.test].filter((s) => s.tip === 'eslestirme' || s.tip === 'tablo-boyama').length;
 console.log('Yeni tip (geo):', yeniTipler(geometrikCisimlerKonu));
 console.log('Yeni tip (ritmik):', yeniTipler(ritmikSayma));
+console.log(
+  'Biçimsel özellikler:',
+  bicimselOzelliklerKonu.alistirma.length,
+  '+',
+  bicimselOzelliklerKonu.test.length,
+);
+
+const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
+if (bekci.status !== 0) {
+  process.exit(bekci.status ?? 1);
+}

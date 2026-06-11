@@ -33,7 +33,10 @@ export type NesneTipi =
   | 'dondurma-topu'
   | 'geri-donusum-sut'
   | 'kalem-kutusu'
-  | 'her-yuzu-kare-kutu';
+  | 'her-yuzu-kare-kutu'
+  | 'davul'
+  | 'zil'
+  | 'canta';
 
 interface Props {
   tip: NesneTipi;
@@ -317,6 +320,28 @@ export function NesnelerIcon({ tip, size = 36 }: Props) {
       return (
         <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
           <Rect x={s * 0.22} y={h * 0.25} width={s * 0.56} height={s * 0.56} fill={GEO.turuncu} stroke={GEO.metin} strokeWidth={1.5} rx={3} />
+        </Svg>
+      );
+    case 'davul':
+      return (
+        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+          <Ellipse cx={s / 2} cy={h * 0.28} rx={s * 0.34} ry={h * 0.1} fill={GEO.kirmizi} stroke={GEO.metin} strokeWidth={1.5} />
+          <Rect x={s * 0.16} y={h * 0.28} width={s * 0.68} height={h * 0.48} fill={GEO.kirmizi} rx={2} />
+          <Ellipse cx={s / 2} cy={h * 0.76} rx={s * 0.34} ry={h * 0.1} fill="#B71C1C" stroke={GEO.metin} strokeWidth={1.5} />
+        </Svg>
+      );
+    case 'zil':
+      return (
+        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+          <Path d={`M ${s * 0.5} ${h * 0.12} Q ${s * 0.82} ${h * 0.55} ${s * 0.72} ${h * 0.78} L ${s * 0.28} ${h * 0.78} Q ${s * 0.18} ${h * 0.55} ${s * 0.5} ${h * 0.12} Z`} fill={GEO.sari} stroke={GEO.turuncu} strokeWidth={2} />
+          <Circle cx={s / 2} cy={h * 0.86} r={s * 0.06} fill={GEO.metin} />
+        </Svg>
+      );
+    case 'canta':
+      return (
+        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+          <Path d={`M ${s * 0.22} ${h * 0.32} Q ${s * 0.5} ${h * 0.12} ${s * 0.78} ${h * 0.32} L ${s * 0.82} ${h * 0.82} Q ${s * 0.5} ${h * 0.92} ${s * 0.18} ${h * 0.82} Z`} fill={GEO.mavi} />
+          <Rect x={s * 0.38} y={h * 0.42} width={s * 0.24} height={h * 0.22} fill={GEO.beyaz} opacity={0.5} rx={2} />
         </Svg>
       );
     default:
