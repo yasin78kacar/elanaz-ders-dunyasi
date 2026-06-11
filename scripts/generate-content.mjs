@@ -8,6 +8,7 @@ import {
   gorev3bSayiAlistirma,
   gorev3bSayiTest,
 } from './gorev-3b-questions.mjs';
+import { geometrikCisimler, gorev3RitmikTablo, sayiSeridiGorselEkle } from './gorev-3-content.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -244,9 +245,11 @@ const ritmikSayma = {
       { metin: 'Ritmik sayarken her adımda aynı sayıyı ekleriz. İkişer giderken 2 ekleriz, beşer giderken 5 ekleriz. Şimdi sen de dene!' },
     ],
   },
-  alistirma: [...ritmikAlistirma(), ...gorev2bAlistirma()],
-  test: [...ritmikTest(), ...gorev2bTest(karistir)],
+  alistirma: sayiSeridiGorselEkle([...ritmikAlistirma(), ...gorev2bAlistirma()]),
+  test: sayiSeridiGorselEkle([...ritmikTest(), ...gorev2bTest(karistir), ...gorev3RitmikTablo()]),
 };
+
+const geometrikCisimlerKonu = geometrikCisimler(karistir);
 
 const sayiOkuma = {
   id: 'sayilari-okuma-yazma',
@@ -281,6 +284,7 @@ const onlukBirlik = {
 writeFileSync(join(contentDir, 'ritmik-sayma.json'), JSON.stringify(ritmikSayma, null, 2));
 writeFileSync(join(contentDir, 'sayilari-okuma-yazma.json'), JSON.stringify(sayiOkuma, null, 2));
 writeFileSync(join(contentDir, 'onluk-birlik.json'), JSON.stringify(onlukBirlik, null, 2));
+writeFileSync(join(contentDir, 'geometrik-cisimler.json'), JSON.stringify(geometrikCisimlerKonu, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -352,9 +356,18 @@ const index = {
       baslik: 'Matematik',
       unite: [
         {
+          id: 'geometri',
+          baslik: 'Geometri',
+          konuDosyalari: ['matematik/geometrik-cisimler.json'],
+        },
+        {
           id: 'sayilar',
           baslik: 'Sayılar',
-          konuDosyalari: ['matematik/ritmik-sayma.json', 'matematik/sayilari-okuma-yazma.json', 'matematik/onluk-birlik.json'],
+          konuDosyalari: [
+            'matematik/ritmik-sayma.json',
+            'matematik/sayilari-okuma-yazma.json',
+            'matematik/onluk-birlik.json',
+          ],
         },
       ],
     },
@@ -373,6 +386,11 @@ const index = {
 
 writeFileSync(join(__dirname, '../content/sinif2/index.json'), JSON.stringify(index, null, 2));
 console.log('İçerik dosyaları oluşturuldu.');
+console.log('Geometrik:', geometrikCisimlerKonu.alistirma.length, '+', geometrikCisimlerKonu.test.length);
 console.log('Ritmik:', ritmikSayma.alistirma.length, '+', ritmikSayma.test.length);
 console.log('Sayı okuma:', sayiOkuma.alistirma.length, '+', sayiOkuma.test.length);
 console.log('Onluk birlik:', onlukBirlik.alistirma.length, '+', onlukBirlik.test.length);
+const yeniTipler = (konu) =>
+  [...konu.alistirma, ...konu.test].filter((s) => s.tip === 'eslestirme' || s.tip === 'tablo-boyama').length;
+console.log('Yeni tip (geo):', yeniTipler(geometrikCisimlerKonu));
+console.log('Yeni tip (ritmik):', yeniTipler(ritmikSayma));

@@ -1,0 +1,266 @@
+{
+  "id": "geometrik-cisimler",
+  "baslik": "Geometrik Cisimler",
+  "kazanimKodu": "MAT.2.1.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Çevremizdeki her nesnenin bir biçimi vardır. Kimi nesneler yuvarlaktır, kimi nesneler köşelidir. Futbol topunu düşünelim: yüzeyi dümdüz değil, yusyuvarlaktır. Bir de kitabı düşünelim: kenarları ve köşeleri vardır."
+      },
+      {
+        "metin": "Köşesi ve kenarı OLMAYAN cisimlere YUVARLAK cisimler denir. Top, portakal, misket ve karpuz yuvarlak cisimlerdir. Yuvarlak cisimler yere koyunca yuvarlanabilir."
+      },
+      {
+        "metin": "Köşesi ve kenarı OLAN cisimlere KÖŞELİ cisimler denir. Kitap, hediye kutusu, buzdolabı ve zekâ küpü köşeli cisimlerdir. Köşeli cisimler yuvarlanmaz, durduğu yerde durur. Haydi, çevrene bak: gördüğün bir yuvarlak ve bir köşeli cisim söyle!"
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "geo-a1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Köşesi ve kenarı olmayan cisimlere ne denir?",
+      "dogruCevap": "yuvarlak",
+      "alternatifCevaplar": [
+        "yuvarlak cisim"
+      ],
+      "cevapTipi": "metin",
+      "ipucu": "Top gibi cisimler…"
+    },
+    {
+      "id": "geo-a2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Futbol topu yuvarlak mıdır, köşeli midir?",
+      "dogruCevap": "yuvarlak",
+      "cevapTipi": "metin",
+      "ipucu": "Top yuvarlanır."
+    },
+    {
+      "id": "geo-a3",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Buzdolabı yuvarlak mıdır, köşeli midir?",
+      "dogruCevap": "köşeli",
+      "cevapTipi": "metin",
+      "ipucu": "Köşeleri ve kenarları var."
+    },
+    {
+      "id": "geo-a4",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Elanaz'ın zekâ küpü köşeli midir? (evet/hayır)",
+      "dogruCevap": "evet",
+      "cevapTipi": "metin",
+      "ipucu": "Küpün köşeleri vardır."
+    },
+    {
+      "id": "geo-a5",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Portakal hangi gruba girer? (yuvarlak/köşeli)",
+      "dogruCevap": "yuvarlak",
+      "cevapTipi": "metin",
+      "ipucu": "Portakal yuvarlaktır."
+    },
+    {
+      "id": "geo-a6",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Kitap yuvarlak mıdır, köşeli midir?",
+      "dogruCevap": "köşeli",
+      "cevapTipi": "metin",
+      "ipucu": "Kitabın köşeleri vardır."
+    },
+    {
+      "id": "geo-a7",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Tekerlek yuvarlaktır. Peki tekerleğin köşesi var mıdır? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "cevapTipi": "metin",
+      "ipucu": "Yuvarlak cisimlerin köşesi ve kenarı olmaz — soru seni şaşırtmaya çalıştı!",
+      "sasirtma": true
+    },
+    {
+      "id": "geo-a8",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "yazili",
+      "soru": "Süt kutusu köşeli midir? (evet/hayır)",
+      "dogruCevap": "evet",
+      "cevapTipi": "metin",
+      "ipucu": "Kutunun köşeleri vardır."
+    }
+  ],
+  "test": [
+    {
+      "id": "geo-t1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yuvarlak bir cisimdir?",
+      "dogruCevap": "Top",
+      "secenekler": [
+        "Top",
+        "Hediye kutusu",
+        "Kitap",
+        "Dolap"
+      ],
+      "ipucu": "Top yuvarlanır."
+    },
+    {
+      "id": "geo-t2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi köşeli bir cisimdir?",
+      "dogruCevap": "Süt kutusu",
+      "secenekler": [
+        "Tenis topu",
+        "Portakal",
+        "Süt kutusu",
+        "Misket"
+      ],
+      "ipucu": "Kutunun köşeleri vardır."
+    },
+    {
+      "id": "geo-t3",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yuvarlak cisimdir?",
+      "dogruCevap": "Karpuz",
+      "secenekler": [
+        "Karpuz",
+        "Dolap",
+        "Defter",
+        "Masa"
+      ],
+      "ipucu": "Karpuz yuvarlaktır."
+    },
+    {
+      "id": "geo-t4",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz kampta bir termos gördü. Termosun gövdesi yuvarlaktır. Termos hangi gruba girer?",
+      "dogruCevap": "Yuvarlak",
+      "secenekler": [
+        "Yuvarlak",
+        "Köşeli",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Yuvarlak gövde."
+    },
+    {
+      "id": "geo-t5",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi köşeli DEĞİLDİR?",
+      "dogruCevap": "Misket",
+      "secenekler": [
+        "Kitap",
+        "Çamaşır makinesi",
+        "Hediye kutusu",
+        "Misket"
+      ],
+      "ipucu": "\"DEĞİLDİR\" diyor — köşeli OLMAYANI arıyoruz!",
+      "sasirtma": true
+    },
+    {
+      "id": "geo-t6",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Top ve portakal için hangisi doğrudur?",
+      "dogruCevap": "İkisi de yuvarlaktır",
+      "secenekler": [
+        "Top köşeli, portakal yuvarlaktır",
+        "İkisi de köşelidir",
+        "İkisi de karedir",
+        "İkisi de yuvarlaktır"
+      ],
+      "ipucu": "İkisi de yuvarlanabilir."
+    },
+    {
+      "id": "geo-t7",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kerem'in oyuncak kutusu köşelidir. Kutuda ne vardır?",
+      "dogruCevap": "Köşe ve kenar",
+      "secenekler": [
+        "Köşe ve kenar",
+        "Sadece yuvarlaklık",
+        "Tekerlek",
+        "Sap"
+      ],
+      "ipucu": "Köşeli cisimlerin köşe ve kenarı vardır."
+    },
+    {
+      "id": "geo-t8",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kalem kutusu köşelidir ama içindeki misket nasıldır?",
+      "dogruCevap": "Yuvarlaktır",
+      "secenekler": [
+        "Üçgendir",
+        "Karedir",
+        "Köşelidir",
+        "Yuvarlaktır"
+      ],
+      "ipucu": "Dikkat, soru kutuyu değil İÇİNDEKİ misketi soruyor!",
+      "sasirtma": true
+    },
+    {
+      "id": "geo-e1",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "eslestirme",
+      "yonerge": "Nesneleri grubuyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Top",
+          "sag": "Yuvarlak"
+        },
+        {
+          "sol": "Kitap",
+          "sag": "Köşeli"
+        },
+        {
+          "sol": "Portakal",
+          "sag": "Yuvarlak"
+        },
+        {
+          "sol": "Hediye kutusu",
+          "sag": "Köşeli"
+        }
+      ],
+      "sasirtma": false,
+      "ipucu": "Köşesi ve kenarı olmayanlar yuvarlaktır.",
+      "dogruCevap": "Top→Yuvarlak, Kitap→Köşeli, Portakal→Yuvarlak, Hediye kutusu→Köşeli"
+    },
+    {
+      "id": "geo-e2",
+      "kazanimKodu": "MAT.2.1.1",
+      "tip": "eslestirme",
+      "yonerge": "Nesneleri grubuyla eşleştir.",
+      "ciftler": [
+        {
+          "sol": "Misket",
+          "sag": "Yuvarlak"
+        },
+        {
+          "sol": "Dolap",
+          "sag": "Köşeli"
+        },
+        {
+          "sol": "Karpuz",
+          "sag": "Yuvarlak"
+        },
+        {
+          "sol": "Defter",
+          "sag": "Köşeli"
+        }
+      ],
+      "sasirtma": false,
+      "ipucu": "Köşesi ve kenarı olmayanlar yuvarlaktır.",
+      "dogruCevap": "Misket→Yuvarlak, Dolap→Köşeli, Karpuz→Yuvarlak, Defter→Köşeli"
+    }
+  ]
+}

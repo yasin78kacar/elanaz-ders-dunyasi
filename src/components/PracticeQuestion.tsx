@@ -4,6 +4,7 @@ import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
+import { soruMetni } from '../utils/soruHelpers';
 
 interface Props {
   soru: Soru;
@@ -26,7 +27,11 @@ export function PracticeQuestion({ soru, onAnswer }: Props) {
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
 
   const kontrolEt = () => {
-    const dogruMu = normalizeCevap(cevap) === normalizeCevap(soru.dogruCevap);
+    const normalize = normalizeCevap(cevap);
+    const kabul = [soru.dogruCevap, ...(soru.alternatifCevaplar ?? [])]
+      .filter(Boolean)
+      .map((c) => normalizeCevap(c!));
+    const dogruMu = kabul.includes(normalize);
     setDurum(dogruMu ? 'dogru' : 'yanlis');
     onAnswer(cevap, dogruMu);
   };
@@ -34,7 +39,7 @@ export function PracticeQuestion({ soru, onAnswer }: Props) {
   return (
     <View style={styles.container}>
       <ContentIllustration gorsel={soru.gorsel} />
-      <Text style={styles.soru}>{soru.soru}</Text>
+      <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <TextInput
         style={styles.input}
         value={cevap}

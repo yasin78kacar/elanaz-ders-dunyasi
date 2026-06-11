@@ -17,7 +17,9 @@ export async function getKonuHaritasi(dersId: string): Promise<KonuHaritaOgesi[]
   for (const konu of yol) {
     const ilerleme = await getKonuIlerleme(dersId, konu.id);
     const yildiz = ilerleme?.yildiz ?? 0;
-    const acik = konu.sira === 0 || oncekiYildiz >= 1;
+    const dahaOnceCalisildi =
+      (ilerleme?.tamamlandi ?? false) || (ilerleme?.yildiz ?? 0) > 0;
+    const acik = konu.sira === 0 || oncekiYildiz >= 1 || dahaOnceCalisildi;
 
     let durum: KonuDurumu;
     if (!acik) durum = 'kilitli';

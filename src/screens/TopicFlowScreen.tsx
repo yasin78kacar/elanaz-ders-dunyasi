@@ -5,7 +5,8 @@ import { getKonu } from '../services/contentLoader';
 import { kaydetSoruCevabi, tamamlaKonu } from '../services/progressStore';
 import { oturumSorulariSec } from '../services/sessionPicker';
 import { PracticeQuestion } from '../components/PracticeQuestion';
-import { TestQuestion } from '../components/TestQuestion';
+import { SessionQuestion } from '../components/SessionQuestion';
+import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { colors } from '../theme/colors';
@@ -96,8 +97,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       verilenCevap: cevap,
       dogruMu,
       tarih: new Date().toISOString(),
-      soruMetni: soru.soru,
-      dogruCevap: soru.dogruCevap,
+      soruMetni: soruMetni(soru),
+      dogruCevap: soruCevapAnahtari(soru),
       tip: 'alistirma',
     });
     setCevapBekleniyor(true);
@@ -112,8 +113,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       verilenCevap: cevap,
       dogruMu,
       tarih: new Date().toISOString(),
-      soruMetni: soru.soru,
-      dogruCevap: soru.dogruCevap,
+      soruMetni: soruMetni(soru),
+      dogruCevap: soruCevapAnahtari(soru),
       tip: 'test',
     });
     setCevapBekleniyor(true);
@@ -165,7 +166,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <Text style={styles.etiket}>
             Test {adim.index + 1} / {testler.length}
           </Text>
-          <TestQuestion
+          <SessionQuestion
             key={testler[adim.index].id}
             soru={testler[adim.index]}
             onAnswer={testCevap}

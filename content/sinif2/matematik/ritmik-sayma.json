@@ -250,7 +250,16 @@
       "soru": "3'er sayıyoruz: 3, 6, 9, 12, __",
       "dogruCevap": "15",
       "ipucu": "12'ye 3 ekle.",
-      "cevapTipi": "sayi"
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 3,
+        "adim": 3,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          9
+        ]
+      }
     },
     {
       "id": "2b-a5",
@@ -467,7 +476,16 @@
       "soru": "Kitaplığın raflarını üçer üçer sayıyoruz: 3, 6, 9... Bir sonraki raf kaçıncı olur?",
       "dogruCevap": "12",
       "ipucu": "9'a 3 ekle.",
-      "cevapTipi": "sayi"
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 3,
+        "adim": 3,
+        "adimSayisi": 3,
+        "vurgulananlar": [
+          9
+        ]
+      }
     },
     {
       "id": "2b-ga4",
@@ -658,7 +676,16 @@
       "soru": "Elanaz 9'dan başlayıp üçer ileriye sayıyor. Söylediği dördüncü sayı kaçtır?",
       "dogruCevap": "18",
       "ipucu": "9, 12, 15, 18",
-      "cevapTipi": "sayi"
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 9,
+        "adim": 3,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          18
+        ]
+      }
     },
     {
       "id": "2b-ga25",
@@ -680,8 +707,8 @@
       "secenekler": [
         "17",
         "18",
-        "15",
-        "16"
+        "16",
+        "15"
       ],
       "ipucu": "14'e 2 ekle."
     },
@@ -692,9 +719,9 @@
       "soru": "Beşer ritmik sayarken 35'ten sonra hangi sayı gelir?",
       "dogruCevap": "40",
       "secenekler": [
-        "45",
         "36",
         "40",
+        "45",
         "38"
       ],
       "ipucu": "35'e 5 ekle."
@@ -706,9 +733,9 @@
       "soru": "Onar ritmik sayarken 60'tan sonra hangi sayı gelir?",
       "dogruCevap": "70",
       "secenekler": [
+        "65",
         "80",
         "90",
-        "65",
         "70"
       ],
       "ipucu": "60'a 10 ekle."
@@ -720,10 +747,10 @@
       "soru": "Hangisi ikişer ritmik sayma dizisidir?",
       "dogruCevap": "2, 4, 6, 8",
       "secenekler": [
-        "3, 6, 9",
-        "2, 4, 6, 8",
         "1, 2, 3, 4",
-        "5, 10, 15"
+        "5, 10, 15",
+        "2, 4, 6, 8",
+        "3, 6, 9"
       ],
       "ipucu": "Her adımda 2 eklenir."
     },
@@ -734,10 +761,10 @@
       "soru": "Elanaz beşer sayıyor: 5, 10, 15… Sıradaki sayı?",
       "dogruCevap": "20",
       "secenekler": [
-        "18",
-        "25",
+        "16",
         "20",
-        "16"
+        "25",
+        "18"
       ],
       "ipucu": "15'e 5 ekle."
     },
@@ -748,9 +775,9 @@
       "soru": "İkişer sayarken 20'den sonra hangi sayı gelir?",
       "dogruCevap": "22",
       "secenekler": [
+        "24",
         "22",
         "21",
-        "24",
         "23"
       ],
       "ipucu": "20'ye 2 ekle."
@@ -762,10 +789,10 @@
       "soru": "Onar sayarken 40'tan sonra hangi sayı gelir?",
       "dogruCevap": "50",
       "secenekler": [
-        "60",
-        "55",
+        "50",
         "45",
-        "50"
+        "60",
+        "55"
       ],
       "ipucu": "40'a 10 ekle."
     },
@@ -778,8 +805,8 @@
       "secenekler": [
         "55",
         "46",
-        "50",
-        "48"
+        "48",
+        "50"
       ],
       "ipucu": "45'e 5 ekle."
     },
@@ -790,10 +817,10 @@
       "soru": "İkişer sayarken 8'den sonra hangi sayı gelir?",
       "dogruCevap": "10",
       "secenekler": [
-        "12",
+        "11",
         "9",
-        "10",
-        "11"
+        "12",
+        "10"
       ],
       "ipucu": "8'e 2 ekle."
     },
@@ -804,10 +831,10 @@
       "soru": "Onar sayarken 20'den sonra hangi sayı gelir?",
       "dogruCevap": "30",
       "secenekler": [
-        "30",
         "40",
+        "50",
         "25",
-        "50"
+        "30"
       ],
       "ipucu": "20'ye 10 ekle."
     },
@@ -818,10 +845,10 @@
       "soru": "Elanaz'ın 3 kırmızı, 3 mavi çıkartması var. İkişer sayarsa kaç adım sayar?",
       "dogruCevap": "3",
       "secenekler": [
-        "6",
-        "2",
         "3",
-        "4"
+        "4",
+        "6",
+        "2"
       ],
       "ipucu": "6 çıkartmayı 2'li gruplara böl."
     },
@@ -832,10 +859,10 @@
       "soru": "Beşer dizisinde 25'ten sonra hangi sayı gelir?",
       "dogruCevap": "30",
       "secenekler": [
-        "28",
-        "26",
         "35",
-        "30"
+        "30",
+        "26",
+        "28"
       ],
       "ipucu": "25'e 5 ekle."
     },
@@ -846,10 +873,10 @@
       "soru": "İkişer dizisinde 18'den sonra hangi sayı gelir?",
       "dogruCevap": "20",
       "secenekler": [
-        "20",
-        "22",
         "19",
-        "21"
+        "21",
+        "20",
+        "22"
       ],
       "ipucu": "18'e 2 ekle."
     },
@@ -860,10 +887,10 @@
       "soru": "Onar dizisinde 90'dan sonra hangi sayı gelir?",
       "dogruCevap": "100",
       "secenekler": [
+        "100",
         "120",
-        "95",
         "110",
-        "100"
+        "95"
       ],
       "ipucu": "90'a 10 ekle."
     },
@@ -874,9 +901,9 @@
       "soru": "Beşer dizisinde 50'den sonra hangi sayı gelir?",
       "dogruCevap": "55",
       "secenekler": [
-        "60",
-        "51",
         "55",
+        "51",
+        "60",
         "53"
       ],
       "ipucu": "50'ye 5 ekle."
@@ -889,8 +916,8 @@
       "dogruCevap": "32",
       "secenekler": [
         "33",
-        "31",
         "34",
+        "31",
         "32"
       ],
       "ipucu": "30'a 2 ekle."
@@ -903,9 +930,9 @@
       "dogruCevap": "2, 4, 6, 8",
       "secenekler": [
         "20, 25, 30",
-        "2, 4, 6, 8",
+        "10, 15, 20",
         "5, 10, 15",
-        "10, 15, 20"
+        "2, 4, 6, 8"
       ],
       "ipucu": "Beşer giderken 5 eklenir. Tuzağı fark et!",
       "sasirtma": true
@@ -917,10 +944,10 @@
       "soru": "Onar sayarken 70'ten sonra hangi sayı gelir?",
       "dogruCevap": "80",
       "secenekler": [
+        "75",
         "80",
         "90",
-        "85",
-        "75"
+        "85"
       ],
       "ipucu": "70'e 10 ekle."
     },
@@ -931,10 +958,10 @@
       "soru": "Elanaz ikişer sayıyor. 10'dan sonra 13 mü gelir?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Hayır",
         "İkisi de",
-        "Bilmiyorum",
-        "Evet"
+        "Evet",
+        "Hayır",
+        "Bilmiyorum"
       ],
       "ipucu": "İkişer dizide 10, 12 gelir. Dikkatle oku!",
       "sasirtma": true
@@ -946,10 +973,10 @@
       "soru": "Beşer sayarken 15'ten sonra hangi sayı gelir?",
       "dogruCevap": "20",
       "secenekler": [
-        "16",
+        "18",
         "20",
         "25",
-        "18"
+        "16"
       ],
       "ipucu": "15'e 5 ekle."
     },
@@ -961,9 +988,9 @@
       "dogruCevap": "60",
       "secenekler": [
         "55",
+        "60",
         "70",
-        "80",
-        "60"
+        "80"
       ],
       "ipucu": "50'ye 10 ekle."
     },
@@ -974,8 +1001,8 @@
       "soru": "İkişer sayarken 24'ten sonra hangi sayı gelir?",
       "dogruCevap": "26",
       "secenekler": [
-        "26",
         "28",
+        "26",
         "27",
         "25"
       ],
@@ -988,9 +1015,9 @@
       "soru": "2'şer sayarken hangisi söylenmez?",
       "dogruCevap": "7",
       "secenekler": [
-        "4",
-        "7",
         "10",
+        "7",
+        "4",
         "8"
       ],
       "ipucu": "2'şer sayıda çift sayılar gelir."
@@ -1002,10 +1029,10 @@
       "soru": "5, 10, 15, 20... Bu sayma kaçar kaçar yapılıyor?",
       "dogruCevap": "5'er",
       "secenekler": [
-        "5'er",
-        "2'şer",
         "3'er",
-        "10'ar"
+        "10'ar",
+        "5'er",
+        "2'şer"
       ],
       "ipucu": "Her adımda 5 ekleniyor."
     },
@@ -1016,10 +1043,10 @@
       "soru": "Elanaz 10'ar sayıyor. 30'dan sonra hangi sayıyı söyler?",
       "dogruCevap": "40",
       "secenekler": [
-        "31",
         "35",
         "50",
-        "40"
+        "40",
+        "31"
       ],
       "ipucu": "30'a 10 ekle."
     },
@@ -1030,12 +1057,21 @@
       "soru": "3, 6, 9, 12 dizisinde sıradaki sayı hangisidir?",
       "dogruCevap": "15",
       "secenekler": [
-        "16",
-        "15",
         "14",
-        "13"
+        "13",
+        "15",
+        "16"
       ],
-      "ipucu": "12'ye 3 ekle."
+      "ipucu": "12'ye 3 ekle.",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 3,
+        "adim": 3,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          12
+        ]
+      }
     },
     {
       "id": "2b-t5",
@@ -1044,10 +1080,10 @@
       "soru": "Geriye doğru 5'er sayarken 25'ten sonra hangisi gelir?",
       "dogruCevap": "20",
       "secenekler": [
+        "24",
         "30",
-        "15",
         "20",
-        "24"
+        "15"
       ],
       "ipucu": "25'ten 5 eksilt."
     },
@@ -1058,10 +1094,10 @@
       "soru": "Hangisi 4'er ileriye saymadır?",
       "dogruCevap": "4, 8, 12, 16",
       "secenekler": [
-        "4, 8, 12, 16",
         "4, 9, 14, 19",
+        "4, 6, 8, 10",
         "4, 5, 6, 7",
-        "4, 6, 8, 10"
+        "4, 8, 12, 16"
       ],
       "ipucu": "Her adımda 4 eklenir."
     },
@@ -1072,9 +1108,9 @@
       "soru": "Elanaz'ın sınıfında sıralar 2'şer kişilik. 5 sırada kaç öğrenci oturur?",
       "dogruCevap": "10",
       "secenekler": [
-        "25",
-        "7",
         "10",
+        "7",
+        "25",
         "12"
       ],
       "ipucu": "2'şer beş kez say."
@@ -1086,10 +1122,10 @@
       "soru": "Aşağıdakilerden hangisi 5'er saymada YOKTUR?",
       "dogruCevap": "42",
       "secenekler": [
-        "15",
-        "42",
         "35",
-        "50"
+        "42",
+        "50",
+        "15"
       ],
       "ipucu": "5'er sayarken sayılar hep 0 ya da 5 ile biter",
       "sasirtma": true
@@ -1101,10 +1137,10 @@
       "soru": "18, 15, 12, 9... Bu sayma nasıl yapılıyor?",
       "dogruCevap": "3'er geriye",
       "secenekler": [
-        "3'er geriye",
-        "5'er geriye",
         "3'er ileriye",
-        "2'şer geriye"
+        "3'er geriye",
+        "2'şer geriye",
+        "5'er geriye"
       ],
       "ipucu": "Her adımda 3 eksiliyor."
     },
@@ -1116,9 +1152,9 @@
       "dogruCevap": "30",
       "secenekler": [
         "35",
+        "30",
         "25",
-        "21",
-        "30"
+        "21"
       ],
       "ipucu": "20 ile 40 arasında 10'un katı."
     },
@@ -1129,10 +1165,10 @@
       "soru": "Bir yıldızın 5 köşesi var. 3 yıldızda kaç köşe vardır?",
       "dogruCevap": "15",
       "secenekler": [
-        "8",
-        "15",
+        "10",
         "20",
-        "10"
+        "8",
+        "15"
       ],
       "ipucu": "5'er üç kez say."
     },
@@ -1143,10 +1179,10 @@
       "soru": "2'şer geriye sayarken 12'den sonra hangisi gelir?",
       "dogruCevap": "10",
       "secenekler": [
-        "14",
         "10",
-        "11",
-        "8"
+        "8",
+        "14",
+        "11"
       ],
       "ipucu": "12'den 2 eksilt."
     },
@@ -1157,10 +1193,10 @@
       "soru": "Hangisi yanlıştır?",
       "dogruCevap": "10, 20, 25, 30",
       "secenekler": [
-        "2, 4, 6, 8",
+        "5, 10, 15, 20",
         "3, 6, 9, 12",
         "10, 20, 25, 30",
-        "5, 10, 15, 20"
+        "2, 4, 6, 8"
       ],
       "ipucu": "10'ar saymada 25 olmaz."
     },
@@ -1171,10 +1207,10 @@
       "soru": "Elanaz 4'er sayarak topladığı kestaneleri sayıyor: 4, 8, 12, 16. Kaç kestanesi var?",
       "dogruCevap": "16",
       "secenekler": [
+        "4",
         "12",
-        "20",
         "16",
-        "4"
+        "20"
       ],
       "ipucu": "Son sayı toplamı verir."
     },
@@ -1186,9 +1222,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "6",
-        "2",
         "5",
-        "3"
+        "3",
+        "2"
       ],
       "ipucu": "Soruda yalnızca KALEMLER soruluyor, dikkatle oku",
       "sasirtma": true
@@ -1200,9 +1236,9 @@
       "soru": "60, 70, 80, 90... Bu saymada 90'dan sonra hangisi gelir?",
       "dogruCevap": "100",
       "secenekler": [
+        "110",
         "100",
         "91",
-        "110",
         "95"
       ],
       "ipucu": "90'a 10 ekle."
@@ -1214,10 +1250,10 @@
       "soru": "Hangisi 3'er geriye saymadır?",
       "dogruCevap": "12, 9, 6, 3",
       "secenekler": [
+        "12, 9, 6, 3",
         "12, 11, 10, 9",
-        "3, 6, 9, 12",
         "12, 10, 8, 6",
-        "12, 9, 6, 3"
+        "3, 6, 9, 12"
       ],
       "ipucu": "Her adımda 3 eksilir."
     },
@@ -1228,10 +1264,10 @@
       "soru": "Eksik sayı hangisidir? 16, 20, __, 28",
       "dogruCevap": "24",
       "secenekler": [
-        "26",
-        "21",
+        "24",
         "22",
-        "24"
+        "26",
+        "21"
       ],
       "ipucu": "4'er sayıyoruz."
     },
@@ -1242,10 +1278,10 @@
       "soru": "Arabaların 4 tekerleği var. 4'er sayarak 3 arabanın tekerleklerini bul.",
       "dogruCevap": "12",
       "secenekler": [
-        "12",
-        "7",
+        "8",
         "16",
-        "8"
+        "12",
+        "7"
       ],
       "ipucu": "4'er üç kez say."
     },
@@ -1256,10 +1292,10 @@
       "soru": "1'er geriye sayarken 41'den sonra hangisi gelir?",
       "dogruCevap": "40",
       "secenekler": [
-        "45",
         "40",
-        "42",
-        "39"
+        "45",
+        "39",
+        "42"
       ],
       "ipucu": "41'den 1 eksilt."
     },
@@ -1270,10 +1306,10 @@
       "soru": "Hangisi hem 2'şer hem 5'er saymada söylenir?",
       "dogruCevap": "10",
       "secenekler": [
-        "15",
         "12",
-        "4",
-        "10"
+        "10",
+        "15",
+        "4"
       ],
       "ipucu": "İki listeyi de düşün — hangi sayı ikisinde de var?",
       "sasirtma": true
@@ -1285,10 +1321,10 @@
       "soru": "Elanaz kumbarasındaki paraları 5'er sayıyor: 5, 10, 15, 20, 25. Kaç lirası var?",
       "dogruCevap": "25",
       "secenekler": [
-        "20",
-        "25",
         "30",
-        "5"
+        "25",
+        "5",
+        "20"
       ],
       "ipucu": "Son sayı toplamı verir."
     },
@@ -1313,10 +1349,10 @@
       "soru": "10'ar geriye sayarken 50'den sonra hangisi gelir?",
       "dogruCevap": "40",
       "secenekler": [
-        "40",
-        "30",
+        "45",
         "60",
-        "45"
+        "30",
+        "40"
       ],
       "ipucu": "50'den 10 eksilt."
     },
@@ -1327,10 +1363,10 @@
       "soru": "Hangi sayma en hızlı 100'e ulaştırır?",
       "dogruCevap": "10'ar",
       "secenekler": [
-        "5'er",
         "2'şer",
-        "10'ar",
-        "1'er"
+        "1'er",
+        "5'er",
+        "10'ar"
       ],
       "ipucu": "En büyük adımla saymak daha hızlıdır."
     },
@@ -1341,10 +1377,10 @@
       "soru": "Elanaz geriye doğru ikişer sayıyor: 18 - 16 - 14 - ? - 10. Soru işareti yerine hangisi gelmelidir?",
       "dogruCevap": "12",
       "secenekler": [
-        "15",
         "12",
+        "11",
         "13",
-        "11"
+        "15"
       ],
       "ipucu": "14'ten 2 eksilt."
     },
@@ -1355,10 +1391,10 @@
       "soru": "Üçer ritmik saymada 21'den sonra gelen sayı hangisidir?",
       "dogruCevap": "24",
       "secenekler": [
+        "25",
         "23",
-        "24",
         "22",
-        "25"
+        "24"
       ],
       "ipucu": "21'e 3 ekle."
     },
@@ -1369,10 +1405,10 @@
       "soru": "Beşer ileriye doğru sayarken hangisini en son söyleriz?",
       "dogruCevap": "45",
       "secenekler": [
-        "30",
+        "40",
         "35",
         "45",
-        "40"
+        "30"
       ],
       "ipucu": "Sıradaki en büyük sayı."
     },
@@ -1383,10 +1419,10 @@
       "soru": "Elanaz her gün 10 sayfa kitap okuyor. 4 günün sonunda okuduğu sayfa sayıları sırasıyla hangisidir?",
       "dogruCevap": "10-20-30-40",
       "secenekler": [
-        "5-10-15-20",
+        "10-11-12-13",
         "10-15-20-25",
-        "10-20-30-40",
-        "10-11-12-13"
+        "5-10-15-20",
+        "10-20-30-40"
       ],
       "ipucu": "10'ar dört gün say."
     },
@@ -1397,10 +1433,10 @@
       "soru": "Dörder ileriye doğru sayarken 16 ile 24'ün tam ortasında hangi sayı bulunur?",
       "dogruCevap": "20",
       "secenekler": [
-        "20",
+        "18",
         "22",
-        "26",
-        "18"
+        "20",
+        "26"
       ],
       "ipucu": "16'dan 4'er git."
     },
@@ -1411,10 +1447,10 @@
       "soru": "Geriye doğru birer sayarken 70'ten SONRA hangi sayıyı söyleriz?",
       "dogruCevap": "69",
       "secenekler": [
-        "80",
-        "69",
         "60",
-        "71"
+        "71",
+        "80",
+        "69"
       ],
       "ipucu": "70'ten 1 eksilt."
     },
@@ -1425,10 +1461,10 @@
       "soru": "Elanaz dörder ileriye doğru sayıyor: 4, 8, 12, 16, 20. Aşağıdaki sayılardan hangisi bu saymada DEĞİLDİR?",
       "dogruCevap": "18",
       "secenekler": [
-        "16",
+        "20",
         "12",
-        "18",
-        "20"
+        "16",
+        "18"
       ],
       "ipucu": "Diziyi tek tek kontrol et",
       "sasirtma": true
@@ -1441,9 +1477,9 @@
       "dogruCevap": "21",
       "secenekler": [
         "21",
-        "18",
         "15",
-        "12"
+        "12",
+        "18"
       ],
       "ipucu": "9'dan 4 adım 3'er say."
     },
@@ -1454,10 +1490,10 @@
       "soru": "İkişer ileriye sayarken aşağıdaki sayılardan hangisini asla söylemeyiz?",
       "dogruCevap": "15",
       "secenekler": [
-        "14",
         "15",
         "16",
-        "18"
+        "18",
+        "14"
       ],
       "ipucu": "2'şer sayıda tek sayılar gelmez."
     },
@@ -1468,10 +1504,10 @@
       "soru": "Elanaz'ın tokaları beşerli gruplar halinde duruyor. 5, 10, 15, ?, 25. Boşluğa hangisi gelmelidir?",
       "dogruCevap": "20",
       "secenekler": [
-        "16",
-        "20",
         "30",
-        "22"
+        "22",
+        "16",
+        "20"
       ],
       "ipucu": "15'e 5 ekle."
     },
@@ -1482,10 +1518,10 @@
       "soru": "40'tan başlayıp geriye doğru onar sayarken 3. sırada hangi sayıyı söyleriz? (40 dahil)",
       "dogruCevap": "20",
       "secenekler": [
-        "20",
-        "0",
         "10",
-        "30"
+        "0",
+        "30",
+        "20"
       ],
       "ipucu": "40, 30, 20..."
     },
@@ -1510,10 +1546,10 @@
       "soru": "Elanaz bahçeden topladığı 12 çiçeği üçerli demetler yapıyor. Demetleri üçer sayarsak hangisini söyleriz?",
       "dogruCevap": "3-6-9-12",
       "secenekler": [
-        "4-8-12-16",
-        "3-6-9-12",
         "5-10-15-20",
-        "2-4-6-8"
+        "2-4-6-8",
+        "4-8-12-16",
+        "3-6-9-12"
       ],
       "ipucu": "3'er say."
     },
@@ -1524,10 +1560,10 @@
       "soru": "15'ten başlayıp geriye doğru üçer sayarken 9'dan önce hangi sayıyı söyleriz?",
       "dogruCevap": "12",
       "secenekler": [
-        "10",
-        "6",
         "12",
-        "8"
+        "8",
+        "10",
+        "6"
       ],
       "ipucu": "9'dan 3 eksilt."
     },
@@ -1538,10 +1574,10 @@
       "soru": "Onar ritmik saymada 60'tan bir sonraki sayı kaçtır?",
       "dogruCevap": "70",
       "secenekler": [
-        "70",
         "50",
-        "61",
-        "80"
+        "70",
+        "80",
+        "61"
       ],
       "ipucu": "60'a 10 ekle."
     },
@@ -1552,10 +1588,10 @@
       "soru": "Elanaz merdivenleri ikişer ikişer çıkıyor. 6. basamaktan sonra hangi basamağa basar?",
       "dogruCevap": "8",
       "secenekler": [
-        "9",
-        "10",
         "8",
-        "7"
+        "7",
+        "9",
+        "10"
       ],
       "ipucu": "6'dan sonra 8 gelir."
     },
@@ -1566,8 +1602,8 @@
       "soru": "Beşer ileriye sayarken 50'ye ulaştık. Onar ileriye sayarken de 50'ye ulaşırız. Bu iki saymada 50'den bir önce söylenen sayılar hakkında hangisi doğrudur?",
       "dogruCevap": "Beşer saymada 45, onar saymada 40 söylenir.",
       "secenekler": [
-        "Beşer saymada 45, onar saymada 40 söylenir.",
         "İkisinde de 45 söylenir.",
+        "Beşer saymada 45, onar saymada 40 söylenir.",
         "Beşer saymada 40, onar saymada 45 söylenir.",
         "İkisinde de 40 söylenir."
       ],
@@ -1581,10 +1617,10 @@
       "soru": "Dörder ritmik saymada 32'den sonra gelen sayı hangisidir?",
       "dogruCevap": "36",
       "secenekler": [
-        "40",
-        "36",
         "34",
-        "38"
+        "38",
+        "40",
+        "36"
       ],
       "ipucu": "32'ye 4 ekle."
     },
@@ -1595,10 +1631,10 @@
       "soru": "90'dan geriye doğru onar sayarken 50'den hemen sonra hangisini söyleriz?",
       "dogruCevap": "40",
       "secenekler": [
-        "30",
-        "70",
         "60",
-        "40"
+        "40",
+        "70",
+        "30"
       ],
       "ipucu": "50'den 10 eksilt."
     },
@@ -1609,10 +1645,10 @@
       "soru": "Elanaz her gün kumbarasından 2 lira alıp harcıyor. Kumbarada 20 lira vardı. Geriye doğru sayarsak 3 gün sonra kaç lira kalır?",
       "dogruCevap": "14",
       "secenekler": [
-        "12",
         "16",
         "14",
-        "18"
+        "18",
+        "12"
       ],
       "ipucu": "Her gün 2 eksilt."
     },
@@ -1623,10 +1659,10 @@
       "soru": "Üçer ileriye sayarken 12'den başlayarak 3 sayma yaparsak hangi sayıya geliriz?",
       "dogruCevap": "21",
       "secenekler": [
-        "21",
-        "15",
         "18",
-        "24"
+        "21",
+        "24",
+        "15"
       ],
       "ipucu": "12, 15, 18, 21"
     },
@@ -1637,10 +1673,10 @@
       "soru": "Beşer geriye doğru sayarken 45'ten önce hangi sayıyı söylemiştik?",
       "dogruCevap": "50",
       "secenekler": [
-        "35",
-        "50",
+        "55",
         "40",
-        "55"
+        "35",
+        "50"
       ],
       "ipucu": "45'ten önce 50 gelir."
     },
@@ -1651,10 +1687,10 @@
       "soru": "Elanaz masadaki 4 kutunun her birine dörder kalem koydu. Kalemleri dörder sayalım:",
       "dogruCevap": "4-8-12-16",
       "secenekler": [
-        "2-4-6-8",
+        "10-20-30-40",
         "4-8-12-16",
-        "4-5-6-7",
-        "10-20-30-40"
+        "2-4-6-8",
+        "4-5-6-7"
       ],
       "ipucu": "4'er dört kutu."
     },
@@ -1666,9 +1702,9 @@
       "dogruCevap": "90",
       "secenekler": [
         "90",
-        "100",
+        "88",
         "91",
-        "88"
+        "100"
       ],
       "ipucu": "89'a 1 ekle."
     },
@@ -1679,12 +1715,56 @@
       "soru": "İkişer geriye doğru sayarken 10'dan önce hangi sayı gelir?",
       "dogruCevap": "12",
       "secenekler": [
-        "8",
         "12",
         "9",
+        "8",
         "11"
       ],
       "ipucu": "Soru metnindeki sırayı dikkatle oku."
+    },
+    {
+      "id": "rit-tb1",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "tablo-boyama",
+      "yonerge": "2'den başlayarak ileriye doğru ikişer sayalım. Söylediğimiz sayıları tabloda boyayalım.",
+      "tabloBaslangic": 1,
+      "tabloBitis": 20,
+      "dogruHucreler": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "sasirtma": false,
+      "ipucu": "İkişer sayarken her sayı bir öncekinden 2 fazladır.",
+      "dogruCevap": "2, 4, 6, 8, 10, 12, 14, 16, 18, 20"
+    },
+    {
+      "id": "rit-tb2",
+      "kazanimKodu": "MAT.2.1.3",
+      "tip": "tablo-boyama",
+      "yonerge": "5'ten başlayarak ileriye doğru beşer sayalım. Söylediğimiz sayıları tabloda boyayalım.",
+      "tabloBaslangic": 1,
+      "tabloBitis": 40,
+      "dogruHucreler": [
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40
+      ],
+      "sasirtma": false,
+      "ipucu": "5'er sayarken her adımda 5 eklenir.",
+      "dogruCevap": "5, 10, 15, 20, 25, 30, 35, 40"
     }
   ]
 }

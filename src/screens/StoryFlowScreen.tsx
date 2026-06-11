@@ -8,6 +8,7 @@ import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
+import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'StoryFlow'>;
 
@@ -74,8 +75,8 @@ export function StoryFlowScreen({ route, navigation }: Props) {
       verilenCevap: cevap,
       dogruMu,
       tarih: new Date().toISOString(),
-      soruMetni: soru.soru,
-      dogruCevap: soru.dogruCevap,
+      soruMetni: soruMetni(soru),
+      dogruCevap: soruCevapAnahtari(soru),
       tip: 'hikaye',
     });
     setCevapBekleniyor(true);

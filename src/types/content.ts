@@ -1,22 +1,43 @@
-export type SoruTipi = 'yazili' | 'coktanSecmeli';
+export type SoruTipi = 'yazili' | 'coktanSecmeli' | 'eslestirme' | 'tablo-boyama';
 export type CevapTipi = 'sayi' | 'metin';
+
+export interface GorselSayiSeridi {
+  tur: 'sayi-seridi';
+  baslangic: number;
+  adim: number;
+  adimSayisi: number;
+  vurgulananlar?: number[];
+}
+
+export type Gorsel = string | GorselSayiSeridi | null;
 
 export interface AnlatimEkrani {
   metin: string;
-  gorsel?: string | null;
+  gorsel?: Gorsel;
+}
+
+export interface EslestirmeCift {
+  sol: string;
+  sag: string;
 }
 
 export interface Soru {
   id: string;
   kazanimKodu: string;
   tip: SoruTipi;
-  soru: string;
-  dogruCevap: string;
+  soru?: string;
+  yonerge?: string;
+  dogruCevap?: string;
   ipucu: string;
   secenekler?: string[];
   cevapTipi?: CevapTipi;
-  gorsel?: string | null;
+  gorsel?: Gorsel;
   sasirtma?: boolean;
+  ciftler?: EslestirmeCift[];
+  tabloBaslangic?: number;
+  tabloBitis?: number;
+  dogruHucreler?: number[];
+  alternatifCevaplar?: string[];
 }
 
 export interface Konu {
@@ -30,7 +51,7 @@ export interface Konu {
 
 export interface HikayeSayfa {
   metin: string;
-  gorsel?: string | null;
+  gorsel?: Gorsel;
 }
 
 export interface Hikaye {

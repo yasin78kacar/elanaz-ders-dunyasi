@@ -4,6 +4,7 @@ import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
+import { soruMetni } from '../utils/soruHelpers';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -49,7 +50,7 @@ export function TestQuestion({ soru, onAnswer }: Props) {
   return (
     <View style={styles.container}>
       <ContentIllustration gorsel={soru.gorsel} />
-      <Text style={styles.soru}>{soru.soru}</Text>
+      <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <Text style={styles.hakMetni}>
         Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}
       </Text>
