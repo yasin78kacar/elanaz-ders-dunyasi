@@ -5,6 +5,7 @@ import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
+import { secenekGosterim } from '../utils/secenekGosterim';
 import { SecenekIkon } from './nesneler/SecenekIkon';
 
 const MAX_DEGISIKLIK = 2;
@@ -65,27 +66,33 @@ export function TestQuestion({ soru, onAnswer }: Props) {
               key={secenek}
               onPress={() => secimYap(secenek)}
               disabled={kilitli || durum !== 'bekle'}
-              style={[
-                styles.secenek,
-                secili && !dogruGoster && !yanlisGoster && styles.secenekSecili,
-                dogruGoster && styles.secenekDogru,
-                yanlisGoster && styles.secenekYanlis,
-              ]}
+              style={styles.secenekHit}
             >
-              <View style={styles.secenekIcerik}>
-                {soru.secenekIkonlari?.[secenek] && (
-                  <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={32} />
-                )}
-                <Text
-                  style={[
-                    styles.secenekMetin,
-                    secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
-                    dogruGoster && styles.secenekMetinDogru,
-                    yanlisGoster && styles.secenekMetinYanlis,
-                  ]}
-                >
-                  {secenek}
-                </Text>
+              <View
+                style={[
+                  styles.secenek,
+                  secili && !dogruGoster && !yanlisGoster && styles.secenekSecili,
+                  dogruGoster && styles.secenekDogru,
+                  yanlisGoster && styles.secenekYanlis,
+                ]}
+              >
+                <View style={styles.secenekIcerik}>
+                  {soru.secenekIkonlari?.[secenek] && (
+                    <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={32} />
+                  )}
+                  <Text
+                    adjustsFontSizeToFit={false}
+                    style={[
+                      styles.secenekMetin,
+                      { minWidth: Math.max(28, secenekGosterim(secenek).length * 12) },
+                      secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
+                      dogruGoster && styles.secenekMetinDogru,
+                      yanlisGoster && styles.secenekMetinYanlis,
+                    ]}
+                  >
+                    {secenekGosterim(secenek)}
+                  </Text>
+                </View>
               </View>
             </Pressable>
           );
@@ -126,6 +133,9 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   secenekler: { gap: 12 },
+  secenekHit: {
+    borderRadius: 12,
+  },
   secenekIcerik: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -137,8 +147,10 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: colors.kenarlik,
     borderRadius: 12,
-    padding: 16,
+    paddingVertical: 16,
+    paddingHorizontal: 20,
     backgroundColor: colors.kart,
+    overflow: 'visible',
   },
   secenekSecili: {
     borderColor: colors.birincil,
@@ -153,9 +165,11 @@ const styles = StyleSheet.create({
     backgroundColor: colors.hataAcik,
   },
   secenekMetin: {
+    flexShrink: 0,
     fontSize: 18,
     color: colors.metin,
     textAlign: 'center',
+    paddingHorizontal: 2,
   },
   secenekMetinSecili: {
     color: colors.birincil,
