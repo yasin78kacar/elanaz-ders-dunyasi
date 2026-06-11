@@ -1,4 +1,5 @@
 export { GEO } from './colors';
+export { IllustrationColumn } from './IllustrationColumn';
 export { ModellerIcon, type ModelTipi } from './ModellerIcon';
 export { NesnelerIcon, type NesneTipi } from './NesnelerIcon';
 export { NesneGorsel } from './NesneGorsel';

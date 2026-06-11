@@ -1,4 +1,6 @@
+import { StyleSheet, View } from 'react-native';
 import Svg, { Circle, Ellipse, Line, Rect, Text as SvgText } from 'react-native-svg';
+import { IllustrationColumn } from '../../src/components/nesneler/IllustrationColumn';
 
 export const GEO = {
   kirmizi: '#E53935',
@@ -130,51 +132,73 @@ export function NesneIkon({ tip, size = 36 }: IkonProps) {
 }
 
 function Anlatim1() {
-  const w = 300;
-  const h = 100;
   return (
-    <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
-      <Circle cx={75} cy={42} r={32} fill={GEO.kirmizi} />
-      <Circle cx={62} cy={30} r={7} fill="#FFCDD2" opacity={0.9} />
-      <SvgText x={75} y={88} fontSize={12} fill={GEO.metin} textAnchor="middle" fontWeight="700">
-        yuvarlak
-      </SvgText>
-      <Rect x={175} y={18} width={50} height={48} fill={GEO.mavi} rx={3} />
-      <Line x1={188} y1={18} x2={188} y2={66} stroke={GEO.beyaz} strokeWidth={2} />
-      <SvgText x={200} y={88} fontSize={12} fill={GEO.metin} textAnchor="middle" fontWeight="700">
-        köşeli
-      </SvgText>
-    </Svg>
+    <View style={geoStyles.satir}>
+      <IllustrationColumn label="yuvarlak" width={100}>
+        <Svg width={72} height={72} viewBox="0 0 72 72">
+          <Circle cx={36} cy={36} r={32} fill={GEO.kirmizi} />
+          <Circle cx={28} cy={26} r={7} fill="#FFCDD2" opacity={0.9} />
+        </Svg>
+      </IllustrationColumn>
+      <IllustrationColumn label="köşeli" width={100}>
+        <Svg width={56} height={56} viewBox="0 0 56 56">
+          <Rect x={4} y={4} width={48} height={48} fill={GEO.mavi} rx={3} />
+          <Line x1={20} y1={4} x2={20} y2={52} stroke={GEO.beyaz} strokeWidth={2} />
+        </Svg>
+      </IllustrationColumn>
+    </View>
   );
 }
 
 function Anlatim2() {
-  const w = 320;
-  const h = 95;
-  const nesneler: { tip: NesneTipi; etiket: string; cx: number }[] = [
-    { tip: 'top', etiket: 'top', cx: 45 },
-    { tip: 'portakal', etiket: 'portakal', cx: 115 },
-    { tip: 'misket', etiket: 'misket', cx: 185 },
-    { tip: 'karpuz', etiket: 'karpuz', cx: 255 },
+  const items = [
+    {
+      label: 'top',
+      gorsel: (
+        <Svg width={60} height={60} viewBox="0 0 60 60">
+          <Circle cx={30} cy={30} r={28} fill={GEO.kirmizi} />
+          <Circle cx={22} cy={22} r={6} fill="#FFCDD2" />
+        </Svg>
+      ),
+    },
+    {
+      label: 'portakal',
+      gorsel: (
+        <Svg width={56} height={56} viewBox="0 0 56 56">
+          <Circle cx={28} cy={32} r={26} fill={GEO.turuncu} />
+          <Ellipse cx={28} cy={8} rx={7} ry={4} fill={GEO.yesil} />
+        </Svg>
+      ),
+    },
+    {
+      label: 'misket',
+      gorsel: (
+        <Svg width={52} height={52} viewBox="0 0 52 52">
+          <Circle cx={26} cy={26} r={22} fill={GEO.mavi} opacity={0.85} />
+          <Circle cx={20} cy={20} r={5} fill="#BBDEFB" />
+        </Svg>
+      ),
+    },
+    {
+      label: 'karpuz',
+      gorsel: (
+        <Svg width={56} height={56} viewBox="0 0 56 56">
+          <Circle cx={28} cy={30} r={26} fill={GEO.yesil} />
+          <Line x1={20} y1={10} x2={20} y2={50} stroke="#2E7D32" strokeWidth={1.5} />
+          <Line x1={28} y1={10} x2={28} y2={50} stroke="#2E7D32" strokeWidth={1.5} />
+          <Line x1={36} y1={10} x2={36} y2={50} stroke="#2E7D32" strokeWidth={1.5} />
+        </Svg>
+      ),
+    },
   ];
   return (
-    <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
-      {nesneler.map(({ etiket, cx }) => (
-        <SvgText key={etiket} x={cx} y={88} fontSize={10} fill={GEO.metin} textAnchor="middle">
-          {etiket}
-        </SvgText>
+    <View style={geoStyles.satir}>
+      {items.map((item) => (
+        <IllustrationColumn key={item.label} label={item.label} width={76}>
+          {item.gorsel}
+        </IllustrationColumn>
       ))}
-      <Circle cx={45} cy={38} r={28} fill={GEO.kirmizi} />
-      <Circle cx={34} cy={28} r={6} fill="#FFCDD2" />
-      <Circle cx={115} cy={42} r={26} fill={GEO.turuncu} />
-      <Ellipse cx={115} cy={14} rx={7} ry={4} fill={GEO.yesil} />
-      <Circle cx={185} cy={40} r={22} fill={GEO.mavi} opacity={0.85} />
-      <Circle cx={177} cy={32} r={5} fill="#BBDEFB" />
-      <Circle cx={255} cy={42} r={26} fill={GEO.yesil} />
-      <Line x1={245} y1={20} x2={245} y2={68} stroke="#2E7D32" strokeWidth={1.5} />
-      <Line x1={255} y1={20} x2={255} y2={68} stroke="#2E7D32" strokeWidth={1.5} />
-      <Line x1={265} y1={20} x2={265} y2={68} stroke="#2E7D32" strokeWidth={1.5} />
-    </Svg>
+    </View>
   );
 }
 
@@ -261,6 +285,16 @@ function PortakalMisket() {
 function TekNesne({ tip }: { tip: NesneTipi }) {
   return <NesneIkon tip={tip} size={80} />;
 }
+
+const geoStyles = StyleSheet.create({
+  satir: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    gap: 8,
+    paddingVertical: 4,
+  },
+});
 
 /** Nesne sahne anahtarları → illüstrasyon */
 export function GeoGorsel({ sahne }: { sahne: string }) {
