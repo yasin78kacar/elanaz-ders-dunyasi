@@ -5,6 +5,7 @@ import { CizimKalemleri, PanoyaAsilanResim, RenkKaristirma } from '../../assets/
 import { SayiSeridi } from './SayiSeridi';
 import { GeoGorsel } from '../../assets/illustrations/GeometriIllustrations';
 import { NesneGorsel } from './nesneler/NesneGorsel';
+import { SekilGorsel } from './nesneler/SekilGorsel';
 import { colors } from '../theme/colors';
 import type { Gorsel } from '../types/content';
 
@@ -20,7 +21,9 @@ export function ContentIllustration({ gorsel }: Props) {
       <View style={styles.kutu}>
         {gorsel.tur === 'sayi-seridi' && <SayiSeridi {...gorsel} />}
         {gorsel.tur === 'nesne' &&
-          (gorsel.sahne.startsWith('g2m-') ? (
+          (gorsel.sahne.startsWith('g3m-') ? (
+            <SekilGorsel sahne={gorsel.sahne} />
+          ) : gorsel.sahne.startsWith('g2m-') ? (
             <NesneGorsel sahne={gorsel.sahne} />
           ) : (
             <GeoGorsel sahne={gorsel.sahne} />

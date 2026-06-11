@@ -18,8 +18,11 @@ export interface GorselNesne {
 export type SecenekIkon =
   | { tip: 'nesne'; anahtar: string }
   | { tip: 'model'; anahtar: string }
+  | { tip: 'sekil'; anahtar: string }
+  | { tip: 'sekil-nesne'; anahtar: string }
   | { tip: 'cift'; sol: string; sag: string }
-  | { tip: 'eslestirme'; nesne: string; model: string };
+  | { tip: 'eslestirme'; nesne: string; model: string }
+  | { tip: 'eslestirme-sekil'; nesne: string; sekil: string };
 
 export type Gorsel = string | GorselSayiSeridi | GorselNesne | null;
 

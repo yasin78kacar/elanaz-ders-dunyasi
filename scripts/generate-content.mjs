@@ -28,6 +28,7 @@ import {
 } from './gorev-3d-questions.mjs';
 import { geoGorselEkle } from './gorev-3e-gorseller.mjs';
 import { geometrikCisimModelleri } from './gorev-3f-questions.mjs';
+import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -313,6 +314,10 @@ writeFileSync(
   join(contentDir, 'geometrik-cisim-modelleri.json'),
   JSON.stringify(geometrikCisimModelleri(karistir), null, 2),
 );
+writeFileSync(
+  join(contentDir, 'geometrik-sekil-modelleri.json'),
+  JSON.stringify(geometrikSekilModelleri(karistir), null, 2),
+);
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -389,6 +394,7 @@ const index = {
           konuDosyalari: [
             'matematik/geometrik-cisimler.json',
             'matematik/geometrik-cisim-modelleri.json',
+            'matematik/geometrik-sekil-modelleri.json',
           ],
         },
         {
