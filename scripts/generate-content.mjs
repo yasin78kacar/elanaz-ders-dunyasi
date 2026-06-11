@@ -9,6 +9,7 @@ import {
   gorev3bSayiTest,
 } from './gorev-3b-questions.mjs';
 import { geometrikCisimler, gorev3RitmikTablo, sayiSeridiGorselEkle } from './gorev-3-content.mjs';
+import { gorev3cAlistirma, gorev3cTest } from './gorev-3c-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
@@ -249,7 +250,12 @@ const ritmikSayma = {
   test: sayiSeridiGorselEkle([...ritmikTest(), ...gorev2bTest(karistir), ...gorev3RitmikTablo()]),
 };
 
-const geometrikCisimlerKonu = geometrikCisimler(karistir);
+const geoBase = geometrikCisimler(karistir);
+const geometrikCisimlerKonu = {
+  ...geoBase,
+  alistirma: [...geoBase.alistirma, ...gorev3cAlistirma()],
+  test: [...geoBase.test, ...gorev3cTest(karistir)],
+};
 
 const sayiOkuma = {
   id: 'sayilari-okuma-yazma',
@@ -386,7 +392,16 @@ const index = {
 
 writeFileSync(join(__dirname, '../content/sinif2/index.json'), JSON.stringify(index, null, 2));
 console.log('İçerik dosyaları oluşturuldu.');
-console.log('Geometrik:', geometrikCisimlerKonu.alistirma.length, '+', geometrikCisimlerKonu.test.length);
+const geoEslestirme = geometrikCisimlerKonu.test.filter((s) => s.tip === 'eslestirme').length;
+const geoTestMc = geometrikCisimlerKonu.test.filter((s) => s.tip === 'coktanSecmeli').length;
+console.log(
+  'Geometrik:',
+  geometrikCisimlerKonu.alistirma.length,
+  'alistirma +',
+  geometrikCisimlerKonu.test.length,
+  `test (çoktan: ${geoTestMc}, eşleştirme: ${geoEslestirme}) =`,
+  geometrikCisimlerKonu.alistirma.length + geometrikCisimlerKonu.test.length,
+);
 console.log('Ritmik:', ritmikSayma.alistirma.length, '+', ritmikSayma.test.length);
 console.log('Sayı okuma:', sayiOkuma.alistirma.length, '+', sayiOkuma.test.length);
 console.log('Onluk birlik:', onlukBirlik.alistirma.length, '+', onlukBirlik.test.length);
