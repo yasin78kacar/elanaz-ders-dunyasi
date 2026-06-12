@@ -15,6 +15,7 @@
  * - { tur: "veri", mod, ... } → VeriGorsel (TEMA5 veri)
  * - { tur: "kesir", mod, ... } → KesirGorsel (TEMA6 kesirler)
  * - { tur: "turkce", mod, ... } → TurkceGorsel (Türkçe Tema 1)
+ * - { tur: "fen", mod, ... } → FenGorsel (Fen Bilimleri Tema 1)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -58,13 +59,16 @@ import {
   seslerVeHeceler,
 } from './gorev-turkce1-questions.mjs';
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
+import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
 const turkceDir = join(__dirname, '../content/sinif2/turkce');
+const fenDir = join(__dirname, '../content/sinif2/fen-bilimleri');
 mkdirSync(contentDir, { recursive: true });
 mkdirSync(turkceDir, { recursive: true });
+mkdirSync(fenDir, { recursive: true });
 
 function karistir(arr) {
   const a = [...arr];
@@ -416,6 +420,13 @@ writeFileSync(join(turkceDir, 'hikaye-metni.json'), JSON.stringify(hikayeMetniKo
 writeFileSync(join(turkceDir, 'siir.json'), JSON.stringify(siirKonu, null, 2));
 writeFileSync(join(turkceDir, 'bilgi-metni.json'), JSON.stringify(bilgiMetniKonu, null, 2));
 
+const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
+const bitkilerKonu = bitkiler(karistir);
+const hayvanlarKonu = hayvanlar(karistir);
+writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlilarVeCansizlarKonu, null, 2));
+writeFileSync(join(fenDir, 'bitkiler.json'), JSON.stringify(bitkilerKonu, null, 2));
+writeFileSync(join(fenDir, 'hayvanlar.json'), JSON.stringify(hayvanlarKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -571,6 +582,21 @@ const index = {
       ],
     },
     { id: 'hayat-bilgisi', baslik: 'Hayat Bilgisi', unite: [] },
+    {
+      id: 'fen-bilimleri',
+      baslik: 'Fen Bilimleri',
+      unite: [
+        {
+          id: 'tema-1',
+          baslik: 'Fen Bilimleri — Tema 1',
+          konuDosyalari: [
+            'fen-bilimleri/canlilar-ve-cansizlar.json',
+            'fen-bilimleri/bitkiler.json',
+            'fen-bilimleri/hayvanlar.json',
+          ],
+        },
+      ],
+    },
     { id: 'ingilizce', baslik: 'İngilizce', unite: [] },
     { id: 'gorsel-sanatlar', baslik: 'Görsel Sanatlar', unite: [] },
     {
@@ -635,6 +661,9 @@ console.log('Noktalama ve yazım:', noktalamaVeYazimKonu.alistirma.length, '+', 
 console.log('Hikâye metni:', hikayeMetniKonu.alistirma.length, '+', hikayeMetniKonu.test.length);
 console.log('Şiir:', siirKonu.alistirma.length, '+', siirKonu.test.length);
 console.log('Bilgi metni:', bilgiMetniKonu.alistirma.length, '+', bilgiMetniKonu.test.length);
+console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
+console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
+console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

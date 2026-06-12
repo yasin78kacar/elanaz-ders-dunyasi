@@ -150,6 +150,17 @@ export interface GorselKesir {
   alinan?: number;
 }
 
+/** Fen Bilimleri — FenGorsel'de tanımlı */
+export interface GorselFen {
+  tur: 'fen';
+  mod?: 'anlatim' | 'nesne' | 'grup' | 'bitki' | 'hayvan';
+  sahne?: string;
+  nesne?: string;
+  nesneler?: string[];
+  vurgu?: string | string[];
+  ozellik?: string;
+}
+
 /** Türkçe — TurkceGorsel'de tanımlı */
 export interface GorselTurkce {
   tur: 'turkce';
@@ -180,6 +191,7 @@ export type Gorsel =
   | GorselOlcme
   | GorselVeri
   | GorselKesir
+  | GorselFen
   | GorselTurkce
   | null;
 

@@ -1,0 +1,917 @@
+{
+  "id": "canlilar-ve-cansizlar",
+  "baslik": "Canlılar ve Cansızlar",
+  "kazanimKodu": "FEN.2.1.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Dünyamızda canlılar ve cansızlar vardır. Canlılar; kedi, kuş, ağaç, çiçek gibi büyüyen ve beslenen varlıklardır. Cansızlar; taş, kitap, masa gibi büyümeyen varlıklardır.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "cc-anlatim-1"
+        }
+      },
+      {
+        "metin": "Canlıların 7 yaşam özelliği vardır: Büyür, beslenir, solur, ürer, hareket eder, tepki verir ve ölür.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "cc-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bir varlığın canlı olup olmadığını anlamak için yaşam özelliklerine bakarız. Hepsini gösteriyorsa canlıdır!",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "cc-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "cc-a1",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Kedi canlı mı cansız mı?",
+      "dogruCevap": "Canlı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      }
+    },
+    {
+      "id": "cc-a2",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Taş canlı mı cansız mı?",
+      "dogruCevap": "Cansız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tas"
+      }
+    },
+    {
+      "id": "cc-a3",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlıların kaç yaşam özelliği vardır?",
+      "dogruCevap": "7",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-a4",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar büyür mü?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "cc-a5",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Taş büyür mü?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tas"
+      }
+    },
+    {
+      "id": "cc-a6",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar beslenir mi?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      }
+    },
+    {
+      "id": "cc-a7",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Masanın beslenmesi gerekir mi?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "masa"
+      }
+    },
+    {
+      "id": "cc-a8",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar solur mu?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "insan"
+      }
+    },
+    {
+      "id": "cc-a9",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Kitap solur mu?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "cc-a10",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar ürer mi?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      }
+    },
+    {
+      "id": "cc-a11",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Araba ürer mi?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "araba"
+      }
+    },
+    {
+      "id": "cc-a12",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar hareket eder mi?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kus"
+      }
+    },
+    {
+      "id": "cc-a13",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Kaya kendiliğinden hareket eder mi?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kaya"
+      }
+    },
+    {
+      "id": "cc-a14",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar tepki verir mi?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "cc-a15",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Ağaç canlı mı?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "cc-a16",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Top canlı mı?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "top"
+      }
+    },
+    {
+      "id": "cc-a17",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "İnsan canlı mı?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "insan"
+      }
+    },
+    {
+      "id": "cc-a18",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Güneş canlı mı?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "cc-a19",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Çiçek büyür mü?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "cc-a20",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlılar ölür mü?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-a21",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Canlıların yaşam özelliklerinden üçünü yaz",
+      "dogruCevap": "Büyür, beslenir, solur",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-a22",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Kelebek canlı mı?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kelebek"
+      }
+    },
+    {
+      "id": "cc-a23",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Kalem canlı mı?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kalem"
+      }
+    },
+    {
+      "id": "cc-a24",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Beslenmeyen varlık canlı olabilir mi?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kedi",
+          "kitap"
+        ],
+        "vurgu": "kedi"
+      }
+    },
+    {
+      "id": "cc-a25",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "yazili",
+      "soru": "Aşağıdakilerden hangileri canlıdır: kedi, kaya, kuş, masa?",
+      "dogruCevap": "Kedi ve kuş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kedi",
+          "kaya",
+          "kus",
+          "masa"
+        ],
+        "vurgu": [
+          "kedi",
+          "kus"
+        ]
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "cc-t1",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi canlıdır?",
+      "dogruCevap": "Kedi",
+      "secenekler": [
+        "Kaya",
+        "Kitap",
+        "Masa",
+        "Kedi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kedi",
+          "kaya",
+          "masa",
+          "kitap"
+        ],
+        "vurgu": "kedi"
+      }
+    },
+    {
+      "id": "cc-t2",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi cansızdır?",
+      "dogruCevap": "Taş",
+      "secenekler": [
+        "Kedi",
+        "Ağaç",
+        "Taş",
+        "Çiçek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "agac",
+          "kedi",
+          "tas",
+          "cicek"
+        ],
+        "vurgu": "tas"
+      }
+    },
+    {
+      "id": "cc-t3",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlıların kaç yaşam özelliği vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "5",
+        "8",
+        "6",
+        "7"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-t4",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi canlıların yaşam özelliğidir?",
+      "dogruCevap": "Beslenir",
+      "secenekler": [
+        "Parlar",
+        "Erir",
+        "Beslenir",
+        "Kırılır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-t5",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaç canlı mıdır?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Belli değil",
+        "Evet",
+        "Bazen",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "cc-t6",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Araba canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Evet",
+        "Hayır",
+        "Sadece hareket edince",
+        "Bazen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "araba"
+      }
+    },
+    {
+      "id": "cc-t7",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlılar büyür mü?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Sadece bitkiler",
+        "Sadece hayvanlar",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "cc-t8",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Hareket eden her şey canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Sadece uçanlar",
+        "Evet",
+        "Sadece yürüyenler",
+        "Hayır"
+      ],
+      "ipucu": "Araba hareket eder ama canlı değildir!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "araba",
+          "kedi",
+          "top",
+          "kus"
+        ],
+        "vurgu": "araba"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cc-t9",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlılar solur mu?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Sadece balık",
+        "Hayır",
+        "Sadece insan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "insan"
+      }
+    },
+    {
+      "id": "cc-t10",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlılar ürer mi?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Sadece bitkiler",
+        "Sadece kuşlar",
+        "Evet",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      }
+    },
+    {
+      "id": "cc-t11",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlılar tepki verir mi?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Sadece insanlar",
+        "Hayır",
+        "Sadece köpekler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "cc-t12",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi canlıların yaşam özelliği değildir?",
+      "dogruCevap": "Parlar",
+      "secenekler": [
+        "Büyür",
+        "Parlar",
+        "Beslenir",
+        "Solur"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-t13",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çiçek canlı mıdır?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Sadece yazın",
+        "Hayır",
+        "Kuruyunca",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "cc-t14",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kelebek canlı mıdır?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Sadece tırtılken",
+        "Evet",
+        "Hayır",
+        "Sadece uçarken"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kelebek"
+      }
+    },
+    {
+      "id": "cc-t15",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kitap canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Hayır",
+        "Okununca",
+        "Evet",
+        "Bazen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "cc-t16",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Güneş canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Hayır",
+        "Sıcak olduğu için evet",
+        "Sadece gündüz",
+        "Evet"
+      ],
+      "ipucu": "Güneş ısı ve ışık verir ama canlı değildir!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cc-t17",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlılar ölür mü?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hiçbiri",
+        "Evet",
+        "Sadece bitkiler",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-t18",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi canlıdır?",
+      "dogruCevap": "Balık",
+      "secenekler": [
+        "Kalem",
+        "Masa",
+        "Balık",
+        "Kaya"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kaya",
+          "kalem",
+          "balik",
+          "masa"
+        ],
+        "vurgu": "balik"
+      }
+    },
+    {
+      "id": "cc-t19",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beslenmeyen varlık canlı olabilir mi?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Bazen",
+        "Evet",
+        "Sadece taşlar",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kedi",
+          "kitap"
+        ],
+        "vurgu": "kedi"
+      }
+    },
+    {
+      "id": "cc-t20",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aşağıdakilerden hangisi hem canlı hem cansız örneği içerir?",
+      "dogruCevap": "Kedi — Kaya",
+      "secenekler": [
+        "İnsan — Köpek",
+        "Ağaç — Çiçek",
+        "Kedi — Kuş",
+        "Kedi — Kaya"
+      ],
+      "ipucu": "Biri canlı, biri cansız olmalı!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "kedi",
+          "kaya",
+          "kus",
+          "agac"
+        ],
+        "vurgu": [
+          "kedi",
+          "kaya"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cc-t21",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İnsan canlı mıdır?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Bazen",
+        "Evet",
+        "Hayır",
+        "Sadece çocukken"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "insan"
+      }
+    },
+    {
+      "id": "cc-t22",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Top canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Hayır",
+        "Yuvarlaksa evet",
+        "Zıplarsa evet",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "top"
+      }
+    },
+    {
+      "id": "cc-t23",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Canlıların yaşam özelliklerinden biri hangisidir?",
+      "dogruCevap": "Hareket eder",
+      "secenekler": [
+        "Parlar",
+        "Kırılır",
+        "Donar",
+        "Hareket eder"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      }
+    },
+    {
+      "id": "cc-t24",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Kuruyan çiçek hâlâ canlı mıdır?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Rengi varsa evet",
+        "Bazen",
+        "Hayır",
+        "Evet"
+      ],
+      "ipucu": "Ölmüş canlı artık yaşam özelliklerini göstermez!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cc-t25",
+      "kazanimKodu": "FEN.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aşağıdakilerden hangisi tüm canlılar için geçerlidir?",
+      "dogruCevap": "Büyür, beslenir ve solur",
+      "secenekler": [
+        "Parlar ve erir",
+        "Büyür, beslenir ve solur",
+        "Uçar ve yüzer",
+        "Konuşur ve yazar"
+      ],
+      "ipucu": "Her canlı bu temel özellikleri gösterir!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "cc-anlatim-2"
+      },
+      "sasirtma": true
+    }
+  ]
+}
