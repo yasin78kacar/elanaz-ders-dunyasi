@@ -1,0 +1,1951 @@
+{
+  "id": "tablo-okuma",
+  "baslik": "Tablo Okuma",
+  "kazanimKodu": "MAT.2.5.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Bilgileri düzenli göstermek için TABLO kullanırız! Tablonun satırları ve sütunları vardır.",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "to-anlatim-1"
+        }
+      },
+      {
+        "metin": "Tabloda bir bilgiyi bulmak için doğru satır ve sütunun kesiştiği yere bakarız.",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "to-anlatim-2"
+        }
+      },
+      {
+        "metin": "Tablodan toplama, karşılaştırma ve en çok/en az bilgisini okuyabiliriz.",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "to-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "to-a1",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Sınıfta kaç elma var?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıftaki Meyveler",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Üzüm"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              5,
+              3,
+              6
+            ]
+          }
+        ],
+        "vurgu": [
+          "Elma"
+        ]
+      }
+    },
+    {
+      "id": "to-a2",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En az hangi meyve var?",
+      "dogruCevap": "Muz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıftaki Meyveler",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Üzüm"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              5,
+              3,
+              6
+            ]
+          }
+        ],
+        "vurgu": [
+          "Muz"
+        ]
+      }
+    },
+    {
+      "id": "to-a3",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En çok hangi meyve var?",
+      "dogruCevap": "Elma",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıftaki Meyveler",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Üzüm"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              5,
+              3,
+              6
+            ]
+          }
+        ],
+        "vurgu": [
+          "Elma"
+        ]
+      }
+    },
+    {
+      "id": "to-a4",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Armut ve muz toplamı kaçtır?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıftaki Meyveler",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Üzüm"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              5,
+              3,
+              6
+            ]
+          }
+        ],
+        "vurgu": [
+          "Armut",
+          "Muz"
+        ]
+      }
+    },
+    {
+      "id": "to-a5",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Elma ile üzüm farkı kaçtır?",
+      "dogruCevap": "2",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıftaki Meyveler",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Üzüm"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              5,
+              3,
+              6
+            ]
+          }
+        ],
+        "vurgu": [
+          "Elma",
+          "Üzüm"
+        ]
+      }
+    },
+    {
+      "id": "to-a6",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Çarşamba günü hava nasıl?",
+      "dogruCevap": "Yağmurlu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava Durumu",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Hava",
+            "degerler": [
+              "Güneşli",
+              "Bulutlu",
+              "Yağmurlu",
+              "Güneşli",
+              "Bulutlu"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Çarşamba"
+        ]
+      }
+    },
+    {
+      "id": "to-a7",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Kaç gün güneşli?",
+      "dogruCevap": "2",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava Durumu",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Hava",
+            "degerler": [
+              "Güneşli",
+              "Bulutlu",
+              "Yağmurlu",
+              "Güneşli",
+              "Bulutlu"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Pazartesi",
+          "Perşembe"
+        ]
+      }
+    },
+    {
+      "id": "to-a8",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Kaç gün bulutlu?",
+      "dogruCevap": "2",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava Durumu",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Hava",
+            "degerler": [
+              "Güneşli",
+              "Bulutlu",
+              "Yağmurlu",
+              "Güneşli",
+              "Bulutlu"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Salı",
+          "Cuma"
+        ]
+      }
+    },
+    {
+      "id": "to-a9",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Perşembe ve cuma hava nasıl?",
+      "dogruCevap": "Güneşli, Bulutlu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava Durumu",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Hava",
+            "degerler": [
+              "Güneşli",
+              "Bulutlu",
+              "Yağmurlu",
+              "Güneşli",
+              "Bulutlu"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Perşembe",
+          "Cuma"
+        ]
+      }
+    },
+    {
+      "id": "to-a10",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Yağmurlu gün sayısı kaçtır?",
+      "dogruCevap": "1",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava Durumu",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Hava",
+            "degerler": [
+              "Güneşli",
+              "Bulutlu",
+              "Yağmurlu",
+              "Güneşli",
+              "Bulutlu"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Çarşamba"
+        ]
+      }
+    },
+    {
+      "id": "to-a11",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Ayşe kaç kitap okudu?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrenci Kitap Sayıları",
+        "sutunlar": [
+          "Mehmet",
+          "Ayşe",
+          "Ali",
+          "Fatma",
+          "Berk"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              6,
+              9,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Ayşe"
+        ]
+      }
+    },
+    {
+      "id": "to-a12",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En az kitap okuyan kim?",
+      "dogruCevap": "Ali",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrenci Kitap Sayıları",
+        "sutunlar": [
+          "Mehmet",
+          "Ayşe",
+          "Ali",
+          "Fatma",
+          "Berk"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              6,
+              9,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Ali"
+        ]
+      }
+    },
+    {
+      "id": "to-a13",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En çok kitap okuyan kim?",
+      "dogruCevap": "Ayşe",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrenci Kitap Sayıları",
+        "sutunlar": [
+          "Mehmet",
+          "Ayşe",
+          "Ali",
+          "Fatma",
+          "Berk"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              6,
+              9,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Ayşe"
+        ]
+      }
+    },
+    {
+      "id": "to-a14",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Mehmet ve Ali toplamı kaç?",
+      "dogruCevap": "10",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrenci Kitap Sayıları",
+        "sutunlar": [
+          "Mehmet",
+          "Ayşe",
+          "Ali",
+          "Fatma",
+          "Berk"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              6,
+              9,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Mehmet",
+          "Ali"
+        ]
+      }
+    },
+    {
+      "id": "to-a15",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Fatma Berk'ten kaç fazla okudu?",
+      "dogruCevap": "2",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrenci Kitap Sayıları",
+        "sutunlar": [
+          "Mehmet",
+          "Ayşe",
+          "Ali",
+          "Fatma",
+          "Berk"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              6,
+              9,
+              4,
+              7,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Fatma",
+          "Berk"
+        ]
+      }
+    },
+    {
+      "id": "to-a16",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Kaç kişi mavi seviyor?",
+      "dogruCevap": "12",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Tercihleri",
+        "sutunlar": [
+          "Mavi",
+          "Kırmızı",
+          "Sarı",
+          "Yeşil"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Mavi"
+        ]
+      }
+    },
+    {
+      "id": "to-a17",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En az tercih edilen renk hangisi?",
+      "dogruCevap": "Sarı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Tercihleri",
+        "sutunlar": [
+          "Mavi",
+          "Kırmızı",
+          "Sarı",
+          "Yeşil"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Sarı"
+        ]
+      }
+    },
+    {
+      "id": "to-a18",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Mavi ve yeşil toplamı kaçtır?",
+      "dogruCevap": "22",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Tercihleri",
+        "sutunlar": [
+          "Mavi",
+          "Kırmızı",
+          "Sarı",
+          "Yeşil"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Mavi",
+          "Yeşil"
+        ]
+      }
+    },
+    {
+      "id": "to-a19",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Kırmızı sarıdan kaç fazladır?",
+      "dogruCevap": "3",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Tercihleri",
+        "sutunlar": [
+          "Mavi",
+          "Kırmızı",
+          "Sarı",
+          "Yeşil"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kırmızı",
+          "Sarı"
+        ]
+      }
+    },
+    {
+      "id": "to-a20",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Toplam kaç kişi ankete katıldı?",
+      "dogruCevap": "35",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Tercihleri",
+        "sutunlar": [
+          "Mavi",
+          "Kırmızı",
+          "Sarı",
+          "Yeşil"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "to-a21",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En popüler spor hangisi?",
+      "dogruCevap": "Futbol",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Yapan Öğrenciler",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol",
+          "Tenis"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              15,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Futbol"
+        ]
+      }
+    },
+    {
+      "id": "to-a22",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Yüzme ve basketbol toplamı kaç?",
+      "dogruCevap": "18",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Yapan Öğrenciler",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol",
+          "Tenis"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              15,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Yüzme",
+          "Basketbol"
+        ]
+      }
+    },
+    {
+      "id": "to-a23",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "En az tercih edilen spor?",
+      "dogruCevap": "Tenis",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Yapan Öğrenciler",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol",
+          "Tenis"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              15,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Tenis"
+        ]
+      }
+    },
+    {
+      "id": "to-a24",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Futbol tenisten kaç fazladır?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Yapan Öğrenciler",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol",
+          "Tenis"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              15,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Futbol",
+          "Tenis"
+        ]
+      }
+    },
+    {
+      "id": "to-a25",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "yazili",
+      "soru": "Toplam kaç öğrenci spor yapıyor?",
+      "dogruCevap": "40",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Yapan Öğrenciler",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol",
+          "Tenis"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              15,
+              10,
+              8,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "to-t1",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En çok hangi hayvan var?",
+      "dogruCevap": "Köpek",
+      "secenekler": [
+        "Köpek",
+        "Kedi",
+        "Kuş",
+        "Tavşan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Sayıları",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş",
+          "Tavşan"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              7,
+              12,
+              5,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          "Köpek"
+        ]
+      }
+    },
+    {
+      "id": "to-t2",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kedi ve kuş toplamı kaçtır?",
+      "dogruCevap": "13",
+      "secenekler": [
+        "10",
+        "11",
+        "13",
+        "12"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Sayıları",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş",
+          "Tavşan"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              7,
+              12,
+              5,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kedi",
+          "Kuş"
+        ]
+      }
+    },
+    {
+      "id": "to-t3",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En az hangi hayvan var?",
+      "dogruCevap": "Kuş",
+      "secenekler": [
+        "Kuş",
+        "Köpek",
+        "Tavşan",
+        "Kedi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Sayıları",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş",
+          "Tavşan"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              7,
+              12,
+              5,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kuş"
+        ]
+      }
+    },
+    {
+      "id": "to-t4",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Köpek tavşandan kaç fazladır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "5",
+        "3",
+        "2",
+        "4"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Sayıları",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş",
+          "Tavşan"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              7,
+              12,
+              5,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          "Köpek",
+          "Tavşan"
+        ]
+      }
+    },
+    {
+      "id": "to-t5",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Toplam kaç hayvan var?",
+      "dogruCevap": "33",
+      "secenekler": [
+        "35",
+        "33",
+        "31",
+        "30"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Sayıları",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş",
+          "Tavşan"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              7,
+              12,
+              5,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "to-t6",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En çok ekmek hangi gün satıldı?",
+      "dogruCevap": "Cuma",
+      "secenekler": [
+        "Perşembe",
+        "Pazartesi",
+        "Salı",
+        "Cuma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Günlük Satılan Ekmek",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Ekmek",
+            "degerler": [
+              20,
+              15,
+              18,
+              22,
+              25
+            ]
+          }
+        ],
+        "vurgu": [
+          "Cuma"
+        ]
+      }
+    },
+    {
+      "id": "to-t7",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pazartesi ve salı toplamı kaçtır?",
+      "dogruCevap": "35",
+      "secenekler": [
+        "32",
+        "33",
+        "37",
+        "35"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Günlük Satılan Ekmek",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Ekmek",
+            "degerler": [
+              20,
+              15,
+              18,
+              22,
+              25
+            ]
+          }
+        ],
+        "vurgu": [
+          "Pazartesi",
+          "Salı"
+        ]
+      }
+    },
+    {
+      "id": "to-t8",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En az ekmek hangi gün satıldı?",
+      "dogruCevap": "Salı",
+      "secenekler": [
+        "Pazartesi",
+        "Çarşamba",
+        "Perşembe",
+        "Salı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Günlük Satılan Ekmek",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Ekmek",
+            "degerler": [
+              20,
+              15,
+              18,
+              22,
+              25
+            ]
+          }
+        ],
+        "vurgu": [
+          "Salı"
+        ]
+      }
+    },
+    {
+      "id": "to-t9",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Çarşamba ile perşembe farkı kaçtır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "4",
+        "2",
+        "6",
+        "3"
+      ],
+      "ipucu": "22 - 18 = ?",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Günlük Satılan Ekmek",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Ekmek",
+            "degerler": [
+              20,
+              15,
+              18,
+              22,
+              25
+            ]
+          }
+        ],
+        "vurgu": [
+          "Çarşamba",
+          "Perşembe"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "to-t10",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beş günde toplam kaç ekmek satıldı?",
+      "dogruCevap": "100",
+      "secenekler": [
+        "100",
+        "98",
+        "95",
+        "105"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Günlük Satılan Ekmek",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Ekmek",
+            "degerler": [
+              20,
+              15,
+              18,
+              22,
+              25
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "id": "to-t11",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En çok sevilen ders hangisi?",
+      "dogruCevap": "Matematik",
+      "secenekler": [
+        "Fen",
+        "Matematik",
+        "Müzik",
+        "Türkçe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrencilerin Favori Dersleri",
+        "sutunlar": [
+          "Matematik",
+          "Türkçe",
+          "Fen",
+          "Müzik"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              14,
+              10,
+              8,
+              13
+            ]
+          }
+        ],
+        "vurgu": [
+          "Matematik"
+        ]
+      }
+    },
+    {
+      "id": "to-t12",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fen ile müzik toplamı kaçtır?",
+      "dogruCevap": "21",
+      "secenekler": [
+        "21",
+        "19",
+        "20",
+        "23"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrencilerin Favori Dersleri",
+        "sutunlar": [
+          "Matematik",
+          "Türkçe",
+          "Fen",
+          "Müzik"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              14,
+              10,
+              8,
+              13
+            ]
+          }
+        ],
+        "vurgu": [
+          "Fen",
+          "Müzik"
+        ]
+      }
+    },
+    {
+      "id": "to-t13",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Matematik türkçeden kaç fazla sevilmiştir?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "6",
+        "4",
+        "3",
+        "5"
+      ],
+      "ipucu": "14 - 10 = ?",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrencilerin Favori Dersleri",
+        "sutunlar": [
+          "Matematik",
+          "Türkçe",
+          "Fen",
+          "Müzik"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              14,
+              10,
+              8,
+              13
+            ]
+          }
+        ],
+        "vurgu": [
+          "Matematik",
+          "Türkçe"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "to-t14",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En az sevilen ders hangisi?",
+      "dogruCevap": "Fen",
+      "secenekler": [
+        "Matematik",
+        "Türkçe",
+        "Fen",
+        "Müzik"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrencilerin Favori Dersleri",
+        "sutunlar": [
+          "Matematik",
+          "Türkçe",
+          "Fen",
+          "Müzik"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              14,
+              10,
+              8,
+              13
+            ]
+          }
+        ],
+        "vurgu": [
+          "Fen"
+        ]
+      }
+    },
+    {
+      "id": "to-t15",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Toplam kaç öğrenci ankete katıldı?",
+      "dogruCevap": "45",
+      "secenekler": [
+        "43",
+        "44",
+        "47",
+        "45"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Öğrencilerin Favori Dersleri",
+        "sutunlar": [
+          "Matematik",
+          "Türkçe",
+          "Fen",
+          "Müzik"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              14,
+              10,
+              8,
+              13
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "to-t16",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "En çok hangi meyve satıldı?",
+      "dogruCevap": "Elma",
+      "secenekler": [
+        "Muz",
+        "Armut",
+        "Kiraz",
+        "Elma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Satışları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Kiraz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kg",
+            "degerler": [
+              18,
+              12,
+              9,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          "Elma"
+        ]
+      }
+    },
+    {
+      "id": "to-t17",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Muz ve armut toplamı elma satışından fazla mı?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Belli değil",
+        "Hayır",
+        "Eşit"
+      ],
+      "ipucu": "9 + 12 = 21, 21 > 18",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Satışları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Kiraz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kg",
+            "degerler": [
+              18,
+              12,
+              9,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          "Muz",
+          "Armut",
+          "Elma"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "to-t18",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kiraz ile muz farkı kaçtır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "4",
+        "6",
+        "5",
+        "8"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Satışları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Kiraz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kg",
+            "degerler": [
+              18,
+              12,
+              9,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kiraz",
+          "Muz"
+        ]
+      }
+    },
+    {
+      "id": "to-t19",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Toplam kaç kg meyve satıldı?",
+      "dogruCevap": "54",
+      "secenekler": [
+        "52",
+        "54",
+        "58",
+        "56"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Satışları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Kiraz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kg",
+            "degerler": [
+              18,
+              12,
+              9,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "to-t20",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elma satışı hangi iki meyvenin toplamına eşittir?",
+      "dogruCevap": "Hiçbiri",
+      "secenekler": [
+        "Muz + Kiraz",
+        "Muz + Armut",
+        "Armut + Kiraz",
+        "Hiçbiri"
+      ],
+      "ipucu": "Hiçbir ikili toplam 18 etmez",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Satışları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Kiraz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kg",
+            "degerler": [
+              18,
+              12,
+              9,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "to-t21",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çarşamba günü kim nöbetçi?",
+      "dogruCevap": "Ali",
+      "secenekler": [
+        "Ayşe",
+        "Ali",
+        "Mehmet",
+        "Fatma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Temizlik Nöbeti",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              "Mehmet",
+              "Ayşe",
+              "Ali",
+              "Fatma",
+              "Berk"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Çarşamba"
+        ]
+      }
+    },
+    {
+      "id": "to-t22",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma hangi gün nöbetçi?",
+      "dogruCevap": "Perşembe",
+      "secenekler": [
+        "Cuma",
+        "Salı",
+        "Çarşamba",
+        "Perşembe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Temizlik Nöbeti",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              "Mehmet",
+              "Ayşe",
+              "Ali",
+              "Fatma",
+              "Berk"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Fatma"
+        ]
+      }
+    },
+    {
+      "id": "to-t23",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Haftanın ilk nöbetçisi kim?",
+      "dogruCevap": "Mehmet",
+      "secenekler": [
+        "Berk",
+        "Ali",
+        "Mehmet",
+        "Ayşe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Temizlik Nöbeti",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              "Mehmet",
+              "Ayşe",
+              "Ali",
+              "Fatma",
+              "Berk"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Pazartesi"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "to-t24",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk hangi gün nöbetçi?",
+      "dogruCevap": "Cuma",
+      "secenekler": [
+        "Pazartesi",
+        "Perşembe",
+        "Salı",
+        "Cuma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Temizlik Nöbeti",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              "Mehmet",
+              "Ayşe",
+              "Ali",
+              "Fatma",
+              "Berk"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Berk"
+        ]
+      }
+    },
+    {
+      "id": "to-t25",
+      "kazanimKodu": "MAT.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Salı nöbetçisi ile perşembe nöbetçisi yer değiştirse, perşembe kim nöbet tutar?",
+      "dogruCevap": "Ayşe",
+      "secenekler": [
+        "Ayşe",
+        "Fatma",
+        "Ali",
+        "Mehmet"
+      ],
+      "ipucu": "Salı = Ayşe, Perşembe = Fatma → yer değiştirince Perşembe = Ayşe",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Temizlik Nöbeti",
+        "sutunlar": [
+          "Pazartesi",
+          "Salı",
+          "Çarşamba",
+          "Perşembe",
+          "Cuma"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              "Mehmet",
+              "Ayşe",
+              "Ali",
+              "Fatma",
+              "Berk"
+            ]
+          }
+        ],
+        "vurgu": [
+          "Salı",
+          "Perşembe"
+        ]
+      },
+      "sasirtma": true
+    }
+  ]
+}

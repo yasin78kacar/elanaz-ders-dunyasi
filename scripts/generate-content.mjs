@@ -12,6 +12,7 @@
  * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
  * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma)
  * - { tur: "olcme", mod, ... } → OlcmeGorsel (TEMA4 ölçme)
+ * - { tur: "veri", mod, ... } → VeriGorsel (TEMA5 veri)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -45,6 +46,7 @@ import {
   zihindenToplama,
 } from './gorev-tema3-questions.mjs';
 import { siviMiktari, tartma, uzunlukOlcme, zaman } from './gorev-tema4-questions.mjs';
+import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -369,6 +371,13 @@ writeFileSync(join(contentDir, 'tartma.json'), JSON.stringify(tartmaKonu, null, 
 writeFileSync(join(contentDir, 'sivi-miktari.json'), JSON.stringify(siviMiktariKonu, null, 2));
 writeFileSync(join(contentDir, 'zaman.json'), JSON.stringify(zamanKonu, null, 2));
 
+const tabloOkumaKonu = tabloOkuma(karistir);
+const grafikOkumaKonu = grafikOkuma(karistir);
+const veriToplamaKonu = veriToplama(karistir);
+writeFileSync(join(contentDir, 'tablo-okuma.json'), JSON.stringify(tabloOkumaKonu, null, 2));
+writeFileSync(join(contentDir, 'grafik-okuma.json'), JSON.stringify(grafikOkumaKonu, null, 2));
+writeFileSync(join(contentDir, 'veri-toplama.json'), JSON.stringify(veriToplamaKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -482,6 +491,15 @@ const index = {
             'matematik/zaman.json',
           ],
         },
+        {
+          id: 'tema-5',
+          baslik: 'Tema 5 — Veri',
+          konuDosyalari: [
+            'matematik/tablo-okuma.json',
+            'matematik/grafik-okuma.json',
+            'matematik/veri-toplama.json',
+          ],
+        },
       ],
     },
     { id: 'hayat-bilgisi', baslik: 'Hayat Bilgisi', unite: [] },
@@ -535,6 +553,9 @@ console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukO
 console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);
 console.log('Sıvı miktarı:', siviMiktariKonu.alistirma.length, '+', siviMiktariKonu.test.length);
 console.log('Zaman:', zamanKonu.alistirma.length, '+', zamanKonu.test.length);
+console.log('Tablo okuma:', tabloOkumaKonu.alistirma.length, '+', tabloOkumaKonu.test.length);
+console.log('Grafik okuma:', grafikOkumaKonu.alistirma.length, '+', grafikOkumaKonu.test.length);
+console.log('Veri toplama:', veriToplamaKonu.alistirma.length, '+', veriToplamaKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

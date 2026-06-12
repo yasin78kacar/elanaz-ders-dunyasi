@@ -109,6 +109,27 @@ export interface GorselOlcme {
   dakika2?: number;
 }
 
+export interface VeriSatir {
+  etiket: string;
+  degerler: (number | string)[];
+}
+
+/** Veri (Tema 5) — VeriGorsel'de tanımlı */
+export interface GorselVeri {
+  tur: 'veri';
+  mod: 'tablo' | 'grafik' | 'anlatim' | 'anket' | 'liste';
+  tabloId?: string;
+  grafikId?: string;
+  baslik?: string;
+  sutunlar?: string[];
+  satirlar?: VeriSatir[];
+  kategoriler?: string[];
+  degerler?: number[];
+  vurgu?: (number | string)[];
+  sahne?: string;
+  liste?: (number | string)[];
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -118,6 +139,7 @@ export type Gorsel =
   | GorselTahminEtme
   | GorselIslem
   | GorselOlcme
+  | GorselVeri
   | null;
 
 export interface AnlatimEkrani {

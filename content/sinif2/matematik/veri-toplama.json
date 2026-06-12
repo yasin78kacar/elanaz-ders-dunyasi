@@ -1,0 +1,1505 @@
+{
+  "id": "veri-toplama",
+  "baslik": "Veri Toplama ve Yorumlama",
+  "kazanimKodu": "MAT.2.5.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Veri toplamak demek bilgi toplamak demektir! Anket yaparak, sayarak veya ölçerek veri toplayabiliriz.",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "vt-anlatim-1"
+        }
+      },
+      {
+        "metin": "Topladığımız veriyi tabloya veya grafiğe dönüştürürüz. Bu sayede verileri kolay okuruz!",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "vt-anlatim-2"
+        }
+      },
+      {
+        "metin": "Veriyi yorumlamak demek \"ne anlıyor?\" sorusunu cevaplamak demektir. En çok, en az, toplam, fark gibi bilgileri çıkarabiliriz.",
+        "gorsel": {
+          "tur": "veri",
+          "mod": "anlatim",
+          "sahne": "vt-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "vt-a1",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Sınıfta kaç öğrenci olduğunu öğrenmek için ne yaparsın?",
+      "dogruCevap": "Sayarım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-sinif-say"
+      }
+    },
+    {
+      "id": "vt-a2",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Arkadaşlarının favori rengini öğrenmek için ne yaparsın?",
+      "dogruCevap": "Anket yaparım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anket",
+        "sahne": "vt-anket-formu"
+      }
+    },
+    {
+      "id": "vt-a3",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Aşağıdaki veriler tabloya girildi. En çok oy alan hangisi? Kırmızı:8, Mavi:12, Sarı:5",
+      "dogruCevap": "Mavi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Oyları",
+        "sutunlar": [
+          "Kırmızı",
+          "Mavi",
+          "Sarı"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Oy",
+            "degerler": [
+              8,
+              12,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Mavi"
+        ]
+      }
+    },
+    {
+      "id": "vt-a4",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "5 arkadaştan veri toplandı: 3, 7, 5, 8, 2. En büyük değer kaçtır?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "liste",
+        "liste": [
+          3,
+          7,
+          5,
+          8,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a5",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "5 arkadaştan veri toplandı: 3, 7, 5, 8, 2. En küçük değer kaçtır?",
+      "dogruCevap": "2",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "liste",
+        "liste": [
+          3,
+          7,
+          5,
+          8,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a6",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri: Elma:6, Armut:4, Muz:9. Toplam kaç meyve?",
+      "dogruCevap": "19",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Sayıları",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              6,
+              4,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a7",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Hangi yöntem veri toplamak için kullanılmaz?",
+      "dogruCevap": "Hayal etmek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-yontemler"
+      }
+    },
+    {
+      "id": "vt-a8",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri: Kedi:7, Köpek:12, Kuş:5. En az tercih hangisi?",
+      "dogruCevap": "Kuş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Tercihleri",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              7,
+              12,
+              5
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kuş"
+        ]
+      }
+    },
+    {
+      "id": "vt-a9",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "10 kişiye \"favori meyve\" soruldu. Elma:4, Muz:3, Çilek:3. Toplam doğru mu?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Favori Meyve Anketi",
+        "sutunlar": [
+          "Elma",
+          "Muz",
+          "Çilek"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              4,
+              3,
+              3
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a10",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Grafik mi tablo mu daha kolay okumak için?",
+      "dogruCevap": "İkisi de kullanışlı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-tablo-grafik"
+      }
+    },
+    {
+      "id": "vt-a11",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri: Yağmur:3 gün, Güneşli:4 gün, Bulutlu:2 gün. Kaç gün veri toplandı?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hava Durumu",
+        "sutunlar": [
+          "Yağmur",
+          "Güneşli",
+          "Bulutlu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Gün",
+            "degerler": [
+              3,
+              4,
+              2
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a12",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "En çok hangi hava? Yağmur:3, Güneşli:4, Bulutlu:2",
+      "dogruCevap": "Güneşli",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hava Durumu",
+        "sutunlar": [
+          "Yağmur",
+          "Güneşli",
+          "Bulutlu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Gün",
+            "degerler": [
+              3,
+              4,
+              2
+            ]
+          }
+        ],
+        "vurgu": [
+          "Güneşli"
+        ]
+      }
+    },
+    {
+      "id": "vt-a13",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Anket sonucu: Futbol:15, Yüzme:8, Koşu:12. Futbol koşudan kaç fazla?",
+      "dogruCevap": "3",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Anketi",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Koşu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              15,
+              8,
+              12
+            ]
+          }
+        ],
+        "vurgu": [
+          "Futbol",
+          "Koşu"
+        ]
+      }
+    },
+    {
+      "id": "vt-a14",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Toplam katılımcı: Futbol:15, Yüzme:8, Koşu:12",
+      "dogruCevap": "35",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Anketi",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Koşu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              15,
+              8,
+              12
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a15",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri doğru mu? 3+5+7=16 kişi ankete katıldı, tablo toplamı 15.",
+      "dogruCevap": "Hayır, hata var",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hatalı Tablo",
+        "sutunlar": [
+          "Değer 1",
+          "Değer 2",
+          "Değer 3",
+          "Toplam"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              3,
+              5,
+              7,
+              15
+            ]
+          }
+        ],
+        "vurgu": [
+          3
+        ]
+      }
+    },
+    {
+      "id": "vt-a16",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Sınıfta kitap sayısı: Masal:8, Bilim:6, Şiir:4. En az hangi tür?",
+      "dogruCevap": "Şiir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Kitap Türleri",
+        "sutunlar": [
+          "Masal",
+          "Bilim",
+          "Şiir"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              6,
+              4
+            ]
+          }
+        ],
+        "vurgu": [
+          "Şiir"
+        ]
+      }
+    },
+    {
+      "id": "vt-a17",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Masal ve bilim toplamı şiirin kaç katı?",
+      "dogruCevap": "3",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Kitap Türleri",
+        "sutunlar": [
+          "Masal",
+          "Bilim",
+          "Şiir"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              8,
+              6,
+              4
+            ]
+          }
+        ],
+        "vurgu": [
+          "Masal",
+          "Bilim",
+          "Şiir"
+        ]
+      }
+    },
+    {
+      "id": "vt-a18",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "20 kişiye anket yapıldı. 8'i elma, 7'si muz, kalanı çilek sevdi. Çilek kaç kişi?",
+      "dogruCevap": "5",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anket",
+        "sahne": "vt-meyve-anket-20"
+      }
+    },
+    {
+      "id": "vt-a19",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Grafik okurken sütunun tepesi neyi gösterir?",
+      "dogruCevap": "O kategorinin değerini",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-grafik-okuma"
+      }
+    },
+    {
+      "id": "vt-a20",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Tabloda satır ve sütunların kesiştiği yere ne denir?",
+      "dogruCevap": "Hücre",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-tablo-hucre"
+      }
+    },
+    {
+      "id": "vt-a21",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri: Kış:5, İlkbahar:8, Yaz:10, Sonbahar:7. Yaz kıştan kaç fazla?",
+      "dogruCevap": "5",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Doğum Mevsimleri",
+        "sutunlar": [
+          "Kış",
+          "İlkbahar",
+          "Yaz",
+          "Sonbahar"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              5,
+              8,
+              10,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Yaz",
+          "Kış"
+        ]
+      }
+    },
+    {
+      "id": "vt-a22",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Toplam öğrenci: 5+8+10+7=?",
+      "dogruCevap": "30",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Doğum Mevsimleri",
+        "sutunlar": [
+          "Kış",
+          "İlkbahar",
+          "Yaz",
+          "Sonbahar"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Öğrenci",
+            "degerler": [
+              5,
+              8,
+              10,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "vt-a23",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Anket: 30 kişi katıldı. Erkek:16, kız kaç?",
+      "dogruCevap": "14",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Anket Katılımcıları",
+        "sutunlar": [
+          "Erkek",
+          "Kız"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              16,
+              14
+            ]
+          }
+        ],
+        "vurgu": [
+          1
+        ]
+      }
+    },
+    {
+      "id": "vt-a24",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Veri eksik mi? Elma:5, Armut:3, Toplam:9",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Sayımı",
+        "sutunlar": [
+          "Elma",
+          "Armut"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Adet",
+            "degerler": [
+              5,
+              3
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-a25",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "yazili",
+      "soru": "Doğru veri toplama yöntemi hangisi? Sınıfın favori rengi için",
+      "dogruCevap": "Herkese sor, say",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-dogru-yontem"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "vt-t1",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Veri toplamak için hangi yöntem kullanılabilir?",
+      "dogruCevap": "Anket yapmak",
+      "secenekler": [
+        "Tahmin etmek",
+        "Hayal etmek",
+        "Rastgele söylemek",
+        "Anket yapmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anket",
+        "sahne": "vt-anket-formu"
+      }
+    },
+    {
+      "id": "vt-t2",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta favori meyve anketi yapıldı: Elma:8, Muz:5, Çilek:12. En sevilen meyve hangisi?",
+      "dogruCevap": "Çilek",
+      "secenekler": [
+        "Muz",
+        "Hepsi eşit",
+        "Çilek",
+        "Elma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Favori Meyve Anketi",
+        "sutunlar": [
+          "Elma",
+          "Muz",
+          "Çilek"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              8,
+              5,
+              12
+            ]
+          }
+        ],
+        "vurgu": [
+          "Çilek"
+        ]
+      }
+    },
+    {
+      "id": "vt-t3",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aynı ankette toplam kaç kişi oy kullandı?",
+      "dogruCevap": "25",
+      "secenekler": [
+        "25",
+        "27",
+        "23",
+        "24"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Favori Meyve Anketi",
+        "sutunlar": [
+          "Elma",
+          "Muz",
+          "Çilek"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              8,
+              5,
+              12
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-t4",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Tablo ve grafik ne için kullanılır?",
+      "dogruCevap": "Veri göstermek",
+      "secenekler": [
+        "Veri tahmin etmek",
+        "Veri silmek",
+        "Veri saklamak",
+        "Veri göstermek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-tablo-grafik-karsilastir"
+      }
+    },
+    {
+      "id": "vt-t5",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Anket: 20 kişi katıldı. Kırmızı:7, Mavi:9, Sarı:?. Sarı kaç oy aldı?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "ipucu": "20 - 7 - 9 = 4",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Renk Anketi",
+        "sutunlar": [
+          "Kırmızı",
+          "Mavi",
+          "Sarı"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Oy",
+            "degerler": [
+              7,
+              9,
+              4
+            ]
+          }
+        ],
+        "vurgu": [
+          "Sarı"
+        ]
+      }
+    },
+    {
+      "id": "vt-t6",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Veriler doğru mu? Futbol:10, Yüzme:8, Toplam:20",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Belli değil",
+        "Evet",
+        "Yaklaşık doğru",
+        "Hayır"
+      ],
+      "ipucu": "10 + 8 = 18 ≠ 20",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Anketi",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              10,
+              8
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t7",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Grafik okurken en uzun sütun neyi gösterir?",
+      "dogruCevap": "En büyük değeri",
+      "secenekler": [
+        "Ortalamayı",
+        "Toplamı",
+        "En az değeri",
+        "En büyük değeri"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "grafik",
+        "baslik": "Sınıf Kütüphanesi Kitap Türleri",
+        "kategoriler": [
+          "Masal",
+          "Bilim",
+          "Şiir",
+          "Roman"
+        ],
+        "degerler": [
+          15,
+          8,
+          5,
+          12
+        ],
+        "vurgu": [
+          0
+        ]
+      }
+    },
+    {
+      "id": "vt-t8",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıf kütüphanesi: Masal:12, Bilim:8, Şiir:5, Roman:10. Masal ve roman toplamı?",
+      "dogruCevap": "22",
+      "secenekler": [
+        "20",
+        "24",
+        "21",
+        "22"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Kütüphanesi",
+        "sutunlar": [
+          "Masal",
+          "Bilim",
+          "Şiir",
+          "Roman"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Masal",
+          "Roman"
+        ]
+      }
+    },
+    {
+      "id": "vt-t9",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aynı veride en az ile en çok arasındaki fark kaçtır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "5",
+        "7",
+        "9",
+        "6"
+      ],
+      "ipucu": "12 - 5 = 7",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Sınıf Kütüphanesi",
+        "sutunlar": [
+          "Masal",
+          "Bilim",
+          "Şiir",
+          "Roman"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kitap",
+            "degerler": [
+              12,
+              8,
+              5,
+              10
+            ]
+          }
+        ],
+        "vurgu": [
+          "Masal",
+          "Şiir"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t10",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi veri toplama yöntemi en doğru sonucu verir?",
+      "dogruCevap": "Gözlem ve sayma",
+      "secenekler": [
+        "Gözlem ve sayma",
+        "Tahmin",
+        "Rastgele",
+        "Hayal"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-dogru-yontem"
+      }
+    },
+    {
+      "id": "vt-t11",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Haftalık hava: Güneşli:3, Bulutlu:2, Yağmurlu:2. Toplam kaç gün?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "6",
+        "8",
+        "7",
+        "5"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava",
+        "sutunlar": [
+          "Güneşli",
+          "Bulutlu",
+          "Yağmurlu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Gün",
+            "degerler": [
+              3,
+              2,
+              2
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-t12",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aynı veride güneşli günler diğerlerinin toplamından fazla mı?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Eşit",
+        "Belli değil",
+        "Hayır",
+        "Evet"
+      ],
+      "ipucu": "3 > 2 + 2 = 4? Hayır! 3 < 4",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Haftalık Hava",
+        "sutunlar": [
+          "Güneşli",
+          "Bulutlu",
+          "Yağmurlu"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Gün",
+            "degerler": [
+              3,
+              2,
+              2
+            ]
+          }
+        ],
+        "vurgu": [
+          "Güneşli",
+          "Bulutlu",
+          "Yağmurlu"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t13",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "25 kişiye anket yapıldı. Erkek:13, kız kaçtır?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "13",
+        "14",
+        "12",
+        "11"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anket",
+        "sahne": "vt-erkek-kiz-25"
+      }
+    },
+    {
+      "id": "vt-t14",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Tablo ile grafik arasındaki fark nedir?",
+      "dogruCevap": "Grafik görsel, tablo sayısal",
+      "secenekler": [
+        "Tabloda sayı yok",
+        "Grafikte sayı yok",
+        "İkisi aynıdır",
+        "Grafik görsel, tablo sayısal"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-tablo-grafik-karsilastir"
+      }
+    },
+    {
+      "id": "vt-t15",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Anket: Elma:6, Armut:4, Muz:5, Toplam:16. Veri doğru mu?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Hayır",
+        "Evet",
+        "Belli değil",
+        "Yaklaşık"
+      ],
+      "ipucu": "6 + 4 + 5 = 15, 16 değil!",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Meyve Anketi",
+        "sutunlar": [
+          "Elma",
+          "Armut",
+          "Muz",
+          "Toplam"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              6,
+              4,
+              5,
+              16
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t16",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Spor anketi: Futbol:18, Yüzme:12, Basketbol:9. Futbol yüzmeden kaç fazla?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "8",
+        "6",
+        "5",
+        "4"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Anketi",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              18,
+              12,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          "Futbol",
+          "Yüzme"
+        ]
+      }
+    },
+    {
+      "id": "vt-t17",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aynı ankette toplam kaç kişi var?",
+      "dogruCevap": "39",
+      "secenekler": [
+        "41",
+        "39",
+        "40",
+        "37"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Spor Anketi",
+        "sutunlar": [
+          "Futbol",
+          "Yüzme",
+          "Basketbol"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              18,
+              12,
+              9
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "vt-t18",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Verilerden hangisi yorum yapılamaz?",
+      "dogruCevap": "Gelecekte ne olacak",
+      "secenekler": [
+        "En çok tercih",
+        "En az tercih",
+        "Gelecekte ne olacak",
+        "Toplam katılımcı"
+      ],
+      "ipucu": "Veriler geçmişi gösterir, geleceği değil!",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-yorum-balon"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t19",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "30 kişilik ankette: Kedi:12, Köpek:10, Kuş:?. Kuş kaç kişi?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "6",
+        "10",
+        "8",
+        "7"
+      ],
+      "ipucu": "30 - 12 - 10 = 8",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Hayvan Anketi",
+        "sutunlar": [
+          "Kedi",
+          "Köpek",
+          "Kuş"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              12,
+              10,
+              8
+            ]
+          }
+        ],
+        "vurgu": [
+          "Kuş"
+        ]
+      }
+    },
+    {
+      "id": "vt-t20",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Hangi grafik türü sütun grafiği ile aynı işlevi görür?",
+      "dogruCevap": "Çizgi grafik",
+      "secenekler": [
+        "Fotoğraf",
+        "Çizgi grafik",
+        "Tablo",
+        "Harita"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-sutun-cizgi-grafik"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t21",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mevsim doğum anketi: Kış:5, İlkbahar:9, Yaz:11, Sonbahar:7. En çok hangi mevsimde doğulmuş?",
+      "dogruCevap": "Yaz",
+      "secenekler": [
+        "Kış",
+        "Sonbahar",
+        "İlkbahar",
+        "Yaz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Mevsim Doğum Anketi",
+        "sutunlar": [
+          "Kış",
+          "İlkbahar",
+          "Yaz",
+          "Sonbahar"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              5,
+              9,
+              11,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          "Yaz"
+        ]
+      }
+    },
+    {
+      "id": "vt-t22",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aynı ankette toplam kaç kişi?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "30",
+        "32",
+        "31",
+        "34"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Mevsim Doğum Anketi",
+        "sutunlar": [
+          "Kış",
+          "İlkbahar",
+          "Yaz",
+          "Sonbahar"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              5,
+              9,
+              11,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "vt-t23",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 İlkbahar ve sonbahar toplamı kış ve yazın toplamından az mı?",
+      "dogruCevap": "Eşit",
+      "secenekler": [
+        "Eşit",
+        "Evet",
+        "Belli değil",
+        "Hayır"
+      ],
+      "ipucu": "9 + 7 = 16, 5 + 11 = 16... Eşit!",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "tablo",
+        "baslik": "Mevsim Doğum Anketi",
+        "sutunlar": [
+          "Kış",
+          "İlkbahar",
+          "Yaz",
+          "Sonbahar"
+        ],
+        "satirlar": [
+          {
+            "etiket": "Kişi",
+            "degerler": [
+              5,
+              9,
+              11,
+              7
+            ]
+          }
+        ],
+        "vurgu": [
+          1,
+          3,
+          0,
+          2
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "vt-t24",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Anket verisini tabloya geçirmek için ne yapmalıyız?",
+      "dogruCevap": "Sayarız ve yazarız",
+      "secenekler": [
+        "Tahmin ederiz",
+        "Okuruz",
+        "Sayarız ve yazarız",
+        "Çizeriz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "anlatim",
+        "sahne": "vt-anket-tablo-donusum"
+      }
+    },
+    {
+      "id": "vt-t25",
+      "kazanimKodu": "MAT.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 40 kişilik ankette 4 seçenek var ve hepsi eşit oy aldı. Her seçenek kaç oy aldı?",
+      "dogruCevap": "10",
+      "secenekler": [
+        "12",
+        "9",
+        "10",
+        "8"
+      ],
+      "ipucu": "40 ÷ 4 = 10",
+      "gorsel": {
+        "tur": "veri",
+        "mod": "grafik",
+        "baslik": "Eşit Dağılımlı Anket",
+        "kategoriler": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "degerler": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "vurgu": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "sasirtma": true
+    }
+  ]
+}

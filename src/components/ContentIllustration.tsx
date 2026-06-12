@@ -13,6 +13,7 @@ import { OruntuGorsel } from './oruntu/OruntuGorsel';
 import { TahminEtmeGorsel } from './tahmin/TahminEtmeGorsel';
 import { IslemGorsel } from './islem/IslemGorsel';
 import { OlcmeGorsel } from './olcme/OlcmeGorsel';
+import { VeriGorsel } from './veri/VeriGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
@@ -97,6 +98,14 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       return (
         <View style={kutu}>
           <OlcmeGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'veri') {
+      return (
+        <View style={kutu}>
+          <VeriGorsel {...gorsel} />
         </View>
       );
     }
