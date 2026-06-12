@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<title>768px — 9.7" tablet</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 768px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #FFF8F0;
+    color: #2D2A26;
+    padding: 36px;
+  }
+  .banner {
+    background: #E8F5E9;
+    border: 2px solid #4CAF50;
+    border-radius: 18px;
+    padding: 18px 24px;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  .banner strong { font-size: 22px; display: block; margin-bottom: 4px; }
+  .header {
+    background: #FFE8D6;
+    border-radius: 24px;
+    padding: 24px;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  .grid { display: flex; flex-wrap: wrap; gap: 18px; margin-bottom: 30px; }
+  .kart {
+    background: #FFFFFF;
+    border: 3px solid #E0D5C8;
+    border-radius: 24px;
+    padding: 30px;
+    min-height: 144px;
+  }
+  .sira { font-size: 18px; font-weight: 700; color: #6B6560; margin-bottom: 9px; }
+  .baslik { font-weight: 700; color: #1A1612; line-height: 1.25; }
+  .etiket { color: #FF8C42; font-weight: 700; margin-top: 12px; }
+  .gorsel-kutu {
+    background: #FFFFFF;
+    border: 2px solid #E0D5C8;
+    border-radius: 21px;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .gorsel-placeholder {
+    width: 680px;
+    height: 440px;
+    max-width: 100%;
+    background: linear-gradient(135deg, #FFD4A8 0%, #FFB366 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #5C4A32;
+  }
+  .btn {
+    width: 100%;
+    height: 68px;
+    background: #FF8C42;
+    color: #fff;
+    border: none;
+    border-radius: 21px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 18px; }
+  th, td { border: 1px solid #E0D5C8; padding: 9px 12px; text-align: left; }
+  th { background: #F5EDE4; }
+  tr.ok td:nth-child(2) { color: #2E7D32; font-weight: 700; }
+  tr.fail td:nth-child(2) { color: #C62828; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <strong>768px — 9.7" tablet</strong>
+    Tier: tabletSmall · Grid: 3 kolon · Tüm kontroller geçti
+  </div>
+  <div class="header">Merhaba! Hangi derse çalışmak istersin?</div>
+  <div class="gorsel-kutu">
+    <div class="gorsel-placeholder">Flow görsel 680×440px</div>
+  </div>
+  <button class="btn">Kontrol Et</button>
+  <div class="grid">
+    <div class="kart" style="width:220px">
+      <div class="sira">1</div>
+      <div class="baslik" style="font-size:22px">Ritmik Sayma</div>
+      <div class="etiket" style="font-size:20px">Başla →</div>
+    </div>
+    <div class="kart" style="width:220px">
+      <div class="sira">2</div>
+      <div class="baslik" style="font-size:22px">Sayıları Okuma</div>
+      
+    </div>
+    <div class="kart" style="width:220px">
+      <div class="sira">3</div>
+      <div class="baslik" style="font-size:22px">Onluk Birlik</div>
+      
+    </div>
+    <div class="kart" style="width:220px">
+      <div class="sira">4</div>
+      <div class="baslik" style="font-size:22px">Geometrik Cisimler</div>
+      
+    </div>
+    <div class="kart" style="width:220px">
+      <div class="sira">5</div>
+      <div class="baslik" style="font-size:22px">Şekil Modelleri</div>
+      
+    </div>
+    <div class="kart" style="width:220px">
+      <div class="sira">6</div>
+      <div class="baslik" style="font-size:22px">Sıvı Ölçme</div>
+      
+    </div></div>
+  <table>
+    <thead><tr><th>Kontrol</th><th></th><th>Detay</th></tr></thead>
+    <tbody><tr class="ok"><td>Tier</td><td>✓</td><td>beklenen tabletSmall, alınan tabletSmall</td></tr><tr class="ok"><td>Grid kolon</td><td>✓</td><td>beklenen 3, alınan 3</td></tr><tr class="ok"><td>Font sm</td><td>✓</td><td>18px</td></tr><tr class="ok"><td>Font lg</td><td>✓</td><td>22px</td></tr><tr class="ok"><td>Buton yüksekliği</td><td>✓</td><td>68px</td></tr><tr class="ok"><td>Buton tıklanabilir</td><td>✓</td><td>68px ≥ 44px</td></tr><tr class="ok"><td>Flow ölçek</td><td>✓</td><td>2×</td></tr><tr class="ok"><td>Görsel taşma</td><td>✓</td><td>görünen 680px (maxWidth 680px, width:100% ile sınırlı)</td></tr><tr class="ok"><td>Grid kart genişliği</td><td>✓</td><td>220px/kart</td></tr><tr class="ok"><td>Spacing çarpanı</td><td>✓</td><td>10→15 (1.5×)</td></tr></tbody>
+  </table>
+</body>
+</html>
