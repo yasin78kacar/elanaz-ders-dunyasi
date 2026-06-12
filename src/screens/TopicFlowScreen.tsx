@@ -128,9 +128,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <ElanazHeader />
       {adim.tip === 'anlatim' && (
         <View style={styles.kutu}>
+          <ElanazHeader />
           <Text style={styles.etiket}>Konu Anlatımı</Text>
           <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} konuId={konuId} />
           <Text style={styles.anlatimMetin}>{anlatimEkranlari[adim.index].metin}</Text>

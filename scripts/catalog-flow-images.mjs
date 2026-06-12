@@ -1,13 +1,7 @@
 /**
- * assets/images/ içindeki Flow görsellerini tarar ve
- * src/assets/flowImages.generated.ts dosyasını üretir.
- *
- * Ana görseller:
- * - elanaz.jpeg — ana karakter
- * - kaplar.jpeg — Sıvı Ölçme konusu yedek görseli
- * - geometri-nesneler.jpeg — geometri konuları yedek görseli
- *
- * Diğer dosyalar dosya adına göre sahne/konu anahtarına eşlenir.
+ * assets/images/ Flow görsellerini tarar:
+ * - src/assets/flowImages.generated.ts (Metro require haritası)
+ * - src/assets/flowImages.ts (dosya listesi + semantik eşlemeler)
  */
 import { readdirSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
@@ -15,7 +9,8 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const imagesDir = join(__dirname, '../assets/images');
-const outFile = join(__dirname, '../src/assets/flowImages.generated.ts');
+const generatedFile = join(__dirname, '../src/assets/flowImages.generated.ts');
+const manifestFile = join(__dirname, '../src/assets/flowImages.ts');
 
 const GEOMETRI_KONULARI = [
   'geometrik-cisimler',
@@ -31,128 +26,129 @@ const KONU_ONEK = {
   'geometrik-cisim-modelleri': 'g2m-',
 };
 
-const MASTER = {
-  elanaz: { kind: 'character' },
-  kaplar: { kind: 'topic', topic: 'sivi-olcme' },
-  'geometri-nesneler': { kind: 'topic', topic: '__geometri__' },
+/** Ana görseller — Flow uzun dosya adlarından semantik anahtarlar */
+const SEMANTIC_FILES = {
+  elanaz: 'A_cute_Turkish_girl_named_202606120924.jpeg',
+  kaplar: 'Five_simple_containers_in_a_202606120924.jpeg',
+  'geometri-nesneler': 'Eight_simple_objects_in_a_202606120924.jpeg',
 };
 
-function stemFrom(filename) {
-  return filename.replace(/\.(jpe?g|png|webp)$/i, '').toLowerCase();
-}
+/** İçerik gorsel kimliği → dosya adı deseni (ilk eşleşen) */
+const CONTENT_ALIASES = [
+  ['sayi-kartlari', /ten_number_cards/i],
+  ['sayi-kart-47', /ten_number_cards/i],
+  ['onluk-blok', /place_value_blocks/i],
+  ['elma-gruplari', /ten_fruits_and_vegetables/i],
+  ['cizim-kalemleri', /cozy_reading_corner/i],
+  ['renk-karistirma', /eight_color_swatches/i],
+  ['panoya-asilan-resim', /cozy_reading_corner/i],
+  ['top', /orange_soccer_ball|soccer_ball/i],
+  ['zar', /red_dice/i],
+  ['konserve', /yellow_tin_can|tin_can/i],
+  ['cadir', /green_camping_tent|camping_tent/i],
+  ['davul', /blue_colorful_drum|colorful_drum/i],
+  ['zil', /golden_cymbal|cymbal/i],
+  ['hediye-kutusu', /purple_gift_box|gift_box/i],
+  ['kitap', /school_objects/i],
+  ['sut-kutusu', /shoe_box|brown_shoe/i],
+  ['kure', /soccer_ball/i],
+  ['silindir', /tin_can|drum/i],
+  ['kup', /dice|gift_box|shoe_box/i],
+];
 
-function classify(stem) {
-  if (MASTER[stem]) return MASTER[stem];
-  if (stem.startsWith('g5m-') || stem.startsWith('kap-')) {
-    return { kind: 'sahne', key: stem.startsWith('kap-') ? stem : stem };
-  }
-  if (stem.startsWith('g4m-')) return { kind: 'sahne', key: stem };
-  if (stem.startsWith('g3m-')) return { kind: 'sahne', key: stem };
-  if (stem.startsWith('g2m-')) return { kind: 'sahne', key: stem };
-  if (stem.startsWith('geo-')) return { kind: 'sahne', key: stem.slice(4) };
-  if (stem.includes('ritmik')) return { kind: 'topic', topic: 'ritmik-sayma', key: stem };
-  if (stem.includes('onluk') || stem.includes('birlik')) {
-    return { kind: 'topic', topic: 'onluk-birlik', key: stem };
-  }
-  if (stem.includes('sayi') || stem.includes('okuma-yazma') || stem.includes('sayilar')) {
-    return { kind: 'topic', topic: 'sayilari-okuma-yazma', key: stem };
-  }
-  if (
-    stem.includes('hikaye') ||
-    stem.includes('boya') ||
-    stem.includes('okuma-kosesi') ||
-    stem.includes('kalem')
-  ) {
-    return { kind: 'topic', topic: 'okuma-kosesi', key: stem };
-  }
-  if (stem.includes('geometrik-cisim-modelleri')) {
-    return { kind: 'topic', topic: 'geometrik-cisim-modelleri', key: stem };
-  }
-  if (stem.includes('geometrik-sekil')) {
-    return { kind: 'topic', topic: 'geometrik-sekil-modelleri', key: stem };
-  }
-  if (stem.includes('bicimsel')) {
-    return { kind: 'topic', topic: 'bicimsel-ozellikler', key: stem };
-  }
-  if (stem.includes('sivi') || stem.includes('olcme') || stem.includes('bardak') || stem.includes('surahi')) {
-    return { kind: 'topic', topic: 'sivi-olcme', key: stem };
-  }
-  return { kind: 'sahne', key: stem };
-}
+/** Konu yedek görseli — geometri/sıvı dışı konular */
+const TOPIC_FILE_PATTERNS = [
+  ['ritmik-sayma', /colorful_number_line|repeating_patterns|winding_path/i],
+  ['sayilari-okuma-yazma', /number_flashcards|ten_number_cards|100_number_grid/i],
+  ['onluk-birlik', /place_value_blocks/i],
+  ['okuma-kosesi', /cozy_reading_corner|classic_turkish_tale/i],
+  ['geometrik-sekil-modelleri', /five_flat_geometric_shapes/i],
+  ['geometrik-cisim-modelleri', /six_3d_geometric_shapes/i],
+  ['bicimsel-ozellikler', /three_symmetry|comparison_symbols/i],
+];
 
-function scanImages() {
-  let files;
+function listImages() {
   try {
-    files = readdirSync(imagesDir).filter((f) => /\.(jpe?g|png|webp)$/i.test(f));
+    return readdirSync(imagesDir)
+      .filter((f) => /\.(jpe?g|png|webp)$/i.test(f))
+      .sort();
   } catch {
-    files = [];
+    return [];
   }
+}
 
-  const sources = {};
-  const topicFallbacks = {};
-  let characterSource = null;
+function findFile(files, pattern) {
+  if (typeof pattern === 'string') return files.find((f) => f === pattern);
+  return files.find((f) => pattern.test(f) && !f.includes(' (1)'));
+}
 
-  for (const file of files.sort()) {
-    const stem = stemFrom(file);
-    const info = classify(stem);
-    const varName = `img_${stem.replace(/[^a-z0-9]+/g, '_')}`;
-    const relPath = `../../assets/images/${file}`;
-
-    sources[stem] = { varName, relPath };
-
-    if (info.kind === 'character') {
-      characterSource = { varName, stem };
-      continue;
-    }
-    if (info.kind === 'topic' && (stem === 'kaplar' || stem === 'geometri-nesneler')) {
-      topicFallbacks[info.topic] = stem;
-      continue;
-    }
-    if (info.kind === 'topic' && info.key && info.key !== stem) {
-      sources[info.key] = { varName, relPath, alias: true };
-    }
-  }
-
-  return { files, sources, topicFallbacks, characterSource };
+function safeVar(i) {
+  return `flowImg${i}`;
 }
 
 function generate() {
-  const { files, sources, topicFallbacks, characterSource } = scanImages();
-
+  const files = listImages();
+  const fileToVar = new Map();
   const imports = [];
-  const sourceEntries = [];
-  const seenVars = new Set();
+  const sourceByKey = new Map();
 
-  for (const [key, meta] of Object.entries(sources)) {
-    if (seenVars.has(meta.varName)) continue;
-    seenVars.add(meta.varName);
-    imports.push(`import ${meta.varName} from '${meta.relPath}';`);
+  files.forEach((file, i) => {
+    const varName = safeVar(i);
+    fileToVar.set(file, varName);
+    imports.push(`import ${varName} from '../../assets/images/${file}';`);
+    const stem = file.replace(/\.(jpe?g|png|webp)$/i, '').toLowerCase();
+    sourceByKey.set(stem, varName);
+    sourceByKey.set(file.toLowerCase(), varName);
+  });
+
+  const addAlias = (key, file) => {
+    const v = fileToVar.get(file);
+    if (v) sourceByKey.set(key.toLowerCase(), v);
+  };
+
+  for (const [key, filename] of Object.entries(SEMANTIC_FILES)) {
+    const file = findFile(files, filename);
+    if (file) addAlias(key, file);
   }
 
-  for (const [key, meta] of Object.entries(sources)) {
-    sourceEntries.push(`  '${key}': ${meta.varName},`);
+  const topicFallbacks = new Map();
+  if (sourceByKey.has('kaplar')) topicFallbacks.set('sivi-olcme', sourceByKey.get('kaplar'));
+  if (sourceByKey.has('geometri-nesneler')) {
+    topicFallbacks.set('__geometri__', sourceByKey.get('geometri-nesneler'));
   }
 
-  const topicEntries = Object.entries(topicFallbacks).map(
-    ([topic, stem]) => `  '${topic}': ${sources[stem].varName},`,
+  for (const [konuId, pattern] of TOPIC_FILE_PATTERNS) {
+    const file = findFile(files, pattern);
+    if (file) topicFallbacks.set(konuId, fileToVar.get(file));
+  }
+
+  for (const [contentKey, pattern] of CONTENT_ALIASES) {
+    const file = findFile(files, pattern);
+    if (file) addAlias(contentKey, file);
+  }
+
+  const characterVar = sourceByKey.get('elanaz');
+
+  const uniqueVars = [...new Set(sourceByKey.values())];
+  const keyEntries = [...sourceByKey.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([key, varName]) => `  '${key.replace(/'/g, "\\'")}': ${varName},`);
+
+  const topicEntries = [...topicFallbacks.entries()].map(
+    ([topic, varName]) => `  '${topic}': ${varName},`,
   );
 
-  const charLine = characterSource
-    ? `export const FLOW_CHARACTER_SOURCE = ${characterSource.varName};`
-    : 'export const FLOW_CHARACTER_SOURCE: number | undefined = undefined;';
-
-  const body = `/* eslint-disable */
-// Bu dosya otomatik üretilir — scripts/catalog-flow-images.mjs
-// Görselleri assets/images/ altına ekledikten sonra: npm run catalog-images
+  const generated = `/* eslint-disable */
+// Otomatik üretilir — npm run catalog-images
 
 ${imports.join('\n')}
 
 export const FLOW_IMAGE_COUNT = ${files.length};
 
-${charLine}
+export const FLOW_CHARACTER_SOURCE${characterVar ? '' : ': number | undefined'} = ${characterVar ?? 'undefined'};
 
 export const FLOW_IMAGE_SOURCES: Record<string, number> = {
-${sourceEntries.join('\n')}
+${keyEntries.join('\n')}
 };
 
 export const FLOW_TOPIC_FALLBACKS: Record<string, number> = {
@@ -164,8 +160,24 @@ export const FLOW_GEOMETRI_KONULARI = ${JSON.stringify(GEOMETRI_KONULARI)} as co
 export const FLOW_KONU_ONEK: Record<string, string> = ${JSON.stringify(KONU_ONEK)};
 `;
 
-  writeFileSync(outFile, body, 'utf8');
-  console.log(`catalog-flow-images: ${files.length} görsel → ${outFile}`);
+  const manifest = `/* eslint-disable */
+// Otomatik üretilir — npm run catalog-images
+// Tüm Flow görsel dosyaları ve semantik eşlemeler.
+
+export { FLOW_IMAGE_COUNT, FLOW_CHARACTER_SOURCE, FLOW_IMAGE_SOURCES, FLOW_TOPIC_FALLBACKS } from './flowImages.generated';
+
+/** assets/images/ içindeki tüm görsel dosyaları (${files.length} adet) */
+export const FLOW_IMAGE_FILES = ${JSON.stringify(files, null, 2)} as const;
+
+/** Ana karakter ve konu yedek görselleri → dosya adı */
+export const FLOW_SEMANTIC_FILES = ${JSON.stringify(SEMANTIC_FILES, null, 2)} as const;
+`;
+
+  writeFileSync(generatedFile, generated, 'utf8');
+  writeFileSync(manifestFile, manifest, 'utf8');
+  console.log(`catalog-flow-images: ${files.length} görsel`);
+  console.log(`  → ${generatedFile}`);
+  console.log(`  → ${manifestFile}`);
   return files.length;
 }
 

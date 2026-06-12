@@ -13,11 +13,23 @@ function lookup(key: string): number | undefined {
   return FLOW_IMAGE_SOURCES[key.toLowerCase()];
 }
 
+function konuYedekGorseli(konuId?: string): number | undefined {
+  if (!konuId) return undefined;
+  if (konuId === 'sivi-olcme') return FLOW_TOPIC_FALLBACKS['sivi-olcme'];
+  if (geometriKonulari.has(konuId)) return FLOW_TOPIC_FALLBACKS.__geometri__;
+  return FLOW_TOPIC_FALLBACKS[konuId];
+}
+
 /** Sahne veya sabit görsel kimliği için Flow kaynağı; yoksa undefined (SVG yedek). */
 export function resolveFlowImage(key: string, konuId?: string): number | undefined {
   const k = key.toLowerCase();
   const direct = lookup(k);
   if (direct !== undefined) return direct;
+
+  if (k.startsWith('onluk-blok')) {
+    const onluk = lookup('onluk-blok');
+    if (onluk !== undefined) return onluk;
+  }
 
   if (konuId) {
     const onek = FLOW_KONU_ONEK[konuId];
@@ -25,26 +37,35 @@ export function resolveFlowImage(key: string, konuId?: string): number | undefin
       const prefixed = lookup(`${onek}${k}`);
       if (prefixed !== undefined) return prefixed;
     }
-
-    const topicFb = FLOW_TOPIC_FALLBACKS[konuId];
-    if (topicFb !== undefined) return topicFb;
-
-    if (geometriKonulari.has(konuId)) {
-      const geoFb = FLOW_TOPIC_FALLBACKS.__geometri__;
-      if (geoFb !== undefined) return geoFb;
-    }
   }
 
-  if (k.startsWith('g5m-')) return FLOW_TOPIC_FALLBACKS['sivi-olcme'];
-  if (k.startsWith('g4m-')) return FLOW_TOPIC_FALLBACKS['bicimsel-ozellikler'];
-  if (k.startsWith('g3m-')) return FLOW_TOPIC_FALLBACKS['geometrik-sekil-modelleri'];
-  if (k.startsWith('g2m-')) return FLOW_TOPIC_FALLBACKS['geometrik-cisim-modelleri'];
-
-  if (geometriKonulari.has(konuId ?? '')) {
-    return FLOW_TOPIC_FALLBACKS.__geometri__;
+  if (k.startsWith('g5m-') || konuId === 'sivi-olcme') {
+    return FLOW_TOPIC_FALLBACKS['sivi-olcme'];
   }
 
-  return undefined;
+  if (
+    k.startsWith('g4m-') ||
+    k.startsWith('g3m-') ||
+    k.startsWith('g2m-') ||
+    geometriKonulari.has(konuId ?? '')
+  ) {
+    const geo = FLOW_TOPIC_FALLBACKS.__geometri__;
+    if (geo !== undefined) return geo;
+  }
+
+  return konuYedekGorseli(konuId);
+}
+
+/** Sıvı ölçme kap görselleri → kaplar.jpeg; geometri nesneleri → geometri-nesneler.jpeg */
+export function resolveFlowImageForTur(
+  tur: 'kap' | 'nesne',
+  sahneOrId: string,
+  konuId?: string,
+): number | undefined {
+  if (tur === 'kap') {
+    return lookup(sahneOrId) ?? FLOW_TOPIC_FALLBACKS['sivi-olcme'];
+  }
+  return resolveFlowImage(sahneOrId, konuId);
 }
 
 export function resolveCharacterImage(): number | undefined {

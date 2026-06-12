@@ -6,7 +6,6 @@ import { kaydetHikayeCevabi, tamamlaHikaye } from '../services/progressStore';
 import { TestQuestion } from '../components/TestQuestion';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
-import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
@@ -85,7 +84,6 @@ export function StoryFlowScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <ElanazHeader />
       {adim.tip === 'okuma' && (
         <View style={styles.kutu}>
           <Text style={styles.etiket}>Okuma Köşesi</Text>

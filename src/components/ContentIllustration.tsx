@@ -9,7 +9,7 @@ import { NesneGorsel } from './nesneler/NesneGorsel';
 import { SekilGorsel } from './nesneler/SekilGorsel';
 import { G4mGorsel } from './nesneler/G4mGorsel';
 import { G5mGorsel } from './kaplar/G5mGorsel';
-import { resolveFlowImage } from '../assets/imageCatalog';
+import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { colors } from '../theme/colors';
 import type { Gorsel } from '../types/content';
@@ -45,7 +45,10 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
     }
 
     if (gorsel.tur === 'kap') {
-      return flowVeyaSvg(gorsel.sahne, konuId ?? 'sivi-olcme', <G5mGorsel sahne={gorsel.sahne} />);
+      const source = resolveFlowImageForTur('kap', gorsel.sahne, 'sivi-olcme');
+      return gorselKutusu(
+        <FlowOrFallback source={source} fallback={<G5mGorsel sahne={gorsel.sahne} />} />,
+      );
     }
 
     if (gorsel.tur === 'nesne') {
@@ -58,7 +61,8 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       ) : (
         <GeoGorsel sahne={gorsel.sahne} />
       );
-      return flowVeyaSvg(gorsel.sahne, konuId, svg);
+      const source = resolveFlowImageForTur('nesne', gorsel.sahne, konuId);
+      return gorselKutusu(<FlowOrFallback source={source} fallback={svg} />);
     }
   }
 
