@@ -1,16 +1,19 @@
 import { useCallback, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
+import { getTumKonuYildizlari, type KonuYildizOzeti } from '../services/progressMap';
 import { getTumSoruKayitlari } from '../services/progressStore';
 import type { SoruKaydi } from '../types/progress';
 import { colors } from '../theme/colors';
 
 export function ParentPanelScreen() {
   const [kayitlar, setKayitlar] = useState<SoruKaydi[]>([]);
+  const [konuYildizlari, setKonuYildizlari] = useState<KonuYildizOzeti[]>([]);
 
   useFocusEffect(
     useCallback(() => {
       getTumSoruKayitlari().then(setKayitlar);
+      getTumKonuYildizlari().then(setKonuYildizlari);
     }, []),
   );
 
@@ -27,6 +30,22 @@ export function ParentPanelScreen() {
         <Text style={[styles.ozetSatir, styles.dogru]}>Doğru: {dogru}</Text>
         <Text style={[styles.ozetSatir, styles.yanlis]}>Yanlış: {yanlis}</Text>
       </View>
+
+      <Text style={styles.bolumBaslik}>Konu Yıldızları</Text>
+      {konuYildizlari.length === 0 ? (
+        <Text style={styles.bosMetin}>Henüz konu ilerlemesi yok.</Text>
+      ) : (
+        konuYildizlari.map((k) => (
+          <View key={`${k.dersBaslik}-${k.konuBaslik}`} style={styles.yildizSatir}>
+            <Text style={styles.yildizKonu}>
+              {k.dersBaslik} · {k.konuBaslik}
+            </Text>
+            <Text style={styles.yildizDeger}>
+              {k.yildiz > 0 ? '⭐'.repeat(k.yildiz) : '—'}
+            </Text>
+          </View>
+        ))
+      )}
 
       <Text style={styles.bolumBaslik}>Yanlış Yapılan Sorular</Text>
       {yanlisKayitlar.length === 0 ? (
@@ -73,6 +92,28 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: colors.baslik,
     marginTop: 8,
+  },
+  yildizSatir: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: colors.kart,
+    borderRadius: 10,
+    padding: 12,
+    borderWidth: 1,
+    borderColor: colors.kenarlik,
+    gap: 8,
+  },
+  yildizKonu: {
+    flex: 1,
+    fontSize: 15,
+    color: colors.baslik,
+    fontWeight: '600',
+  },
+  yildizDeger: {
+    fontSize: 16,
+    minWidth: 56,
+    textAlign: 'right',
   },
   bosMetin: { fontSize: 16, color: colors.metin, fontStyle: 'italic' },
   soruKart: {

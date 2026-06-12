@@ -2,43 +2,27 @@ import { getDersKonuYolu } from './contentLoader';
 import { getKonuIlerleme, getHikayeIlerleme } from './progressStore';
 import type { KonuOzet } from '../types/content';
 
-export type KonuDurumu = 'kilitli' | 'aktif' | 'tamamlandi';
+export type KonuDurumu = 'aktif' | 'tamamlandi';
 
 export interface KonuHaritaOgesi extends KonuOzet {
   durum: KonuDurumu;
   yildiz: number;
 }
 
+/** Tüm konular açık — yıldız yalnızca ilerleme göstergesi, kilit yok. */
 export async function getKonuHaritasi(dersId: string): Promise<KonuHaritaOgesi[]> {
   const yol = getDersKonuYolu(dersId);
-  const sonuclar: KonuHaritaOgesi[] = [];
-  let oncekiYildiz = 3;
 
-  for (const konu of yol) {
-    const ilerleme = await getKonuIlerleme(dersId, konu.id);
-    const yildiz = ilerleme?.yildiz ?? 0;
-    const dahaOnceCalisildi =
-      (ilerleme?.tamamlandi ?? false) || (ilerleme?.yildiz ?? 0) > 0;
-    const acik = konu.sira === 0 || oncekiYildiz >= 1 || dahaOnceCalisildi;
+  return Promise.all(
+    yol.map(async (konu) => {
+      const ilerleme = await getKonuIlerleme(dersId, konu.id);
+      const yildiz = ilerleme?.yildiz ?? 0;
+      const durum: KonuDurumu =
+        ilerleme?.tamamlandi && yildiz > 0 ? 'tamamlandi' : 'aktif';
 
-    let durum: KonuDurumu;
-    if (!acik) durum = 'kilitli';
-    else if (ilerleme?.tamamlandi && yildiz > 0) durum = 'tamamlandi';
-    else durum = 'aktif';
-
-    sonuclar.push({ ...konu, durum, yildiz });
-    if (ilerleme?.tamamlandi) oncekiYildiz = yildiz;
-    else if (yildiz > 0) oncekiYildiz = yildiz;
-    else oncekiYildiz = 0;
-  }
-
-  return sonuclar;
-}
-
-export async function konuAcikMi(dersId: string, konuId: string): Promise<boolean> {
-  const harita = await getKonuHaritasi(dersId);
-  const og = harita.find((k) => k.id === konuId);
-  return og?.durum !== 'kilitli';
+      return { ...konu, durum, yildiz };
+    }),
+  );
 }
 
 export async function getDersIlerlemeOzeti(dersId: string): Promise<{
@@ -76,4 +60,30 @@ export async function getHikayeIlerlemeOzeti(dersId: string): Promise<{
   }
 
   return { tamamlanan, toplam: hikayeler.length, yildizToplam };
+}
+
+export interface KonuYildizOzeti {
+  dersBaslik: string;
+  konuBaslik: string;
+  yildiz: number;
+}
+
+/** Anne Paneli: ders bazında konu yıldızları. */
+export async function getTumKonuYildizlari(): Promise<KonuYildizOzeti[]> {
+  const { getDersListesi, okumaKosesiMi } = await import('./contentLoader');
+  const sonuc: KonuYildizOzeti[] = [];
+
+  for (const ders of getDersListesi()) {
+    if (okumaKosesiMi(ders.id)) continue;
+    const harita = await getKonuHaritasi(ders.id);
+    for (const konu of harita) {
+      sonuc.push({
+        dersBaslik: ders.baslik,
+        konuBaslik: konu.baslik,
+        yildiz: konu.yildiz,
+      });
+    }
+  }
+
+  return sonuc;
 }
