@@ -509,9 +509,9 @@
       "soru": "3 + 4 = ?",
       "dogruCevap": "7",
       "secenekler": [
-        "7",
         "8",
         "5",
+        "7",
         "6"
       ],
       "ipucu": "",
@@ -533,10 +533,10 @@
       "soru": "5 + 3 = ?",
       "dogruCevap": "8",
       "secenekler": [
-        "9",
-        "8",
         "7",
-        "6"
+        "8",
+        "6",
+        "9"
       ],
       "ipucu": "",
       "gorsel": {
@@ -557,8 +557,8 @@
       "soru": "Elde 4 kalem var, 3 kalem daha aldı. Kaç kalemi var?",
       "dogruCevap": "7",
       "secenekler": [
-        "6",
         "9",
+        "6",
         "7",
         "8"
       ],
@@ -581,10 +581,10 @@
       "soru": "6 + 6 = ?",
       "dogruCevap": "12",
       "secenekler": [
-        "12",
-        "13",
         "11",
-        "10"
+        "12",
+        "10",
+        "13"
       ],
       "ipucu": "",
       "gorsel": {
@@ -606,9 +606,9 @@
       "dogruCevap": "9",
       "secenekler": [
         "10",
-        "8",
         "0",
-        "9"
+        "9",
+        "8"
       ],
       "ipucu": "",
       "gorsel": {
@@ -629,9 +629,9 @@
       "soru": "Sınıfta 7 kız, 5 erkek öğrenci var. Toplam kaç öğrenci var?",
       "dogruCevap": "12",
       "secenekler": [
-        "12",
         "11",
         "13",
+        "12",
         "10"
       ],
       "ipucu": "",
@@ -648,10 +648,10 @@
       "soru": "8 + 3 = ?",
       "dogruCevap": "11",
       "secenekler": [
-        "10",
-        "13",
         "12",
-        "11"
+        "11",
+        "10",
+        "13"
       ],
       "ipucu": "",
       "gorsel": {
@@ -673,9 +673,9 @@
       "dogruCevap": "5",
       "secenekler": [
         "3",
-        "6",
+        "4",
         "5",
-        "4"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -695,10 +695,10 @@
       "soru": "7 + 7 = ?",
       "dogruCevap": "14",
       "secenekler": [
-        "15",
-        "14",
+        "12",
         "13",
-        "12"
+        "14",
+        "15"
       ],
       "ipucu": "",
       "gorsel": {
@@ -720,9 +720,9 @@
       "dogruCevap": "6 + 4",
       "secenekler": [
         "6 + 4",
+        "3 + 6",
         "5 + 4",
-        "4 + 5",
-        "3 + 6"
+        "4 + 5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -779,8 +779,8 @@
       "soru": "6 + 7 = ?",
       "dogruCevap": "13",
       "secenekler": [
-        "14",
         "11",
+        "14",
         "12",
         "13"
       ],
@@ -803,10 +803,10 @@
       "soru": "Masada 8 portakal var, 5 tane daha konuldu. Kaç portakal var?",
       "dogruCevap": "13",
       "secenekler": [
-        "11",
-        "14",
         "12",
-        "13"
+        "11",
+        "13",
+        "14"
       ],
       "ipucu": "",
       "gorsel": {
@@ -824,8 +824,8 @@
       "secenekler": [
         "6",
         "5",
-        "8",
-        "7"
+        "7",
+        "8"
       ],
       "ipucu": "",
       "gorsel": {
@@ -845,8 +845,8 @@
       "soru": "9 + 8 = ?",
       "dogruCevap": "17",
       "secenekler": [
-        "15",
         "16",
+        "15",
         "18",
         "17"
       ],
@@ -870,8 +870,8 @@
       "dogruCevap": "4 + 7 = 10",
       "secenekler": [
         "5 + 5 = 10",
-        "3 + 7 = 10",
         "4 + 7 = 10",
+        "3 + 7 = 10",
         "6 + 4 = 10"
       ],
       "ipucu": "",
@@ -930,9 +930,9 @@
       "dogruCevap": "17",
       "secenekler": [
         "18",
-        "17",
+        "15",
         "16",
-        "15"
+        "17"
       ],
       "ipucu": "",
       "gorsel": {
@@ -969,10 +969,10 @@
       "soru": "□ + □ = 8. Hangi çift doğrudur?",
       "dogruCevap": "4 + 4",
       "secenekler": [
-        "2 + 5",
-        "4 + 4",
         "5 + 4",
-        "3 + 6"
+        "3 + 6",
+        "4 + 4",
+        "2 + 5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -992,10 +992,10 @@
       "soru": "10 + 10 = ?",
       "dogruCevap": "20",
       "secenekler": [
-        "20",
-        "21",
+        "19",
         "18",
-        "19"
+        "20",
+        "21"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1013,10 +1013,10 @@
       "soru": "🎭 Bir sayıya 0 eklersek ne olur?",
       "dogruCevap": "Sayı değişmez",
       "secenekler": [
-        "Sayı 0 olur",
         "Sayı 1 artar",
         "Sayı 2 artar",
-        "Sayı değişmez"
+        "Sayı değişmez",
+        "Sayı 0 olur"
       ],
       "ipucu": "0 hiç demek!",
       "gorsel": {
@@ -1038,10 +1038,10 @@
       "soru": "8 + 5 = ?",
       "dogruCevap": "13",
       "secenekler": [
-        "14",
         "11",
-        "13",
-        "12"
+        "12",
+        "14",
+        "13"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1062,10 +1062,10 @@
       "soru": "🎭 5 + 3 ile 3 + 5 eşit midir?",
       "dogruCevap": "Evet, ikisi de 8'dir",
       "secenekler": [
-        "Evet, ikisi de 8'dir",
         "Hiçbir zaman eşit olmaz",
         "Bazen eşit olur",
-        "Hayır, farklıdır"
+        "Hayır, farklıdır",
+        "Evet, ikisi de 8'dir"
       ],
       "ipucu": "Toplama işleminde sıra değişmez!",
       "gorsel": {
@@ -1103,10 +1103,10 @@
       "soru": "Kutuda 6 top var, 8 tane daha atıldı. Kutuda kaç top var?",
       "dogruCevap": "14",
       "secenekler": [
+        "13",
         "14",
         "12",
-        "15",
-        "13"
+        "15"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1122,9 +1122,9 @@
       "soru": "🎭 Hangisi en büyük sonucu verir?",
       "dogruCevap": "8 + 5",
       "secenekler": [
+        "8 + 5",
         "9 + 1",
         "6 + 6",
-        "8 + 5",
         "7 + 4"
       ],
       "ipucu": "Her birini hesapla, en büyüğü bul!",
@@ -1183,10 +1183,10 @@
       "soru": "🎭 Elanaz'ın 7 kalemi, Elif'in 9 kalemi var. İkisinin kalemlerini birleştirirlerse kaç kalemi olur?",
       "dogruCevap": "16",
       "secenekler": [
+        "15",
         "14",
         "17",
-        "16",
-        "15"
+        "16"
       ],
       "ipucu": "Elanaz + Elif = ?",
       "gorsel": {

@@ -15,6 +15,10 @@ import cikarma from '../../content/sinif2/matematik/cikarma.json';
 import zihindenToplama from '../../content/sinif2/matematik/zihinden-toplama.json';
 import zihindenCikarma from '../../content/sinif2/matematik/zihinden-cikarma.json';
 import problemler from '../../content/sinif2/matematik/problemler.json';
+import uzunlukOlcme from '../../content/sinif2/matematik/uzunluk-olcme.json';
+import tartma from '../../content/sinif2/matematik/tartma.json';
+import siviMiktari from '../../content/sinif2/matematik/sivi-miktari.json';
+import zaman from '../../content/sinif2/matematik/zaman.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -36,6 +40,10 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/zihinden-toplama.json': zihindenToplama as Konu,
   'matematik/zihinden-cikarma.json': zihindenCikarma as Konu,
   'matematik/problemler.json': problemler as Konu,
+  'matematik/uzunluk-olcme.json': uzunlukOlcme as Konu,
+  'matematik/tartma.json': tartma as Konu,
+  'matematik/sivi-miktari.json': siviMiktari as Konu,
+  'matematik/zaman.json': zaman as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

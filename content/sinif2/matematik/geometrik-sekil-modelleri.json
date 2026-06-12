@@ -438,10 +438,10 @@
       "soru": "Resimdeki şekil hangisidir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Kare",
+        "Dikdörtgen",
         "Daire",
         "Üçgen",
-        "Dikdörtgen"
+        "Kare"
       ],
       "ipucu": "Üç köşeli şekil…",
       "gorsel": {
@@ -474,10 +474,10 @@
       "soru": "Dört kenarı eşit olan şekil hangisidir?",
       "dogruCevap": "Kare",
       "secenekler": [
-        "Üçgen",
         "Dikdörtgen",
-        "Kare",
-        "Çember"
+        "Üçgen",
+        "Çember",
+        "Kare"
       ],
       "ipucu": "Dört kenarı da eşit…",
       "gorsel": {
@@ -510,8 +510,8 @@
       "soru": "Resimdeki şekil hangisidir?",
       "dogruCevap": "Çember",
       "secenekler": [
-        "Çember",
         "Üçgen",
+        "Çember",
         "Kare",
         "Daire"
       ],
@@ -548,8 +548,8 @@
       "secenekler": [
         "Kare",
         "Daire",
-        "Çember",
-        "Üçgen"
+        "Üçgen",
+        "Çember"
       ],
       "ipucu": "İçi DOLU mu BOŞ mu? Boyalıysa adı değişir!",
       "gorsel": {
@@ -584,9 +584,9 @@
       "dogruCevap": "Dondurma külahı",
       "secenekler": [
         "Kapı",
-        "Tekerlek",
+        "Dondurma külahı",
         "Pencere",
-        "Dondurma külahı"
+        "Tekerlek"
       ],
       "ipucu": "Külah ters üçgen şeklindedir.",
       "gorsel": {
@@ -619,10 +619,10 @@
       "soru": "Kapı hangi şekle benzer?",
       "dogruCevap": "Dikdörtgen",
       "secenekler": [
-        "Dikdörtgen",
-        "Daire",
         "Üçgen",
-        "Çember"
+        "Çember",
+        "Daire",
+        "Dikdörtgen"
       ],
       "ipucu": "Kapı köşeli ve uzundur.",
       "gorsel": {
@@ -657,8 +657,8 @@
       "secenekler": [
         "Üçgen",
         "Daire",
-        "Dikdörtgen",
-        "Kare"
+        "Kare",
+        "Dikdörtgen"
       ],
       "ipucu": "Çatı üçgen şeklindedir.",
       "gorsel": {
@@ -692,9 +692,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "3",
-        "1",
         "4",
-        "2"
+        "2",
+        "1"
       ],
       "ipucu": "Her vagonda 2 tekerlek, 2 vagon = 4 çember.",
       "gorsel": {
@@ -710,9 +710,9 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Üçgen",
-        "Daire",
+        "Kare",
         "Dikdörtgen",
-        "Kare"
+        "Daire"
       ],
       "ipucu": "Güneş içi dolu yuvarlaktır.",
       "gorsel": {
@@ -746,9 +746,9 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Dikdörtgen",
+        "Kare",
         "Üçgen",
-        "Daire",
-        "Kare"
+        "Daire"
       ],
       "ipucu": "\"DEĞİLDİR\" — köşesi OLMAYAN şekli arıyoruz!",
       "gorsel": {
@@ -782,10 +782,10 @@
       "soru": "Resimdeki robotun gözleri hangi şekildir?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Dikdörtgen",
         "Kare",
-        "Üçgen",
-        "Daire"
+        "Daire",
+        "Dikdörtgen",
+        "Üçgen"
       ],
       "ipucu": "Gözler içi dolu yuvarlaktır.",
       "gorsel": {
@@ -818,10 +818,10 @@
       "soru": "Resimdeki modelde kaç tane kare vardır?",
       "dogruCevap": "2",
       "secenekler": [
-        "1",
         "2",
         "4",
-        "3"
+        "3",
+        "1"
       ],
       "ipucu": "Kafa ve gövde karedir.",
       "gorsel": {
@@ -836,9 +836,9 @@
       "soru": "Simit hangi şekle benzer?",
       "dogruCevap": "Çember",
       "secenekler": [
-        "Kare",
-        "Dikdörtgen",
         "Üçgen",
+        "Dikdörtgen",
+        "Kare",
         "Çember"
       ],
       "ipucu": "Simitin ortası delik — içi boş çember.",
@@ -872,8 +872,8 @@
       "soru": "Elanaz'ın çizdiği balık modelinde kuyruk hangi şekildir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Üçgen",
         "Kare",
+        "Üçgen",
         "Daire",
         "Çember"
       ],
@@ -908,10 +908,10 @@
       "soru": "Aynı balığın gövdesi hangi şekildir?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Kare",
         "Daire",
+        "Dikdörtgen",
         "Üçgen",
-        "Dikdörtgen"
+        "Kare"
       ],
       "ipucu": "Gövde içi dolu yuvarlaktır.",
       "gorsel": {
@@ -944,9 +944,9 @@
       "soru": "Karenin bir kenarını tutup yana doğru uzatırsak hangi şekil oluşur?",
       "dogruCevap": "Dikdörtgen",
       "secenekler": [
+        "Dikdörtgen",
         "Daire",
         "Üçgen",
-        "Dikdörtgen",
         "Çember"
       ],
       "ipucu": "Karenin uzamış hâli dikdörtgendir.",
@@ -980,9 +980,9 @@
       "soru": "Trafikteki DUR levhası gibi üç köşeli levhalar hangi şekildir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
+        "Daire",
         "Kare",
         "Üçgen",
-        "Daire",
         "Dikdörtgen"
       ],
       "ipucu": "Uyarı levhaları üçgendir.",
@@ -1016,10 +1016,10 @@
       "soru": "Resimdeki çiçek modelinde yapraklar hangi şekildir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Dikdörtgen",
         "Çember",
+        "Üçgen",
         "Kare",
-        "Üçgen"
+        "Dikdörtgen"
       ],
       "ipucu": "Yapraklar üçgen şeklindedir.",
       "gorsel": {
@@ -1052,10 +1052,10 @@
       "soru": "Resimdeki evde toplam kaç pencere vardır ve hangi şekildir?",
       "dogruCevap": "2 kare",
       "secenekler": [
-        "2 daire",
         "1 dikdörtgen",
-        "2 kare",
-        "3 üçgen"
+        "3 üçgen",
+        "2 daire",
+        "2 kare"
       ],
       "ipucu": "İki kare pencere vardır.",
       "gorsel": {
@@ -1070,10 +1070,10 @@
       "soru": "Pizza dilimi hangi şekle benzer?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Üçgen",
-        "Kare",
+        "Çember",
         "Dikdörtgen",
-        "Çember"
+        "Kare",
+        "Üçgen"
       ],
       "ipucu": "Pizza dilimi üçgen şeklindedir.",
       "gorsel": {
@@ -1106,10 +1106,10 @@
       "soru": "🎭 Elanaz çemberin içini sarıya boyadı. Şeklin YENİ adı nedir?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Daire",
         "Boyalı çember",
+        "Kare",
         "Çember",
-        "Kare"
+        "Daire"
       ],
       "ipucu": "Kitabımız ne diyordu — çemberin içini boyayınca ne oluşur?",
       "gorsel": {
@@ -1179,10 +1179,10 @@
       "soru": "Resimdeki kelebek modelinde kaç üçgen vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "3",
-        "1",
+        "2",
         "4",
-        "2"
+        "3",
+        "1"
       ],
       "ipucu": "Dört üçgen kanat vardır.",
       "gorsel": {
@@ -1198,8 +1198,8 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Çember",
-        "Kare",
         "Daire",
+        "Kare",
         "Küre"
       ],
       "ipucu": "Paranın içi dolu! Ve dikkat — küre bir CİSİMDİ, şekil değil!",
@@ -1235,9 +1235,9 @@
       "dogruCevap": "Çatı → Üçgen",
       "secenekler": [
         "Tekerlek → Dikdörtgen",
-        "Çatı → Üçgen",
+        "Kapı → Daire",
         "Güneş → Kare",
-        "Kapı → Daire"
+        "Çatı → Üçgen"
       ],
       "ipucu": "Her nesneyi doğru şekle eşleştir.",
       "gorsel": {

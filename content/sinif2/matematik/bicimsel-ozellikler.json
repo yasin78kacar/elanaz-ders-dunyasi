@@ -436,10 +436,10 @@
       "soru": "Davul hangi cisme benzer?",
       "dogruCevap": "Silindir",
       "secenekler": [
-        "Silindir",
-        "Üçgen prizma",
         "Küp",
-        "Küre"
+        "Silindir",
+        "Küre",
+        "Üçgen prizma"
       ],
       "ipucu": "Davulun yuvarlak gövdesi silindire benzer.",
       "gorsel": {
@@ -472,10 +472,10 @@
       "soru": "Hangisinin köşesi VARDIR?",
       "dogruCevap": "Zar",
       "secenekler": [
-        "Portakal",
+        "Zar",
         "Misket",
         "Top",
-        "Zar"
+        "Portakal"
       ],
       "ipucu": "Köşeli cisimleri düşün.",
       "gorsel": {
@@ -508,10 +508,10 @@
       "soru": "Zil hangi şekle benzer?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Dikdörtgen",
         "Daire",
-        "Üçgen",
-        "Kare"
+        "Kare",
+        "Dikdörtgen",
+        "Üçgen"
       ],
       "ipucu": "Zil içi dolu yuvarlak bir şekildir.",
       "gorsel": {
@@ -545,8 +545,8 @@
       "dogruCevap": "Yine yuvarlaktır",
       "secenekler": [
         "Yine yuvarlaktır",
-        "Artık köşelidir",
         "Kare olmuştur",
+        "Artık köşelidir",
         "Büyüyünce biçimi bozulur"
       ],
       "ipucu": "BÜYÜKLÜK değişir, BİÇİM değişmez!",
@@ -563,10 +563,10 @@
       "soru": "Üçgenin kaç köşesi vardır?",
       "dogruCevap": "3",
       "secenekler": [
-        "3",
-        "2",
+        "5",
         "4",
-        "5"
+        "2",
+        "3"
       ],
       "ipucu": "Üçgenin üç köşesi vardır.",
       "gorsel": {
@@ -581,10 +581,10 @@
       "soru": "Karenin kenarları nasıldır?",
       "dogruCevap": "Hepsi eşittir",
       "secenekler": [
-        "Hepsi eşittir",
         "Üç tanedir",
+        "Hepsi farklıdır",
         "Yuvarlaktır",
-        "Hepsi farklıdır"
+        "Hepsi eşittir"
       ],
       "ipucu": "Karenin dört kenarı da eşittir.",
       "gorsel": {
@@ -599,10 +599,10 @@
       "soru": "Hangisinin kenarı ve köşesi YOKTUR?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Daire",
         "Kare",
         "Dikdörtgen",
-        "Üçgen"
+        "Üçgen",
+        "Daire"
       ],
       "ipucu": "Yuvarlak şekillerin köşesi yoktur.",
       "gorsel": {
@@ -635,9 +635,9 @@
       "soru": "🎭 Kutu ters çevrilince ne olur?",
       "dogruCevap": "Köşeleri aynen durur",
       "secenekler": [
-        "Köşeleri aynen durur",
-        "Daireye dönüşür",
         "Yuvarlak olur",
+        "Daireye dönüşür",
+        "Köşeleri aynen durur",
         "Köşeleri kaybolur"
       ],
       "ipucu": "YÖN değişince biçim DEĞİŞMEZ!",
@@ -655,9 +655,9 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Üçgen",
+        "Dikdörtgen",
         "Kare",
-        "Daire",
-        "Dikdörtgen"
+        "Daire"
       ],
       "ipucu": "Konserve kutusunun üst yüzü yuvarlaktır.",
       "gorsel": {
@@ -692,8 +692,8 @@
       "secenekler": [
         "Çember",
         "Küre",
-        "Üçgen",
-        "Daire"
+        "Daire",
+        "Üçgen"
       ],
       "ipucu": "Cisimler üç boyutludur — daire ve çember şekildir.",
       "gorsel": {
@@ -726,9 +726,9 @@
       "soru": "Zekâ küpünün bir yüzü hangi şekle benzer?",
       "dogruCevap": "Kare",
       "secenekler": [
-        "Çember",
-        "Üçgen",
         "Kare",
+        "Üçgen",
+        "Çember",
         "Daire"
       ],
       "ipucu": "Zekâ küpünün her yüzü karedir.",
@@ -762,10 +762,10 @@
       "soru": "🎭 Hangisi DOĞRUDUR?",
       "dogruCevap": "Top nereye giderse gitsin yuvarlaktır",
       "secenekler": [
-        "Büyük top köşelidir",
-        "Kutu ters dönünce yuvarlak olur",
+        "Top nereye giderse gitsin yuvarlaktır",
         "Küçük zar yuvarlaktır",
-        "Top nereye giderse gitsin yuvarlaktır"
+        "Kutu ters dönünce yuvarlak olur",
+        "Büyük top köşelidir"
       ],
       "ipucu": "Biçim özellikleri yer-yön-büyüklükle DEĞİŞMEZ!",
       "gorsel": {
@@ -781,10 +781,10 @@
       "soru": "Dikdörtgenin kaç kenarı vardır?",
       "dogruCevap": "4",
       "secenekler": [
+        "5",
         "2",
         "4",
-        "3",
-        "5"
+        "3"
       ],
       "ipucu": "Dikdörtgenin dört kenarı vardır.",
       "gorsel": {
@@ -801,8 +801,8 @@
       "secenekler": [
         "Çember",
         "Daire",
-        "Kare",
-        "Üçgen"
+        "Üçgen",
+        "Kare"
       ],
       "ipucu": "Çadırın ön yüzü üçgendir.",
       "gorsel": {
@@ -836,9 +836,9 @@
       "dogruCevap": "Kare",
       "secenekler": [
         "Kare",
-        "Üçgen",
         "Dikdörtgen",
-        "Daire"
+        "Daire",
+        "Üçgen"
       ],
       "ipucu": "Karenin dört kenarı da eşittir.",
       "gorsel": {
@@ -871,10 +871,10 @@
       "soru": "Süt kutusunun ön yüzü hangi şekle benzer?",
       "dogruCevap": "Dikdörtgen",
       "secenekler": [
-        "Üçgen",
-        "Daire",
         "Çember",
-        "Dikdörtgen"
+        "Üçgen",
+        "Dikdörtgen",
+        "Daire"
       ],
       "ipucu": "Süt kutusunun yüzleri dikdörtgendir.",
       "gorsel": {
@@ -907,10 +907,10 @@
       "soru": "🎭 Elanaz misketini cebine koydu. Misket cepteyken hangi özelliğini KORUR?",
       "dogruCevap": "Yuvarlaklığını",
       "secenekler": [
-        "Görünmezliğini",
         "Yuvarlaklığını",
-        "Köşelerini",
-        "Cepte özellik kalmaz"
+        "Görünmezliğini",
+        "Cepte özellik kalmaz",
+        "Köşelerini"
       ],
       "ipucu": "YER değişti ama misket hâlâ misket!",
       "gorsel": {
@@ -944,10 +944,10 @@
       "soru": "Hangisi köşeli bir ŞEKİLDİR?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Silindir",
-        "Küp",
         "Küre",
-        "Üçgen"
+        "Silindir",
+        "Üçgen",
+        "Küp"
       ],
       "ipucu": "Şekiller düz çizimlerdir — küre, silindir ve küp cisimdir.",
       "gorsel": {
@@ -998,10 +998,10 @@
       "soru": "Kare ile dikdörtgenin ORTAK özelliği nedir?",
       "dogruCevap": "İkisinin de 4 köşesi vardır",
       "secenekler": [
-        "Kenarları hep eşittir",
-        "İkisinin de 3 kenarı vardır",
+        "İkisi de yuvarlaktır",
         "İkisinin de 4 köşesi vardır",
-        "İkisi de yuvarlaktır"
+        "Kenarları hep eşittir",
+        "İkisinin de 3 kenarı vardır"
       ],
       "ipucu": "Kare ve dikdörtgenin dört köşesi vardır.",
       "gorsel": {
@@ -1016,10 +1016,10 @@
       "soru": "🎭 Dev bir küp ile minik bir zar için hangisi DOĞRUDUR?",
       "dogruCevap": "İkisi de küpe benzer",
       "secenekler": [
-        "Küçük olan küre sayılır",
-        "Sadece büyük olan küptür",
+        "İkisi de küpe benzer",
         "Büyüklük biçimi değiştirir",
-        "İkisi de küpe benzer"
+        "Küçük olan küre sayılır",
+        "Sadece büyük olan küptür"
       ],
       "ipucu": "BÜYÜKLÜK farklı, BİÇİM aynı!",
       "gorsel": {
@@ -1035,8 +1035,8 @@
       "soru": "Davulun gövdesi ile pilin gövdesi hangi ortak cisme benzer?",
       "dogruCevap": "Silindir",
       "secenekler": [
-        "Üçgen prizma",
         "Küp",
+        "Üçgen prizma",
         "Silindir",
         "Küre"
       ],
@@ -1072,8 +1072,8 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Daire",
-        "Silindir",
         "Küre",
+        "Silindir",
         "Küp"
       ],
       "ipucu": "Şekiller düz çizimlerdir — küre, silindir ve küp cisimdir.",
@@ -1107,10 +1107,10 @@
       "soru": "🎭 Elanaz kare çizdi, sonra kâğıdı ters çevirdi. Kâğıttaki şekil ne oldu?",
       "dogruCevap": "Hâlâ kare",
       "secenekler": [
+        "Dikdörtgen oldu",
         "Hâlâ kare",
-        "Silindi",
         "Üçgen oldu",
-        "Dikdörtgen oldu"
+        "Silindi"
       ],
       "ipucu": "Kâğıt dönünce şekil DEĞİŞMEZ!",
       "gorsel": {

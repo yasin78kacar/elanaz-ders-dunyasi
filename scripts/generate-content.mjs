@@ -11,6 +11,7 @@
  * - { tur: "oruntu", elemanlar, adimEtiketi? } → OruntuGorsel (GOREV-4A)
  * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
  * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma)
+ * - { tur: "olcme", mod, ... } → OlcmeGorsel (TEMA4 ölçme)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -43,6 +44,7 @@ import {
   zihindenCikarma,
   zihindenToplama,
 } from './gorev-tema3-questions.mjs';
+import { siviMiktari, tartma, uzunlukOlcme, zaman } from './gorev-tema4-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -358,6 +360,15 @@ writeFileSync(join(contentDir, 'zihinden-toplama.json'), JSON.stringify(zihinden
 writeFileSync(join(contentDir, 'zihinden-cikarma.json'), JSON.stringify(zihindenCikarmaKonu, null, 2));
 writeFileSync(join(contentDir, 'problemler.json'), JSON.stringify(problemlerKonu, null, 2));
 
+const uzunlukOlcmeKonu = uzunlukOlcme(karistir);
+const tartmaKonu = tartma(karistir);
+const siviMiktariKonu = siviMiktari(karistir);
+const zamanKonu = zaman(karistir);
+writeFileSync(join(contentDir, 'uzunluk-olcme.json'), JSON.stringify(uzunlukOlcmeKonu, null, 2));
+writeFileSync(join(contentDir, 'tartma.json'), JSON.stringify(tartmaKonu, null, 2));
+writeFileSync(join(contentDir, 'sivi-miktari.json'), JSON.stringify(siviMiktariKonu, null, 2));
+writeFileSync(join(contentDir, 'zaman.json'), JSON.stringify(zamanKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -461,6 +472,16 @@ const index = {
             'matematik/problemler.json',
           ],
         },
+        {
+          id: 'tema-4',
+          baslik: 'Tema 4 — Ölçme',
+          konuDosyalari: [
+            'matematik/uzunluk-olcme.json',
+            'matematik/tartma.json',
+            'matematik/sivi-miktari.json',
+            'matematik/zaman.json',
+          ],
+        },
       ],
     },
     { id: 'hayat-bilgisi', baslik: 'Hayat Bilgisi', unite: [] },
@@ -510,6 +531,10 @@ console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.le
 console.log('Zihinden toplama:', zihindenToplamaKonu.alistirma.length, '+', zihindenToplamaKonu.test.length);
 console.log('Zihinden çıkarma:', zihindenCikarmaKonu.alistirma.length, '+', zihindenCikarmaKonu.test.length);
 console.log('Problemler:', problemlerKonu.alistirma.length, '+', problemlerKonu.test.length);
+console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
+console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);
+console.log('Sıvı miktarı:', siviMiktariKonu.alistirma.length, '+', siviMiktariKonu.test.length);
+console.log('Zaman:', zamanKonu.alistirma.length, '+', zamanKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

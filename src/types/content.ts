@@ -81,6 +81,34 @@ export interface GorselIslem {
   sahne?: string;
 }
 
+export type OlcmeMod = 'uzunluk' | 'tartma' | 'sivi' | 'zaman' | 'anlatim' | 'araclar';
+
+/** Ölçme (Tema 4) — OlcmeGorsel'de tanımlı */
+export interface GorselOlcme {
+  tur: 'olcme';
+  mod: OlcmeMod;
+  sahne?: string;
+  baslangic?: number;
+  bitis?: number;
+  uzunluklar?: number[];
+  etiketler?: string[];
+  nesne?: string;
+  sol?: number | string;
+  sag?: number | string;
+  solBirim?: string;
+  sagBirim?: string;
+  durum?: 'dengede' | 'sol' | 'sag';
+  miktar?: number | string;
+  birim?: string;
+  kapTip?: string;
+  doluluk?: number;
+  miktarlar?: { miktar: number | string; birim: string }[];
+  saat?: number;
+  dakika?: number;
+  saat2?: number;
+  dakika2?: number;
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -89,6 +117,7 @@ export type Gorsel =
   | GorselOruntu
   | GorselTahminEtme
   | GorselIslem
+  | GorselOlcme
   | null;
 
 export interface AnlatimEkrani {
