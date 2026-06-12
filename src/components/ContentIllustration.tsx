@@ -17,6 +17,7 @@ import { VeriGorsel } from './veri/VeriGorsel';
 import { KesirGorsel } from './kesir/KesirGorsel';
 import { TurkceGorsel } from './turkce/TurkceGorsel';
 import { FenGorsel } from './fen/FenGorsel';
+import { HbGorsel } from './hayat-bilgisi/HbGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
@@ -133,6 +134,14 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       return (
         <View style={kutu}>
           <FenGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'hb') {
+      return (
+        <View style={kutu}>
+          <HbGorsel {...gorsel} />
         </View>
       );
     }

@@ -150,6 +150,17 @@ export interface GorselKesir {
   alinan?: number;
 }
 
+/** Hayat Bilgisi — HbGorsel'de tanımlı */
+export interface GorselHb {
+  tur: 'hb';
+  mod?: 'anlatim' | 'nesne' | 'grup' | 'sahne';
+  sahne?: string;
+  nesne?: string;
+  nesneler?: string[];
+  vurgu?: string | string[];
+  ozellik?: string;
+}
+
 /** Fen Bilimleri — FenGorsel'de tanımlı */
 export interface GorselFen {
   tur: 'fen';
@@ -191,6 +202,7 @@ export type Gorsel =
   | GorselOlcme
   | GorselVeri
   | GorselKesir
+  | GorselHb
   | GorselFen
   | GorselTurkce
   | null;

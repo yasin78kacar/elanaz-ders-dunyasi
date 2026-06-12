@@ -39,6 +39,9 @@ import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgis
 import canlilarVeCansizlar from '../../content/sinif2/fen-bilimleri/canlilar-ve-cansizlar.json';
 import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
 import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
+import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
+import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
+import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -84,6 +87,9 @@ const konuDosyalari: Record<string, Konu> = {
   'fen-bilimleri/canlilar-ve-cansizlar.json': canlilarVeCansizlar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,
+  'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
+  'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
+  'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

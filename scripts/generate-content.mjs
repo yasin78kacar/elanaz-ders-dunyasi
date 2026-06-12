@@ -16,6 +16,7 @@
  * - { tur: "kesir", mod, ... } → KesirGorsel (TEMA6 kesirler)
  * - { tur: "turkce", mod, ... } → TurkceGorsel (Türkçe Tema 1)
  * - { tur: "fen", mod, ... } → FenGorsel (Fen Bilimleri Tema 1)
+ * - { tur: "hb", mod, ... } → HbGorsel (Hayat Bilgisi Tema 1)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -61,15 +62,18 @@ import {
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
+import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
 const turkceDir = join(__dirname, '../content/sinif2/turkce');
 const fenDir = join(__dirname, '../content/sinif2/fen-bilimleri');
+const hbDir = join(__dirname, '../content/sinif2/hayat-bilgisi');
 mkdirSync(contentDir, { recursive: true });
 mkdirSync(turkceDir, { recursive: true });
 mkdirSync(fenDir, { recursive: true });
+mkdirSync(hbDir, { recursive: true });
 
 function karistir(arr) {
   const a = [...arr];
@@ -435,6 +439,13 @@ writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlila
 writeFileSync(join(fenDir, 'bitkiler.json'), JSON.stringify(bitkilerKonu, null, 2));
 writeFileSync(join(fenDir, 'hayvanlar.json'), JSON.stringify(hayvanlarKonu, null, 2));
 
+const okulVeSinifKonu = okulVeSinif(karistir);
+const aileVeArkadaslikKonu = aileVeArkadaslik(karistir);
+const toplumVeCevreKonu = toplumVeCevre(karistir);
+writeFileSync(join(hbDir, 'okul-ve-sinif.json'), JSON.stringify(okulVeSinifKonu, null, 2));
+writeFileSync(join(hbDir, 'aile-ve-arkadaslik.json'), JSON.stringify(aileVeArkadaslikKonu, null, 2));
+writeFileSync(join(hbDir, 'toplum-ve-cevre.json'), JSON.stringify(toplumVeCevreKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -598,7 +609,21 @@ const index = {
         },
       ],
     },
-    { id: 'hayat-bilgisi', baslik: 'Hayat Bilgisi', unite: [] },
+    {
+      id: 'hayat-bilgisi',
+      baslik: 'Hayat Bilgisi',
+      unite: [
+        {
+          id: 'tema-1',
+          baslik: 'Hayat Bilgisi — Tema 1',
+          konuDosyalari: [
+            'hayat-bilgisi/okul-ve-sinif.json',
+            'hayat-bilgisi/aile-ve-arkadaslik.json',
+            'hayat-bilgisi/toplum-ve-cevre.json',
+          ],
+        },
+      ],
+    },
     {
       id: 'fen-bilimleri',
       baslik: 'Fen Bilimleri',
@@ -684,6 +709,9 @@ console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length,
 console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
 console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
 console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
+console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
+console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
+console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

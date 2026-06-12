@@ -107,7 +107,17 @@
     {
       "id": "hayat-bilgisi",
       "baslik": "Hayat Bilgisi",
-      "unite": []
+      "unite": [
+        {
+          "id": "tema-1",
+          "baslik": "Hayat Bilgisi — Tema 1",
+          "konuDosyalari": [
+            "hayat-bilgisi/okul-ve-sinif.json",
+            "hayat-bilgisi/aile-ve-arkadaslik.json",
+            "hayat-bilgisi/toplum-ve-cevre.json"
+          ]
+        }
+      ]
     },
     {
       "id": "fen-bilimleri",
