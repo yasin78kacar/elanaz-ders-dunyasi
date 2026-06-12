@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import Svg, { Circle, Ellipse, Line, Polygon, Rect } from 'react-native-svg';
 import { GEO } from './colors';
+import { ESLESTIRME_IKON_BOYUT, gorselOlcekle } from '../../theme/gorselBoyut';
 import { IllustrationColumn } from './IllustrationColumn';
 import { ModellerIcon, type ModelTipi } from './ModellerIcon';
 import { NesnelerIcon, type NesneTipi } from './NesnelerIcon';
@@ -257,12 +258,12 @@ export function YanYanaIki({ sol, sag, solTip, sagTip }: { sol: 'nesne' | 'model
 export function EslestirmeIkon({ nesne, model }: { nesne: NesneTipi; model: ModelTipi }) {
   return (
     <View style={styles.eslestirme}>
-      <NesnelerIcon tip={nesne} size={32} />
-      <Svg width={24} height={20} viewBox="0 0 24 20">
+      <NesnelerIcon tip={nesne} size={ESLESTIRME_IKON_BOYUT} />
+      <Svg width={gorselOlcekle(24)} height={gorselOlcekle(20)} viewBox="0 0 24 20">
         <Line x1={2} y1={10} x2={18} y2={10} stroke={GEO.metin} strokeWidth={2} />
         <Polygon points="18,10 14,6 14,14" fill={GEO.metin} />
       </Svg>
-      <ModellerIcon tip={model} size={32} />
+      <ModellerIcon tip={model} size={ESLESTIRME_IKON_BOYUT} />
     </View>
   );
 }

@@ -1,6 +1,7 @@
 import { StyleSheet, View } from 'react-native';
 import Svg, { Circle, Line, Polygon, Rect } from 'react-native-svg';
 import { GEO } from './colors';
+import { ESLESTIRME_SEKIL_IKON, gorselOlcekle } from '../../theme/gorselBoyut';
 import { EvModeli } from './ModellerSekil';
 import { IllustrationColumn } from './IllustrationColumn';
 import { SekilNesneler, type SekilNesneTipi } from './SekilNesneler';
@@ -174,11 +175,11 @@ export function EslestirmeSekilIkon({ nesne, sekil }: { nesne: string; sekil: st
   return (
     <View style={styles.eslestirme}>
       <EslestirmeNesneKucuk tip={nesne} />
-      <Svg width={20} height={16} viewBox="0 0 20 16">
+      <Svg width={gorselOlcekle(20)} height={gorselOlcekle(16)} viewBox="0 0 20 16">
         <Line x1={2} y1={8} x2={14} y2={8} stroke={GEO.metin} strokeWidth={2} />
         <Polygon points="14,8 10,4 10,12" fill={GEO.metin} />
       </Svg>
-      <SekillerIcon tip={sekil as 'kare' | 'dikdortgen' | 'ucgen' | 'cember' | 'daire'} size={28} />
+      <SekillerIcon tip={sekil as 'kare' | 'dikdortgen' | 'ucgen' | 'cember' | 'daire'} size={ESLESTIRME_SEKIL_IKON} />
     </View>
   );
 }
@@ -186,10 +187,10 @@ export function EslestirmeSekilIkon({ nesne, sekil }: { nesne: string; sekil: st
 function EslestirmeNesneKucuk({ tip }: { tip: string }) {
   const key = ESLESME_NESNE[tip];
   if (key === 'cati-ucgen') {
-    return <SekillerIcon tip="ucgen" size={28} renk={GEO.kirmizi} />;
+    return <SekillerIcon tip="ucgen" size={ESLESTIRME_SEKIL_IKON} renk={GEO.kirmizi} />;
   }
-  if (key) return <SekilNesneler tip={key} size={32} />;
-  return <SekillerIcon tip="ucgen" size={28} />;
+  if (key) return <SekilNesneler tip={key} size={gorselOlcekle(32)} />;
+  return <SekillerIcon tip="ucgen" size={ESLESTIRME_SEKIL_IKON} />;
 }
 
 const styles = StyleSheet.create({

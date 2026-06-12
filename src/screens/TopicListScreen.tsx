@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderWidth: 3,
     borderColor: colors.kenarlik,
-    minHeight: 88,
+    minHeight: 96,
   },
   kartTamamlandi: {
     borderColor: colors.basari,

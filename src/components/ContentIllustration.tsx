@@ -11,7 +11,9 @@ import { G4mGorsel } from './nesneler/G4mGorsel';
 import { G5mGorsel } from './kaplar/G5mGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
+import { GorselOlcek } from './GorselOlcek';
 import { colors } from '../theme/colors';
+import { gorselOlcekle } from '../theme/gorselBoyut';
 import type { Gorsel } from '../types/content';
 
 interface Props {
@@ -19,8 +21,12 @@ interface Props {
   konuId?: string;
 }
 
-function gorselKutusu(children: ReactNode) {
-  return <View style={styles.kutu}>{children}</View>;
+function gorselKutusu(children: ReactNode, tabanYukseklik = 200) {
+  return (
+    <View style={styles.kutu}>
+      <GorselOlcek tabanYukseklik={tabanYukseklik}>{children}</GorselOlcek>
+    </View>
+  );
 }
 
 function flowVeyaSvg(
@@ -91,10 +97,12 @@ const styles = StyleSheet.create({
   kutu: {
     backgroundColor: colors.kart,
     borderRadius: 14,
-    padding: 12,
+    padding: gorselOlcekle(12),
+    paddingBottom: gorselOlcekle(16),
     borderWidth: 2,
     borderColor: colors.kenarlik,
     alignItems: 'center',
     overflow: 'visible',
+    marginBottom: 8,
   },
 });

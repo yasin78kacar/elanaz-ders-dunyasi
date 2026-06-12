@@ -7,6 +7,7 @@ import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { SecenekIkon } from './nesneler/SecenekIkon';
 import { SecenekMetni } from './SecenekMetni';
+import { SECENEK_IKON_BOYUT } from '../theme/gorselBoyut';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -80,7 +81,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
               >
                 <View style={styles.secenekIcerik}>
                   {soru.secenekIkonlari?.[secenek] && (
-                    <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={32} />
+                    <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={SECENEK_IKON_BOYUT} />
                   )}
                   <SecenekMetni
                     secenek={secenek}

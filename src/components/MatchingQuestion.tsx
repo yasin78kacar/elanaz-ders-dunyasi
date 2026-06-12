@@ -7,6 +7,7 @@ import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { NesneIkon, type NesneTipi } from '../../assets/illustrations/GeometriIllustrations';
 import { soruMetni } from '../utils/soruHelpers';
+import { ESLESTIRME_SATIR_IKON } from '../theme/gorselBoyut';
 
 const MAX_DENEME = 2;
 
@@ -135,7 +136,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
                   ]}
                 >
                   <View style={styles.solSatir}>
-                    {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={30} />}
+                    {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={ESLESTIRME_SATIR_IKON} />}
                     <GuvenliMetin style={[styles.ogeMetin, secili && styles.ogeMetinSecili]} textAlign="left">
                       {sol}
                     </GuvenliMetin>
@@ -192,7 +193,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { gap: 16 },
+  container: { gap: 20 },
   soru: {
     fontSize: 22,
     lineHeight: 32,

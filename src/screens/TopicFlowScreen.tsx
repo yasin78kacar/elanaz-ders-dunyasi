@@ -209,7 +209,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
 
 const styles = StyleSheet.create({
   container: { padding: 20, paddingBottom: 40 },
-  kutu: { gap: 20 },
+  kutu: { gap: 24 },
   etiket: {
     fontSize: 16,
     fontWeight: '700',

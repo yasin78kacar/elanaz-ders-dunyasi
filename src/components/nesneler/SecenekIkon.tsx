@@ -9,6 +9,7 @@ import { SekillerIcon, type SekilTipi } from './SekillerIcon';
 import { KapIkon } from '../kaplar/KapIkon';
 import type { KapTipi } from '../kaplar/KapPrimitives';
 import type { SecenekIkon as SecenekIkonTip } from '../../types/content';
+import { SECENEK_IKON_VARSAYILAN } from '../../theme/gorselBoyut';
 
 interface Props {
   ikon: SecenekIkonTip;
@@ -26,7 +27,7 @@ function FlowIkon({ source, size }: { source: number; size: number }) {
   );
 }
 
-export function SecenekIkon({ ikon, size = 28 }: Props) {
+export function SecenekIkon({ ikon, size = SECENEK_IKON_VARSAYILAN }: Props) {
   const flowSource = resolveSecenekIkonImage(ikon);
   if (flowSource !== undefined) {
     return <FlowIkon source={flowSource} size={size} />;
