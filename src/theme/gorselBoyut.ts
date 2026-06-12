@@ -1,8 +1,8 @@
 /** Genel UI öğeleri (şık ikonları, avatar vb.) */
 export const GORSEL_OLCEK = 1.3;
 
-/** Flow JPEG görselleri — patron: %70 büyük (taban × 1.7) */
-export const FLOW_GORSEL_OLCEK = 1.7;
+/** Flow JPEG görselleri — patron: 2× (taban × 2.0) */
+export const FLOW_GORSEL_OLCEK = 2.0;
 
 export function gorselOlcekle(boyut: number): number {
   return Math.round(boyut * GORSEL_OLCEK);

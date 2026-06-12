@@ -209,7 +209,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
 
 const styles = StyleSheet.create({
   container: { padding: 20, paddingBottom: 40 },
-  kutu: { gap: 28 },
+  kutu: { gap: 32 },
   etiket: {
     fontSize: 16,
     fontWeight: '700',
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     fontSize: 22,
     lineHeight: 34,
     color: colors.baslik,
-    marginTop: 4,
+    marginTop: 8,
   },
   sayac: { fontSize: 15, color: colors.metin },
   hata: { fontSize: 18, color: colors.hata, padding: 20 },

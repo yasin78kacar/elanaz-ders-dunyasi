@@ -119,7 +119,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { gap: 20 },
+  container: { gap: 24 },
   soru: {
     fontSize: 22,
     lineHeight: 32,
