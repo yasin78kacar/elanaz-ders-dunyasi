@@ -3,7 +3,6 @@
 
 export const FLOW_VIDEOS = {
   'acilis-merhaba': require('../../assets/videos/Girl_waves_and_says_Merhaba_202606121441.mp4'),
-  'alya': require('../../assets/videos/Toddler_girl_giggles_and_says_202606121606.mp4'),
   'anne-panel': require('../../assets/videos/Mother_figure_smiles_at_tablet_202606121441.mp4'),
   'dogru-kutlama': require('../../assets/videos/Girl_claps_hands_happily_202606121441.mp4'),
   'yanlis-teselli': require('../../assets/videos/Girl_shakes_head_says__Olmadı__202606121441.mp4'),

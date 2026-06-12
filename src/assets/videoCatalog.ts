@@ -34,5 +34,4 @@ export const SISTEM_VIDEOLARI = {
   sasirtma: 'sasirtma-uyari' as const,
   acilis: 'acilis-merhaba' as const,
   annePanel: 'anne-panel' as const,
-  alya: 'alya' as const,
 };

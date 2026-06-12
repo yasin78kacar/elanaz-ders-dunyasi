@@ -5,7 +5,6 @@ import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getDersListesi, okumaKosesiMi } from '../services/contentLoader';
 import { getDersIlerlemeOzeti, getHikayeIlerlemeOzeti } from '../services/progressMap';
 import { ElanazHeader } from '../components/ElanazHeader';
-import { AlyaAvatar } from '../components/AlyaAvatar';
 import { VideoIzleButton } from '../components/VideoIzleButton';
 import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
@@ -58,13 +57,6 @@ export function HomeScreen({ navigation }: Props) {
           fontWeight: '600',
           marginTop: layout.spacing(6),
         },
-        karakterSatir: {
-          flexDirection: 'row',
-          alignItems: 'flex-start',
-          gap: layout.spacing(12),
-          marginBottom: layout.spacing(8),
-        },
-        alyaKutu: { flexShrink: 0 },
         anneButon: {
           position: 'absolute',
           bottom: layout.spacing(24),
@@ -122,15 +114,10 @@ export function HomeScreen({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
-        <View style={styles.karakterSatir}>
-          <ElanazHeader>
-            <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
-            <VideoIzleButton source={getVideoSource(SISTEM_VIDEOLARI.acilis)} />
-          </ElanazHeader>
-          <View style={styles.alyaKutu}>
-            <AlyaAvatar />
-          </View>
-        </View>
+        <ElanazHeader>
+          <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
+          <VideoIzleButton source={getVideoSource(SISTEM_VIDEOLARI.acilis)} />
+        </ElanazHeader>
         {kartlar.map((ders) => (
           <Pressable
             key={ders.id}
