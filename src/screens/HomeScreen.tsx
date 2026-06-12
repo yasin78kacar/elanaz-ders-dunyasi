@@ -4,6 +4,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getDersListesi, okumaKosesiMi } from '../services/contentLoader';
 import { getDersIlerlemeOzeti, getHikayeIlerlemeOzeti } from '../services/progressMap';
+import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -55,7 +56,9 @@ export function HomeScreen({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
+        <ElanazHeader>
+          <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
+        </ElanazHeader>
         {kartlar.map((ders) => (
           <Pressable
             key={ders.id}

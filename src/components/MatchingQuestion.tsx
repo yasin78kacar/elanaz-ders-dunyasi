@@ -11,6 +11,7 @@ const MAX_DENEME = 2;
 
 interface Props {
   soru: Soru;
+  konuId?: string;
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
@@ -30,7 +31,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function MatchingQuestion({ soru, onAnswer }: Props) {
+export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   const ciftler = soru.ciftler ?? [];
   const solOgeler = ciftler.map((c) => c.sol);
   const sagSecenekler = useMemo(() => karistir([...new Set(ciftler.map((c) => c.sag))]), [soru.id]);
@@ -103,7 +104,7 @@ export function MatchingQuestion({ soru, onAnswer }: Props) {
 
   return (
     <View style={styles.container}>
-      <ContentIllustration gorsel={soru.gorsel} />
+      <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <Text style={styles.hakMetni}>
         Deneme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanDeneme}

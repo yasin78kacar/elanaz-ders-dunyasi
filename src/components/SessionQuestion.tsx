@@ -5,15 +5,16 @@ import { TableColoringQuestion } from './TableColoringQuestion';
 
 interface Props {
   soru: Soru;
+  konuId?: string;
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
-export function SessionQuestion({ soru, onAnswer }: Props) {
+export function SessionQuestion({ soru, konuId, onAnswer }: Props) {
   if (soru.tip === 'eslestirme') {
-    return <MatchingQuestion soru={soru} onAnswer={onAnswer} />;
+    return <MatchingQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
   }
   if (soru.tip === 'tablo-boyama') {
-    return <TableColoringQuestion soru={soru} onAnswer={onAnswer} />;
+    return <TableColoringQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
   }
-  return <TestQuestion soru={soru} onAnswer={onAnswer} />;
+  return <TestQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
 }

@@ -6,6 +6,7 @@ import { kaydetHikayeCevabi, tamamlaHikaye } from '../services/progressStore';
 import { TestQuestion } from '../components/TestQuestion';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
+import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
@@ -84,10 +85,11 @@ export function StoryFlowScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <ElanazHeader />
       {adim.tip === 'okuma' && (
         <View style={styles.kutu}>
           <Text style={styles.etiket}>Okuma Köşesi</Text>
-          <ContentIllustration gorsel={sayfalar[adim.index].gorsel} />
+          <ContentIllustration gorsel={sayfalar[adim.index].gorsel} konuId="okuma-kosesi" />
           <Text style={styles.metin}>{sayfalar[adim.index].metin}</Text>
           <Text style={styles.sayac}>
             Sayfa {adim.index + 1} / {sayfalar.length}
@@ -107,6 +109,7 @@ export function StoryFlowScreen({ route, navigation }: Props) {
           <TestQuestion
             key={sorular[adim.index].id}
             soru={sorular[adim.index]}
+            konuId="okuma-kosesi"
             onAnswer={soruCevap}
           />
           {cevapBekleniyor && (

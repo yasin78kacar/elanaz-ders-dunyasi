@@ -11,6 +11,7 @@ const SATIR_BOYUT = 10;
 
 interface Props {
   soru: Soru;
+  konuId?: string;
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
@@ -21,7 +22,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function TableColoringQuestion({ soru, onAnswer }: Props) {
+export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
   const baslangic = soru.tabloBaslangic ?? 1;
   const bitis = soru.tabloBitis ?? 20;
   const dogruSet = new Set(soru.dogruHucreler ?? []);
@@ -93,7 +94,7 @@ export function TableColoringQuestion({ soru, onAnswer }: Props) {
 
   return (
     <View style={styles.container}>
-      <ContentIllustration gorsel={soru.gorsel} />
+      <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <Text style={styles.hakMetni}>
         Deneme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanDeneme}

@@ -8,6 +8,7 @@ import { soruMetni } from '../utils/soruHelpers';
 
 interface Props {
   soru: Soru;
+  konuId?: string;
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
@@ -22,7 +23,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function PracticeQuestion({ soru, onAnswer }: Props) {
+export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   const [cevap, setCevap] = useState('');
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
 
@@ -38,7 +39,7 @@ export function PracticeQuestion({ soru, onAnswer }: Props) {
 
   return (
     <View style={styles.container}>
-      <ContentIllustration gorsel={soru.gorsel} />
+      <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <TextInput
         style={styles.input}

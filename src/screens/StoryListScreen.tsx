@@ -2,6 +2,7 @@ import { useLayoutEffect } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getHikayeListesi } from '../services/contentLoader';
+import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -17,7 +18,9 @@ export function StoryListScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.aciklama}>Bir hikâye seç ve oku. Sonunda sorular seni bekliyor!</Text>
+      <ElanazHeader>
+        <Text style={styles.aciklama}>Bir hikâye seç ve oku. Sonunda sorular seni bekliyor!</Text>
+      </ElanazHeader>
       {hikayeler.map((h) => (
         <Pressable
           key={h.id}

@@ -9,6 +9,7 @@ import { SessionQuestion } from '../components/SessionQuestion';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
+import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
@@ -127,10 +128,11 @@ export function TopicFlowScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <ElanazHeader />
       {adim.tip === 'anlatim' && (
         <View style={styles.kutu}>
           <Text style={styles.etiket}>Konu Anlatımı</Text>
-          <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} />
+          <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} konuId={konuId} />
           <Text style={styles.anlatimMetin}>{anlatimEkranlari[adim.index].metin}</Text>
           <Text style={styles.sayac}>
             {adim.index + 1} / {anlatimEkranlari.length}
@@ -150,6 +152,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <PracticeQuestion
             key={alistirmalar[adim.index].id}
             soru={alistirmalar[adim.index]}
+            konuId={konuId}
             onAnswer={alistirmaCevap}
           />
           {cevapBekleniyor && (
@@ -169,6 +172,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <SessionQuestion
             key={testler[adim.index].id}
             soru={testler[adim.index]}
+            konuId={konuId}
             onAnswer={testCevap}
           />
           {cevapBekleniyor && (

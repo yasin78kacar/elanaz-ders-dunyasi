@@ -12,6 +12,7 @@ const MAX_DEGISIKLIK = 2;
 
 interface Props {
   soru: Soru;
+  konuId?: string;
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
@@ -22,7 +23,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function TestQuestion({ soru, onAnswer }: Props) {
+export function TestQuestion({ soru, konuId, onAnswer }: Props) {
   const [secim, setSecim] = useState<string | null>(null);
   const [degisiklikSayisi, setDegisiklikSayisi] = useState(0);
   const [kilitli, setKilitli] = useState(false);
@@ -51,7 +52,7 @@ export function TestQuestion({ soru, onAnswer }: Props) {
 
   return (
     <View style={styles.container}>
-      <ContentIllustration gorsel={soru.gorsel} />
+      <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       <Text style={styles.soru}>{soruMetni(soru)}</Text>
       <Text style={styles.hakMetni}>
         Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}

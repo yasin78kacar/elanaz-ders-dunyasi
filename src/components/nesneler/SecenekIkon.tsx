@@ -1,4 +1,5 @@
-import { View } from 'react-native';
+import { Image, View } from 'react-native';
+import { resolveSecenekIkonImage } from '../../assets/imageCatalog';
 import { ModellerIcon, type ModelTipi } from './ModellerIcon';
 import { NesnelerIcon, type NesneTipi } from './NesnelerIcon';
 import { EslestirmeIkon } from './G2mAnlatim';
@@ -14,7 +15,23 @@ interface Props {
   size?: number;
 }
 
+function FlowIkon({ source, size }: { source: number; size: number }) {
+  return (
+    <Image
+      source={source}
+      style={{ width: size, height: size }}
+      resizeMode="contain"
+      accessibilityRole="image"
+    />
+  );
+}
+
 export function SecenekIkon({ ikon, size = 28 }: Props) {
+  const flowSource = resolveSecenekIkonImage(ikon);
+  if (flowSource !== undefined) {
+    return <FlowIkon source={flowSource} size={size} />;
+  }
+
   if (ikon.tip === 'model') {
     return <ModellerIcon tip={ikon.anahtar as ModelTipi} size={size} />;
   }

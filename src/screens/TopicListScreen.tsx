@@ -3,6 +3,7 @@ import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-nati
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonuHaritasi, type KonuHaritaOgesi } from '../services/progressMap';
+import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -49,6 +50,7 @@ export function TopicListScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <ElanazHeader />
       {harita.map((konu, index) => (
         <View key={konu.id} style={styles.yolParcasi}>
           {index > 0 && (
