@@ -130,6 +130,26 @@ export interface GorselVeri {
   liste?: (number | string)[];
 }
 
+/** Kesirler (Tema 6) — KesirGorsel'de tanımlı */
+export interface GorselKesir {
+  tur: 'kesir';
+  mod: 'bolme' | 'kesir' | 'yarim' | 'karsilastir' | 'birlesim' | 'paylasim' | 'anlatim';
+  sahne?: string;
+  sekil?: 'daire' | 'dikdortgen' | 'kare';
+  parca?: number;
+  nesne?: string;
+  yenilen?: number;
+  renkli?: number;
+  vurgu?: number | string | (number | string)[];
+  esit?: boolean;
+  etiket?: string;
+  bolme?: 'ucgen' | 'grid' | 'yatay' | 'dikey';
+  kesirler?: (string | Record<string, unknown>)[];
+  adet?: number;
+  kisi?: number;
+  alinan?: number;
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -140,6 +160,7 @@ export type Gorsel =
   | GorselIslem
   | GorselOlcme
   | GorselVeri
+  | GorselKesir
   | null;
 
 export interface AnlatimEkrani {

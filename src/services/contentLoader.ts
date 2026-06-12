@@ -22,6 +22,9 @@ import zaman from '../../content/sinif2/matematik/zaman.json';
 import tabloOkuma from '../../content/sinif2/matematik/tablo-okuma.json';
 import grafikOkuma from '../../content/sinif2/matematik/grafik-okuma.json';
 import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
+import esitParcalaraBolme from '../../content/sinif2/matematik/esit-parcalara-bolme.json';
+import yarimVeCeyrek from '../../content/sinif2/matematik/yarim-ve-ceyrek.json';
+import basitKesirler from '../../content/sinif2/matematik/basit-kesirler.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -50,6 +53,9 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/tablo-okuma.json': tabloOkuma as Konu,
   'matematik/grafik-okuma.json': grafikOkuma as Konu,
   'matematik/veri-toplama.json': veriToplama as Konu,
+  'matematik/esit-parcalara-bolme.json': esitParcalaraBolme as Konu,
+  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrek as Konu,
+  'matematik/basit-kesirler.json': basitKesirler as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {
