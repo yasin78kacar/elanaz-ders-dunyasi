@@ -5,7 +5,7 @@ export type { FlowVideoKey };
 /** Konu anlatım ekranlarına sırayla bağlanan videolar */
 const KONU_ANLATIM_VIDEOLARI: Record<string, FlowVideoKey[]> = {
   'sayi-dogrusu': ['konu-sayi-dogrusu'],
-  'onluk-birlik': ['konu-onluk-blok', 'konu-onluk-blok-saying'],
+  'onluk-birlik': ['konu-onluk-birlik-anlatim', 'konu-onluk-blok-saying'],
   'sayilari-okuma-yazma': ['konu-sayi-okuma'],
   'ritmik-sayma': ['konu-ritmik-sayma'],
   'geometrik-cisimler': ['konu-geometrik-cisimler'],

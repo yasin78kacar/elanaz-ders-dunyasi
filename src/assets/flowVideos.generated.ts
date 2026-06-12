@@ -8,7 +8,7 @@ export const FLOW_VIDEOS = {
   'yanlis-teselli': require('../../assets/videos/Girl_shakes_head_says__Olmadı__202606121441.mp4'),
   'sasirtma-uyari': require('../../assets/videos/Girl_winks_and_whispers_question_202606121441.mp4'),
   'konu-sayi-dogrusu': require('../../assets/videos/Girl_points_to_number_line_202606121441.mp4'),
-  'konu-onluk-blok': require('../../assets/videos/Girl_counts_blocks_57_202606121441.mp4'),
+  'konu-onluk-birlik-anlatim': require('../../assets/videos/onluk-birlik-anlatim.mp4'),
   'konu-onluk-blok-saying': require('../../assets/videos/Girl_points_to_blocks_saying_202606121441.mp4'),
   'konu-sayi-okuma': require('../../assets/videos/Girl_shows_numbers_in_Turkish_202606121441.mp4'),
   'konu-ritmik-sayma': require('../../assets/videos/Girl_jumping_on_number_line_202606121441.mp4'),
