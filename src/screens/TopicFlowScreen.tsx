@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
@@ -14,6 +14,7 @@ import { VideoIzleButton } from '../components/VideoIzleButton';
 import { getKonuAnlatimVideo } from '../assets/videoCatalog';
 import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
 import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
 
@@ -73,9 +74,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const [testDogru, setTestDogru] = useState(0);
   const [cevapBekleniyor, setCevapBekleniyor] = useState(false);
 
-  useLayoutEffect(() => {
-    navigation.setOptions({ title: konuBaslik });
-  }, [navigation, konuBaslik]);
+  useKonuMuzikHeader(navigation, { title: konuBaslik });
 
   if (!konu || !oturum) {
     return (

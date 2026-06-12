@@ -1,10 +1,11 @@
-import { useCallback, useLayoutEffect, useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonuHaritasi, type KonuHaritaOgesi } from '../services/progressMap';
 import { ElanazHeader } from '../components/ElanazHeader';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -80,9 +81,7 @@ export function TopicListScreen({ route, navigation }: Props) {
     [layout, pad, gap, itemWidth],
   );
 
-  useLayoutEffect(() => {
-    navigation.setOptions({ title: `${dersBaslik} — Yol Haritası` });
-  }, [navigation, dersBaslik]);
+  useKonuMuzikHeader(navigation, { title: `${dersBaslik} — Yol Haritası` });
 
   useFocusEffect(
     useCallback(() => {
