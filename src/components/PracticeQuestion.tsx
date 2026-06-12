@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import { Platform, StyleSheet, Text, TextInput, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
@@ -49,6 +49,8 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
         placeholder="Cevabını yaz"
         placeholderTextColor={colors.metin}
         editable={durum === 'bekle'}
+        autoCorrect={false}
+        {...(Platform.OS === 'android' ? { includeFontPadding: false } : {})}
       />
       {durum === 'bekle' && (
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />

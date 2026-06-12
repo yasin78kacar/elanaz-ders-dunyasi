@@ -33,5 +33,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: GEO.metin,
     textAlign: 'center',
+    flexShrink: 0,
+    paddingHorizontal: 2,
   },
 });

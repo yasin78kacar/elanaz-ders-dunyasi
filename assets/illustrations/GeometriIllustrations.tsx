@@ -1,5 +1,6 @@
 import { StyleSheet, View } from 'react-native';
-import Svg, { Circle, Ellipse, Line, Rect, Text as SvgText } from 'react-native-svg';
+import Svg, { Circle, Ellipse, Line, Rect } from 'react-native-svg';
+import { SvgCanvas } from '../../src/components/SvgCanvas';
 import { IllustrationColumn } from '../../src/components/nesneler/IllustrationColumn';
 
 export const GEO = {
@@ -210,18 +211,21 @@ function KoseKenarKutu() {
   const bw = 100;
   const bh = 70;
   return (
-    <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
-      <Rect x={bx} y={by} width={bw} height={bh} fill={GEO.turuncu} rx={2} />
-      <Circle cx={bx} cy={by} r={5} fill={GEO.sari} stroke={GEO.metin} strokeWidth={1.5} />
-      <Line x1={bx} y1={by - 2} x2={bx - 22} y2={by - 18} stroke={GEO.mavi} strokeWidth={2} />
-      <SvgText x={bx - 26} y={by - 22} fontSize={11} fill={GEO.mavi} fontWeight="700">
-        köşe
-      </SvgText>
-      <Line x1={bx + bw} y1={by + bh / 2} x2={bx + bw + 24} y2={by + bh / 2} stroke={GEO.mor} strokeWidth={2} />
-      <SvgText x={bx + bw + 28} y={by + bh / 2 + 4} fontSize={11} fill={GEO.mor} fontWeight="700">
-        kenar
-      </SvgText>
-    </Svg>
+    <SvgCanvas
+      width={w}
+      height={h}
+      labels={[
+        { text: 'köşe', left: bx - 44, top: by - 36, width: 44, fontSize: 11, color: GEO.mavi, fontWeight: '700' },
+        { text: 'kenar', left: bx + bw + 20, top: by + bh / 2 - 8, width: 44, fontSize: 11, color: GEO.mor, fontWeight: '700' },
+      ]}
+    >
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Rect x={bx} y={by} width={bw} height={bh} fill={GEO.turuncu} rx={2} />
+        <Circle cx={bx} cy={by} r={5} fill={GEO.sari} stroke={GEO.metin} strokeWidth={1.5} />
+        <Line x1={bx} y1={by - 2} x2={bx - 22} y2={by - 18} stroke={GEO.mavi} strokeWidth={2} />
+        <Line x1={bx + bw} y1={by + bh / 2} x2={bx + bw + 24} y2={by + bh / 2} stroke={GEO.mor} strokeWidth={2} />
+      </Svg>
+    </SvgCanvas>
   );
 }
 
@@ -229,43 +233,38 @@ function Anlatim3() {
   const w = 320;
   const h = 200;
   return (
-    <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
-      <Rect x={15} y={12} width={36} height={48} fill={GEO.mavi} rx={2} />
-      <Line x1={24} y1={12} x2={24} y2={60} stroke={GEO.beyaz} strokeWidth={1.5} />
-      <SvgText x={33} y={72} fontSize={9} fill={GEO.metin} textAnchor="middle">
-        kitap
-      </SvgText>
-      <Rect x={78} y={18} width={44} height={40} fill={GEO.mor} rx={2} />
-      <Rect x={96} y={18} width={6} height={40} fill={GEO.sari} />
-      <Rect x={78} y={36} width={44} height={6} fill={GEO.sari} />
-      <SvgText x={100} y={72} fontSize={9} fill={GEO.metin} textAnchor="middle">
-        kutu
-      </SvgText>
-      <Rect x={148} y={10} width={40} height={52} fill="#90CAF9" rx={2} />
-      <Line x1={148} y1={32} x2={188} y2={32} stroke={GEO.beyaz} strokeWidth={1.5} />
-      <SvgText x={168} y={72} fontSize={9} fill={GEO.metin} textAnchor="middle">
-        buzdolabı
-      </SvgText>
-      <Rect x={218} y={20} width={40} height={40} fill={GEO.beyaz} stroke={GEO.metin} strokeWidth={1.5} rx={3} />
-      <Circle cx={228} cy={30} r={3} fill={GEO.metin} />
-      <Circle cx={248} cy={30} r={3} fill={GEO.metin} />
-      <Circle cx={238} cy={40} r={3} fill={GEO.metin} />
-      <Circle cx={228} cy={50} r={3} fill={GEO.metin} />
-      <Circle cx={248} cy={50} r={3} fill={GEO.metin} />
-      <SvgText x={238} y={72} fontSize={9} fill={GEO.metin} textAnchor="middle">
-        zar
-      </SvgText>
-      <Rect x={70} y={88} width={100} height={70} fill={GEO.turuncu} rx={2} />
-      <Circle cx={70} cy={88} r={5} fill={GEO.sari} stroke={GEO.metin} strokeWidth={1.5} />
-      <Line x1={70} y1={86} x2={48} y2={70} stroke={GEO.mavi} strokeWidth={2} />
-      <SvgText x={44} y={66} fontSize={11} fill={GEO.mavi} fontWeight="700">
-        köşe
-      </SvgText>
-      <Line x1={170} y1={123} x2={194} y2={123} stroke={GEO.mor} strokeWidth={2} />
-      <SvgText x={198} y={127} fontSize={11} fill={GEO.mor} fontWeight="700">
-        kenar
-      </SvgText>
-    </Svg>
+    <SvgCanvas
+      width={w}
+      height={h}
+      labels={[
+        { text: 'kitap', left: 8, top: 62, width: 50, fontSize: 10 },
+        { text: 'kutu', left: 78, top: 62, width: 44, fontSize: 10 },
+        { text: 'buzdolabı', left: 138, top: 62, width: 64, fontSize: 10 },
+        { text: 'zar', left: 218, top: 62, width: 40, fontSize: 10 },
+        { text: 'köşe', left: 18, top: 52, width: 44, fontSize: 11, color: GEO.mavi, fontWeight: '700' },
+        { text: 'kenar', left: 174, top: 112, width: 48, fontSize: 11, color: GEO.mor, fontWeight: '700' },
+      ]}
+    >
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Rect x={15} y={12} width={36} height={48} fill={GEO.mavi} rx={2} />
+        <Line x1={24} y1={12} x2={24} y2={60} stroke={GEO.beyaz} strokeWidth={1.5} />
+        <Rect x={78} y={18} width={44} height={40} fill={GEO.mor} rx={2} />
+        <Rect x={96} y={18} width={6} height={40} fill={GEO.sari} />
+        <Rect x={78} y={36} width={44} height={6} fill={GEO.sari} />
+        <Rect x={148} y={10} width={40} height={52} fill="#90CAF9" rx={2} />
+        <Line x1={148} y1={32} x2={188} y2={32} stroke={GEO.beyaz} strokeWidth={1.5} />
+        <Rect x={218} y={20} width={40} height={40} fill={GEO.beyaz} stroke={GEO.metin} strokeWidth={1.5} rx={3} />
+        <Circle cx={228} cy={30} r={3} fill={GEO.metin} />
+        <Circle cx={248} cy={30} r={3} fill={GEO.metin} />
+        <Circle cx={238} cy={40} r={3} fill={GEO.metin} />
+        <Circle cx={228} cy={50} r={3} fill={GEO.metin} />
+        <Circle cx={248} cy={50} r={3} fill={GEO.metin} />
+        <Rect x={70} y={88} width={100} height={70} fill={GEO.turuncu} rx={2} />
+        <Circle cx={70} cy={88} r={5} fill={GEO.sari} stroke={GEO.metin} strokeWidth={1.5} />
+        <Line x1={70} y1={86} x2={48} y2={70} stroke={GEO.mavi} strokeWidth={2} />
+        <Line x1={170} y1={123} x2={194} y2={123} stroke={GEO.mor} strokeWidth={2} />
+      </Svg>
+    </SvgCanvas>
   );
 }
 

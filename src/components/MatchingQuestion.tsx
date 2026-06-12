@@ -122,18 +122,22 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
                 key={sol}
                 onPress={() => (eslesmis ? eslesmeyiKaldir(sol) : solSec(sol))}
                 disabled={kilitli}
-                style={[
-                  styles.oge,
-                  secili && styles.ogeSecili,
-                  eslesmis && !yanlis && styles.ogeEslesmis,
-                  yanlis && styles.ogeYanlis,
-                ]}
+                style={styles.ogeHit}
               >
-                <View style={styles.solSatir}>
-                  {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={30} />}
-                  <Text style={[styles.ogeMetin, secili && styles.ogeMetinSecili]}>{sol}</Text>
+                <View
+                  style={[
+                    styles.oge,
+                    secili && styles.ogeSecili,
+                    eslesmis && !yanlis && styles.ogeEslesmis,
+                    yanlis && styles.ogeYanlis,
+                  ]}
+                >
+                  <View style={styles.solSatir}>
+                    {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={30} />}
+                    <Text style={[styles.ogeMetin, secili && styles.ogeMetinSecili]}>{sol}</Text>
+                  </View>
+                  {eslesmis && <Text style={styles.baglanti}>→ {eslesmis}</Text>}
                 </View>
-                {eslesmis && <Text style={styles.baglanti}>→ {eslesmis}</Text>}
               </Pressable>
             );
           })}
@@ -145,9 +149,11 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
               key={sag}
               onPress={() => sagSec(sag)}
               disabled={kilitli || !seciliSol}
-              style={[styles.oge, seciliSol && styles.ogeHazir]}
+              style={styles.ogeHit}
             >
-              <Text style={styles.ogeMetin}>{sag}</Text>
+              <View style={[styles.oge, seciliSol && styles.ogeHazir]}>
+                <Text style={styles.ogeMetin}>{sag}</Text>
+              </View>
             </Pressable>
           ))}
         </View>
@@ -206,6 +212,9 @@ const styles = StyleSheet.create({
     color: colors.metin,
     marginBottom: 4,
   },
+  ogeHit: {
+    overflow: 'visible',
+  },
   oge: {
     borderWidth: 2,
     borderColor: colors.kenarlik,
@@ -213,6 +222,7 @@ const styles = StyleSheet.create({
     padding: 12,
     backgroundColor: colors.kart,
     gap: 4,
+    overflow: 'visible',
   },
   solSatir: {
     flexDirection: 'row',
@@ -234,9 +244,11 @@ const styles = StyleSheet.create({
     borderColor: colors.turuncu,
   },
   ogeMetin: {
+    flexShrink: 0,
     fontSize: 16,
     color: colors.metin,
     fontWeight: '600',
+    flex: 1,
   },
   ogeMetinSecili: {
     color: colors.birincil,

@@ -1,4 +1,5 @@
-import Svg, { Circle, Ellipse, Line, Polygon, Rect, Text as SvgText } from 'react-native-svg';
+import { StyleSheet, Text, View } from 'react-native';
+import Svg, { Circle, Ellipse, Line, Polygon, Rect } from 'react-native-svg';
 import { GEO } from './colors';
 
 export type SekilNesneTipi =
@@ -107,26 +108,26 @@ export function SekilNesneler({ tip, size = 72 }: Props) {
       );
     case 'para':
       return (
-        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
-          <Circle cx={s / 2} cy={h / 2} r={s * 0.36} fill={GEO.sari} stroke={GEO.turuncu} strokeWidth={2} />
-          <SvgText x={s / 2} y={h / 2 + 5} fontSize={s * 0.22} fill={GEO.metin} textAnchor="middle" fontWeight="700">
-            1
-          </SvgText>
-        </Svg>
+        <View style={{ width: s, height: h }}>
+          <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+            <Circle cx={s / 2} cy={h / 2} r={s * 0.36} fill={GEO.sari} stroke={GEO.turuncu} strokeWidth={2} />
+          </Svg>
+          <Text style={[ikonStyles.ortala, { width: s, top: h / 2 - s * 0.12, fontSize: s * 0.22 }]}>1</Text>
+        </View>
       );
     case 'uyari-levha':
       return (
-        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
-          <Polygon
-            points={`${s / 2},${h * 0.08} ${s * 0.92},${h * 0.88} ${s * 0.08},${h * 0.88}`}
-            fill={GEO.sari}
-            stroke={GEO.kirmizi}
-            strokeWidth={3}
-          />
-          <SvgText x={s / 2} y={h * 0.62} fontSize={s * 0.2} fill={GEO.metin} textAnchor="middle" fontWeight="700">
-            !
-          </SvgText>
-        </Svg>
+        <View style={{ width: s, height: h }}>
+          <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+            <Polygon
+              points={`${s / 2},${h * 0.08} ${s * 0.92},${h * 0.88} ${s * 0.08},${h * 0.88}`}
+              fill={GEO.sari}
+              stroke={GEO.kirmizi}
+              strokeWidth={3}
+            />
+          </Svg>
+          <Text style={[ikonStyles.ortala, { width: s, top: h * 0.44, fontSize: s * 0.2 }]}>!</Text>
+        </View>
       );
     case 'dondurma-kulahi':
       return (
@@ -162,3 +163,12 @@ export function SekilNesneler({ tip, size = 72 }: Props) {
       return null;
   }
 }
+
+const ikonStyles = StyleSheet.create({
+  ortala: {
+    position: 'absolute',
+    textAlign: 'center',
+    fontWeight: '700',
+    color: GEO.metin,
+  },
+});

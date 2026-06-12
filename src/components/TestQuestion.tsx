@@ -5,8 +5,8 @@ import { colors } from '../theme/colors';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
-import { secenekGosterim } from '../utils/secenekGosterim';
 import { SecenekIkon } from './nesneler/SecenekIkon';
+import { SecenekMetni } from './SecenekMetni';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -81,18 +81,14 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
                   {soru.secenekIkonlari?.[secenek] && (
                     <SecenekIkon ikon={soru.secenekIkonlari[secenek]} size={32} />
                   )}
-                  <Text
-                    adjustsFontSizeToFit={false}
+                  <SecenekMetni
+                    secenek={secenek}
                     style={[
-                      styles.secenekMetin,
-                      { minWidth: Math.max(28, secenekGosterim(secenek).length * 12) },
                       secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
                       dogruGoster && styles.secenekMetinDogru,
                       yanlisGoster && styles.secenekMetinYanlis,
                     ]}
-                  >
-                    {secenekGosterim(secenek)}
-                  </Text>
+                  />
                 </View>
               </View>
             </Pressable>
@@ -135,7 +131,7 @@ const styles = StyleSheet.create({
   },
   secenekler: { gap: 12 },
   secenekHit: {
-    borderRadius: 12,
+    overflow: 'visible',
   },
   secenekIcerik: {
     flexDirection: 'row',
@@ -164,13 +160,6 @@ const styles = StyleSheet.create({
   secenekYanlis: {
     borderColor: colors.hata,
     backgroundColor: colors.hataAcik,
-  },
-  secenekMetin: {
-    flexShrink: 0,
-    fontSize: 18,
-    color: colors.metin,
-    textAlign: 'center',
-    paddingHorizontal: 2,
   },
   secenekMetinSecili: {
     color: colors.birincil,

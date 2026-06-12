@@ -111,21 +111,25 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
                   key={n}
                   onPress={() => hucreToggle(n)}
                   disabled={kilitli}
-                  style={[
-                    styles.hucre,
-                    boyanmis && !yanlis && !dogru && styles.hucreBoyali,
-                    dogru && styles.hucreDogru,
-                    yanlis && styles.hucreYanlis,
-                  ]}
+                  style={styles.hucreHit}
                 >
-                  <Text
+                  <View
                     style={[
-                      styles.hucreSayi,
-                      (boyanmis || dogru) && styles.hucreSayiBoyali,
+                      styles.hucre,
+                      boyanmis && !yanlis && !dogru && styles.hucreBoyali,
+                      dogru && styles.hucreDogru,
+                      yanlis && styles.hucreYanlis,
                     ]}
                   >
-                    {n}
-                  </Text>
+                    <Text
+                      style={[
+                        styles.hucreSayi,
+                        (boyanmis || dogru) && styles.hucreSayiBoyali,
+                      ]}
+                    >
+                      {n}
+                    </Text>
+                  </View>
                 </Pressable>
               );
             })}
@@ -178,6 +182,9 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     gap: 6,
   },
+  hucreHit: {
+    overflow: 'visible',
+  },
   hucre: {
     width: 52,
     height: 52,
@@ -187,6 +194,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: colors.kart,
+    overflow: 'visible',
   },
   hucreBoyali: {
     borderColor: colors.birincil,
@@ -201,6 +209,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.hataAcik,
   },
   hucreSayi: {
+    flexShrink: 0,
     fontSize: 16,
     fontWeight: '700',
     color: colors.metin,

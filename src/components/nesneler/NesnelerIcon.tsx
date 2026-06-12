@@ -1,4 +1,5 @@
-import Svg, { Circle, Ellipse, Line, Path, Polygon, Rect, Text as SvgText } from 'react-native-svg';
+import { StyleSheet, Text, View } from 'react-native';
+import Svg, { Circle, Ellipse, Line, Path, Polygon, Rect } from 'react-native-svg';
 import { GEO } from './colors';
 
 export type NesneTipi =
@@ -301,13 +302,15 @@ export function NesnelerIcon({ tip, size = 36 }: Props) {
       );
     case 'geri-donusum-sut':
       return (
-        <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
-          <Rect x={s * 0.55} y={h * 0.2} width={s * 0.35} height={h * 0.6} fill={GEO.yesil} rx={2} />
-          <SvgText x={s * 0.72} y={h * 0.55} fontSize={10} fill={GEO.beyaz} textAnchor="middle">
+        <View style={{ width: s, height: h }}>
+          <Svg width={s} height={h} viewBox={`0 0 ${s} ${h}`}>
+            <Rect x={s * 0.55} y={h * 0.2} width={s * 0.35} height={h * 0.6} fill={GEO.yesil} rx={2} />
+            <Rect x={s * 0.1} y={h * 0.35} width={s * 0.35} height={h * 0.4} fill={GEO.beyaz} stroke={GEO.mavi} strokeWidth={1.5} rx={2} />
+          </Svg>
+          <Text style={[nesneIkonMetin.ortala, { left: s * 0.55, top: h * 0.38, width: s * 0.35, fontSize: 10, color: GEO.beyaz }]}>
             ♻
-          </SvgText>
-          <Rect x={s * 0.1} y={h * 0.35} width={s * 0.35} height={h * 0.4} fill={GEO.beyaz} stroke={GEO.mavi} strokeWidth={1.5} rx={2} />
-        </Svg>
+          </Text>
+        </View>
       );
     case 'kalem-kutusu':
       return (
@@ -348,3 +351,11 @@ export function NesnelerIcon({ tip, size = 36 }: Props) {
       return null;
   }
 }
+
+const nesneIkonMetin = StyleSheet.create({
+  ortala: {
+    position: 'absolute',
+    textAlign: 'center',
+    fontWeight: '700',
+  },
+});
