@@ -74,7 +74,7 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { gap: 24 },
+  container: { gap: 28 },
   soru: {
     fontSize: 22,
     lineHeight: 32,

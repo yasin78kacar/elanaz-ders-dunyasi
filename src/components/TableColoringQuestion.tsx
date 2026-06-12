@@ -166,7 +166,7 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
 }
 
 const styles = StyleSheet.create({
-  container: { gap: 20 },
+  container: { gap: 28 },
   soru: {
     fontSize: 22,
     lineHeight: 32,

@@ -1,12 +1,19 @@
-/** Patron kararı: tüm eğitim görselleri %30 büyük. */
+/** Genel UI öğeleri (şık ikonları, avatar vb.) */
 export const GORSEL_OLCEK = 1.3;
+
+/** Flow JPEG görselleri — patron: %70 büyük (taban × 1.7) */
+export const FLOW_GORSEL_OLCEK = 1.7;
 
 export function gorselOlcekle(boyut: number): number {
   return Math.round(boyut * GORSEL_OLCEK);
 }
 
-export const FLOW_GORSEL_GENISLIK = gorselOlcekle(340);
-export const FLOW_GORSEL_YUKSEKLIK = gorselOlcekle(220);
+export function flowGorselOlcekle(boyut: number): number {
+  return Math.round(boyut * FLOW_GORSEL_OLCEK);
+}
+
+export const FLOW_GORSEL_GENISLIK = flowGorselOlcekle(340);
+export const FLOW_GORSEL_YUKSEKLIK = flowGorselOlcekle(220);
 
 export const SECENEK_IKON_BOYUT = gorselOlcekle(32);
 export const SECENEK_IKON_VARSAYILAN = gorselOlcekle(28);

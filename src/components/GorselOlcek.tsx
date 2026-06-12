@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { gorselOlcekle } from '../theme/gorselBoyut';
+import { flowGorselOlcekle } from '../theme/gorselBoyut';
 
 interface Props {
   children: ReactNode;
@@ -11,7 +11,7 @@ interface Props {
 /** Yalnızca layout boşluğu; ölçekleme boyut sabitleriyle yapılır. */
 export function GorselOlcek({ children, tabanYukseklik = 200 }: Props) {
   return (
-    <View style={[styles.dis, { minHeight: gorselOlcekle(tabanYukseklik) }]}>
+    <View style={[styles.dis, { minHeight: flowGorselOlcekle(tabanYukseklik) }]}>
       {children}
     </View>
   );

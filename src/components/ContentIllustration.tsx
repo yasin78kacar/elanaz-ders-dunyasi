@@ -13,7 +13,7 @@ import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
 import { colors } from '../theme/colors';
-import { gorselOlcekle } from '../theme/gorselBoyut';
+import { flowGorselOlcekle } from '../theme/gorselBoyut';
 import type { Gorsel } from '../types/content';
 
 interface Props {
@@ -25,8 +25,8 @@ function gorselKutusu(children: ReactNode) {
   return <View style={styles.kutu}>{children}</View>;
 }
 
-function svgYedek(svg: ReactNode, tabanYukseklik = 200) {
-  return <GorselOlcek tabanYukseklik={tabanYukseklik}>{svg}</GorselOlcek>;
+function svgYedek(svg: ReactNode) {
+  return <GorselOlcek tabanYukseklik={220}>{svg}</GorselOlcek>;
 }
 
 function flowVeyaSvg(
@@ -111,12 +111,12 @@ const styles = StyleSheet.create({
   kutu: {
     backgroundColor: colors.kart,
     borderRadius: 14,
-    padding: gorselOlcekle(12),
-    paddingBottom: gorselOlcekle(16),
+    padding: flowGorselOlcekle(12),
+    paddingBottom: flowGorselOlcekle(20),
     borderWidth: 2,
     borderColor: colors.kenarlik,
     alignItems: 'center',
     overflow: 'visible',
-    marginBottom: 8,
+    marginBottom: flowGorselOlcekle(10),
   },
 });
