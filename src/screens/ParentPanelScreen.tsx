@@ -5,6 +5,8 @@ import { getTumKonuYildizlari, type KonuYildizOzeti } from '../services/progress
 import { getTumSoruKayitlari } from '../services/progressStore';
 import type { SoruKaydi } from '../types/progress';
 import { colors } from '../theme/colors';
+import { VideoPlayer } from '../components/VideoPlayer';
+import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
 
 export function ParentPanelScreen() {
   const [kayitlar, setKayitlar] = useState<SoruKaydi[]>([]);
@@ -24,6 +26,13 @@ export function ParentPanelScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <VideoPlayer
+        source={getVideoSource(SISTEM_VIDEOLARI.annePanel)}
+        autoPlay
+        loop
+        compact
+        showControls
+      />
       <View style={styles.ozetKart}>
         <Text style={styles.ozetBaslik}>Özet</Text>
         <Text style={styles.ozetSatir}>Çözülen soru: {toplam}</Text>

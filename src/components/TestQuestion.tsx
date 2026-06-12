@@ -9,6 +9,7 @@ import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { SecenekIkon } from './nesneler/SecenekIkon';
 import { SecenekMetni } from './SecenekMetni';
+import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -102,6 +103,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
   return (
     <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
+      {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
       <Text style={q.hakMetni}>
         Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}
@@ -152,18 +154,20 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Cevabım Bu" onPress={onayla} disabled={!secim} />
       )}
       {durum === 'dogru' && (
-        <View style={q.feedbackDogru}>
-          <Text style={q.feedbackBaslik}>Süper! ⭐</Text>
-          <Text style={q.feedbackMetin}>Çok iyi düşündün!</Text>
-        </View>
+        <QuestionFeedback
+          variant="dogru"
+          baslik="Süper! ⭐"
+          metin="Çok iyi düşündün!"
+          styles={q}
+        />
       )}
       {durum === 'yanlis' && (
-        <View style={q.feedbackYanlis}>
-          <Text style={q.feedbackBaslikYanlis}>
-            {soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
-          </Text>
-          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
-        </View>
+        <QuestionFeedback
+          variant="yanlis"
+          baslik={soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
+          metin={yanlisMesaj(soru)}
+          styles={q}
+        />
       )}
     </View>
   );

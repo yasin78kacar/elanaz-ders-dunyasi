@@ -10,6 +10,8 @@ import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { VideoIzleButton } from '../components/VideoIzleButton';
+import { getKonuAnlatimVideo } from '../assets/videoCatalog';
 import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import type { RootStackParamList } from '../navigation/types';
@@ -159,6 +161,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     else if (adim.tip === 'test') sonrakiTest(testDogru);
   };
 
+  const anlatimVideo =
+    adim.tip === 'anlatim' ? getKonuAnlatimVideo(konuId, adim.index) : undefined;
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {adim.tip === 'anlatim' && (
@@ -167,6 +172,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <Text style={styles.etiket}>Konu Anlatımı</Text>
           <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} konuId={konuId} />
           <Text style={styles.anlatimMetin}>{anlatimEkranlari[adim.index].metin}</Text>
+          {anlatimVideo ? <VideoIzleButton source={anlatimVideo} /> : null}
           <Text style={styles.sayac}>
             {adim.index + 1} / {anlatimEkranlari.length}
           </Text>

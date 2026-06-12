@@ -9,6 +9,7 @@ import { NesneIkon, type NesneTipi } from '../../assets/illustrations/GeometriIl
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { soruMetni } from '../utils/soruHelpers';
+import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 
 const MAX_DENEME = 2;
 
@@ -162,6 +163,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   return (
     <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
+      {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
       <Text style={q.hakMetni}>
         Deneme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanDeneme}
@@ -226,24 +228,28 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!tumEslesti} />
       )}
       {durum === 'dogru' && (
-        <View style={q.feedbackDogru}>
-          <Text style={q.feedbackBaslik}>Süper! ⭐</Text>
-          <Text style={q.feedbackMetin}>Tüm eşleştirmeler doğru!</Text>
-        </View>
+        <QuestionFeedback
+          variant="dogru"
+          baslik="Süper! ⭐"
+          metin="Tüm eşleştirmeler doğru!"
+          styles={q}
+        />
       )}
       {durum === 'yanlis' && kilitli && (
-        <View style={q.feedbackYanlis}>
-          <Text style={q.feedbackBaslikYanlis}>
-            {soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
-          </Text>
-          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
-        </View>
+        <QuestionFeedback
+          variant="yanlis"
+          baslik={soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
+          metin={yanlisMesaj(soru)}
+          styles={q}
+        />
       )}
       {durum === 'yanlis' && !kilitli && (
-        <View style={q.feedbackYanlis}>
-          <Text style={q.feedbackBaslikYanlis}>Bazı eşleştirmeler yanlış</Text>
-          <Text style={q.feedbackMetin}>{soru.ipucu}</Text>
-        </View>
+        <QuestionFeedback
+          variant="yanlis"
+          baslik="Bazı eşleştirmeler yanlış"
+          metin={soru.ipucu}
+          styles={q}
+        />
       )}
     </View>
   );

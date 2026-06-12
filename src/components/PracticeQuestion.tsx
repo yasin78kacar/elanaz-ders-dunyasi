@@ -5,6 +5,7 @@ import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
+import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 
@@ -58,6 +59,7 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   return (
     <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
+      {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
       <TextInput
         style={inputStyle}
@@ -74,18 +76,20 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />
       )}
       {durum === 'dogru' && (
-        <View style={q.feedbackDogru}>
-          <Text style={q.feedbackBaslik}>Harika! 🌟</Text>
-          <Text style={q.feedbackMetin}>Doğru düşündün, devam edebilirsin.</Text>
-        </View>
+        <QuestionFeedback
+          variant="dogru"
+          baslik="Harika! 🌟"
+          metin="Doğru düşündün, devam edebilirsin."
+          styles={q}
+        />
       )}
       {durum === 'yanlis' && (
-        <View style={q.feedbackYanlis}>
-          <Text style={q.feedbackBaslikYanlis}>
-            {soru.sasirtma ? 'Dikkatli oku!' : 'Bir daha dene'}
-          </Text>
-          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
-        </View>
+        <QuestionFeedback
+          variant="yanlis"
+          baslik={soru.sasirtma ? 'Dikkatli oku!' : 'Bir daha dene'}
+          metin={yanlisMesaj(soru)}
+          styles={q}
+        />
       )}
     </View>
   );
