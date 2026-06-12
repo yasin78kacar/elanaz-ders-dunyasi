@@ -33,6 +33,18 @@ const NESNE_EMOJI: Record<string, string> = {
   istanbul: '🌉',
   ankara: '🏛️',
   meyve: '🍎',
+  oyuncak: '🧸',
+  futbol: '⚽',
+  bisiklet: '🚲',
+  robot: '🤖',
+  deniz: '🌊',
+  ari: '🐝',
+  'gunes-sistemi': '🪐',
+  agac: '🌲',
+  deprem: '🏚️',
+  hikaye: '📖',
+  siir: '📜',
+  bilgi: '📘',
   default: '📝',
 };
 
@@ -254,6 +266,63 @@ function SoruIsaretleriGorsel() {
   );
 }
 
+function SiirGorsel({ sahne }: { sahne?: string }) {
+  const etiket = (sahne ?? 'siir').replace(/-/g, ' ');
+  const emojiMap: Record<string, string> = {
+    'yaz-tatili': '🏖️',
+    'yaz-tatili-kita': '🏖️',
+    'dalgalı-deniz': '🌊',
+    'kumda-kale': '🏰',
+    'sicak-gunes': '☀️',
+    sonbahar: '🍂',
+    'karli-manzara': '❄️',
+    bahar: '🌸',
+    deniz: '🌊',
+    kafiye: '🎵',
+    kisilestirme: '✨',
+  };
+  const key = sahne?.split('-')[0] ?? '';
+  const e = emojiMap[sahne ?? ''] ?? emojiMap[key] ?? '📜';
+  return (
+    <View style={styles.sahne}>
+      <GuvenliMetin style={styles.nesneEmoji} tamGenislik>
+        {e}
+      </GuvenliMetin>
+      <GuvenliMetin style={styles.sahneBaslik} tamGenislik>
+        {etiket}
+      </GuvenliMetin>
+    </View>
+  );
+}
+
+function HikayeYapisi() {
+  return (
+    <View style={styles.karsSatir}>
+      {['Başlangıç', 'Gelişme', 'Sonuç'].map((b) => (
+        <View key={b} style={styles.cumleTurKutu}>
+          <GuvenliMetin style={styles.cumleEtiket} tamGenislik>
+            {b}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function BilgiYapisi() {
+  return (
+    <View style={styles.cumleTurSatir}>
+      {['Başlık', 'Giriş', 'Gelişme', 'Sonuç'].map((b) => (
+        <View key={b} style={styles.cumleTurKutu}>
+          <GuvenliMetin style={styles.cumleEtiket} tamGenislik>
+            {b}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'sh-anlatim-1':
@@ -326,6 +395,24 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
           </GuvenliMetin>
         </View>
       );
+    case 'hm-anlatim-1':
+      return <SahneGorsel sahne="hikaye" nesne="hikaye" />;
+    case 'hm-anlatim-2':
+      return <HikayeYapisi />;
+    case 'hm-anlatim-3':
+      return <SoruIsaretleriGorsel />;
+    case 'sr-anlatim-1':
+      return <SiirGorsel sahne="siir-dize" />;
+    case 'sr-anlatim-2':
+      return <SiirGorsel sahne="kafiye" />;
+    case 'sr-anlatim-3':
+      return <SiirGorsel sahne="kisilestirme" />;
+    case 'bt-anlatim-1':
+      return <SahneGorsel sahne="bilgi" nesne="bilgi" />;
+    case 'bt-anlatim-2':
+      return <BilgiYapisi />;
+    case 'bt-anlatim-3':
+      return <SahneGorsel sahne="not-alma" nesne="kitap" />;
     default:
       return <SahneGorsel sahne={sahne} />;
   }
@@ -343,6 +430,7 @@ export function TurkceGorsel(props: Props) {
   if (mod === 'cumle') return <CumleAnaliz metin={metin} ozne={ozne} yuklem={yuklem} cumleTuru={cumleTuru} />;
   if (mod === 'karsilastir') return <Karsilastirma kelimeler={kelimeler} iliski={iliski} />;
   if (mod === 'sahne') return <SahneGorsel sahne={sahne} nesne={nesne} />;
+  if (mod === 'siir') return <SiirGorsel sahne={sahne} />;
   if (mod === 'kart') return <HarfKartlari harfler={harfler ?? kelimeler} vurgu={vurgu} />;
   return <SahneGorsel sahne={sahne} nesne={nesne ?? kelime} />;
 }

@@ -30,6 +30,9 @@ import kelimeBilgisi from '../../content/sinif2/turkce/kelime-bilgisi.json';
 import okumaAnlama from '../../content/sinif2/turkce/okuma-anlama.json';
 import cumleBilgisi from '../../content/sinif2/turkce/cumle-bilgisi.json';
 import noktalamaVeYazim from '../../content/sinif2/turkce/noktalama-ve-yazim.json';
+import hikayeMetni from '../../content/sinif2/turkce/hikaye-metni.json';
+import siir from '../../content/sinif2/turkce/siir.json';
+import bilgiMetni from '../../content/sinif2/turkce/bilgi-metni.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -66,6 +69,9 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/okuma-anlama.json': okumaAnlama as Konu,
   'turkce/cumle-bilgisi.json': cumleBilgisi as Konu,
   'turkce/noktalama-ve-yazim.json': noktalamaVeYazim as Konu,
+  'turkce/hikaye-metni.json': hikayeMetni as Konu,
+  'turkce/siir.json': siir as Konu,
+  'turkce/bilgi-metni.json': bilgiMetni as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

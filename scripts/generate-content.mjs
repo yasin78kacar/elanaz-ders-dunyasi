@@ -57,6 +57,7 @@ import {
   okumaAnlama,
   seslerVeHeceler,
 } from './gorev-turkce1-questions.mjs';
+import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -408,6 +409,13 @@ writeFileSync(join(turkceDir, 'okuma-anlama.json'), JSON.stringify(okumaAnlamaKo
 writeFileSync(join(turkceDir, 'cumle-bilgisi.json'), JSON.stringify(cumleBilgisiKonu, null, 2));
 writeFileSync(join(turkceDir, 'noktalama-ve-yazim.json'), JSON.stringify(noktalamaVeYazimKonu, null, 2));
 
+const hikayeMetniKonu = hikayeMetni(karistir);
+const siirKonu = siir(karistir);
+const bilgiMetniKonu = bilgiMetni(karistir);
+writeFileSync(join(turkceDir, 'hikaye-metni.json'), JSON.stringify(hikayeMetniKonu, null, 2));
+writeFileSync(join(turkceDir, 'siir.json'), JSON.stringify(siirKonu, null, 2));
+writeFileSync(join(turkceDir, 'bilgi-metni.json'), JSON.stringify(bilgiMetniKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -482,6 +490,15 @@ const index = {
             'turkce/okuma-anlama.json',
             'turkce/cumle-bilgisi.json',
             'turkce/noktalama-ve-yazim.json',
+          ],
+        },
+        {
+          id: 'tema-2',
+          baslik: 'Türkçe — Tema 2',
+          konuDosyalari: [
+            'turkce/hikaye-metni.json',
+            'turkce/siir.json',
+            'turkce/bilgi-metni.json',
           ],
         },
       ] },
@@ -615,6 +632,9 @@ console.log('Kelime bilgisi:', kelimeBilgisiKonu.alistirma.length, '+', kelimeBi
 console.log('Okuma anlama:', okumaAnlamaKonu.alistirma.length, '+', okumaAnlamaKonu.test.length);
 console.log('Cümle bilgisi:', cumleBilgisiKonu.alistirma.length, '+', cumleBilgisiKonu.test.length);
 console.log('Noktalama ve yazım:', noktalamaVeYazimKonu.alistirma.length, '+', noktalamaVeYazimKonu.test.length);
+console.log('Hikâye metni:', hikayeMetniKonu.alistirma.length, '+', hikayeMetniKonu.test.length);
+console.log('Şiir:', siirKonu.alistirma.length, '+', siirKonu.test.length);
+console.log('Bilgi metni:', bilgiMetniKonu.alistirma.length, '+', bilgiMetniKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

@@ -1,0 +1,775 @@
+{
+  "id": "bilgi-metni",
+  "baslik": "Bilgi Metni",
+  "kazanimKodu": "TUR.2.2.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "BİLGİ METNİ, bir konuyu açıklamak veya bilgi vermek amacıyla yazılan metindir. Ansiklopediler, ders kitapları, broşürler bilgi metni örnekleridir.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "bt-anlatim-1"
+        }
+      },
+      {
+        "metin": "Bilgi metninde: BAŞLIK (konu ne?), GİRİŞ (konuya giriş), GELİŞME (ayrıntılar), SONUÇ (özet/sonuç) bulunur.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "bt-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bilgi metni okurken ana fikri ve önemli detayları not alırız. \"Bu metinde ne öğrendim?\" sorusu bize yol gösterir!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "bt-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "bt-a1",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Arılar nerede yaşar?",
+      "dogruCevap": "Kovanda",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ari-kovani",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a2",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Arılar neyi toplayarak bal yapar?",
+      "dogruCevap": "Çiçeklerden nektar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cicekte-ari",
+        "nesne": "cicek"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a3",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Kraliçe arı ne yapar?",
+      "dogruCevap": "Yumurta bırakır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kralice-ari",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a4",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "İşçi arılar ne yapar?",
+      "dogruCevap": "Bal yapar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bal-yapan-arilar",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a5",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bal nasıl tanımlanıyor?",
+      "dogruCevap": "Hem lezzetli hem sağlıklı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bal-kavanozu",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a6",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bu metin ne tür bir metin?",
+      "dogruCevap": "Bilgi metni",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bilgi-metni-etiketi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a7",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bu metnin başlığı ne?",
+      "dogruCevap": "Arılar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ari-baslik",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a8",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bu metinden ne öğrendik?",
+      "dogruCevap": "Arıların nasıl yaşadığı ve bal yaptığı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ari-hayati",
+        "nesne": "default"
+      },
+      "okumaMetni": "Arılar çok çalışkan böceklerdir. Kovanda yaşarlar. Çiçeklerden nektar toplayarak bal yaparlar. Bir arı kovanında binlerce arı yaşar. Kraliçe arı yumurta bırakır, işçi arılar bal yapar, erkek arılar ürer. Bal hem lezzetli hem de sağlıklıdır."
+    },
+    {
+      "id": "bt-a9",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Su döngüsünde ilk adım nedir?",
+      "dogruCevap": "Güneş suyu ısıtır, su buharlaşır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "su-dongusu-semasi",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Su yeryüzünde sürekli döner. Güneş suyu ısıtır, su buharlaşır. Bulutlar oluşur. Bulutlar soğuyunca yağmur ya da kar yağar. Yağmur suları denize, göle ve nehirlere akar. Sonra tekrar buharlaşır. Bu döngü sonsuza kadar devam eder."
+    },
+    {
+      "id": "bt-a10",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bulutlar nasıl oluşur?",
+      "dogruCevap": "Su buharlaşır ve yükselir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bulut-olusumu",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Su yeryüzünde sürekli döner. Güneş suyu ısıtır, su buharlaşır. Bulutlar oluşur. Bulutlar soğuyunca yağmur ya da kar yağar. Yağmur suları denize, göle ve nehirlere akar. Sonra tekrar buharlaşır. Bu döngü sonsuza kadar devam eder."
+    },
+    {
+      "id": "bt-a11",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Yağmur suları nereye akar?",
+      "dogruCevap": "Deniz, göl ve nehirlere",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "su-akisi",
+        "nesne": "default"
+      },
+      "okumaMetni": "Su yeryüzünde sürekli döner. Güneş suyu ısıtır, su buharlaşır. Bulutlar oluşur. Bulutlar soğuyunca yağmur ya da kar yağar. Yağmur suları denize, göle ve nehirlere akar. Sonra tekrar buharlaşır. Bu döngü sonsuza kadar devam eder."
+    },
+    {
+      "id": "bt-a12",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Su döngüsü ne zaman biter?",
+      "dogruCevap": "Bitmez, sonsuza kadar devam eder",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sonsuz-dongu",
+        "nesne": "default"
+      },
+      "okumaMetni": "Su yeryüzünde sürekli döner. Güneş suyu ısıtır, su buharlaşır. Bulutlar oluşur. Bulutlar soğuyunca yağmur ya da kar yağar. Yağmur suları denize, göle ve nehirlere akar. Sonra tekrar buharlaşır. Bu döngü sonsuza kadar devam eder."
+    },
+    {
+      "id": "bt-a13",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "yazili",
+      "soru": "Bu metinin konusu nedir?",
+      "dogruCevap": "Suyun doğadaki döngüsü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "su-dongusu",
+        "nesne": "default"
+      },
+      "okumaMetni": "Su yeryüzünde sürekli döner. Güneş suyu ısıtır, su buharlaşır. Bulutlar oluşur. Bulutlar soğuyunca yağmur ya da kar yağar. Yağmur suları denize, göle ve nehirlere akar. Sonra tekrar buharlaşır. Bu döngü sonsuza kadar devam eder."
+    }
+  ],
+  "test": [
+    {
+      "id": "bt-t1",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Güneş sisteminde kaç gezegen vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "9",
+        "10",
+        "8",
+        "6"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunes-sistemi",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Güneş sisteminde Güneş ve ona bağlı gezegenler bulunur. Sekiz gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Dünya, Güneş'ten üçüncü gezegen olup yaşam barındıran tek gezegendir. Dünya hem kendi etrafında hem de Güneş etrafında döner."
+    },
+    {
+      "id": "bt-t2",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dünya Güneş'ten kaçıncı gezegendir?",
+      "dogruCevap": "Üçüncü",
+      "secenekler": [
+        "Dördüncü",
+        "Birinci",
+        "Üçüncü",
+        "İkinci"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gezegen-siralamasi",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Güneş sisteminde Güneş ve ona bağlı gezegenler bulunur. Sekiz gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Dünya, Güneş'ten üçüncü gezegen olup yaşam barındıran tek gezegendir. Dünya hem kendi etrafında hem de Güneş etrafında döner."
+    },
+    {
+      "id": "bt-t3",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yaşam barındıran tek gezegen hangisidir?",
+      "dogruCevap": "Dünya",
+      "secenekler": [
+        "Jüpiter",
+        "Mars",
+        "Venüs",
+        "Dünya"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dunya-gezegeni",
+        "nesne": "default"
+      },
+      "okumaMetni": "Güneş sisteminde Güneş ve ona bağlı gezegenler bulunur. Sekiz gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Dünya, Güneş'ten üçüncü gezegen olup yaşam barındıran tek gezegendir. Dünya hem kendi etrafında hem de Güneş etrafında döner."
+    },
+    {
+      "id": "bt-t4",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dünya hangi hareketleri yapar?",
+      "dogruCevap": "Hem kendi hem Güneş etrafında",
+      "secenekler": [
+        "Hiç dönmez",
+        "Sadece kendi etrafında",
+        "Sadece Güneş etrafında",
+        "Hem kendi hem Güneş etrafında"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dunya-hareketleri",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Güneş sisteminde Güneş ve ona bağlı gezegenler bulunur. Sekiz gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Dünya, Güneş'ten üçüncü gezegen olup yaşam barındıran tek gezegendir. Dünya hem kendi etrafında hem de Güneş etrafında döner."
+    },
+    {
+      "id": "bt-t5",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metin ne tür bir metindir?",
+      "dogruCevap": "Bilgi metni",
+      "secenekler": [
+        "Bilgi metni",
+        "Hikâye",
+        "Şiir",
+        "Mektup"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bilgi-metni-etiketi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Güneş sisteminde Güneş ve ona bağlı gezegenler bulunur. Sekiz gezegen vardır: Merkür, Venüs, Dünya, Mars, Jüpiter, Satürn, Uranüs, Neptün. Dünya, Güneş'ten üçüncü gezegen olup yaşam barındıran tek gezegendir. Dünya hem kendi etrafında hem de Güneş etrafında döner."
+    },
+    {
+      "id": "bt-t6",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçlar ne alıp ne verirler?",
+      "dogruCevap": "Karbondioksit alır, oksijen verir",
+      "secenekler": [
+        "Oksijen alır, karbondioksit verir",
+        "Karbondioksit alır, oksijen verir",
+        "Işık alır, nem verir",
+        "Su alır, hava verir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "agac-gaz-alisverisi",
+        "nesne": "bahce"
+      },
+      "okumaMetni": "Ağaçlar doğanın en önemli varlıklarından biridir. Karbondioksiti alıp oksijen verirler. Böylece havanın temiz kalmasını sağlarlar. Ağaçlar aynı zamanda kuşlara ve böceklere yuva olur. Kâğıt, mobilya ve birçok ürün ağaçtan yapılır. Bu yüzden ağaçları korumak çok önemlidir."
+    },
+    {
+      "id": "bt-t7",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçlar kimin yuvası olur?",
+      "dogruCevap": "Kuşların ve böceklerin",
+      "secenekler": [
+        "Evcil hayvanların",
+        "İnsanların",
+        "Kuşların ve böceklerin",
+        "Balıkların"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "agacta-kus-yuvasi",
+        "nesne": "kus"
+      },
+      "okumaMetni": "Ağaçlar doğanın en önemli varlıklarından biridir. Karbondioksiti alıp oksijen verirler. Böylece havanın temiz kalmasını sağlarlar. Ağaçlar aynı zamanda kuşlara ve böceklere yuva olur. Kâğıt, mobilya ve birçok ürün ağaçtan yapılır. Bu yüzden ağaçları korumak çok önemlidir."
+    },
+    {
+      "id": "bt-t8",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi ürünler ağaçtan yapılır?",
+      "dogruCevap": "Kâğıt ve mobilya",
+      "secenekler": [
+        "Cam ve metal",
+        "Kumaş ve ipek",
+        "Plastik ve kauçuk",
+        "Kâğıt ve mobilya"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "agactan-urunler",
+        "nesne": "default"
+      },
+      "okumaMetni": "Ağaçlar doğanın en önemli varlıklarından biridir. Karbondioksiti alıp oksijen verirler. Böylece havanın temiz kalmasını sağlarlar. Ağaçlar aynı zamanda kuşlara ve böceklere yuva olur. Kâğıt, mobilya ve birçok ürün ağaçtan yapılır. Bu yüzden ağaçları korumak çok önemlidir."
+    },
+    {
+      "id": "bt-t9",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Havanın temiz kalmasını sağlarlar\" cümlesi ağaçların hangi özelliğini anlatıyor?",
+      "dogruCevap": "Karbondioksiti temizleyip oksijen verdikleri",
+      "secenekler": [
+        "Meyve verdikleri",
+        "Güzel göründükleri",
+        "Karbondioksiti temizleyip oksijen verdikleri",
+        "Gölge yaptıkları"
+      ],
+      "ipucu": "Karbondioksiti alıp oksijen verirler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "temiz-hava-agac",
+        "nesne": "bahce"
+      },
+      "sasirtma": true,
+      "okumaMetni": "Ağaçlar doğanın en önemli varlıklarından biridir. Karbondioksiti alıp oksijen verirler. Böylece havanın temiz kalmasını sağlarlar. Ağaçlar aynı zamanda kuşlara ve böceklere yuva olur. Kâğıt, mobilya ve birçok ürün ağaçtan yapılır. Bu yüzden ağaçları korumak çok önemlidir."
+    },
+    {
+      "id": "bt-t10",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin ana fikri nedir?",
+      "dogruCevap": "Ağaçlar doğa için çok önemlidir ve korunmalıdır",
+      "secenekler": [
+        "Ağaçlardan mobilya yapılır",
+        "Ağaçlar güzeldir",
+        "Kuşlar ağaçlarda yaşar",
+        "Ağaçlar doğa için çok önemlidir ve korunmalıdır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "agac-koruma",
+        "nesne": "bahce"
+      },
+      "okumaMetni": "Ağaçlar doğanın en önemli varlıklarından biridir. Karbondioksiti alıp oksijen verirler. Böylece havanın temiz kalmasını sağlarlar. Ağaçlar aynı zamanda kuşlara ve böceklere yuva olur. Kâğıt, mobilya ve birçok ürün ağaçtan yapılır. Bu yüzden ağaçları korumak çok önemlidir."
+    },
+    {
+      "id": "bt-t11",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kemikleri güçlendiren besin grubu hangisidir?",
+      "dogruCevap": "Süt ve süt ürünleri",
+      "secenekler": [
+        "Sebze ve meyve",
+        "Süt ve süt ürünleri",
+        "Ekmek ve tahıllar",
+        "Et ve balık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sut-urunleri",
+        "nesne": "default"
+      },
+      "okumaMetni": "Sağlıklı büyümek için doğru beslenmeliyiz. Her gün sebze ve meyve yemeliyiz. Süt ve süt ürünleri kemiklerimizi güçlendirir. Ekmek ve tahıllar enerji verir. Şeker ve hazır yiyecekler az tüketilmelidir. Su içmek de çok önemlidir."
+    },
+    {
+      "id": "bt-t12",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Enerji veren besin grubu hangisidir?",
+      "dogruCevap": "Ekmek ve tahıllar",
+      "secenekler": [
+        "Ekmek ve tahıllar",
+        "Meyveler",
+        "Şeker",
+        "Su"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ekmek-tahil",
+        "nesne": "default"
+      },
+      "okumaMetni": "Sağlıklı büyümek için doğru beslenmeliyiz. Her gün sebze ve meyve yemeliyiz. Süt ve süt ürünleri kemiklerimizi güçlendirir. Ekmek ve tahıllar enerji verir. Şeker ve hazır yiyecekler az tüketilmelidir. Su içmek de çok önemlidir."
+    },
+    {
+      "id": "bt-t13",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Az tüketilmesi gereken besinler hangileri?",
+      "dogruCevap": "Şeker ve hazır yiyecekler",
+      "secenekler": [
+        "Şeker ve hazır yiyecekler",
+        "Sebze ve meyve",
+        "Süt ürünleri",
+        "Su"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "seker-uyari",
+        "nesne": "default"
+      },
+      "okumaMetni": "Sağlıklı büyümek için doğru beslenmeliyiz. Her gün sebze ve meyve yemeliyiz. Süt ve süt ürünleri kemiklerimizi güçlendirir. Ekmek ve tahıllar enerji verir. Şeker ve hazır yiyecekler az tüketilmelidir. Su içmek de çok önemlidir."
+    },
+    {
+      "id": "bt-t14",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metne göre sağlıklı beslenmenin amacı nedir?",
+      "dogruCevap": "Doğru büyümek",
+      "secenekler": [
+        "Doğru büyümek",
+        "Para biriktirmek",
+        "Şişmanlamak",
+        "Hızlı koşmak"
+      ],
+      "ipucu": "Metnin ilk cümlesi: Sağlıklı büyümek için...",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "saglikli-cocuk",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true,
+      "okumaMetni": "Sağlıklı büyümek için doğru beslenmeliyiz. Her gün sebze ve meyve yemeliyiz. Süt ve süt ürünleri kemiklerimizi güçlendirir. Ekmek ve tahıllar enerji verir. Şeker ve hazır yiyecekler az tüketilmelidir. Su içmek de çok önemlidir."
+    },
+    {
+      "id": "bt-t15",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metin hangi soruya cevap veriyor?",
+      "dogruCevap": "Sağlıklı nasıl besleniriz?",
+      "secenekler": [
+        "Su neden önemlidir?",
+        "Hangi spor yapmalıyız?",
+        "Yemek nasıl pişirilir?",
+        "Sağlıklı nasıl besleniriz?"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "saglikli-beslenme",
+        "nesne": "default"
+      },
+      "okumaMetni": "Sağlıklı büyümek için doğru beslenmeliyiz. Her gün sebze ve meyve yemeliyiz. Süt ve süt ürünleri kemiklerimizi güçlendirir. Ekmek ve tahıllar enerji verir. Şeker ve hazır yiyecekler az tüketilmelidir. Su içmek de çok önemlidir."
+    },
+    {
+      "id": "bt-t16",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Deprem nasıl oluşur?",
+      "dogruCevap": "Yer kabuğunun hareketiyle",
+      "secenekler": [
+        "Yağmurun etkisiyle",
+        "Yer kabuğunun hareketiyle",
+        "Rüzgârın etkisiyle",
+        "Bulutların birleşmesiyle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "deprem",
+        "nesne": "default"
+      },
+      "okumaMetni": "Deprem, yer kabuğunun hareket etmesiyle oluşan doğal bir olaydır. Depremde zemin sallanır. Büyük depremler binalara zarar verebilir. Deprem sırasında paniklemeden \"Çök-Kapan-Tutun\" hareketini yapmalıyız. Güvenli bir yere geçmek önemlidir."
+    },
+    {
+      "id": "bt-t17",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Depremde zemin nasıl olur?",
+      "dogruCevap": "Sallanır",
+      "secenekler": [
+        "Donur",
+        "Islak olur",
+        "Isınır",
+        "Sallanır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sallanan-zemin",
+        "nesne": "default"
+      },
+      "okumaMetni": "Deprem, yer kabuğunun hareket etmesiyle oluşan doğal bir olaydır. Depremde zemin sallanır. Büyük depremler binalara zarar verebilir. Deprem sırasında paniklemeden \"Çök-Kapan-Tutun\" hareketini yapmalıyız. Güvenli bir yere geçmek önemlidir."
+    },
+    {
+      "id": "bt-t18",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Deprem sırasında hangi hareketi yapmalıyız?",
+      "dogruCevap": "Çök-Kapan-Tutun",
+      "secenekler": [
+        "Dur-Otur-Bekle",
+        "Çök-Kapan-Tutun",
+        "Zıpla-Yürü-Git",
+        "Koş-Bağır-Kaç"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "deprem-guvenlik",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Deprem, yer kabuğunun hareket etmesiyle oluşan doğal bir olaydır. Depremde zemin sallanır. Büyük depremler binalara zarar verebilir. Deprem sırasında paniklemeden \"Çök-Kapan-Tutun\" hareketini yapmalıyız. Güvenli bir yere geçmek önemlidir."
+    },
+    {
+      "id": "bt-t19",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Depremde neden paniklememelidir?",
+      "dogruCevap": "Panik hareketlerimizi bozar ve tehlike yaratır",
+      "secenekler": [
+        "Deprem zararsızdır",
+        "Deprem çabuk biter",
+        "Panik hareketlerimizi bozar ve tehlike yaratır",
+        "Herkes panikte"
+      ],
+      "ipucu": "Sakin kalıp güvenli hareket yapmalıyız.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sakin-deprem",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true,
+      "okumaMetni": "Deprem, yer kabuğunun hareket etmesiyle oluşan doğal bir olaydır. Depremde zemin sallanır. Büyük depremler binalara zarar verebilir. Deprem sırasında paniklemeden \"Çök-Kapan-Tutun\" hareketini yapmalıyız. Güvenli bir yere geçmek önemlidir."
+    },
+    {
+      "id": "bt-t20",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin amacı nedir?",
+      "dogruCevap": "Depremi tanıtmak ve güvenlik bilgisi vermek",
+      "secenekler": [
+        "Depremi güzel göstermek",
+        "Deprem masalı yazmak",
+        "Deprem hikâyesi anlatmak",
+        "Depremi tanıtmak ve güvenlik bilgisi vermek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bilgi-metni-etiketi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Deprem, yer kabuğunun hareket etmesiyle oluşan doğal bir olaydır. Depremde zemin sallanır. Büyük depremler binalara zarar verebilir. Deprem sırasında paniklemeden \"Çök-Kapan-Tutun\" hareketini yapmalıyız. Güvenli bir yere geçmek önemlidir."
+    },
+    {
+      "id": "bt-t21",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kuşların uzun yolculuk yapmasına ne denir?",
+      "dogruCevap": "Göç",
+      "secenekler": [
+        "Seyahat",
+        "Uçuş",
+        "Göç",
+        "Yolculuk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "goc-eden-kuslar",
+        "nesne": "kus"
+      },
+      "okumaMetni": "Bazı kuşlar her yıl uzun yolculuklar yapar. Buna \"göç\" denir. Yazın serin ülkelerde yaşayan kuşlar kışın sıcak ülkelere göç eder. Leylekler, kırlangıçlar ve turna kuşları göç eder. Binlerce kilometre uçarlar. Yorulmadan yollarını bulmak için Güneş ve yıldızlardan yararlanırlar."
+    },
+    {
+      "id": "bt-t22",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kuşlar kışın nereye göç eder?",
+      "dogruCevap": "Sıcak ülkelere",
+      "secenekler": [
+        "Sıcak ülkelere",
+        "Serin ülkelere",
+        "Bulundukları yerde kalır",
+        "Soğuk ülkelere"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "goc-haritasi",
+        "nesne": "kus"
+      },
+      "okumaMetni": "Bazı kuşlar her yıl uzun yolculuklar yapar. Buna \"göç\" denir. Yazın serin ülkelerde yaşayan kuşlar kışın sıcak ülkelere göç eder. Leylekler, kırlangıçlar ve turna kuşları göç eder. Binlerce kilometre uçarlar. Yorulmadan yollarını bulmak için Güneş ve yıldızlardan yararlanırlar."
+    },
+    {
+      "id": "bt-t23",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi kuşlar göç eder?",
+      "dogruCevap": "Leylek, kırlangıç, turna",
+      "secenekler": [
+        "Devekuşu, penguen",
+        "Tavuk, hindi",
+        "Papağan, muhabbet kuşu",
+        "Leylek, kırlangıç, turna"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "leylek-kirlangic",
+        "nesne": "kus"
+      },
+      "okumaMetni": "Bazı kuşlar her yıl uzun yolculuklar yapar. Buna \"göç\" denir. Yazın serin ülkelerde yaşayan kuşlar kışın sıcak ülkelere göç eder. Leylekler, kırlangıçlar ve turna kuşları göç eder. Binlerce kilometre uçarlar. Yorulmadan yollarını bulmak için Güneş ve yıldızlardan yararlanırlar."
+    },
+    {
+      "id": "bt-t24",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kuşlar yollarını nasıl bulur?",
+      "dogruCevap": "Güneş ve yıldızlardan yararlanarak",
+      "secenekler": [
+        "Güneş ve yıldızlardan yararlanarak",
+        "Koku alarak",
+        "Diğer kuşları takip ederek",
+        "Haritaya bakarak"
+      ],
+      "ipucu": "Metinde açıkça yazılı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kus-gunes-yildiz",
+        "nesne": "gunes"
+      },
+      "sasirtma": true,
+      "okumaMetni": "Bazı kuşlar her yıl uzun yolculuklar yapar. Buna \"göç\" denir. Yazın serin ülkelerde yaşayan kuşlar kışın sıcak ülkelere göç eder. Leylekler, kırlangıçlar ve turna kuşları göç eder. Binlerce kilometre uçarlar. Yorulmadan yollarını bulmak için Güneş ve yıldızlardan yararlanırlar."
+    },
+    {
+      "id": "bt-t25",
+      "kazanimKodu": "TUR.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin ana fikri nedir?",
+      "dogruCevap": "Bazı kuşlar hayatta kalmak için mevsimlik göç eder",
+      "secenekler": [
+        "Kışın soğuk olur",
+        "Göç uzun bir yolculuktur",
+        "Kuşlar çok güçlüdür",
+        "Bazı kuşlar hayatta kalmak için mevsimlik göç eder"
+      ],
+      "ipucu": "Yazın serin, kışın sıcak ülkelere giderler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "goc-suru",
+        "nesne": "kus"
+      },
+      "sasirtma": true,
+      "okumaMetni": "Bazı kuşlar her yıl uzun yolculuklar yapar. Buna \"göç\" denir. Yazın serin ülkelerde yaşayan kuşlar kışın sıcak ülkelere göç eder. Leylekler, kırlangıçlar ve turna kuşları göç eder. Binlerce kilometre uçarlar. Yorulmadan yollarını bulmak için Güneş ve yıldızlardan yararlanırlar."
+    }
+  ]
+}

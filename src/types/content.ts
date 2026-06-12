@@ -153,7 +153,7 @@ export interface GorselKesir {
 /** Türkçe — TurkceGorsel'de tanımlı */
 export interface GorselTurkce {
   tur: 'turkce';
-  mod?: 'hece' | 'harf' | 'nesne' | 'sahne' | 'kart' | 'cumle' | 'anlatim' | 'karsilastir' | 'noktalama';
+  mod?: 'hece' | 'harf' | 'nesne' | 'sahne' | 'kart' | 'cumle' | 'anlatim' | 'karsilastir' | 'noktalama' | 'siir';
   sahne?: string;
   kelime?: string;
   heceler?: string[];
