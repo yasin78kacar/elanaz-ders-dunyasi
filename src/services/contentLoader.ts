@@ -7,6 +7,14 @@ import geometrikCisimModelleri from '../../content/sinif2/matematik/geometrik-ci
 import geometrikSekilModelleri from '../../content/sinif2/matematik/geometrik-sekil-modelleri.json';
 import bicimselOzellikler from '../../content/sinif2/matematik/bicimsel-ozellikler.json';
 import siviOlcme from '../../content/sinif2/matematik/sivi-olcme.json';
+import sayiDogrusu from '../../content/sinif2/matematik/sayi-dogrusu.json';
+import oruntu from '../../content/sinif2/matematik/oruntu.json';
+import tahminEtme from '../../content/sinif2/matematik/tahmin-etme.json';
+import toplama from '../../content/sinif2/matematik/toplama.json';
+import cikarma from '../../content/sinif2/matematik/cikarma.json';
+import zihindenToplama from '../../content/sinif2/matematik/zihinden-toplama.json';
+import zihindenCikarma from '../../content/sinif2/matematik/zihinden-cikarma.json';
+import problemler from '../../content/sinif2/matematik/problemler.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -20,6 +28,14 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/geometrik-sekil-modelleri.json': geometrikSekilModelleri as Konu,
   'matematik/bicimsel-ozellikler.json': bicimselOzellikler as Konu,
   'matematik/sivi-olcme.json': siviOlcme as Konu,
+  'matematik/sayi-dogrusu.json': sayiDogrusu as Konu,
+  'matematik/oruntu.json': oruntu as Konu,
+  'matematik/tahmin-etme.json': tahminEtme as Konu,
+  'matematik/toplama.json': toplama as Konu,
+  'matematik/cikarma.json': cikarma as Konu,
+  'matematik/zihinden-toplama.json': zihindenToplama as Konu,
+  'matematik/zihinden-cikarma.json': zihindenCikarma as Konu,
+  'matematik/problemler.json': problemler as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

@@ -52,6 +52,35 @@ export interface GorselTahminEtme {
   gercek?: number;
 }
 
+export type IslemMod =
+  | 'toplama-grup'
+  | 'cikarma-grup'
+  | 'bilinmeyen'
+  | 'karsilastirma'
+  | 'adimlar'
+  | 'onluk-toplama'
+  | 'zihin'
+  | 'zihin-cik'
+  | 'problem'
+  | 'anlatim'
+  | 'esitlik';
+
+/** Toplama/çıkarma/problemler — IslemGorsel'de tanımlı */
+export interface GorselIslem {
+  tur: 'islem';
+  mod: IslemMod;
+  a?: number;
+  b?: number;
+  sonuc?: number;
+  nesne?: string;
+  renk1?: string;
+  renk2?: string;
+  bilinmeyen?: 'a' | 'b' | 'sonuc';
+  islemler?: string[];
+  adimlar?: { etiket?: string; deger: number }[];
+  sahne?: string;
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -59,6 +88,7 @@ export type Gorsel =
   | GorselKap
   | GorselOruntu
   | GorselTahminEtme
+  | GorselIslem
   | null;
 
 export interface AnlatimEkrani {

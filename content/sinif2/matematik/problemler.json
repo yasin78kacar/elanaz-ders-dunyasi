@@ -1,0 +1,869 @@
+{
+  "id": "toplama-cikarma-problemleri",
+  "baslik": "Toplama ve Çıkarma Problemleri",
+  "kazanimKodu": "MAT.2.3.5",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Problem çözmek için önce ne sorulduğunu anlarız! \"Toplam kaç?\" → toplama. \"Kaç kaldı?\" → çıkarma.",
+        "gorsel": {
+          "tur": "islem",
+          "mod": "anlatim",
+          "sahne": "tcp-anlatim-1"
+        }
+      },
+      {
+        "metin": "Problem çözme adımları: 1) Oku 2) Ne soruyor? 3) İşlem seç 4) Hesapla 5) Kontrol et!",
+        "gorsel": {
+          "tur": "islem",
+          "mod": "anlatim",
+          "sahne": "tcp-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bazen iki işlem yaparız! Önce topla, sonra çıkar — ya da önce çıkar, sonra topla.",
+        "gorsel": {
+          "tur": "islem",
+          "mod": "anlatim",
+          "sahne": "tcp-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "tcp-a1",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Sepette 5 elma, 3 armut var. Toplam kaç meyve?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sepet-meyve"
+      }
+    },
+    {
+      "id": "tcp-a2",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Masada 9 kalem vardı, 4 tanesi düştü. Masada kaç kalem kaldı?",
+      "dogruCevap": "5",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "masa-kalem"
+      }
+    },
+    {
+      "id": "tcp-a3",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bahçede 7 kırmızı, 6 sarı çiçek var. Toplam kaç çiçek?",
+      "dogruCevap": "13",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "bahce-cicek"
+      }
+    },
+    {
+      "id": "tcp-a4",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Kutuda 12 top vardı, 5 tanesi alındı. Kaç top kaldı?",
+      "dogruCevap": "7",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kutu-top"
+      }
+    },
+    {
+      "id": "tcp-a5",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Sınıfta 8 kız, 9 erkek var. Toplam kaç öğrenci?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-ogrenci"
+      }
+    },
+    {
+      "id": "tcp-a6",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Rafta 14 kitap vardı, 6 tanesi ödünç verildi. Kaç kitap kaldı?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "raf-kitap"
+      }
+    },
+    {
+      "id": "tcp-a7",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Elanaz 7 resim çizdi, Elif 8 resim çizdi. İkisi toplam kaç resim çizdi?",
+      "dogruCevap": "15",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "elanaz-elif-resim"
+      }
+    },
+    {
+      "id": "tcp-a8",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Balonda 16 şeker vardı, 7 tanesi yendi. Kaç şeker kaldı?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "balon-seker"
+      }
+    },
+    {
+      "id": "tcp-a9",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Markette 9 elma, 9 portakal var. Toplam kaç meyve?",
+      "dogruCevap": "18",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "market-tezgah"
+      }
+    },
+    {
+      "id": "tcp-a10",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Kutuda 20 kalem vardı, 8 tanesi dağıtıldı. Kaç kalem kaldı?",
+      "dogruCevap": "12",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kalem-kutusu"
+      }
+    },
+    {
+      "id": "tcp-a11",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Alya 4 oyuncak, Elanaz 13 oyuncak aldı. Toplam kaç oyuncak?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "oyuncak-magazasi"
+      }
+    },
+    {
+      "id": "tcp-a12",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bahçede 18 kuş vardı, 9 tanesi uçtu. Kaç kuş kaldı?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "agac-kus"
+      }
+    },
+    {
+      "id": "tcp-a13",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bir kutuda 6 mavi, 7 kırmızı, 4 sarı top var. Toplam kaç top?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kutu-renkli-top"
+      }
+    },
+    {
+      "id": "tcp-a14",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Annem 15 TL verdi, 7 TL harcadım. Kaç TL kaldı?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "cocuk-market"
+      }
+    },
+    {
+      "id": "tcp-a15",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Sınıfta 11 çocuk vardı, 3 tanesi çıktı, 5 tanesi girdi. Şimdi kaç çocuk var?",
+      "dogruCevap": "13",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-kapi"
+      }
+    },
+    {
+      "id": "tcp-a16",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Elanaz sabah 6, öğlen 5 bardak su içti. Toplam kaç bardak?",
+      "dogruCevap": "11",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "bardaklar"
+      }
+    },
+    {
+      "id": "tcp-a17",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Rafta 20 kitap vardı, 8 tanesi alındı, 3 tanesi geri kondu. Kaç kitap var?",
+      "dogruCevap": "15",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "raf-sahne"
+      }
+    },
+    {
+      "id": "tcp-a18",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bahçede 14 gül, 5 papatya var. Güller papatyadan kaç fazla?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "gul-papatya"
+      }
+    },
+    {
+      "id": "tcp-a19",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bir torba 9 elma, diğer torba 8 elma var. İkisi birlikte kaç elma?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "iki-torba-elma"
+      }
+    },
+    {
+      "id": "tcp-a20",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Kutuda 16 top vardı, önce 4, sonra 5 tane alındı. Kaç top kaldı?",
+      "dogruCevap": "7",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kutu-iki-kez-aliniyor"
+      }
+    },
+    {
+      "id": "tcp-a21",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Elanaz 13, Elif 7 puan aldı. İkisinin puanları toplamı kaç?",
+      "dogruCevap": "20",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "puan-tablosu"
+      }
+    },
+    {
+      "id": "tcp-a22",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Markette 20 yumurta vardı, 12 tanesi satıldı. Kaç yumurta kaldı?",
+      "dogruCevap": "8",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "yumurta-kasasi"
+      }
+    },
+    {
+      "id": "tcp-a23",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Sınıfta 9 erkek, 8 kız var. Erkekler kızlardan kaç fazla?",
+      "dogruCevap": "1",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-ogrenci"
+      }
+    },
+    {
+      "id": "tcp-a24",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Alya 5 çikolata yedi, Elanaz 9 çikolata yedi. İkisi toplam kaç çikolata yedi?",
+      "dogruCevap": "14",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "cikolata-kutusu"
+      }
+    },
+    {
+      "id": "tcp-a25",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "yazili",
+      "soru": "Bir çantada 7 kitap, 6 defter, 4 kalem var. Toplam kaç eşya?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "acik-canta"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "tcp-t1",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sepette 8 elma, 5 armut var. Toplam kaç meyve?",
+      "dogruCevap": "13",
+      "secenekler": [
+        "11",
+        "14",
+        "12",
+        "13"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sepet-meyve"
+      }
+    },
+    {
+      "id": "tcp-t2",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta 15 kalem vardı, 6 tanesi dağıtıldı. Kaç kalem kaldı?",
+      "dogruCevap": "9",
+      "secenekler": [
+        "7",
+        "10",
+        "8",
+        "9"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kalem-dagitim"
+      }
+    },
+    {
+      "id": "tcp-t3",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Bu problemde hangi işlemi yapmalıyız? \"Bahçede 12 çiçek vardı, 5 tanesi soldu.\"",
+      "dogruCevap": "Çıkarma",
+      "secenekler": [
+        "Hiçbiri",
+        "Toplama",
+        "İkisi de",
+        "Çıkarma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "bahce-solmus-cicek"
+      }
+    },
+    {
+      "id": "tcp-t4",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 9 resim, Elif 8 resim çizdi. İkisi toplam kaç resim çizdi?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "16",
+        "15",
+        "17",
+        "18"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "elanaz-elif-resim"
+      }
+    },
+    {
+      "id": "tcp-t5",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Kutuda 17 top vardı, 8 tanesi alındı. Kaç top kaldı?",
+      "dogruCevap": "9",
+      "secenekler": [
+        "8",
+        "9",
+        "7",
+        "10"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kutu-top"
+      }
+    },
+    {
+      "id": "tcp-t6",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Markette 6 elma, 7 portakal, 4 muz var. Toplam kaç meyve?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "15",
+        "17",
+        "16",
+        "18"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "market-tezgah-uc-meyve"
+      }
+    },
+    {
+      "id": "tcp-t7",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Annem 20 TL verdi, 9 TL harcadım. Kaç TL kaldı?",
+      "dogruCevap": "11",
+      "secenekler": [
+        "10",
+        "9",
+        "11",
+        "12"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "cocuk-kasa"
+      }
+    },
+    {
+      "id": "tcp-t8",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sınıfta 14 çocuk vardı, 5 tanesi çıktı, 3 tanesi girdi. Şimdi kaç çocuk var?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "12",
+        "10",
+        "11",
+        "13"
+      ],
+      "ipucu": "Önce çıkanları çıkar, sonra girenleri ekle!",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-kapi"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t9",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Rafta 18 kitap vardı, 9 tanesi ödünç verildi. Kaç kitap kaldı?",
+      "dogruCevap": "9",
+      "secenekler": [
+        "7",
+        "9",
+        "10",
+        "8"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "raf-kitap"
+      }
+    },
+    {
+      "id": "tcp-t10",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Güller papatyadan 6 fazla. Papatya 7 tane ise gül kaç tanedir?",
+      "dogruCevap": "13",
+      "secenekler": [
+        "11",
+        "14",
+        "12",
+        "13"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "gul-papatya-karsilastirma"
+      }
+    },
+    {
+      "id": "tcp-t11",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sabah 5, öğlen 6, akşam 4 bardak su içti. Toplam kaç bardak?",
+      "dogruCevap": "15",
+      "secenekler": [
+        "15",
+        "16",
+        "14",
+        "13"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sabah-oglen-aksam-bardak"
+      }
+    },
+    {
+      "id": "tcp-t12",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Bir torbada 20 top var. 8 tanesi kırmızı, kalanı mavi. Kaç mavi top var?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "10",
+        "12",
+        "11",
+        "13"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "torba-kirmizi-mavi-top"
+      }
+    },
+    {
+      "id": "tcp-t13",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz'ın 14 TL'si var. 9 TL'lik kitap aldı. Kaç TL kaldı?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "ipucu": "14 - 9 = ?",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "elanaz-kitapci"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t14",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Bahçede 7 kedi, 9 köpek var. Köpekler kedilerden kaç fazla?",
+      "dogruCevap": "2",
+      "secenekler": [
+        "4",
+        "2",
+        "1",
+        "3"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kedi-kopek"
+      }
+    },
+    {
+      "id": "tcp-t15",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Önce hangi işlemi yapmalıyız? \"Kutuda 10 top vardı, 3 eklendi, 5 alındı.\"",
+      "dogruCevap": "10 + 3 - 5",
+      "secenekler": [
+        "3 + 5 - 10",
+        "10 - 5 + 3",
+        "10 + 3 - 5",
+        "10 - 3 + 5"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kutu-ekleme-cikarma"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t16",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta 9 kız, 8 erkek var. Kızlar erkeklerden kaç fazla?",
+      "dogruCevap": "1",
+      "secenekler": [
+        "0",
+        "2",
+        "1",
+        "3"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-kiz-erkek"
+      }
+    },
+    {
+      "id": "tcp-t17",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Alya 6, Elanaz 7, Elif 5 çikolata aldı. Üçü toplam kaç çikolata aldı?",
+      "dogruCevap": "18",
+      "secenekler": [
+        "16",
+        "17",
+        "19",
+        "18"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "uc-kiz-cikolata"
+      }
+    },
+    {
+      "id": "tcp-t18",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Bir problemde \"kaç fazla\" yazıyorsa hangi işlemi yaparız?",
+      "dogruCevap": "Çıkarma",
+      "secenekler": [
+        "İkisi de",
+        "Toplama",
+        "Hiçbiri",
+        "Çıkarma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kac-fazla-kart"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t19",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Rafta 20 oyuncak vardı. 8 tanesi satıldı, 5 tanesi yeni geldi. Kaç oyuncak var?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "16",
+        "18",
+        "17",
+        "15"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "oyuncak-raf"
+      }
+    },
+    {
+      "id": "tcp-t20",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'ın 15 kalemi var, Elif'in 9 kalemi var. Elanaz'ın kaç fazla kalemi var?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "elanaz-elif-kalem-karsilastirma"
+      }
+    },
+    {
+      "id": "tcp-t21",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Bahçede 8 sarı, 7 kırmızı, 5 beyaz gül var. Toplam kaç gül?",
+      "dogruCevap": "20",
+      "secenekler": [
+        "19",
+        "18",
+        "21",
+        "20"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "uc-renk-gul-bahcesi"
+      }
+    },
+    {
+      "id": "tcp-t22",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Markette 18 TL'lik alışveriş yaptım. 20 TL verdim. Kaç TL para üstü alırım?",
+      "dogruCevap": "2",
+      "secenekler": [
+        "1",
+        "4",
+        "3",
+        "2"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "kasa-sahnesi"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t23",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta 19 öğrenci vardı, 7 tanesi çıktı. Sonra 4 tanesi daha girdi. Şimdi kaç öğrenci var?",
+      "dogruCevap": "16",
+      "secenekler": [
+        "16",
+        "15",
+        "14",
+        "17"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-giris-cikis"
+      }
+    },
+    {
+      "id": "tcp-t24",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz 20 TL ile markete gitti. 8 TL dondurma, 5 TL su aldı. Kaç TL kaldı?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "ipucu": "Önce harcamaları topla: 8+5=13, sonra 20-13=?",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "elanaz-market-dondurma-su"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "tcp-t25",
+      "kazanimKodu": "MAT.2.3.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sınıfta 9 kız, 8 erkek var. Bugün 2 kız ve 3 erkek hasta. Sınıfta kaç öğrenci var?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "ipucu": "Toplam: 9+8=17, hastalar: 2+3=5, 17-5=?",
+      "gorsel": {
+        "tur": "islem",
+        "mod": "problem",
+        "sahne": "sinif-hasta-ogrenci"
+      },
+      "sasirtma": true
+    }
+  ]
+}

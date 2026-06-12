@@ -11,6 +11,7 @@ import { G4mGorsel } from './nesneler/G4mGorsel';
 import { G5mGorsel } from './kaplar/G5mGorsel';
 import { OruntuGorsel } from './oruntu/OruntuGorsel';
 import { TahminEtmeGorsel } from './tahmin/TahminEtmeGorsel';
+import { IslemGorsel } from './islem/IslemGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
@@ -79,6 +80,14 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       return (
         <View style={kutu}>
           <TahminEtmeGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'islem') {
+      return (
+        <View style={kutu}>
+          <IslemGorsel {...gorsel} />
         </View>
       );
     }

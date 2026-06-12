@@ -77,9 +77,33 @@ export function TopicListScreen({ route, navigation }: Props) {
           color: colors.metin,
           textAlign: 'center',
         },
+        uniteBaslik: {
+          width: '100%',
+          fontSize: layout.font.lg,
+          fontWeight: '800',
+          color: colors.baslik,
+          marginTop: layout.spacing(16),
+          marginBottom: layout.spacing(4),
+        },
+        uniteBaslikIlk: {
+          marginTop: 0,
+        },
       }),
     [layout, pad, gap, itemWidth],
   );
+
+  const uniteGruplari = useMemo(() => {
+    const gruplar: { uniteBaslik: string; konular: KonuHaritaOgesi[] }[] = [];
+    for (const konu of harita) {
+      const son = gruplar[gruplar.length - 1];
+      if (son && son.uniteBaslik === konu.uniteBaslik) {
+        son.konular.push(konu);
+      } else {
+        gruplar.push({ uniteBaslik: konu.uniteBaslik, konular: [konu] });
+      }
+    }
+    return gruplar;
+  }, [harita]);
 
   useKonuMuzikHeader(navigation, { title: `${dersBaslik} — Yol Haritası` });
 
@@ -110,31 +134,38 @@ export function TopicListScreen({ route, navigation }: Props) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ElanazHeader />
-      <View style={styles.grid}>
-        {harita.map((konu, index) => (
-          <Pressable
-            key={konu.id}
-            onPress={() => konuyaGit(konu)}
-            style={({ pressed }) => [
-              styles.kart,
-              konu.durum === 'tamamlandi' && styles.kartTamamlandi,
-              konu.durum === 'aktif' && styles.kartAktif,
-              pressed && styles.kartPressed,
-            ]}
-          >
-            <View style={styles.kartUst}>
-              <Text style={styles.sira}>{index + 1}</Text>
-            </View>
-            <Text style={styles.konuBaslik}>{konu.baslik}</Text>
-            {konu.durum === 'tamamlandi' && (
-              <Text style={styles.yildiz}>{'⭐'.repeat(konu.yildiz)}</Text>
-            )}
-            {konu.durum === 'aktif' && (
-              <Text style={styles.aktifEtiket}>Başla →</Text>
-            )}
-          </Pressable>
-        ))}
-      </View>
+      {uniteGruplari.map((grup, grupIndex) => (
+        <View key={grup.uniteBaslik}>
+          <Text style={[styles.uniteBaslik, grupIndex === 0 && styles.uniteBaslikIlk]}>
+            {grup.uniteBaslik}
+          </Text>
+          <View style={styles.grid}>
+            {grup.konular.map((konu) => (
+              <Pressable
+                key={konu.id}
+                onPress={() => konuyaGit(konu)}
+                style={({ pressed }) => [
+                  styles.kart,
+                  konu.durum === 'tamamlandi' && styles.kartTamamlandi,
+                  konu.durum === 'aktif' && styles.kartAktif,
+                  pressed && styles.kartPressed,
+                ]}
+              >
+                <View style={styles.kartUst}>
+                  <Text style={styles.sira}>{konu.sira + 1}</Text>
+                </View>
+                <Text style={styles.konuBaslik}>{konu.baslik}</Text>
+                {konu.durum === 'tamamlandi' && (
+                  <Text style={styles.yildiz}>{'⭐'.repeat(konu.yildiz)}</Text>
+                )}
+                {konu.durum === 'aktif' && (
+                  <Text style={styles.aktifEtiket}>Başla →</Text>
+                )}
+              </Pressable>
+            ))}
+          </View>
+        </View>
+      ))}
     </ScrollView>
   );
 }

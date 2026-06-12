@@ -10,6 +10,7 @@
  * - { tur: "kap", sahne } → G5mGorsel (GOREV-3I sıvı ölçme kap illüstrasyonları)
  * - { tur: "oruntu", elemanlar, adimEtiketi? } → OruntuGorsel (GOREV-4A)
  * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
+ * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -35,6 +36,13 @@ import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
 import { bicimselOzellikler } from './gorev-3h-questions.mjs';
 import { siviOlcme } from './gorev-3i-questions.mjs';
 import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
+import {
+  cikarma,
+  problemler,
+  toplama,
+  zihindenCikarma,
+  zihindenToplama,
+} from './gorev-tema3-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -339,6 +347,17 @@ writeFileSync(
 const siviOlcmeKonu = siviOlcme(karistir);
 writeFileSync(join(contentDir, 'sivi-olcme.json'), JSON.stringify(siviOlcmeKonu, null, 2));
 
+const toplamaKonu = toplama(karistir);
+const cikarmaKonu = cikarma(karistir);
+const zihindenToplamaKonu = zihindenToplama(karistir);
+const zihindenCikarmaKonu = zihindenCikarma(karistir);
+const problemlerKonu = problemler(karistir);
+writeFileSync(join(contentDir, 'toplama.json'), JSON.stringify(toplamaKonu, null, 2));
+writeFileSync(join(contentDir, 'cikarma.json'), JSON.stringify(cikarmaKonu, null, 2));
+writeFileSync(join(contentDir, 'zihinden-toplama.json'), JSON.stringify(zihindenToplamaKonu, null, 2));
+writeFileSync(join(contentDir, 'zihinden-cikarma.json'), JSON.stringify(zihindenCikarmaKonu, null, 2));
+writeFileSync(join(contentDir, 'problemler.json'), JSON.stringify(problemlerKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -431,6 +450,17 @@ const index = {
             'matematik/onluk-birlik.json',
           ],
         },
+        {
+          id: 'tema-3',
+          baslik: 'Tema 3 — Toplama ve Çıkarma',
+          konuDosyalari: [
+            'matematik/toplama.json',
+            'matematik/cikarma.json',
+            'matematik/zihinden-toplama.json',
+            'matematik/zihinden-cikarma.json',
+            'matematik/problemler.json',
+          ],
+        },
       ],
     },
     { id: 'hayat-bilgisi', baslik: 'Hayat Bilgisi', unite: [] },
@@ -475,6 +505,11 @@ console.log('Sıvı ölçme:', siviOlcmeKonu.alistirma.length, '+', siviOlcmeKon
 console.log('Sayı doğrusu:', sayiDogrusuKonu.alistirma.length, '+', sayiDogrusuKonu.test.length);
 console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.length);
 console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
+console.log('Toplama:', toplamaKonu.alistirma.length, '+', toplamaKonu.test.length);
+console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.length);
+console.log('Zihinden toplama:', zihindenToplamaKonu.alistirma.length, '+', zihindenToplamaKonu.test.length);
+console.log('Zihinden çıkarma:', zihindenCikarmaKonu.alistirma.length, '+', zihindenCikarmaKonu.test.length);
+console.log('Problemler:', problemlerKonu.alistirma.length, '+', problemlerKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {
