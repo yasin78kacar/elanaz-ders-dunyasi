@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import Svg, { Circle, Ellipse, Line, Path, Polygon, Rect } from 'react-native-svg';
+import { GuvenliMetin } from '../GuvenliMetin';
 import { GEO } from '../nesneler/colors';
 
 export type KapTipi = 'bardak' | 'surahi' | 'sise' | 'kova' | 'bidon';
@@ -243,14 +244,15 @@ export function TahminGorsel({
   return (
     <View style={styles.tahminKutu}>
       <View style={styles.tahminBlok}>
-        <Text style={styles.etiket}>Tahmin: {tahmin}</Text>
+        <GuvenliMetin style={styles.etiket} tamGenislik={false} textAlign="left">
+          {`Tahmin: ${tahmin}`}
+        </GuvenliMetin>
         <SayilabilirKaplar tip={tip} adet={tahmin} />
       </View>
       <View style={styles.tahminBlok}>
-        <Text style={styles.etiket}>
-          Gerçek: {gercek}
-          {fazlaIsareti ? ' ✗ fazla' : ''}
-        </Text>
+        <GuvenliMetin style={styles.etiket} tamGenislik={false} textAlign="left">
+          {`Gerçek: ${gercek}${fazlaIsareti ? ' ✗ fazla' : ''}`}
+        </GuvenliMetin>
         <SayilabilirKaplar tip={tip} adet={gercek} />
       </View>
     </View>
@@ -260,7 +262,7 @@ export function TahminGorsel({
 export function SoruBalonu() {
   return (
     <View style={styles.balon}>
-      <Text style={styles.balonMetin}>??</Text>
+      <GuvenliMetin style={styles.balonMetin}>??</GuvenliMetin>
     </View>
   );
 }
@@ -299,7 +301,7 @@ export function BesKapSira() {
       {sira.map((k, i) => (
         <View key={i} style={styles.etiketliKap}>
           <Kap kap={k} />
-          <Text style={styles.kapAdi}>{adlar[i]}</Text>
+          <GuvenliMetin style={styles.kapAdi}>{adlar[i]}</GuvenliMetin>
         </View>
       ))}
     </View>
@@ -317,7 +319,7 @@ export function TasmaGorsel() {
           <Path d="M 24 4 Q 30 16 36 20" fill="none" stroke={GEO.mavi} strokeWidth={3} />
           <Circle cx={36} cy={20} r={3} fill={GEO.mavi} />
         </Svg>
-        <Text style={styles.tasmaEtiket}>taşar!</Text>
+        <GuvenliMetin style={styles.tasmaEtiket}>taşar!</GuvenliMetin>
       </View>
     </View>
   );
@@ -379,8 +381,8 @@ const styles = StyleSheet.create({
   },
   balonMetin: { fontSize: 18, fontWeight: '800', color: GEO.metin },
   besKap: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 6 },
-  etiketliKap: { alignItems: 'center', width: 64 },
-  kapAdi: { fontSize: 9, fontWeight: '600', color: GEO.metin, marginTop: 2, textAlign: 'center' },
+  etiketliKap: { alignItems: 'center', minWidth: 56, overflow: 'visible' },
+  kapAdi: { fontSize: 10, fontWeight: '600', color: GEO.metin, marginTop: 2 },
   tasmaEtiket: { fontSize: 11, fontWeight: '700', color: GEO.mavi, textAlign: 'center' },
   surahiGrup: { alignItems: 'center', gap: 4 },
 });

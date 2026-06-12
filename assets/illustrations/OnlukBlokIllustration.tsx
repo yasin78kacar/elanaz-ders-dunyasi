@@ -1,5 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Svg, { Rect } from 'react-native-svg';
+import { GuvenliMetin } from '../../src/components/GuvenliMetin';
 
 interface Props {
   onluk: number;
@@ -39,9 +40,9 @@ export function OnlukBlokIllustration({ onluk, birlik, width = 280, height = 120
           />
         ))}
       </Svg>
-      <Text style={styles.etiket}>
-        {onluk} onluk + {birlik} birlik
-      </Text>
+      <GuvenliMetin style={styles.etiket} tamGenislik={false}>
+        {`${onluk} onluk + ${birlik} birlik`}
+      </GuvenliMetin>
     </View>
   );
 }

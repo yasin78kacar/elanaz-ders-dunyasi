@@ -1,5 +1,6 @@
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
 import Svg, { Circle, Rect } from 'react-native-svg';
+import { GuvenliMetin } from '../../src/components/GuvenliMetin';
 import { SvgCanvas } from '../../src/components/SvgCanvas';
 
 export function CizimKalemleri({ width = 280, height = 90 }: { width?: number; height?: number }) {
@@ -11,7 +12,9 @@ export function CizimKalemleri({ width = 280, height = 90 }: { width?: number; h
           <Rect key={i} x={20 + i * 48} y={20} width={12} height={50} fill={renk} rx={2} />
         ))}
       </Svg>
-      <Text style={[styles.altMetin, { left: width / 2 - 56, top: height - 18 }]}>Turuncu eksik!</Text>
+      <GuvenliMetin style={[styles.altMetin, { left: width / 2 - 56, top: height - 18 }]} tamGenislik={false}>
+        Turuncu eksik!
+      </GuvenliMetin>
     </SvgCanvas>
   );
 }
@@ -43,7 +46,9 @@ export function PanoyaAsilanResim({ width = 280, height = 90 }: { width?: number
         <Circle cx={120} cy={45} r={12} fill="#E67E22" />
         <Rect x={150} y={35} width={8} height={25} fill="#8B4513" />
       </Svg>
-      <Text style={[styles.altMetin, { left: width / 2 - 48, top: height - 14 }]}>Sınıf panosu</Text>
+      <GuvenliMetin style={[styles.altMetin, { left: width / 2 - 48, top: height - 14 }]} tamGenislik={false}>
+        Sınıf panosu
+      </GuvenliMetin>
     </SvgCanvas>
   );
 }
@@ -53,7 +58,6 @@ const styles = StyleSheet.create({
     position: 'absolute',
     fontSize: 12,
     color: '#3D4F6F',
-    width: 120,
     textAlign: 'center',
   },
 });

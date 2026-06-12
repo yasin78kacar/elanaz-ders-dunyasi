@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import { StyleSheet, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
+import { GuvenliMetin } from '../GuvenliMetin';
 import { GEO } from './colors';
 
 interface Props {
@@ -9,12 +10,15 @@ interface Props {
   labelStyle?: StyleProp<TextStyle>;
 }
 
-/** SVG dışında RN Text etiketi — SvgText viewBox kırpmasını önler. */
+/**
+ * SVG illüstrasyon + RN etiket.
+ * width yalnızca görsele uygulanır — etiket genişliği kısıtlanmaz (kutu→kut kırpması önlenir).
+ */
 export function IllustrationColumn({ label, width, children, style, labelStyle }: Props) {
   return (
-    <View style={[styles.col, width != null && { width }, style]}>
-      <View style={styles.gorsel}>{children}</View>
-      <Text style={[styles.label, labelStyle]}>{label}</Text>
+    <View style={[styles.col, style]}>
+      <View style={[styles.gorsel, width != null && { width }]}>{children}</View>
+      <GuvenliMetin style={[styles.label, labelStyle]}>{label}</GuvenliMetin>
     </View>
   );
 }
@@ -22,18 +26,18 @@ export function IllustrationColumn({ label, width, children, style, labelStyle }
 const styles = StyleSheet.create({
   col: {
     alignItems: 'center',
+    overflow: 'visible',
+    marginHorizontal: 2,
   },
   gorsel: {
     alignItems: 'center',
     justifyContent: 'center',
+    overflow: 'visible',
   },
   label: {
     marginTop: 4,
     fontSize: 11,
     fontWeight: '600',
     color: GEO.metin,
-    textAlign: 'center',
-    flexShrink: 0,
-    paddingHorizontal: 2,
   },
 });

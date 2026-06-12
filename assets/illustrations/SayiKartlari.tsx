@@ -1,5 +1,6 @@
-import { StyleSheet, Text } from 'react-native';
+import { StyleSheet } from 'react-native';
 import Svg, { Circle, Rect } from 'react-native-svg';
+import { GuvenliMetin } from '../../src/components/GuvenliMetin';
 import { SvgCanvas } from '../../src/components/SvgCanvas';
 
 interface Props {
@@ -27,9 +28,9 @@ export function SayiKartlari({ sayilar = [2, 4, 6, 8, 10], width = 280, height =
         ))}
       </Svg>
       {sayilar.map((n, i) => (
-        <Text key={`t-${n}`} style={[styles.kartSayi, { left: 10 + i * 52, top: 22, width: 44 }]}>
-          {n}
-        </Text>
+        <GuvenliMetin key={`t-${n}`} style={[styles.kartSayi, { left: 10 + i * 52, top: 22, width: 44 }]}>
+          {String(n)}
+        </GuvenliMetin>
       ))}
     </SvgCanvas>
   );
@@ -41,7 +42,7 @@ export function SayiKart47({ width = 120, height = 80 }: { width?: number; heigh
       <Svg width={width} height={height} viewBox="0 0 120 80">
         <Rect x={10} y={10} width={100} height={60} fill="#FFF3E0" stroke="#E67E22" strokeWidth={2} rx={10} />
       </Svg>
-      <Text style={[styles.kartSayiBuyuk, { left: 10, top: 22, width: 100 }]}>47</Text>
+      <GuvenliMetin style={[styles.kartSayiBuyuk, { left: 10, top: 22, width: 100 }]}>47</GuvenliMetin>
     </SvgCanvas>
   );
 }
@@ -58,7 +59,9 @@ export function ElmaGruplari({ width = 280, height = 90 }: { width?: number; hei
           <Circle key={i} cx={cx} cy={cy} r={14} fill="#E74C3C" />
         ))}
       </Svg>
-      <Text style={[styles.elmaMetin, { left: 100, top: 36 }]}>5 elma (beşer say)</Text>
+      <GuvenliMetin style={[styles.elmaMetin, { left: 100, top: 36 }]} tamGenislik={false}>
+        5 elma (beşer say)
+      </GuvenliMetin>
     </SvgCanvas>
   );
 }
@@ -82,6 +85,5 @@ const styles = StyleSheet.create({
     position: 'absolute',
     fontSize: 14,
     color: '#3D4F6F',
-    width: 160,
   },
 });

@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
+import { GuvenliMetin } from './GuvenliMetin';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { NesneIkon, type NesneTipi } from '../../assets/illustrations/GeometriIllustrations';
@@ -125,6 +126,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
                 style={styles.ogeHit}
               >
                 <View
+                  collapsable={false}
                   style={[
                     styles.oge,
                     secili && styles.ogeSecili,
@@ -134,7 +136,9 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
                 >
                   <View style={styles.solSatir}>
                     {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={30} />}
-                    <Text style={[styles.ogeMetin, secili && styles.ogeMetinSecili]}>{sol}</Text>
+                    <GuvenliMetin style={[styles.ogeMetin, secili && styles.ogeMetinSecili]} textAlign="left">
+                      {sol}
+                    </GuvenliMetin>
                   </View>
                   {eslesmis && <Text style={styles.baglanti}>→ {eslesmis}</Text>}
                 </View>
@@ -151,8 +155,10 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
               disabled={kilitli || !seciliSol}
               style={styles.ogeHit}
             >
-              <View style={[styles.oge, seciliSol && styles.ogeHazir]}>
-                <Text style={styles.ogeMetin}>{sag}</Text>
+              <View collapsable={false} style={[styles.oge, seciliSol && styles.ogeHazir]}>
+                <GuvenliMetin style={styles.ogeMetin} textAlign="left">
+                  {sag}
+                </GuvenliMetin>
               </View>
             </Pressable>
           ))}
@@ -244,7 +250,6 @@ const styles = StyleSheet.create({
     borderColor: colors.turuncu,
   },
   ogeMetin: {
-    flexShrink: 0,
     fontSize: 16,
     color: colors.metin,
     fontWeight: '600',

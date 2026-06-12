@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
+import { GuvenliMetin } from './GuvenliMetin';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
@@ -114,6 +115,7 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
                   style={styles.hucreHit}
                 >
                   <View
+                    collapsable={false}
                     style={[
                       styles.hucre,
                       boyanmis && !yanlis && !dogru && styles.hucreBoyali,
@@ -121,14 +123,14 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
                       yanlis && styles.hucreYanlis,
                     ]}
                   >
-                    <Text
+                    <GuvenliMetin
                       style={[
                         styles.hucreSayi,
                         (boyanmis || dogru) && styles.hucreSayiBoyali,
                       ]}
                     >
-                      {n}
-                    </Text>
+                      {String(n)}
+                    </GuvenliMetin>
                   </View>
                 </Pressable>
               );

@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import { GuvenliMetin } from '../GuvenliMetin';
 import Svg, { Circle, Ellipse, Line, Polygon, Rect } from 'react-native-svg';
 import { GEO } from './colors';
 import { IllustrationColumn } from './IllustrationColumn';
@@ -50,7 +51,7 @@ export function G4mAnlatim2() {
           <Ok x1={2} y1={10} x2={24} y2={10} />
         </Svg>
         <ModellerIcon tip="silindir" size={64} />
-        <Text style={styles.miniEtiket}>davul → silindir</Text>
+        <GuvenliMetin style={styles.miniEtiket} tamGenislik={false}>davul → silindir</GuvenliMetin>
       </View>
       <View style={styles.satir}>
         <NesnelerIcon tip="zil" size={56} />
@@ -58,11 +59,11 @@ export function G4mAnlatim2() {
           <Ok x1={2} y1={10} x2={24} y2={10} />
         </Svg>
         <SekillerIcon tip="daire" size={56} />
-        <Text style={styles.miniEtiket}>zil → daire</Text>
+        <GuvenliMetin style={styles.miniEtiket} tamGenislik={false}>zil → daire</GuvenliMetin>
       </View>
       <View style={styles.satir}>
         <ModellerIcon tip="kare-prizma" size={64} />
-        <Text style={styles.miniEtiket}>kutu → prizma (köşeli)</Text>
+        <GuvenliMetin style={styles.miniEtiket} tamGenislik={false}>kutu → prizma (köşeli)</GuvenliMetin>
       </View>
     </View>
   );
@@ -75,7 +76,7 @@ export function G4mAnlatim3() {
         <NesnelerIcon tip="top" size={48} />
         <NesnelerIcon tip="top" size={88} />
       </View>
-      <Text style={styles.vurguEtiket}>ikisi de yuvarlak!</Text>
+      <GuvenliMetin style={styles.vurguEtiket} tamGenislik={false}>ikisi de yuvarlak!</GuvenliMetin>
     </View>
   );
 }
@@ -99,7 +100,7 @@ export function G4mAnlatim4() {
           <KoseNoktalari pts={kose.map(([x, y]) => [x, y] as [number, number])} />
         </Svg>
       </View>
-      <Text style={styles.vurguEtiket}>köşeler hâlâ orada!</Text>
+      <GuvenliMetin style={styles.vurguEtiket} tamGenislik={false}>köşeler hâlâ orada!</GuvenliMetin>
     </View>
   );
 }
@@ -114,6 +115,6 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   grup: { alignItems: 'center', gap: 10, paddingVertical: 4 },
-  miniEtiket: { fontSize: 10, fontWeight: '600', color: GEO.metin, width: '100%', textAlign: 'center' },
+  miniEtiket: { fontSize: 10, fontWeight: '600', color: GEO.metin, textAlign: 'center', alignSelf: 'stretch' },
   vurguEtiket: { fontSize: 13, fontWeight: '700', color: GEO.turuncu, textAlign: 'center' },
 });

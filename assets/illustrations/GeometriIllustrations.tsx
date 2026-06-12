@@ -215,8 +215,8 @@ function KoseKenarKutu() {
       width={w}
       height={h}
       labels={[
-        { text: 'köşe', left: bx - 44, top: by - 36, width: 44, fontSize: 11, color: GEO.mavi, fontWeight: '700' },
-        { text: 'kenar', left: bx + bw + 20, top: by + bh / 2 - 8, width: 44, fontSize: 11, color: GEO.mor, fontWeight: '700' },
+        { text: 'köşe', left: bx - 26, top: by - 36, fontSize: 11, color: GEO.mavi, fontWeight: '700', textAlign: 'center' },
+        { text: 'kenar', left: bx + bw + 28, top: by + bh / 2 - 8, fontSize: 11, color: GEO.mor, fontWeight: '700', textAlign: 'center' },
       ]}
     >
       <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
@@ -237,12 +237,12 @@ function Anlatim3() {
       width={w}
       height={h}
       labels={[
-        { text: 'kitap', left: 8, top: 62, width: 50, fontSize: 10 },
-        { text: 'kutu', left: 78, top: 62, width: 44, fontSize: 10 },
-        { text: 'buzdolabı', left: 138, top: 62, width: 64, fontSize: 10 },
-        { text: 'zar', left: 218, top: 62, width: 40, fontSize: 10 },
-        { text: 'köşe', left: 18, top: 52, width: 44, fontSize: 11, color: GEO.mavi, fontWeight: '700' },
-        { text: 'kenar', left: 174, top: 112, width: 48, fontSize: 11, color: GEO.mor, fontWeight: '700' },
+        { text: 'kitap', left: 33, top: 62, fontSize: 10, textAlign: 'center' },
+        { text: 'kutu', left: 100, top: 62, fontSize: 10, textAlign: 'center' },
+        { text: 'buzdolabı', left: 168, top: 62, fontSize: 10, textAlign: 'center' },
+        { text: 'zar', left: 238, top: 62, fontSize: 10, textAlign: 'center' },
+        { text: 'köşe', left: 44, top: 52, fontSize: 11, color: GEO.mavi, fontWeight: '700', textAlign: 'center' },
+        { text: 'kenar', left: 198, top: 112, fontSize: 11, color: GEO.mor, fontWeight: '700', textAlign: 'center' },
       ]}
     >
       <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>

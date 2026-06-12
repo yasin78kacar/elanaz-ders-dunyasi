@@ -95,5 +95,6 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: colors.kenarlik,
     alignItems: 'center',
+    overflow: 'visible',
   },
 });

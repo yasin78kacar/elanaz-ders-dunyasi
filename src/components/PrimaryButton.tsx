@@ -1,5 +1,6 @@
-import { Pressable, StyleSheet, Text } from 'react-native';
+import { Pressable, StyleSheet, View } from 'react-native';
 import { colors } from '../theme/colors';
+import { GuvenliMetin } from './GuvenliMetin';
 
 interface Props {
   label: string;
@@ -14,24 +15,39 @@ export function PrimaryButton({ label, onPress, disabled, variant = 'primary' }:
       onPress={onPress}
       disabled={disabled}
       style={({ pressed }) => [
-        styles.button,
-        variant === 'secondary' && styles.secondary,
+        styles.hit,
         disabled && styles.disabled,
         pressed && !disabled && styles.pressed,
       ]}
     >
-      <Text style={[styles.label, variant === 'secondary' && styles.secondaryLabel]}>{label}</Text>
+      <View
+        style={[
+          styles.button,
+          variant === 'secondary' && styles.secondary,
+        ]}
+      >
+        <GuvenliMetin
+          style={[styles.label, variant === 'secondary' && styles.secondaryLabel]}
+          tamGenislik={false}
+        >
+          {label}
+        </GuvenliMetin>
+      </View>
     </Pressable>
   );
 }
 
 const styles = StyleSheet.create({
+  hit: {
+    overflow: 'visible',
+  },
   button: {
     backgroundColor: colors.birincil,
     paddingVertical: 16,
     paddingHorizontal: 24,
     borderRadius: 14,
     alignItems: 'center',
+    overflow: 'visible',
   },
   secondary: {
     backgroundColor: colors.kart,

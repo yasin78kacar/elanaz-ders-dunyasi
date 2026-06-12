@@ -51,7 +51,7 @@ function DaireSekil({ renk }: { renk: string }) {
 export function G3mAnlatim1() {
   const items = [
     { label: 'kare', width: 72, gorsel: <KareSekil renk={GEO.kirmizi} /> },
-    { label: 'dikdörtgen', width: 80, gorsel: <DikdortgenSekil renk={GEO.mavi} /> },
+    { label: 'dikdörtgen', width: 96, gorsel: <DikdortgenSekil renk={GEO.mavi} /> },
     { label: 'üçgen', width: 72, gorsel: <UcgenSekil renk={GEO.yesil} /> },
     { label: 'çember', width: 72, gorsel: <CemberSekil renk={GEO.turuncu} /> },
   ];

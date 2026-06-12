@@ -70,6 +70,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
               style={styles.secenekHit}
             >
               <View
+                collapsable={false}
                 style={[
                   styles.secenek,
                   secili && !dogruGoster && !yanlisGoster && styles.secenekSecili,
