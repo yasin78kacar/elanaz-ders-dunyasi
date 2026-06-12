@@ -1,0 +1,914 @@
+{
+  "id": "guvenli-yasam",
+  "baslik": "Güvenli Yaşam",
+  "kazanimKodu": "HB.2.2.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Yaya geçidinde kırmızı ışıkta bekler, yeşilde sola-sağa-sola bakarak geçeriz. Kaldırımdan yürür, yola top fırlatmamalıyız. Trafikte dikkatli olmak hayat kurtarır!",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "gy-anlatim-1"
+        }
+      },
+      {
+        "metin": "Evde bıçakla oynamamalı, temizlik şişelerini içmemeliyiz. Elektrikli aletlerde aile büyüklerimizden yardım istemeliyiz.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "gy-anlatim-2"
+        }
+      },
+      {
+        "metin": "Günde sınırlı süre tablet oynarız. İnternette kişisel bilgilerimizi paylaşmayız, şüpheli durumlarda ailemize haber veririz. Teknolojiyi güvenli kullanırsak en iyi yardımcımız olur!",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "gy-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "gy-a1",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Arabaya binince ilk ne yapmalıyız?",
+      "dogruCevap": "Emniyet kemerimizi hemen takmalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "araba",
+        "ozellik": "emniyet-kemeri"
+      }
+    },
+    {
+      "id": "gy-a2",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Balkon demirlerine tırmanmak neden tehlikelidir?",
+      "dogruCevap": "Dengemizi kaybedip düşebiliriz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "balkon",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-a3",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Tanımadığı biri şeker uzatırsa ne yapmalıyız?",
+      "dogruCevap": "Kabul etmemeli, \"Hayır\" demeli ve ailemize koşmalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "yabanci-seker",
+        "ozellik": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-a4",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Islak elle prize dokunursak ne olur?",
+      "dogruCevap": "Elektrik çarpabilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "priz",
+        "ozellik": "elektrik"
+      }
+    },
+    {
+      "id": "gy-a5",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Karşıya geçmek için en güvenli yer neresidir?",
+      "dogruCevap": "Üst geçit, alt geçit veya yaya geçidi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "ust-gecit",
+        "ozellik": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-a6",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Çocuklar arabada neden arka koltukta oturmalıdır?",
+      "dogruCevap": "Ani frenlerde arka koltuk daha korunaklıdır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "araba",
+        "ozellik": "arka-koltuk"
+      }
+    },
+    {
+      "id": "gy-a7",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Yürüyen merdivende oyun oynamak doğru mu?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "yuruyen-merdiven",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-a8",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Bilgisayara çok yakından bakmak neye zarar verir?",
+      "dogruCevap": "Gözlerimize",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "bilgisayar",
+        "ozellik": "goz-sagligi"
+      }
+    },
+    {
+      "id": "gy-a9",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Yangında hangi numarayı aramalıyız?",
+      "dogruCevap": "112",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "itfaiye-araci"
+      }
+    },
+    {
+      "id": "gy-a10",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "İnşaat alanına girmek neden yasaktır?",
+      "dogruCevap": "Taş veya demir düşebilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "insaat-alani",
+        "ozellik": "yasak"
+      }
+    },
+    {
+      "id": "gy-a11",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Tırabzandan aşağı kaymak neden yanlıştır?",
+      "dogruCevap": "Sırt üstü düşüp kafamızı çarpabiliriz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "trabzan",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-a12",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Elimizde makas varken nasıl yürümeliyiz?",
+      "dogruCevap": "Koşmamalı, sivri ucu aşağı tutarak sakin yürümeliyiz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "makas",
+        "vurgu": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-a13",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Şifrelerimizi arkadaşlarımıza söylemeli miyiz?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "internet-sifre",
+        "ozellik": "gizlilik"
+      }
+    },
+    {
+      "id": "gy-a14",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Kaldırım yoksa yolun hangi tarafından yürümeliyiz?",
+      "dogruCevap": "Sol taraftan, arabaların geliş yönünün karşısından",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "yol-yuruyus",
+        "ozellik": "kaldirimsiz"
+      }
+    },
+    {
+      "id": "gy-a15",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Bisiklette hangi koruyucuları takmalıyız?",
+      "dogruCevap": "Kask, dizlik ve dirseklik",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "bisiklet",
+        "ozellik": "koruyucu"
+      }
+    },
+    {
+      "id": "gy-a16",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Kaynayan tencereye dokunursak ne olur?",
+      "dogruCevap": "Elimiz yanar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kaynar-tencere",
+        "vurgu": "yanik"
+      }
+    },
+    {
+      "id": "gy-a17",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Arabadan dışarı el çıkarmak neden tehlikelidir?",
+      "dogruCevap": "Arabalar veya dal çarpabilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "araba",
+        "ozellik": "el-cikarma"
+      }
+    },
+    {
+      "id": "gy-a18",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Hareket halindeki servise tutunmak doğru mu?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "servis",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-a19",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Depremde ne yapmalıyız?",
+      "dogruCevap": "Çök-Kapan-Tutun hareketini yapmalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "deprem",
+        "ozellik": "cok-kapan-tutun"
+      }
+    },
+    {
+      "id": "gy-a20",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Evde yalnızken kapıyı açmalı mıyız?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "kapi-gozleme",
+        "ozellik": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-a21",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Havuz kenarında koşup arkadaşı itmek neden tehlikelidir?",
+      "dogruCevap": "Kafasını beton kenara çarpabilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "havuz",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-a22",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "İzinsiz derin yere yüzmeli miyiz?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "deniz",
+        "ozellik": "siga-yuzme"
+      }
+    },
+    {
+      "id": "gy-a23",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Kibrit ve çakmakla oynamak neye yol açar?",
+      "dogruCevap": "Yangın çıkmasına",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kibrit",
+        "vurgu": "yangin"
+      }
+    },
+    {
+      "id": "gy-a24",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Acil çıkış kapıları ne işe yarar?",
+      "dogruCevap": "Tehlikeli anlarda binayı hızlıca terk etmemizi sağlar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "acil-cikis",
+        "vurgu": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-a25",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "yazili",
+      "soru": "Süre sınırına uymak hangi özelliğimizi geliştirir?",
+      "dogruCevap": "Sorumluluk bilinci ve özdenetim",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "tablet-sure",
+        "ozellik": "sorumluluk"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "gy-t1",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yayalar için kırmızı ışık yandığında ne yapmalıyız?",
+      "dogruCevap": "Yeşil ışığı beklemeliyiz",
+      "secenekler": [
+        "Şarkı söylemeliyiz",
+        "El sallamalıyız",
+        "Yeşil ışığı beklemeliyiz",
+        "Koşarak geçmeliyiz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "trafik-isigi",
+        "vurgu": "kirmizi"
+      }
+    },
+    {
+      "id": "gy-t2",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ayşe'nin topu caddeye kaçtı. Ne yapmalıdır?",
+      "dogruCevap": "Büyükten yardım istemelidir",
+      "secenekler": [
+        "Büyükten yardım istemelidir",
+        "Bakılmadan yola fırlamalı",
+        "Arkadaşını itmelidir",
+        "Yolda ağlamalı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "top-cadde",
+        "ozellik": "yardim"
+      }
+    },
+    {
+      "id": "gy-t3",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Mehmet emniyet kemerini koltuğa bağladı ama kendisi takmadı. Bu davranış için ne söylenir?",
+      "dogruCevap": "Arabayı kandırdı ama güvenliğini tehlikeye attı",
+      "secenekler": [
+        "Alarm ötmeyince güvende",
+        "Pratik zekalı",
+        "Arabayı kandırdı ama güvenliğini tehlikeye attı",
+        "Kemer sadece şoför için"
+      ],
+      "ipucu": "Emniyet kemerini mutlaka takmalıyız!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "araba",
+        "ozellik": "emniyet-kemeri"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "gy-t4",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi çocuklar için güvenli kullanım aracıdır?",
+      "dogruCevap": "Plastik saç tarağı",
+      "secenekler": [
+        "Ütü",
+        "Plastik saç tarağı",
+        "Ocak ve çakmak",
+        "Matkap"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sac-taragi",
+        "vurgu": "guvenli"
+      }
+    },
+    {
+      "id": "gy-t5",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ali ıslak zeminde çıplak ayakla koştu. Ne olması beklenir?",
+      "dogruCevap": "Kayıp düşer",
+      "secenekler": [
+        "Ayaklar temizlenir",
+        "Sabun biter",
+        "Kayıp düşer",
+        "Boyu uzar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "islak-zemin",
+        "ozellik": "kayma"
+      }
+    },
+    {
+      "id": "gy-t6",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Berk tablette \"Ev adresinizi yazın\" mesajı gördü. Ne yapmalıdır?",
+      "dogruCevap": "Tuzak olabilir, ailesine göstermeli",
+      "secenekler": [
+        "Ağlamalı",
+        "Adresi yazmalı",
+        "Şifresini de yazmalı",
+        "Tuzak olabilir, ailesine göstermeli"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "internet-mesaj",
+        "ozellik": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-t7",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma servis yavaşlayınca inmek istedi. Ne yapmalıdır?",
+      "dogruCevap": "Tamamen durmasını ve kapının açılmasını beklemeli",
+      "secenekler": [
+        "Kapıyı açıp atlamalı",
+        "Camdan sarkmalı",
+        "Tamamen durmasını ve kapının açılmasını beklemeli",
+        "Bağırmalı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "servis",
+        "ozellik": "inme"
+      }
+    },
+    {
+      "id": "gy-t8",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Demir tokayı prize sokmak neye yol açar?",
+      "dogruCevap": "Şiddetli elektrik çarpması",
+      "secenekler": [
+        "Renk değişmesi",
+        "Müzik çalması",
+        "Tokanın parlaması",
+        "Şiddetli elektrik çarpması"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "priz",
+        "ozellik": "elektrik"
+      }
+    },
+    {
+      "id": "gy-t9",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Can yürürken korna duydu. Nerede yürüyor olabilir?",
+      "dogruCevap": "Caddenin ortasında",
+      "secenekler": [
+        "Kaldırımda",
+        "Koridorda",
+        "Çimenlerde",
+        "Caddenin ortasında"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "cadde",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-t10",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi trafik kuralı DEĞİLDİR?",
+      "dogruCevap": "İki arabanın arasından fırlamak",
+      "secenekler": [
+        "Trafik polisine uymak",
+        "İki arabanın arasından fırlamak",
+        "Kaldırımdan yürümek",
+        "Yaya geçidi kullanmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "trafik",
+        "ozellik": "kural"
+      }
+    },
+    {
+      "id": "gy-t11",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Selin renkli tatlı kokulu sıvı buldu. Ne yapmalıdır?",
+      "dogruCevap": "Dokunmadan büyüklere sormalıdır",
+      "secenekler": [
+        "Dokunmadan büyüklere sormalıdır",
+        "Tadına bakmalı",
+        "Arkadaşına dökmelidir",
+        "Halıya dökmelidir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "temizlik-sisesi",
+        "vurgu": "tehlike"
+      }
+    },
+    {
+      "id": "gy-t12",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Zeynep bisiklette köpek gördü. Nasıl davranmalıdır?",
+      "dogruCevap": "Sakin bir yere durdurmalı, panik yapmamalıdır",
+      "secenekler": [
+        "Köpeğe doğru sürmelidir",
+        "İnip sarılmalıdır",
+        "Bisikleti devirmelidir",
+        "Sakin bir yere durdurmalı, panik yapmamalıdır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "bisiklet",
+        "ozellik": "kopek"
+      }
+    },
+    {
+      "id": "gy-t13",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hande meyve yemek istiyor. Ne yapmalıdır?",
+      "dogruCevap": "Büyüğünden kesmesini rica etmeli",
+      "secenekler": [
+        "Büyük bıçakla kesmeli",
+        "Büyüğünden kesmesini rica etmeli",
+        "Bütün yutmalı",
+        "Kalemtıraşla soymaya çalışmalı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bicak",
+        "vurgu": "tehlike"
+      }
+    },
+    {
+      "id": "gy-t14",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Yusuf depremde balkona koştu. Bu karar için ne doğrudur?",
+      "dogruCevap": "Balkonlar en çürük yerdir, büyük tehlikeye attı",
+      "secenekler": [
+        "Balkon en güvenli",
+        "Hızlı kurtulma yolu",
+        "Balkonlar en çürük yerdir, büyük tehlikeye attı",
+        "Balkondan uçabilir"
+      ],
+      "ipucu": "Depremde Çök-Kapan-Tutun yapmalıyız!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "deprem",
+        "ozellik": "cok-kapan-tutun"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "gy-t15",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Karanlıkta tableti gözüne yakın tutmak neye yol açar?",
+      "dogruCevap": "Gözler bozulur ve baş ağrır",
+      "secenekler": [
+        "Gözler bozulur ve baş ağrır",
+        "Kulaklar daha iyi duyar",
+        "Boy uzar",
+        "Şarj bitmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "tablet",
+        "ozellik": "goz-sagligi"
+      }
+    },
+    {
+      "id": "gy-t16",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kaybolunca en güvenli yardım kimden istenir?",
+      "dogruCevap": "Üniformalı güvenlik görevlisi veya polis",
+      "secenekler": [
+        "Herhangi yabancı",
+        "Maskeli adam",
+        "Üniformalı güvenlik görevlisi veya polis",
+        "Sokak kedisi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "polis",
+        "vurgu": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-t17",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi kırılınca elin kesilmesine sebep olur?",
+      "dogruCevap": "Cam sürahi",
+      "secenekler": [
+        "Plastik tabak",
+        "Kağıt bardak",
+        "Cam sürahi",
+        "Tahta kaşık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cam-surahi",
+        "vurgu": "kesilme"
+      }
+    },
+    {
+      "id": "gy-t18",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yusuf çamaşır makinesine oyuncak koydu, düğmelere bastı. Bu neden tehlikelidir?",
+      "dogruCevap": "Elektrik kaçağı olabilir ve kendini tehlikeye atar",
+      "secenekler": [
+        "Elektrik kaçağı olabilir ve kendini tehlikeye atar",
+        "Gürültü yapar",
+        "Oyuncak üşür",
+        "Rengi değişir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "camasir-makinesi",
+        "vurgu": "tehlike"
+      }
+    },
+    {
+      "id": "gy-t19",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Toplu taşımada nasıl davranmalıyız?",
+      "dogruCevap": "Sakince oturmalı veya demire tutunmalıyız",
+      "secenekler": [
+        "Kapıyı açmaya çalışmalıyız",
+        "Şoförün gözlerini kapatmalıyız",
+        "Sakince oturmalı veya demire tutunmalıyız",
+        "Koltukta zıplamalıyız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "otobus",
+        "ozellik": "guvenlik"
+      }
+    },
+    {
+      "id": "gy-t20",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Evde gaz kokusu duyarsak ne yapmalıyız?",
+      "dogruCevap": "Pencereleri açmalı, büyüklere haber vermeliyiz",
+      "secenekler": [
+        "Uyumalıyız",
+        "Lambaları açıp kapatmalıyız",
+        "Pencereleri açmalı, büyüklere haber vermeliyiz",
+        "Kibrit çakmalıyız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "gaz-kokusu",
+        "ozellik": "tehlike"
+      }
+    },
+    {
+      "id": "gy-t21",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Oyun araçlarını kullanmadan önce neye dikkat etmeliyiz?",
+      "dogruCevap": "Kırık veya kopuk olup olmadığına",
+      "secenekler": [
+        "Rengine",
+        "Kaç çocuk olduğuna",
+        "Bulut olup olmadığına",
+        "Kırık veya kopuk olup olmadığına"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "salincak",
+        "ozellik": "kontrol"
+      }
+    },
+    {
+      "id": "gy-t22",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Asansörde doğru davranış hangisidir?",
+      "dogruCevap": "Katın düğmesine bir kez basıp beklemek",
+      "secenekler": [
+        "Katın düğmesine bir kez basıp beklemek",
+        "Aynaya resim çizmek",
+        "Kapıyı elle açmaya çalışmak",
+        "Tüm düğmelere basmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "asansor",
+        "ozellik": "kural"
+      }
+    },
+    {
+      "id": "gy-t23",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Can donmuş gölete çıktı. Bu davranış için ne doğrudur?",
+      "dogruCevap": "Buz aniden kırılıp boğulabilir, çok tehlikeli",
+      "secenekler": [
+        "Yüzme öğrenmek istedi",
+        "Tasarruflu ve akıllı",
+        "Buz aniden kırılıp boğulabilir, çok tehlikeli",
+        "Olimpik pistten kalın"
+      ],
+      "ipucu": "Donmuş göle çıkmak çok tehlikelidir!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "donmus-golet",
+        "ozellik": "tehlike"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "gy-t24",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Tatbikat sırasında nasıl hareket etmeliyiz?",
+      "dogruCevap": "Öğretmenin talimatlarıyla sıra halinde sakin çıkmalıyız",
+      "secenekler": [
+        "Altına saklanıp uyumalıyız",
+        "Öğretmenin talimatlarıyla sıra halinde sakin çıkmalıyız",
+        "Çığlık atarak koşmalıyız",
+        "Sınıfta kalmalıyız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "tatbikat",
+        "ozellik": "cikis"
+      }
+    },
+    {
+      "id": "gy-t25",
+      "kazanimKodu": "HB.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Tüm güvenlik kurallarının amacı nedir?",
+      "dogruCevap": "Sağlıklı, güvenli ve huzurlu yaşamamızı sağlamak",
+      "secenekler": [
+        "Okulları erken kapatmak",
+        "Arabalar hızlansın",
+        "Sağlıklı, güvenli ve huzurlu yaşamamızı sağlamak",
+        "Çocukları kısıtlamak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "mutlu-aile",
+        "ozellik": "guvenlik"
+      }
+    }
+  ]
+}

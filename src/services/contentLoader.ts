@@ -42,6 +42,9 @@ import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
 import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
 import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
 import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
+import saglikVeTemizlik from '../../content/sinif2/hayat-bilgisi/saglik-ve-temizlik.json';
+import guvenliYasam from '../../content/sinif2/hayat-bilgisi/guvenli-yasam.json';
+import mesleklerVeCalismaHayati from '../../content/sinif2/hayat-bilgisi/meslekler-ve-calisma-hayati.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -90,6 +93,9 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
   'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
   'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,
+  'hayat-bilgisi/saglik-ve-temizlik.json': saglikVeTemizlik as Konu,
+  'hayat-bilgisi/guvenli-yasam.json': guvenliYasam as Konu,
+  'hayat-bilgisi/meslekler-ve-calisma-hayati.json': mesleklerVeCalismaHayati as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

@@ -63,6 +63,7 @@ import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
+import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -446,6 +447,13 @@ writeFileSync(join(hbDir, 'okul-ve-sinif.json'), JSON.stringify(okulVeSinifKonu,
 writeFileSync(join(hbDir, 'aile-ve-arkadaslik.json'), JSON.stringify(aileVeArkadaslikKonu, null, 2));
 writeFileSync(join(hbDir, 'toplum-ve-cevre.json'), JSON.stringify(toplumVeCevreKonu, null, 2));
 
+const saglikVeTemizlikKonu = saglikVeTemizlik(karistir);
+const guvenliYasamKonu = guvenliYasam(karistir);
+const mesleklerVeCalismaHayatiKonu = mesleklerVeCalismaHayati(karistir);
+writeFileSync(join(hbDir, 'saglik-ve-temizlik.json'), JSON.stringify(saglikVeTemizlikKonu, null, 2));
+writeFileSync(join(hbDir, 'guvenli-yasam.json'), JSON.stringify(guvenliYasamKonu, null, 2));
+writeFileSync(join(hbDir, 'meslekler-ve-calisma-hayati.json'), JSON.stringify(mesleklerVeCalismaHayatiKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -622,6 +630,15 @@ const index = {
             'hayat-bilgisi/toplum-ve-cevre.json',
           ],
         },
+        {
+          id: 'tema-2',
+          baslik: 'Hayat Bilgisi — Tema 2',
+          konuDosyalari: [
+            'hayat-bilgisi/saglik-ve-temizlik.json',
+            'hayat-bilgisi/guvenli-yasam.json',
+            'hayat-bilgisi/meslekler-ve-calisma-hayati.json',
+          ],
+        },
       ],
     },
     {
@@ -712,6 +729,9 @@ console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.tes
 console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
 console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
 console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);
+console.log('Sağlık ve temizlik:', saglikVeTemizlikKonu.alistirma.length, '+', saglikVeTemizlikKonu.test.length);
+console.log('Güvenli yaşam:', guvenliYasamKonu.alistirma.length, '+', guvenliYasamKonu.test.length);
+console.log('Meslekler ve çalışma hayatı:', mesleklerVeCalismaHayatiKonu.alistirma.length, '+', mesleklerVeCalismaHayatiKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

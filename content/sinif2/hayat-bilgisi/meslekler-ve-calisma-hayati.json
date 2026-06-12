@@ -1,0 +1,918 @@
+{
+  "id": "meslekler-ve-calisma-hayati",
+  "baslik": "Meslekler ve Çalışma Hayatı",
+  "kazanimKodu": "HB.2.2.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Her meslek toplumun birer çarkıdır. Fırıncılar ekmek yapar, terziler kıyafet diker. Herkes işini sevgiyle yaparsa dünya güzel olur!",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "mc-anlatim-1"
+        }
+      },
+      {
+        "metin": "Mühendisler bina çizer, pilotlar insanları taşır, çiftçiler buğday yetiştirir. Toplumdaki her meslek sahibi gizli kahramanımızdır.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "mc-anlatim-2"
+        }
+      },
+      {
+        "metin": "Eve gelince dinlenir, sonra çalışma planına bakarız. Ödevleri son dakikaya bırakmayız. Planlı çalışmak başarı kapısının anahtarıdır!",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "mc-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "mc-a1",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Öğrencilere bilgi öğreten meslek hangisidir?",
+      "dogruCevap": "Öğretmen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ogretmen",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a2",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Ekmek pişiren meslek sahibine ne denir?",
+      "dogruCevap": "Fırıncı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "firinci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a3",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Tarımla uğraşan meslek hangisidir?",
+      "dogruCevap": "Çiftçi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ciftci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a4",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Restoranda yemek pişiren meslek?",
+      "dogruCevap": "Aşçı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "asci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a5",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Doktora yardım eden meslek?",
+      "dogruCevap": "Hemşire",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "hemsire",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a6",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Güvenliği sağlayan meslek?",
+      "dogruCevap": "Polis",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "polis",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a7",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Arabaları tamir eden meslek?",
+      "dogruCevap": "Oto tamircisi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "oto-tamircisi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a8",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Elbise diken meslek?",
+      "dogruCevap": "Terzi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "terzi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a9",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Bina projeleri çizen meslek?",
+      "dogruCevap": "Mühendis",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "muhendis",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a10",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Saç kesen meslek?",
+      "dogruCevap": "Berber / Kuaför",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "berber",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a11",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Uçak kullanan meslek?",
+      "dogruCevap": "Pilot",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "pilot",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a12",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Tren kullanan meslek?",
+      "dogruCevap": "Makinist",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "makinist",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a13",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Manav ne satar?",
+      "dogruCevap": "Taze sebze ve meyve",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "manav",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a14",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Tablo yapan sanatçı mesleği?",
+      "dogruCevap": "Ressam",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ressam",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a15",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Müzik yapan meslek?",
+      "dogruCevap": "Şarkıcı / Müzisyen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "muzisyen",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a16",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Dişlerle ilgilenen meslek?",
+      "dogruCevap": "Diş hekimi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "dis-hekimi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a17",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Hayvan doktoru?",
+      "dogruCevap": "Veteriner",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "veteriner",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a18",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Mahkemede hakları savunan meslek?",
+      "dogruCevap": "Avukat",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "avukat",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a19",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Uygulama geliştiren meslek?",
+      "dogruCevap": "Yazılımcı / Bilgisayar Programcısı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "yazilimci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a20",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Kütüphanedeki kitapları düzenleyen?",
+      "dogruCevap": "Kütüphaneci",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kutuphaneci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a21",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Başarılı öğrenci olmak için ne yapmalıyız?",
+      "dogruCevap": "Planlı çalışmalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "calisma-plani",
+        "vurgu": "plan"
+      }
+    },
+    {
+      "id": "mc-a22",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Ev inşaatı yapan meslek?",
+      "dogruCevap": "İnşaat ustası / Duvarcı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "insaat-ustasi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a23",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Mektup ve paket getiren meslek?",
+      "dogruCevap": "Postacı / Kurye",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "postaci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a24",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Sokakları temizleyen meslek?",
+      "dogruCevap": "Temizlik görevlisi / Belediye işçisi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "temizlik-gorevlisi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-a25",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "yazili",
+      "soru": "Uzaya giden meslek?",
+      "dogruCevap": "Astronot",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "astronot",
+        "vurgu": "meslek"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "mc-t1",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yangınları söndüren meslek hangisidir?",
+      "dogruCevap": "İtfaiyeci",
+      "secenekler": [
+        "Terzi",
+        "İtfaiyeci",
+        "Fırıncı",
+        "Manav"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "itfaiyeci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t2",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ayşe hayvanları sevdiği için onları iyileştirmek istiyor. Hangi mesleği seçmeli?",
+      "dogruCevap": "Veteriner",
+      "secenekler": [
+        "Avukat",
+        "Pilot",
+        "Çiftçi",
+        "Veteriner"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "veteriner",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t3",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Mehmet \"Temizlik görevlisi önemsiz bir meslek\" dedi. Bu fikir için ne doğrudur?",
+      "dogruCevap": "Yanılıyor; olmasaydı şehirler mikrop basardı, her meslek hayati önem taşır",
+      "secenekler": [
+        "Yanılıyor; olmasaydı şehirler mikrop basardı, her meslek hayati önem taşır",
+        "Çok haklı",
+        "Sadece okumayanlar yapar",
+        "Çöpler kendi yok olur"
+      ],
+      "ipucu": "Her meslek toplum için önemlidir!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "temizlik-gorevlisi",
+        "vurgu": "meslek"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "mc-t4",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mesleğinde başarılı olmak için okul yıllarında ne yapılmalıdır?",
+      "dogruCevap": "Planlı çalışmak ve kitap okumak",
+      "secenekler": [
+        "Planlı çalışmak ve kitap okumak",
+        "Sadece oyun oynamak",
+        "Ödevleri ertelemek",
+        "Sınıfta uyumak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "calisma-plani",
+        "vurgu": "plan"
+      }
+    },
+    {
+      "id": "mc-t5",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Haberleri bize aktaran meslek hangisidir?",
+      "dogruCevap": "Gazeteci / Muhabir",
+      "secenekler": [
+        "Mühendis",
+        "Şoför",
+        "Gazeteci / Muhabir",
+        "Aşçı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "gazeteci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t6",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Berk \"Mühendis olacağım ama şimdi çalışmam gerekmez\" diyor. Ne söylemeliyiz?",
+      "dogruCevap": "Mesleğinin temelini bugün öğreniyorsun, planlı çalışmazsan hayallerine ulaşamazsın",
+      "secenekler": [
+        "Ders sadece öğretmenler için",
+        "Sadece matematik yeter",
+        "Mesleğinin temelini bugün öğreniyorsun, planlı çalışmazsan hayallerine ulaşamazsın",
+        "Çok haklısın"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "muhendis",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t7",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma'nın ayakkabısı açıldı. Kime gitmelidir?",
+      "dogruCevap": "Ayakkabı tamircisine",
+      "secenekler": [
+        "Ayakkabı tamircisine",
+        "Terziye",
+        "Berbere",
+        "Kasaba"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ayakkabi-tamircisi",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t8",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Etleri hazırlayan meslek sahibi kimdir?",
+      "dogruCevap": "Kasap",
+      "secenekler": [
+        "Balıkçı",
+        "Fırıncı",
+        "Kasap",
+        "Manav"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kasap",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t9",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Can her gün saatlerce TV izliyor, ödevi gece yapıyor. Temel sorunu nedir?",
+      "dogruCevap": "Zamanını planlamaması",
+      "secenekler": [
+        "Ödevler çok kolay",
+        "Okul uzak",
+        "TV çok büyük",
+        "Zamanını planlamaması"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "tv-odev",
+        "ozellik": "plansizlik"
+      }
+    },
+    {
+      "id": "mc-t10",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi doğrudan sağlığımızı korumak için çalışır?",
+      "dogruCevap": "Doktor",
+      "secenekler": [
+        "Çiftçi",
+        "Pilot",
+        "Doktor",
+        "Polis"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "doktor",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t11",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "İnsanları taşıyan meslek hangisidir?",
+      "dogruCevap": "Şoför",
+      "secenekler": [
+        "Kaptan",
+        "Makinist",
+        "Pilot",
+        "Şoför"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sofor",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t12",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Selin okul malzemesi almak için nereye gitmelidir?",
+      "dogruCevap": "Kırtasiyeye",
+      "secenekler": [
+        "Pastaneye",
+        "Kırtasiyeye",
+        "Eczaneye",
+        "Manava"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kirtasiye",
+        "vurgu": "alisveris"
+      }
+    },
+    {
+      "id": "mc-t13",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Denizde gemi kullanan meslek?",
+      "dogruCevap": "Kaptan",
+      "secenekler": [
+        "Pilot",
+        "Makinist",
+        "Şoför",
+        "Kaptan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kaptan",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t14",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Yusuf \"Hiç çalışmayacağım, sadece dondurma yiyeceğim\" dedi. Bu plan için ne söylenir?",
+      "dogruCevap": "Çalışmayan hem kendine hem topluma fayda sağlayamaz",
+      "secenekler": [
+        "Sadece birinciler yer",
+        "Çalışmayan hem kendine hem topluma fayda sağlayamaz",
+        "En mutlu insan olur",
+        "Dondurma dahi yapar"
+      ],
+      "ipucu": "Çalışmak hem bize hem topluma fayda sağlar!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "calisma",
+        "ozellik": "sorumluluk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "mc-t15",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Tüm mesleklerin ortak amacı nedir?",
+      "dogruCevap": "İnsanların hayatını kolaylaştırmak",
+      "secenekler": [
+        "İnsanların hayatını kolaylaştırmak",
+        "Kavga etmek",
+        "Hiç dinlenmemek",
+        "Daha zengin olmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "grup",
+        "nesneler": [
+          "ogretmen",
+          "doktor",
+          "ciftci"
+        ],
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t16",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "İlaç geliştiren araştırmacı mesleği nedir?",
+      "dogruCevap": "Bilim İnsanı / Araştırmacı",
+      "secenekler": [
+        "Gazeteci",
+        "Kütüphaneci",
+        "Bilim İnsanı / Araştırmacı",
+        "Ressam"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bilim-insani",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t17",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Gece nöbeti tutan koruyucu meslek hangisidir?",
+      "dogruCevap": "Bekçi / Polis",
+      "secenekler": [
+        "Öğretmen",
+        "Aşçı",
+        "Çiftçi",
+        "Bekçi / Polis"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "polis",
+        "vurgu": "nobet"
+      }
+    },
+    {
+      "id": "mc-t18",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yusuf her akşam ertesi günü planlıyor. Bu ne gösterir?",
+      "dogruCevap": "Sorumluluk sahibi ve planlı öğrencidir",
+      "secenekler": [
+        "Çantaları seviyor",
+        "Uyumaktan korkuyor",
+        "Sorumluluk sahibi ve planlı öğrencidir",
+        "Unutkanlık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "calisma-plani",
+        "vurgu": "plan"
+      }
+    },
+    {
+      "id": "mc-t19",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ahşap mobilya yapan meslek?",
+      "dogruCevap": "Marangoz",
+      "secenekler": [
+        "Demirci",
+        "Duvarcı",
+        "Marangoz",
+        "Terzi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "marangoz",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t20",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Meslek seçiminde en çok neye dikkat etmeli?",
+      "dogruCevap": "Kendi yeteneğine ve severek yapacağı işe",
+      "secenekler": [
+        "En kolay olana",
+        "En çok para kazandırana",
+        "Arkadaşının seçtiğine",
+        "Kendi yeteneğine ve severek yapacağı işe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "meslek-secimi",
+        "ozellik": "yetenek"
+      }
+    },
+    {
+      "id": "mc-t21",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Para hesabı tutan meslek?",
+      "dogruCevap": "Muhasebeci / Bankacı",
+      "secenekler": [
+        "Aşçı",
+        "Pilot",
+        "Muhasebeci / Bankacı",
+        "Ressam"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bankaci",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t22",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çiftçiler olmasaydı fabrikalar bisküvi yapabilir miydi?",
+      "dogruCevap": "Hayır, buğdayı çiftçiler üretir",
+      "secenekler": [
+        "Hayır, buğdayı çiftçiler üretir",
+        "Evet, bağımsız",
+        "Çakıldan yapar",
+        "Çiftçi çiçek yetiştirir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ciftci",
+        "vurgu": "bugday"
+      }
+    },
+    {
+      "id": "mc-t23",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Zeynep \"Dans ve tiyatro meslek değil\" dedi. Bu fikir için ne doğrudur?",
+      "dogruCevap": "Sanat dalları da yıllarca eğitim gerektiren saygın mesleklerdir",
+      "secenekler": [
+        "Dansçılar para kazanamaz",
+        "Sanat dalları da yıllarca eğitim gerektiren saygın mesleklerdir",
+        "Sessiz işler meslektir",
+        "Çok haklı"
+      ],
+      "ipucu": "Sanat meslekleri de saygın ve önemlidir!",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "muzisyen",
+        "vurgu": "sanat"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "mc-t24",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Okul müdürünün görevi nedir?",
+      "dogruCevap": "Okulun düzenini, temizliğini ve eğitim kalitesini yönetmek",
+      "secenekler": [
+        "Top oynamak",
+        "Sıralarda zıplamak",
+        "Çikolata yemek",
+        "Okulun düzenini, temizliğini ve eğitim kalitesini yönetmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "okul-muduru",
+        "vurgu": "meslek"
+      }
+    },
+    {
+      "id": "mc-t25",
+      "kazanimKodu": "HB.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Planlı çalışan çocukların mutlu yetişkinler olması için en önemli yer neresidir?",
+      "dogruCevap": "Okul ve sınıf hayatımız",
+      "secenekler": [
+        "Lunapark",
+        "Alışveriş merkezleri",
+        "Bilgisayar oyunları",
+        "Okul ve sınıf hayatımız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "anlatim",
+        "sahne": "mc-anlatim-3"
+      }
+    }
+  ]
+}

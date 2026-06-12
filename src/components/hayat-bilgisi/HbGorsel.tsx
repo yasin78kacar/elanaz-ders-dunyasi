@@ -25,6 +25,11 @@ const NESNE: Record<string, { emoji: string; etiket: string }> = {
   dede: { emoji: '👴', etiket: 'Dede' },
   nine: { emoji: '👵', etiket: 'Nine' },
   doktor: { emoji: '👨‍⚕️', etiket: 'Doktor' },
+  hemsire: { emoji: '👩‍⚕️', etiket: 'Hemşire' },
+  sut: { emoji: '🥛', etiket: 'Süt' },
+  meyve: { emoji: '🍎', etiket: 'Meyve' },
+  sebze: { emoji: '🥕', etiket: 'Sebze' },
+  calismaplani: { emoji: '📅', etiket: 'Çalışma Planı' },
   polis: { emoji: '👮', etiket: 'Polis' },
   itfaiye: { emoji: '🚒', etiket: 'İtfaiye' },
   cop: { emoji: '🗑️', etiket: 'Çöp' },
@@ -34,6 +39,26 @@ const NESNE: Record<string, { emoji: string; etiket: string }> = {
   mahalle: { emoji: '🏘️', etiket: 'Mahalle' },
   trafik: { emoji: '🚦', etiket: 'Trafik' },
   temizlik: { emoji: '🧹', etiket: 'Temizlik' },
+  sabun: { emoji: '🧼', etiket: 'Sabun' },
+  disFircasi: { emoji: '🪥', etiket: 'Diş Fırçası' },
+  vitamin: { emoji: '💊', etiket: 'Vitamin' },
+  ambulans: { emoji: '🚑', etiket: 'Ambulans' },
+  eczane: { emoji: '💉', etiket: 'Eczane' },
+  spor: { emoji: '⚽', etiket: 'Spor' },
+  emniyetKemeri: { emoji: '🔒', etiket: 'Emniyet Kemeri' },
+  tablet: { emoji: '📱', etiket: 'Tablet' },
+  deprem: { emoji: '🏚️', etiket: 'Deprem' },
+  itfaiyeci: { emoji: '👨‍🚒', etiket: 'İtfaiyeci' },
+  firinci: { emoji: '🥖', etiket: 'Fırıncı' },
+  ciftci: { emoji: '👨‍🌾', etiket: 'Çiftçi' },
+  ascı: { emoji: '👨‍🍳', etiket: 'Aşçı' },
+  muhendis: { emoji: '👷', etiket: 'Mühendis' },
+  pilot: { emoji: '✈️', etiket: 'Pilot' },
+  veteriner: { emoji: '🐾', etiket: 'Veteriner' },
+  marangoz: { emoji: '🪚', etiket: 'Marangoz' },
+  gazeteci: { emoji: '📰', etiket: 'Gazeteci' },
+  astronot: { emoji: '👨‍🚀', etiket: 'Astronot' },
+  temizlikGorevlisi: { emoji: '🧹', etiket: 'Temizlik Görevlisi' },
   default: { emoji: '🏠', etiket: 'Hayat Bilgisi' },
 };
 
@@ -159,6 +184,60 @@ function SahneGorsel({ sahne, ozellik }: { sahne?: string; ozellik?: string }) {
   );
 }
 
+function ElYikamaGorsel() {
+  const w = 160;
+  const h = 120;
+  return (
+    <View style={styles.ortala}>
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Ellipse cx={80} cy={70} rx={50} ry={35} fill={GEO.mavi + '44'} stroke={GEO.metin} />
+        <Circle cx={55} cy={55} r={8} fill="#FFF" stroke={GEO.metin} />
+        <Circle cx={80} cy={50} r={8} fill="#FFF" stroke={GEO.metin} />
+        <Circle cx={105} cy={55} r={8} fill="#FFF" stroke={GEO.metin} />
+        <SvgText x={80} y={105} fontSize={10} fill={GEO.metin} textAnchor="middle">
+          El yıkama
+        </SvgText>
+      </Svg>
+    </View>
+  );
+}
+
+function TrafikGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <View style={[styles.kart, { backgroundColor: GEO.kirmizi + '55' }]}>
+        <GuvenliMetin style={styles.emoji} tamGenislik>
+          🔴
+        </GuvenliMetin>
+        <GuvenliMetin style={styles.etiket} tamGenislik>
+          Dur
+        </GuvenliMetin>
+      </View>
+      <View style={[styles.kart, { backgroundColor: GEO.yesil + '55' }]}>
+        <GuvenliMetin style={styles.emoji} tamGenislik>
+          🟢
+        </GuvenliMetin>
+        <GuvenliMetin style={styles.etiket} tamGenislik>
+          Geç
+        </GuvenliMetin>
+      </View>
+      <NesneKart anahtar="cocuk" etiket="Yaya geçidi" />
+    </View>
+  );
+}
+
+function MeslekCarki() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="itfaiyeci" />
+      <NesneKart anahtar="ogretmen" />
+      <NesneKart anahtar="firinci" />
+      <NesneKart anahtar="muhendis" />
+      <NesneKart anahtar="doktor" />
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'os-anlatim-1':
@@ -194,6 +273,40 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       );
     case 'tc-anlatim-3':
       return <CevreGorsel />;
+    case 'st-anlatim-1':
+      return <ElYikamaGorsel />;
+    case 'st-anlatim-2':
+      return <GrupGorsel nesneler={['sut', 'sebze', 'meyve']} />;
+    case 'st-anlatim-3':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="doktor" />
+          <NesneKart anahtar="hemsire" etiket="Hemşire" />
+        </View>
+      );
+    case 'gy-anlatim-1':
+      return <TrafikGorsel />;
+    case 'gy-anlatim-2':
+      return (
+        <KuralListesi
+          baslik="Evde Güvenlik"
+          maddeler={['Bıçakla oynama', 'Şişe içme', 'Prize dokunma', 'Yetişkinden yardım iste']}
+        />
+      );
+    case 'gy-anlatim-3':
+      return <NesneKart anahtar="tablet" etiket="Güvenli teknoloji" />;
+    case 'mc-anlatim-1':
+      return <MeslekCarki />;
+    case 'mc-anlatim-2':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="muhendis" />
+          <NesneKart anahtar="pilot" />
+          <NesneKart anahtar="ciftci" />
+        </View>
+      );
+    case 'mc-anlatim-3':
+      return <NesneKart anahtar="calisma-plani" etiket="Planlı çalışma" />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }
