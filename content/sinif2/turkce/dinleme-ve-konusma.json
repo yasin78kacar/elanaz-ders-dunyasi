@@ -1,0 +1,922 @@
+{
+  "id": "dinleme-ve-konusma",
+  "baslik": "Dinleme ve Konuşma",
+  "kazanimKodu": "TUR.2.3.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "DİNLEMEK sadece duymak değildir! İyi bir dinleyici: konuşana bakar, sessiz olur, anlamaya çalışır ve gerekirse soru sorar.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "dk-anlatim-1"
+        }
+      },
+      {
+        "metin": "KONUŞMAK düşüncelerimizi sesle ifade etmektir. İyi bir konuşmacı: açık ve anlaşılır konuşur, sırasını bekler, kibarca ifade eder.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "dk-anlatim-2"
+        }
+      },
+      {
+        "metin": "İLETİŞİM kurmanın altın kuralları: Karşındakine saygı göster. Sözünü kesme. Konuya odaklan. Nezaket kelimelerini kullan: \"Lütfen, teşekkür ederim, özür dilerim.\"",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "dk-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "dk-a1",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "İyi bir dinleyici ne yapar?",
+      "dogruCevap": "Konuşana bakar, sessiz olur, anlamaya çalışır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinleyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a2",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Arkadaşın konuşurken ne yapmalısın?",
+      "dogruCevap": "Sessizce dinlemeliyim",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinleme-sahnesi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a3",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Lütfen\" ne zaman kullanılır?",
+      "dogruCevap": "Bir şey istenirken",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kibarca-isteyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a4",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Öğretmen anlatırken ne yapmalısın?",
+      "dogruCevap": "Dikkatle dinlemeliyim, not almalıyım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ogretmen-dinleyen-ogrenciler",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "dk-a5",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Telefonda konuşurken nasıl davranmalısın?",
+      "dogruCevap": "Açık ve anlaşılır konuşmalı, kibarca davranmalıyım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "telefonda-konusan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a6",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Özür dilerim\" ne zaman söylenir?",
+      "dogruCevap": "Hata yapıldığında veya birini rahatsız ettiğinde",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ozur-dileyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a7",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Sınıfta konuşmak istediğinde ne yapmalısın?",
+      "dogruCevap": "Elimi kaldırmalıyım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "el-kaldiran-ogrenci",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a8",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "İyi bir konuşma için ne gerekir?",
+      "dogruCevap": "Açık, anlaşılır, saygılı konuşmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "konusma-balonu",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a9",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Dinlerken anlamadığın bir şey olursa ne yaparsın?",
+      "dogruCevap": "Kibarca soru sorarım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "soru-soran-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a10",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Teşekkür ederim\" ne zaman söylenir?",
+      "dogruCevap": "Yardım alındığında veya hediye alındığında",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tesekkur-eden-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a11",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Arkadaşının sözünü kesmek neden yanlıştır?",
+      "dogruCevap": "Saygısızlık olur, konuşanı rahatsız eder",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sozu-kesilen-kisi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a12",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Toplu taşımada yüksek sesle konuşmak doğru mu?",
+      "dogruCevap": "Hayır, etrafı rahatsız eder",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "otobuste-sessiz-konusma",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "dk-a13",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "İyi bir dinleyici nasıl oturur?",
+      "dogruCevap": "Dik ve dikkatli, konuşana yönelik",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dikkatli-oturan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a14",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Konuşurken ne yapmamalısın?",
+      "dogruCevap": "Yüksek sesle bağırmamalı, sözünü kesmemeli",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yanlis-konusma-davranislari",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a15",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Rica ederim\" ne anlama gelir?",
+      "dogruCevap": "Teşekküre verilen kibarca cevap",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kibarca-konusan-cocuklar",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a16",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Sunuş yaparken nasıl konuşmalısın?",
+      "dogruCevap": "Yüksek, net ve anlaşılır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sunum-yapan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a17",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Arkadaşın üzgünse ne söylersin?",
+      "dogruCevap": "\"Geçmiş olsun, sana yardım edebilir miyim?\"",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "teselli-eden-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a18",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Dinlemek neden önemlidir?",
+      "dogruCevap": "Bilgi öğreniriz, karşımızdakine saygı gösteririz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinlemenin-onemi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a19",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Konuşma sırası sana geldiğinde ne yaparsın?",
+      "dogruCevap": "Açık ve net konuşur, konuya odaklanırım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "konusma-sirasi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a20",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Yanlış anladığında ne yaparsın?",
+      "dogruCevap": "\"Özür dilerim, tekrar anlatır mısın?\" derim",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yanlis-anlama-sahnesi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a21",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Kalabalık bir yerde konuşurken ne yapmalısın?",
+      "dogruCevap": "Net ama saygılı bir ses tonu kullanmalıyım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kalabalik-ortam",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "dk-a22",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "İyi iletişimin en önemli kuralı nedir?",
+      "dogruCevap": "Karşındakine saygı göstermek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "saygi-sembolu",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "dk-a23",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Birinin adını bilmiyorsan nasıl sorarsın?",
+      "dogruCevap": "\"Özür dilerim, adınız ne?\" diye sorarım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kibarca-soran-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-a24",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Konuşmak ile yazmak arasındaki fark nedir?",
+      "dogruCevap": "Konuşma sesle, yazma harflerle ifade edilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "konusma-yazma-karsilastirma",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "dk-a25",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "yazili",
+      "soru": "Empati nedir?",
+      "dogruCevap": "Karşındakinin duygularını anlamaya çalışmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "empati-gosteren-cocuklar",
+        "nesne": "cocuk"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "dk-t1",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İyi bir dinleyici hangisini yapar?",
+      "dogruCevap": "Konuşana bakarak sessizce dinler",
+      "secenekler": [
+        "Başka şeylerle ilgilenir",
+        "Yüksek sesle güler",
+        "Konuşanın sözünü keser",
+        "Konuşana bakarak sessizce dinler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iyi-dinleyici",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t2",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta konuşmak istediğinde ne yapmalısın?",
+      "dogruCevap": "Elini kaldırmalı",
+      "secenekler": [
+        "Arkadaşına fısıldamalı",
+        "Elini kaldırmalı",
+        "Bağırarak söylemeli",
+        "Öğretmeni iterek geçmeli"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "el-kaldiran-ogrenci",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t3",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Lütfen\" sözcüğü ne zaman kullanılır?",
+      "dogruCevap": "Bir şey istenirken",
+      "secenekler": [
+        "Veda ederken",
+        "Bir şey istenirken",
+        "Gülerken",
+        "Kızarken"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kibarca-isteyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t4",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Arkadaşın konuşurken ne yapmalısın?",
+      "dogruCevap": "Sessizce dinlemeli",
+      "secenekler": [
+        "Sözünü kesmeli",
+        "Başka yöne bakmalı",
+        "Gülerek geçmeli",
+        "Sessizce dinlemeli"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinleme-sahnesi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t5",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Teşekkür ederim\" hangi durumda söylenir?",
+      "dogruCevap": "Yardım alınca",
+      "secenekler": [
+        "Veda ederken",
+        "Hata yapınca",
+        "Kızınca",
+        "Yardım alınca"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tesekkur-eden-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t6",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Öğretmen ders anlatırken ne yapılmalıdır?",
+      "dogruCevap": "Dikkatle dinlenilmeli",
+      "secenekler": [
+        "Oyun oynanmalı",
+        "Dikkatle dinlenilmeli",
+        "Arkadaşla konuşulmalı",
+        "Yüksek sesle gülünmeli"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ders-dinleyen-ogrenciler",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "dk-t7",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Birinin sözünü kesmek neden yanlıştır?",
+      "dogruCevap": "Saygısızlıktır ve konuşanı rahatsız eder",
+      "secenekler": [
+        "Öğretmen duyar",
+        "Zaman kaybettirir",
+        "Ses çıkarır",
+        "Saygısızlıktır ve konuşanı rahatsız eder"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sozu-kesilen-kisi",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t8",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Anlamadığın bir şeyi sormak için nasıl davranırsın?",
+      "dogruCevap": "Kibarca elini kaldırıp sorarsın",
+      "secenekler": [
+        "Sessiz kalırsın",
+        "Kibarca elini kaldırıp sorarsın",
+        "Arkadaşına sorarsın",
+        "Bağırırsın"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "soru-soran-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t9",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Özür dilerim\" ne zaman söylenir?",
+      "dogruCevap": "Hata yapınca veya birini rahatsız edince",
+      "secenekler": [
+        "Hata yapınca veya birini rahatsız edince",
+        "Yardım alınca",
+        "Gülerken",
+        "Hediye alınca"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ozur-dileyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t10",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İyi bir konuşmacı nasıl konuşur?",
+      "dogruCevap": "Açık, net ve saygılı",
+      "secenekler": [
+        "Çok hızlı ve yüksek sesle",
+        "Fısıldayarak",
+        "Açık, net ve saygılı",
+        "Sadece kendi bildiği kelimelerle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iyi-konusmaci",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t11",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Toplu taşımada yüksek sesle konuşmak neden yanlıştır?",
+      "dogruCevap": "Etrafındaki insanları rahatsız eder",
+      "secenekler": [
+        "Etrafındaki insanları rahatsız eder",
+        "Ses çıkarır",
+        "Kurallar var",
+        "Öğretmen duyar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "otobuste-sessiz-konusma",
+        "nesne": "default"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t12",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Dinlemenin önemi nedir?",
+      "dogruCevap": "Bilgi öğrenmek ve saygı göstermek",
+      "secenekler": [
+        "Uyumamak",
+        "Konuşmamak",
+        "Bilgi öğrenmek ve saygı göstermek",
+        "Zaman geçirmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinlemenin-onemi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t13",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Rica ederim\" hangi durumda söylenir?",
+      "dogruCevap": "Teşekküre cevap verirken",
+      "secenekler": [
+        "İstekte bulununca",
+        "Veda ederken",
+        "Teşekküre cevap verirken",
+        "Hata yapınca"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kibarca-konusma",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t14",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Empati nedir?",
+      "dogruCevap": "Karşındakinin duygularını anlamaya çalışmak",
+      "secenekler": [
+        "Kendini düşünmek",
+        "Çok konuşmak",
+        "Sessiz kalmak",
+        "Karşındakinin duygularını anlamaya çalışmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "empati-sahnesi",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t15",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Konuşma ile yazmanın ortak amacı nedir?",
+      "dogruCevap": "Düşünceleri ve duyguları ifade etmek",
+      "secenekler": [
+        "Düşünceleri ve duyguları ifade etmek",
+        "Uyumak",
+        "Oyun oynamak",
+        "Eğlenmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "konusma-ve-yazma",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "dk-t16",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sunuş yaparken nasıl konuşmalısın?",
+      "dogruCevap": "Yüksek ve net",
+      "secenekler": [
+        "Çok hızlı",
+        "Arkaya dönerek",
+        "Yüksek ve net",
+        "Fısıldayarak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sunum-yapan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t17",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İletişimin altın kuralı nedir?",
+      "dogruCevap": "Karşındakine saygı göstermek",
+      "secenekler": [
+        "Hep haklı olmak",
+        "Karşındakine saygı göstermek",
+        "Sessiz kalmak",
+        "Çok konuşmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iletisim-kurallari",
+        "nesne": "default"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t18",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Arkadaşın üzgünse ne yaparsın?",
+      "dogruCevap": "Teselli edersin",
+      "secenekler": [
+        "Görmezden gelirsin",
+        "Teselli edersin",
+        "Gülersin",
+        "Kaçarsın"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "teselli-eden-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t19",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi davranış iyi iletişimi gösterir?",
+      "dogruCevap": "Kibarca dinlemek ve konuşmak",
+      "secenekler": [
+        "Bağırarak konuşmak",
+        "Kibarca dinlemek ve konuşmak",
+        "Yüzünü çevirmek",
+        "Sözünü kesmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iyi-iletisim-sahnesi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t20",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Telefonda konuşurken ne yapmamalısın?",
+      "dogruCevap": "Bağırarak konuşmamalısın",
+      "secenekler": [
+        "Selamlaşmamalısın",
+        "Kibarca konuşmamalısın",
+        "Net konuşmamalısın",
+        "Bağırarak konuşmamalısın"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "telefon-konusmasi",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t21",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Nezaket sözcükleri nelerdir?",
+      "dogruCevap": "Lütfen, teşekkür ederim, özür dilerim",
+      "secenekler": [
+        "Bağır, koş, git",
+        "Lütfen, teşekkür ederim, özür dilerim",
+        "Ben, sen, o",
+        "Evet, hayır, belki"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "kart",
+        "harfler": [
+          "Lütfen",
+          "Teşekkür ederim",
+          "Özür dilerim"
+        ]
+      }
+    },
+    {
+      "id": "dk-t22",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kalabalıkta kaybolunca ne yaparsın?",
+      "dogruCevap": "Güvenli bir yetişkine kibarca yardım istersin",
+      "secenekler": [
+        "Koşarsın",
+        "Güvenli bir yetişkine kibarca yardım istersin",
+        "Sessiz beklersin",
+        "Ağlarsın"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kalabalikta-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "dk-t23",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Dinlemek duymaktan farklıdır\" ne anlama gelir?",
+      "dogruCevap": "Dinlemek aktif anlamaya çalışmaktır, duymak sadece sesi algılamaktır",
+      "secenekler": [
+        "İkisi aynıdır",
+        "Duymak daha iyidir",
+        "Dinlemek aktif anlamaya çalışmaktır, duymak sadece sesi algılamaktır",
+        "İkisi de gereksizdir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinlemek-vs-duymak",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "dk-t24",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi ortamda daha dikkatli konuşmalısın?",
+      "dogruCevap": "Kütüphanede",
+      "secenekler": [
+        "Oyun alanında",
+        "Spor alanında",
+        "Kütüphanede",
+        "Parkta"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-sahnesi",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "dk-t25",
+      "kazanimKodu": "TUR.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İyi bir iletişimci için en önemli özellik nedir?",
+      "dogruCevap": "Karşındakini dinlemek ve anlamak",
+      "secenekler": [
+        "Karşındakini dinlemek ve anlamak",
+        "Hızlı konuşmak",
+        "Yüksek sesle konuşmak",
+        "Çok kelime bilmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iletisim-sahnesi",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    }
+  ]
+}

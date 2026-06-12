@@ -33,6 +33,9 @@ import noktalamaVeYazim from '../../content/sinif2/turkce/noktalama-ve-yazim.jso
 import hikayeMetni from '../../content/sinif2/turkce/hikaye-metni.json';
 import siir from '../../content/sinif2/turkce/siir.json';
 import bilgiMetni from '../../content/sinif2/turkce/bilgi-metni.json';
+import yazmaBecerileri from '../../content/sinif2/turkce/yazma-becerileri.json';
+import dinlemeVeKonusma from '../../content/sinif2/turkce/dinleme-ve-konusma.json';
+import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgisi.json';
 import canlilarVeCansizlar from '../../content/sinif2/fen-bilimleri/canlilar-ve-cansizlar.json';
 import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
 import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
@@ -75,6 +78,9 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/hikaye-metni.json': hikayeMetni as Konu,
   'turkce/siir.json': siir as Konu,
   'turkce/bilgi-metni.json': bilgiMetni as Konu,
+  'turkce/yazma-becerileri.json': yazmaBecerileri as Konu,
+  'turkce/dinleme-ve-konusma.json': dinlemeVeKonusma as Konu,
+  'turkce/sozcuk-ve-dil-bilgisi.json': sozcukVeDilBilgisi as Konu,
   'fen-bilimleri/canlilar-ve-cansizlar.json': canlilarVeCansizlar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,

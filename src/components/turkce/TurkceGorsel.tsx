@@ -45,6 +45,11 @@ const NESNE_EMOJI: Record<string, string> = {
   hikaye: '📖',
   siir: '📜',
   bilgi: '📘',
+  semsiye: '☂️',
+  palto: '🧥',
+  telefon: '📱',
+  otobus: '🚌',
+  masa: '🪑',
   default: '📝',
 };
 
@@ -323,6 +328,121 @@ function BilgiYapisi() {
   );
 }
 
+function ParagrafYapisi() {
+  return (
+    <View style={styles.ortala}>
+      <View style={[styles.cumleParca, { borderLeftWidth: 4, borderLeftColor: GEO.mavi, paddingLeft: 12 }]}>
+        <GuvenliMetin style={styles.cumleMetin} tamGenislik>
+          Ana fikir cümlesi burada başlar.
+        </GuvenliMetin>
+        <GuvenliMetin style={[styles.cumleMetin, { fontSize: 14 }]} tamGenislik>
+          Detay cümleleri paragrafı tamamlar.
+        </GuvenliMetin>
+      </View>
+      <GuvenliMetin style={styles.bolumBaslik} tamGenislik>
+        Girinti + Ana fikir
+      </GuvenliMetin>
+    </View>
+  );
+}
+
+function HikayeSoruKartlari() {
+  const etiketler = ['Kim?', 'Nerede?', 'Ne yaptı?', 'Ne oldu?'];
+  const renkler = [GEO.kirmizi, GEO.mavi, GEO.yesil, GEO.turuncu];
+  return (
+    <View style={styles.soruIsaretSatir}>
+      {etiketler.map((e, i) => (
+        <View key={e} style={[styles.soruIsaret, { backgroundColor: renkler[i] + '33' }]}>
+          <GuvenliMetin style={styles.soruIsaretMetin} tamGenislik={false}>
+            {e}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function IletisimKurallari() {
+  const kurallar = ['Saygı göster', 'Söz kesme', 'Odaklan', 'Nezaket'];
+  const renkler = [GEO.yesil, GEO.kirmizi, GEO.mavi, GEO.turuncu];
+  return (
+    <View style={styles.cumleTurSatir}>
+      {kurallar.map((k, i) => (
+        <View key={k} style={[styles.cumleTurKutu, { backgroundColor: renkler[i] + '33' }]}>
+          <GuvenliMetin style={styles.cumleEtiket} tamGenislik>
+            {k}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function SozcukTuruKartlari() {
+  return (
+    <View style={styles.karsSatir}>
+      {[
+        { tur: 'İsim', ornek: 'kalem', renk: GEO.mavi },
+        { tur: 'Sıfat', ornek: 'kırmızı', renk: GEO.turuncu },
+        { tur: 'Fiil', ornek: 'koşmak', renk: GEO.yesil },
+        { tur: 'Zamir', ornek: 'ben', renk: GEO.mor },
+      ].map((s) => (
+        <View key={s.tur} style={[styles.karsKart, { backgroundColor: s.renk + '33' }]}>
+          <GuvenliMetin style={styles.karsMetin} tamGenislik>
+            {s.tur}
+          </GuvenliMetin>
+          <GuvenliMetin style={[styles.karsMetin, { fontSize: 12 }]} tamGenislik>
+            {s.ornek}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function ZamirGosterme() {
+  return (
+    <View style={styles.karsSatir}>
+      <View style={styles.karsKart}>
+        <GuvenliMetin style={styles.karsMetin} tamGenislik>
+          Ali geldi.
+        </GuvenliMetin>
+      </View>
+      <GuvenliMetin style={styles.ok} tamGenislik={false}>
+        →
+      </GuvenliMetin>
+      <View style={[styles.karsKart, { backgroundColor: GEO.mor + '33' }]}>
+        <GuvenliMetin style={styles.karsMetin} tamGenislik>
+          O mutluydu.
+        </GuvenliMetin>
+      </View>
+    </View>
+  );
+}
+
+function DinlemeSahnesi() {
+  return (
+    <View style={styles.karsSatir}>
+      <View style={styles.sahne}>
+        <GuvenliMetin style={styles.nesneEmoji} tamGenislik>
+          🗣️
+        </GuvenliMetin>
+        <GuvenliMetin style={styles.sahneBaslik} tamGenislik>
+          Konuşan
+        </GuvenliMetin>
+      </View>
+      <View style={styles.sahne}>
+        <GuvenliMetin style={styles.nesneEmoji} tamGenislik>
+          👂
+        </GuvenliMetin>
+        <GuvenliMetin style={styles.sahneBaslik} tamGenislik>
+          Dinleyen
+        </GuvenliMetin>
+      </View>
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'sh-anlatim-1':
@@ -413,6 +533,35 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <BilgiYapisi />;
     case 'bt-anlatim-3':
       return <SahneGorsel sahne="not-alma" nesne="kitap" />;
+    case 'yz-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <SahneGorsel sahne="yazan" nesne="kalem" />
+          <CumleAnaliz metin="Ali koştu." cumleTuru="Tam cümle" />
+        </View>
+      );
+    case 'yz-anlatim-2':
+      return <ParagrafYapisi />;
+    case 'yz-anlatim-3':
+      return <HikayeSoruKartlari />;
+    case 'dk-anlatim-1':
+      return <DinlemeSahnesi />;
+    case 'dk-anlatim-2':
+      return <SahneGorsel sahne="sunum" nesne="ogretmen" />;
+    case 'dk-anlatim-3':
+      return <IletisimKurallari />;
+    case 'sdb-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <SahneGorsel sahne="isim" nesne="kalem" />
+          <SahneGorsel sahne="isim" nesne="kedi" />
+          <SahneGorsel sahne="isim" nesne="masa" />
+        </View>
+      );
+    case 'sdb-anlatim-2':
+      return <SozcukTuruKartlari />;
+    case 'sdb-anlatim-3':
+      return <ZamirGosterme />;
     default:
       return <SahneGorsel sahne={sahne} />;
   }

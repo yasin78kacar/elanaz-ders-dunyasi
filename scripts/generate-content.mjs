@@ -59,6 +59,7 @@ import {
   seslerVeHeceler,
 } from './gorev-turkce1-questions.mjs';
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
+import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { spawnSync } from 'child_process';
 
@@ -420,6 +421,13 @@ writeFileSync(join(turkceDir, 'hikaye-metni.json'), JSON.stringify(hikayeMetniKo
 writeFileSync(join(turkceDir, 'siir.json'), JSON.stringify(siirKonu, null, 2));
 writeFileSync(join(turkceDir, 'bilgi-metni.json'), JSON.stringify(bilgiMetniKonu, null, 2));
 
+const yazmaBecerileriKonu = yazmaBecerileri(karistir);
+const dinlemeVeKonusmaKonu = dinlemeVeKonusma(karistir);
+const sozcukVeDilBilgisiKonu = sozcukVeDilBilgisi(karistir);
+writeFileSync(join(turkceDir, 'yazma-becerileri.json'), JSON.stringify(yazmaBecerileriKonu, null, 2));
+writeFileSync(join(turkceDir, 'dinleme-ve-konusma.json'), JSON.stringify(dinlemeVeKonusmaKonu, null, 2));
+writeFileSync(join(turkceDir, 'sozcuk-ve-dil-bilgisi.json'), JSON.stringify(sozcukVeDilBilgisiKonu, null, 2));
+
 const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
 const bitkilerKonu = bitkiler(karistir);
 const hayvanlarKonu = hayvanlar(karistir);
@@ -510,6 +518,15 @@ const index = {
             'turkce/hikaye-metni.json',
             'turkce/siir.json',
             'turkce/bilgi-metni.json',
+          ],
+        },
+        {
+          id: 'tema-3',
+          baslik: 'Türkçe — Tema 3',
+          konuDosyalari: [
+            'turkce/yazma-becerileri.json',
+            'turkce/dinleme-ve-konusma.json',
+            'turkce/sozcuk-ve-dil-bilgisi.json',
           ],
         },
       ] },
@@ -661,6 +678,9 @@ console.log('Noktalama ve yazım:', noktalamaVeYazimKonu.alistirma.length, '+', 
 console.log('Hikâye metni:', hikayeMetniKonu.alistirma.length, '+', hikayeMetniKonu.test.length);
 console.log('Şiir:', siirKonu.alistirma.length, '+', siirKonu.test.length);
 console.log('Bilgi metni:', bilgiMetniKonu.alistirma.length, '+', bilgiMetniKonu.test.length);
+console.log('Yazma becerileri:', yazmaBecerileriKonu.alistirma.length, '+', yazmaBecerileriKonu.test.length);
+console.log('Dinleme ve konuşma:', dinlemeVeKonusmaKonu.alistirma.length, '+', dinlemeVeKonusmaKonu.test.length);
+console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length, '+', sozcukVeDilBilgisiKonu.test.length);
 console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
 console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
 console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
