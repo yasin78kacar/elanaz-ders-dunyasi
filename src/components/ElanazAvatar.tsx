@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { resolveCharacterImage } from '../assets/imageCatalog';
+import { FLOW_TEST_ELanaz } from './FlowImage';
 import { colors } from '../theme/colors';
 
 interface Props {
@@ -8,15 +10,17 @@ interface Props {
 
 /** Ana karakter — elanaz.jpeg; yoksa renkli baş harf yedek. */
 export function ElanazAvatar({ size = 64 }: Props) {
-  const source = resolveCharacterImage();
+  const [failed, setFailed] = useState(false);
+  const source = resolveCharacterImage() ?? FLOW_TEST_ELanaz;
 
-  if (source !== undefined) {
+  if (source !== undefined && !failed) {
     return (
       <Image
         source={source}
         style={{ width: size, height: size, borderRadius: size / 2 }}
         resizeMode="cover"
         accessibilityLabel="Elanaz"
+        onError={() => setFailed(true)}
       />
     );
   }

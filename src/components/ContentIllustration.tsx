@@ -21,12 +21,12 @@ interface Props {
   konuId?: string;
 }
 
-function gorselKutusu(children: ReactNode, tabanYukseklik = 200) {
-  return (
-    <View style={styles.kutu}>
-      <GorselOlcek tabanYukseklik={tabanYukseklik}>{children}</GorselOlcek>
-    </View>
-  );
+function gorselKutusu(children: ReactNode) {
+  return <View style={styles.kutu}>{children}</View>;
+}
+
+function svgYedek(svg: ReactNode, tabanYukseklik = 200) {
+  return <GorselOlcek tabanYukseklik={tabanYukseklik}>{svg}</GorselOlcek>;
 }
 
 function flowVeyaSvg(
@@ -35,7 +35,9 @@ function flowVeyaSvg(
   svg: ReactNode,
 ) {
   const source = resolveFlowImage(anahtar, konuId);
-  return gorselKutusu(<FlowOrFallback source={source} fallback={svg} />);
+  return gorselKutusu(
+    <FlowOrFallback source={source} fallback={svgYedek(svg)} />,
+  );
 }
 
 export function ContentIllustration({ gorsel, konuId }: Props) {
@@ -46,14 +48,20 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       const anahtar = `sayi-seridi-${gorsel.baslangic}-${gorsel.adim}`;
       const source = resolveFlowImage(anahtar, konuId);
       return gorselKutusu(
-        <FlowOrFallback source={source} fallback={<SayiSeridi {...gorsel} />} />,
+        <FlowOrFallback
+          source={source}
+          fallback={svgYedek(<SayiSeridi {...gorsel} />)}
+        />,
       );
     }
 
     if (gorsel.tur === 'kap') {
       const source = resolveFlowImageForTur('kap', gorsel.sahne, 'sivi-olcme');
       return gorselKutusu(
-        <FlowOrFallback source={source} fallback={<G5mGorsel sahne={gorsel.sahne} />} />,
+        <FlowOrFallback
+          source={source}
+          fallback={svgYedek(<G5mGorsel sahne={gorsel.sahne} />)}
+        />,
       );
     }
 
@@ -68,7 +76,9 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
         <GeoGorsel sahne={gorsel.sahne} />
       );
       const source = resolveFlowImageForTur('nesne', gorsel.sahne, konuId);
-      return gorselKutusu(<FlowOrFallback source={source} fallback={svg} />);
+      return gorselKutusu(
+        <FlowOrFallback source={source} fallback={svgYedek(svg)} />,
+      );
     }
   }
 
@@ -77,19 +87,23 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
   const flowSource = resolveFlowImage(gorselId, konuId);
 
   if (flowSource !== undefined) {
-    return gorselKutusu(<FlowOrFallback source={flowSource} fallback={null} />);
+    return gorselKutusu(
+      <FlowOrFallback source={flowSource} fallback={null} />,
+    );
   }
 
   return gorselKutusu(
-    <>
-      {gorselId === 'sayi-kartlari' && <SayiKartlari />}
-      {gorselId === 'sayi-kart-47' && <SayiKart47 />}
-      {gorselId === 'elma-gruplari' && <ElmaGruplari />}
-      {blok && <OnlukBlokIllustration onluk={blok.onluk} birlik={blok.birlik} />}
-      {gorselId === 'cizim-kalemleri' && <CizimKalemleri />}
-      {gorselId === 'renk-karistirma' && <RenkKaristirma />}
-      {gorselId === 'panoya-asilan-resim' && <PanoyaAsilanResim />}
-    </>,
+    svgYedek(
+      <>
+        {gorselId === 'sayi-kartlari' && <SayiKartlari />}
+        {gorselId === 'sayi-kart-47' && <SayiKart47 />}
+        {gorselId === 'elma-gruplari' && <ElmaGruplari />}
+        {blok && <OnlukBlokIllustration onluk={blok.onluk} birlik={blok.birlik} />}
+        {gorselId === 'cizim-kalemleri' && <CizimKalemleri />}
+        {gorselId === 'renk-karistirma' && <RenkKaristirma />}
+        {gorselId === 'panoya-asilan-resim' && <PanoyaAsilanResim />}
+      </>,
+    ),
   );
 }
 
