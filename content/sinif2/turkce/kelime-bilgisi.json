@@ -1,0 +1,990 @@
+{
+  "id": "kelime-bilgisi",
+  "baslik": "Kelime Bilgisi",
+  "kazanimKodu": "TUR.2.1.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "EŞ ANLAMLI KELİMELER: Yazılışları farklı ama anlamları aynı olan kelimelerdir. \"güzel = hoş\", \"hızlı = çabuk\", \"büyük = iri\".",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "kb-anlatim-1"
+        }
+      },
+      {
+        "metin": "ZIT ANLAMLI KELİMELER: Anlamları birbirinin tersi olan kelimelerdir. \"büyük ↔ küçük\", \"sıcak ↔ soğuk\", \"açık ↔ kapalı\".",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "kb-anlatim-2"
+        }
+      },
+      {
+        "metin": "EŞ SESLİ KELİMELER: Yazılış ve okunuşları aynı ama anlamları farklı kelimelerdir. \"yüz\" → hem sayı (100), hem vücudun bir parçası!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "kb-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "kb-a1",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"güzel\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "hoş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "guzel-cicek",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "kb-a2",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"büyük\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "küçük",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a3",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"hızlı\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "çabuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kosan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "kb-a4",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"sıcak\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "soğuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kar (yağış)",
+          "kar (kazanç)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-a5",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"mutlu\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "mutsuz/üzgün",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-a6",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"yüz\" kelimesinin iki farklı anlamı nedir?",
+      "dogruCevap": "100 sayısı ve insan yüzü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-a7",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"açık\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "kapalı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "acik-kapali",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "kb-a8",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"kolay\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "zor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "gece",
+          "gündüz"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a9",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"şişman\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "zayıf/ince",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a10",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"ev\" anlamına gelen başka bir kelime nedir?",
+      "dogruCevap": "konut, yuva",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ev",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "kb-a11",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"kar\" kelimesinin iki farklı anlamı nedir?",
+      "dogruCevap": "beyaz yağış ve kazanç",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kar (yağış)",
+          "kar (kazanç)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-a12",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"temiz\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "kirli",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a13",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"şehir\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "kent",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sehir",
+        "nesne": "istanbul"
+      }
+    },
+    {
+      "id": "kb-a14",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"gece\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "gündüz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a15",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"çocuk\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "evlat, yavru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a16",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"uzun\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "kısa",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a17",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"ben\" kelimesinin iki anlamı var mı?",
+      "dogruCevap": "Evet: \"ben\" (1. tekil kişi) ve \"ben\" (cilt lekesi)",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a18",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"eski\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "yeni",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "eski-yeni",
+        "nesne": "araba"
+      }
+    },
+    {
+      "id": "kb-a19",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"yardım etmek\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "destek olmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a20",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"aydınlık\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "karanlık",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kar (yağış)",
+          "kar (kazanç)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-a21",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"kır\" kelimesinin iki farklı anlamı nedir?",
+      "dogruCevap": "doğa/tarla ve (bir şeyi) kırmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a22",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"çirkin\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "güzel",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-a23",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"hata\" kelimesinin eş anlamlısı nedir?",
+      "dogruCevap": "yanlış, yanılgı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hata-dogru",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a24",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"dolu\" kelimesinin zıt anlamlısı nedir?",
+      "dogruCevap": "boş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dolu-bos",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-a25",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "yazili",
+      "soru": "\"gül\" kelimesinin iki farklı anlamı nedir?",
+      "dogruCevap": "çiçek türü ve gülmek eylemi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "kb-t1",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"güzel\" kelimesinin eş anlamlısı hangisidir?",
+      "dogruCevap": "hoş",
+      "secenekler": [
+        "çirkin",
+        "uzun",
+        "büyük",
+        "hoş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "guzel-cicek",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "kb-t2",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"sıcak\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "soğuk",
+      "secenekler": [
+        "serin",
+        "donuk",
+        "soğuk",
+        "ılık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-t3",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"hızlı\" kelimesinin eş anlamlısı hangisidir?",
+      "dogruCevap": "çabuk",
+      "secenekler": [
+        "yavaş",
+        "sakin",
+        "çabuk",
+        "ağır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kosan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "kb-t4",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"gece\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "gündüz",
+      "secenekler": [
+        "sabah",
+        "öğle",
+        "gündüz",
+        "akşam"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "sıcak",
+          "soğuk"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-t5",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"yüz\" kelimesi aşağıdaki hangi iki anlamda kullanılır?",
+      "dogruCevap": "Sayı ve vücut parçası",
+      "secenekler": [
+        "Sayı ve vücut parçası",
+        "Renk ve ses",
+        "Hayvan ve bitki",
+        "Yiyecek ve içecek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-t6",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"açık\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "kapalı",
+      "secenekler": [
+        "geniş",
+        "aydınlık",
+        "kapalı",
+        "net"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "acik-kapali",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "kb-t7",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"şehir\" kelimesinin eş anlamlısı hangisidir?",
+      "dogruCevap": "kent",
+      "secenekler": [
+        "ülke",
+        "kent",
+        "köy",
+        "mahalle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sehir",
+        "nesne": "istanbul"
+      }
+    },
+    {
+      "id": "kb-t8",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"kar\" kelimesi hangi cümlede \"kazanç\" anlamında kullanılmıştır?",
+      "dogruCevap": "Bu işten kar etti",
+      "secenekler": [
+        "Kar yağdı",
+        "Bu işten kar etti",
+        "Kardan adam yaptık",
+        "Kar beyazdır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kar (yağış)",
+          "kar (kazanç)"
+        ],
+        "iliski": "esSeslilik"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "kb-t9",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"temiz\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "kirli",
+      "secenekler": [
+        "tertipli",
+        "düzgün",
+        "kirli",
+        "pırıl pırıl"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-t10",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"büyük\" kelimesinin eş anlamlısı hangisidir?",
+      "dogruCevap": "iri",
+      "secenekler": [
+        "iri",
+        "geniş",
+        "küçük",
+        "uzun"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "buyuk-fil",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-t11",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"mutlu\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "üzgün",
+      "secenekler": [
+        "sevinçli",
+        "heyecanlı",
+        "neşeli",
+        "üzgün"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-t12",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"gül\" kelimesi hangi cümlede \"çiçek\" anlamında kullanılmıştır?",
+      "dogruCevap": "Bahçede güller açmış",
+      "secenekler": [
+        "Gülünç bir şey söyledi",
+        "Çok güldü",
+        "Bahçede güller açmış",
+        "Gülmekten ağladı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "kb-t13",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"eski\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "yeni",
+      "secenekler": [
+        "pahalı",
+        "yeni",
+        "bozuk",
+        "kullanılmış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "eski-yeni",
+        "nesne": "araba"
+      }
+    },
+    {
+      "id": "kb-t14",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"kolay\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "zor",
+      "secenekler": [
+        "basit",
+        "karmaşık",
+        "sıradan",
+        "zor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "gece",
+          "gündüz"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-t15",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Eş anlamlı kelime çifti hangisidir?",
+      "dogruCevap": "hızlı - çabuk",
+      "secenekler": [
+        "güzel - çirkin",
+        "hızlı - çabuk",
+        "büyük - küçük",
+        "açık - kapalı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "güzel",
+          "hoş"
+        ],
+        "iliski": "esAnlam"
+      }
+    },
+    {
+      "id": "kb-t16",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"kır\" kelimesi hangi cümlede \"doğa\" anlamında kullanılmıştır?",
+      "dogruCevap": "Kırda piknik yaptık",
+      "secenekler": [
+        "Kırık bir şey vardı",
+        "Kırda piknik yaptık",
+        "Camı kırma",
+        "Kalemi kırdı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kır (doğa)",
+          "kır (kırmak)"
+        ],
+        "iliski": "esSeslilik"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "kb-t17",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"uzun\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "kısa",
+      "secenekler": [
+        "dar",
+        "ince",
+        "kısa",
+        "küçük"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-t18",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Zıt anlamlı kelime çifti hangisidir?",
+      "dogruCevap": "dolu - boş",
+      "secenekler": [
+        "ev - konut",
+        "dolu - boş",
+        "hızlı - çabuk",
+        "güzel - hoş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "güzel",
+          "hoş"
+        ],
+        "iliski": "esAnlam"
+      }
+    },
+    {
+      "id": "kb-t19",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"aydınlık\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "karanlık",
+      "secenekler": [
+        "gölgeli",
+        "soluk",
+        "karanlık",
+        "loş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "kar (yağış)",
+          "kar (kazanç)"
+        ],
+        "iliski": "esSeslilik"
+      }
+    },
+    {
+      "id": "kb-t20",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi eş sesli kelimedir?",
+      "dogruCevap": "ben (kişi - cilt lekesi)",
+      "secenekler": [
+        "güzel - hoş",
+        "ev - konut",
+        "büyük - küçük",
+        "ben (kişi - cilt lekesi)"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kelime",
+        "nesne": "default"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "kb-t21",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"çirkin\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "güzel",
+      "secenekler": [
+        "güzel",
+        "sıradan",
+        "düz",
+        "soluk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "zit"
+      }
+    },
+    {
+      "id": "kb-t22",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"dolu\" kelimesinin zıt anlamlısı hangisidir?",
+      "dogruCevap": "boş",
+      "secenekler": [
+        "boş",
+        "az",
+        "hafif",
+        "yarım"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dolu-bos",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-t23",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"yüz\" kelimesinin eş sesli olduğu iki anlam hangisidir?",
+      "dogruCevap": "Sayı (100) ve vücut parçası",
+      "secenekler": [
+        "Yiyecek ve içecek",
+        "Sayı (100) ve vücut parçası",
+        "Hayvan ve bitki",
+        "Renk ve boyut"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "yüz (sayı)",
+          "yüz (vücut)"
+        ],
+        "iliski": "esSeslilik"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "kb-t24",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"hata\" kelimesinin eş anlamlısı hangisidir?",
+      "dogruCevap": "yanlış",
+      "secenekler": [
+        "güzel",
+        "yanlış",
+        "doğru",
+        "başarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hata-dogru",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "kb-t25",
+      "kazanimKodu": "TUR.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi hem eş anlamlı hem zıt anlamlı kelime içermektedir?",
+      "dogruCevap": "\"güzel - hoş, büyük - küçük\"",
+      "secenekler": [
+        "\"sıcak - soğuk, açık - kapalı\"",
+        "\"güzel - hoş, büyük - küçük\"",
+        "\"hızlı - çabuk, şehir - kent\"",
+        "\"ev - konut, gece - gündüz\""
+      ],
+      "ipucu": "eş anlamlı + zıt anlamlı çifti birlikte veren seçenek",
+      "sasirtma": true
+    }
+  ]
+}

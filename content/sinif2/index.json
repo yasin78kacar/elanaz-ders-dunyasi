@@ -4,7 +4,19 @@
     {
       "id": "turkce",
       "baslik": "Türkçe",
-      "unite": []
+      "unite": [
+        {
+          "id": "tema-1",
+          "baslik": "Türkçe — Tema 1",
+          "konuDosyalari": [
+            "turkce/sesler-ve-heceler.json",
+            "turkce/kelime-bilgisi.json",
+            "turkce/okuma-anlama.json",
+            "turkce/cumle-bilgisi.json",
+            "turkce/noktalama-ve-yazim.json"
+          ]
+        }
+      ]
     },
     {
       "id": "matematik",

@@ -25,6 +25,11 @@ import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
 import esitParcalaraBolme from '../../content/sinif2/matematik/esit-parcalara-bolme.json';
 import yarimVeCeyrek from '../../content/sinif2/matematik/yarim-ve-ceyrek.json';
 import basitKesirler from '../../content/sinif2/matematik/basit-kesirler.json';
+import seslerVeHeceler from '../../content/sinif2/turkce/sesler-ve-heceler.json';
+import kelimeBilgisi from '../../content/sinif2/turkce/kelime-bilgisi.json';
+import okumaAnlama from '../../content/sinif2/turkce/okuma-anlama.json';
+import cumleBilgisi from '../../content/sinif2/turkce/cumle-bilgisi.json';
+import noktalamaVeYazim from '../../content/sinif2/turkce/noktalama-ve-yazim.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -56,6 +61,11 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/esit-parcalara-bolme.json': esitParcalaraBolme as Konu,
   'matematik/yarim-ve-ceyrek.json': yarimVeCeyrek as Konu,
   'matematik/basit-kesirler.json': basitKesirler as Konu,
+  'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
+  'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
+  'turkce/okuma-anlama.json': okumaAnlama as Konu,
+  'turkce/cumle-bilgisi.json': cumleBilgisi as Konu,
+  'turkce/noktalama-ve-yazim.json': noktalamaVeYazim as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

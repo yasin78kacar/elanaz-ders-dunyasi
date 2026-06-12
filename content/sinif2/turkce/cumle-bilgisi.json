@@ -1,0 +1,871 @@
+{
+  "id": "cumle-bilgisi",
+  "baslik": "Cümle Bilgisi",
+  "kazanimKodu": "TUR.2.1.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "CÜMLE, bir düşünceyi tam olarak anlatan kelime grubudur. Her cümlede bir eylem (iş, oluş, durum) vardır. \"Ayşe koştu.\" → Tam cümle! \"Ayşe koş...\" → Eksik!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "cb-anlatim-1"
+        }
+      },
+      {
+        "metin": "ÖZNE: Cümlede işi yapan kişi veya varlıktır. \"Kim?\" sorusunun cevabıdır. YÜKLEM: Cümlede yapılan iş, oluş veya durumu belirtir. \"Ne yaptı?\" sorusunun cevabıdır.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "cb-anlatim-2"
+        }
+      },
+      {
+        "metin": "Cümle türleri: OLUMLU (iş yapıldı), OLUMSUZ (iş yapılmadı), SORU (? ile biter), ÜNLEM (! ile biter).",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "cb-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "cb-a1",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Ali koştu\" cümlesinde özne nedir?",
+      "dogruCevap": "Ali",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ali koştu"
+      }
+    },
+    {
+      "id": "cb-a2",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Kedi uyudu\" cümlesinde yüklem nedir?",
+      "dogruCevap": "uyudu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kedi uyudu"
+      }
+    },
+    {
+      "id": "cb-a3",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Ayşe kitap okudu\" — özne kim?",
+      "dogruCevap": "Ayşe",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ayşe kitap okudu"
+      }
+    },
+    {
+      "id": "cb-a4",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Mehmet yemek yedi\" — yüklem ne?",
+      "dogruCevap": "yedi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Mehmet yemek yedi"
+      }
+    },
+    {
+      "id": "cb-a5",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Olumlu mu olumsuz mu? \"Fatma okula gitmedi.\"",
+      "dogruCevap": "Olumsuz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Fatma okula gitmedi."
+      }
+    },
+    {
+      "id": "cb-a6",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Soru cümlesi hangisi? \"Hava güzel. / Hava güzel mi?\"",
+      "dogruCevap": "Hava güzel mi?",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "?"
+      }
+    },
+    {
+      "id": "cb-a7",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Kuşlar uçtu\" — özne nedir?",
+      "dogruCevap": "Kuşlar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kuşlar uçtu"
+      }
+    },
+    {
+      "id": "cb-a8",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Çocuklar parkta oynadı\" — yüklem nedir?",
+      "dogruCevap": "oynadı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Çocuklar parkta oynadı"
+      }
+    },
+    {
+      "id": "cb-a9",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Ünlem cümlesi yap: \"Güzel hava\"",
+      "dogruCevap": "Güzel hava! / Ne güzel hava!",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "!"
+      }
+    },
+    {
+      "id": "cb-a10",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Ali eve gelmedi\" — olumlu mu olumsuz mu?",
+      "dogruCevap": "Olumsuz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ali eve gelmedi"
+      }
+    },
+    {
+      "id": "cb-a11",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Annesi çorbayı pişirdi\" — özne kim?",
+      "dogruCevap": "Annesi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Annesi çorbayı pişirdi"
+      }
+    },
+    {
+      "id": "cb-a12",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Çiçekler soldu\" — yüklem nedir?",
+      "dogruCevap": "soldu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Çiçekler soldu"
+      }
+    },
+    {
+      "id": "cb-a13",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Bu bir tam cümle mi? \"Güzel çiçek\"",
+      "dogruCevap": "Hayır, yüklem yok",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "?"
+      }
+    },
+    {
+      "id": "cb-a14",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Cümleyi olumsuza çevir: \"Berk uyudu\"",
+      "dogruCevap": "Berk uyumadı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Berk uyudu"
+      }
+    },
+    {
+      "id": "cb-a15",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Köpek havladı mı?\" — cümle türü nedir?",
+      "dogruCevap": "Soru cümlesi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Köpek havladı mı?"
+      }
+    },
+    {
+      "id": "cb-a16",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Öğrenciler dersi dinledi\" — özne nedir?",
+      "dogruCevap": "Öğrenciler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Öğrenciler dersi dinledi"
+      }
+    },
+    {
+      "id": "cb-a17",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Kedi balık yedi\" — yüklem nedir?",
+      "dogruCevap": "yedi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kedi balık yedi"
+      }
+    },
+    {
+      "id": "cb-a18",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Ünlem cümlesi hangisi? \"Yangın var! / Yangın var.\"",
+      "dogruCevap": "Yangın var!",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "!"
+      }
+    },
+    {
+      "id": "cb-a19",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Cümleyi olumluya çevir: \"Selin gelmedi\"",
+      "dogruCevap": "Selin geldi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Selin gelmedi"
+      }
+    },
+    {
+      "id": "cb-a20",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Kardeşim oyun oynadı\" — özne nedir?",
+      "dogruCevap": "Kardeşim",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kardeşim oyun oynadı"
+      }
+    },
+    {
+      "id": "cb-a21",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Bu tam cümle mi? \"Hızlı koşan çocuk\"",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "?"
+      }
+    },
+    {
+      "id": "cb-a22",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Kuşlar göç etti mi?\" — cümle türü?",
+      "dogruCevap": "Soru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kuşlar göç etti mi?"
+      }
+    },
+    {
+      "id": "cb-a23",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "\"Güneş battı\" — yüklem nedir?",
+      "dogruCevap": "battı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Güneş battı"
+      }
+    },
+    {
+      "id": "cb-a24",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Cümledeki özneyi bul: \"Yaşlı adam yavaş yürüdü\"",
+      "dogruCevap": "Adam",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Yaşlı adam yavaş yürüdü"
+      }
+    },
+    {
+      "id": "cb-a25",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "yazili",
+      "soru": "Olumlu cümle hangisi? \"Hava yağmurlu değil / Hava güneşli\"",
+      "dogruCevap": "Hava güneşli",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava yağmurlu değil / Hava güneşli"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "cb-t1",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ayşe bahçeye gitti\" cümlesinde özne hangisidir?",
+      "dogruCevap": "Ayşe",
+      "secenekler": [
+        "bahçeye",
+        "Ayşe",
+        "gitti bahçeye",
+        "gitti"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ayşe bahçeye gitti"
+      }
+    },
+    {
+      "id": "cb-t2",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kedi uyudu\" cümlesinde yüklem hangisidir?",
+      "dogruCevap": "uyudu",
+      "secenekler": [
+        "Yok",
+        "uyudu",
+        "Kedi",
+        "Kedi uyudu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kedi uyudu"
+      }
+    },
+    {
+      "id": "cb-t3",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle olumsuzdur?",
+      "dogruCevap": "Mehmet gelmedi",
+      "secenekler": [
+        "Kuşlar uçtu",
+        "Hava güzel",
+        "Mehmet gelmedi",
+        "Ali koştu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava güzel mi?"
+      }
+    },
+    {
+      "id": "cb-t4",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle soru cümlesidir?",
+      "dogruCevap": "Hava güzel mi?",
+      "secenekler": [
+        "Hava güzel mi?",
+        "Hava güzeldi.",
+        "Ne güzel hava!",
+        "Hava güzel."
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava güzel mi?"
+      }
+    },
+    {
+      "id": "cb-t5",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Çocuklar oyun oynadı\" cümlesinde özne hangisidir?",
+      "dogruCevap": "Çocuklar",
+      "secenekler": [
+        "oyun oynadı",
+        "oynadı",
+        "Çocuklar",
+        "oyun"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Çocuklar oyun oynadı"
+      }
+    },
+    {
+      "id": "cb-t6",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Tam cümle hangisidir?",
+      "dogruCevap": "Kuşlar uçtu",
+      "secenekler": [
+        "Kuşlar uçtu",
+        "Güzel çiçek",
+        "Mavi gökyüzü",
+        "Hızlı koşan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ali koştu."
+      }
+    },
+    {
+      "id": "cb-t7",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Fatma kitap okumadı\" cümlesi hangi türdür?",
+      "dogruCevap": "Olumsuz",
+      "secenekler": [
+        "Olumsuz",
+        "Ünlem",
+        "Soru",
+        "Olumlu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Fatma kitap okumadı"
+      }
+    },
+    {
+      "id": "cb-t8",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ali koştu\" cümlesini soru cümlesine çevirirsek ne olur?",
+      "dogruCevap": "Ali koştu mu?",
+      "secenekler": [
+        "Ali koştu mu?",
+        "Ali koşmadı",
+        "Ali koştu!",
+        "Koşan Ali"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "noktalama",
+        "isaret": "?"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t9",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Güneş battı\" cümlesinde yüklem hangisidir?",
+      "dogruCevap": "battı",
+      "secenekler": [
+        "Güneş battı",
+        "Güneş",
+        "battı",
+        "Yok"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Güneş battı"
+      }
+    },
+    {
+      "id": "cb-t10",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Ünlem cümlesi hangisidir?",
+      "dogruCevap": "Ne güzel yağmur!",
+      "secenekler": [
+        "Yağmur yağıyor mu?",
+        "Ne güzel yağmur!",
+        "Yağmur yağıyor.",
+        "Yağmur yağmıyor."
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava güzel mi?"
+      }
+    },
+    {
+      "id": "cb-t11",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Öğretmen tahtaya yazdı\" cümlesinde özne hangisidir?",
+      "dogruCevap": "Öğretmen",
+      "secenekler": [
+        "tahtaya yazdı",
+        "tahtaya",
+        "yazdı",
+        "Öğretmen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Öğretmen tahtaya yazdı"
+      }
+    },
+    {
+      "id": "cb-t12",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kedi balık yedi\" cümlesini olumsuza çevir.",
+      "dogruCevap": "Kedi balık yemedi",
+      "secenekler": [
+        "Kedi balık yemedi",
+        "Kedi balık yer",
+        "Kedi yemedi",
+        "Kedi balık yedi mi?"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kedi balık yedi"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t13",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle olumlulur?",
+      "dogruCevap": "Mehmet koştu",
+      "secenekler": [
+        "Fatma uyumadı",
+        "Hava güzel değil",
+        "Ali gelmedi",
+        "Mehmet koştu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava güzel mi?"
+      }
+    },
+    {
+      "id": "cb-t14",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kardeşim oyun oynadı mı?\" — cümle türü nedir?",
+      "dogruCevap": "Soru",
+      "secenekler": [
+        "Ünlem",
+        "Olumsuz",
+        "Soru",
+        "Olumlu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Kardeşim oyun oynadı mı?"
+      }
+    },
+    {
+      "id": "cb-t15",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi seçenekte hem özne hem yüklem doğru gösterilmiştir?",
+      "dogruCevap": "\"Ayşe (özne) gitti (yüklem)\"",
+      "secenekler": [
+        "\"Koştu (özne) Ali (yüklem)\"",
+        "\"Kedi (yüklem) uyudu (özne)\"",
+        "\"Ayşe (özne) gitti (yüklem)\"",
+        "\"Gitti (özne) Mehmet (yüklem)\""
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ayşe gitti",
+        "ozne": "Ayşe",
+        "yuklem": "gitti"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t16",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Çiçekler solmadı\" — hangi türde cümle?",
+      "dogruCevap": "Olumsuz",
+      "secenekler": [
+        "Olumlu",
+        "Ünlem",
+        "Olumsuz",
+        "Soru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Çiçekler solmadı"
+      }
+    },
+    {
+      "id": "cb-t17",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Yaşlı adam yavaş yürüdü\" — özne hangisidir?",
+      "dogruCevap": "adam",
+      "secenekler": [
+        "yavaş yürüdü",
+        "yavaş",
+        "adam",
+        "yürüdü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Yaşlı adam yavaş yürüdü"
+      }
+    },
+    {
+      "id": "cb-t18",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Bu cümleyi tamamla: \"Çocuklar bahçede ___\" (yüklem ekle)",
+      "dogruCevap": "oynadı",
+      "secenekler": [
+        "yeşil çimen",
+        "hızlı çocuk",
+        "güzel bahçe",
+        "oynadı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Çocuklar bahçede ___"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t19",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle tam değildir (yüklem eksik)?",
+      "dogruCevap": "Güzel çiçek",
+      "secenekler": [
+        "Ali koştu",
+        "Hava soğuk",
+        "Güzel çiçek",
+        "Kedi uyudu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ali koştu."
+      }
+    },
+    {
+      "id": "cb-t20",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Köpekler havlamadı\" cümlesini olumluya çevir.",
+      "dogruCevap": "Köpekler havladı",
+      "secenekler": [
+        "Köpekler havladı",
+        "Köpekler havlar",
+        "Köpek havlar",
+        "Köpekler havladı mı?"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Köpekler havlamadı"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t21",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Selin güldü mü?\" — yüklem hangisidir?",
+      "dogruCevap": "güldü",
+      "secenekler": [
+        "güldü mü",
+        "mü",
+        "Selin",
+        "güldü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Selin güldü mü?"
+      }
+    },
+    {
+      "id": "cb-t22",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Ünlem cümlesinde hangi işaret kullanılır?",
+      "dogruCevap": "!",
+      "secenekler": [
+        ".",
+        "?",
+        "!",
+        ","
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ali koştu."
+      }
+    },
+    {
+      "id": "cb-t23",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ne güzel bir gün!\" cümlesinin türü nedir?",
+      "dogruCevap": "Ünlem",
+      "secenekler": [
+        "Olumsuz",
+        "Ünlem",
+        "Soru",
+        "Olumlu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Ne güzel bir gün!"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "cb-t24",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Annem yemek pişirdi\" — özne ve yüklem hangileri?",
+      "dogruCevap": "Özne: Annem, Yüklem: pişirdi",
+      "secenekler": [
+        "Özne: pişirdi, Yüklem: Annem",
+        "Özne: Annem, Yüklem: pişirdi",
+        "Özne: yemek, Yüklem: pişirdi",
+        "Özne: yemek, Yüklem: Annem"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Annem yemek pişirdi"
+      }
+    },
+    {
+      "id": "cb-t25",
+      "kazanimKodu": "TUR.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki cümle türlerini eşleştir: \"Yağmur yağdı. / Yağmur yağdı mı? / Yağmur yağmadı. / Ne yağmur!\"",
+      "dogruCevap": "Olumlu-Soru-Olumsuz-Ünlem",
+      "secenekler": [
+        "Soru-Olumlu-Ünlem-Olumsuz",
+        "Olumlu-Soru-Olumsuz-Ünlem",
+        "Ünlem-Soru-Olumlu-Olumsuz",
+        "Olumsuz-Soru-Olumlu-Ünlem"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "cumle",
+        "metin": "Hava güzel mi?"
+      },
+      "sasirtma": true
+    }
+  ]
+}

@@ -104,6 +104,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
     <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
+      {soru.okumaMetni ? <Text style={q.okumaMetni}>{soru.okumaMetni}</Text> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
       <Text style={q.hakMetni}>
         Değiştirme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanHak}

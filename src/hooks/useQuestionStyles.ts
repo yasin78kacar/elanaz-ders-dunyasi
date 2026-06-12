@@ -17,6 +17,16 @@ export function useQuestionStyles() {
           color: colors.baslik,
           fontWeight: '600',
         },
+        okumaMetni: {
+          fontSize: layout.font.md,
+          lineHeight: layout.spacing(28),
+          color: colors.metin,
+          backgroundColor: colors.kart,
+          padding: layout.spacing(14),
+          borderRadius: layout.spacing(12),
+          borderWidth: 2,
+          borderColor: colors.kenarlik,
+        },
         hakMetni: {
           fontSize: layout.font.md,
           color: colors.turuncu,

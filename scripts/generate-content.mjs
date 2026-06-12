@@ -14,6 +14,7 @@
  * - { tur: "olcme", mod, ... } → OlcmeGorsel (TEMA4 ölçme)
  * - { tur: "veri", mod, ... } → VeriGorsel (TEMA5 veri)
  * - { tur: "kesir", mod, ... } → KesirGorsel (TEMA6 kesirler)
+ * - { tur: "turkce", mod, ... } → TurkceGorsel (Türkçe Tema 1)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -49,11 +50,20 @@ import {
 import { siviMiktari, tartma, uzunlukOlcme, zaman } from './gorev-tema4-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
+import {
+  cumleBilgisi,
+  kelimeBilgisi,
+  noktalamaVeYazim,
+  okumaAnlama,
+  seslerVeHeceler,
+} from './gorev-turkce1-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const contentDir = join(__dirname, '../content/sinif2/matematik');
+const turkceDir = join(__dirname, '../content/sinif2/turkce');
 mkdirSync(contentDir, { recursive: true });
+mkdirSync(turkceDir, { recursive: true });
 
 function karistir(arr) {
   const a = [...arr];
@@ -387,6 +397,17 @@ writeFileSync(join(contentDir, 'esit-parcalara-bolme.json'), JSON.stringify(esit
 writeFileSync(join(contentDir, 'yarim-ve-ceyrek.json'), JSON.stringify(yarimVeCeyrekKonu, null, 2));
 writeFileSync(join(contentDir, 'basit-kesirler.json'), JSON.stringify(basitKesirlerKonu, null, 2));
 
+const seslerVeHecelerKonu = seslerVeHeceler(karistir);
+const kelimeBilgisiKonu = kelimeBilgisi(karistir);
+const okumaAnlamaKonu = okumaAnlama(karistir);
+const cumleBilgisiKonu = cumleBilgisi(karistir);
+const noktalamaVeYazimKonu = noktalamaVeYazim(karistir);
+writeFileSync(join(turkceDir, 'sesler-ve-heceler.json'), JSON.stringify(seslerVeHecelerKonu, null, 2));
+writeFileSync(join(turkceDir, 'kelime-bilgisi.json'), JSON.stringify(kelimeBilgisiKonu, null, 2));
+writeFileSync(join(turkceDir, 'okuma-anlama.json'), JSON.stringify(okumaAnlamaKonu, null, 2));
+writeFileSync(join(turkceDir, 'cumle-bilgisi.json'), JSON.stringify(cumleBilgisiKonu, null, 2));
+writeFileSync(join(turkceDir, 'noktalama-ve-yazim.json'), JSON.stringify(noktalamaVeYazimKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -451,7 +472,19 @@ writeFileSync(join(hikayeDir, 'elanaz-kayip-boya-kalemi.json'), JSON.stringify(h
 const index = {
   sinif: 2,
   dersler: [
-    { id: 'turkce', baslik: 'Türkçe', unite: [] },
+    { id: 'turkce', baslik: 'Türkçe', unite: [
+        {
+          id: 'tema-1',
+          baslik: 'Türkçe — Tema 1',
+          konuDosyalari: [
+            'turkce/sesler-ve-heceler.json',
+            'turkce/kelime-bilgisi.json',
+            'turkce/okuma-anlama.json',
+            'turkce/cumle-bilgisi.json',
+            'turkce/noktalama-ve-yazim.json',
+          ],
+        },
+      ] },
     {
       id: 'matematik',
       baslik: 'Matematik',
@@ -577,6 +610,11 @@ console.log('Veri toplama:', veriToplamaKonu.alistirma.length, '+', veriToplamaK
 console.log('Eşit parçalara bölme:', esitParcalaraBolmeKonu.alistirma.length, '+', esitParcalaraBolmeKonu.test.length);
 console.log('Yarım ve çeyrek:', yarimVeCeyrekKonu.alistirma.length, '+', yarimVeCeyrekKonu.test.length);
 console.log('Basit kesirler:', basitKesirlerKonu.alistirma.length, '+', basitKesirlerKonu.test.length);
+console.log('Sesler ve heceler:', seslerVeHecelerKonu.alistirma.length, '+', seslerVeHecelerKonu.test.length);
+console.log('Kelime bilgisi:', kelimeBilgisiKonu.alistirma.length, '+', kelimeBilgisiKonu.test.length);
+console.log('Okuma anlama:', okumaAnlamaKonu.alistirma.length, '+', okumaAnlamaKonu.test.length);
+console.log('Cümle bilgisi:', cumleBilgisiKonu.alistirma.length, '+', cumleBilgisiKonu.test.length);
+console.log('Noktalama ve yazım:', noktalamaVeYazimKonu.alistirma.length, '+', noktalamaVeYazimKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

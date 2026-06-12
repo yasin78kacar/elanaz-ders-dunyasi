@@ -150,6 +150,25 @@ export interface GorselKesir {
   alinan?: number;
 }
 
+/** Türkçe — TurkceGorsel'de tanımlı */
+export interface GorselTurkce {
+  tur: 'turkce';
+  mod?: 'hece' | 'harf' | 'nesne' | 'sahne' | 'kart' | 'cumle' | 'anlatim' | 'karsilastir' | 'noktalama';
+  sahne?: string;
+  kelime?: string;
+  heceler?: string[];
+  harfler?: string[];
+  vurgu?: 'sesli' | 'sessiz' | (number | string)[];
+  nesne?: string;
+  metin?: string;
+  ozne?: string;
+  yuklem?: string;
+  cumleTuru?: string;
+  kelimeler?: string[];
+  isaret?: string;
+  iliski?: 'esAnlam' | 'zit' | 'esSeslilik';
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -161,6 +180,7 @@ export type Gorsel =
   | GorselOlcme
   | GorselVeri
   | GorselKesir
+  | GorselTurkce
   | null;
 
 export interface AnlatimEkrani {
@@ -193,6 +213,8 @@ export interface Soru {
   tabloBitis?: number;
   dogruHucreler?: number[];
   alternatifCevaplar?: string[];
+  /** Okuma anlama metni (soru üstünde gösterilir) */
+  okumaMetni?: string;
 }
 
 export interface Konu {
