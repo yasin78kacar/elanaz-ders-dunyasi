@@ -22,10 +22,15 @@ function etiketMinGenislik(metin, fontSize) {
     if (ch === ' ') birim += 0.35;
     else if (/[mwMWğĞşŞöÖ]/.test(ch)) birim += 0.82;
     else if (/[üÜıİçÇ]/.test(ch)) birim += 0.72;
+    else if (/[rnzRNZ]/.test(ch)) birim += 0.68;
     else birim += 0.58;
   }
-  return Math.ceil(birim * fontSize) + 10;
+  const sonHarf = metin.slice(-1);
+  const sonHarfPayi = /[rnzRNZ]/.test(sonHarf) ? fontSize * 0.35 : 0;
+  return Math.ceil(birim * fontSize) + 14 + Math.ceil(sonHarfPayi);
 }
+
+const SIK_BUTON = ['Çember', 'Üçgen', 'Dikdörtgen', 'Silindir'];
 
 function secenekGosterim(secenek) {
   return String(secenek);
@@ -33,7 +38,7 @@ function secenekGosterim(secenek) {
 
 let hata = 0;
 
-for (const kelime of ORNEKLER) {
+for (const kelime of [...ORNEKLER, ...SIK_BUTON]) {
   const gosterim = secenekGosterim(kelime);
   if (gosterim !== kelime) {
     console.error(`FAIL: "${kelime}" → "${gosterim}" (beklenen tam eşleşme)`);
@@ -47,7 +52,7 @@ for (const kelime of ORNEKLER) {
   }
 }
 
-for (const kelime of ORNEKLER) {
+for (const kelime of [...ORNEKLER, ...SIK_BUTON]) {
   for (const fontSize of [9, 10, 11, 14, 16, 18]) {
     const minW = etiketMinGenislik(kelime, fontSize);
     const sonHarfMin = Math.ceil(fontSize * 0.58) + 6;

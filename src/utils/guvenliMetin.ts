@@ -8,7 +8,10 @@ export function etiketMinGenislik(metin: string, fontSize: number): number {
     if (ch === ' ') birim += 0.35;
     else if (/[mwMWğĞşŞöÖ]/.test(ch)) birim += 0.82;
     else if (/[üÜıİçÇ]/.test(ch)) birim += 0.72;
+    else if (/[rnzRNZ]/.test(ch)) birim += 0.68;
     else birim += 0.58;
   }
-  return Math.ceil(birim * fontSize) + 10;
+  const sonHarf = metin.slice(-1);
+  const sonHarfPayi = /[rnzRNZ]/.test(sonHarf) ? fontSize * 0.35 : 0;
+  return Math.ceil(birim * fontSize) + 14 + Math.ceil(sonHarfPayi);
 }
