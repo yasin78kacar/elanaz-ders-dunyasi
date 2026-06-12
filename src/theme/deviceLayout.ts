@@ -1,13 +1,22 @@
 import { Dimensions } from 'react-native';
 
-/** Tablet hedefi: genişlik ≥ 768px */
-export const TABLET_MIN_WIDTH = 768;
+/** 9.7" tablet */
+export const TABLET_SMALL_MIN_WIDTH = 768;
+/** 11" tablet */
+export const TABLET_MEDIUM_MIN_WIDTH = 834;
+/** 13" tablet */
+export const TABLET_LARGE_MIN_WIDTH = 1024;
 
-export type DeviceTier = 'phone' | 'tablet';
+/** @deprecated TABLET_SMALL_MIN_WIDTH kullanın */
+export const TABLET_MIN_WIDTH = TABLET_SMALL_MIN_WIDTH;
+
+export type DeviceTier = 'phone' | 'tabletSmall' | 'tabletMedium' | 'tabletLarge';
 
 export const FLOW_SCALE: Record<DeviceTier, number> = {
   phone: 1.5,
-  tablet: 2.5,
+  tabletSmall: 2.0,
+  tabletMedium: 2.5,
+  tabletLarge: 3.0,
 };
 
 export interface Typography {
@@ -19,17 +28,38 @@ export interface Typography {
 
 const TYPOGRAPHY: Record<DeviceTier, Typography> = {
   phone: { sm: 14, md: 15, lg: 16, xl: 16 },
-  tablet: { sm: 18, md: 20, lg: 22, xl: 22 },
+  tabletSmall: { sm: 18, md: 20, lg: 22, xl: 22 },
+  tabletMedium: { sm: 20, md: 22, lg: 24, xl: 24 },
+  tabletLarge: { sm: 22, md: 24, lg: 26, xl: 26 },
 };
 
 const BUTTON_HEIGHT: Record<DeviceTier, number> = {
   phone: 52,
-  tablet: 70,
+  tabletSmall: 68,
+  tabletMedium: 74,
+  tabletLarge: 80,
 };
 
 const GRID_COLUMNS: Record<DeviceTier, number> = {
   phone: 2,
-  tablet: 3,
+  tabletSmall: 3,
+  tabletMedium: 3,
+  tabletLarge: 4,
+};
+
+/** Padding/gap çarpanı: telefon 1×, küçük tablet +50%, orta +60%, büyük +70% */
+const SPACING_MULTIPLIER: Record<DeviceTier, number> = {
+  phone: 1,
+  tabletSmall: 1.5,
+  tabletMedium: 1.6,
+  tabletLarge: 1.7,
+};
+
+const UI_IKON_MULTIPLIER: Record<DeviceTier, number> = {
+  phone: 1.3,
+  tabletSmall: 1.5,
+  tabletMedium: 1.6,
+  tabletLarge: 1.7,
 };
 
 export function getWindowWidth(): number {
@@ -37,15 +67,22 @@ export function getWindowWidth(): number {
 }
 
 export function getDeviceTier(width = getWindowWidth()): DeviceTier {
-  return width >= TABLET_MIN_WIDTH ? 'tablet' : 'phone';
+  if (width >= TABLET_LARGE_MIN_WIDTH) return 'tabletLarge';
+  if (width >= TABLET_MEDIUM_MIN_WIDTH) return 'tabletMedium';
+  if (width >= TABLET_SMALL_MIN_WIDTH) return 'tabletSmall';
+  return 'phone';
 }
 
 export function isTabletWidth(width = getWindowWidth()): boolean {
-  return getDeviceTier(width) === 'tablet';
+  return width >= TABLET_SMALL_MIN_WIDTH;
 }
 
 export function getFlowScale(width = getWindowWidth()): number {
   return FLOW_SCALE[getDeviceTier(width)];
+}
+
+export function getUiIkonMultiplier(width = getWindowWidth()): number {
+  return UI_IKON_MULTIPLIER[getDeviceTier(width)];
 }
 
 export function getTypography(width = getWindowWidth()): Typography {
@@ -60,9 +97,8 @@ export function getGridColumns(width = getWindowWidth()): number {
   return GRID_COLUMNS[getDeviceTier(width)];
 }
 
-/** Tablet için taban × 1.5, telefon için taban */
 export function deviceSpacing(width: number, base: number): number {
-  return Math.round(isTabletWidth(width) ? base * 1.5 : base);
+  return Math.round(base * SPACING_MULTIPLIER[getDeviceTier(width)]);
 }
 
 export interface DeviceLayout {
@@ -82,8 +118,9 @@ export interface DeviceLayout {
 
 export function buildDeviceLayout(width: number): DeviceLayout {
   const tier = getDeviceTier(width);
-  const isTablet = tier === 'tablet';
+  const isTablet = tier !== 'phone';
   const flowScale = FLOW_SCALE[tier];
+  const ikonMult = UI_IKON_MULTIPLIER[tier];
   const spacing = (base: number) => deviceSpacing(width, base);
 
   return {
@@ -96,8 +133,8 @@ export function buildDeviceLayout(width: number): DeviceLayout {
     font: TYPOGRAPHY[tier],
     spacing,
     flowSize: (base: number) => Math.round(base * flowScale),
-    ikonSize: (base: number) => Math.round(base * (isTablet ? 1.5 : 1.3)),
-    avatarSize: Math.round(56 * (isTablet ? 1.5 : 1.3)),
-    secenekIkonBoyut: Math.round(32 * (isTablet ? 1.5 : 1.3)),
+    ikonSize: (base: number) => Math.round(base * ikonMult),
+    avatarSize: Math.round(56 * ikonMult),
+    secenekIkonBoyut: Math.round(32 * ikonMult),
   };
 }

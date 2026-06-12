@@ -1,18 +1,8 @@
-import { getFlowScale, getWindowWidth, isTabletWidth } from './deviceLayout';
-
-/** Küçük UI ikonları (şık, eşleştirme) — telefon 1.3×, tablet 1.5× */
-const UI_IKON_CARPAN: Record<'phone' | 'tablet', number> = {
-  phone: 1.3,
-  tablet: 1.5,
-};
-
-function uiIkonCarpan(width = getWindowWidth()): number {
-  return UI_IKON_CARPAN[isTabletWidth(width) ? 'tablet' : 'phone'];
-}
+import { getFlowScale, getUiIkonMultiplier, getWindowWidth } from './deviceLayout';
 
 export function gorselOlcekle(boyut: number, width?: number): number {
   const w = width ?? getWindowWidth();
-  return Math.round(boyut * uiIkonCarpan(w));
+  return Math.round(boyut * getUiIkonMultiplier(w));
 }
 
 export function flowGorselOlcekle(boyut: number, width?: number): number {
