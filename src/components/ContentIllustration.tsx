@@ -9,6 +9,8 @@ import { NesneGorsel } from './nesneler/NesneGorsel';
 import { SekilGorsel } from './nesneler/SekilGorsel';
 import { G4mGorsel } from './nesneler/G4mGorsel';
 import { G5mGorsel } from './kaplar/G5mGorsel';
+import { OruntuGorsel } from './oruntu/OruntuGorsel';
+import { TahminEtmeGorsel } from './tahmin/TahminEtmeGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
@@ -61,6 +63,22 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
             source={source}
             fallback={svgYedek(<SayiSeridi {...gorsel} />)}
           />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'oruntu') {
+      return (
+        <View style={kutu}>
+          <OruntuGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'tahmin-etme') {
+      return (
+        <View style={kutu}>
+          <TahminEtmeGorsel {...gorsel} />
         </View>
       );
     }

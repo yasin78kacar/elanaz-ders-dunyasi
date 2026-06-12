@@ -1,0 +1,1134 @@
+{
+  "id": "sayi-dogrusu",
+  "baslik": "Sayı Doğrusu",
+  "kazanimKodu": "MAT.2.2.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Sayıları sırayla bir doğru üzerinde gösterebiliriz. Bu doğruya SAYI DOĞRUSU denir. Solda küçük sayılar, sağda büyük sayılar olur!",
+        "gorsel": {
+          "tur": "sayi-seridi",
+          "baslangic": 0,
+          "adim": 1,
+          "adimSayisi": 20,
+          "vurgulananlar": [
+            0,
+            20
+          ]
+        }
+      },
+      {
+        "metin": "Sayı doğrusunda bir sayının solundaki sayı ondan KÜÇÜK, sağındaki sayı ondan BÜYÜKTÜR. 7'nin solunda 6 var — 6, 7'den küçük. 7'nin sağında 8 var — 8, 7'den büyük.",
+        "gorsel": {
+          "tur": "sayi-seridi",
+          "baslangic": 5,
+          "adim": 1,
+          "adimSayisi": 4,
+          "vurgulananlar": [
+            6,
+            7,
+            8
+          ]
+        }
+      },
+      {
+        "metin": "Sayı doğrusunda iki sayı arasındaki sayıyı da bulabiliriz! 14 ile 16'nın arasında 15 vardır.",
+        "gorsel": {
+          "tur": "sayi-seridi",
+          "baslangic": 12,
+          "adim": 1,
+          "adimSayisi": 6,
+          "vurgulananlar": [
+            14,
+            15,
+            16
+          ]
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "sd-a1",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 5'in sağındaki sayı kaçtır?",
+      "dogruCevap": "6",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 3,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          5
+        ]
+      }
+    },
+    {
+      "id": "sd-a2",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 12'nin solundaki sayı kaçtır?",
+      "dogruCevap": "11",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 10,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "sd-a3",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "8 ile 10'un arasındaki sayı kaçtır?",
+      "dogruCevap": "9",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 7,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          8,
+          10
+        ]
+      }
+    },
+    {
+      "id": "sd-a4",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda hangi sayı 15'ten büyük, 17'den küçüktür?",
+      "dogruCevap": "16",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 14,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          15,
+          17
+        ]
+      }
+    },
+    {
+      "id": "sd-a5",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "🎭 Sayı doğrusunda 0'ın solunda hangi sayı vardır?",
+      "dogruCevap": "yok",
+      "ipucu": "Sayı doğrusu 0'dan başlar — solunda hiçbir şey yok!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 0,
+        "adim": 1,
+        "adimSayisi": 3,
+        "vurgulananlar": [
+          0
+        ]
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "hiç sayı yok"
+      ]
+    },
+    {
+      "id": "sd-a6",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 39'dan sonra hangi sayı gelir?",
+      "dogruCevap": "40",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 37,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          39
+        ]
+      }
+    },
+    {
+      "id": "sd-a7",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "50 ile 52'nin arasındaki sayı kaçtır?",
+      "dogruCevap": "51",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 49,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          50,
+          52
+        ]
+      }
+    },
+    {
+      "id": "sd-a8",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Elanaz sayı doğrusunda 23'ün sağına baktı. Hangi sayıyı gördü?",
+      "dogruCevap": "24",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 21,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          23
+        ]
+      }
+    },
+    {
+      "id": "sd-a9",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 67'den önce hangi sayı gelir?",
+      "dogruCevap": "66",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 64,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          67
+        ]
+      }
+    },
+    {
+      "id": "sd-a10",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "🎭 Sayı doğrusunda 100'ün sağında hangi sayı vardır?",
+      "dogruCevap": "101",
+      "ipucu": "2. sınıfta 100'e kadar öğrendik — 100'ün sağı bizim sayı doğrumuzun dışında!",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 98,
+        "adim": 1,
+        "adimSayisi": 2,
+        "vurgulananlar": [
+          100
+        ]
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "yok"
+      ]
+    },
+    {
+      "id": "sd-a11",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 45 ile 47 arasındaki sayı kaçtır?",
+      "dogruCevap": "46",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 44,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          45,
+          47
+        ]
+      }
+    },
+    {
+      "id": "sd-a12",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "72'den büyük, 74'ten küçük sayı kaçtır?",
+      "dogruCevap": "73",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 71,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          72,
+          74
+        ]
+      }
+    },
+    {
+      "id": "sd-a13",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Elanaz sayı doğrusunda 88'in soluna baktı. Ne gördü?",
+      "dogruCevap": "87",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 86,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          88
+        ]
+      }
+    },
+    {
+      "id": "sd-a14",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 19'dan sonra hangi sayı gelir?",
+      "dogruCevap": "20",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 17,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          19
+        ]
+      }
+    },
+    {
+      "id": "sd-a15",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "🎭 Sayı doğrusunda 55 solda mı, 57 solda mı?",
+      "dogruCevap": "55 solda",
+      "ipucu": "Sayı doğrusunda küçük sayı hep soldadır!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 54,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          55,
+          57
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-a16",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "33 ile 35'in arasındaki sayı kaçtır?",
+      "dogruCevap": "34",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 32,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          33,
+          35
+        ]
+      }
+    },
+    {
+      "id": "sd-a17",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 60'tan önce hangi sayı gelir?",
+      "dogruCevap": "59",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 58,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          60
+        ]
+      }
+    },
+    {
+      "id": "sd-a18",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "81'den büyük, 83'ten küçük sayı kaçtır?",
+      "dogruCevap": "82",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 80,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          81,
+          83
+        ]
+      }
+    },
+    {
+      "id": "sd-a19",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 7'nin komşuları hangi sayılardır?",
+      "dogruCevap": "6 ve 8",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 5,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          6,
+          7,
+          8
+        ]
+      },
+      "alternatifCevaplar": [
+        "6,8",
+        "6 ile 8"
+      ]
+    },
+    {
+      "id": "sd-a20",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "🎭 Sayı doğrusunda 49'un sağındaki sayı kaçtır?",
+      "dogruCevap": "50",
+      "ipucu": "49'dan sonra hangi sayı gelir — dikkat, onluklar değişiyor!",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 47,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          49
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-a21",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Elanaz sayı doğrusunda 26 ile 28'in arasını işaretledi. Hangi sayıyı işaretledi?",
+      "dogruCevap": "27",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 25,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          26,
+          28
+        ]
+      }
+    },
+    {
+      "id": "sd-a22",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 94'ten sonra hangi sayı gelir?",
+      "dogruCevap": "95",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 92,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          94
+        ]
+      }
+    },
+    {
+      "id": "sd-a23",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "16 ve 18'in arasındaki sayı kaçtır?",
+      "dogruCevap": "17",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 15,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          16,
+          18
+        ]
+      }
+    },
+    {
+      "id": "sd-a24",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "Sayı doğrusunda 41'in solundaki sayı kaçtır?",
+      "dogruCevap": "40",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 39,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          41
+        ]
+      }
+    },
+    {
+      "id": "sd-a25",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "yazili",
+      "soru": "🎭 Sayı doğrusunda hem 30'dan büyük hem 32'den küçük olan sayı kaçtır?",
+      "dogruCevap": "31",
+      "ipucu": "İki şart birden — ikisini de sağlayan tek sayı hangisi?",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 29,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          30,
+          32
+        ]
+      },
+      "sasirtma": true
+    }
+  ],
+  "test": [
+    {
+      "id": "sd-t1",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 8'in sağındaki sayı hangisidir?",
+      "dogruCevap": "9",
+      "secenekler": [
+        "6",
+        "7",
+        "10",
+        "9"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 6,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "sd-t2",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda hangi sayı 20 ile 22 arasındadır?",
+      "dogruCevap": "21",
+      "secenekler": [
+        "21",
+        "23",
+        "20",
+        "19"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 19,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          20,
+          22
+        ]
+      }
+    },
+    {
+      "id": "sd-t3",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "45'ten önce gelen sayı hangisidir?",
+      "dogruCevap": "44",
+      "secenekler": [
+        "43",
+        "47",
+        "44",
+        "46"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 43,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          45
+        ]
+      }
+    },
+    {
+      "id": "sd-t4",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda 99'un sağındaki sayı hangisidir?",
+      "dogruCevap": "100",
+      "secenekler": [
+        "90",
+        "98",
+        "100",
+        "999"
+      ],
+      "ipucu": "99'dan sonra hangi sayı gelir?",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 97,
+        "adim": 1,
+        "adimSayisi": 3,
+        "vurgulananlar": [
+          99
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t5",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sayı doğrusunda 63 ile 65 arasını işaretledi. Hangi sayıyı işaretledi?",
+      "dogruCevap": "64",
+      "secenekler": [
+        "63",
+        "64",
+        "62",
+        "66"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 62,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          63,
+          65
+        ]
+      }
+    },
+    {
+      "id": "sd-t6",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi sayı 50'den büyük, 52'den küçüktür?",
+      "dogruCevap": "51",
+      "secenekler": [
+        "51",
+        "52",
+        "50",
+        "53"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 49,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          50,
+          52
+        ]
+      }
+    },
+    {
+      "id": "sd-t7",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 7 solda mı, 3 solda mı?",
+      "dogruCevap": "3 solda",
+      "secenekler": [
+        "Sayı doğrusunda solda yoktur",
+        "3 solda",
+        "7 solda",
+        "İkisi aynı yerde"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 1,
+        "adim": 1,
+        "adimSayisi": 7,
+        "vurgulananlar": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "sd-t8",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda 29'un komşuları hangileridir?",
+      "dogruCevap": "28 ve 30",
+      "secenekler": [
+        "20 ve 30",
+        "29 ve 30",
+        "27 ve 31",
+        "28 ve 30"
+      ],
+      "ipucu": "Komşu = bir önceki ve bir sonraki!",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 27,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          28,
+          29,
+          30
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t9",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 76'dan sonra hangi sayı gelir?",
+      "dogruCevap": "77",
+      "secenekler": [
+        "78",
+        "75",
+        "77",
+        "74"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 74,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          76
+        ]
+      }
+    },
+    {
+      "id": "sd-t10",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sayı doğrusunda en solda durur?",
+      "dogruCevap": "44",
+      "secenekler": [
+        "44",
+        "45",
+        "46",
+        "54"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 43,
+        "adim": 1,
+        "adimSayisi": 11,
+        "vurgulananlar": [
+          44
+        ]
+      }
+    },
+    {
+      "id": "sd-t11",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda 40 ile 42 arasında kaç sayı vardır?",
+      "dogruCevap": "1",
+      "secenekler": [
+        "3",
+        "0",
+        "2",
+        "1"
+      ],
+      "ipucu": "40...41...42 — arada sadece 41 var!",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 39,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          40,
+          42
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t12",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'ın sayı doğrusunda 85'in solunda gördüğü sayı hangisidir?",
+      "dogruCevap": "84",
+      "secenekler": [
+        "84",
+        "87",
+        "86",
+        "83"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 83,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          85
+        ]
+      }
+    },
+    {
+      "id": "sd-t13",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 17'den küçük, 15'ten büyük sayı hangisidir?",
+      "dogruCevap": "16",
+      "secenekler": [
+        "14",
+        "16",
+        "15",
+        "18"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 14,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          15,
+          17
+        ]
+      }
+    },
+    {
+      "id": "sd-t14",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda 39 ile 41 arasındaki sayı hangisidir?",
+      "dogruCevap": "40",
+      "secenekler": [
+        "42",
+        "38",
+        "40",
+        "39"
+      ],
+      "ipucu": "Onluk sınırı geçiyor — dikkatli ol!",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 38,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          39,
+          41
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t15",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi sayı sayı doğrusunda 58'in hemen sağındadır?",
+      "dogruCevap": "59",
+      "secenekler": [
+        "60",
+        "56",
+        "59",
+        "57"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 56,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          58
+        ]
+      }
+    },
+    {
+      "id": "sd-t16",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 91 ile 93 arasındaki sayı hangisidir?",
+      "dogruCevap": "92",
+      "secenekler": [
+        "90",
+        "94",
+        "91",
+        "92"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 90,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          91,
+          93
+        ]
+      }
+    },
+    {
+      "id": "sd-t17",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz \"Sayı doğrusunda 50'nin solunda 49, sağında 51 vardır\" dedi. Bu doğru mu?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "İkisi de yanlış",
+        "Hayır, sağda 49 var",
+        "Hayır, solda 51 var",
+        "Evet"
+      ],
+      "ipucu": "Küçük sol, büyük sağ — 49<50<51 doğru mu?",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 48,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          49,
+          50,
+          51
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t18",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 72'den önce hangi sayı gelir?",
+      "dogruCevap": "71",
+      "secenekler": [
+        "71",
+        "70",
+        "74",
+        "73"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 70,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          72
+        ]
+      }
+    },
+    {
+      "id": "sd-t19",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi sayı 66 ile 68 arasındadır?",
+      "dogruCevap": "67",
+      "secenekler": [
+        "67",
+        "66",
+        "65",
+        "69"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 65,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          66,
+          68
+        ]
+      }
+    },
+    {
+      "id": "sd-t20",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda en büyük sayı sağda mı, solda mı durur?",
+      "dogruCevap": "Sağda",
+      "secenekler": [
+        "Solda",
+        "Her yerde",
+        "Ortada",
+        "Sağda"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 1,
+        "adim": 1,
+        "adimSayisi": 9,
+        "vurgulananlar": [
+          1,
+          10
+        ]
+      }
+    },
+    {
+      "id": "sd-t21",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda 10 ile 12 arasında kaç TAM sayı vardır?",
+      "dogruCevap": "1",
+      "secenekler": [
+        "1",
+        "3",
+        "0",
+        "2"
+      ],
+      "ipucu": "10...11...12 — arada sadece 11 var, 10 ve 12 arasında DEĞİL!",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 9,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          10,
+          12
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "sd-t22",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sayı doğrusunda 35'in sağına 2 adım attı. Hangi sayıya geldi?",
+      "dogruCevap": "37",
+      "secenekler": [
+        "34",
+        "33",
+        "36",
+        "37"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 33,
+        "adim": 1,
+        "adimSayisi": 5,
+        "vurgulananlar": [
+          35,
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "id": "sd-t23",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 48 ile 50 arasındaki sayı hangisidir?",
+      "dogruCevap": "49",
+      "secenekler": [
+        "51",
+        "49",
+        "48",
+        "47"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 47,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          48,
+          50
+        ]
+      }
+    },
+    {
+      "id": "sd-t24",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayı doğrusunda 83'ten büyük, 85'ten küçük sayı hangisidir?",
+      "dogruCevap": "84",
+      "secenekler": [
+        "82",
+        "83",
+        "86",
+        "84"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 82,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          83,
+          85
+        ]
+      }
+    },
+    {
+      "id": "sd-t25",
+      "kazanimKodu": "MAT.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Sayı doğrusunda hem 74'ten büyük hem 76'dan küçük olan KAÇ sayı vardır?",
+      "dogruCevap": "1",
+      "secenekler": [
+        "3",
+        "0",
+        "1",
+        "2"
+      ],
+      "ipucu": "Sadece 75 hem 74'ten büyük hem 76'dan küçük!",
+      "gorsel": {
+        "tur": "sayi-seridi",
+        "baslangic": 73,
+        "adim": 1,
+        "adimSayisi": 4,
+        "vurgulananlar": [
+          74,
+          76
+        ]
+      },
+      "sasirtma": true
+    }
+  ]
+}

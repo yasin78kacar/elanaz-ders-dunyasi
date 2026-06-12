@@ -31,7 +31,35 @@ export interface GorselKap {
   sahne: string;
 }
 
-export type Gorsel = string | GorselSayiSeridi | GorselNesne | GorselKap | null;
+export interface OruntuEleman {
+  tip: 'sayi' | 'renk' | 'sekil' | 'soru';
+  deger?: number | string;
+}
+
+/** Örüntü dizisi — sayı, renk veya şekil tekrarları */
+export interface GorselOruntu {
+  tur: 'oruntu';
+  elemanlar: OruntuEleman[];
+  adimEtiketi?: string;
+  vurguIndeks?: number;
+}
+
+/** Tahmin etme sahnesi — TahminEtmeGorsel'de tanımlı */
+export interface GorselTahminEtme {
+  tur: 'tahmin-etme';
+  sahne: string;
+  tahmin?: number;
+  gercek?: number;
+}
+
+export type Gorsel =
+  | string
+  | GorselSayiSeridi
+  | GorselNesne
+  | GorselKap
+  | GorselOruntu
+  | GorselTahminEtme
+  | null;
 
 export interface AnlatimEkrani {
   metin: string;

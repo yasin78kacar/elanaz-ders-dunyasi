@@ -1,0 +1,2025 @@
+{
+  "id": "oruntu",
+  "baslik": "Örüntü",
+  "kazanimKodu": "MAT.2.2.5",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Tekrarlanan veya belirli bir kurala göre devam eden dizilere ÖRÜNTÜ denir. Örüntünün bir KURALI vardır — bu kuralı bulursan bir sonraki terimi tahmin edebilirsin!",
+        "gorsel": {
+          "tur": "oruntu",
+          "elemanlar": [
+            {
+              "tip": "sekil",
+              "deger": "kırmızı daire"
+            },
+            {
+              "tip": "sekil",
+              "deger": "mavi kare"
+            },
+            {
+              "tip": "sekil",
+              "deger": "kırmızı daire"
+            },
+            {
+              "tip": "sekil",
+              "deger": "mavi kare"
+            },
+            {
+              "tip": "sekil",
+              "deger": "kırmızı daire"
+            },
+            {
+              "tip": "soru"
+            }
+          ],
+          "adimEtiketi": "tekrar",
+          "vurguIndeks": 0
+        }
+      },
+      {
+        "metin": "Sayı örüntülerinde de kural vardır! 3, 5, 7, 9... Bu örüntünün kuralı: ikişer artıyor! Bir sonraki sayı: 11.",
+        "gorsel": {
+          "tur": "oruntu",
+          "elemanlar": [
+            {
+              "tip": "sayi",
+              "deger": 3
+            },
+            {
+              "tip": "sayi",
+              "deger": 5
+            },
+            {
+              "tip": "sayi",
+              "deger": 7
+            },
+            {
+              "tip": "sayi",
+              "deger": 9
+            },
+            {
+              "tip": "soru"
+            }
+          ],
+          "adimEtiketi": "+2"
+        }
+      },
+      {
+        "metin": "Örüntü kuralını bulmak için: ilk iki terime bak, farkı hesapla, devam ettir. 10, 8, 6, 4... Kural: ikişer azalıyor → sonraki: 2!",
+        "gorsel": {
+          "tur": "oruntu",
+          "elemanlar": [
+            {
+              "tip": "sayi",
+              "deger": 10
+            },
+            {
+              "tip": "sayi",
+              "deger": 8
+            },
+            {
+              "tip": "sayi",
+              "deger": 6
+            },
+            {
+              "tip": "sayi",
+              "deger": 4
+            },
+            {
+              "tip": "soru"
+            }
+          ],
+          "adimEtiketi": "-2"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "or-a1",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "2, 4, 6, 8, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "10",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "or-a2",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "5, 10, 15, 20, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "25",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "or-a3",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "30, 27, 24, 21, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "18",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "or-a4",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Kırmızı top, mavi top, kırmızı top, mavi top, ... → Sıradaki hangi renk top gelir?",
+      "dogruCevap": "kırmızı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "tekrar"
+      },
+      "alternatifCevaplar": [
+        "Kırmızı"
+      ]
+    },
+    {
+      "id": "or-a5",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "🎭 1, 5, 9, 13, ... → Bu örüntünün kuralı nedir?",
+      "dogruCevap": "dörder artıyor",
+      "ipucu": "Farkları hesapla: 5-1=?, 9-5=?, kural her seferinde aynı artış!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-a6",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "10, 20, 30, 40, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "50",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "or-a7",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Üçgen, daire, kare, üçgen, daire, kare, ... → Sıradaki şekil hangisidir?",
+      "dogruCevap": "üçgen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "üçgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "üçgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "3lü tekrar",
+        "vurguIndeks": 0
+      },
+      "alternatifCevaplar": [
+        "Üçgen"
+      ]
+    },
+    {
+      "id": "or-a8",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Elanaz her gün kumbarasına 3 TL koyuyor. Pazartesi 3 TL, Salı 6 TL, Çarşamba 9 TL... Perşembe kaç TL olur?",
+      "dogruCevap": "12 TL",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      },
+      "alternatifCevaplar": [
+        "12"
+      ]
+    },
+    {
+      "id": "or-a9",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "50, 45, 40, 35, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "30",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "or-a10",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "🎭 2, 4, 8, 16, ... → Bu örüntünün kuralı nedir?",
+      "dogruCevap": "iki katına çıkıyor",
+      "ipucu": "Bu sefer toplama değil — her sayı bir öncekinin KAÇ KATI?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-a11",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Sarı yıldız, sarı yıldız, mavi ay, sarı yıldız, sarı yıldız, mavi ay, ... → Sıradaki hangisidir?",
+      "dogruCevap": "sarı yıldız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "sarı yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "sarı yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "mavi ay"
+          },
+          {
+            "tip": "sekil",
+            "deger": "sarı yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "sarı yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "mavi ay"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "2+1 tekrar",
+        "vurguIndeks": 0
+      },
+      "alternatifCevaplar": [
+        "Sarı yıldız"
+      ]
+    },
+    {
+      "id": "or-a12",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "15, 18, 21, 24, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "27",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 18
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "or-a13",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "99, 88, 77, 66, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "55",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 99
+          },
+          {
+            "tip": "sayi",
+            "deger": 88
+          },
+          {
+            "tip": "sayi",
+            "deger": 77
+          },
+          {
+            "tip": "sayi",
+            "deger": 66
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-11"
+      }
+    },
+    {
+      "id": "or-a14",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Elanaz boncukları dizer: 1 kırmızı, 2 mavi, 1 kırmızı, 2 mavi... Sıradaki boncuk hangi renktir?",
+      "dogruCevap": "kırmızı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "1K-2M"
+      },
+      "alternatifCevaplar": [
+        "Kırmızı"
+      ]
+    },
+    {
+      "id": "or-a15",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "🎭 20, 17, 14, 11, ... → Bu örüntü artıyor mu, azalıyor mu?",
+      "dogruCevap": "azalıyor",
+      "ipucu": "Her terim bir öncekinden büyük mü küçük mü?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "üçer azalıyor"
+      ]
+    },
+    {
+      "id": "or-a16",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "4, 8, 12, 16, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "20",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "or-a17",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Büyük kare, küçük kare, büyük kare, küçük kare, ... → Sıradaki hangisidir?",
+      "dogruCevap": "büyük kare",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "büyük kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "küçük kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "büyük kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "küçük kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "AB",
+        "vurguIndeks": 0
+      },
+      "alternatifCevaplar": [
+        "Büyük kare"
+      ]
+    },
+    {
+      "id": "or-a18",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "25, 30, 35, 40, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "45",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "or-a19",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "80, 70, 60, 50, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "40",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "or-a20",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "🎭 3, 6, 9, 12, 15, ... → 10. terim kaçtır?",
+      "dogruCevap": "30",
+      "ipucu": "Kural üçer artıyor — 1. terim 3, 2. terim 6... 10. terim ne olur?",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-a21",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Kırmızı-sarı-mavi-kırmızı-sarı-mavi-kırmızı-... → Sıradaki renk hangisidir?",
+      "dogruCevap": "sarı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "sarı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "sarı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "3lü tekrar"
+      },
+      "alternatifCevaplar": [
+        "Sarı"
+      ]
+    },
+    {
+      "id": "or-a22",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "7, 14, 21, 28, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "35",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "sayi",
+            "deger": 28
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "or-a23",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "100, 90, 80, 70, ... → Sonraki sayı kaçtır?",
+      "dogruCevap": "60",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 90
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "or-a24",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "Elanaz şu diziyi buldu: 5, 8, 11, 14, ... Kuralı nedir?",
+      "dogruCevap": "üçer artıyor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "or-a25",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "yazili",
+      "soru": "🎭 Hangi dizi bir ÖRÜNTÜ DEĞİLDİR? (A) 2,4,6,8 (B) 5,10,15,20 (C) 3,7,2,9 (D) 10,8,6,4",
+      "dogruCevap": "C",
+      "ipucu": "Örüntünün kuralı TUTARLI olmalı — hangi dizide kural yok?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "karşılaştır"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "3,7,2,9 kuralsız"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "or-t1",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "3, 6, 9, 12, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "15",
+      "secenekler": [
+        "14",
+        "13",
+        "15",
+        "16"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "or-t2",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı, mavi, kırmızı, mavi, ... → Sıradaki hangisidir?",
+      "dogruCevap": "Kırmızı",
+      "secenekler": [
+        "Kırmızı",
+        "Sarı",
+        "Mavi",
+        "Yeşil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "kırmızı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "AB"
+      }
+    },
+    {
+      "id": "or-t3",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "20, 18, 16, 14, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "12",
+      "secenekler": [
+        "12",
+        "13",
+        "11",
+        "10"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 18
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "or-t4",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 5, 10, 15, 20, ... → Bu örüntünün kuralı hangisidir?",
+      "dogruCevap": "Beşer artıyor",
+      "secenekler": [
+        "Beşer artıyor",
+        "Üçer artıyor",
+        "İkişer artıyor",
+        "Onar artıyor"
+      ],
+      "ipucu": "10-5=?, 15-10=? farkı hesapla!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t5",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Üçgen, daire, üçgen, daire, ... → Sıradaki hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "üçgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "üçgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "AB",
+        "vurguIndeks": 0
+      }
+    },
+    {
+      "id": "or-t6",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "10, 20, 30, 40, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "50",
+      "secenekler": [
+        "50",
+        "41",
+        "60",
+        "45"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "or-t7",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 16, 13, 10, 7, ... → Bu örüntü ne kadar azalıyor?",
+      "dogruCevap": "Üçer",
+      "secenekler": [
+        "Beşer",
+        "Üçer",
+        "Dörder",
+        "İkişer"
+      ],
+      "ipucu": "16-13=?, 13-10=? hesapla!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t8",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz her gün 5 TL biriktiriyor. Pazartesi 5 TL, Salı 10 TL oldu. Çarşamba kaç TL olur?",
+      "dogruCevap": "15",
+      "secenekler": [
+        "15",
+        "14",
+        "13",
+        "12"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "or-t9",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "45, 40, 35, 30, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "25",
+      "secenekler": [
+        "29",
+        "25",
+        "28",
+        "27"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "or-t10",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 2, 4, 6, 8, 10, ... → 7. terim kaçtır?",
+      "dogruCevap": "14",
+      "secenekler": [
+        "12",
+        "13",
+        "14",
+        "16"
+      ],
+      "ipucu": "1.terim=2, 2.terim=4... 7. terim=2×7=?",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t11",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Sarı-mavi-sarı-mavi-sarı-... → 6. terim hangi renktir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Kırmızı",
+        "Yeşil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sarı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sarı"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sarı"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "AB"
+      }
+    },
+    {
+      "id": "or-t12",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "6, 12, 18, 24, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "30",
+      "secenekler": [
+        "30",
+        "28",
+        "29",
+        "32"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "sayi",
+            "deger": 18
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "or-t13",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aşağıdaki dizilerden hangisi örüntüdür?",
+      "dogruCevap": "4,4,4,4",
+      "secenekler": [
+        "4,4,4,4",
+        "2,5,1,8",
+        "1,3,2,5",
+        "7,3,9,1"
+      ],
+      "ipucu": "Örüntü tutarlı kural ister — hangisi tutarlı?",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "sabit"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t14",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "90, 80, 70, 60, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "50",
+      "secenekler": [
+        "45",
+        "50",
+        "58",
+        "55"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 90
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "or-t15",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Büyük-küçük-büyük-küçük yıldız dizisinde 5. yıldız hangisidir?",
+      "dogruCevap": "Büyük",
+      "secenekler": [
+        "Büyük",
+        "Yok",
+        "Küçük",
+        "Orta"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "büyük yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "küçük yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "büyük yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "küçük yıldız"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "AB",
+        "vurguIndeks": 0
+      }
+    },
+    {
+      "id": "or-t16",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 3, 6, 12, 24, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "48",
+      "secenekler": [
+        "48",
+        "36",
+        "30",
+        "40"
+      ],
+      "ipucu": "Bu sefer toplama değil, çarpma — her sayı iki katı!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t17",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "11, 22, 33, 44, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "50",
+        "54",
+        "55",
+        "56"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 22
+          },
+          {
+            "tip": "sayi",
+            "deger": 33
+          },
+          {
+            "tip": "sayi",
+            "deger": 44
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+11"
+      }
+    },
+    {
+      "id": "or-t18",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'ın örüntüsü: 8, 6, 4, 2, ... Sonraki sayı hangisidir?",
+      "dogruCevap": "0",
+      "secenekler": [
+        "1",
+        "-1",
+        "3",
+        "0"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 6
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "or-t19",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 1, 2, 3, 1, 2, 3, 1, ... → 10. terim hangisidir?",
+      "dogruCevap": "1",
+      "secenekler": [
+        "3",
+        "4",
+        "1",
+        "2"
+      ],
+      "ipucu": "Dizi 3'lü tekrar ediyor — 10÷3=3 kalan 1, yani 10. terim dizinin 1. elemanı!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "3lü tekrar"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t20",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "5, 15, 25, 35, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "45",
+      "secenekler": [
+        "40",
+        "43",
+        "50",
+        "45"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "or-t21",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı yıldız-sarı ay-mavi güneş-kırmızı yıldız-... → Sıradaki hangisidir?",
+      "dogruCevap": "Sarı ay",
+      "secenekler": [
+        "Mavi güneş",
+        "Yeşil kalp",
+        "Kırmızı yıldız",
+        "Sarı ay"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kırmızı yıldız"
+          },
+          {
+            "tip": "sekil",
+            "deger": "sarı ay"
+          },
+          {
+            "tip": "sekil",
+            "deger": "mavi güneş"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kırmızı yıldız"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "ABC",
+        "vurguIndeks": 1
+      }
+    },
+    {
+      "id": "or-t22",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Örüntü: 100, 95, 90, 85, ... Kaçıncı terimde 70'e ulaşılır?",
+      "dogruCevap": "7.",
+      "secenekler": [
+        "8.",
+        "6.",
+        "5.",
+        "7."
+      ],
+      "ipucu": "100,95,90,85,80,75,70 — say bakalım!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "sayi",
+            "deger": 90
+          },
+          {
+            "tip": "sayi",
+            "deger": 85
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "or-t23",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "8, 16, 24, 32, ... → Sonraki sayı hangisidir?",
+      "dogruCevap": "40",
+      "secenekler": [
+        "38",
+        "36",
+        "42",
+        "40"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "sayi",
+            "deger": 32
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+8"
+      }
+    },
+    {
+      "id": "or-t24",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "Dizinin kuralı \"dörder artıyor\" ve ilk terim 4'tür. 5. terim kaçtır?",
+      "dogruCevap": "20",
+      "secenekler": [
+        "16",
+        "20",
+        "18",
+        "24"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 12
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "or-t25",
+      "kazanimKodu": "MAT.2.2.5",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 60, 55, 50, 45, ... → Bu dizi kaçıncı terimde 30'a ulaşır?",
+      "dogruCevap": "7.",
+      "secenekler": [
+        "7.",
+        "6.",
+        "5.",
+        "8."
+      ],
+      "ipucu": "60,55,50,45,40,35,30 — 7. terim!",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      },
+      "sasirtma": true
+    }
+  ]
+}

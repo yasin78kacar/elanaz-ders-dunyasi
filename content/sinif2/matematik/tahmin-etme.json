@@ -1,0 +1,918 @@
+{
+  "id": "tahmin-etme",
+  "baslik": "Tahmin Etme",
+  "kazanimKodu": "MAT.2.2.6",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Tahmin, kesin saymadan önce yaklaşık bir cevap vermektir. \"Bu kavanozda kaç misket var?\" diye sormadan önce gözlerimizle TAHMİN EDERİZ, sonra sayarız!",
+        "gorsel": {
+          "tur": "tahmin-etme",
+          "sahne": "anlatim-1"
+        }
+      },
+      {
+        "metin": "İyi tahmin nasıl yapılır? Referans sayı kullan! \"10 misket nasıl görünür?\" önce onu gör, sonra kavanozu onunla karşılaştır.",
+        "gorsel": {
+          "tur": "tahmin-etme",
+          "sahne": "anlatim-2"
+        }
+      },
+      {
+        "metin": "Tahminimiz her zaman tam tutmaz — bu normal! Önemli olan MAKUL bir tahmin yapmak: ne çok fazla ne çok az. Tahmin ettikten sonra sayıp kontrol ederiz.",
+        "gorsel": {
+          "tur": "tahmin-etme",
+          "sahne": "anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "te-a1",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Kavanozda yaklaşık kaç misket var: 5 mi, 50 mi, 500 mü?",
+      "dogruCevap": "5",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "misket-az"
+      }
+    },
+    {
+      "id": "te-a2",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz 20 tahmin etti, gerçek 25 çıktı. Az mı, fazla mı tahmin etmiş?",
+      "dogruCevap": "az",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 20,
+        "gercek": 25
+      },
+      "alternatifCevaplar": [
+        "Az"
+      ]
+    },
+    {
+      "id": "te-a3",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Sınıfta yaklaşık kaç öğrenci oturur: 3 mü, 30 mu, 300 mü?",
+      "dogruCevap": "30",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "sinif"
+      }
+    },
+    {
+      "id": "te-a4",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "10 misket ne kadar yer kaplar görüyoruz. Büyük kapta yaklaşık kaç misket olabilir?",
+      "dogruCevap": "yaklaşık 30-40",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "referans-10"
+      },
+      "alternatifCevaplar": [
+        "30",
+        "35",
+        "40",
+        "30-40"
+      ]
+    },
+    {
+      "id": "te-a5",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 Elanaz \"Sınıfımızda 200 öğrenci var\" dedi. Bu makul bir tahmin mi?",
+      "dogruCevap": "hayır, makul değil",
+      "ipucu": "Bir sınıfta kaç sıra, kaç çocuk olabilir — 200 gerçekçi mi?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "sinif"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "hayır"
+      ]
+    },
+    {
+      "id": "te-a6",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz 15 tahmin etti, gerçek 12 çıktı. Az mı, fazla mı tahmin etmiş?",
+      "dogruCevap": "fazla",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 15,
+        "gercek": 12
+      },
+      "alternatifCevaplar": [
+        "Fazla"
+      ]
+    },
+    {
+      "id": "te-a7",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Bir kitapta yaklaşık kaç sayfa olur: 10 mu, 100 mü, 1000 mi?",
+      "dogruCevap": "100",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kitap"
+      }
+    },
+    {
+      "id": "te-a8",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Bardakta yaklaşık kaç çay kaşığı su var: 3 mü, 30 mu, 300 mü?",
+      "dogruCevap": "3",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "bardak"
+      }
+    },
+    {
+      "id": "te-a9",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 Ali \"Bahçedeki ağaçta yaklaşık 1.000.000 elma var\" dedi. Bu iyi bir tahmin mi?",
+      "dogruCevap": "hayır",
+      "ipucu": "Bir ağaçta yüzlerce elma olur, milyonlarca değil!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "agac"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "te-a10",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz 40 tahmin etti, gerçek 38 çıktı. Az mı, fazla mı, doğru mu tahmin etmiş?",
+      "dogruCevap": "yaklaşık doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 40,
+        "gercek": 38
+      },
+      "alternatifCevaplar": [
+        "fazla ama çok yakın"
+      ]
+    },
+    {
+      "id": "te-a11",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Bir günde yaklaşık kaç kez nefes alırız: 10 mu, 1.000 mi, 100 mü?",
+      "dogruCevap": "1.000",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "okul"
+      }
+    },
+    {
+      "id": "te-a12",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Sepette yaklaşık kaç elma var: 5 mi, 50 mi?",
+      "dogruCevap": "5",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "sepet-elma"
+      }
+    },
+    {
+      "id": "te-a13",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 Elanaz kalem kutusundaki kalemleri saymadan önce tahmin etti: \"20 kalem var.\" Açınca 8 çıktı. Elanaz fazla mı, az mı tahmin etmiş?",
+      "dogruCevap": "fazla tahmin etmiş",
+      "ipucu": "20 mi çok, 8 mi çok?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kalem-kutusu",
+        "tahmin": 20,
+        "gercek": 8
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "fazla"
+      ]
+    },
+    {
+      "id": "te-a14",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Sınıf kitaplığında yaklaşık kaç kitap var: 5 mi, 50 mi, 500 mü?",
+      "dogruCevap": "50",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kitaplik"
+      }
+    },
+    {
+      "id": "te-a15",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz bir çuval pirince baktı: \"yaklaşık 1.000 tane pirinç tanesi vardır\" dedi. Bu makul mu?",
+      "dogruCevap": "evet makul",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "pirinç"
+      },
+      "alternatifCevaplar": [
+        "evet"
+      ]
+    },
+    {
+      "id": "te-a16",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 Masada 10 boncuk var. Elanaz ikinci masada \"yaklaşık 10\" dedi ama 35 çıktı. Bu iyi bir tahmin mi?",
+      "dogruCevap": "hayır, iyi tahmin değil",
+      "ipucu": "10 tahmin, 35 gerçek — fark çok büyük, iyi tahmin sayılır mı?",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "referans-10",
+        "tahmin": 10,
+        "gercek": 35
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "hayır"
+      ]
+    },
+    {
+      "id": "te-a17",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Tahmin: 25, Gerçek: 24. Bu iyi bir tahmin mi? (evet/hayır)",
+      "dogruCevap": "evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 25,
+        "gercek": 24
+      },
+      "alternatifCevaplar": [
+        "Evet"
+      ]
+    },
+    {
+      "id": "te-a18",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Tahmin: 10, Gerçek: 80. Bu iyi bir tahmin mi? (evet/hayır)",
+      "dogruCevap": "hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 10,
+        "gercek": 80
+      },
+      "alternatifCevaplar": [
+        "Hayır"
+      ]
+    },
+    {
+      "id": "te-a19",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz sınıftaki sandalyeleri saymadan önce tahmin etti. Hangi tahmin daha iyi: 25 mi, 200 mü?",
+      "dogruCevap": "25",
+      "ipucu": "",
+      "cevapTipi": "sayi",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "sinif"
+      }
+    },
+    {
+      "id": "te-a20",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 \"Tahmin her zaman tam doğru olmalıdır.\" Bu doğru mu?",
+      "dogruCevap": "hayır, yanlış",
+      "ipucu": "Tahmin = kesin sayma değil, yaklaşık değer!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "hayır"
+      ]
+    },
+    {
+      "id": "te-a21",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz 30 tahmin etti, gerçek 29 çıktı. Değerlendirme nasıl?",
+      "dogruCevap": "çok iyi tahmin",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 30,
+        "gercek": 29
+      }
+    },
+    {
+      "id": "te-a22",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Büyük çantada yaklaşık kaç kitap var: 3 mü, 30 mu, 300 mü?",
+      "dogruCevap": "3-5 arası",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kitap"
+      },
+      "alternatifCevaplar": [
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "te-a23",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Tahmin: 50, Gerçek: 20. Fazla mı, az mı tahmin edilmiş?",
+      "dogruCevap": "fazla",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 50,
+        "gercek": 20
+      },
+      "alternatifCevaplar": [
+        "Fazla"
+      ]
+    },
+    {
+      "id": "te-a24",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "Elanaz kavanozdaki şekerleri tahmin ederken ne yapmalı?",
+      "dogruCevap": "referans sayıyı kullanmalı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "referans-10"
+      },
+      "alternatifCevaplar": [
+        "önce 10 tanesinin nasıl göründüğünü görmeli"
+      ]
+    },
+    {
+      "id": "te-a25",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "yazili",
+      "soru": "🎭 Aynı büyüklükte iki kavanoz var: birinde büyük misketler, birinde küçük misketler. Hangisinde DAHA ÇOK misket olur?",
+      "dogruCevap": "küçük misketli kavanos",
+      "ipucu": "Küçük nesneler daha sık yerleşir!",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "iki-kavanoz-kucuk"
+      },
+      "sasirtma": true,
+      "alternatifCevaplar": [
+        "küçük misketli kavanoz"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "te-t1",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz 20 tahmin etti, gerçek 25 çıktı. Nasıl tahmin etmiş?",
+      "dogruCevap": "Az",
+      "secenekler": [
+        "Az",
+        "Doğru",
+        "Hiç",
+        "Fazla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 20,
+        "gercek": 25
+      }
+    },
+    {
+      "id": "te-t2",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Bir sınıfta kaç öğrenci olur (makul tahmin)?",
+      "dogruCevap": "30",
+      "secenekler": [
+        "300",
+        "30",
+        "3",
+        "3000"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "sinif"
+      }
+    },
+    {
+      "id": "te-t3",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 15, Gerçek: 15. Bu nasıl bir tahmin?",
+      "dogruCevap": "Tam",
+      "secenekler": [
+        "Tam",
+        "Kötü",
+        "Az",
+        "Fazla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 15,
+        "gercek": 15
+      }
+    },
+    {
+      "id": "te-t4",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Hangi tahmin en İYİDİR? (Gerçek sayı: 40)",
+      "dogruCevap": "38",
+      "secenekler": [
+        "100",
+        "200",
+        "5",
+        "38"
+      ],
+      "ipucu": "Gerçeğe en yakın olan en iyi tahmindir!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 38,
+        "gercek": 40
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t5",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz kalem kutusunda 8 kalem olduğunu tahmin etti, 20 çıktı. Nasıl tahmin etmiş?",
+      "dogruCevap": "Az",
+      "secenekler": [
+        "Fazla",
+        "Doğru",
+        "Az",
+        "Makul"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kalem-kutusu",
+        "tahmin": 8,
+        "gercek": 20
+      }
+    },
+    {
+      "id": "te-t6",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Büyük çuvaldaki pirinç tanelerini tahmin etmek için ne yapmalıyız?",
+      "dogruCevap": "Referans grup kullan",
+      "secenekler": [
+        "Referans grup kullan",
+        "Çuvalı tart",
+        "Hiç bakma",
+        "Hepsini say"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "pirinç"
+      }
+    },
+    {
+      "id": "te-t7",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 \"Tahmin ne kadar gerçeğe yakınsa o kadar iyidir.\" Bu doğru mu?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Evet",
+        "Bazen",
+        "Hiçbir zaman"
+      ],
+      "ipucu": "Tahminimizin amacı gerçeğe yakın olmak!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t8",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 30, Gerçek: 45. Nasıl tahmin edilmiş?",
+      "dogruCevap": "Az",
+      "secenekler": [
+        "Tam",
+        "Fazla",
+        "Makul değil",
+        "Az"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 30,
+        "gercek": 45
+      }
+    },
+    {
+      "id": "te-t9",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi makul bir tahmin DEĞİLDİR?",
+      "dogruCevap": "Okulda 1.000.000 öğrenci",
+      "secenekler": [
+        "Kalem kutusunda 10 kalem",
+        "Sınıfta 28 öğrenci",
+        "Okulda 1.000.000 öğrenci",
+        "Kitapta 150 sayfa"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "okul"
+      }
+    },
+    {
+      "id": "te-t10",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz büyük kavanozdaki şekerleri tahmin etti: \"yaklaşık 100.\" Gerçek 97 çıktı. Bu iyi tahmin mi?",
+      "dogruCevap": "Evet, çok iyi",
+      "secenekler": [
+        "Orta",
+        "Kötü",
+        "Hayır, çok yanlış",
+        "Evet, çok iyi"
+      ],
+      "ipucu": "100 tahmin, 97 gerçek — fark sadece 3!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "iki-kavanoz",
+        "tahmin": 100,
+        "gercek": 97
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t11",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Bir ağaçta yaklaşık kaç yaprak olur?",
+      "dogruCevap": "1.000",
+      "secenekler": [
+        "10",
+        "5",
+        "1.000.000",
+        "1.000"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "agac"
+      }
+    },
+    {
+      "id": "te-t12",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 60, Gerçek: 20. Nasıl tahmin edilmiş?",
+      "dogruCevap": "Fazla",
+      "secenekler": [
+        "Fazla",
+        "Az",
+        "Doğru",
+        "Makul"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 60,
+        "gercek": 20
+      }
+    },
+    {
+      "id": "te-t13",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Küçük kapta 10 boncuk sığıyor. Aynı büyüklükteki 3 kap yan yana konsa toplam kaç boncuk sığar (tahmin)?",
+      "dogruCevap": "30",
+      "secenekler": [
+        "10",
+        "20",
+        "30",
+        "100"
+      ],
+      "ipucu": "3 kap × 10 boncuk = ?",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "uc-kap"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t14",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz saymadan önce \"yaklaşık 15\" dedi, gerçek 14 çıktı. Bu nasıl bir tahmin?",
+      "dogruCevap": "Fazla ama iyi",
+      "secenekler": [
+        "Az ve kötü",
+        "Hiç",
+        "Fazla ama iyi",
+        "Kötü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 15,
+        "gercek": 14
+      }
+    },
+    {
+      "id": "te-t15",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi tahmin için doğru bir yaklaşımdır?",
+      "dogruCevap": "Referans grup kullan",
+      "secenekler": [
+        "Rastgele söyle",
+        "Referans grup kullan",
+        "Saymadan cevapla",
+        "Büyük sayı söyle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "referans-10"
+      }
+    },
+    {
+      "id": "te-t16",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 \"Tahmin yaparken hata yapmak normaldir.\" Doğru mu?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Hayır",
+        "Hiçbir zaman hata olmaz",
+        "Sadece küçük hatalar"
+      ],
+      "ipucu": "Tahmin = kesin değil — hata olabilir, önemli olan makul olmak!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t17",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 50, Gerçek: 48. Bu nasıl bir tahmin?",
+      "dogruCevap": "Fazla ama çok iyi",
+      "secenekler": [
+        "Yanlış",
+        "Fazla ama çok iyi",
+        "Kötü",
+        "Az"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 50,
+        "gercek": 48
+      }
+    },
+    {
+      "id": "te-t18",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Bir fincan çayda yaklaşık kaç yudum su var?",
+      "dogruCevap": "10",
+      "secenekler": [
+        "100",
+        "10",
+        "1",
+        "1000"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "cay-fincani"
+      }
+    },
+    {
+      "id": "te-t19",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Aynı büyüklükte iki kutuda biri büyük toplarla, biri küçük toplarla dolu. Hangisinde daha az top vardır?",
+      "dogruCevap": "Büyük toplarda",
+      "secenekler": [
+        "Küçük toplarda",
+        "Büyük toplarda",
+        "Hiçbirinde",
+        "İkisinde eşit"
+      ],
+      "ipucu": "Büyük nesneler daha az sığar!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "iki-kavanoz"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t20",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 25, Gerçek: 50. Nasıl tahmin edilmiş?",
+      "dogruCevap": "Az",
+      "secenekler": [
+        "Makul",
+        "Fazla",
+        "Doğru",
+        "Az"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 25,
+        "gercek": 50
+      }
+    },
+    {
+      "id": "te-t21",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Okuldaki tüm öğrencileri tahmin etmek için ne yapabiliriz?",
+      "dogruCevap": "Bir sınıfı say, sınıf sayısıyla çarp",
+      "secenekler": [
+        "Sadece bak",
+        "Sormak yok",
+        "Bir sınıfı say, sınıf sayısıyla çarp",
+        "Rastgele say"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "okul"
+      }
+    },
+    {
+      "id": "te-t22",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Elanaz \"Tahmin 10, Gerçek 11 — bu kötü bir tahmin\" dedi. Haklı mı?",
+      "dogruCevap": "Hayır, 1 fark çok iyi tahmin",
+      "secenekler": [
+        "Tahmin söylenmez",
+        "Belki",
+        "Hayır, 1 fark çok iyi tahmin",
+        "Evet, haklı"
+      ],
+      "ipucu": "Sadece 1 fark — bu mükemmel tahmin sayılır!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 10,
+        "gercek": 11
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "te-t23",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Bir kitaplıktaki kitapları tahmin etmek için ne yapmalıyız?",
+      "dogruCevap": "Bir rafa bak, raf sayısıyla çarp",
+      "secenekler": [
+        "Hepsini say",
+        "Tartarak bul",
+        "Bir rafa bak, raf sayısıyla çarp",
+        "Rastgele söyle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "kitaplik"
+      }
+    },
+    {
+      "id": "te-t24",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "Tahmin: 100, Gerçek: 30. Bu nasıl bir tahmin?",
+      "dogruCevap": "Fazla",
+      "secenekler": [
+        "Makul",
+        "Az",
+        "İyi",
+        "Fazla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "dort-tahmin",
+        "tahmin": 100,
+        "gercek": 30
+      }
+    },
+    {
+      "id": "te-t25",
+      "kazanimKodu": "MAT.2.2.6",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 İyi tahmin yapabilmek için en önemli şey nedir?",
+      "dogruCevap": "Referans kullanmak ve deneyim",
+      "secenekler": [
+        "Şans",
+        "Hep büyük sayı söylemek",
+        "Hiç tahmin etmemek",
+        "Referans kullanmak ve deneyim"
+      ],
+      "ipucu": "Referans + deneyim = iyi tahmin!",
+      "gorsel": {
+        "tur": "tahmin-etme",
+        "sahne": "referans-10"
+      },
+      "sasirtma": true
+    }
+  ]
+}

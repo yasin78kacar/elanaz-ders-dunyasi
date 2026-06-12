@@ -8,6 +8,8 @@
  * - { tur: "nesne", sahne } → GeoGorsel sahne anahtarı (GOREV-3E)
  *   [GÖRSEL: tarif] brifinglerinde nesne türüne eşlenir.
  * - { tur: "kap", sahne } → G5mGorsel (GOREV-3I sıvı ölçme kap illüstrasyonları)
+ * - { tur: "oruntu", elemanlar, adimEtiketi? } → OruntuGorsel (GOREV-4A)
+ * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -32,6 +34,7 @@ import { geometrikCisimModelleri } from './gorev-3f-questions.mjs';
 import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
 import { bicimselOzellikler } from './gorev-3h-questions.mjs';
 import { siviOlcme } from './gorev-3i-questions.mjs';
+import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -311,6 +314,12 @@ const onlukBirlik = {
 };
 
 writeFileSync(join(contentDir, 'ritmik-sayma.json'), JSON.stringify(ritmikSayma, null, 2));
+const sayiDogrusuKonu = sayiDogrusu(karistir);
+const oruntuKonu = oruntu(karistir);
+const tahminEtmeKonu = tahminEtme(karistir);
+writeFileSync(join(contentDir, 'sayi-dogrusu.json'), JSON.stringify(sayiDogrusuKonu, null, 2));
+writeFileSync(join(contentDir, 'oruntu.json'), JSON.stringify(oruntuKonu, null, 2));
+writeFileSync(join(contentDir, 'tahmin-etme.json'), JSON.stringify(tahminEtmeKonu, null, 2));
 writeFileSync(join(contentDir, 'sayilari-okuma-yazma.json'), JSON.stringify(sayiOkuma, null, 2));
 writeFileSync(join(contentDir, 'onluk-birlik.json'), JSON.stringify(onlukBirlik, null, 2));
 writeFileSync(join(contentDir, 'geometrik-cisimler.json'), JSON.stringify(geometrikCisimlerKonu, null, 2));
@@ -415,6 +424,9 @@ const index = {
           baslik: 'Sayılar',
           konuDosyalari: [
             'matematik/ritmik-sayma.json',
+            'matematik/sayi-dogrusu.json',
+            'matematik/oruntu.json',
+            'matematik/tahmin-etme.json',
             'matematik/sayilari-okuma-yazma.json',
             'matematik/onluk-birlik.json',
           ],
@@ -460,6 +472,9 @@ console.log(
   bicimselOzelliklerKonu.test.length,
 );
 console.log('Sıvı ölçme:', siviOlcmeKonu.alistirma.length, '+', siviOlcmeKonu.test.length);
+console.log('Sayı doğrusu:', sayiDogrusuKonu.alistirma.length, '+', sayiDogrusuKonu.test.length);
+console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.length);
+console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {
