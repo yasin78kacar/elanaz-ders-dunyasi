@@ -1,7 +1,9 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { GuvenliMetin } from './GuvenliMetin';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
@@ -24,6 +26,50 @@ function yanlisMesaj(soru: Soru): string {
 }
 
 export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
+  const layout = useDeviceLayout();
+  const q = useQuestionStyles();
+  const hucreBoyut = layout.spacing(52);
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        tablo: { gap: layout.spacing(8) },
+        satir: { flexDirection: 'row', flexWrap: 'wrap', gap: layout.spacing(6) },
+        hucreHit: { overflow: 'visible' },
+        hucre: {
+          width: hucreBoyut,
+          height: hucreBoyut,
+          borderWidth: 2,
+          borderColor: colors.kenarlik,
+          borderRadius: layout.spacing(8),
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: colors.kart,
+          overflow: 'visible',
+        },
+        hucreBoyali: {
+          borderColor: colors.birincil,
+          backgroundColor: colors.birincilAcik,
+        },
+        hucreDogru: {
+          borderColor: colors.basari,
+          backgroundColor: colors.basariAcik,
+        },
+        hucreYanlis: {
+          borderColor: colors.hata,
+          backgroundColor: colors.hataAcik,
+        },
+        hucreSayi: {
+          flexShrink: 0,
+          fontSize: layout.font.md,
+          fontWeight: '700',
+          color: colors.metin,
+        },
+        hucreSayiBoyali: { color: colors.baslik },
+      }),
+    [layout, hucreBoyut],
+  );
+
   const baslangic = soru.tabloBaslangic ?? 1;
   const bitis = soru.tabloBitis ?? 20;
   const dogruSet = new Set(soru.dogruHucreler ?? []);
@@ -94,10 +140,10 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
   const kalanDeneme = MAX_DENEME - deneme;
 
   return (
-    <View style={styles.container}>
+    <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
-      <Text style={styles.soru}>{soruMetni(soru)}</Text>
-      <Text style={styles.hakMetni}>
+      <Text style={q.soru}>{soruMetni(soru)}</Text>
+      <Text style={q.hakMetni}>
         Deneme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanDeneme}
       </Text>
       <View style={styles.tablo}>
@@ -142,112 +188,26 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={boyali.size === 0} />
       )}
       {durum === 'dogru' && (
-        <View style={styles.feedbackDogru}>
-          <Text style={styles.feedbackBaslik}>Süper! ⭐</Text>
-          <Text style={styles.feedbackMetin}>Tabloyu doğru boyadın!</Text>
+        <View style={q.feedbackDogru}>
+          <Text style={q.feedbackBaslik}>Süper! ⭐</Text>
+          <Text style={q.feedbackMetin}>Tabloyu doğru boyadın!</Text>
         </View>
       )}
       {durum === 'yanlis' && kilitli && (
-        <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>
+        <View style={q.feedbackYanlis}>
+          <Text style={q.feedbackBaslikYanlis}>
             {soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
           </Text>
-          <Text style={styles.feedbackMetin}>{yanlisMesaj(soru)}</Text>
+          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
         </View>
       )}
       {durum === 'yanlis' && !kilitli && (
-        <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>Bazı hücreler yanlış veya eksik</Text>
-          <Text style={styles.feedbackMetin}>{soru.ipucu}</Text>
+        <View style={q.feedbackYanlis}>
+          <Text style={q.feedbackBaslikYanlis}>Bazı hücreler yanlış veya eksik</Text>
+          <Text style={q.feedbackMetin}>{soru.ipucu}</Text>
         </View>
       )}
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 32 },
-  soru: {
-    fontSize: 22,
-    lineHeight: 32,
-    color: colors.baslik,
-    fontWeight: '600',
-  },
-  hakMetni: {
-    fontSize: 16,
-    color: colors.turuncu,
-    fontWeight: '600',
-  },
-  tablo: { gap: 8 },
-  satir: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 6,
-  },
-  hucreHit: {
-    overflow: 'visible',
-  },
-  hucre: {
-    width: 52,
-    height: 52,
-    borderWidth: 2,
-    borderColor: colors.kenarlik,
-    borderRadius: 8,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: colors.kart,
-    overflow: 'visible',
-  },
-  hucreBoyali: {
-    borderColor: colors.birincil,
-    backgroundColor: colors.birincilAcik,
-  },
-  hucreDogru: {
-    borderColor: colors.basari,
-    backgroundColor: colors.basariAcik,
-  },
-  hucreYanlis: {
-    borderColor: colors.hata,
-    backgroundColor: colors.hataAcik,
-  },
-  hucreSayi: {
-    flexShrink: 0,
-    fontSize: 16,
-    fontWeight: '700',
-    color: colors.metin,
-  },
-  hucreSayiBoyali: {
-    color: colors.baslik,
-  },
-  feedbackDogru: {
-    backgroundColor: colors.basariAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.basari,
-  },
-  feedbackYanlis: {
-    backgroundColor: colors.hataAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.hata,
-  },
-  feedbackBaslik: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.basari,
-    marginBottom: 6,
-  },
-  feedbackBaslikYanlis: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.hata,
-    marginBottom: 6,
-  },
-  feedbackMetin: {
-    fontSize: 17,
-    lineHeight: 26,
-    color: colors.metin,
-  },
-});

@@ -1,10 +1,11 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getDersListesi, okumaKosesiMi } from '../services/contentLoader';
 import { getDersIlerlemeOzeti, getHikayeIlerlemeOzeti } from '../services/progressMap';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -18,6 +19,61 @@ interface DersKart {
 
 export function HomeScreen({ navigation }: Props) {
   const [kartlar, setKartlar] = useState<DersKart[]>([]);
+  const layout = useDeviceLayout();
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        container: { flex: 1 },
+        scroll: {
+          padding: layout.spacing(20),
+          gap: layout.spacing(14),
+          paddingBottom: layout.spacing(80),
+        },
+        hosgeldin: {
+          fontSize: layout.font.lg,
+          lineHeight: layout.spacing(30),
+          color: colors.metin,
+          marginBottom: layout.spacing(8),
+        },
+        kart: {
+          backgroundColor: colors.kart,
+          borderRadius: layout.spacing(16),
+          padding: layout.spacing(20),
+          borderWidth: 2,
+          borderColor: colors.kenarlik,
+        },
+        kartPressed: { opacity: 0.9, borderColor: colors.birincil },
+        kartBaslik: {
+          fontSize: layout.font.xl,
+          fontWeight: '700',
+          color: colors.baslik,
+        },
+        kartOzet: {
+          fontSize: layout.font.md,
+          color: colors.turuncu,
+          fontWeight: '600',
+          marginTop: layout.spacing(6),
+        },
+        anneButon: {
+          position: 'absolute',
+          bottom: layout.spacing(24),
+          right: layout.spacing(20),
+          backgroundColor: colors.metin,
+          paddingVertical: layout.spacing(12),
+          paddingHorizontal: layout.spacing(20),
+          borderRadius: layout.spacing(24),
+          minHeight: layout.buttonHeight,
+          justifyContent: 'center',
+        },
+        anneMetin: {
+          color: '#FFFFFF',
+          fontSize: layout.font.md,
+          fontWeight: '600',
+        },
+      }),
+    [layout],
+  );
 
   useFocusEffect(
     useCallback(() => {
@@ -76,47 +132,3 @@ export function HomeScreen({ navigation }: Props) {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: { flex: 1 },
-  scroll: { padding: 20, gap: 14, paddingBottom: 80 },
-  hosgeldin: {
-    fontSize: 20,
-    lineHeight: 30,
-    color: colors.metin,
-    marginBottom: 8,
-  },
-  kart: {
-    backgroundColor: colors.kart,
-    borderRadius: 16,
-    padding: 20,
-    borderWidth: 2,
-    borderColor: colors.kenarlik,
-  },
-  kartPressed: { opacity: 0.9, borderColor: colors.birincil },
-  kartBaslik: {
-    fontSize: 22,
-    fontWeight: '700',
-    color: colors.baslik,
-  },
-  kartOzet: {
-    fontSize: 15,
-    color: colors.turuncu,
-    fontWeight: '600',
-    marginTop: 6,
-  },
-  anneButon: {
-    position: 'absolute',
-    bottom: 24,
-    right: 20,
-    backgroundColor: colors.metin,
-    paddingVertical: 12,
-    paddingHorizontal: 20,
-    borderRadius: 24,
-  },
-  anneMetin: {
-    color: '#FFFFFF',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-});

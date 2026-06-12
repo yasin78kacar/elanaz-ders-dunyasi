@@ -1,4 +1,6 @@
+import { useMemo } from 'react';
 import { Platform, StyleSheet, Text, View, type StyleProp, type TextStyle } from 'react-native';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { colors } from '../theme/colors';
 import { secenekGosterim } from '../utils/secenekGosterim';
 
@@ -7,12 +9,29 @@ interface Props {
   style?: StyleProp<TextStyle>;
 }
 
-/**
- * Test şıkkı metni.
- * Sabit minWidth / flex:1 kullanılmaz — Android borderRadius + dar kutu son harfi (r/n/z) kırpar.
- */
+/** Test şıkkı metni — responsive font, kırpma yok. */
 export function SecenekMetni({ secenek, style }: Props) {
+  const layout = useDeviceLayout();
   const metin = secenekGosterim(secenek);
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        sarmalayici: {
+          flexGrow: 0,
+          flexShrink: 0,
+          overflow: 'visible',
+          paddingRight: layout.spacing(14),
+          paddingLeft: layout.spacing(4),
+        },
+        metin: {
+          fontSize: layout.font.lg,
+          color: colors.metin,
+          textAlign: 'left',
+        },
+      }),
+    [layout],
+  );
 
   return (
     <View style={styles.sarmalayici}>
@@ -29,18 +48,3 @@ export function SecenekMetni({ secenek, style }: Props) {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  sarmalayici: {
-    flexGrow: 0,
-    flexShrink: 0,
-    overflow: 'visible',
-    paddingRight: 14,
-    paddingLeft: 4,
-  },
-  metin: {
-    fontSize: 18,
-    color: colors.metin,
-    textAlign: 'left',
-  },
-});

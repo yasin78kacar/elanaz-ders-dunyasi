@@ -1,9 +1,10 @@
-import { useCallback, useLayoutEffect, useState } from 'react';
+import { useCallback, useLayoutEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonuHaritasi, type KonuHaritaOgesi } from '../services/progressMap';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
@@ -12,6 +13,72 @@ type Props = NativeStackScreenProps<RootStackParamList, 'TopicList'>;
 export function TopicListScreen({ route, navigation }: Props) {
   const { dersId, dersBaslik } = route.params;
   const [harita, setHarita] = useState<KonuHaritaOgesi[]>([]);
+  const layout = useDeviceLayout();
+
+  const pad = layout.spacing(24);
+  const gap = layout.spacing(12);
+  const itemWidth =
+    (layout.width - pad * 2 - gap * (layout.gridColumns - 1)) / layout.gridColumns;
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        container: { padding: pad, paddingBottom: layout.spacing(40) },
+        grid: {
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          gap,
+        },
+        kart: {
+          width: itemWidth,
+          backgroundColor: colors.kart,
+          borderRadius: layout.spacing(16),
+          padding: layout.spacing(20),
+          borderWidth: 3,
+          borderColor: colors.kenarlik,
+          minHeight: layout.spacing(96),
+        },
+        kartTamamlandi: {
+          borderColor: colors.basari,
+          backgroundColor: colors.basariAcik,
+        },
+        kartAktif: {
+          borderColor: colors.birincil,
+          backgroundColor: colors.birincilAcik,
+        },
+        kartPressed: { opacity: 0.9 },
+        kartUst: {
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          marginBottom: layout.spacing(6),
+        },
+        sira: {
+          fontSize: layout.font.sm,
+          fontWeight: '700',
+          color: colors.metin,
+        },
+        konuBaslik: {
+          fontSize: layout.font.lg,
+          fontWeight: '700',
+          color: colors.baslik,
+        },
+        yildiz: { fontSize: layout.font.lg, marginTop: layout.spacing(8) },
+        aktifEtiket: {
+          fontSize: layout.font.md,
+          fontWeight: '700',
+          color: colors.birincil,
+          marginTop: layout.spacing(8),
+        },
+        bos: { padding: pad },
+        bosMetin: {
+          fontSize: layout.font.md,
+          lineHeight: layout.spacing(28),
+          color: colors.metin,
+          textAlign: 'center',
+        },
+      }),
+    [layout, pad, gap, itemWidth],
+  );
 
   useLayoutEffect(() => {
     navigation.setOptions({ title: `${dersBaslik} — Yol Haritası` });
@@ -44,10 +111,10 @@ export function TopicListScreen({ route, navigation }: Props) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ElanazHeader />
-      {harita.map((konu, index) => (
-        <View key={konu.id} style={styles.yolParcasi}>
-          {index > 0 && <View style={[styles.cizgi, styles.cizgiAcik]} />}
+      <View style={styles.grid}>
+        {harita.map((konu, index) => (
           <Pressable
+            key={konu.id}
             onPress={() => konuyaGit(konu)}
             style={({ pressed }) => [
               styles.kart,
@@ -67,62 +134,8 @@ export function TopicListScreen({ route, navigation }: Props) {
               <Text style={styles.aktifEtiket}>Başla →</Text>
             )}
           </Pressable>
-        </View>
-      ))}
+        ))}
+      </View>
     </ScrollView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: { padding: 24, paddingBottom: 40 },
-  yolParcasi: { alignItems: 'center' },
-  cizgi: { width: 4, height: 24 },
-  cizgiAcik: { backgroundColor: colors.basari },
-  kart: {
-    width: '100%',
-    backgroundColor: colors.kart,
-    borderRadius: 16,
-    padding: 20,
-    borderWidth: 3,
-    borderColor: colors.kenarlik,
-    minHeight: 96,
-  },
-  kartTamamlandi: {
-    borderColor: colors.basari,
-    backgroundColor: colors.basariAcik,
-  },
-  kartAktif: {
-    borderColor: colors.birincil,
-    backgroundColor: colors.birincilAcik,
-  },
-  kartPressed: { opacity: 0.9 },
-  kartUst: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 6,
-  },
-  sira: {
-    fontSize: 14,
-    fontWeight: '700',
-    color: colors.metin,
-  },
-  konuBaslik: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.baslik,
-  },
-  yildiz: { fontSize: 22, marginTop: 8 },
-  aktifEtiket: {
-    fontSize: 16,
-    fontWeight: '700',
-    color: colors.birincil,
-    marginTop: 8,
-  },
-  bos: { padding: 24 },
-  bosMetin: {
-    fontSize: 18,
-    lineHeight: 28,
-    color: colors.metin,
-    textAlign: 'center',
-  },
-});

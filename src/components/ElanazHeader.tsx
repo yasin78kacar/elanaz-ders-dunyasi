@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { ElanazAvatar } from './ElanazAvatar';
-import { KARAKTER_AVATAR } from '../theme/gorselBoyut';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 
 interface Props {
   children?: ReactNode;
@@ -9,10 +9,12 @@ interface Props {
 }
 
 /** Ekran üstünde Elanaz karakteri + isteğe bağlı içerik. */
-export function ElanazHeader({ children, avatarSize = KARAKTER_AVATAR }: Props) {
+export function ElanazHeader({ children, avatarSize }: Props) {
+  const layout = useDeviceLayout();
+  const boyut = avatarSize ?? layout.avatarSize;
   return (
     <View style={styles.satir}>
-      <ElanazAvatar size={avatarSize} />
+      <ElanazAvatar size={boyut} />
       {children ? <View style={styles.icerik}>{children}</View> : null}
     </View>
   );
@@ -24,6 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: 14,
     marginBottom: 12,
+    flexWrap: 'wrap',
   },
   icerik: {
     flex: 1,

@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { flowGorselOlcekle } from '../theme/gorselBoyut';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 
 interface Props {
   children: ReactNode;
@@ -8,10 +8,12 @@ interface Props {
   tabanYukseklik?: number;
 }
 
-/** Yalnızca layout boşluğu; ölçekleme boyut sabitleriyle yapılır. */
-export function GorselOlcek({ children, tabanYukseklik = 200 }: Props) {
+/** Yalnızca layout boşluğu; Flow ölçeği deviceLayout.flowSize ile yapılır. */
+export function GorselOlcek({ children, tabanYukseklik = 220 }: Props) {
+  const layout = useDeviceLayout();
+
   return (
-    <View style={[styles.dis, { minHeight: flowGorselOlcekle(tabanYukseklik) }]}>
+    <View style={[styles.dis, { minHeight: layout.flowSize(tabanYukseklik) }]}>
       {children}
     </View>
   );

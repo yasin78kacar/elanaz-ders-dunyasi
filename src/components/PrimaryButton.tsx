@@ -1,4 +1,6 @@
+import { useMemo } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { colors } from '../theme/colors';
 import { GuvenliMetin } from './GuvenliMetin';
 
@@ -10,6 +12,22 @@ interface Props {
 }
 
 export function PrimaryButton({ label, onPress, disabled, variant = 'primary' }: Props) {
+  const layout = useDeviceLayout();
+  const dynamic = useMemo(
+    () => ({
+      button: {
+        minHeight: layout.buttonHeight,
+        paddingHorizontal: layout.spacing(24),
+        borderRadius: layout.spacing(14),
+        justifyContent: 'center' as const,
+      },
+      label: {
+        fontSize: layout.font.lg,
+      },
+    }),
+    [layout],
+  );
+
   return (
     <Pressable
       onPress={onPress}
@@ -23,11 +41,12 @@ export function PrimaryButton({ label, onPress, disabled, variant = 'primary' }:
       <View
         style={[
           styles.button,
+          dynamic.button,
           variant === 'secondary' && styles.secondary,
         ]}
       >
         <GuvenliMetin
-          style={[styles.label, variant === 'secondary' && styles.secondaryLabel]}
+          style={[styles.label, dynamic.label, variant === 'secondary' && styles.secondaryLabel]}
           tamGenislik={false}
         >
           {label}
@@ -43,9 +62,6 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: colors.birincil,
-    paddingVertical: 16,
-    paddingHorizontal: 24,
-    borderRadius: 14,
     alignItems: 'center',
     overflow: 'visible',
   },
@@ -62,7 +78,6 @@ const styles = StyleSheet.create({
   },
   label: {
     color: '#FFFFFF',
-    fontSize: 18,
     fontWeight: '700',
   },
   secondaryLabel: {

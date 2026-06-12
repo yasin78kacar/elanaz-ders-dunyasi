@@ -1,7 +1,9 @@
-import { useState } from 'react';
-import { Platform, StyleSheet, Text, TextInput, View } from 'react-native';
+import { useMemo, useState } from 'react';
+import { Platform, Text, TextInput, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
@@ -26,6 +28,22 @@ function yanlisMesaj(soru: Soru): string {
 export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   const [cevap, setCevap] = useState('');
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
+  const layout = useDeviceLayout();
+  const q = useQuestionStyles();
+
+  const inputStyle = useMemo(
+    () => ({
+      borderWidth: 2,
+      borderColor: colors.birincil,
+      borderRadius: layout.spacing(12),
+      padding: layout.spacing(16),
+      fontSize: layout.font.lg,
+      color: colors.baslik,
+      backgroundColor: colors.kart,
+      minHeight: layout.buttonHeight,
+    }),
+    [layout],
+  );
 
   const kontrolEt = () => {
     const normalize = normalizeCevap(cevap);
@@ -38,11 +56,11 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
-      <Text style={styles.soru}>{soruMetni(soru)}</Text>
+      <Text style={q.soru}>{soruMetni(soru)}</Text>
       <TextInput
-        style={styles.input}
+        style={inputStyle}
         value={cevap}
         onChangeText={setCevap}
         keyboardType={soru.cevapTipi === 'sayi' ? 'number-pad' : 'default'}
@@ -56,69 +74,19 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />
       )}
       {durum === 'dogru' && (
-        <View style={styles.feedbackDogru}>
-          <Text style={styles.feedbackBaslik}>Harika! 🌟</Text>
-          <Text style={styles.feedbackMetin}>Doğru düşündün, devam edebilirsin.</Text>
+        <View style={q.feedbackDogru}>
+          <Text style={q.feedbackBaslik}>Harika! 🌟</Text>
+          <Text style={q.feedbackMetin}>Doğru düşündün, devam edebilirsin.</Text>
         </View>
       )}
       {durum === 'yanlis' && (
-        <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>
+        <View style={q.feedbackYanlis}>
+          <Text style={q.feedbackBaslikYanlis}>
             {soru.sasirtma ? 'Dikkatli oku!' : 'Bir daha dene'}
           </Text>
-          <Text style={styles.feedbackMetin}>{yanlisMesaj(soru)}</Text>
+          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
         </View>
       )}
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: { gap: 32 },
-  soru: {
-    fontSize: 22,
-    lineHeight: 32,
-    color: colors.baslik,
-    fontWeight: '600',
-  },
-  input: {
-    borderWidth: 2,
-    borderColor: colors.birincil,
-    borderRadius: 12,
-    padding: 16,
-    fontSize: 20,
-    color: colors.baslik,
-    backgroundColor: colors.kart,
-  },
-  feedbackDogru: {
-    backgroundColor: colors.basariAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.basari,
-  },
-  feedbackYanlis: {
-    backgroundColor: colors.hataAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.hata,
-  },
-  feedbackBaslik: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.basari,
-    marginBottom: 6,
-  },
-  feedbackBaslikYanlis: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.hata,
-    marginBottom: 6,
-  },
-  feedbackMetin: {
-    fontSize: 17,
-    lineHeight: 26,
-    color: colors.metin,
-  },
-});

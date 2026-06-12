@@ -1,6 +1,6 @@
-import { useState, type ReactNode } from 'react';
+import { useMemo, useState, type ReactNode } from 'react';
 import { Image, StyleSheet, type ImageStyle, type StyleProp, View } from 'react-native';
-import { FLOW_GORSEL_GENISLIK, FLOW_GORSEL_YUKSEKLIK } from '../theme/gorselBoyut';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 
 /** Metro require() doğrulama — elanaz.jpeg doğrudan yükleme testi */
 export const FLOW_TEST_ELanaz = require('../../assets/images/A_cute_Turkish_girl_named_202606120924.jpeg');
@@ -12,11 +12,20 @@ interface Props {
 }
 
 export function FlowImage({ source, style, onError }: Props) {
+  const layout = useDeviceLayout();
+  const gorselStyle = useMemo(
+    () => ({
+      maxWidth: layout.flowSize(340),
+      height: layout.flowSize(220),
+    }),
+    [layout],
+  );
+
   return (
     <View style={styles.sarmal}>
       <Image
         source={source}
-        style={[styles.gorsel, style]}
+        style={[styles.gorsel, gorselStyle, style]}
         resizeMode="contain"
         accessibilityRole="image"
         onError={onError}
@@ -58,8 +67,6 @@ const styles = StyleSheet.create({
   },
   gorsel: {
     width: '100%',
-    maxWidth: FLOW_GORSEL_GENISLIK,
-    height: FLOW_GORSEL_YUKSEKLIK,
   },
   fallbackKapsayici: {
     width: '100%',

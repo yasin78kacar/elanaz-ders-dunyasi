@@ -6,8 +6,9 @@ import { GuvenliMetin } from './GuvenliMetin';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { NesneIkon, type NesneTipi } from '../../assets/illustrations/GeometriIllustrations';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { soruMetni } from '../utils/soruHelpers';
-import { ESLESTIRME_SATIR_IKON } from '../theme/gorselBoyut';
 
 const MAX_DENEME = 2;
 
@@ -44,6 +45,60 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   const [kilitli, setKilitli] = useState(false);
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
   const [yanlisSollar, setYanlisSollar] = useState<string[]>([]);
+  const layout = useDeviceLayout();
+  const q = useQuestionStyles();
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        sutunlar: { flexDirection: 'row', gap: layout.spacing(12) },
+        sutun: { flex: 1, gap: layout.spacing(8) },
+        sutunBaslik: {
+          fontSize: layout.font.sm,
+          fontWeight: '700',
+          color: colors.metin,
+          marginBottom: layout.spacing(4),
+        },
+        ogeHit: { overflow: 'visible' },
+        oge: {
+          borderWidth: 2,
+          borderColor: colors.kenarlik,
+          borderRadius: layout.spacing(10),
+          padding: layout.spacing(12),
+          backgroundColor: colors.kart,
+          gap: layout.spacing(4),
+          overflow: 'visible',
+        },
+        solSatir: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: layout.spacing(8),
+        },
+        ogeSecili: {
+          borderColor: colors.birincil,
+          backgroundColor: colors.birincilAcik,
+        },
+        ogeEslesmis: { borderColor: colors.birincil },
+        ogeYanlis: {
+          borderColor: colors.hata,
+          backgroundColor: colors.hataAcik,
+        },
+        ogeHazir: { borderColor: colors.turuncu },
+        ogeMetin: {
+          fontSize: layout.font.md,
+          color: colors.metin,
+          fontWeight: '600',
+          flex: 1,
+        },
+        ogeMetinSecili: { color: colors.birincil },
+        baglanti: {
+          fontSize: layout.font.sm,
+          color: colors.birincil,
+          fontWeight: '600',
+        },
+      }),
+    [layout],
+  );
 
   const tumEslesti = solOgeler.every((sol) => eslesmeler[sol]);
 
@@ -105,10 +160,10 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   const kalanDeneme = MAX_DENEME - deneme;
 
   return (
-    <View style={styles.container}>
+    <View style={q.container}>
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
-      <Text style={styles.soru}>{soruMetni(soru)}</Text>
-      <Text style={styles.hakMetni}>
+      <Text style={q.soru}>{soruMetni(soru)}</Text>
+      <Text style={q.hakMetni}>
         Deneme hakkın: {kilitli && durum === 'bekle' ? 0 : kalanDeneme}
       </Text>
       <View style={styles.sutunlar}>
@@ -136,7 +191,9 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
                   ]}
                 >
                   <View style={styles.solSatir}>
-                    {cift.ikon && <NesneIkon tip={cift.ikon as NesneTipi} size={ESLESTIRME_SATIR_IKON} />}
+                    {cift.ikon && (
+                      <NesneIkon tip={cift.ikon as NesneTipi} size={layout.ikonSize(30)} />
+                    )}
                     <GuvenliMetin style={[styles.ogeMetin, secili && styles.ogeMetinSecili]} textAlign="left">
                       {sol}
                     </GuvenliMetin>
@@ -169,130 +226,26 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
         <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!tumEslesti} />
       )}
       {durum === 'dogru' && (
-        <View style={styles.feedbackDogru}>
-          <Text style={styles.feedbackBaslik}>Süper! ⭐</Text>
-          <Text style={styles.feedbackMetin}>Tüm eşleştirmeler doğru!</Text>
+        <View style={q.feedbackDogru}>
+          <Text style={q.feedbackBaslik}>Süper! ⭐</Text>
+          <Text style={q.feedbackMetin}>Tüm eşleştirmeler doğru!</Text>
         </View>
       )}
       {durum === 'yanlis' && kilitli && (
-        <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>
+        <View style={q.feedbackYanlis}>
+          <Text style={q.feedbackBaslikYanlis}>
             {soru.sasirtma ? 'Dikkatli oku!' : 'Bu sefer olmadı'}
           </Text>
-          <Text style={styles.feedbackMetin}>{yanlisMesaj(soru)}</Text>
+          <Text style={q.feedbackMetin}>{yanlisMesaj(soru)}</Text>
         </View>
       )}
       {durum === 'yanlis' && !kilitli && (
-        <View style={styles.feedbackYanlis}>
-          <Text style={styles.feedbackBaslikYanlis}>Bazı eşleştirmeler yanlış</Text>
-          <Text style={styles.feedbackMetin}>{soru.ipucu}</Text>
+        <View style={q.feedbackYanlis}>
+          <Text style={q.feedbackBaslikYanlis}>Bazı eşleştirmeler yanlış</Text>
+          <Text style={q.feedbackMetin}>{soru.ipucu}</Text>
         </View>
       )}
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: { gap: 32 },
-  soru: {
-    fontSize: 22,
-    lineHeight: 32,
-    color: colors.baslik,
-    fontWeight: '600',
-  },
-  hakMetni: {
-    fontSize: 16,
-    color: colors.turuncu,
-    fontWeight: '600',
-  },
-  sutunlar: {
-    flexDirection: 'row',
-    gap: 12,
-  },
-  sutun: {
-    flex: 1,
-    gap: 8,
-  },
-  sutunBaslik: {
-    fontSize: 14,
-    fontWeight: '700',
-    color: colors.metin,
-    marginBottom: 4,
-  },
-  ogeHit: {
-    overflow: 'visible',
-  },
-  oge: {
-    borderWidth: 2,
-    borderColor: colors.kenarlik,
-    borderRadius: 10,
-    padding: 12,
-    backgroundColor: colors.kart,
-    gap: 4,
-    overflow: 'visible',
-  },
-  solSatir: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  ogeSecili: {
-    borderColor: colors.birincil,
-    backgroundColor: colors.birincilAcik,
-  },
-  ogeEslesmis: {
-    borderColor: colors.birincil,
-  },
-  ogeYanlis: {
-    borderColor: colors.hata,
-    backgroundColor: colors.hataAcik,
-  },
-  ogeHazir: {
-    borderColor: colors.turuncu,
-  },
-  ogeMetin: {
-    fontSize: 16,
-    color: colors.metin,
-    fontWeight: '600',
-    flex: 1,
-  },
-  ogeMetinSecili: {
-    color: colors.birincil,
-  },
-  baglanti: {
-    fontSize: 14,
-    color: colors.birincil,
-    fontWeight: '600',
-  },
-  feedbackDogru: {
-    backgroundColor: colors.basariAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.basari,
-  },
-  feedbackYanlis: {
-    backgroundColor: colors.hataAcik,
-    padding: 16,
-    borderRadius: 12,
-    borderWidth: 2,
-    borderColor: colors.hata,
-  },
-  feedbackBaslik: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.basari,
-    marginBottom: 6,
-  },
-  feedbackBaslikYanlis: {
-    fontSize: 20,
-    fontWeight: '700',
-    color: colors.hata,
-    marginBottom: 6,
-  },
-  feedbackMetin: {
-    fontSize: 17,
-    lineHeight: 26,
-    color: colors.metin,
-  },
-});

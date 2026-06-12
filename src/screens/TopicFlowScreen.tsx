@@ -11,6 +11,7 @@ import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { ElanazHeader } from '../components/ElanazHeader';
 import { colors } from '../theme/colors';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
 
@@ -24,7 +25,39 @@ type Adim =
 
 export function TopicFlowScreen({ route, navigation }: Props) {
   const { dersId, konuId, konuBaslik } = route.params;
+  const layout = useDeviceLayout();
   const konu = getKonu(dersId, konuId);
+
+  const styles = useMemo(
+    () =>
+      StyleSheet.create({
+        container: { padding: layout.spacing(20), paddingBottom: layout.spacing(40) },
+        kutu: { gap: layout.spacing(32) },
+        etiket: {
+          fontSize: layout.font.md,
+          fontWeight: '700',
+          color: colors.turuncu,
+          textTransform: 'uppercase',
+          letterSpacing: 0.5,
+        },
+        anlatimMetin: {
+          fontSize: layout.font.lg,
+          lineHeight: layout.spacing(34),
+          color: colors.baslik,
+          marginTop: layout.spacing(8),
+        },
+        sayac: { fontSize: layout.font.sm, color: colors.metin },
+        hata: { fontSize: layout.font.md, color: colors.hata, padding: layout.spacing(20) },
+        sonucBaslik: { fontSize: layout.font.xl, fontWeight: '700', color: colors.baslik },
+        yildizlar: { fontSize: layout.spacing(40), textAlign: 'center' },
+        yildizAciklama: {
+          fontSize: layout.font.md,
+          lineHeight: layout.spacing(28),
+          color: colors.metin,
+        },
+      }),
+    [layout],
+  );
 
   const oturum = useMemo(() => {
     if (!konu) return null;
@@ -207,25 +240,3 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   );
 }
 
-const styles = StyleSheet.create({
-  container: { padding: 20, paddingBottom: 40 },
-  kutu: { gap: 32 },
-  etiket: {
-    fontSize: 16,
-    fontWeight: '700',
-    color: colors.turuncu,
-    textTransform: 'uppercase',
-    letterSpacing: 0.5,
-  },
-  anlatimMetin: {
-    fontSize: 22,
-    lineHeight: 34,
-    color: colors.baslik,
-    marginTop: 8,
-  },
-  sayac: { fontSize: 15, color: colors.metin },
-  hata: { fontSize: 18, color: colors.hata, padding: 20 },
-  sonucBaslik: { fontSize: 24, fontWeight: '700', color: colors.baslik },
-  yildizlar: { fontSize: 40, textAlign: 'center' },
-  yildizAciklama: { fontSize: 18, lineHeight: 28, color: colors.metin },
-});
