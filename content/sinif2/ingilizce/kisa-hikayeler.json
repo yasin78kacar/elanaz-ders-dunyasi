@@ -1,0 +1,936 @@
+{
+  "id": "kisa-hikayeler",
+  "baslik": "Short Stories",
+  "kazanimKodu": "ING.2.4.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Ali ve Ayşe kütüphanede \"The Little Red Apple\" hikayesini okudular. Yeşil ağacın dalındaki mutlu kırmızı elma güneşe gülümsüyordu. \"Read a story\" İngilizce yeni kelimeler öğrenmek için çok eğlenceliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "kh-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk ve Fatma \"The Brave Dog\" hikayesini okudular. Köpek koyunları (Sheep) koruyordu — gerçekten çok cesur (Brave)! Dog, Run, Jump kelimelerini öğrendiler.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "kh-anlatim-2"
+        }
+      },
+      {
+        "metin": "Can ve Zeynep \"The Happy Bird\" kitabını seçtiler. Kuş sabahları \"Good morning!\" diyor ve gökyüzünde özgürce uçuyordu (Fly). Sing a song yapıyor, ormandaki Animals dinliyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "kh-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "kh-a1",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikaye kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "story",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hikaye-kitabi"
+      }
+    },
+    {
+      "id": "kh-a2",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"The Little Red Apple\" hikayesi, kırmızı bir elmayı anlatır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-kucuk"
+      }
+    },
+    {
+      "id": "kh-a3",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikaye okumak İngilizcede \"Read a .........\" olarak söylenir.",
+      "dogruCevap": "story",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap-okuyan"
+      }
+    },
+    {
+      "id": "kh-a4",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "İngilizcede köpek \"Dog\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cesur-kopek"
+      }
+    },
+    {
+      "id": "kh-a5",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Mutlu kuşun İngilizce adı \"The Happy .........\" (Kuş) olarak yazılır.",
+      "dogruCevap": "Bird",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-kus"
+      },
+      "alternatifCevaplar": [
+        "bird"
+      ]
+    },
+    {
+      "id": "kh-a6",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikayedeki yeşil ağaç İngilizcede \"Green Tree\" olarak okunur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "agac-resmi"
+      }
+    },
+    {
+      "id": "kh-a7",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Cesur köpek \"The Brave Dog\" hikayesinde geçmektedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ciftlik-kopegi"
+      }
+    },
+    {
+      "id": "kh-a8",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikayedeki kuş sabahları uyanıp Güneş'e İngilizce \"......... morning\" der.",
+      "dogruCevap": "Good",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunesli-gokyuz"
+      }
+    },
+    {
+      "id": "kh-a9",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Sing a song\" İngilizcede ......... söylemek demektir.",
+      "dogruCevap": "şarkı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sarki-kusu"
+      }
+    },
+    {
+      "id": "kh-a10",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "İngilizce kısa hikayeler \"Short Stories\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitaplik"
+      }
+    },
+    {
+      "id": "kh-a11",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Cesur köpek hikayesinde köpek, sevimli ......... (koyunları) korur.",
+      "dogruCevap": "sheep",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koyun-surusu"
+      }
+    },
+    {
+      "id": "kh-a12",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Köpeğin zıplaması İngilizcede \"Jump\" eylemiyle anlatılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan-kopek"
+      }
+    },
+    {
+      "id": "kh-a13",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Gökyüzünde \"Fly\" (uçmak) kuşların yaptığı en güzel eylemdir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucan-kuslar"
+      }
+    },
+    {
+      "id": "kh-a14",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kitabın sonunda cesur köpek mışıl mışıl \".........\" (uyur).",
+      "dogruCevap": "sleep",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uyuyan-kopek"
+      },
+      "alternatifCevaplar": [
+        "sleeps"
+      ]
+    },
+    {
+      "id": "kh-a15",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Mutlu kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "happy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulen-cocuk"
+      }
+    },
+    {
+      "id": "kh-a16",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikayedeki tüm orman canlılarına genel olarak \"Animals\" deriz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "orman-hayvanlari"
+      }
+    },
+    {
+      "id": "kh-a17",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Resimlere bakarak hikaye okumak kelime öğrenmemizi çok ......... .",
+      "dogruCevap": "kolaylaştırır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-sayfa"
+      },
+      "alternatifCevaplar": [
+        "sağlar"
+      ]
+    },
+    {
+      "id": "kh-a18",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Mutlu kuşun tüyleri sarı (Yellow) ve ......... (mavi) renktedir.",
+      "dogruCevap": "blue",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-mavi-tuy"
+      }
+    },
+    {
+      "id": "kh-a19",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Elma kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "apple",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "elma-agaci"
+      }
+    },
+    {
+      "id": "kh-a20",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Hikayedeki köpek çok hızlı \"Run\" (koşar).",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kosan-kopek"
+      }
+    },
+    {
+      "id": "kh-a21",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kuşlar pencereden girerken \"Hello\" (merhaba) derler.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "acik-pencere"
+      }
+    },
+    {
+      "id": "kh-a22",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Short\" kelimesi uzun anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hikaye-dinleyen"
+      }
+    },
+    {
+      "id": "kh-a23",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kırmızı renk İngilizcede \".........\" olarak yazılır.",
+      "dogruCevap": "red",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-sepet"
+      }
+    },
+    {
+      "id": "kh-a24",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Küçük kelimesinin İngilizcesi \"Little\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kopek-yavrusu"
+      }
+    },
+    {
+      "id": "kh-a25",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kütüphanede hikaye okurken (Read) sessiz olmalıyız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kutuphane-sessiz"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "kh-t1",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Hikaye\" anlamına gelen kelime hangisidir?",
+      "dogruCevap": "Story",
+      "secenekler": [
+        "Dog",
+        "Story",
+        "Apple",
+        "Song"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hikaye-kitabi-acik"
+      }
+    },
+    {
+      "id": "kh-t2",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Read a story\" Türkçede hangi güzel anlama gelir?",
+      "dogruCevap": "Hikaye okumak",
+      "secenekler": [
+        "Yemek yemek",
+        "Şarkı söylemek",
+        "Hikaye okumak",
+        "Resim çizmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap-okuyan-iki"
+      }
+    },
+    {
+      "id": "kh-t3",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Short\" kelimesi ne anlama gelir?",
+      "dogruCevap": "Kısa",
+      "secenekler": [
+        "Sıcak",
+        "Uzun",
+        "Kısa",
+        "Büyük"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kisa-masal"
+      }
+    },
+    {
+      "id": "kh-t4",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"The Little Red Apple\" hikayesinde anlatılan meyve hangisidir?",
+      "dogruCevap": "Elma",
+      "secenekler": [
+        "Portakal",
+        "Muz",
+        "Karpuz",
+        "Elma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-kucuk"
+      }
+    },
+    {
+      "id": "kh-t5",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikayenin adında geçen \"Little\" kelimesi ne demektir?",
+      "dogruCevap": "Küçük",
+      "secenekler": [
+        "Uzun",
+        "Yeşil",
+        "Kocaman",
+        "Küçük"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulen-elma"
+      }
+    },
+    {
+      "id": "kh-t6",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"The Brave Dog\" hikayesinin kahramanı olan hayvan hangisidir?",
+      "dogruCevap": "Dog",
+      "secenekler": [
+        "Lion",
+        "Cat",
+        "Bird",
+        "Dog"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cesur-kopek"
+      }
+    },
+    {
+      "id": "kh-t7",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"The Happy Bird\" hikayesinde uçan sevimli hayvanın adı nedir?",
+      "dogruCevap": "Kuş (Bird)",
+      "secenekler": [
+        "Köpek (Dog)",
+        "İnek (Cow)",
+        "Kuş (Bird)",
+        "At (Horse)"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-kus"
+      }
+    },
+    {
+      "id": "kh-t8",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Happy\" kelimesinin Türkçe karşılığı nedir?",
+      "dogruCevap": "Mutlu",
+      "secenekler": [
+        "Üzgün",
+        "Kızgın",
+        "Şaşkın",
+        "Mutlu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulen-cocuk"
+      }
+    },
+    {
+      "id": "kh-t9",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kuşun yaptığı \"Sing a song\" eylemi ne demektir?",
+      "dogruCevap": "Şarkı söylemek",
+      "secenekler": [
+        "Dans etmek",
+        "Şarkı söylemek",
+        "Koşmak",
+        "Uyumak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sarki-kusu"
+      }
+    },
+    {
+      "id": "kh-t10",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede kuşların yaptığı eylem olan \"Fly\" ne anlama gelir?",
+      "dogruCevap": "Uçmak",
+      "secenekler": [
+        "Oturmak",
+        "Uçmak",
+        "Zıplamak",
+        "Yüzmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucan-kuslar"
+      }
+    },
+    {
+      "id": "kh-t11",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Köpeğin koruduğu \"Sheep\" kelimesi hangi hayvandır?",
+      "dogruCevap": "Koyun",
+      "secenekler": [
+        "Koyun",
+        "Tavuk",
+        "At",
+        "İnek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koyun-surusu"
+      }
+    },
+    {
+      "id": "kh-t12",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Green Tree\" ifadesi Türkçede neyi anlatır?",
+      "dogruCevap": "Yeşil ağaç",
+      "secenekler": [
+        "Mavi deniz",
+        "Sarı güneş",
+        "Yeşil ağaç",
+        "Kırmızı elma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "agac-resmi"
+      }
+    },
+    {
+      "id": "kh-t13",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kuşun sabahları Güneş'e söylediği \"Good morning\" ne demektir?",
+      "dogruCevap": "Günaydın",
+      "secenekler": [
+        "Teşekkürler",
+        "Hoşça kal",
+        "Günaydın",
+        "İyi geceler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunes-dogusu-kus"
+      }
+    },
+    {
+      "id": "kh-t14",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Short Stories\" kelimeleri sırasıyla ne anlama gelir?",
+      "dogruCevap": "Kısa hikayeler",
+      "secenekler": [
+        "Müzikli şarkılar",
+        "Kısa hikayeler",
+        "Uzun şiirler",
+        "Renkli resimler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitaplik"
+      }
+    },
+    {
+      "id": "kh-t15",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi bir \"Story\" (Hikaye) kahramanı olabilir?",
+      "dogruCevap": "The Brave Dog (Cesur Köpek)",
+      "secenekler": [
+        "Pencil (Kalem)",
+        "The Brave Dog (Cesur Köpek)",
+        "Chair (Sandalye)",
+        "Desk (Sıra)"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hikaye-kapak"
+      }
+    },
+    {
+      "id": "kh-t16",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikayedeki köpeğin yaptığı \"Run\" eylemi nedir?",
+      "dogruCevap": "Koşmak",
+      "secenekler": [
+        "Koşmak",
+        "İçmek",
+        "Yürümek",
+        "Uyumak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kosan-kopek"
+      }
+    },
+    {
+      "id": "kh-t17",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Köpeğin engellerden geçerken yaptığı \"Jump\" nedir?",
+      "dogruCevap": "Zıplamak",
+      "secenekler": [
+        "Çizmek",
+        "Zıplamak",
+        "Düşmek",
+        "Uçmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan-kopek"
+      }
+    },
+    {
+      "id": "kh-t18",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikayenin sonunda köpeğin yaptığı \"Sleep\" eylemi nedir?",
+      "dogruCevap": "Uyumak",
+      "secenekler": [
+        "Yemek yemek",
+        "Uyanmak",
+        "Uyumak",
+        "Oturmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uyuyan-kopek"
+      }
+    },
+    {
+      "id": "kh-t19",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ormandaki tüm canlılar olan \"Animals\" ne anlama gelir?",
+      "dogruCevap": "Hayvanlar",
+      "secenekler": [
+        "Renkler",
+        "Hayvanlar",
+        "Eşyalar",
+        "Sayılar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "orman-hayvanlari"
+      }
+    },
+    {
+      "id": "kh-t20",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Blue bird\" Türkçede ne anlama gelir?",
+      "dogruCevap": "Mavi kuş",
+      "secenekler": [
+        "Kırmızı elma",
+        "Sarı güneş",
+        "Yeşil ağaç",
+        "Mavi kuş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-kus"
+      }
+    },
+    {
+      "id": "kh-t21",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Red apple\" ifadesi hangi meyveyi tarif eder?",
+      "dogruCevap": "Kırmızı elma",
+      "secenekler": [
+        "Sarı muz",
+        "Yeşil armut",
+        "Kırmızı elma",
+        "Mor üzüm"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-sepet"
+      }
+    },
+    {
+      "id": "kh-t22",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Happy\" kelimesinin zıttı (tersi) aşağıdakilerden hangisi olabilir?",
+      "dogruCevap": "Üzgün (Sad)",
+      "secenekler": [
+        "Sevimli",
+        "Hızlı",
+        "Neşeli",
+        "Üzgün (Sad)"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk-kus"
+      }
+    },
+    {
+      "id": "kh-t23",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikaye okurken (Read) en çok hangi organımızı kullanırız?",
+      "dogruCevap": "Eye",
+      "secenekler": [
+        "Eye",
+        "Foot",
+        "Leg",
+        "Hand"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okuyan-kiz"
+      }
+    },
+    {
+      "id": "kh-t24",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hayvanların \"Sing\" yapması ne anlama gelir?",
+      "dogruCevap": "Şarkı söylemesi",
+      "secenekler": [
+        "Şarkı söylemesi",
+        "Su içmesi",
+        "Yemek yemesi",
+        "Oyun oynaması"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hayvan-korosu"
+      }
+    },
+    {
+      "id": "kh-t25",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kitap okumak hayal gücümüzü nasıl etkiler?",
+      "dogruCevap": "Çok geliştirir ve bizi mutlu eder",
+      "secenekler": [
+        "Bizi üzer",
+        "Çok geliştirir ve bizi mutlu eder",
+        "Bizi sıkıcı yapar",
+        "Hiç etkilemez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap-okuyan-mutlu"
+      }
+    }
+  ]
+}

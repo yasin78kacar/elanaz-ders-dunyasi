@@ -59,6 +59,8 @@ import tarihVeKulturumuz from '../../content/sinif2/hayat-bilgisi/tarih-ve-kultu
 import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afetler-ve-korunma.json';
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
+import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
+import kisaHikayeler from '../../content/sinif2/ingilizce/kisa-hikayeler.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -124,6 +126,8 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
   'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
   'ingilizce/sayilar-ve-sinif-esyalari.json': sayilarVeSinifEsyalari as Konu,
+  'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAile as Konu,
+  'ingilizce/kisa-hikayeler.json': kisaHikayeler as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

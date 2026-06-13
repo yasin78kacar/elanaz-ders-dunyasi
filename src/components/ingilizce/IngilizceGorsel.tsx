@@ -108,6 +108,94 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'bes-silgi': { emoji: '🧽', etiket: '5 Silgi', ing: 'Five erasers' },
   'one-two': { emoji: '1️⃣2️⃣', etiket: 'One, Two', ing: 'One, Two' },
   'on-kalem': { emoji: '✏️', etiket: '10 Kalem', ing: 'Ten pencils' },
+  // Tema 1C — Greetings and Family
+  'el-sallayan': { emoji: '👋', etiket: 'Hello', ing: 'Hello' },
+  'merhaba-cocuklar': { emoji: '🧒', etiket: 'Merhaba', ing: 'Hi' },
+  'sabah-gunes': { emoji: '🌅', etiket: 'Sabah', ing: 'Good morning' },
+  'ogle-vakti': { emoji: '☀️', etiket: 'Öğle', ing: 'Good afternoon' },
+  'aile-foto': { emoji: '👨‍👩‍👧‍👦', etiket: 'Aile', ing: 'Family' },
+  'anne-resmi': { emoji: '👩', etiket: 'Anne', ing: 'Mother' },
+  'baba-resmi': { emoji: '👨', etiket: 'Baba', ing: 'Father' },
+  'kiz-kardes': { emoji: '👧', etiket: 'Kız Kardeş', ing: 'Sister' },
+  'erkek-kardes': { emoji: '👦', etiket: 'Erkek Kardeş', ing: 'Brother' },
+  'gece-uyku': { emoji: '🌙', etiket: 'Gece', ing: 'Good night' },
+  'aksam-yemegi': { emoji: '🍽️', etiket: 'Akşam', ing: 'Good evening' },
+  vedalasan: { emoji: '👋', etiket: 'Veda', ing: 'Goodbye' },
+  'bye-bye': { emoji: '✌️', etiket: 'Hoşça kal', ing: 'Bye bye' },
+  'park-ayrilma': { emoji: '🏞️', etiket: 'Görüşürüz', ing: 'See you' },
+  buyukanne: { emoji: '👵', etiket: 'Nine', ing: 'Grandmother' },
+  buyukbaba: { emoji: '👴', etiket: 'Dede', ing: 'Grandfather' },
+  'gunduz-gunes': { emoji: '☀️', etiket: 'Gündüz', ing: 'Good morning' },
+  'neseli-anne': { emoji: '😊', etiket: 'Anne', ing: 'Mother' },
+  'bebek-kardes': { emoji: '👶', etiket: 'Bebek', ing: 'Baby' },
+  'baba-ogul': { emoji: '👨‍👦', etiket: 'Baba ve Oğul', ing: 'Father and son' },
+  kardesler: { emoji: '👧👦', etiket: 'Kardeşler', ing: 'Sister and brother' },
+  'aile-tablosu': { emoji: '🖼️', etiket: 'Ailem', ing: 'My family' },
+  'merhaba-kiz': { emoji: '👧', etiket: 'Selam', ing: 'Hi' },
+  'aksam-gunes': { emoji: '🌇', etiket: 'Akşam', ing: 'Good evening' },
+  'gece-ay': { emoji: '🌙', etiket: 'Gece', ing: 'Good night' },
+  'okul-karsilasma': { emoji: '🏫', etiket: 'Okul', ing: 'Hello / Good morning' },
+  'gunes-dogusu': { emoji: '🌅', etiket: 'Günaydın', ing: 'Good morning' },
+  'anne-portre': { emoji: '👩', etiket: 'Anne', ing: 'Mother' },
+  'baba-portre': { emoji: '👨', etiket: 'Baba', ing: 'Father' },
+  'kiz-kardes-abla': { emoji: '👧', etiket: 'Kız Kardeş', ing: 'Sister' },
+  'erkek-kardes-ali': { emoji: '👦', etiket: 'Erkek Kardeş', ing: 'Brother' },
+  'aile-foto-test': { emoji: '👨‍👩‍👧', etiket: 'Aile', ing: 'Family' },
+  'okul-ayrilma': { emoji: '🎒', etiket: 'Hoşça kal', ing: 'Goodbye' },
+  'gece-yatak': { emoji: '🛏️', etiket: 'İyi geceler', ing: 'Good night' },
+  'hi-selam': { emoji: '🙋', etiket: 'Selam', ing: 'Hi' },
+  'ogleden-sonra-park': { emoji: '🌤️', etiket: 'Öğleden sonra', ing: 'Good afternoon' },
+  gorusuruz: { emoji: '👋', etiket: 'Görüşürüz', ing: 'See you' },
+  'buyukanne-resim': { emoji: '👵', etiket: 'Nine', ing: 'Grandmother' },
+  'buyukbaba-resim': { emoji: '👴', etiket: 'Dede', ing: 'Grandfather' },
+  'neseli-bebek': { emoji: '👶', etiket: 'Bebek', ing: 'Baby' },
+  'aksam-yemegi-aile': { emoji: '🍽️', etiket: 'Akşam', ing: 'Good evening' },
+  'aile-uyeleri': { emoji: '👨‍👩‍👧‍👦', etiket: 'Ailem', ing: 'My family' },
+  'kardes-oyun': { emoji: '👧👦', etiket: 'Kardeşler', ing: 'Brother and Sister' },
+  'el-sallayan-kiz': { emoji: '👋', etiket: 'Bye bye', ing: 'Bye bye' },
+  'anne-baba': { emoji: '👩‍❤️‍👨', etiket: 'Anne ve Baba', ing: 'Mother and Father' },
+  'gunaydin-cocuk': { emoji: '🌅', etiket: 'Günaydın', ing: 'Good morning' },
+  'yeni-ogrenci': { emoji: '🧑‍🎓', etiket: 'Merhaba', ing: 'Hello' },
+  'sarilan-aile': { emoji: '🤗', etiket: 'Aile', ing: 'I love my family' },
+  'uyku-kardes': { emoji: '😴', etiket: 'İyi geceler', ing: 'Good night' },
+  'otobus-cocuk': { emoji: '🚌', etiket: 'Hoşça kal', ing: 'Goodbye' },
+  // Tema 4 — Short Stories
+  'hikaye-kitabi': { emoji: '📖', etiket: 'Hikaye', ing: 'Story' },
+  'kirmizi-elma-kucuk': { emoji: '🍎', etiket: 'Elma', ing: 'The Little Red Apple' },
+  'kitap-okuyan': { emoji: '📚', etiket: 'Okuma', ing: 'Read a story' },
+  'cesur-kopek': { emoji: '🐕', etiket: 'Köpek', ing: 'The Brave Dog' },
+  'mutlu-kus': { emoji: '🐦', etiket: 'Kuş', ing: 'The Happy Bird' },
+  'agac-resmi': { emoji: '🌳', etiket: 'Ağaç', ing: 'Green Tree' },
+  'ciftlik-kopegi': { emoji: '🐶', etiket: 'Köpek', ing: 'Brave Dog' },
+  'gunesli-gokyuz': { emoji: '☀️', etiket: 'Sabah', ing: 'Good morning' },
+  'sarki-kusu': { emoji: '🎵', etiket: 'Kuş', ing: 'Sing a song' },
+  kitaplik: { emoji: '📚', etiket: 'Kitaplık', ing: 'Short Stories' },
+  'koyun-surusu': { emoji: '🐑', etiket: 'Koyun', ing: 'Sheep' },
+  'ziplayan-kopek': { emoji: '🐕', etiket: 'Köpek', ing: 'Jump' },
+  'ucan-kuslar': { emoji: '🕊️', etiket: 'Kuşlar', ing: 'Fly' },
+  'uyuyan-kopek': { emoji: '😴', etiket: 'Köpek', ing: 'Sleep' },
+  'gulen-cocuk': { emoji: '😊', etiket: 'Mutlu', ing: 'Happy' },
+  'orman-hayvanlari': { emoji: '🦊', etiket: 'Hayvanlar', ing: 'Animals' },
+  'renkli-sayfa': { emoji: '🎨', etiket: 'Sayfa', ing: 'Story' },
+  'sari-mavi-tuy': { emoji: '🐦', etiket: 'Kuş', ing: 'Yellow & Blue' },
+  'elma-agaci': { emoji: '🍎', etiket: 'Elma', ing: 'Apple' },
+  'kosan-kopek': { emoji: '🐕', etiket: 'Köpek', ing: 'Run' },
+  'acik-pencere': { emoji: '🪟', etiket: 'Pencere', ing: 'Hello' },
+  'hikaye-dinleyen': { emoji: '👂', etiket: 'Hikaye', ing: 'Short' },
+  'kirmizi-elma-sepet': { emoji: '🍎', etiket: 'Elma', ing: 'Red apple' },
+  'kopek-yavrusu': { emoji: '🐶', etiket: 'Köpek', ing: 'Little' },
+  'kutuphane-sessiz': { emoji: '🤫', etiket: 'Kütüphane', ing: 'Read' },
+  'hikaye-kitabi-acik': { emoji: '📖', etiket: 'Hikaye', ing: 'Story' },
+  'kitap-okuyan-iki': { emoji: '👧👦', etiket: 'Okuma', ing: 'Read a story' },
+  'kisa-masal': { emoji: '📕', etiket: 'Kısa', ing: 'Short' },
+  'gulen-elma': { emoji: '🍎', etiket: 'Elma', ing: 'Little' },
+  'gunes-dogusu-kus': { emoji: '🌅', etiket: 'Günaydın', ing: 'Good morning' },
+  'hikaye-kapak': { emoji: '📘', etiket: 'Hikaye', ing: 'Story' },
+  'mavi-kus': { emoji: '🐦', etiket: 'Kuş', ing: 'Blue bird' },
+  'mutlu-cocuk-kus': { emoji: '😊', etiket: 'Mutlu', ing: 'Happy' },
+  'okuyan-kiz': { emoji: '👧', etiket: 'Okuma', ing: 'Read' },
+  'hayvan-korosu': { emoji: '🎶', etiket: 'Hayvanlar', ing: 'Sing' },
+  'kitap-okuyan-mutlu': { emoji: '📖', etiket: 'Kitap', ing: 'Read' },
   default: { emoji: '🇬🇧', etiket: 'English' },
 };
 
@@ -279,6 +367,64 @@ function GokkusagiGorsel() {
   );
 }
 
+function SelamlasmaSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="el-sallayan" vurgulu />
+      <NesneKart anahtar="merhaba-cocuklar" />
+      <NesneKart anahtar="sabah-gunes" />
+    </View>
+  );
+}
+
+function AileSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="anne-resmi" />
+      <NesneKart anahtar="baba-resmi" />
+      <NesneKart anahtar="kiz-kardes" />
+      <NesneKart anahtar="erkek-kardes" />
+    </View>
+  );
+}
+
+function VedalasmaSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="gece-uyku" />
+      <NesneKart anahtar="vedalasan" />
+      <NesneKart anahtar="park-ayrilma" />
+    </View>
+  );
+}
+
+function ElmaHikayeSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="kirmizi-elma-kucuk" vurgulu />
+      <NesneKart anahtar="agac-resmi" />
+    </View>
+  );
+}
+
+function KopekHikayeSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="cesur-kopek" vurgulu />
+      <NesneKart anahtar="koyun-surusu" />
+    </View>
+  );
+}
+
+function KusHikayeSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="mutlu-kus" vurgulu />
+      <NesneKart anahtar="ucan-kuslar" />
+    </View>
+  );
+}
+
 function GrupGorsel({ nesneler, vurgu }: { nesneler?: string[]; vurgu?: Props['vurgu'] }) {
   const vurgular = Array.isArray(vurgu) ? vurgu : vurgu ? [vurgu] : [];
   return (
@@ -304,6 +450,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <SinifEsyalariSahne />;
     case 'se-anlatim-3':
       return <SayiEsyalariSahne />;
+    case 'sa-anlatim-1':
+      return <SelamlasmaSahne />;
+    case 'sa-anlatim-2':
+      return <AileSahne />;
+    case 'sa-anlatim-3':
+      return <VedalasmaSahne />;
+    case 'kh-anlatim-1':
+      return <ElmaHikayeSahne />;
+    case 'kh-anlatim-2':
+      return <KopekHikayeSahne />;
+    case 'kh-anlatim-3':
+      return <KusHikayeSahne />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }
