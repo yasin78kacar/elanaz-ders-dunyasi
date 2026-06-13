@@ -5,8 +5,6 @@ import { GEO } from '../nesneler/colors';
 import { colors } from '../../theme/colors';
 import type { GorselIngilizce } from '../../types/content';
 
-type Props = GorselIngilizce;
-
 const RENKLER: Record<string, string> = {
   red: '#E53935',
   blue: '#1E88E5',
@@ -18,6 +16,19 @@ const RENKLER: Record<string, string> = {
   black: '#212121',
   white: '#FAFAFA',
   brown: '#6D4C41',
+};
+
+const SAYI_ING: Record<string, string> = {
+  '1': 'One',
+  '2': 'Two',
+  '3': 'Three',
+  '4': 'Four',
+  '5': 'Five',
+  '6': 'Six',
+  '7': 'Seven',
+  '8': 'Eight',
+  '9': 'Nine',
+  '10': 'Ten',
 };
 
 const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?: string }> = {
@@ -64,6 +75,39 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'sari-mavi-forma': { emoji: '👕', etiket: 'Forma', ing: 'Yellow & Blue' },
   'mavi-gokyuzu-bulut': { emoji: '🌤️', etiket: 'Gökyüzü', ing: 'Blue & White' },
   gokkusagi: { emoji: '🌈', etiket: 'Gökkuşağı', ing: 'Rainbow' },
+  // Tema 1B — Numbers and Classroom
+  'sayi-1': { emoji: '1️⃣', etiket: '1', ing: 'One' },
+  'sayi-2': { emoji: '2️⃣', etiket: '2', ing: 'Two' },
+  'sayi-3': { emoji: '3️⃣', etiket: '3', ing: 'Three' },
+  kitap: { emoji: '📖', etiket: 'Kitap', ing: 'Book' },
+  canta: { emoji: '🎒', etiket: 'Çanta', ing: 'Bag' },
+  'kursun-kalem': { emoji: '✏️', etiket: 'Kurşun Kalem', ing: 'Pencil' },
+  'tukenmez-kalem': { emoji: '🖊️', etiket: 'Tükenmez Kalem', ing: 'Pen' },
+  desk: { emoji: '🪑', etiket: 'Sıra', ing: 'Desk' },
+  chair: { emoji: '💺', etiket: 'Sandalye', ing: 'Chair' },
+  board: { emoji: '📋', etiket: 'Tahta', ing: 'Board' },
+  classroom: { emoji: '🏫', etiket: 'Sınıf', ing: 'Classroom' },
+  silgi: { emoji: '🧽', etiket: 'Silgi', ing: 'Eraser' },
+  kalemlik: { emoji: '📦', etiket: 'Kalemlik', ing: 'Pencil case' },
+  'iki-kitap': { emoji: '📚', etiket: '2 Kitap', ing: 'Two books' },
+  'bes-kalem': { emoji: '✏️', etiket: '5 Kalem', ing: 'Five pencils' },
+  kapi: { emoji: '🚪', etiket: 'Kapı', ing: 'Door' },
+  pencere: { emoji: '🪟', etiket: 'Pencere', ing: 'Window' },
+  ogretmen: { emoji: '👩‍🏫', etiket: 'Öğretmen', ing: 'Teacher' },
+  'balon-5': { emoji: '🎈', etiket: '5', ing: 'Five' },
+  'tisort-10': { emoji: '🔟', etiket: '10', ing: 'Ten' },
+  'dort-elma': { emoji: '🍎', etiket: '4 Elma', ing: 'Four' },
+  'pasta-7': { emoji: '🎂', etiket: '7', ing: 'Seven' },
+  'uc-kitap': { emoji: '📚', etiket: '3 Kitap', ing: 'Three books' },
+  'ogretmen-masa': { emoji: '👩‍🏫', etiket: 'Öğretmen', ing: 'Teacher' },
+  'alti-top': { emoji: '⚽', etiket: '6', ing: 'Six' },
+  'sinif-pencere': { emoji: '🪟', etiket: 'Pencere', ing: 'Window' },
+  'acik-kapi': { emoji: '🚪', etiket: 'Kapı', ing: 'Door' },
+  'iki-pen': { emoji: '🖊️', etiket: '2 Kalem', ing: 'Two pens' },
+  'sinif-ortam': { emoji: '🏫', etiket: 'Sınıf', ing: 'Classroom' },
+  'bes-silgi': { emoji: '🧽', etiket: '5 Silgi', ing: 'Five erasers' },
+  'one-two': { emoji: '1️⃣2️⃣', etiket: 'One, Two', ing: 'One, Two' },
+  'on-kalem': { emoji: '✏️', etiket: '10 Kalem', ing: 'Ten pencils' },
   default: { emoji: '🇬🇧', etiket: 'English' },
 };
 
@@ -100,6 +144,61 @@ function NesneKart({ anahtar, vurgulu }: { anahtar: string; vurgulu?: boolean })
       <GuvenliMetin style={styles.etiket} tamGenislik>
         {n.etiket}
       </GuvenliMetin>
+    </View>
+  );
+}
+
+type Props = GorselIngilizce;
+
+function SayiBlok({ sayi }: { sayi: string }) {
+  const w = 64;
+  const h = 76;
+  const ing = SAYI_ING[sayi] ?? sayi;
+  return (
+    <View style={styles.ortala}>
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Rect x={4} y={4} width={56} height={56} rx={10} fill={GEO.mavi + '33'} stroke={GEO.mavi} strokeWidth={2} />
+        <SvgText x={32} y={42} fontSize={28} fill={GEO.metin} fontWeight="bold" textAnchor="middle">
+          {sayi}
+        </SvgText>
+        <SvgText x={32} y={70} fontSize={11} fill={GEO.mavi} fontWeight="bold" textAnchor="middle">
+          {ing}
+        </SvgText>
+      </Svg>
+    </View>
+  );
+}
+
+function SayilarSahne() {
+  return (
+    <View style={styles.harfSatir}>
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) => (
+        <SayiBlok key={n} sayi={String(n)} />
+      ))}
+    </View>
+  );
+}
+
+function SinifEsyalariSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="board" />
+      <NesneKart anahtar="canta" />
+      <NesneKart anahtar="kursun-kalem" />
+      <NesneKart anahtar="tukenmez-kalem" />
+      <NesneKart anahtar="kitap" />
+      <NesneKart anahtar="desk" />
+      <NesneKart anahtar="chair" />
+    </View>
+  );
+}
+
+function SayiEsyalariSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="uc-kitap" vurgulu />
+      <NesneKart anahtar="bes-kalem" vurgulu />
+      <NesneKart anahtar="desk" vurgulu />
     </View>
   );
 }
@@ -199,17 +298,24 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <BoyaKutusuSahne />;
     case 'ac-anlatim-3':
       return <RenkliHarfSahne />;
+    case 'se-anlatim-1':
+      return <SayilarSahne />;
+    case 'se-anlatim-2':
+      return <SinifEsyalariSahne />;
+    case 'se-anlatim-3':
+      return <SayiEsyalariSahne />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }
 }
 
 export function IngilizceGorsel(props: Props) {
-  const { mod, sahne, nesne: nesneKey, nesneler, vurgu, renk } = props;
+  const { mod, sahne, nesne: nesneKey, nesneler, vurgu, renk, sayi: sayiDeger } = props;
 
   if (mod === 'anlatim') return <AnlatimSahne sahne={sahne ?? ''} />;
   if (mod === 'grup') return <GrupGorsel nesneler={nesneler} vurgu={vurgu} />;
   if (mod === 'harf') return <HarfBlok harf={nesneKey ?? sahne ?? 'A'} renk={renk} />;
+  if (mod === 'sayi') return <SayiBlok sayi={sayiDeger ?? nesneKey ?? '1'} />;
   if (nesneKey === 'gokkusagi') return <GokkusagiGorsel />;
   if (mod === 'nesne') return <NesneKart anahtar={nesneKey ?? sahne ?? 'default'} vurgulu={!!vurgu} />;
   return <NesneKart anahtar={nesneKey ?? sahne ?? 'default'} />;

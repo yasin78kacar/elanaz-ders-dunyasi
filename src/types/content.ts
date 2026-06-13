@@ -194,12 +194,13 @@ export interface GorselTurkce {
 /** İngilizce — IngilizceGorsel'de tanımlı */
 export interface GorselIngilizce {
   tur: 'ingilizce';
-  mod?: 'anlatim' | 'nesne' | 'grup' | 'harf' | 'renk';
+  mod?: 'anlatim' | 'nesne' | 'grup' | 'harf' | 'renk' | 'sayi';
   sahne?: string;
   nesne?: string;
   nesneler?: string[];
   vurgu?: string | string[];
   renk?: string;
+  sayi?: string;
 }
 
 export type Gorsel =

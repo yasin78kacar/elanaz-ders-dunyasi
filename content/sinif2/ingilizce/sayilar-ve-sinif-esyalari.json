@@ -1,0 +1,938 @@
+{
+  "id": "sayilar-ve-sinif-esyalari",
+  "baslik": "Numbers and Classroom",
+  "kazanimKodu": "ING.2.1.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Zeynep ve Can okula çok enerjik geldiler. Öğretmenleri tahtaya kocaman sayılar çizmişti: \"One, two, three, four, five! Six, seven, eight, nine, ten!\" İngilizce sayı saymak çok eğlenceli bir tekerleme gibiydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "se-anlatim-1"
+        }
+      },
+      {
+        "metin": "Hande çantasını sırasının üzerine koydu. Tahta Board, çanta Bag, kalem Pen, kurşun kalem Pencil, kitap Book, masa Desk, sandalye Chair! Sınıf artık İngilizce kelimelerle dolu bir hazine sandığıydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "se-anlatim-2"
+        }
+      },
+      {
+        "metin": "Öğretmen masanın üzerine üç kitap koydu: \"How many books? Three books!\" Can'ın iki kurşun kalemi: \"Two pencils!\" Hande sırasını gösterdi: \"One desk!\" Rakamlar ve eşyalar yan yana gelince her şey daha anlamlı oldu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "se-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "se-a1",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 1 sayısı ......... olarak yazılır.",
+      "dogruCevap": "one",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "1"
+      }
+    },
+    {
+      "id": "se-a2",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 2 sayısı \"Two\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "2"
+      }
+    },
+    {
+      "id": "se-a3",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 3 sayısı ......... olarak söylenir.",
+      "dogruCevap": "three",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "3"
+      }
+    },
+    {
+      "id": "se-a4",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "\"Four\" kelimesi Türkçede 4 anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "4"
+      }
+    },
+    {
+      "id": "se-a5",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "5 sayısının İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "five",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "5"
+      }
+    },
+    {
+      "id": "se-a6",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 10 sayısı \"Ten\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "10"
+      }
+    },
+    {
+      "id": "se-a7",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Kitap kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "book",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "se-a8",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Çanta İngilizcede \"Bag\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "canta"
+      }
+    },
+    {
+      "id": "se-a9",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Kurşun kalem kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "pencil",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kursun-kalem"
+      }
+    },
+    {
+      "id": "se-a10",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Tükenmez kalem İngilizcede \"Pen\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tukenmez-kalem"
+      }
+    },
+    {
+      "id": "se-a11",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Sınıftaki öğrenci sırasına İngilizcede ......... denir.",
+      "dogruCevap": "desk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "desk"
+      }
+    },
+    {
+      "id": "se-a12",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Sandalye kelimesi İngilizcede \"Chair\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "chair"
+      }
+    },
+    {
+      "id": "se-a13",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Sınıf tahtası İngilizcede ......... olarak yazılır.",
+      "dogruCevap": "board",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "board"
+      }
+    },
+    {
+      "id": "se-a14",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Sınıf kelimesinin İngilizcesi \"Classroom\"dur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "classroom"
+      }
+    },
+    {
+      "id": "se-a15",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 7 sayısı ......... kelimesiyle ifade edilir.",
+      "dogruCevap": "seven",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "7"
+      }
+    },
+    {
+      "id": "se-a16",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "\"Eight\" kelimesi Türkçede 9 anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "8"
+      }
+    },
+    {
+      "id": "se-a17",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "9 sayısının İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "nine",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "9"
+      }
+    },
+    {
+      "id": "se-a18",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Silgi kelimesi İngilizcede \"Eraser\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "silgi"
+      }
+    },
+    {
+      "id": "se-a19",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Kalem kutusu (kalemlik) İngilizcede \"Pencil .........\" olarak söylenir.",
+      "dogruCevap": "case",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kalemlik"
+      }
+    },
+    {
+      "id": "se-a20",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "\"Two books\" ifadesi Türkçe olarak \"Üç kitap\" demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "iki-kitap"
+      }
+    },
+    {
+      "id": "se-a21",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "\"Five pencils\" Türkçede ......... kurşun kalem demektir.",
+      "dogruCevap": "beş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bes-kalem"
+      }
+    },
+    {
+      "id": "se-a22",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "İngilizcede 6 sayısı \"Six\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "6"
+      }
+    },
+    {
+      "id": "se-a23",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Sınıfın kapısı İngilizcede ......... olarak adlandırılır.",
+      "dogruCevap": "door",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kapi"
+      }
+    },
+    {
+      "id": "se-a24",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Pencere kelimesi İngilizcede \"Window\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pencere"
+      }
+    },
+    {
+      "id": "se-a25",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "yazili",
+      "soru": "Öğretmen kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "teacher",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "se-t1",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede 1, 2, 3 sayıları sırasıyla nasıl söylenir?",
+      "dogruCevap": "One, Two, Three",
+      "secenekler": [
+        "Ten, Nine, Eight",
+        "Four, Five, Six",
+        "Seven, Eight, Nine",
+        "One, Two, Three"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "grup",
+        "nesneler": [
+          "sayi-1",
+          "sayi-2",
+          "sayi-3"
+        ],
+        "vurgu": [
+          "sayi-1",
+          "sayi-2",
+          "sayi-3"
+        ]
+      }
+    },
+    {
+      "id": "se-t2",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Zeynep'in tuttuğu balonun üzerindeki 5 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Five",
+      "secenekler": [
+        "Four",
+        "Six",
+        "Five",
+        "Ten"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "balon-5"
+      }
+    },
+    {
+      "id": "se-t3",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Can'ın tişörtünde yazan 10 sayısının İngilizce karşılığı hangisidir?",
+      "dogruCevap": "Ten",
+      "secenekler": [
+        "Eight",
+        "Seven",
+        "Ten",
+        "Nine"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tisort-10"
+      }
+    },
+    {
+      "id": "se-t4",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hande'nin elindeki kitabın İngilizce adı nedir?",
+      "dogruCevap": "Book",
+      "secenekler": [
+        "Book",
+        "Pencil",
+        "Desk",
+        "Bag"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "se-t5",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Okula giderken eşyalarımızı koyduğumuz okul çantasının İngilizcesi nedir?",
+      "dogruCevap": "Bag",
+      "secenekler": [
+        "Board",
+        "Eraser",
+        "Bag",
+        "Chair"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "canta"
+      }
+    },
+    {
+      "id": "se-t6",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede kurşun kalem \"........\", tükenmez kalem ise \"........\" olarak adlandırılır.",
+      "dogruCevap": "Pencil / Pen",
+      "secenekler": [
+        "Book / Desk",
+        "Pen / Pencil",
+        "Pencil / Pen",
+        "Bag / Board"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "grup",
+        "nesneler": [
+          "kursun-kalem",
+          "tukenmez-kalem"
+        ],
+        "vurgu": [
+          "kursun-kalem",
+          "tukenmez-kalem"
+        ]
+      }
+    },
+    {
+      "id": "se-t7",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta oturduğumuz öğrenci sırasının İngilizcesi nedir?",
+      "dogruCevap": "Desk",
+      "secenekler": [
+        "Window",
+        "Door",
+        "Desk",
+        "Chair"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "desk"
+      }
+    },
+    {
+      "id": "se-t8",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Öğretmenin üzerine yazı yazdığı tahtanın İngilizcesi nedir?",
+      "dogruCevap": "Board",
+      "secenekler": [
+        "Bag",
+        "Board",
+        "Book",
+        "Eraser"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "board"
+      }
+    },
+    {
+      "id": "se-t9",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Masanın yanında duran sandalyenin İngilizce karşılığı hangisidir?",
+      "dogruCevap": "Chair",
+      "secenekler": [
+        "Chair",
+        "Pen",
+        "Teacher",
+        "Pencil case"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "chair"
+      }
+    },
+    {
+      "id": "se-t10",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Doğum günü pastasının üzerindeki 7 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Seven",
+      "secenekler": [
+        "Seven",
+        "Eight",
+        "Six",
+        "Nine"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pasta-7"
+      }
+    },
+    {
+      "id": "se-t11",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede 4 sayısı nasıl yazılır?",
+      "dogruCevap": "Four",
+      "secenekler": [
+        "Five",
+        "Four",
+        "Two",
+        "Three"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dort-elma"
+      }
+    },
+    {
+      "id": "se-t12",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Eight\" kelimesinin Türkçedeki anlamı hangi sayıdır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "8"
+      }
+    },
+    {
+      "id": "se-t13",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Defterdeki yazıları silmek için kullandığımız silginin İngilizcesi nedir?",
+      "dogruCevap": "Eraser",
+      "secenekler": [
+        "Book",
+        "Pencil",
+        "Eraser",
+        "Desk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "silgi"
+      }
+    },
+    {
+      "id": "se-t14",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Three books\" ne anlama gelir?",
+      "dogruCevap": "Üç kitap",
+      "secenekler": [
+        "Beş silgi",
+        "Dört kalem",
+        "İki çanta",
+        "Üç kitap"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uc-kitap"
+      }
+    },
+    {
+      "id": "se-t15",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede öğretmene ne ad verilir?",
+      "dogruCevap": "Teacher",
+      "secenekler": [
+        "Police",
+        "Teacher",
+        "Doctor",
+        "Student"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen-masa"
+      }
+    },
+    {
+      "id": "se-t16",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kalemlerimizi koyduğumuz kalem kutusunun (kalemliğin) İngilizcesi nedir?",
+      "dogruCevap": "Pencil case",
+      "secenekler": [
+        "Pencil case",
+        "Board pen",
+        "Eraser box",
+        "Book bag"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kalemlik"
+      }
+    },
+    {
+      "id": "se-t17",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Nine\" kelimesi hangi sayıyı anlatır?",
+      "dogruCevap": "9",
+      "secenekler": [
+        "8",
+        "10",
+        "7",
+        "9"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "sayi",
+        "sayi": "9"
+      }
+    },
+    {
+      "id": "se-t18",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Six\" kelimesinin Türkçesi hangi sayıdır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "alti-top"
+      }
+    },
+    {
+      "id": "se-t19",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfın penceresine İngilizcede ne denir?",
+      "dogruCevap": "Window",
+      "secenekler": [
+        "Desk",
+        "Chair",
+        "Window",
+        "Door"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-pencere"
+      }
+    },
+    {
+      "id": "se-t20",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede sınıf kapısına ne isim verilir?",
+      "dogruCevap": "Door",
+      "secenekler": [
+        "Board",
+        "Window",
+        "Door",
+        "Bag"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "acik-kapi"
+      }
+    },
+    {
+      "id": "se-t21",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Two pens\" Türkçede ne demektir?",
+      "dogruCevap": "İki tükenmez kalem",
+      "secenekler": [
+        "Üç kitap",
+        "Dört çanta",
+        "İki tükenmez kalem",
+        "Bir silgi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "iki-pen"
+      }
+    },
+    {
+      "id": "se-t22",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bütün bu eşyaların bulunduğu yer olan sınıfımızın İngilizce adı nedir?",
+      "dogruCevap": "Classroom",
+      "secenekler": [
+        "Classroom",
+        "Garden",
+        "Bedroom",
+        "Kitchen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-ortam"
+      }
+    },
+    {
+      "id": "se-t23",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce \"Five erasers\" ifadesi neyi anlatır?",
+      "dogruCevap": "Beş silgi",
+      "secenekler": [
+        "Beş silgi",
+        "Üç kitap",
+        "Altı kalem",
+        "Dört çanta"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bes-silgi"
+      }
+    },
+    {
+      "id": "se-t24",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede saymaya başlarken ilk söylediğimiz iki sayı sırasıyla hangileridir?",
+      "dogruCevap": "One, Two",
+      "secenekler": [
+        "Five, Six",
+        "Three, Four",
+        "Nine, Ten",
+        "One, Two"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "one-two"
+      }
+    },
+    {
+      "id": "se-t25",
+      "kazanimKodu": "ING.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ten pencils\" ifadesi Türkçede kaç tane kurşun kalemi belirtir?",
+      "dogruCevap": "10",
+      "secenekler": [
+        "10",
+        "8",
+        "1",
+        "5"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "on-kalem"
+      }
+    }
+  ]
+}

@@ -70,6 +70,7 @@ import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questi
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
+import { sayilarVeSinifEsyalari } from './gorev-ing1b-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -493,6 +494,9 @@ writeFileSync(join(hbDir, 'dogal-afetler-ve-korunma.json'), JSON.stringify(dogal
 const alfabeVeRenklerKonu = alfabeVeRenkler(karistir);
 writeFileSync(join(ingDir, 'alfabe-ve-renkler.json'), JSON.stringify(alfabeVeRenklerKonu, null, 2));
 
+const sayilarVeSinifEsyalariKonu = sayilarVeSinifEsyalari(karistir);
+writeFileSync(join(ingDir, 'sayilar-ve-sinif-esyalari.json'), JSON.stringify(sayilarVeSinifEsyalariKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -737,6 +741,7 @@ const index = {
           baslik: 'İngilizce — Tema 1',
           konuDosyalari: [
             'ingilizce/alfabe-ve-renkler.json',
+            'ingilizce/sayilar-ve-sinif-esyalari.json',
           ],
         },
       ] },
@@ -828,6 +833,7 @@ console.log('Ülkemiz ve vatandaşlık:', ulkemizVeVatandaslikKonu.alistirma.len
 console.log('Tarih ve kültürümüz:', tarihVeKulturumuzKonu.alistirma.length, '+', tarihVeKulturumuzKonu.test.length);
 console.log('Doğal afetler ve korunma:', dogalAfetlerVeKorunmaKonu.alistirma.length, '+', dogalAfetlerVeKorunmaKonu.test.length);
 console.log('Alfabe ve renkler:', alfabeVeRenklerKonu.alistirma.length, '+', alfabeVeRenklerKonu.test.length);
+console.log('Sayılar ve sınıf eşyaları:', sayilarVeSinifEsyalariKonu.alistirma.length, '+', sayilarVeSinifEsyalariKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {
