@@ -127,6 +127,76 @@ const NESNE: Record<string, { emoji: string; etiket: string; canli?: boolean }> 
   yuzuk: { emoji: '💍', etiket: 'Yüzük' },
   mesale: { emoji: '🔥', etiket: 'Meşale' },
   aslan: { emoji: '🦁', etiket: 'Aslan' },
+  // Tema 3 — Dünya ve Evren
+  dunya: { emoji: '🌍', etiket: 'Dünya' },
+  kure: { emoji: '🔵', etiket: 'Küre' },
+  gunduz: { emoji: '☀️', etiket: 'Gündüz' },
+  gece: { emoji: '🌙', etiket: 'Gece' },
+  'donen-dunya': { emoji: '🌍', etiket: 'Dönen Dünya' },
+  'gunes-gozlugu': { emoji: '🕶️', etiket: 'Güneş Gözlüğü' },
+  'mavi-deniz': { emoji: '🌊', etiket: 'Okyanus' },
+  uzay: { emoji: '🚀', etiket: 'Uzay' },
+  'eski-harita': { emoji: '🗺️', etiket: 'Eski Harita' },
+  topac: { emoji: '🪀', etiket: 'Topaç' },
+  'karanlik-dunya': { emoji: '🌑', etiket: 'Karanlık Dünya' },
+  gemi: { emoji: '⛵', etiket: 'Gemi' },
+  'ay-evreleri': { emoji: '🌓', etiket: 'Ay Evreleri' },
+  astronot: { emoji: '👨‍🚀', etiket: 'Astronot' },
+  'sabah-gunesi': { emoji: '🌅', etiket: 'Sabah Güneşi' },
+  dolunay: { emoji: '🌕', etiket: 'Dolunay' },
+  'gunes-sistemi': { emoji: '🪐', etiket: 'Güneş Sistemi' },
+  'gece-gunduz': { emoji: '🌗', etiket: 'Gece-Gündüz' },
+  'gunes-kremi': { emoji: '🧴', etiket: 'Güneş Kremi' },
+  teleskop: { emoji: '🔭', etiket: 'Teleskop' },
+  'uyuyan-cocuk': { emoji: '😴', etiket: 'Uyuyan Çocuk' },
+  // Tema 3 — Hava Durumu ve Mevsimler
+  bulut: { emoji: '☁️', etiket: 'Bulut' },
+  'dort-mevsim': { emoji: '🍂', etiket: 'Dört Mevsim' },
+  kis: { emoji: '❄️', etiket: 'Kış' },
+  ilkbahar: { emoji: '🌸', etiket: 'İlkbahar' },
+  yaz: { emoji: '☀️', etiket: 'Yaz' },
+  sonbahar: { emoji: '🍁', etiket: 'Sonbahar' },
+  'kis-kiyafet': { emoji: '🧣', etiket: 'Kış Kıyafeti' },
+  sapka: { emoji: '👒', etiket: 'Şapka' },
+  takvim: { emoji: '📅', etiket: 'Takvim' },
+  'kardan-adam': { emoji: '⛄', etiket: 'Kardan Adam' },
+  'yaz-kiyafet': { emoji: '👕', etiket: 'Yaz Kıyafeti' },
+  bere: { emoji: '🧢', etiket: 'Bere' },
+  'hava-durumu': { emoji: '📺', etiket: 'Hava Durumu' },
+  'yagmur-cizme': { emoji: '🥾', etiket: 'Yağmur Çizmesi' },
+  papatya: { emoji: '🌼', etiket: 'Papatya' },
+  'hava-sembol': { emoji: '🌤️', etiket: 'Hava Sembolü' },
+  'su-birikintisi': { emoji: '💧', etiket: 'Su Birikintisi' },
+  'islak-sac': { emoji: '💇', etiket: 'Islak Saç' },
+  sis: { emoji: '🌫️', etiket: 'Sis' },
+  dolu: { emoji: '🧊', etiket: 'Dolu' },
+  termometre: { emoji: '🌡️', etiket: 'Termometre' },
+  // Tema 3 — Sağlıklı Yaşam ve Çevre
+  'dis-fircasi': { emoji: '🪥', etiket: 'Diş Fırçası' },
+  'el-yikama': { emoji: '🧼', etiket: 'El Yıkama' },
+  'meyve-sepeti': { emoji: '🍎', etiket: 'Meyve Sepeti' },
+  sut: { emoji: '🥛', etiket: 'Süt' },
+  banyo: { emoji: '🛁', etiket: 'Banyo' },
+  tirnak: { emoji: '💅', etiket: 'Tırnak' },
+  spor: { emoji: '⚽', etiket: 'Spor' },
+  tablet: { emoji: '📱', etiket: 'Tablet' },
+  'geri-donusum': { emoji: '♻️', etiket: 'Geri Dönüşüm' },
+  'cop-kutusu': { emoji: '🗑️', etiket: 'Çöp Kutusu' },
+  'temiz-park': { emoji: '🏞️', etiket: 'Temiz Park' },
+  'acik-musluk': { emoji: '🚰', etiket: 'Açık Musluk' },
+  fidan: { emoji: '🌱', etiket: 'Fidan' },
+  'kirli-el': { emoji: '🤲', etiket: 'Kirli El' },
+  yemek: { emoji: '🍽️', etiket: 'Yemek' },
+  hapsiran: { emoji: '🤧', etiket: 'Hapşırma' },
+  seker: { emoji: '🍬', etiket: 'Şeker' },
+  'taranmis-sac': { emoji: '💇', etiket: 'Taranmış Saç' },
+  'cam-atik': { emoji: '🫙', etiket: 'Cam Atık' },
+  'orman-cop': { emoji: '🏕️', etiket: 'Orman Çöpü' },
+  'mutlu-cocuk': { emoji: '😊', etiket: 'Mutlu Çocuk' },
+  doktor: { emoji: '👨‍⚕️', etiket: 'Doktor' },
+  kahvalti: { emoji: '🥐', etiket: 'Kahvaltı' },
+  orman: { emoji: '🌲', etiket: 'Orman' },
+  lamba: { emoji: '💡', etiket: 'Lamba' },
   default: { emoji: '🔬', etiket: 'Fen', canli: true },
 };
 
@@ -254,6 +324,70 @@ function OzellikListesi({ baslik, maddeler }: { baslik: string; maddeler: string
   );
 }
 
+function DunyaGorsel() {
+  const w = 160;
+  const h = 160;
+  const cx = w / 2;
+  const cy = h / 2;
+  return (
+    <View style={styles.ortala}>
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Circle cx={cx} cy={cy} r={60} fill="#2196F3" />
+        <Ellipse cx={cx - 20} cy={cy - 10} rx={35} ry={25} fill="#4CAF50" />
+        <Ellipse cx={cx + 25} cy={cy + 15} rx={28} ry={20} fill="#8BC34A" />
+        <Circle cx={cx} cy={cy} r={62} fill="none" stroke={GEO.mavi} strokeWidth={2} />
+      </Svg>
+    </View>
+  );
+}
+
+function GunesSistemiGorsel() {
+  const w = 200;
+  const h = 120;
+  return (
+    <View style={styles.ortala}>
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Circle cx={30} cy={60} r={22} fill="#FFC107" />
+        <Circle cx={100} cy={60} r={14} fill="#2196F3" />
+        <Circle cx={140} cy={55} r={8} fill="#B0BEC5" />
+        <Path d="M 52 60 L 86 60" stroke="#FFC107" strokeWidth={2} strokeDasharray="4 3" />
+        <Path d="M 114 60 L 132 55" stroke="#B0BEC5" strokeWidth={1.5} strokeDasharray="3 2" />
+      </Svg>
+    </View>
+  );
+}
+
+function DortMevsimGorsel() {
+  const w = 200;
+  const h = 140;
+  const cx = w / 2;
+  return (
+    <View style={styles.ortala}>
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        <Ellipse cx={cx} cy={h - 20} rx={60} ry={14} fill="#8D6E63" />
+        <Path d={`M ${cx} ${h - 30} L ${cx} 50`} stroke="#795548" strokeWidth={8} strokeLinecap="round" />
+        <Circle cx={cx - 50} cy={70} r={28} fill="#81C784" opacity={0.9} />
+        <Circle cx={cx + 50} cy={70} r={28} fill="#FFB74D" opacity={0.9} />
+        <Circle cx={cx - 50} cy={30} r={28} fill="#F48FB1" opacity={0.9} />
+        <Circle cx={cx + 50} cy={30} r={28} fill="#90CAF9" opacity={0.9} />
+        <SvgText x={cx - 62} y={75} fontSize={10} fill={GEO.metin}>İlkbahar</SvgText>
+        <SvgText x={cx + 28} y={75} fontSize={10} fill={GEO.metin}>Sonbahar</SvgText>
+        <SvgText x={cx - 52} y={35} fontSize={10} fill={GEO.metin}>Yaz</SvgText>
+        <SvgText x={cx + 38} y={35} fontSize={10} fill={GEO.metin}>Kış</SvgText>
+      </Svg>
+    </View>
+  );
+}
+
+function GeriDonusumGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <NesneKart anahtar="geri-donusum" vurgulu />
+      <NesneKart anahtar="fidan" vurgulu />
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'cc-anlatim-1':
@@ -375,6 +509,51 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
           <NesneKart anahtar="piyano" />
         </View>
       );
+    case 'de-anlatim-1':
+      return <DunyaGorsel />;
+    case 'de-anlatim-2':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="gunes" vurgulu />
+          <GuvenliMetin style={styles.kuvvetEmoji} tamGenislik={false}>
+            ☀️→🌍
+          </GuvenliMetin>
+        </View>
+      );
+    case 'de-anlatim-3':
+      return <GunesSistemiGorsel />;
+    case 'hm-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="gunduz" />
+          <NesneKart anahtar="semsiye" />
+        </View>
+      );
+    case 'hm-anlatim-2':
+      return <DortMevsimGorsel />;
+    case 'hm-anlatim-3':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="kis-kiyafet" />
+          <NesneKart anahtar="kardan-adam" />
+        </View>
+      );
+    case 'sy-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="kahvalti" />
+          <NesneKart anahtar="el-yikama" />
+        </View>
+      );
+    case 'sy-anlatim-2':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="spor" />
+          <NesneKart anahtar="uyuyan-cocuk" />
+        </View>
+      );
+    case 'sy-anlatim-3':
+      return <GeriDonusumGorsel />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

@@ -45,6 +45,9 @@ import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
 import maddeVeOzellikleri from '../../content/sinif2/fen-bilimleri/madde-ve-ozellikleri.json';
 import kuvvetVeHareket from '../../content/sinif2/fen-bilimleri/kuvvet-ve-hareket.json';
 import isikVeSes from '../../content/sinif2/fen-bilimleri/isik-ve-ses.json';
+import dunyaVeEvren from '../../content/sinif2/fen-bilimleri/dunya-ve-evren.json';
+import havaDurumuVeMevsimler from '../../content/sinif2/fen-bilimleri/hava-durumu-ve-mevsimler.json';
+import saglikliYasamVeCevre from '../../content/sinif2/fen-bilimleri/saglikli-yasam-ve-cevre.json';
 import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
 import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
 import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
@@ -105,6 +108,9 @@ const konuDosyalari: Record<string, Konu> = {
   'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,
   'fen-bilimleri/kuvvet-ve-hareket.json': kuvvetVeHareket as Konu,
   'fen-bilimleri/isik-ve-ses.json': isikVeSes as Konu,
+  'fen-bilimleri/dunya-ve-evren.json': dunyaVeEvren as Konu,
+  'fen-bilimleri/hava-durumu-ve-mevsimler.json': havaDurumuVeMevsimler as Konu,
+  'fen-bilimleri/saglikli-yasam-ve-cevre.json': saglikliYasamVeCevre as Konu,
   'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
   'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
   'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,

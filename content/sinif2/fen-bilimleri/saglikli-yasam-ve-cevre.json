@@ -1,0 +1,971 @@
+{
+  "id": "saglikli-yasam-ve-cevre",
+  "baslik": "Sağlıklı Yaşam ve Çevre",
+  "kazanimKodu": "FEN.2.3.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Zeynep uyandığında hemen banyoya gidip yüzünü yıkadı ve dişlerini fırçaladı. Kahvaltıda peynir, zeytin, yumurta ve domates yedi. Berk \"Ben her gün süt ve meyve yiyorum!\" dedi. Sağlıklı büyümek için bol sebze-meyve, az şeker ve yemeklerden önce-sonra el yıkamak şart!",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-1"
+        }
+      },
+      {
+        "metin": "Ali ve Hande bahçede seksek oynadı. Spor kemik ve kasları güçlendiriyor! Ekran başında oturmak yerine hareket etmek daha sağlıklı. Gece erken yatmak büyüme hormonunun çalışmasını sağlar.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-2"
+        }
+      },
+      {
+        "metin": "Yusuf parkta plastik şişeyi geri dönüşüm kutusuna attı. Çevreyi temiz tutmak bitkiler ve hayvanlar için de önemli! Geri dönüşüm, su tasarrufu, fidan dikmek — çevremize yapabileceğimiz en güzel iyilikler.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "sy-a1",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Sabah ve gece ......... fırçalamalıyız.",
+      "dogruCevap": "dişlerimizi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "dis-fircasi"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a2",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Yemeklerden önce ve sonra ellerimizi su ve ......... ile yıkamalıyız.",
+      "dogruCevap": "sabun",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "el-yikama"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a3",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Sağlıklı büyümek için bol bol ......... ve sebze yemeliyiz.",
+      "dogruCevap": "meyve",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve-sepeti"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a4",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Kemiklerimizin güçlü olması için her gün ......... içmeliyiz.",
+      "dogruCevap": "süt",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sut"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a5",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Düzenli banyo yapmak vücudumuzu temiz tutar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "banyo"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a6",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Uzayan tırnaklarımızı hiç kesmeden uzatmalıyız.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tirnak"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a7",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Düzenli ......... kaslarımızı güçlendirir ve bizi enerjik yapar.",
+      "dogruCevap": "spor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "spor"
+      },
+      "alternatifCevaplar": [
+        "egzersiz"
+      ],
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a8",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Büyüme hormonları biz ......... çalışır.",
+      "dogruCevap": "uyurken",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "uyuyan-cocuk"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a9",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Uzun süre televizyon izlemek gözlerimize faydalıdır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tablet"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a10",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Çocukların sağlıklı büyümesi için ......... yatıp yeterince uyuması gerekir.",
+      "dogruCevap": "erken",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "uyuyan-cocuk"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a11",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Kağıt, plastik ve cam atıkları ......... kutusuna atmalıyız.",
+      "dogruCevap": "geri dönüşüm",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "geri-donusum"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a12",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Çöplerimizi sokağa değil ......... atmalıyız.",
+      "dogruCevap": "çöp kutusuna",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cop-kutusu"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a13",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Çevreyi temiz tutmak hayvanlar için de önemlidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "temiz-park"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a14",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Dişlerimizi fırçalarken suyu açık bırakmak doğru bir davranıştır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "acik-musluk"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a15",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Havamızı temiz tutmak için bol bol ......... dikmeliyiz.",
+      "dogruCevap": "ağaç",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "fidan"
+      },
+      "alternatifCevaplar": [
+        "fidan"
+      ],
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a16",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Mikroplar kirli yerlerde yaşar ve bizi hasta eder.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kirli-el"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a17",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Yiyeceğimiz kadar yemek almak israfı ......... .",
+      "dogruCevap": "önler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yemek"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a18",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Hapşırırken ağzımızı ......... veya kolumuzun içiyle kapatmalıyız.",
+      "dogruCevap": "mendille",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "hapsiran"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a19",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Ispanak, havuç ve brokoli sağlıklı sebzelerdir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a20",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Çok fazla şeker tüketmek dişleri çürütmez.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "seker"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a21",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Saçları taramak ve temiz giysiler giymek ......... temizliğimizin parçasıdır.",
+      "dogruCevap": "kişisel",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "taranmis-sac"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a22",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Kırılan cam bardakları plastik geri dönüşüm kutusuna atmalıyız.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam-atik"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a23",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Bisiklete binmek ve koşmak fiziksel ......... örnekleridir.",
+      "dogruCevap": "aktivite",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "bisiklet"
+      },
+      "alternatifCevaplar": [
+        "spor"
+      ],
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a24",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Piknik çöplerini ormanda bırakmak doğaya zarar verir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "orman-cop"
+      },
+      "kazanim": "FEN.2.3.3"
+    },
+    {
+      "id": "sy-a25",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "yazili",
+      "soru": "Temiz vücut, sağlıklı besinler ve temiz çevre bizi ......... yapar.",
+      "dogruCevap": "mutlu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk"
+      },
+      "kazanim": "FEN.2.3.3"
+    }
+  ],
+  "test": [
+    {
+      "id": "sy-t1",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dişlerimizi günde kaç kez fırçalamalıyız?",
+      "dogruCevap": "Günde en az iki kez",
+      "secenekler": [
+        "Sadece ağrıyınca",
+        "Günde en az iki kez",
+        "Hiç",
+        "Ayda bir"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "dis-fircasi"
+      }
+    },
+    {
+      "id": "sy-t2",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sağlıklı büyümemiz için faydalıdır?",
+      "dogruCevap": "Elma ve havuç",
+      "secenekler": [
+        "Hazır şekerlemeler",
+        "Asitli içecekler",
+        "Elma ve havuç",
+        "Çok cips"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve-sepeti"
+      }
+    },
+    {
+      "id": "sy-t3",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ellerimizi ne zaman yıkamalıyız?",
+      "dogruCevap": "Yemeklerden önce, sonra ve tuvaletten çıkınca",
+      "secenekler": [
+        "Yemeklerden önce, sonra ve tuvaletten çıkınca",
+        "Haftada bir",
+        "Sadece çamurluysa",
+        "Sadece banyoda"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "el-yikama"
+      }
+    },
+    {
+      "id": "sy-t4",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kemik ve kasların güçlenmesi için ne yapmalıyız?",
+      "dogruCevap": "Düzenli spor yapmalıyız",
+      "secenekler": [
+        "Sürekli uyumalıyız",
+        "Düzenli spor yapmalıyız",
+        "Bilgisayar oynamalıyız",
+        "Sadece TV izlemeliyiz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "spor"
+      }
+    },
+    {
+      "id": "sy-t5",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Büyüme hormonları için ne gereklidir?",
+      "dogruCevap": "Erken yatıp yeterli uyku",
+      "secenekler": [
+        "Geç saate kadar TV",
+        "Çok şeker",
+        "Erken yatıp yeterli uyku",
+        "Çok yemek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "uyuyan-cocuk"
+      }
+    },
+    {
+      "id": "sy-t6",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Plastik şişe ve cam kavanozları nereye atmalıyız?",
+      "dogruCevap": "Geri dönüşüm kutularına",
+      "secenekler": [
+        "Denize",
+        "Ormana",
+        "Geri dönüşüm kutularına",
+        "Sokağa"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "geri-donusum"
+      }
+    },
+    {
+      "id": "sy-t7",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çevreyi temiz tutmak için ne yapmalıyız?",
+      "dogruCevap": "Çöpleri çöp kutusuna atmak",
+      "secenekler": [
+        "Çöpleri çöp kutusuna atmak",
+        "Parka bırakmak",
+        "Çöpleri yere atmak",
+        "Pencereden atmak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cop-kutusu"
+      }
+    },
+    {
+      "id": "sy-t8",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hapşırırken ne yapmalıyız?",
+      "dogruCevap": "Mendil veya kolumuzla ağzı kapatmak",
+      "secenekler": [
+        "Hiçbir şey",
+        "Yüzlere hapşırmak",
+        "Bağırmak",
+        "Mendil veya kolumuzla ağzı kapatmak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "hapsiran"
+      }
+    },
+    {
+      "id": "sy-t9",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Tırnaklarımız uzayınca ne yapmalıyız?",
+      "dogruCevap": "Düzenli kesmeliyiz",
+      "secenekler": [
+        "Boyamalıyız",
+        "Çok uzatmalıyız",
+        "Dişle koparmalıyız",
+        "Düzenli kesmeliyiz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tirnak"
+      }
+    },
+    {
+      "id": "sy-t10",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Vücudumuzu temizlemek için ne yapmalıyız?",
+      "dogruCevap": "Düzenli banyo yapmak",
+      "secenekler": [
+        "Parfüm sıkmak",
+        "Düzenli banyo yapmak",
+        "Sadece yüz yıkamak",
+        "Islak mendil kullanmak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "banyo"
+      }
+    },
+    {
+      "id": "sy-t11",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Uzun süre tablet ve TV hangi organımıza zarar verir?",
+      "dogruCevap": "Gözler",
+      "secenekler": [
+        "Gözler",
+        "Mide",
+        "Kulaklar",
+        "Burun"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tablet"
+      }
+    },
+    {
+      "id": "sy-t12",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kemik ve dişleri güçlendiren içecek nedir?",
+      "dogruCevap": "Süt",
+      "secenekler": [
+        "Asitli içecek",
+        "Gazoz",
+        "Kahve",
+        "Süt"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sut"
+      }
+    },
+    {
+      "id": "sy-t13",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Doğayı korumak için en güzel davranış nedir?",
+      "dogruCevap": "Fidan dikmek",
+      "secenekler": [
+        "Dal kırmak",
+        "Fidan dikmek",
+        "Çiçek koparmak",
+        "Çimleri ezmek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "fidan"
+      }
+    },
+    {
+      "id": "sy-t14",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dişlerimizi fırçalarken suyu açık bırakırsak ne olur?",
+      "dogruCevap": "Su israfı yaparız",
+      "secenekler": [
+        "Su temizlenir",
+        "Mikroplar kaçar",
+        "Su israfı yaparız",
+        "Elektrik üretiriz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "acik-musluk"
+      }
+    },
+    {
+      "id": "sy-t15",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hastalanınca kime gidmeliyiz?",
+      "dogruCevap": "Doktora",
+      "secenekler": [
+        "Öğretmene",
+        "İtfaiyeciye",
+        "Doktora",
+        "Polise"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "doktor"
+      }
+    },
+    {
+      "id": "sy-t16",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi kişisel temizlik kuralıdır?",
+      "dogruCevap": "Banyo ve temiz kıyafet",
+      "secenekler": [
+        "Çamurlu ayakkabı ile eve girmek",
+        "Banyo ve temiz kıyafet",
+        "Çöp bırakmak",
+        "Odayı dağıtmak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "banyo"
+      }
+    },
+    {
+      "id": "sy-t17",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çok şeker ve cips tüketmek neye neden olur?",
+      "dogruCevap": "Diş çürümesi ve hastalık",
+      "secenekler": [
+        "Güçlü olmak",
+        "Zeka artışı",
+        "Diş çürümesi ve hastalık",
+        "Boy uzaması"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "seker"
+      }
+    },
+    {
+      "id": "sy-t18",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Seksek ve ip atlamak ne tür etkinliktir?",
+      "dogruCevap": "Fiziksel aktivite",
+      "secenekler": [
+        "Zeka oyunu",
+        "Fiziksel aktivite",
+        "Bilgisayar oyunu",
+        "Tembellik"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "spor"
+      }
+    },
+    {
+      "id": "sy-t19",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Güne enerjik başlamak için ne yapmalıyız?",
+      "dogruCevap": "Sağlıklı kahvaltı yapmak",
+      "secenekler": [
+        "Hemen uyumak",
+        "Sadece çikolata yemek",
+        "Sağlıklı kahvaltı yapmak",
+        "Hiç yemeden gitmek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kahvalti"
+      }
+    },
+    {
+      "id": "sy-t20",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hayvan dostlarımıza nasıl davranmalıyız?",
+      "dogruCevap": "Sevgiyle yaklaşıp su ve mama koymak",
+      "secenekler": [
+        "Rahatsız etmek",
+        "Sevgiyle yaklaşıp su ve mama koymak",
+        "Görmezden gelmek",
+        "Zarar vermek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "sy-t21",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Meyve ve sebzeleri yemeden önce ne yapmalıyız?",
+      "dogruCevap": "Bol suyla yıkamak",
+      "secenekler": [
+        "Peçeteyle silmek",
+        "Bol suyla yıkamak",
+        "Güneşte bekletmek",
+        "Hemen yemek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve-sepeti"
+      }
+    },
+    {
+      "id": "sy-t22",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bol ağaçlı ve yeşillik alanlara ne denir?",
+      "dogruCevap": "Orman",
+      "secenekler": [
+        "Orman",
+        "Çöl",
+        "Otoban",
+        "Otopark"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "orman"
+      }
+    },
+    {
+      "id": "sy-t23",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Odamız güneş alıyorken ne yapmalıyız?",
+      "dogruCevap": "Gereksiz lambaları kapatmak",
+      "secenekler": [
+        "El feneri kullanmak",
+        "Gereksiz lambaları kapatmak",
+        "Tüm lambaları açmak",
+        "Perde kapatıp lamba yakmak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "lamba"
+      }
+    },
+    {
+      "id": "sy-t24",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "En temel içeceğimiz nedir?",
+      "dogruCevap": "Temiz su",
+      "secenekler": [
+        "Limonata",
+        "Soğuk çay",
+        "Temiz su",
+        "Asitli içecek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "su"
+      }
+    },
+    {
+      "id": "sy-t25",
+      "kazanimKodu": "FEN.2.3.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sağlıklı ve temiz yaşayan çocuk etrafına ne verir?",
+      "dogruCevap": "Neşe ve mutluluk",
+      "secenekler": [
+        "Şikayet",
+        "Neşe ve mutluluk",
+        "Üzüntü",
+        "Mutsuzluk"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.3.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk"
+      }
+    }
+  ]
+}

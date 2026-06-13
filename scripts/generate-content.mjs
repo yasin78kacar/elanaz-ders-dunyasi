@@ -64,6 +64,7 @@ import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-t
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
+import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
@@ -457,6 +458,13 @@ writeFileSync(join(fenDir, 'madde-ve-ozellikleri.json'), JSON.stringify(maddeVeO
 writeFileSync(join(fenDir, 'kuvvet-ve-hareket.json'), JSON.stringify(kuvvetVeHareketKonu, null, 2));
 writeFileSync(join(fenDir, 'isik-ve-ses.json'), JSON.stringify(isikVeSesKonu, null, 2));
 
+const dunyaVeEvrenKonu = dunyaVeEvren(karistir);
+const havaDurumuVeMevsimlerKonu = havaDurumuVeMevsimler(karistir);
+const saglikliYasamVeCevreKonu = saglikliYasamVeCevre(karistir);
+writeFileSync(join(fenDir, 'dunya-ve-evren.json'), JSON.stringify(dunyaVeEvrenKonu, null, 2));
+writeFileSync(join(fenDir, 'hava-durumu-ve-mevsimler.json'), JSON.stringify(havaDurumuVeMevsimlerKonu, null, 2));
+writeFileSync(join(fenDir, 'saglikli-yasam-ve-cevre.json'), JSON.stringify(saglikliYasamVeCevreKonu, null, 2));
+
 const okulVeSinifKonu = okulVeSinif(karistir);
 const aileVeArkadaslikKonu = aileVeArkadaslik(karistir);
 const toplumVeCevreKonu = toplumVeCevre(karistir);
@@ -705,6 +713,15 @@ const index = {
             'fen-bilimleri/isik-ve-ses.json',
           ],
         },
+        {
+          id: 'tema-3',
+          baslik: 'Fen Bilimleri — Tema 3',
+          konuDosyalari: [
+            'fen-bilimleri/dunya-ve-evren.json',
+            'fen-bilimleri/hava-durumu-ve-mevsimler.json',
+            'fen-bilimleri/saglikli-yasam-ve-cevre.json',
+          ],
+        },
       ],
     },
     { id: 'ingilizce', baslik: 'İngilizce', unite: [] },
@@ -783,6 +800,9 @@ console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.tes
 console.log('Madde ve özellikleri:', maddeVeOzellikleriKonu.alistirma.length, '+', maddeVeOzellikleriKonu.test.length);
 console.log('Kuvvet ve hareket:', kuvvetVeHareketKonu.alistirma.length, '+', kuvvetVeHareketKonu.test.length);
 console.log('Işık ve ses:', isikVeSesKonu.alistirma.length, '+', isikVeSesKonu.test.length);
+console.log('Dünya ve evren:', dunyaVeEvrenKonu.alistirma.length, '+', dunyaVeEvrenKonu.test.length);
+console.log('Hava durumu ve mevsimler:', havaDurumuVeMevsimlerKonu.alistirma.length, '+', havaDurumuVeMevsimlerKonu.test.length);
+console.log('Sağlıklı yaşam ve çevre:', saglikliYasamVeCevreKonu.alistirma.length, '+', saglikliYasamVeCevreKonu.test.length);
 console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
 console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
 console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);
