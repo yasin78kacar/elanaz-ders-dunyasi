@@ -1,0 +1,928 @@
+{
+  "id": "hava-durumu",
+  "baslik": "Weather",
+  "kazanimKodu": "ING.2.3.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Güzel bir ilkbahar sabahında Ayşe ve Mehmet pencerelerinden gökyüzüne bakıyorlardı. Gökyüzünde sapsarı bir Güneş onlara gülümsüyordu. Mehmet neşeyle, \"Ayşe bak, hava çok güneşli! Güneşli havalara İngilizcede Sunny diyoruz,\" dedi. Ayşe hemen güneş gözlüğünü taktı. Öğleden sonra ise aniden pamuk gibi gri bulutlar toplandı ve tıp tıp yağmur yağmaya başladı. Ayşe şemsiyesini açarken, \"Yağmur yağıyor, yani hava Rainy oldu!\" dedi. Güneşli (Sunny) ve yağmurlu (Rainy) günler, doğanın bize oynadığı neşeli bir oyun gibiydi. Yağmurlu günlerde camdan damlaları izlemek de en az güneşli günlerde parkta koşmak kadar keyifliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hd-anlatim-1"
+        }
+      },
+      {
+        "metin": "Kış mevsimi geldiğinde her yer bembeyaz bir örtüyle kaplanmıştı. Fatma ve Can atkılarını sarıp bahçeye çıktılar. Can havaya zıplayarak, \"Her yer kar! Hava karlı, yani Snowy!\" diye bağırdı. Birlikte havuç burunlu harika bir kardan adam yaptılar. O sırada ağaçların dalları şiddetle sallanmaya başladı. Fatma rüzgarı hissedince, \"Rüzgar esiyor Can, hava çok rüzgarlı. Buna İngilizcede Windy diyoruz,\" diye anlattı. Karlı (Snowy) havalarda kartopu oynamak, rüzgarlı (Windy) havalarda ise renkli uçurtmalar uçurmak çok güzeldi. Gökyüzü onlara her gün yepyeni bir İngilizce kelime hediye ediyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hd-anlatim-2"
+        }
+      },
+      {
+        "metin": "Hafta sonu Selin ve Yusuf dışarı çıkmak için hava durumunu kontrol ettiler. Yusuf termometreye baktı, \"Hava bugün çok sıcak Selin, yani Hot!\" dedi. Yaz aylarında havalar her zaman çok Hot (Sıcak) olurdu. Kışın ise tam tersiydi; hava buz gibi soğuk, yani \"Cold\" olurdu. Selin gökyüzüne baktı, Güneş yoktu ve her yer bulutlarla doluydu. \"Hava bugün bulutlu, İngilizcede buna Cloudy diyoruz,\" dedi. Sıcak (Hot) havalarda dondurma yerken, soğuk (Cold) ve bulutlu (Cloudy) havalarda evde sıcak çikolata içmek harikaydı. Hava durumu (Weather) ne olursa olsun, çocuklar İngilizce kelimeleri öğrenirken hep çok mutluydular.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hd-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "hd-a1",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Hava durumu kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "weather",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunes-bulutlar"
+      }
+    },
+    {
+      "id": "hd-a2",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Güneşli havalara İngilizcede \"Sunny\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pirl-pirl-gunes"
+      }
+    },
+    {
+      "id": "hd-a3",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Yağmurlu havanın İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "rainy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yagmur-damlalari"
+      }
+    },
+    {
+      "id": "hd-a4",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Karlı hava İngilizcede \"Snowy\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kardan-adam"
+      }
+    },
+    {
+      "id": "hd-a5",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Rüzgarlı havalara İngilizcede ......... denir.",
+      "dogruCevap": "windy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucan-yapraklar"
+      }
+    },
+    {
+      "id": "hd-a6",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Cloudy\" kelimesi Türkçede bulutlu hava demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gri-bulutlar"
+      }
+    },
+    {
+      "id": "hd-a7",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Hava çok sıcak olduğunda İngilizcede ......... kelimesini kullanırız.",
+      "dogruCevap": "hot",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "terleyen-cocuk"
+      }
+    },
+    {
+      "id": "hd-a8",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Cold\" kelimesi soğuk anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "titreyen-cocuk"
+      }
+    },
+    {
+      "id": "hd-a9",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Sunny\" (güneşli) günlerde şapka ve ......... takarız.",
+      "dogruCevap": "gözlük",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunes-gozlugu"
+      },
+      "alternatifCevaplar": [
+        "gozluk"
+      ]
+    },
+    {
+      "id": "hd-a10",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Rainy\" (yağmurlu) günlerde şemsiyemizi yanımızdan ayırmayız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "semsiye-acan"
+      }
+    },
+    {
+      "id": "hd-a11",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Snowy\" (karlı) günlerde dışarıda ......... oynayabiliriz.",
+      "dogruCevap": "kartopu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kartopu-oynayan"
+      }
+    },
+    {
+      "id": "hd-a12",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Windy\" (rüzgarlı) havalarda uçurtma uçurmak çok zor olur.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucurtma"
+      }
+    },
+    {
+      "id": "hd-a13",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Gökyüzünü bulutlar kapladığında hava \".........\" olur.",
+      "dogruCevap": "cloudy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gokyuzu-bulutlar"
+      }
+    },
+    {
+      "id": "hd-a14",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Hot\" (sıcak) kelimesi genellikle yaz mevsimi için kullanılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yaz-gunesi"
+      }
+    },
+    {
+      "id": "hd-a15",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Kışın hava \".........\" (soğuk) olduğu için kalın giyiniriz.",
+      "dogruCevap": "cold",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kislik-atki"
+      }
+    },
+    {
+      "id": "hd-a16",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Weather\" kelimesi İngilizcede hava durumu demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hava-durumu-sunucusu"
+      }
+    },
+    {
+      "id": "hd-a17",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Güneş kelimesinin İngilizcesi \".........\" olarak yazılır.",
+      "dogruCevap": "sun",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sapsari-gunes"
+      }
+    },
+    {
+      "id": "hd-a18",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Yağmur kelimesi İngilizcede \"Rain\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yagmur-bulutu"
+      }
+    },
+    {
+      "id": "hd-a19",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Kar tanesinin İngilizce karşılığı \".........\" kelimesidir.",
+      "dogruCevap": "snow",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kar-tanesi"
+      }
+    },
+    {
+      "id": "hd-a20",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Rüzgar kelimesi İngilizcede \"Wind\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ruzgar-gulu"
+      }
+    },
+    {
+      "id": "hd-a21",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Bulut kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "cloud",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bulut-resmi"
+      }
+    },
+    {
+      "id": "hd-a22",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Hot\" havalarda denize girip serinlemek çok güzeldir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "plaj-resmi"
+      }
+    },
+    {
+      "id": "hd-a23",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Hava \".........\" (soğuk) olduğunda soba veya kalorifer yanar.",
+      "dogruCevap": "cold",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ates-basinda"
+      }
+    },
+    {
+      "id": "hd-a24",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "\"Rainy\" kelimesi karlı hava anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "simsek"
+      }
+    },
+    {
+      "id": "hd-a25",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "yazili",
+      "soru": "Hava durumunu öğrenmek, doğru kıyafetler seçmemizi ......... .",
+      "dogruCevap": "sağlar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hava-durumu-sembolleri"
+      },
+      "alternatifCevaplar": [
+        "saglar"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "hd-t1",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Hava Durumu\" kelimesinin karşılığı nedir?",
+      "dogruCevap": "Weather",
+      "secenekler": [
+        "Time",
+        "Weather",
+        "Months",
+        "Colors"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hava-durumu-sembolleri"
+      }
+    },
+    {
+      "id": "hd-t2",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzünün açık ve güneşli olduğu günlere İngilizcede ne deriz?",
+      "dogruCevap": "Sunny",
+      "secenekler": [
+        "Cloudy",
+        "Snowy",
+        "Rainy",
+        "Sunny"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pirl-pirl-gunesli-gun"
+      }
+    },
+    {
+      "id": "hd-t3",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmurlu havaların İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "dogruCevap": "Rainy",
+      "secenekler": [
+        "Windy",
+        "Hot",
+        "Rainy",
+        "Sunny"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "semsiye-tutan"
+      }
+    },
+    {
+      "id": "hd-t4",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Lapa lapa kar yağan kış günlerine İngilizcede ne denir?",
+      "dogruCevap": "Snowy",
+      "secenekler": [
+        "Snowy",
+        "Cloudy",
+        "Hot",
+        "Rainy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kardan-adam-kar"
+      }
+    },
+    {
+      "id": "hd-t5",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaç dallarının sallandığı rüzgarlı havaların İngilizcesi nedir?",
+      "dogruCevap": "Windy",
+      "secenekler": [
+        "Windy",
+        "Sunny",
+        "Snowy",
+        "Cold"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ruzgar-yapraklar"
+      }
+    },
+    {
+      "id": "hd-t6",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Güneşin görünmediği, bulutlu havalara ne ad verilir?",
+      "dogruCevap": "Cloudy",
+      "secenekler": [
+        "Cloudy",
+        "Sunny",
+        "Windy",
+        "Rainy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bulutlu-gokyuzu"
+      }
+    },
+    {
+      "id": "hd-t7",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Havanın çok sıcak olduğunu anlatmak için hangi İngilizce kelimeyi kullanırız?",
+      "dogruCevap": "Hot",
+      "secenekler": [
+        "Cold",
+        "Snowy",
+        "Windy",
+        "Hot"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "terleyen-dondurma"
+      }
+    },
+    {
+      "id": "hd-t8",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Havanın buz gibi soğuk olduğunu ifade eden kelime hangisidir?",
+      "dogruCevap": "Cold",
+      "secenekler": [
+        "Cold",
+        "Hot",
+        "Rain",
+        "Sunny"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "titreyen-kalin-giyinen"
+      }
+    },
+    {
+      "id": "hd-t9",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Rainy\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Yağmurlu",
+      "secenekler": [
+        "Güneşli",
+        "Bulutlu",
+        "Yağmurlu",
+        "Karlı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yagmur-semsiye"
+      }
+    },
+    {
+      "id": "hd-t10",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi havada şapka ve güneş gözlüğü takarız?",
+      "dogruCevap": "Sunny",
+      "secenekler": [
+        "Snowy",
+        "Sunny",
+        "Windy",
+        "Rainy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunes-gozlugu-test"
+      }
+    },
+    {
+      "id": "hd-t11",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi havada dışarıda kartopu oynamak çok keyiflidir?",
+      "dogruCevap": "Snowy",
+      "secenekler": [
+        "Hot",
+        "Rainy",
+        "Sunny",
+        "Snowy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kartopu-oynayan-iki"
+      }
+    },
+    {
+      "id": "hd-t12",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Windy\" kelimesinin Türkçe karşılığı nedir?",
+      "dogruCevap": "Rüzgarlı",
+      "secenekler": [
+        "Sisli",
+        "Yağmurlu",
+        "Rüzgarlı",
+        "Sıcak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ruzgar-gulu-donuyor"
+      }
+    },
+    {
+      "id": "hd-t13",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Cloudy\" kelimesi ne anlama gelir?",
+      "dogruCevap": "Bulutlu",
+      "secenekler": [
+        "Güneşli",
+        "Karlı",
+        "Bulutlu",
+        "Soğuk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bulutlu-gokyuzu"
+      }
+    },
+    {
+      "id": "hd-t14",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Hot\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Sıcak",
+      "secenekler": [
+        "Bulutlu",
+        "Rüzgarlı",
+        "Sıcak",
+        "Soğuk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-termometre"
+      }
+    },
+    {
+      "id": "hd-t15",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Cold\" kelimesi Türkçeye nasıl çevrilir?",
+      "dogruCevap": "Soğuk",
+      "secenekler": [
+        "Sıcak",
+        "Güneşli",
+        "Soğuk",
+        "Yağmurlu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-termometre"
+      }
+    },
+    {
+      "id": "hd-t16",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Rüzgarlı (Windy) bir günde aşağıdakilerden hangisini yapmak çok eğlencelidir?",
+      "dogruCevap": "Uçurtma uçurmak",
+      "secenekler": [
+        "Şemsiye açmak",
+        "Kardan adam yapmak",
+        "Uçurtma uçurmak",
+        "Denize girmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucurtma-ucuran"
+      }
+    },
+    {
+      "id": "hd-t17",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Sun\" kelimesi ne demektir?",
+      "dogruCevap": "Güneş",
+      "secenekler": [
+        "Yıldız",
+        "Ay",
+        "Güneş",
+        "Bulut"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunes-resmi"
+      }
+    },
+    {
+      "id": "hd-t18",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce \"Snow\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Kar",
+      "secenekler": [
+        "Rüzgar",
+        "Yağmur",
+        "Kar",
+        "Dolu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kar-tanesi-resmi"
+      }
+    },
+    {
+      "id": "hd-t19",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Rain\" kelimesinin Türkçesi nedir?",
+      "dogruCevap": "Yağmur",
+      "secenekler": [
+        "Kar",
+        "Güneş",
+        "Sis",
+        "Yağmur"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yagmur-damlasi"
+      }
+    },
+    {
+      "id": "hd-t20",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Cloud\" kelimesi hangi anlama gelir?",
+      "dogruCevap": "Bulut",
+      "secenekler": [
+        "Yağmur",
+        "Rüzgar",
+        "Bulut",
+        "Kar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bulut-resmi-test"
+      }
+    },
+    {
+      "id": "hd-t21",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Hot\" ve \"Cold\" kelimeleri sırasıyla ne anlama gelir?",
+      "dogruCevap": "Sıcak ve Soğuk",
+      "secenekler": [
+        "Güneşli ve Yağmurlu",
+        "Karlı ve Rüzgarlı",
+        "Soğuk ve Sıcak",
+        "Sıcak ve Soğuk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sicak-corbasi-soguk-dondurma"
+      }
+    },
+    {
+      "id": "hd-t22",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sunny and Rainy\" kelimeleri sırasıyla hangi havaları anlatır?",
+      "dogruCevap": "Güneşli ve Yağmurlu",
+      "secenekler": [
+        "Karlı ve Rüzgarlı",
+        "Güneşli ve Yağmurlu",
+        "Sıcak ve Soğuk",
+        "Bulutlu ve Sisli"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunesli-yagmurlu-semboller"
+      }
+    },
+    {
+      "id": "hd-t23",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çok \"Hot\" (Sıcak) bir günde ne yapmayı tercih ederiz?",
+      "dogruCevap": "Serinletici sular içip gölgede dinlenmeyi",
+      "secenekler": [
+        "Atkı takmayı",
+        "Kartopu oynamayı",
+        "Kalın mont giymeyi",
+        "Serinletici sular içip gölgede dinlenmeyi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "plaj-manzarasi"
+      }
+    },
+    {
+      "id": "hd-t24",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Cold\" (Soğuk) bir kış akşamında evde ne yapmak güzeldir?",
+      "dogruCevap": "Sıcak bir çay veya süt içmek",
+      "secenekler": [
+        "Güneş gözlüğü takmak",
+        "Sıcak bir çay veya süt içmek",
+        "Denize girmek",
+        "Şortla dolaşmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "somine-aile"
+      }
+    },
+    {
+      "id": "hd-t25",
+      "kazanimKodu": "ING.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Dışarıya çıkmadan önce doğru kıyafetleri seçmek için neye bakarız?",
+      "dogruCevap": "Weather (Hava durumu)",
+      "secenekler": [
+        "Colors (Renkler)",
+        "Body Parts (Vücut bölümleri)",
+        "Numbers (Sayılar)",
+        "Weather (Hava durumu)"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pencereden-bakan"
+      }
+    }
+  ]
+}

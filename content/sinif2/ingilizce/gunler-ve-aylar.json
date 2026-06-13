@@ -1,0 +1,922 @@
+{
+  "id": "gunler-ve-aylar",
+  "baslik": "Days and Months",
+  "kazanimKodu": "ING.2.3.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Yeni bir hafta başlamıştı. Elanaz ve Berk sabah okula giderken takvime baktılar. \"Pazartesi İngilizcede Monday,\" dedi Elanaz. Berk gülümsedi: \"Salı Tuesday, Çarşamba Wednesday!\" Öğretmenleri tahtaya Perşembe (Thursday) ve Cuma (Friday) yazdı. Hafta sonu geldiğinde parka gittiler — Cumartesi Saturday, Pazar Sunday! Bir haftada yedi gün vardı ve her günün İngilizcede güzel bir adı vardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ga-anlatim-1"
+        }
+      },
+      {
+        "metin": "Sınıfta büyük bir takvim asılıydı. Öğretmen ay ay gösterdi: \"Ocak January, Şubat February, Mart March, Nisan April!\" Çocuklar birlikte saydı: Mayıs May, Haziran June, Temmuz July, Ağustos August. Sonra Eylül September, Ekim October, Kasım November ve Aralık December geldi. Bir yılda on iki ay vardı. Her ayın farklı havası, farklı renkleri ve farklı anıları vardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ga-anlatim-2"
+        }
+      },
+      {
+        "metin": "Duvar saati tik tak ediyordu. Öğretmen sordu: \"Saat kaç?\" Elanaz cevap verdi: \"Zaman İngilizcede Time demek!\" Berk de ekledi: \"Tek bir gün Day, bir ay Month! Takvimde günleri ve ayları İngilizce öğrenmek çok kolaymış.\" Artık her sabah saate bakıp \"What time is it?\" diye sorabiliyorlardı. Günler, aylar ve zaman — hepsi İngilizce kelimelerle çok daha eğlenceliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ga-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ga-a1",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Gün kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "day",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "takvim-yapragi"
+      }
+    },
+    {
+      "id": "ga-a2",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "İngilizcede Pazartesi \"Monday\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazartesi-okul"
+      }
+    },
+    {
+      "id": "ga-a3",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Pazartesi kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "monday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazartesi-takvim"
+      }
+    },
+    {
+      "id": "ga-a4",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Salı İngilizcede \"Tuesday\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sali-takvim"
+      }
+    },
+    {
+      "id": "ga-a5",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Salı kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "tuesday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sali-takvim"
+      }
+    },
+    {
+      "id": "ga-a6",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "\"Wednesday\" kelimesi Türkçede Perşembe anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "carsamba-yapragi"
+      }
+    },
+    {
+      "id": "ga-a7",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Çarşamba kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "wednesday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "carsamba-yapragi"
+      }
+    },
+    {
+      "id": "ga-a8",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Perşembe İngilizcede \"Thursday\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "persembe-takvim"
+      }
+    },
+    {
+      "id": "ga-a9",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Perşembe kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "thursday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "persembe-takvim"
+      }
+    },
+    {
+      "id": "ga-a10",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Cumartesi İngilizcede \"Saturday\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cumartesi-park"
+      }
+    },
+    {
+      "id": "ga-a11",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Cumartesi kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "saturday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cumartesi-park"
+      }
+    },
+    {
+      "id": "ga-a12",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "\"Sunday\" kelimesi Türkçede Cuma demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazar-piknik"
+      }
+    },
+    {
+      "id": "ga-a13",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "\"Monday\" kelimesi okula gittiğimiz haftanın ilk günüdür.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazartesi-okul"
+      }
+    },
+    {
+      "id": "ga-a14",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Ay kelimesinin İngilizce karşılığı \".........\" kelimesidir.",
+      "dogruCevap": "month",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "12-aylik-takvim"
+      }
+    },
+    {
+      "id": "ga-a15",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Şubat İngilizcede \"February\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "subat-takvim"
+      }
+    },
+    {
+      "id": "ga-a16",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Şubat kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "february",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "subat-takvim"
+      }
+    },
+    {
+      "id": "ga-a17",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Nisan kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "april",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "nisan-yagmur"
+      }
+    },
+    {
+      "id": "ga-a18",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Haziran İngilizcede \"June\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "haziran-karne"
+      }
+    },
+    {
+      "id": "ga-a19",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Haziran kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "june",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "haziran-karne"
+      }
+    },
+    {
+      "id": "ga-a20",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Ağustos kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "august",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "agustos-sicak"
+      }
+    },
+    {
+      "id": "ga-a21",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "\"October\" kelimesi Türkçede Ekim anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ekim-ruzgar"
+      }
+    },
+    {
+      "id": "ga-a22",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Ekim kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "october",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ekim-ruzgar"
+      }
+    },
+    {
+      "id": "ga-a23",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Haftanın günlerine İngilizcede \"Days of the week\" deriz, yani \".........\" (günler) kelimesini kullanırız.",
+      "dogruCevap": "days",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunler-panosu"
+      },
+      "alternatifCevaplar": [
+        "day"
+      ]
+    },
+    {
+      "id": "ga-a24",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Aralık kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "december",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aralik-kar"
+      }
+    },
+    {
+      "id": "ga-a25",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "yazili",
+      "soru": "Zaman/saat kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "time",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "saat-resmi"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ga-t1",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Haftanın ilk günü olan Pazartesi'nin İngilizcesi nedir?",
+      "dogruCevap": "Monday",
+      "secenekler": [
+        "Monday",
+        "Sunday",
+        "Friday",
+        "Tuesday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazartesi-takvim"
+      }
+    },
+    {
+      "id": "ga-t2",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Salı gününün İngilizce adı hangisidir?",
+      "dogruCevap": "Tuesday",
+      "secenekler": [
+        "Wednesday",
+        "Thursday",
+        "Saturday",
+        "Tuesday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sali-takvim"
+      }
+    },
+    {
+      "id": "ga-t3",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çarşamba gününün İngilizcesi nedir?",
+      "dogruCevap": "Wednesday",
+      "secenekler": [
+        "Friday",
+        "Wednesday",
+        "Monday",
+        "Sunday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "carsamba-yapragi"
+      }
+    },
+    {
+      "id": "ga-t4",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Perşembe gününün İngilizce karşılığı aşağıdakilerden hangisidir?",
+      "dogruCevap": "Thursday",
+      "secenekler": [
+        "Saturday",
+        "Thursday",
+        "Sunday",
+        "Tuesday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "persembe-takvim"
+      }
+    },
+    {
+      "id": "ga-t5",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Cuma gününün İngilizcesi nedir?",
+      "dogruCevap": "Friday",
+      "secenekler": [
+        "Sunday",
+        "Monday",
+        "Thursday",
+        "Friday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cuma-okul"
+      }
+    },
+    {
+      "id": "ga-t6",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Parkta oynadığımız Cumartesi gününün İngilizcesi hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Saturday",
+      "secenekler": [
+        "Saturday",
+        "Monday",
+        "Friday",
+        "Sunday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cumartesi-park"
+      }
+    },
+    {
+      "id": "ga-t7",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pazar gününün İngilizcesi nedir?",
+      "dogruCevap": "Sunday",
+      "secenekler": [
+        "Monday",
+        "Sunday",
+        "Saturday",
+        "Friday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pazar-piknik"
+      }
+    },
+    {
+      "id": "ga-t8",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Day\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Gün",
+      "secenekler": [
+        "Ay",
+        "Saat",
+        "Hafta",
+        "Gün"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "takvim-yapragi"
+      }
+    },
+    {
+      "id": "ga-t9",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Month\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Ay",
+      "secenekler": [
+        "Ay",
+        "Gün",
+        "Yıl",
+        "Hafta"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "12-aylik-takvim"
+      }
+    },
+    {
+      "id": "ga-t10",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yılın ilk ayı olan Ocak'ın İngilizcesi nedir?",
+      "dogruCevap": "January",
+      "secenekler": [
+        "February",
+        "December",
+        "January",
+        "March"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ocak-kar"
+      }
+    },
+    {
+      "id": "ga-t11",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Şubat ayının İngilizce adı hangisidir?",
+      "dogruCevap": "February",
+      "secenekler": [
+        "February",
+        "June",
+        "August",
+        "April"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "subat-takvim"
+      }
+    },
+    {
+      "id": "ga-t12",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mart ayının İngilizcesi nedir?",
+      "dogruCevap": "March",
+      "secenekler": [
+        "May",
+        "July",
+        "November",
+        "March"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mart-cicek"
+      }
+    },
+    {
+      "id": "ga-t13",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Nisan ayının İngilizce karşılığı nedir?",
+      "dogruCevap": "April",
+      "secenekler": [
+        "April",
+        "December",
+        "June",
+        "October"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "nisan-yagmur"
+      }
+    },
+    {
+      "id": "ga-t14",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"May\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Mayıs",
+      "secenekler": [
+        "Haziran",
+        "Mart",
+        "Mayıs",
+        "Nisan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mayis-gunes"
+      }
+    },
+    {
+      "id": "ga-t15",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Haziran ayının İngilizcesi nedir?",
+      "dogruCevap": "June",
+      "secenekler": [
+        "June",
+        "August",
+        "September",
+        "July"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "haziran-karne"
+      }
+    },
+    {
+      "id": "ga-t16",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"July\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Temmuz",
+      "secenekler": [
+        "Eylül",
+        "Haziran",
+        "Ağustos",
+        "Temmuz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "temmuz-deniz"
+      }
+    },
+    {
+      "id": "ga-t17",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağustos ayının İngilizcesi hangisidir?",
+      "dogruCevap": "August",
+      "secenekler": [
+        "October",
+        "April",
+        "August",
+        "February"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "agustos-sicak"
+      }
+    },
+    {
+      "id": "ga-t18",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Eylül ayının İngilizce adı nedir?",
+      "dogruCevap": "September",
+      "secenekler": [
+        "November",
+        "January",
+        "September",
+        "March"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "eylul-yaprak"
+      }
+    },
+    {
+      "id": "ga-t19",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"October\" kelimesinin Türkçedeki anlamı nedir?",
+      "dogruCevap": "Ekim",
+      "secenekler": [
+        "Kasım",
+        "Ekim",
+        "Eylül",
+        "Ağustos"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ekim-ruzgar"
+      }
+    },
+    {
+      "id": "ga-t20",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kasım ayının İngilizcesi nedir?",
+      "dogruCevap": "November",
+      "secenekler": [
+        "December",
+        "November",
+        "October",
+        "September"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kasim-yagmur"
+      }
+    },
+    {
+      "id": "ga-t21",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aralık ayının İngilizce karşılığı hangisidir?",
+      "dogruCevap": "December",
+      "secenekler": [
+        "February",
+        "November",
+        "January",
+        "December"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aralik-kar"
+      }
+    },
+    {
+      "id": "ga-t22",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Saturday\" ve \"Sunday\" kelimeleri sırasıyla hangi günlerdir?",
+      "dogruCevap": "Cumartesi ve Pazar",
+      "secenekler": [
+        "Perşembe ve Cuma",
+        "Pazartesi ve Salı",
+        "Cumartesi ve Pazar",
+        "Cuma ve Cumartesi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "grup",
+        "nesneler": [
+          "cumartesi-park",
+          "pazar-piknik"
+        ],
+        "vurgu": [
+          "cumartesi-park",
+          "pazar-piknik"
+        ]
+      }
+    },
+    {
+      "id": "ga-t23",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Okulun bittiği Cuma gününün İngilizcesi nedir?",
+      "dogruCevap": "Friday",
+      "secenekler": [
+        "Friday",
+        "Thursday",
+        "Monday",
+        "Saturday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cuma-okul"
+      }
+    },
+    {
+      "id": "ga-t24",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sonbaharın başladığı Ekim ayının İngilizcesi nedir?",
+      "dogruCevap": "October",
+      "secenekler": [
+        "October",
+        "August",
+        "April",
+        "June"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ekim-ruzgar"
+      }
+    },
+    {
+      "id": "ga-t25",
+      "kazanimKodu": "ING.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Saat ve zamanı ifade eden kelimenin İngilizcesi nedir?",
+      "dogruCevap": "Time",
+      "secenekler": [
+        "Week",
+        "Month",
+        "Day",
+        "Time"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "saat-resmi"
+      }
+    }
+  ]
+}
