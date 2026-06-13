@@ -191,6 +191,17 @@ export interface GorselTurkce {
   iliski?: 'esAnlam' | 'zit' | 'esSeslilik';
 }
 
+/** İngilizce — IngilizceGorsel'de tanımlı */
+export interface GorselIngilizce {
+  tur: 'ingilizce';
+  mod?: 'anlatim' | 'nesne' | 'grup' | 'harf' | 'renk';
+  sahne?: string;
+  nesne?: string;
+  nesneler?: string[];
+  vurgu?: string | string[];
+  renk?: string;
+}
+
 export type Gorsel =
   | string
   | GorselSayiSeridi
@@ -205,6 +216,7 @@ export type Gorsel =
   | GorselHb
   | GorselFen
   | GorselTurkce
+  | GorselIngilizce
   | null;
 
 export interface AnlatimEkrani {

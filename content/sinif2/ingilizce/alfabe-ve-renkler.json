@@ -1,0 +1,926 @@
+{
+  "id": "alfabe-ve-renkler",
+  "baslik": "Alphabet and Colors",
+  "kazanimKodu": "ING.2.1.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Güneşli bir pazartesi sabahı Ali ve Ayşe sınıflarına geldiklerinde tahtada yepyeni harfler gördüler. İngilizce alfabesi Türkçe alfabemize çok benziyordu ama okunuşları harika bir şarkı gibiydi: \"A, B, C, D, E, F, G... (Ey, Bi, Si, Di, İ, Ef, Ci)\".",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ac-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk elinde rengarenk bir boya kutusuyla okula geldi. Kırmızı Red, mavi Blue, sarı Yellow, yeşil Green, turuncu Orange ve pembe Pink! Sınıfları İngilizce renklerle açan harika bir gökkuşağına dönüştü.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ac-anlatim-2"
+        }
+      },
+      {
+        "metin": "Ali, Ayşe ve Berk öğrendikleri harfleri ve renkleri birleştirerek oyun oynadılar. \"Red A!\", \"Blue B!\", \"Yellow C!\" Siyah Black, beyaz White ve mor Purple renkleri de oyunlarına kattılar.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ac-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ar-a1",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı rengin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "red",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      }
+    },
+    {
+      "id": "ar-a2",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi rengin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "blue",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-gokyuzu"
+      }
+    },
+    {
+      "id": "ar-a3",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Sarı renk İngilizcede \"Yellow\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-gunes"
+      }
+    },
+    {
+      "id": "ar-a4",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Yeşil rengin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "green",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yesil-yaprak"
+      }
+    },
+    {
+      "id": "ar-a5",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Turuncu renk İngilizcede \"Orange\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-portakal"
+      }
+    },
+    {
+      "id": "ar-a6",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Pembe rengin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "pink",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-pamuk-seker"
+      }
+    },
+    {
+      "id": "ar-a7",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Mor renk İngilizcede \"Purple\" olarak yazılır ve okunur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-uzum"
+      }
+    },
+    {
+      "id": "ar-a8",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Siyah rengin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "black",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "siyah-kedi"
+      }
+    },
+    {
+      "id": "ar-a9",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Beyaz renk İngilizcede \"White\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beyaz-kar"
+      }
+    },
+    {
+      "id": "ar-a10",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Kahverengi kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "brown",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahverengi-ayi"
+      }
+    },
+    {
+      "id": "ar-a11",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "İngilizce alfabenin ilk harfi \"A\"dır ve \"Ey\" diye okunur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "harf",
+        "nesne": "A",
+        "renk": "red"
+      }
+    },
+    {
+      "id": "ar-a12",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "İngilizce \"B\" harfi \"Bi\" şeklinde seslendirilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "harf",
+        "nesne": "B",
+        "renk": "blue"
+      }
+    },
+    {
+      "id": "ar-a13",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Renkler kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "colors",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boya-kalemleri"
+      }
+    },
+    {
+      "id": "ar-a14",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "İngilizcede kırmızı \"Red\", mavi ise \"Green\" demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-gul"
+      }
+    },
+    {
+      "id": "ar-a15",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Yellow\" kelimesi Türkçe olarak ......... rengini anlatır.",
+      "dogruCevap": "sarı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-limon"
+      }
+    },
+    {
+      "id": "ar-a16",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Blue\" kelimesi Türkçe olarak mavi anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-deniz"
+      }
+    },
+    {
+      "id": "ar-a17",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "İngilizcede alfabe kelimesi ......... olarak yazılır.",
+      "dogruCevap": "alphabet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "alfabe-tablosu"
+      }
+    },
+    {
+      "id": "ar-a18",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Pink\" kelimesi siyah rengi ifade eder.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-cicek"
+      }
+    },
+    {
+      "id": "ar-a19",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Kurbağanın rengi olan yeşil İngilizcede ......... olarak adlandırılır.",
+      "dogruCevap": "green",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yesil-kurbaga"
+      }
+    },
+    {
+      "id": "ar-a20",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Black\" kelimesi beyaz anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "siyah-sapka"
+      }
+    },
+    {
+      "id": "ar-a21",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Gökyüzündeki beyaz bulutlar İngilizcede \".........\" renktedir.",
+      "dogruCevap": "white",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beyaz-bulut"
+      }
+    },
+    {
+      "id": "ar-a22",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "İngilizce \"C\" harfi \"Si\" şeklinde okunur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "harf",
+        "nesne": "C",
+        "renk": "yellow"
+      }
+    },
+    {
+      "id": "ar-a23",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Purple\" kelimesi Türkçe olarak ......... rengidir.",
+      "dogruCevap": "mor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-balon"
+      }
+    },
+    {
+      "id": "ar-a24",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "\"Orange\" kelimesi hem meyve olan portakal hem de turuncu renk için kullanılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-top"
+      }
+    },
+    {
+      "id": "ar-a25",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "yazili",
+      "soru": "Ağacın gövdesi İngilizcede \".........\" renktedir.",
+      "dogruCevap": "brown",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahverengi-agac"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ar-t1",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayşe'nin elindeki elmanın rengi İngilizcede nasıl söylenir?",
+      "dogruCevap": "Red",
+      "secenekler": [
+        "Blue",
+        "Yellow",
+        "Red",
+        "Green"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      }
+    },
+    {
+      "id": "ar-t2",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Denizin ve gökyüzünün rengi olan mavi, İngilizcede nedir?",
+      "dogruCevap": "Blue",
+      "secenekler": [
+        "Pink",
+        "Black",
+        "Blue",
+        "Orange"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-deniz"
+      }
+    },
+    {
+      "id": "ar-t3",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk'in çizdiği güneşin rengi İngilizcede hangi kelimeyle ifade edilir?",
+      "dogruCevap": "Yellow",
+      "secenekler": [
+        "Red",
+        "Purple",
+        "Yellow",
+        "White"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-gunes"
+      }
+    },
+    {
+      "id": "ar-t4",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçların ve yaprakların rengi olan \"yeşil\" kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Green",
+      "secenekler": [
+        "Orange",
+        "Brown",
+        "Green",
+        "Blue"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yesil-orman"
+      }
+    },
+    {
+      "id": "ar-t5",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ali'nin çok sevdiği basketbol topunun rengi (turuncu) İngilizcede nedir?",
+      "dogruCevap": "Orange",
+      "secenekler": [
+        "Yellow",
+        "Orange",
+        "Pink",
+        "Black"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-basketbol"
+      }
+    },
+    {
+      "id": "ar-t6",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzünde süzülen pembe uçurtmanın rengi İngilizcede nasıl söylenir?",
+      "dogruCevap": "Pink",
+      "secenekler": [
+        "Pink",
+        "Green",
+        "Purple",
+        "White"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-ucurtma"
+      }
+    },
+    {
+      "id": "ar-t7",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Minik siyah kedinin rengi İngilizcede hangi kelimedir?",
+      "dogruCevap": "Black",
+      "secenekler": [
+        "Black",
+        "Red",
+        "Brown",
+        "White"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "siyah-kedi"
+      }
+    },
+    {
+      "id": "ar-t8",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Karlar üstünde zıplayan bembeyaz tavşanın rengi İngilizcede nedir?",
+      "dogruCevap": "White",
+      "secenekler": [
+        "Yellow",
+        "Black",
+        "Blue",
+        "White"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beyaz-tavsan"
+      }
+    },
+    {
+      "id": "ar-t9",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma'nın çok sevdiği mor üzümlerin rengi İngilizcede nasıl yazılır?",
+      "dogruCevap": "Purple",
+      "secenekler": [
+        "Pink",
+        "Purple",
+        "Green",
+        "Orange"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-uzum-salkimi"
+      }
+    },
+    {
+      "id": "ar-t10",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Brown\" kelimesinin Türkçedeki anlamı hangi renktir?",
+      "dogruCevap": "Kahverengi",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Kahverengi",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahverengi-cikolata"
+      }
+    },
+    {
+      "id": "ar-t11",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce alfabenin (Alphabet) ilk harfi aşağıdakilerden hangisidir?",
+      "dogruCevap": "A",
+      "secenekler": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "alfabe-kupleri"
+      }
+    },
+    {
+      "id": "ar-t12",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Renkler\" kelimesinin karşılığı aşağıdakilerden hangisidir?",
+      "dogruCevap": "Colors",
+      "secenekler": [
+        "Numbers",
+        "Animals",
+        "Colors",
+        "Books"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-boya-kutusu"
+      }
+    },
+    {
+      "id": "ar-t13",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede 'B' harfi alfabeyi okurken nasıl seslendirilir?",
+      "dogruCevap": "Bi",
+      "secenekler": [
+        "Bi",
+        "Ey",
+        "Di",
+        "Si"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "abc-harfleri"
+      }
+    },
+    {
+      "id": "ar-t14",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Green\" ve \"Red\" kelimeleri sırasıyla hangi renklerdir?",
+      "dogruCevap": "Yeşil ve Kırmızı",
+      "secenekler": [
+        "Yeşil ve Kırmızı",
+        "Sarı ve Turuncu",
+        "Mor ve Pembe",
+        "Mavi ve Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yesil-kirmizi-elma"
+      }
+    },
+    {
+      "id": "ar-t15",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Blue car\" ifadesi Türkçede ne anlama gelir?",
+      "dogruCevap": "Mavi araba",
+      "secenekler": [
+        "Kırmızı araba",
+        "Mavi araba",
+        "Yeşil araba",
+        "Sarı araba"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-araba"
+      }
+    },
+    {
+      "id": "ar-t16",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Yellow\" kelimesi hangi hayvanın rengini çok güzel anlatır?",
+      "dogruCevap": "Civciv",
+      "secenekler": [
+        "Fil",
+        "Timsah",
+        "Karga",
+        "Civciv"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-civciv"
+      }
+    },
+    {
+      "id": "ar-t17",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Piyanonun tuşları hangi iki renktedir?",
+      "dogruCevap": "Black and White",
+      "secenekler": [
+        "Pink and Purple",
+        "Red and Blue",
+        "Green and Yellow",
+        "Black and White"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    },
+    {
+      "id": "ar-t18",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hem bir meyve adı hem de bir renk adı olan İngilizce kelime hangisidir?",
+      "dogruCevap": "Orange",
+      "secenekler": [
+        "Melon",
+        "Banana",
+        "Orange",
+        "Apple"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "portakal-resmi"
+      }
+    },
+    {
+      "id": "ar-t19",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi seçenekteki eşleştirme YANLIŞTIR?",
+      "dogruCevap": "Green = Sarı",
+      "secenekler": [
+        "Pink = Pembe",
+        "Green = Sarı",
+        "Red = Kırmızı",
+        "Blue = Mavi"
+      ],
+      "ipucu": "Green yeşil demektir!",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renk-paleti"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ar-t20",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çiftlikteki kahverengi atın rengi İngilizce hangi kelimeyle ifade edilir?",
+      "dogruCevap": "Brown",
+      "secenekler": [
+        "Brown",
+        "Purple",
+        "White",
+        "Black"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahverengi-at"
+      }
+    },
+    {
+      "id": "ar-t21",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce şarkılarda duyduğumuz \"A, B, C\" harflerinin doğru okunuşu nasıldır?",
+      "dogruCevap": "Ey, Bi, Si",
+      "secenekler": [
+        "E, B, S",
+        "İ, Bi, C",
+        "A, Be, Ce",
+        "Ey, Bi, Si"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ingilizce-tahta"
+      }
+    },
+    {
+      "id": "ar-t22",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Purple\" kelimesinin Türkçe anlamı nedir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Kırmızı",
+        "Siyah",
+        "Mor",
+        "Pembe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-menekse"
+      }
+    },
+    {
+      "id": "ar-t23",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk'in takımının renkleri \"Yellow and Blue\"dur. Bunlar hangi renklerdir?",
+      "dogruCevap": "Sarı ve Mavi",
+      "secenekler": [
+        "Sarı ve Mavi",
+        "Siyah ve Beyaz",
+        "Yeşil ve Turuncu",
+        "Kırmızı ve Beyaz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-mavi-forma"
+      }
+    },
+    {
+      "id": "ar-t24",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Blue sky, white clouds\" cümlesinde geçen renkler sırasıyla hangileridir?",
+      "dogruCevap": "Mavi ve Beyaz",
+      "secenekler": [
+        "Siyah ve Yeşil",
+        "Mavi ve Beyaz",
+        "Mor ve Pembe",
+        "Sarı ve Kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-gokyuzu-bulut"
+      }
+    },
+    {
+      "id": "ar-t25",
+      "kazanimKodu": "ING.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki renklerden hangisi bir gökkuşağında bulunmaz?",
+      "dogruCevap": "Black",
+      "secenekler": [
+        "Black",
+        "Yellow",
+        "Red",
+        "Blue"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gokkusagi"
+      }
+    }
+  ]
+}

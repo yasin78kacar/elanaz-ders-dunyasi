@@ -57,6 +57,7 @@ import mesleklerVeCalismaHayati from '../../content/sinif2/hayat-bilgisi/meslekl
 import ulkemizVeVatandaslik from '../../content/sinif2/hayat-bilgisi/ulkemiz-ve-vatandaslik.json';
 import tarihVeKulturumuz from '../../content/sinif2/hayat-bilgisi/tarih-ve-kulturumuz.json';
 import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afetler-ve-korunma.json';
+import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -120,6 +121,7 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/ulkemiz-ve-vatandaslik.json': ulkemizVeVatandaslik as Konu,
   'hayat-bilgisi/tarih-ve-kulturumuz.json': tarihVeKulturumuz as Konu,
   'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
+  'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {
