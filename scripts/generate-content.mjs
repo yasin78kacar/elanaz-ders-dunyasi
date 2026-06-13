@@ -73,6 +73,8 @@ import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing1b-questions.mjs';
 import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
+import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
+import { ingilizceSarkilar } from './gorev-ing4c-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -501,8 +503,21 @@ writeFileSync(join(ingDir, 'sayilar-ve-sinif-esyalari.json'), JSON.stringify(say
 
 const selamlasmaVeAileKonu = selamlasmaVeAile(karistir);
 const kisaHikayelerKonu = kisaHikayeler(karistir);
+const basitDiyaloglarKonu = basitDiyaloglar(karistir);
+const ingilizceSarkilarKonu = ingilizceSarkilar(karistir);
 writeFileSync(join(ingDir, 'selamlasma-ve-aile.json'), JSON.stringify(selamlasmaVeAileKonu, null, 2));
 writeFileSync(join(ingDir, 'kisa-hikayeler.json'), JSON.stringify(kisaHikayelerKonu, null, 2));
+writeFileSync(join(ingDir, 'basit-diyaloglar.json'), JSON.stringify(basitDiyaloglarKonu, null, 2));
+writeFileSync(join(ingDir, 'ingilizce-sarkilar.json'), JSON.stringify(ingilizceSarkilarKonu, null, 2));
+
+const englishDataDir = join(__dirname, '../src/data/english');
+mkdirSync(englishDataDir, { recursive: true });
+const theme4 = {
+  id: 'tema-4',
+  baslik: 'İngilizce — Tema 4',
+  konular: [kisaHikayelerKonu, basitDiyaloglarKonu, ingilizceSarkilarKonu],
+};
+writeFileSync(join(englishDataDir, 'theme4.json'), JSON.stringify(theme4, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -757,6 +772,8 @@ const index = {
           baslik: 'İngilizce — Tema 4',
           konuDosyalari: [
             'ingilizce/kisa-hikayeler.json',
+            'ingilizce/basit-diyaloglar.json',
+            'ingilizce/ingilizce-sarkilar.json',
           ],
         },
       ] },
@@ -851,6 +868,8 @@ console.log('Alfabe ve renkler:', alfabeVeRenklerKonu.alistirma.length, '+', alf
 console.log('Sayılar ve sınıf eşyaları:', sayilarVeSinifEsyalariKonu.alistirma.length, '+', sayilarVeSinifEsyalariKonu.test.length);
 console.log('Selamlaşma ve aile:', selamlasmaVeAileKonu.alistirma.length, '+', selamlasmaVeAileKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
+console.log('Basit diyaloglar:', basitDiyaloglarKonu.alistirma.length, '+', basitDiyaloglarKonu.test.length);
+console.log('İngilizce şarkılar:', ingilizceSarkilarKonu.alistirma.length, '+', ingilizceSarkilarKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

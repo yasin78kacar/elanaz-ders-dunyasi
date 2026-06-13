@@ -196,6 +196,93 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'okuyan-kiz': { emoji: '👧', etiket: 'Okuma', ing: 'Read' },
   'hayvan-korosu': { emoji: '🎶', etiket: 'Hayvanlar', ing: 'Sing' },
   'kitap-okuyan-mutlu': { emoji: '📖', etiket: 'Kitap', ing: 'Read' },
+  // Tema 4B — Simple Dialogues
+  'konusma-balonlari': { emoji: '💬', etiket: 'Diyalog', ing: 'Dialogue' },
+  'el-sallayan-cocuk': { emoji: '👋', etiket: 'Merhaba', ing: 'How are you?' },
+  'tesekkur-eden': { emoji: '🙏', etiket: 'Teşekkür', ing: 'Thank you' },
+  'rica-eden': { emoji: '🙇', etiket: 'Rica', ing: 'Please' },
+  'top-oynayan-ikili': { emoji: '⚽', etiket: 'Oyun', ing: "Let's play!" },
+  'elma-uzatan-bakkal': { emoji: '🍎', etiket: 'Bakkal', ing: 'Here you are!' },
+  'kapi-calan-ogrenci': { emoji: '🚪', etiket: 'Kapı', ing: 'May I come in?' },
+  'ayaga-kalkan-sinif': { emoji: '🧍', etiket: 'Ayağa kalk', ing: 'Stand up!' },
+  'oturan-ogrenci': { emoji: '🪑', etiket: 'Otur', ing: 'Sit down!' },
+  'hediye-alan-kiz': { emoji: '🎁', etiket: 'Rica ederim', ing: 'You are welcome' },
+  'neseli-iki-arkadas': { emoji: '😄', etiket: 'Arkadaşlar', ing: 'Dialogue' },
+  'hello-diyen': { emoji: '👋', etiket: 'Merhaba', ing: 'Hello' },
+  'goodbye-yazisi': { emoji: '👋', etiket: 'Hoşça kal', ing: 'Goodbye' },
+  'uzgun-yuz': { emoji: '😢', etiket: 'Üzgün', ing: 'I am fine' },
+  'please-kelimesi': { emoji: '🙏', etiket: 'Lütfen', ing: 'Please' },
+  'top-firlatilan': { emoji: '🏀', etiket: 'Top', ing: 'Catch the ball!' },
+  'kapi-resmi': { emoji: '🚪', etiket: 'Kapı', ing: 'May I come in?' },
+  'kirmizi-elma-diyalog': { emoji: '🍎', etiket: 'Elma', ing: 'Can I have an apple?' },
+  'iki-konusan-cocuk': { emoji: '🗣️', etiket: 'Konuşma', ing: 'Dialogue' },
+  'otur-kalk-oklar': { emoji: '↕️', etiket: 'Otur / Kalk', ing: 'Sit / Stand' },
+  'gulumsen-ogretmen': { emoji: '👩‍🏫', etiket: 'Öğretmen', ing: 'Yes, you may' },
+  'iyiyim-isareti': { emoji: '👍', etiket: 'İyiyim', ing: 'I am fine' },
+  'goz-kirpan': { emoji: '😉', etiket: 'Gülümse', ing: 'Dialogue' },
+  'konusma-balonu': { emoji: '💭', etiket: 'Diyalog', ing: 'Simple Dialogues' },
+  'karsilasan-arkadaslar': { emoji: '👧👦', etiket: 'Park', ing: 'How are you?' },
+  'soru-isareti': { emoji: '❓', etiket: 'Soru', ing: 'How are you?' },
+  'rica-eden-kiz': { emoji: '😊', etiket: 'Rica ederim', ing: 'You are welcome' },
+  'lutfen-diyen': { emoji: '🙏', etiket: 'Lütfen', ing: 'Please' },
+  'bakkal-elma': { emoji: '🏪', etiket: 'Bakkal', ing: 'Please' },
+  'esya-uzatan': { emoji: '🤲', etiket: 'Buyurun', ing: 'Here you are!' },
+  'kapi-calan': { emoji: '🚪', etiket: 'Kapı', ing: 'May I come in?' },
+  'sandalyeye-oturan': { emoji: '🪑', etiket: 'Otur', ing: 'Sit down' },
+  'gulumseyen-yuz': { emoji: '😊', etiket: 'Gülümse', ing: 'Dialogue' },
+  'okul-kapisindan-cikan': { emoji: '🏫', etiket: 'Veda', ing: 'Goodbye' },
+  'konusma-balonu-dialogue': { emoji: '💬', etiket: 'Diyalog', ing: 'Dialogue' },
+  'and-you-sorusu': { emoji: '❓', etiket: 'Ya sen?', ing: 'And you?' },
+  'goz-temasi': { emoji: '👀', etiket: 'Göz teması', ing: 'Dialogue' },
+  'neseli-arkadas': { emoji: '🤝', etiket: 'Nazik', ing: 'Please & Thank you' },
+  'oyuncak-ayi': { emoji: '🧸', etiket: 'Oyuncak', ing: 'Can I have a toy?' },
+  'izin-veren-ogretmen': { emoji: '👩‍🏫', etiket: 'İzin', ing: 'Yes, you may' },
+  'yukari-ok': { emoji: '⬆️', etiket: 'Yukarı', ing: 'Up' },
+  'asagi-ok': { emoji: '⬇️', etiket: 'Aşağı', ing: 'Down' },
+  'hello-yazisi': { emoji: '👋', etiket: 'Merhaba', ing: 'Hello / Hi' },
+  'ogretmen-masasi-diyalog': { emoji: '📋', etiket: 'Sınıf', ing: 'Simple Dialogues' },
+  'mutlu-konusan': { emoji: '😊', etiket: 'Konuşma', ing: 'Simple Dialogues' },
+  // Tema 4C — Songs
+  'muzik-notalari': { emoji: '🎵', etiket: 'Notalar', ing: 'Song' },
+  'sarki-soyleyen-cocuklar': { emoji: '🎤', etiket: 'Şarkı', ing: 'Sing a song' },
+  'alfabe-bloklari': { emoji: '🧱', etiket: 'Alfabe', ing: 'Alphabet Song' },
+  'z-harfi': { emoji: '🔤', etiket: 'Z', ing: 'Alphabet' },
+  'sayi-1-10': { emoji: '🔢', etiket: '1–10', ing: 'Numbers Song' },
+  'ziplayan-cocuk': { emoji: '🤸', etiket: 'Zıplama', ing: 'Jump' },
+  'ellerini-cirpan': { emoji: '👏', etiket: 'Eller', ing: 'Clap your hands' },
+  'on-blok': { emoji: '🔟', etiket: '10', ing: 'Ten' },
+  'kirmizi-sari-boya': { emoji: '🖍️', etiket: 'Boya', ing: 'Red & Yellow' },
+  'pembe-yesil-elma': { emoji: '🍎', etiket: 'Renkler', ing: 'Pink & Green' },
+  'mor-turuncu': { emoji: '🎨', etiket: 'Renkler', ing: 'Purple & Orange' },
+  'kulaklik-dinleyen': { emoji: '🎧', etiket: 'Dinleme', ing: 'Songs' },
+  'harf-corbasi': { emoji: '🔤', etiket: 'Alfabe', ing: 'Alphabet' },
+  'koro-sarki': { emoji: '👥', etiket: 'Koro', ing: 'Sing a song' },
+  'gulen-harfler': { emoji: '😊', etiket: 'Harfler', ing: 'Alphabet' },
+  'muzik-dinleyen': { emoji: '🎧', etiket: 'Müzik', ing: 'Songs' },
+  'dans-eden-arkadas': { emoji: '💃', etiket: 'Dans', ing: 'Dance' },
+  'mutlu-cocuk-sarki': { emoji: '😄', etiket: 'Neşe', ing: 'Songs' },
+  'muzik-notasi-sembolu': { emoji: '♪', etiket: 'Nota', ing: 'Song' },
+  'mikrofon-sarki': { emoji: '🎤', etiket: 'Mikrofon', ing: 'Sing a song' },
+  'abc-tablosu': { emoji: '🔤', etiket: 'ABC', ing: 'Alphabet Song' },
+  'sarki-soyleyen': { emoji: '🎶', etiket: 'Şarkı', ing: 'Sing a song' },
+  'rakam-tahta': { emoji: '🔢', etiket: 'Sayılar', ing: 'Numbers Song' },
+  'bes-balon': { emoji: '🎈', etiket: '5', ing: 'Five' },
+  ziplayan: { emoji: '🤸', etiket: 'Zıplama', ing: 'Jump' },
+  'eller-cirpan': { emoji: '👏', etiket: 'Eller', ing: 'Clap your hands' },
+  'gokkusagi-resmi': { emoji: '🌈', etiket: 'Gökkuşağı', ing: 'Colors Song' },
+  'kirmizi-sari-kalem': { emoji: '✏️', etiket: 'Kalemler', ing: 'Red & Yellow' },
+  'pembe-yesil-balon': { emoji: '🎈', etiket: 'Balonlar', ing: 'Pink & Green' },
+  'mavi-deniz-gokyuzu': { emoji: '🌊', etiket: 'Mavi', ing: 'Blue', renk: 'blue' },
+  'kelime-nota': { emoji: '🎵', etiket: 'Kelimeler', ing: 'Words' },
+  'mor-cicek': { emoji: '💜', etiket: 'Çiçek', ing: 'Purple', renk: 'purple' },
+  'sinif-sarki': { emoji: '🏫', etiket: 'Sınıf', ing: 'Sing a song' },
+  'nota-alfabe': { emoji: '🎶', etiket: 'Alfabe', ing: 'Alphabet' },
+  'z-harfi-kup': { emoji: '🧊', etiket: 'Z', ing: 'Alphabet' },
+  'dans-eden': { emoji: '💃', etiket: 'Dans', ing: 'Dance' },
+  'muzik-calar': { emoji: '📻', etiket: 'Müzik', ing: 'Songs' },
+  'sayilar-1-5': { emoji: '1️⃣2️⃣3️⃣4️⃣5️⃣', etiket: '1–5', ing: 'One to Five' },
+  'boya-paleti': { emoji: '🎨', etiket: 'Palet', ing: 'Colors Song' },
+  'mutlu-ingilizce-sinif': { emoji: '😊', etiket: 'Sınıf', ing: 'Songs' },
   default: { emoji: '🇬🇧', etiket: 'English' },
 };
 
@@ -425,6 +512,66 @@ function KusHikayeSahne() {
   );
 }
 
+function ParkDiyalogSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="karsilasan-arkadaslar" vurgulu />
+      <NesneKart anahtar="hello-diyen" />
+      <NesneKart anahtar="top-oynayan-ikili" />
+    </View>
+  );
+}
+
+function BakkalDiyalogSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="bakkal-elma" vurgulu />
+      <NesneKart anahtar="elma-uzatan-bakkal" />
+      <NesneKart anahtar="tesekkur-eden" />
+    </View>
+  );
+}
+
+function SinifDiyalogSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="kapi-calan-ogrenci" vurgulu />
+      <NesneKart anahtar="ayaga-kalkan-sinif" />
+      <NesneKart anahtar="oturan-ogrenci" />
+    </View>
+  );
+}
+
+function AlfabeSarkiSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="alfabe-bloklari" vurgulu />
+      <NesneKart anahtar="abc-tablosu" />
+      <NesneKart anahtar="z-harfi" />
+    </View>
+  );
+}
+
+function SayilarSarkiSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="sayi-1-10" vurgulu />
+      <NesneKart anahtar="ziplayan-cocuk" />
+      <NesneKart anahtar="ellerini-cirpan" />
+    </View>
+  );
+}
+
+function RenklerSarkiSahne() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="gokkusagi-resmi" vurgulu />
+      <NesneKart anahtar="kirmizi-sari-boya" />
+      <NesneKart anahtar="mavi-deniz-gokyuzu" />
+    </View>
+  );
+}
+
 function GrupGorsel({ nesneler, vurgu }: { nesneler?: string[]; vurgu?: Props['vurgu'] }) {
   const vurgular = Array.isArray(vurgu) ? vurgu : vurgu ? [vurgu] : [];
   return (
@@ -462,6 +609,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <KopekHikayeSahne />;
     case 'kh-anlatim-3':
       return <KusHikayeSahne />;
+    case 'bd-anlatim-1':
+      return <ParkDiyalogSahne />;
+    case 'bd-anlatim-2':
+      return <BakkalDiyalogSahne />;
+    case 'bd-anlatim-3':
+      return <SinifDiyalogSahne />;
+    case 'is-anlatim-1':
+      return <AlfabeSarkiSahne />;
+    case 'is-anlatim-2':
+      return <SayilarSarkiSahne />;
+    case 'is-anlatim-3':
+      return <RenklerSarkiSahne />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

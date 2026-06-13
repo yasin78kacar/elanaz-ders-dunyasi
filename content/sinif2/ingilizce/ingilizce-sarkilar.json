@@ -1,0 +1,949 @@
+{
+  "id": "ingilizce-sarkilar",
+  "baslik": "Songs",
+  "kazanimKodu": "ING.2.4.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "\"A, B, C, D, E, F, G... H, I, J, K, L, M, N, O, P... Q, R, S... T, U, V... W, X, Y and Z\". Şarkı söylemek (Sing a song) alfabeyi ezberlemeyi çok kolaylaştırıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-1"
+        }
+      },
+      {
+        "metin": "\"One, two, three, four, five... Jump!\" (Zıpla). \"Six, seven, eight, nine, ten... Clap your hands!\" (Ellerini çırp).",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-2"
+        }
+      },
+      {
+        "metin": "\"I can sing a rainbow... Red, yellow, pink, green, purple, orange, blue.\" Renkler (Colors) şarkıyla çok daha akılda kalıcıydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "is-a1",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizcede şarkı kelimesi \".........\" (Song) olarak yazılır.",
+      "dogruCevap": "song",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-notalari"
+      }
+    },
+    {
+      "id": "is-a2",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Şarkı söylemek eylemine İngilizcede \"Sing a song\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sarki-soyleyen-cocuklar"
+      }
+    },
+    {
+      "id": "is-a3",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Harfleri eğlenerek öğrenmek için \"The ......... Song\" (Alfabe Şarkısı) dinleriz.",
+      "dogruCevap": "Alphabet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "alfabe-bloklari"
+      },
+      "alternatifCevaplar": [
+        "alphabet"
+      ]
+    },
+    {
+      "id": "is-a4",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Alfabe şarkısı \"A, B, C, D\" (Ey, Bi, Si, Di) diye başlar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "abc-harfleri"
+      }
+    },
+    {
+      "id": "is-a5",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizce alfabe şarkısının en sonundaki harf \".........\" (Z) harfidir.",
+      "dogruCevap": "Z",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "z-harfi"
+      }
+    },
+    {
+      "id": "is-a6",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Sayıları öğrenmek için \"The Numbers Song\" şarkısını söyleriz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-1-10"
+      }
+    },
+    {
+      "id": "is-a7",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Sayılar şarkısında geçen \"Five\" kelimesi ......... (5) sayısıdır.",
+      "dogruCevap": "beş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bes-balon"
+      },
+      "alternatifCevaplar": [
+        "bes",
+        "5"
+      ]
+    },
+    {
+      "id": "is-a8",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Sayılar şarkısındaki \"Jump\" komutunu duyunca yere otururuz.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan-cocuk"
+      }
+    },
+    {
+      "id": "is-a9",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Clap your hands\" ifadesi Türkçede \"Ellerini .........\" demektir.",
+      "dogruCevap": "çırp",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ellerini-cirpan"
+      },
+      "alternatifCevaplar": [
+        "cirp"
+      ]
+    },
+    {
+      "id": "is-a10",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Sayılar şarkısında \"Ten\" sayısı söylendiğinde 10 demiş oluruz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "on-blok"
+      }
+    },
+    {
+      "id": "is-a11",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Renkleri öğrenmek için söylediğimiz şarkının konusu \"The ......... Song\"dur.",
+      "dogruCevap": "Colors",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gokkusagi"
+      }
+    },
+    {
+      "id": "is-a12",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Gökkuşağı şarkısındaki \"Red and Yellow\", Kırmızı ve Sarı renkleridir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-sari-boya"
+      }
+    },
+    {
+      "id": "is-a13",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Pink and Green\" kelimeleri Pembe ve ......... renklerini anlatır.",
+      "dogruCevap": "yeşil",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-yesil-elma"
+      },
+      "alternatifCevaplar": [
+        "yesil"
+      ]
+    },
+    {
+      "id": "is-a14",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Gökkuşağı şarkısında \"Purple and Orange\", Mor ve Turuncu renkleridir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-turuncu"
+      }
+    },
+    {
+      "id": "is-a15",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizce şarkılar dinlemek yeni kelimeler öğrenmemizi çok ......... (kolaylaştırır).",
+      "dogruCevap": "kolaylaştırır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kulaklik-dinleyen"
+      },
+      "alternatifCevaplar": [
+        "kolaylastirir"
+      ]
+    },
+    {
+      "id": "is-a16",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Song\" kelimesi Türkçede hikaye demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-notalari"
+      }
+    },
+    {
+      "id": "is-a17",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Müzik eşliğinde İngilizce öğrenmek çok eğlencelidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    },
+    {
+      "id": "is-a18",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Gökkuşağı şarkısındaki ilk renk \".........\" (Kırmızı)'dır.",
+      "dogruCevap": "Red",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      }
+    },
+    {
+      "id": "is-a19",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Blue\" kelimesi şarkıda da geçen mavi renk demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-deniz"
+      }
+    },
+    {
+      "id": "is-a20",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Şarkılar (Songs) sayesinde alfabeyi (Alphabet) hiç ......... (unutmayız).",
+      "dogruCevap": "unutmayız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "harf-corbasi"
+      },
+      "alternatifCevaplar": [
+        "unutmayiz"
+      ]
+    },
+    {
+      "id": "is-a21",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizce şarkılara sınıfça eşlik etmek ve ritim tutmak takım çalışmasını güçlendirir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koro-sarki"
+      }
+    },
+    {
+      "id": "is-a22",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizcede alfabe \".........\" kelimesiyle ifade edilir.",
+      "dogruCevap": "alphabet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulen-harfler"
+      },
+      "alternatifCevaplar": [
+        "Alphabet"
+      ]
+    },
+    {
+      "id": "is-a23",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Sadece okulda değil, evde de İngilizce şarkılar dinlemek bize fayda sağlar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-dinleyen"
+      }
+    },
+    {
+      "id": "is-a24",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "Şarkı söylerken aynı zamanda \".........\" (dans etmek/dance) da yapabiliriz.",
+      "dogruCevap": "dance",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dans-eden-arkadas"
+      }
+    },
+    {
+      "id": "is-a25",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "yazili",
+      "soru": "İngilizce şarkılar ve oyunlar, öğrenmeyi sıkıcı olmaktan kurtarıp neşeli hale getirir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk-sarki"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "is-t1",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizcede \"Şarkı\" kelimesinin karşılığı nedir?",
+      "dogruCevap": "Song",
+      "secenekler": [
+        "Story",
+        "Apple",
+        "Dialogue",
+        "Song"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-notasi-sembolu"
+      }
+    },
+    {
+      "id": "is-t2",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sing a song\" ifadesi Türkçede hangi eylemdir?",
+      "dogruCevap": "Şarkı söylemek",
+      "secenekler": [
+        "Şarkı söylemek",
+        "Kitap okumak",
+        "Resim çizmek",
+        "Koşmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mikrofon-sarki"
+      }
+    },
+    {
+      "id": "is-t3",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce harfleri eğlenerek öğrenmek için hangi şarkıyı dinleriz?",
+      "dogruCevap": "The Alphabet Song",
+      "secenekler": [
+        "The Numbers Song",
+        "The Animal Song",
+        "The Colors Song",
+        "The Alphabet Song"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "abc-tablosu"
+      }
+    },
+    {
+      "id": "is-t4",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Alfabe şarkısı hangi harflerle başlar?",
+      "dogruCevap": "A, B, C",
+      "secenekler": [
+        "One, Two, Three",
+        "Z, Y, X",
+        "A, B, C",
+        "Red, Blue, Green"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sarki-soyleyen"
+      }
+    },
+    {
+      "id": "is-t5",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayıları öğrenmek için dinlediğimiz \"The Numbers Song\"da hangi kelimeler geçer?",
+      "dogruCevap": "One, Two, Three",
+      "secenekler": [
+        "Cat, Dog, Bird",
+        "One, Two, Three",
+        "A, B, C",
+        "Red, Yellow, Blue"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "rakam-tahta"
+      }
+    },
+    {
+      "id": "is-t6",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayılar şarkısındaki \"Five\" kelimesi hangi sayıdır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "5",
+        "10",
+        "4",
+        "6"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bes-balon"
+      }
+    },
+    {
+      "id": "is-t7",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayılar şarkısındaki \"Jump\" komutu geldiğinde çocuklar ne yapar?",
+      "dogruCevap": "Zıplarlar",
+      "secenekler": [
+        "Kitap okurlar",
+        "Yere otururlar",
+        "Zıplarlar",
+        "Uyumaya başlarlar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan"
+      }
+    },
+    {
+      "id": "is-t8",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkıdaki \"Clap your hands\" komutunun anlamı nedir?",
+      "dogruCevap": "Ellerini çırp",
+      "secenekler": [
+        "Ayaklarını vur",
+        "Arkana dön",
+        "Ellerini çırp",
+        "Gözlerini kapat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "eller-cirpan"
+      }
+    },
+    {
+      "id": "is-t9",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce renkleri öğrenmek için hangi şarkı çok eğlencelidir?",
+      "dogruCevap": "The Colors Song (Renkler Şarkısı)",
+      "secenekler": [
+        "The Classroom Song",
+        "The Colors Song (Renkler Şarkısı)",
+        "The Alphabet Song",
+        "The Numbers Song"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gokkusagi-resmi"
+      }
+    },
+    {
+      "id": "is-t10",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Renkler şarkısında geçen \"Red and Yellow\" sırasıyla hangi renklerdir?",
+      "dogruCevap": "Kırmızı ve Sarı",
+      "secenekler": [
+        "Kırmızı ve Sarı",
+        "Mor ve Pembe",
+        "Siyah ve Beyaz",
+        "Yeşil ve Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-sari-kalem"
+      }
+    },
+    {
+      "id": "is-t11",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Pink and Green\" kelimelerinin Türkçe karşılığı nedir?",
+      "dogruCevap": "Pembe ve Yeşil",
+      "secenekler": [
+        "Mor ve Turuncu",
+        "Mavi ve Siyah",
+        "Pembe ve Yeşil",
+        "Kırmızı ve Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-yesil-balon"
+      }
+    },
+    {
+      "id": "is-t12",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Renkler şarkısında geçen \"Blue\" kelimesi hangi renktir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Yeşil",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-deniz-gokyuzu"
+      }
+    },
+    {
+      "id": "is-t13",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce şarkılar (Songs) dinlemek kelime öğrenmemizi nasıl etkiler?",
+      "dogruCevap": "Eğlenerek kalıcı şekilde öğrenmemizi sağlar",
+      "secenekler": [
+        "Eğlenerek kalıcı şekilde öğrenmemizi sağlar",
+        "Sıkılmamıza sebep olur",
+        "Daha çabuk unutmamızı sağlar",
+        "Hiçbir işe yaramaz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kulaklik-dinleyen"
+      }
+    },
+    {
+      "id": "is-t14",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkılarda söylenen \"Words\" (Kelimeler) neden zihnimizde daha kolay kalır?",
+      "dogruCevap": "Çünkü müzik ve ritim hafızamızı güçlendirir",
+      "secenekler": [
+        "Çünkü çok kısadırlar",
+        "Çünkü müzik ve ritim hafızamızı güçlendirir",
+        "Çünkü zor yazılırlar",
+        "Çünkü siyah beyazdırlar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kelime-nota"
+      }
+    },
+    {
+      "id": "is-t15",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"The Numbers Song\" şarkısı genellikle hangi sayıyla biter?",
+      "dogruCevap": "Ten",
+      "secenekler": [
+        "Five",
+        "One",
+        "Ten",
+        "Three"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "on-blok"
+      }
+    },
+    {
+      "id": "is-t16",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Gökkuşağı şarkısında geçen \"Purple\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Turuncu",
+        "Pembe",
+        "Mor",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-cicek"
+      }
+    },
+    {
+      "id": "is-t17",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Orange\" kelimesi hangi renk için kullanılır?",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Beyaz",
+        "Yeşil",
+        "Turuncu",
+        "Siyah"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-portakal"
+      }
+    },
+    {
+      "id": "is-t18",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfça şarkı söylerken nasıl davranmalıyız?",
+      "dogruCevap": "Arkadaşlarımızla uyumlu bir şekilde ritim tutmalıyız",
+      "secenekler": [
+        "Arkadaşlarımızla uyumlu bir şekilde ritim tutmalıyız",
+        "Şarkıyı bozmalıyız",
+        "Sadece bağırmalıyız",
+        "Kulaklarımızı kapatmalıyız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-sarki"
+      }
+    },
+    {
+      "id": "is-t19",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Alphabet\" kelimesi Türkçede ne anlama gelir?",
+      "dogruCevap": "Alfabe",
+      "secenekler": [
+        "Hayvanlar",
+        "Sayılar",
+        "Alfabe",
+        "Renkler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "nota-alfabe"
+      }
+    },
+    {
+      "id": "is-t20",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Alfabe şarkısının son harfi hangisidir?",
+      "dogruCevap": "Z",
+      "secenekler": [
+        "M",
+        "A",
+        "Z",
+        "C"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "z-harfi-kup"
+      }
+    },
+    {
+      "id": "is-t21",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkı söylerken aynı zamanda \"Dance\" yapmak ne demektir?",
+      "dogruCevap": "Dans etmek",
+      "secenekler": [
+        "Kitap okumak",
+        "Dans etmek",
+        "Resim çizmek",
+        "Yemek yemek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dans-eden"
+      }
+    },
+    {
+      "id": "is-t22",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İngilizce dersinde şarkı dinlemek dersi nasıl bir hale getirir?",
+      "dogruCevap": "Eğlenceli, neşeli ve akılda kalıcı",
+      "secenekler": [
+        "Korkutucu",
+        "Eğlenceli, neşeli ve akılda kalıcı",
+        "Çok sıkıcı ve yorucu",
+        "Uykulu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-calar"
+      }
+    },
+    {
+      "id": "is-t23",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"One, two, three, four, five\" sayılarından \"Three\" hangisidir?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayilar-1-5"
+      }
+    },
+    {
+      "id": "is-t24",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Gökkuşağı şarkısında \"I can sing a rainbow\" ne demektir?",
+      "dogruCevap": "Bir gökkuşağı şarkısı söyleyebilirim",
+      "secenekler": [
+        "Bir kitap okuyabilirim",
+        "Bir araba çizebilirim",
+        "Bir kuş uçurabilirim",
+        "Bir gökkuşağı şarkısı söyleyebilirim"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boya-paleti"
+      }
+    },
+    {
+      "id": "is-t25",
+      "kazanimKodu": "ING.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkılar, hikayeler ve diyaloglar sayesinde İngilizce dilini öğrenmek bizim için nasıldır?",
+      "dogruCevap": "Eğlenceli ve yepyeni bir macera",
+      "secenekler": [
+        "Sıkıcı",
+        "Çok zor ve üzücü",
+        "Eğlenceli ve yepyeni bir macera",
+        "İmkansız"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-ingilizce-sinif"
+      }
+    }
+  ]
+}

@@ -54,11 +54,11 @@ function testEkle(sorular, id, soru, cevap, secenekler, ipucu, extra = {}) {
 
 function alistirma() {
   const s = [];
-  boslukEkle(s, 'kh-a1', 'Hikaye kelimesinin İngilizcesi ......... kelimesidir.', 'story', '', { gorsel: nesne('hikaye-kitabi') });
-  dyEkle(s, 'kh-a2', '"The Little Red Apple" hikayesi, kırmızı bir elmayı anlatır.', 'Doğru', '', { gorsel: nesne('kirmizi-elma-kucuk') });
-  boslukEkle(s, 'kh-a3', 'Hikaye okumak İngilizcede "Read a ........." olarak söylenir.', 'story', '', { gorsel: nesne('kitap-okuyan') });
-  dyEkle(s, 'kh-a4', 'İngilizcede köpek "Dog" demektir.', 'Doğru', '', { gorsel: nesne('cesur-kopek') });
-  boslukEkle(s, 'kh-a5', 'Mutlu kuşun İngilizce adı "The Happy ........." (Kuş) olarak yazılır.', 'Bird', '', { gorsel: nesne('mutlu-kus'), alternatifCevaplar: ['bird'] });
+  boslukEkle(s, 'kh-a1', 'Hikaye kelimesinin İngilizcesi ......... .', 'story', '', { gorsel: nesne('hikaye-kitabi') });
+  dyEkle(s, 'kh-a2', '"The Little Red Apple" kırmızı bir elmayı anlatır.', 'Doğru', '', { gorsel: nesne('kirmizi-elma-kucuk') });
+  dyEkle(s, 'kh-a3', 'Köpek İngilizcede "Dog" demektir.', 'Doğru', '', { gorsel: nesne('cesur-kopek') });
+  boslukEkle(s, 'kh-a4', 'Mutlu kuşun adı "The Happy ........." .', 'Bird', '', { gorsel: nesne('mutlu-kus'), alternatifCevaplar: ['bird'] });
+  boslukEkle(s, 'kh-a5', 'Şarkı söylemek "Sing a ........." ile ifade edilir.', 'song', '', { gorsel: nesne('sarki-kusu'), alternatifCevaplar: ['Song'] });
   dyEkle(s, 'kh-a6', 'Hikayedeki yeşil ağaç İngilizcede "Green Tree" olarak okunur.', 'Doğru', '', { gorsel: nesne('agac-resmi') });
   dyEkle(s, 'kh-a7', 'Cesur köpek "The Brave Dog" hikayesinde geçmektedir.', 'Doğru', '', { gorsel: nesne('ciftlik-kopegi') });
   boslukEkle(s, 'kh-a8', 'Hikayedeki kuş sabahları uyanıp Güneş\'e İngilizce "......... morning" der.', 'Good', '', { gorsel: nesne('gunesli-gokyuz') });
@@ -123,17 +123,17 @@ export function kisaHikayeler(karistir) {
       ekranlar: [
         {
           metin:
-            'Ali ve Ayşe kütüphanede "The Little Red Apple" hikayesini okudular. Yeşil ağacın dalındaki mutlu kırmızı elma güneşe gülümsüyordu. "Read a story" İngilizce yeni kelimeler öğrenmek için çok eğlenceliydi!',
+            'Ali ve Ayşe kütüphanede yan yana oturdular. Öğretmenleri onlara İngilizce çok tatlı bir kısa hikaye (Short Story) vermişti. Hikayenin adı "The Little Red Apple" (Küçük Kırmızı Elma) idi. Ali, kitaptaki resimlere bakarak İngilizce kelimeleri okumaya başladı. Hikayede, kocaman yeşil bir ağacın (Green Tree) dalında duran mutlu, kırmızı bir elma anlatılıyordu. Ayşe, "Hikaye okumak, yani Read a story, İngilizce yeni kelimeler öğrenmek için çok eğlenceli!" dedi.',
           gorsel: anl('kh-anlatim-1'),
         },
         {
           metin:
-            'Berk ve Fatma "The Brave Dog" hikayesini okudular. Köpek koyunları (Sheep) koruyordu — gerçekten çok cesur (Brave)! Dog, Run, Jump kelimelerini öğrendiler.',
+            'Berk ve Fatma bahçede "The Brave Dog" (Cesur Köpek) hikayesini açtılar. Berk kelimeleri takip etti: "Dog (Köpek), Run (Koşmak), Jump (Zıplamak)." Fatma, "Bak Berk, köpek koyunları (Sheep) koruyor, o gerçekten çok cesur (Brave)!" diyerek gülümsedi.',
           gorsel: anl('kh-anlatim-2'),
         },
         {
           metin:
-            'Can ve Zeynep "The Happy Bird" kitabını seçtiler. Kuş sabahları "Good morning!" diyor ve gökyüzünde özgürce uçuyordu (Fly). Sing a song yapıyor, ormandaki Animals dinliyordu.',
+            'Can ve Zeynep çok renkli bir kitap seçtiler. Başlık "The Happy Bird" (Mutlu Kuş) idi. Kuş sabahları uyanıyor, Güneş\'e "Good morning!" diyor ve gökyüzünde özgürce uçuyordu (Fly). Can, "Kuş çok güzel şarkı söylüyor, yani Sing a song yapıyor," dedi.',
           gorsel: anl('kh-anlatim-3'),
         },
       ],

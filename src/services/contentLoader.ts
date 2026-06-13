@@ -60,10 +60,13 @@ import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afet
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
-import kisaHikayeler from '../../content/sinif2/ingilizce/kisa-hikayeler.json';
+import theme4Json from '../data/english/theme4.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
-import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
+import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
+
+const theme4 = theme4Json as EnglishTheme;
+const [kisaHikayeler, basitDiyaloglar, ingilizceSarkilar] = theme4.konular;
 
 const konuDosyalari: Record<string, Konu> = {
   'matematik/ritmik-sayma.json': ritmikSayma as Konu,
@@ -127,7 +130,9 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
   'ingilizce/sayilar-ve-sinif-esyalari.json': sayilarVeSinifEsyalari as Konu,
   'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAile as Konu,
-  'ingilizce/kisa-hikayeler.json': kisaHikayeler as Konu,
+  'ingilizce/kisa-hikayeler.json': kisaHikayeler,
+  'ingilizce/basit-diyaloglar.json': basitDiyaloglar,
+  'ingilizce/ingilizce-sarkilar.json': ingilizceSarkilar,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

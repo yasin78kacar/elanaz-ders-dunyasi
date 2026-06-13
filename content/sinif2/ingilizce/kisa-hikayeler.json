@@ -5,7 +5,7 @@
   "anlatim": {
     "ekranlar": [
       {
-        "metin": "Ali ve Ayşe kütüphanede \"The Little Red Apple\" hikayesini okudular. Yeşil ağacın dalındaki mutlu kırmızı elma güneşe gülümsüyordu. \"Read a story\" İngilizce yeni kelimeler öğrenmek için çok eğlenceliydi!",
+        "metin": "Ali ve Ayşe kütüphanede yan yana oturdular. Öğretmenleri onlara İngilizce çok tatlı bir kısa hikaye (Short Story) vermişti. Hikayenin adı \"The Little Red Apple\" (Küçük Kırmızı Elma) idi. Ali, kitaptaki resimlere bakarak İngilizce kelimeleri okumaya başladı. Hikayede, kocaman yeşil bir ağacın (Green Tree) dalında duran mutlu, kırmızı bir elma anlatılıyordu. Ayşe, \"Hikaye okumak, yani Read a story, İngilizce yeni kelimeler öğrenmek için çok eğlenceli!\" dedi.",
         "gorsel": {
           "tur": "ingilizce",
           "mod": "anlatim",
@@ -13,7 +13,7 @@
         }
       },
       {
-        "metin": "Berk ve Fatma \"The Brave Dog\" hikayesini okudular. Köpek koyunları (Sheep) koruyordu — gerçekten çok cesur (Brave)! Dog, Run, Jump kelimelerini öğrendiler.",
+        "metin": "Berk ve Fatma bahçede \"The Brave Dog\" (Cesur Köpek) hikayesini açtılar. Berk kelimeleri takip etti: \"Dog (Köpek), Run (Koşmak), Jump (Zıplamak).\" Fatma, \"Bak Berk, köpek koyunları (Sheep) koruyor, o gerçekten çok cesur (Brave)!\" diyerek gülümsedi.",
         "gorsel": {
           "tur": "ingilizce",
           "mod": "anlatim",
@@ -21,7 +21,7 @@
         }
       },
       {
-        "metin": "Can ve Zeynep \"The Happy Bird\" kitabını seçtiler. Kuş sabahları \"Good morning!\" diyor ve gökyüzünde özgürce uçuyordu (Fly). Sing a song yapıyor, ormandaki Animals dinliyordu.",
+        "metin": "Can ve Zeynep çok renkli bir kitap seçtiler. Başlık \"The Happy Bird\" (Mutlu Kuş) idi. Kuş sabahları uyanıyor, Güneş'e \"Good morning!\" diyor ve gökyüzünde özgürce uçuyordu (Fly). Can, \"Kuş çok güzel şarkı söylüyor, yani Sing a song yapıyor,\" dedi.",
         "gorsel": {
           "tur": "ingilizce",
           "mod": "anlatim",
@@ -35,7 +35,7 @@
       "id": "kh-a1",
       "kazanimKodu": "ING.2.4.1",
       "tip": "yazili",
-      "soru": "Hikaye kelimesinin İngilizcesi ......... kelimesidir.",
+      "soru": "Hikaye kelimesinin İngilizcesi ......... .",
       "dogruCevap": "story",
       "ipucu": "",
       "cevapTipi": "metin",
@@ -49,7 +49,7 @@
       "id": "kh-a2",
       "kazanimKodu": "ING.2.4.1",
       "tip": "yazili",
-      "soru": "\"The Little Red Apple\" hikayesi, kırmızı bir elmayı anlatır.",
+      "soru": "\"The Little Red Apple\" kırmızı bir elmayı anlatır.",
       "dogruCevap": "Doğru",
       "ipucu": "",
       "cevapTipi": "metin",
@@ -68,21 +68,7 @@
       "id": "kh-a3",
       "kazanimKodu": "ING.2.4.1",
       "tip": "yazili",
-      "soru": "Hikaye okumak İngilizcede \"Read a .........\" olarak söylenir.",
-      "dogruCevap": "story",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "gorsel": {
-        "tur": "ingilizce",
-        "mod": "nesne",
-        "nesne": "kitap-okuyan"
-      }
-    },
-    {
-      "id": "kh-a4",
-      "kazanimKodu": "ING.2.4.1",
-      "tip": "yazili",
-      "soru": "İngilizcede köpek \"Dog\" demektir.",
+      "soru": "Köpek İngilizcede \"Dog\" demektir.",
       "dogruCevap": "Doğru",
       "ipucu": "",
       "cevapTipi": "metin",
@@ -98,10 +84,10 @@
       }
     },
     {
-      "id": "kh-a5",
+      "id": "kh-a4",
       "kazanimKodu": "ING.2.4.1",
       "tip": "yazili",
-      "soru": "Mutlu kuşun İngilizce adı \"The Happy .........\" (Kuş) olarak yazılır.",
+      "soru": "Mutlu kuşun adı \"The Happy .........\" .",
       "dogruCevap": "Bird",
       "ipucu": "",
       "cevapTipi": "metin",
@@ -112,6 +98,23 @@
       },
       "alternatifCevaplar": [
         "bird"
+      ]
+    },
+    {
+      "id": "kh-a5",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Şarkı söylemek \"Sing a .........\" ile ifade edilir.",
+      "dogruCevap": "song",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sarki-kusu"
+      },
+      "alternatifCevaplar": [
+        "Song"
       ]
     },
     {
@@ -465,9 +468,9 @@
       "dogruCevap": "Story",
       "secenekler": [
         "Dog",
+        "Song",
         "Story",
-        "Apple",
-        "Song"
+        "Apple"
       ],
       "ipucu": "",
       "gorsel": {
@@ -483,10 +486,10 @@
       "soru": "\"Read a story\" Türkçede hangi güzel anlama gelir?",
       "dogruCevap": "Hikaye okumak",
       "secenekler": [
-        "Yemek yemek",
         "Şarkı söylemek",
+        "Resim çizmek",
         "Hikaye okumak",
-        "Resim çizmek"
+        "Yemek yemek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -502,10 +505,10 @@
       "soru": "İngilizcede \"Short\" kelimesi ne anlama gelir?",
       "dogruCevap": "Kısa",
       "secenekler": [
-        "Sıcak",
         "Uzun",
-        "Kısa",
-        "Büyük"
+        "Büyük",
+        "Sıcak",
+        "Kısa"
       ],
       "ipucu": "",
       "gorsel": {
@@ -521,10 +524,10 @@
       "soru": "\"The Little Red Apple\" hikayesinde anlatılan meyve hangisidir?",
       "dogruCevap": "Elma",
       "secenekler": [
+        "Elma",
         "Portakal",
         "Muz",
-        "Karpuz",
-        "Elma"
+        "Karpuz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -540,9 +543,9 @@
       "soru": "Hikayenin adında geçen \"Little\" kelimesi ne demektir?",
       "dogruCevap": "Küçük",
       "secenekler": [
+        "Kocaman",
         "Uzun",
         "Yeşil",
-        "Kocaman",
         "Küçük"
       ],
       "ipucu": "",
@@ -560,9 +563,9 @@
       "dogruCevap": "Dog",
       "secenekler": [
         "Lion",
-        "Cat",
+        "Dog",
         "Bird",
-        "Dog"
+        "Cat"
       ],
       "ipucu": "",
       "gorsel": {
@@ -597,10 +600,10 @@
       "soru": "İngilizcede \"Happy\" kelimesinin Türkçe karşılığı nedir?",
       "dogruCevap": "Mutlu",
       "secenekler": [
+        "Mutlu",
         "Üzgün",
-        "Kızgın",
         "Şaşkın",
-        "Mutlu"
+        "Kızgın"
       ],
       "ipucu": "",
       "gorsel": {
@@ -616,8 +619,8 @@
       "soru": "Kuşun yaptığı \"Sing a song\" eylemi ne demektir?",
       "dogruCevap": "Şarkı söylemek",
       "secenekler": [
-        "Dans etmek",
         "Şarkı söylemek",
+        "Dans etmek",
         "Koşmak",
         "Uyumak"
       ],
@@ -635,10 +638,10 @@
       "soru": "İngilizcede kuşların yaptığı eylem olan \"Fly\" ne anlama gelir?",
       "dogruCevap": "Uçmak",
       "secenekler": [
-        "Oturmak",
         "Uçmak",
+        "Yüzmek",
         "Zıplamak",
-        "Yüzmek"
+        "Oturmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -654,10 +657,10 @@
       "soru": "Köpeğin koruduğu \"Sheep\" kelimesi hangi hayvandır?",
       "dogruCevap": "Koyun",
       "secenekler": [
-        "Koyun",
-        "Tavuk",
         "At",
-        "İnek"
+        "İnek",
+        "Koyun",
+        "Tavuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -673,8 +676,8 @@
       "soru": "\"Green Tree\" ifadesi Türkçede neyi anlatır?",
       "dogruCevap": "Yeşil ağaç",
       "secenekler": [
-        "Mavi deniz",
         "Sarı güneş",
+        "Mavi deniz",
         "Yeşil ağaç",
         "Kırmızı elma"
       ],
@@ -692,10 +695,10 @@
       "soru": "Kuşun sabahları Güneş'e söylediği \"Good morning\" ne demektir?",
       "dogruCevap": "Günaydın",
       "secenekler": [
-        "Teşekkürler",
-        "Hoşça kal",
+        "İyi geceler",
         "Günaydın",
-        "İyi geceler"
+        "Teşekkürler",
+        "Hoşça kal"
       ],
       "ipucu": "",
       "gorsel": {
@@ -712,9 +715,9 @@
       "dogruCevap": "Kısa hikayeler",
       "secenekler": [
         "Müzikli şarkılar",
-        "Kısa hikayeler",
         "Uzun şiirler",
-        "Renkli resimler"
+        "Renkli resimler",
+        "Kısa hikayeler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -731,9 +734,9 @@
       "dogruCevap": "The Brave Dog (Cesur Köpek)",
       "secenekler": [
         "Pencil (Kalem)",
+        "Desk (Sıra)",
         "The Brave Dog (Cesur Köpek)",
-        "Chair (Sandalye)",
-        "Desk (Sıra)"
+        "Chair (Sandalye)"
       ],
       "ipucu": "",
       "gorsel": {
@@ -749,10 +752,10 @@
       "soru": "Hikayedeki köpeğin yaptığı \"Run\" eylemi nedir?",
       "dogruCevap": "Koşmak",
       "secenekler": [
-        "Koşmak",
         "İçmek",
-        "Yürümek",
-        "Uyumak"
+        "Koşmak",
+        "Uyumak",
+        "Yürümek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -769,9 +772,9 @@
       "dogruCevap": "Zıplamak",
       "secenekler": [
         "Çizmek",
-        "Zıplamak",
+        "Uçmak",
         "Düşmek",
-        "Uçmak"
+        "Zıplamak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -806,9 +809,9 @@
       "soru": "Ormandaki tüm canlılar olan \"Animals\" ne anlama gelir?",
       "dogruCevap": "Hayvanlar",
       "secenekler": [
-        "Renkler",
-        "Hayvanlar",
         "Eşyalar",
+        "Hayvanlar",
+        "Renkler",
         "Sayılar"
       ],
       "ipucu": "",
@@ -826,9 +829,9 @@
       "dogruCevap": "Mavi kuş",
       "secenekler": [
         "Kırmızı elma",
-        "Sarı güneş",
         "Yeşil ağaç",
-        "Mavi kuş"
+        "Mavi kuş",
+        "Sarı güneş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -844,10 +847,10 @@
       "soru": "\"Red apple\" ifadesi hangi meyveyi tarif eder?",
       "dogruCevap": "Kırmızı elma",
       "secenekler": [
-        "Sarı muz",
+        "Mor üzüm",
         "Yeşil armut",
         "Kırmızı elma",
-        "Mor üzüm"
+        "Sarı muz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -863,10 +866,10 @@
       "soru": "\"Happy\" kelimesinin zıttı (tersi) aşağıdakilerden hangisi olabilir?",
       "dogruCevap": "Üzgün (Sad)",
       "secenekler": [
+        "Üzgün (Sad)",
         "Sevimli",
-        "Hızlı",
         "Neşeli",
-        "Üzgün (Sad)"
+        "Hızlı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -882,10 +885,10 @@
       "soru": "Hikaye okurken (Read) en çok hangi organımızı kullanırız?",
       "dogruCevap": "Eye",
       "secenekler": [
-        "Eye",
-        "Foot",
         "Leg",
-        "Hand"
+        "Eye",
+        "Hand",
+        "Foot"
       ],
       "ipucu": "",
       "gorsel": {
@@ -901,10 +904,10 @@
       "soru": "Hayvanların \"Sing\" yapması ne anlama gelir?",
       "dogruCevap": "Şarkı söylemesi",
       "secenekler": [
-        "Şarkı söylemesi",
+        "Oyun oynaması",
         "Su içmesi",
-        "Yemek yemesi",
-        "Oyun oynaması"
+        "Şarkı söylemesi",
+        "Yemek yemesi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -920,10 +923,10 @@
       "soru": "Kitap okumak hayal gücümüzü nasıl etkiler?",
       "dogruCevap": "Çok geliştirir ve bizi mutlu eder",
       "secenekler": [
-        "Bizi üzer",
         "Çok geliştirir ve bizi mutlu eder",
-        "Bizi sıkıcı yapar",
-        "Hiç etkilemez"
+        "Hiç etkilemez",
+        "Bizi üzer",
+        "Bizi sıkıcı yapar"
       ],
       "ipucu": "",
       "gorsel": {

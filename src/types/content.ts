@@ -263,6 +263,13 @@ export interface Konu {
   test: Soru[];
 }
 
+/** İngilizce tema dosyası — src/data/english/themeN.json */
+export interface EnglishTheme {
+  id: string;
+  baslik: string;
+  konular: Konu[];
+}
+
 export interface HikayeSayfa {
   metin: string;
   gorsel?: Gorsel;
