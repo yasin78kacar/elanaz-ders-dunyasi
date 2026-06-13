@@ -34,6 +34,99 @@ const NESNE: Record<string, { emoji: string; etiket: string; canli?: boolean }> 
   meyve: { emoji: '🍎', etiket: 'Meyve', canli: true },
   yilan: { emoji: '🐍', etiket: 'Yılan', canli: true },
   kaplumbaga: { emoji: '🐢', etiket: 'Kaplumbağa', canli: true },
+  // Tema 2 — Madde ve Özellikleri
+  elma: { emoji: '🍎', etiket: 'Elma' },
+  limon: { emoji: '🍋', etiket: 'Limon' },
+  pamuk: { emoji: '☁️', etiket: 'Pamuk' },
+  sunger: { emoji: '🧽', etiket: 'Sünger' },
+  cam: { emoji: '🫙', etiket: 'Cam' },
+  zimpara: { emoji: '🪵', etiket: 'Zımpara' },
+  ayna: { emoji: '🪞', etiket: 'Ayna' },
+  gul: { emoji: '🌹', etiket: 'Gül' },
+  cikolata: { emoji: '🍫', etiket: 'Çikolata' },
+  balon: { emoji: '🎈', etiket: 'Balon' },
+  'demir-civi': { emoji: '🔩', etiket: 'Demir Çivi' },
+  lastik: { emoji: '🔗', etiket: 'Lastik' },
+  'yun-kazak': { emoji: '🧶', etiket: 'Yün Kazak' },
+  ceviz: { emoji: '🥜', etiket: 'Ceviz' },
+  telefon: { emoji: '📱', etiket: 'Telefon' },
+  'oyun-hamuru': { emoji: '🎨', etiket: 'Oyun Hamuru' },
+  'kagit-havlu': { emoji: '🧻', etiket: 'Kağıt Havlu' },
+  gozluk: { emoji: '👓', etiket: 'Gözlük' },
+  zil: { emoji: '🔔', etiket: 'Zil' },
+  cay: { emoji: '🍵', etiket: 'Çay' },
+  yastik: { emoji: '🛏️', etiket: 'Yastık' },
+  bilye: { emoji: '🔮', etiket: 'Bilye' },
+  cilek: { emoji: '🍓', etiket: 'Çilek' },
+  sabun: { emoji: '🧼', etiket: 'Sabun' },
+  'demir-kapi': { emoji: '🚪', etiket: 'Demir Kapı' },
+  corba: { emoji: '🍲', etiket: 'Çorba' },
+  'goz-kapali': { emoji: '🙈', etiket: 'Gözleri Kapalı' },
+  // Tema 2 — Kuvvet ve Hareket
+  'market-arabasi': { emoji: '🛒', etiket: 'Market Arabası' },
+  cekmece: { emoji: '🗄️', etiket: 'Çekmece' },
+  bisiklet: { emoji: '🚲', etiket: 'Bisiklet' },
+  salincak: { emoji: '🎠', etiket: 'Salıncak' },
+  halat: { emoji: '🪢', etiket: 'Halat' },
+  raket: { emoji: '🏓', etiket: 'Raket' },
+  'donme-dolap': { emoji: '🎡', etiket: 'Dönme Dolap' },
+  'bebek-arabasi': { emoji: '👶', etiket: 'Bebek Arabası' },
+  'ruzgar-gulu': { emoji: '🌬️', etiket: 'Rüzgargülü' },
+  fis: { emoji: '🔌', etiket: 'Fiş' },
+  otobus: { emoji: '🚌', etiket: 'Otobüs' },
+  ucurtma: { emoji: '🪁', etiket: 'Uçurtma' },
+  cekic: { emoji: '🔨', etiket: 'Çekiç' },
+  corap: { emoji: '🧦', etiket: 'Çorap' },
+  miknatis: { emoji: '🧲', etiket: 'Mıknatıs' },
+  voleybol: { emoji: '🏐', etiket: 'Voleybol' },
+  valiz: { emoji: '🧳', etiket: 'Valiz' },
+  firildak: { emoji: '🌀', etiket: 'Fırıldak' },
+  'trafik-isigi': { emoji: '🚦', etiket: 'Trafik Işığı' },
+  basketbol: { emoji: '🏀', etiket: 'Basketbol' },
+  direksiyon: { emoji: '🚗', etiket: 'Direksiyon' },
+  kaleci: { emoji: '🧤', etiket: 'Kaleci' },
+  mont: { emoji: '🧥', etiket: 'Mont' },
+  buzdolabi: { emoji: '🧊', etiket: 'Buzdolabı' },
+  semsiye: { emoji: '☂️', etiket: 'Şemsiye' },
+  yaprak: { emoji: '🍂', etiket: 'Yaprak' },
+  supurge: { emoji: '🧹', etiket: 'Süpürge' },
+  ayakkabi: { emoji: '👟', etiket: 'Ayakkabı' },
+  tren: { emoji: '🚂', etiket: 'Tren' },
+  'masa-tenisi': { emoji: '🏓', etiket: 'Masa Tenisi' },
+  kurek: { emoji: '⛏️', etiket: 'Kürek' },
+  testere: { emoji: '🪚', etiket: 'Testere' },
+  // Tema 2 — Işık ve Ses
+  goz: { emoji: '👁️', etiket: 'Göz' },
+  ay: { emoji: '🌙', etiket: 'Ay' },
+  'el-feneri': { emoji: '🔦', etiket: 'El Feneri' },
+  'ates-bocegi': { emoji: '✨', etiket: 'Ateş Böceği' },
+  'masa-lambasi': { emoji: '💡', etiket: 'Masa Lambası' },
+  kulak: { emoji: '👂', etiket: 'Kulak' },
+  piyano: { emoji: '🎹', etiket: 'Piyano' },
+  simsek: { emoji: '⚡', etiket: 'Şimşek' },
+  yildiz: { emoji: '⭐', etiket: 'Yıldız' },
+  selale: { emoji: '💦', etiket: 'Şelale' },
+  korna: { emoji: '📯', etiket: 'Korna' },
+  cocuk: { emoji: '👧', etiket: 'Çocuk' },
+  'sokak-lambasi': { emoji: '🏮', etiket: 'Sokak Lambası' },
+  ambulans: { emoji: '🚑', etiket: 'Ambulans' },
+  'kamp-atesi': { emoji: '🔥', etiket: 'Kamp Ateşi' },
+  ampul: { emoji: '💡', etiket: 'Ampul' },
+  gitar: { emoji: '🎸', etiket: 'Gitar' },
+  deniz: { emoji: '🌊', etiket: 'Deniz' },
+  'karanlik-oda': { emoji: '🌑', etiket: 'Karanlık Oda' },
+  'deniz-feneri': { emoji: '🗼', etiket: 'Deniz Feneri' },
+  nehir: { emoji: '🏞️', etiket: 'Nehir' },
+  flut: { emoji: '🎵', etiket: 'Flüt' },
+  horoz: { emoji: '🐓', etiket: 'Horoz' },
+  yagmur: { emoji: '🌧️', etiket: 'Yağmur' },
+  televizyon: { emoji: '📺', etiket: 'Televizyon' },
+  anne: { emoji: '👩', etiket: 'Anne' },
+  ruzgar: { emoji: '💨', etiket: 'Rüzgar' },
+  mum: { emoji: '🕯️', etiket: 'Mum' },
+  yuzuk: { emoji: '💍', etiket: 'Yüzük' },
+  mesale: { emoji: '🔥', etiket: 'Meşale' },
+  aslan: { emoji: '🦁', etiket: 'Aslan' },
   default: { emoji: '🔬', etiket: 'Fen', canli: true },
 };
 
@@ -42,8 +135,9 @@ const CANSIZ_RENK = '#B0BEC555';
 const VURGU_RENK = GEO.turuncu + '88';
 
 function nesneBilgi(anahtar?: string) {
-  const k = (anahtar ?? 'default').toLowerCase();
-  return NESNE[k] ?? NESNE.default;
+  const k = (anahtar ?? 'default').toLowerCase().replace(/-/g, '');
+  const eslesme = Object.entries(NESNE).find(([key]) => key.replace(/-/g, '') === k);
+  return eslesme ? eslesme[1] : NESNE.default;
 }
 
 function NesneKart({ anahtar, vurgulu }: { anahtar: string; vurgulu?: boolean }) {
@@ -210,6 +304,77 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
           <HayvanGorsel nesne="kedi" ozellik="deri" />
         </View>
       );
+    case 'mo-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="elma" vurgulu />
+          <View style={styles.duyuSatir}>
+            {['👁️', '👂', '👃', '👅', '✋'].map((e) => (
+              <GuvenliMetin key={e} style={styles.duyuEmoji} tamGenislik={false}>
+                {e}
+              </GuvenliMetin>
+            ))}
+          </View>
+        </View>
+      );
+    case 'mo-anlatim-2':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="yun-kazak" vurgulu />
+          <NesneKart anahtar="masa" vurgulu />
+        </View>
+      );
+    case 'mo-anlatim-3':
+      return <GrupGorsel nesneler={['lastik', 'cam', 'zimpara', 'ayna']} vurgu={['lastik', 'cam']} />;
+    case 'kh-anlatim-1':
+      return (
+        <View style={styles.kuvvetSahne}>
+          <GuvenliMetin style={styles.kuvvetEmoji} tamGenislik={false}>
+            👧➡️🚚
+          </GuvenliMetin>
+          <GuvenliMetin style={styles.kuvvetEtiket} tamGenislik>
+            İtme ve Çekme
+          </GuvenliMetin>
+        </View>
+      );
+    case 'kh-anlatim-2':
+      return (
+        <View style={styles.kuvvetSahne}>
+          <GuvenliMetin style={styles.kuvvetEmoji} tamGenislik={false}>
+            🚲🛑🐕
+          </GuvenliMetin>
+          <GuvenliMetin style={styles.kuvvetEtiket} tamGenislik>
+            Fren — Yavaşlama
+          </GuvenliMetin>
+        </View>
+      );
+    case 'kh-anlatim-3':
+      return (
+        <View style={styles.kuvvetSahne}>
+          <GuvenliMetin style={styles.kuvvetEmoji} tamGenislik={false}>
+            ⚽↗️👧
+          </GuvenliMetin>
+          <GuvenliMetin style={styles.kuvvetEtiket} tamGenislik>
+            Yön Değiştirme
+          </GuvenliMetin>
+        </View>
+      );
+    case 'is-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="karanlik-oda" />
+          <NesneKart anahtar="masa-lambasi" vurgulu />
+        </View>
+      );
+    case 'is-anlatim-2':
+      return <GrupGorsel nesneler={['gunes', 'el-feneri', 'ay']} vurgu="gunes" />;
+    case 'is-anlatim-3':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="kus" />
+          <NesneKart anahtar="piyano" />
+        </View>
+      );
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }
@@ -256,4 +421,9 @@ const styles = StyleSheet.create({
   listeBaslik: { fontSize: 14, fontWeight: '700', color: GEO.metin, marginBottom: 6, textAlign: 'center' },
   listeMadde: { backgroundColor: CANLI_RENK, borderRadius: 8, paddingHorizontal: 10, paddingVertical: 4 },
   listeMetin: { fontSize: 12, fontWeight: '600', color: GEO.metin },
+  duyuSatir: { flexDirection: 'row', gap: 6, alignItems: 'center' },
+  duyuEmoji: { fontSize: 28 },
+  kuvvetSahne: { alignItems: 'center', padding: 12, gap: 8 },
+  kuvvetEmoji: { fontSize: 36 },
+  kuvvetEtiket: { fontSize: 13, fontWeight: '700', color: GEO.metin },
 });

@@ -1,0 +1,967 @@
+{
+  "id": "isik-ve-ses",
+  "baslik": "Işık ve Ses",
+  "kazanimKodu": "FEN.2.2.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Görmek için ışığa ihtiyacımız vardır. Hava karardığında renkleri seçemeyiz; lamba yanınca her şey tekrar görünür.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-1"
+        }
+      },
+      {
+        "metin": "Güneş en büyük doğal ışık kaynağıdır. Kamp feneri yapay ışıktır. Ay ise kendi ışığı olmayan, Güneş'i yansıtan bir gök cismidir.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-2"
+        }
+      },
+      {
+        "metin": "Ormandaki kuş sesi doğal, piyano sesi yapaydır. Her sesin bir kaynağı vardır ve biz kulaklarımızla duyarız.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "is-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "is-a1",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Karanlık odada nesneleri görmek için ......... ihtiyacımız vardır.",
+      "dogruCevap": "ışığa",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "goz"
+      },
+      "alternatifCevaplar": [
+        "ışık"
+      ],
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a2",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Dünyamızı aydınlatan en büyük doğal ışık kaynağımız ......... .",
+      "dogruCevap": "Güneş'tir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      },
+      "alternatifCevaplar": [
+        "Güneş",
+        "güneş",
+        "güneştir"
+      ],
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a3",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "El feneri ......... bir ışık kaynağıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "el-feneri"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a4",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Ay, tıpkı Güneş gibi doğal bir ışık kaynağıdır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ay"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a5",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Ateş böceği ......... ışık kaynağıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ates-bocegi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a6",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Masa lambası yapay bir ışık kaynağıdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "masa-lambasi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a7",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Ayna kendi başına ışık kaynağı değildir, sadece ışığı yansıtır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ayna"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a8",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Sesleri duyabilmek için ......... organımızı kullanırız.",
+      "dogruCevap": "kulak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kulak"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a9",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Kuşun sesi ......... ses kaynağıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kus"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a10",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Piyano ......... bir ses kaynağıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "piyano"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a11",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Gök gürültüsü yapay bir sestir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "simsek"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a12",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Çalan cep telefonu ......... ses kaynağıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "telefon"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a13",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Trafik lambaları doğal ışık kaynaklarıdır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "trafik-isigi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a14",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Gökyüzündeki yıldızlar ......... ışık kaynaklarıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yildiz"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a15",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Şelalenin su sesi ......... ses kaynağıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "selale"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a16",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Arabaların korna sesi yapay bir sestir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "korna"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a17",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Öğrencinin sesi ......... ses kaynağıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cocuk"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a18",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Sokak lambaları ......... ışık kaynaklarıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sokak-lambasi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a19",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Ambulansın sireni ......... ses kaynağıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ambulans"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a20",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "İnsanların yaktığı kamp ateşi ......... ışık kaynağıdır.",
+      "dogruCevap": "yapay",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kamp-atesi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a21",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Kedinin miyavlaması doğal bir ses kaynağıdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a22",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Sönük duran ampul o anda ışık kaynağı görevini yapar.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ampul"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a23",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Gitarın telleri titreşerek ......... üretir.",
+      "dogruCevap": "ses",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gitar"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a24",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Deniz dalgalarının sesi ......... ses kaynağıdır.",
+      "dogruCevap": "doğal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "deniz"
+      },
+      "kazanim": "FEN.2.2.3"
+    },
+    {
+      "id": "is-a25",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "yazili",
+      "soru": "Kitap okumak için ortamda ......... olmalıdır.",
+      "dogruCevap": "ışık",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kitap"
+      },
+      "kazanim": "FEN.2.2.3"
+    }
+  ],
+  "test": [
+    {
+      "id": "is-t1",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ali karanlık odada oyuncağını görmek istiyor. Neye ihtiyacı var?",
+      "dogruCevap": "Işığa",
+      "secenekler": [
+        "Işığa",
+        "Müzik sesine",
+        "Daha iyi gözlüğe",
+        "Büyütece"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "karanlik-oda"
+      }
+    },
+    {
+      "id": "is-t2",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "En büyük doğal ışık kaynağımız hangisidir?",
+      "dogruCevap": "Güneş",
+      "secenekler": [
+        "Sokak lambası",
+        "El feneri",
+        "Yıldızlar",
+        "Güneş"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "is-t3",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ay hakkında hangi bilgi doğrudur?",
+      "dogruCevap": "Kendi ışığı yok, Güneş'i yansıtır",
+      "secenekler": [
+        "En büyük doğal ışık kaynağı",
+        "İnsanlar yaptı",
+        "Dünyayı ısıtır",
+        "Kendi ışığı yok, Güneş'i yansıtır"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ay"
+      }
+    },
+    {
+      "id": "is-t4",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Evdeki ampul hangi gruba girer?",
+      "dogruCevap": "Yapay ışık kaynağı",
+      "secenekler": [
+        "Doğal ışık kaynağı",
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
+        "Yapay ışık kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ampul"
+      }
+    },
+    {
+      "id": "is-t5",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ateş böceği ne tür bir kaynaktır?",
+      "dogruCevap": "Doğal ışık kaynağı",
+      "secenekler": [
+        "Doğal ışık kaynağı",
+        "Doğal ses kaynağı",
+        "Yapay ışık kaynağı",
+        "Işık kaynağı değildir"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ates-bocegi"
+      }
+    },
+    {
+      "id": "is-t6",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Üzerine fener tutulunca parlayan ayna ışık kaynağı mıdır?",
+      "dogruCevap": "Hayır, sadece yansıtır",
+      "secenekler": [
+        "Evet, yapay",
+        "Evet, doğal",
+        "Hayır, sadece yansıtır",
+        "Hem ses hem ışık"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ayna"
+      }
+    },
+    {
+      "id": "is-t7",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Trafik lambaları ne tür kaynaktır?",
+      "dogruCevap": "Yapay ışık kaynağı",
+      "secenekler": [
+        "Güneş yansıtıcısı",
+        "Doğal ışık kaynağı",
+        "Yapay ışık kaynağı",
+        "Doğal ses kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "trafik-isigi"
+      }
+    },
+    {
+      "id": "is-t8",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Deniz feneri hangi gruba girer?",
+      "dogruCevap": "Yapay ışık kaynağı",
+      "secenekler": [
+        "Yapay ışık kaynağı",
+        "Doğal ses kaynağı",
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "deniz-feneri"
+      }
+    },
+    {
+      "id": "is-t9",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Nehrin su sesi ne tür kaynaktır?",
+      "dogruCevap": "Doğal ses kaynağı",
+      "secenekler": [
+        "Doğal ses kaynağı",
+        "Yapay ışık kaynağı",
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "nehir"
+      }
+    },
+    {
+      "id": "is-t10",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Selin'in flütü ne tür ses kaynağıdır?",
+      "dogruCevap": "Yapay ses kaynağı",
+      "secenekler": [
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ışık kaynağı",
+        "Yapay ışık kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "flut"
+      }
+    },
+    {
+      "id": "is-t11",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Horozun sesi nedir?",
+      "dogruCevap": "Doğal ses",
+      "secenekler": [
+        "Doğal ses",
+        "Doğal ışık",
+        "Yapay ışık",
+        "Yapay ses"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "horoz"
+      }
+    },
+    {
+      "id": "is-t12",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çalar saatin sesi nasıldır?",
+      "dogruCevap": "Yapay ses",
+      "secenekler": [
+        "Yapay ses",
+        "Doğal ses",
+        "Doğal ışık",
+        "Yapay ışık"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "saat"
+      }
+    },
+    {
+      "id": "is-t13",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmur damlalarının çıkardığı ses hangi gruba aittir?",
+      "dogruCevap": "Doğal ses kaynağı",
+      "secenekler": [
+        "İnsan yapımı",
+        "Doğal ses kaynağı",
+        "Yansıtıcı",
+        "Yapay ses"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yagmur"
+      }
+    },
+    {
+      "id": "is-t14",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Okul zilinin sesi hangi tür kaynaktır?",
+      "dogruCevap": "Yapay ses kaynağı",
+      "secenekler": [
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ses kaynağı",
+        "Yıldız ışığı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zil"
+      }
+    },
+    {
+      "id": "is-t15",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzündeki yıldızlar ne tür kaynaktır?",
+      "dogruCevap": "Doğal ışık kaynağı",
+      "secenekler": [
+        "Doğal ışık kaynağı",
+        "Işık yansıtıcısı",
+        "Yapay ses kaynağı",
+        "Yapay ışık kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yildiz"
+      }
+    },
+    {
+      "id": "is-t16",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Televizyondan gelen sesler hangi gruba girer?",
+      "dogruCevap": "Yapay ses kaynağı",
+      "secenekler": [
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ışık kaynağı",
+        "Sessiz kaynak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "televizyon"
+      }
+    },
+    {
+      "id": "is-t17",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Annemizin sesi hangi türe örnektir?",
+      "dogruCevap": "Doğal ses kaynağı",
+      "secenekler": [
+        "Yapay ses kaynağı",
+        "Yankı kaynağı",
+        "Mekanik ses",
+        "Doğal ses kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "anne"
+      }
+    },
+    {
+      "id": "is-t18",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisinde doğal ses + yapay ışık yan yana verilmiştir?",
+      "dogruCevap": "Rüzgar sesi - Yanan Mum",
+      "secenekler": [
+        "Araba kornası - El feneri",
+        "Kuş sesi - Güneş",
+        "Radyo sesi - Yıldız",
+        "Rüzgar sesi - Yanan Mum"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "ruzgar",
+          "mum"
+        ],
+        "vurgu": [
+          "ruzgar",
+          "mum"
+        ]
+      }
+    },
+    {
+      "id": "is-t19",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şimşek ne tür kaynaktır?",
+      "dogruCevap": "Doğal ışık kaynağı",
+      "secenekler": [
+        "Doğal ışık kaynağı",
+        "Sadece ses",
+        "Yapay ışık kaynağı",
+        "Yapay ses"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "simsek"
+      }
+    },
+    {
+      "id": "is-t20",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Vitrendeki yüzük ışık kaynağı mıdır?",
+      "dogruCevap": "Hayır, sadece yansıtır",
+      "secenekler": [
+        "Evet, yapay",
+        "Hayır, sadece yansıtır",
+        "Evet, doğal",
+        "Kendi üretir"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yuzuk"
+      }
+    },
+    {
+      "id": "is-t21",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Arkadaşımızın şiirini duymamızı sağlayan organ hangisidir?",
+      "dogruCevap": "Kulağımız",
+      "secenekler": [
+        "Burnumuz",
+        "Dilimiz",
+        "Kulağımız",
+        "Gözümüz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kulak"
+      }
+    },
+    {
+      "id": "is-t22",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Trenin düdük sesi ne tür kaynaktan gelir?",
+      "dogruCevap": "Yapay ses kaynağı",
+      "secenekler": [
+        "Güneş ışığı",
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ışık kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tren"
+      }
+    },
+    {
+      "id": "is-t23",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "İnsanların yaktığı meşale ne tür ışık kaynağıdır?",
+      "dogruCevap": "Yapay ışık kaynağı",
+      "secenekler": [
+        "Yapay ışık kaynağı",
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ışık kaynağı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "mesale"
+      }
+    },
+    {
+      "id": "is-t24",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aslanın sesi hangi ses sınıfına girer?",
+      "dogruCevap": "Doğal ses kaynağı",
+      "secenekler": [
+        "Yapay ses kaynağı",
+        "Doğal ses kaynağı",
+        "Teknoloji sesi",
+        "İnsan yapımı"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "aslan"
+      }
+    },
+    {
+      "id": "is-t25",
+      "kazanimKodu": "FEN.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Henüz yakılmamış mum ışık kaynağı mıdır?",
+      "dogruCevap": "Hayır, ışık yaymadığı için o an değildir",
+      "secenekler": [
+        "Evet, yapay",
+        "Işığı yansıtır",
+        "Evet, doğal",
+        "Hayır, ışık yaymadığı için o an değildir"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.3",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "mum"
+      }
+    }
+  ]
+}

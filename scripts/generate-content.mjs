@@ -62,6 +62,7 @@ import {
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
+import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { spawnSync } from 'child_process';
@@ -440,6 +441,13 @@ writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlila
 writeFileSync(join(fenDir, 'bitkiler.json'), JSON.stringify(bitkilerKonu, null, 2));
 writeFileSync(join(fenDir, 'hayvanlar.json'), JSON.stringify(hayvanlarKonu, null, 2));
 
+const maddeVeOzellikleriKonu = maddeVeOzellikleri(karistir);
+const kuvvetVeHareketKonu = kuvvetVeHareket(karistir);
+const isikVeSesKonu = isikVeSes(karistir);
+writeFileSync(join(fenDir, 'madde-ve-ozellikleri.json'), JSON.stringify(maddeVeOzellikleriKonu, null, 2));
+writeFileSync(join(fenDir, 'kuvvet-ve-hareket.json'), JSON.stringify(kuvvetVeHareketKonu, null, 2));
+writeFileSync(join(fenDir, 'isik-ve-ses.json'), JSON.stringify(isikVeSesKonu, null, 2));
+
 const okulVeSinifKonu = okulVeSinif(karistir);
 const aileVeArkadaslikKonu = aileVeArkadaslik(karistir);
 const toplumVeCevreKonu = toplumVeCevre(karistir);
@@ -654,6 +662,15 @@ const index = {
             'fen-bilimleri/hayvanlar.json',
           ],
         },
+        {
+          id: 'tema-2',
+          baslik: 'Fen Bilimleri — Tema 2',
+          konuDosyalari: [
+            'fen-bilimleri/madde-ve-ozellikleri.json',
+            'fen-bilimleri/kuvvet-ve-hareket.json',
+            'fen-bilimleri/isik-ve-ses.json',
+          ],
+        },
       ],
     },
     { id: 'ingilizce', baslik: 'İngilizce', unite: [] },
@@ -726,6 +743,9 @@ console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length,
 console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
 console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
 console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
+console.log('Madde ve özellikleri:', maddeVeOzellikleriKonu.alistirma.length, '+', maddeVeOzellikleriKonu.test.length);
+console.log('Kuvvet ve hareket:', kuvvetVeHareketKonu.alistirma.length, '+', kuvvetVeHareketKonu.test.length);
+console.log('Işık ve ses:', isikVeSesKonu.alistirma.length, '+', isikVeSesKonu.test.length);
 console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
 console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
 console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);

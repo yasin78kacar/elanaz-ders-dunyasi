@@ -39,6 +39,9 @@ import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgis
 import canlilarVeCansizlar from '../../content/sinif2/fen-bilimleri/canlilar-ve-cansizlar.json';
 import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
 import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
+import maddeVeOzellikleri from '../../content/sinif2/fen-bilimleri/madde-ve-ozellikleri.json';
+import kuvvetVeHareket from '../../content/sinif2/fen-bilimleri/kuvvet-ve-hareket.json';
+import isikVeSes from '../../content/sinif2/fen-bilimleri/isik-ve-ses.json';
 import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
 import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
 import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
@@ -90,6 +93,9 @@ const konuDosyalari: Record<string, Konu> = {
   'fen-bilimleri/canlilar-ve-cansizlar.json': canlilarVeCansizlar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,
+  'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,
+  'fen-bilimleri/kuvvet-ve-hareket.json': kuvvetVeHareket as Konu,
+  'fen-bilimleri/isik-ve-ses.json': isikVeSes as Konu,
   'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
   'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
   'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,
