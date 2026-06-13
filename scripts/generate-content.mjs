@@ -61,6 +61,7 @@ import {
 } from './gorev-turkce1-questions.mjs';
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
+import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
@@ -435,6 +436,13 @@ writeFileSync(join(turkceDir, 'yazma-becerileri.json'), JSON.stringify(yazmaBece
 writeFileSync(join(turkceDir, 'dinleme-ve-konusma.json'), JSON.stringify(dinlemeVeKonusmaKonu, null, 2));
 writeFileSync(join(turkceDir, 'sozcuk-ve-dil-bilgisi.json'), JSON.stringify(sozcukVeDilBilgisiKonu, null, 2));
 
+const metinAnlamaVeYorumlamaKonu = metinAnlamaVeYorumlama(karistir);
+const kelimeVeAnlamBilgisiIleriKonu = kelimeVeAnlamBilgisiIleri(karistir);
+const yazmaVeAnlatimIleriKonu = yazmaVeAnlatimIleri(karistir);
+writeFileSync(join(turkceDir, 'metin-anlama-ve-yorumlama.json'), JSON.stringify(metinAnlamaVeYorumlamaKonu, null, 2));
+writeFileSync(join(turkceDir, 'kelime-ve-anlam-bilgisi-ileri.json'), JSON.stringify(kelimeVeAnlamBilgisiIleriKonu, null, 2));
+writeFileSync(join(turkceDir, 'yazma-ve-anlatim-ileri.json'), JSON.stringify(yazmaVeAnlatimIleriKonu, null, 2));
+
 const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
 const bitkilerKonu = bitkiler(karistir);
 const hayvanlarKonu = hayvanlar(karistir);
@@ -562,6 +570,15 @@ const index = {
             'turkce/yazma-becerileri.json',
             'turkce/dinleme-ve-konusma.json',
             'turkce/sozcuk-ve-dil-bilgisi.json',
+          ],
+        },
+        {
+          id: 'tema-4',
+          baslik: 'Türkçe — Tema 4',
+          konuDosyalari: [
+            'turkce/metin-anlama-ve-yorumlama.json',
+            'turkce/kelime-ve-anlam-bilgisi-ileri.json',
+            'turkce/yazma-ve-anlatim-ileri.json',
           ],
         },
       ] },
@@ -757,6 +774,9 @@ console.log('Bilgi metni:', bilgiMetniKonu.alistirma.length, '+', bilgiMetniKonu
 console.log('Yazma becerileri:', yazmaBecerileriKonu.alistirma.length, '+', yazmaBecerileriKonu.test.length);
 console.log('Dinleme ve konuşma:', dinlemeVeKonusmaKonu.alistirma.length, '+', dinlemeVeKonusmaKonu.test.length);
 console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length, '+', sozcukVeDilBilgisiKonu.test.length);
+console.log('Metin anlama ve yorumlama:', metinAnlamaVeYorumlamaKonu.alistirma.length, '+', metinAnlamaVeYorumlamaKonu.test.length);
+console.log('Kelime ve anlam bilgisi ileri:', kelimeVeAnlamBilgisiIleriKonu.alistirma.length, '+', kelimeVeAnlamBilgisiIleriKonu.test.length);
+console.log('Yazma ve anlatım ileri:', yazmaVeAnlatimIleriKonu.alistirma.length, '+', yazmaVeAnlatimIleriKonu.test.length);
 console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
 console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
 console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);

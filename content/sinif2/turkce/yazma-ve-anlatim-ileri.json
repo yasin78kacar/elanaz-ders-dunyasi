@@ -1,0 +1,929 @@
+{
+  "id": "yazma-ve-anlatim-ileri",
+  "baslik": "Yazma ve Anlatım İleri",
+  "kazanimKodu": "TUR.2.4.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Mektup yazmak sevdiklerimizle iletişim kurmanın güzel bir yoludur. Mektupta tarih, selamlama, gövde, kapanış ve imza bulunur.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ya-anlatim-1"
+        }
+      },
+      {
+        "metin": "Günlükte o günü nasıl geçirdiğimizi yazarız. Tarih olur, \"ben\" anlatımı olur, duygularımızı paylaşırız. Günlük tamamen özeldir!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ya-anlatim-2"
+        }
+      },
+      {
+        "metin": "Şiir yazmak için kafiye, ritim ve duygu önemlidir. Kısa cümleler, benzetmeler ve imgeler şiirimizi güzelleştirir.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ya-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ya-a1",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektupta hangi bilgiler bulunur?",
+      "dogruCevap": "Tarih, selamlama, gövde, kapanış, imza",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-sablonu",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a2",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektuba nasıl başlanır?",
+      "dogruCevap": "\"Sevgili...\" veya \"Sayın...\" gibi selamlama ile",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-baslangic",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a3",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektup nasıl bitirilir?",
+      "dogruCevap": "\"Sevgilerimle, Saygılarımla\" gibi kapanış + imza",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-bitis",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a4",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Günlük nedir?",
+      "dogruCevap": "Her günü nasıl geçirdiğimizi yazdığımız kişisel defter",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-defteri",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-a5",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Günlüğe nasıl başlanır?",
+      "dogruCevap": "Tarih yazarak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tarihli-gunluk",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-a6",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Şiirde kafiye ne demektir?",
+      "dogruCevap": "Dizelerin sonundaki benzer sesler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kafiye",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a7",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Şiirde benzetme neden kullanılır?",
+      "dogruCevap": "Anlatımı güzelleştirmek ve canlılaştırmak için",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "benzetme",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a8",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektup ile mesaj arasındaki fark nedir?",
+      "dogruCevap": "Mektup daha uzun ve resmi, mesaj kısa ve hızlı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-telefon",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a9",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Arkadaşına bir mektup yaz: selamlama cümlesi",
+      "dogruCevap": "Sevgili Ali,",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-baslangic",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a10",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Günlüğe bugün ne yazardın?",
+      "dogruCevap": "Bugünün en güzel anını yazardım",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "guzel-an",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ya-a11",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Yağmur\" için bir benzetme yaz",
+      "dogruCevap": "Gökyüzünün gözyaşları",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmur",
+        "nesne": "yagmur"
+      },
+      "alternatifCevaplar": [
+        "Bulutların şarkısı"
+      ]
+    },
+    {
+      "id": "ya-a12",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Kafiyeli iki cümle yaz.",
+      "dogruCevap": "Güneş doğdu parlayarak / Kuşlar uçtu şakıyarak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kafiye-gosterimi",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a13",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Şiirde kıta nedir?",
+      "dogruCevap": "Birkaç dizenin oluşturduğu grup",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kita-yapisi",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a14",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektupta tarih neden yazılır?",
+      "dogruCevap": "Mektubun ne zaman yazıldığını göstermek için",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tarihli-mektup",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a15",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Günlük ile anı arasındaki fark nedir?",
+      "dogruCevap": "Günlük o gün yazılır, anı sonradan hatırlanır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-ani",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-a16",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Bahar\" konusunda 2 kafiyeli dize yaz.",
+      "dogruCevap": "Bahar geldi çiçeklerle / Kuşlar doldu neşeyle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bahar",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "ya-a17",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektupta gövde kısmında ne yazılır?",
+      "dogruCevap": "Anlatmak istediğimiz konular",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-govdesi",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a18",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Şiirde ritim neden önemlidir?",
+      "dogruCevap": "Şiiri müzikal ve akıcı yapar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ritimli-siir",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a19",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Deniz\" için bir kişileştirme yaz.",
+      "dogruCevap": "Deniz şarkı söylüyor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "deniz",
+        "nesne": "deniz"
+      },
+      "alternatifCevaplar": [
+        "Dalgalar dans ediyor"
+      ]
+    },
+    {
+      "id": "ya-a20",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Günlüğüne hangi duyguları yazabilirsin?",
+      "dogruCevap": "Mutluluk, üzüntü, heyecan, şaşkınlık gibi her duyguyu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "duygu-kartlari",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ya-a21",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektubu kime yazabiliriz?",
+      "dogruCevap": "Arkadaşa, aile büyüğüne, öğretmene, herkese",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-alicilari",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a22",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Mutluluk\" kelimesi için bir benzetme yaz.",
+      "dogruCevap": "Mutluluk güneş gibi sıcak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mutluluk",
+        "nesne": "gunes"
+      },
+      "alternatifCevaplar": [
+        "Mutluluk balon gibi uçucu"
+      ]
+    },
+    {
+      "id": "ya-a23",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Şiirde neden kısa cümleler kullanılır?",
+      "dogruCevap": "Ritim ve etki için",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kisa-dizeli-siir",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-a24",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "Mektup ve günlük hangi bakımdan benzerdir?",
+      "dogruCevap": "İkisi de yazılı anlatımdır, düşünce ve duygu içerir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-gunluk",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-a25",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "yazili",
+      "soru": "\"Kar\" için bir şiir dizesi yaz.",
+      "dogruCevap": "Kar yağar bembeyaz / Dünya olur masal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kar-yagisi",
+        "nesne": "kar"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ya-t1",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektupta hangi bölüm en başta gelir?",
+      "dogruCevap": "Tarih ve selamlama",
+      "secenekler": [
+        "İmza",
+        "Tarih ve selamlama",
+        "Gövde",
+        "Kapanış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-siralama",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t2",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Günlük nedir?",
+      "dogruCevap": "Her günü nasıl geçirdiğimizi yazdığımız kişisel defter",
+      "secenekler": [
+        "Günlük haber gazetesi",
+        "Ders notu",
+        "Her günü nasıl geçirdiğimizi yazdığımız kişisel defter",
+        "Alışveriş listesi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-defteri",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-t3",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiirde kafiye ne demektir?",
+      "dogruCevap": "Dizelerin sonundaki benzer sesler",
+      "secenekler": [
+        "Şiirin konusu",
+        "Şiirin uzunluğu",
+        "Dizelerin sonundaki benzer sesler",
+        "Şiirin başlığı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kafiye-gosterimi",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-t4",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektup nasıl bitirilir?",
+      "dogruCevap": "Kapanış ifadesi ve imza ile",
+      "secenekler": [
+        "Kapanış ifadesi ve imza ile",
+        "Selamlama ile",
+        "Nokta ile",
+        "Tarih ile"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-sonu",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t5",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Günlüğe hangi bilgi en başta yazılır?",
+      "dogruCevap": "Tarih",
+      "secenekler": [
+        "Tarih",
+        "Konu",
+        "Selamlama",
+        "İmza"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tarihli-gunluk",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-t6",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Güneş güldü\" ifadesinde ne var?",
+      "dogruCevap": "Kişileştirme",
+      "secenekler": [
+        "Kişileştirme",
+        "Atasözü",
+        "Kafiye",
+        "Gerçek bilgi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gulen-gunes",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "ya-t7",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektup ile günlük arasındaki fark nedir?",
+      "dogruCevap": "Mektup birine yazılır, günlük kişisel",
+      "secenekler": [
+        "Fark yok",
+        "Günlük daha uzundur",
+        "Mektup birine yazılır, günlük kişisel",
+        "İkisi de aynı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-gunluk-karsilastirma",
+        "nesne": "mektup"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t8",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiirde benzetme neden kullanılır?",
+      "dogruCevap": "Anlatımı güzelleştirmek için",
+      "secenekler": [
+        "Şiiri uzatmak için",
+        "Konu değiştirmek için",
+        "Kafiye oluşturmak için",
+        "Anlatımı güzelleştirmek için"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "siirde-benzetme",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-t9",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sevgili Ayşe,\" ifadesi mektubun hangi bölümüdür?",
+      "dogruCevap": "Selamlama",
+      "secenekler": [
+        "Kapanış",
+        "Selamlama",
+        "Gövde",
+        "İmza"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-selamlama",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t10",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Günlük neden kişiseldir?",
+      "dogruCevap": "Sadece bize ait duygu ve düşünceler içerir",
+      "secenekler": [
+        "Çünkü gizli bir dilde yazılır",
+        "Çünkü kimse okumaz",
+        "Sadece bize ait duygu ve düşünceler içerir",
+        "Çünkü çok uzundur"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kisisel-gunluk",
+        "nesne": "gunluk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t11",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiirde kıta nedir?",
+      "dogruCevap": "Birkaç dizenin oluşturduğu grup",
+      "secenekler": [
+        "Birkaç dizenin oluşturduğu grup",
+        "Şiirin başlığı",
+        "Kafiye çifti",
+        "Tek bir dize"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kita-yapisi",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-t12",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektupta tarih neden yazılır?",
+      "dogruCevap": "Ne zaman yazıldığını göstermek için",
+      "secenekler": [
+        "Zorunlu olduğu için",
+        "Ne zaman yazıldığını göstermek için",
+        "Posta için",
+        "Güzel görünsün diye"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tarihli-mektup",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t13",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Yağmur gökyüzünün gözyaşı\" ifadesinde ne var?",
+      "dogruCevap": "Benzetme",
+      "secenekler": [
+        "Kafiye",
+        "Deyim",
+        "Atasözü",
+        "Benzetme"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmur-benzetmesi",
+        "nesne": "yagmur"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t14",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiir yazarken en önemli şey nedir?",
+      "dogruCevap": "Duygu ve düşüncelerimizi özgünce ifade etmek",
+      "secenekler": [
+        "Başkasının şiirini kopyalamak",
+        "Çok uzun yazmak",
+        "Duygu ve düşüncelerimizi özgünce ifade etmek",
+        "Hep kafiye kullanmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "siir-yazan",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ya-t15",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektup hangi amaçla yazılır?",
+      "dogruCevap": "Birine düşünce ve duygularımızı iletmek için",
+      "secenekler": [
+        "Hikâye anlatmak için",
+        "Alışveriş için",
+        "Not almak için",
+        "Birine düşünce ve duygularımızı iletmek için"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-yazimi",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t16",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Günlükte hangi zaman kullanılır?",
+      "dogruCevap": "Geçmiş zaman",
+      "secenekler": [
+        "Geçmiş zaman",
+        "Gelecek zaman",
+        "Geniş zaman",
+        "Şimdiki zaman"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-zaman",
+        "nesne": "gunluk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t17",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kafiyeli dize çifti hangisidir?",
+      "dogruCevap": "Güneş doğdu parlayarak / Kuşlar uçtu şakıyarak",
+      "secenekler": [
+        "Güneş doğdu parlayarak / Kuşlar uçtu şakıyarak",
+        "Hava güzel, top oynadım",
+        "Okula gittim, ders çalıştım",
+        "Ali koştu, Ayşe yürüdü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kafiye-cifti",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-t18",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Mektup ile mesajın farkı nedir?",
+      "dogruCevap": "Mektup daha uzun ve resmi, mesaj kısa ve hızlı",
+      "secenekler": [
+        "Mektup yazılı, mesaj sözlü",
+        "Fark yok",
+        "İkisi de aynı uzunlukta",
+        "Mektup daha uzun ve resmi, mesaj kısa ve hızlı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-mesaj",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t19",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiirde ritim ne işe yarar?",
+      "dogruCevap": "Şiiri müzikal ve akıcı yapar",
+      "secenekler": [
+        "Kafiye oluşturur",
+        "Şiiri müzikal ve akıcı yapar",
+        "Anlam değiştirir",
+        "Şiiri uzatır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ritimli-siir",
+        "nesne": "siir"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t20",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Günlük ne zaman yazılır?",
+      "dogruCevap": "O günün yaşananlarını o gün veya gece",
+      "secenekler": [
+        "Hafta sonları",
+        "Sadece özel günlerde",
+        "O günün yaşananlarını o gün veya gece",
+        "Ayda bir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "aksam-gunluk",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "ya-t21",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kişileştirme nedir?",
+      "dogruCevap": "Cansız varlıklara insan özellikleri vermek",
+      "secenekler": [
+        "Cansız varlıklara insan özellikleri vermek",
+        "Bir kişiyi tanıtmak",
+        "Benzetme yapmak",
+        "İsim vermek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kisilestirme",
+        "nesne": "siir"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t22",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle mektup kapanışına uygun?",
+      "dogruCevap": "Sevgilerimle, Ali",
+      "secenekler": [
+        "Bugün hava güzel",
+        "23 Kasım 2024",
+        "Sevgilerimle, Ali",
+        "Merhaba!"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mektup-kapanisi",
+        "nesne": "mektup"
+      }
+    },
+    {
+      "id": "ya-t23",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şiirde benzetme nasıl yapılır?",
+      "dogruCevap": "\"Gibi, sanki, tıpkı\" gibi sözcüklerle",
+      "secenekler": [
+        "\"Gibi, sanki, tıpkı\" gibi sözcüklerle",
+        "Kafiye kurarak",
+        "Uzun cümleler yazarak",
+        "Konuyu anlatarak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "benzetme-ornekleri",
+        "nesne": "siir"
+      }
+    },
+    {
+      "id": "ya-t24",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yaratıcı yazma türüdür?",
+      "dogruCevap": "Hikâye yazma",
+      "secenekler": [
+        "Telefon numarası",
+        "Tarih listesi",
+        "Hikâye yazma",
+        "Alışveriş listesi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yaratici-yazma",
+        "nesne": "hikaye"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ya-t25",
+      "kazanimKodu": "TUR.2.4.3",
+      "tip": "coktanSecmeli",
+      "soru": "İyi bir şiir için hangisi en önemlidir?",
+      "dogruCevap": "Yazarın duygularını içtenlikle yansıtması",
+      "secenekler": [
+        "Resimsiz olması",
+        "Hep aynı konuda olması",
+        "Çok uzun olması",
+        "Yazarın duygularını içtenlikle yansıtması"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "icten-siir",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    }
+  ]
+}

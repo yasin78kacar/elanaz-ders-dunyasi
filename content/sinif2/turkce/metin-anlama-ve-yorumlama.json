@@ -1,0 +1,783 @@
+{
+  "id": "metin-anlama-ve-yorumlama",
+  "baslik": "Metin Anlama ve Yorumlama",
+  "kazanimKodu": "TUR.2.4.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Bir metni okurken \"Ne anlatıyor?\" sorusunu sorarız. İyi okuyucular bir adım daha gider: \"Bu bana ne hissettiriyor? Yazar ne demek istiyor?\" diye de sorar. Buna yorum denir.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ma-anlatim-1"
+        }
+      },
+      {
+        "metin": "Çıkarımlar metinde açıkça yazılmayan ama anlaşılan bilgilerdir. \"Ayşe şemsiyesini aldı\" → dışarıda yağmur yağıyor! Doğrudan yazmasa da anlıyoruz.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ma-anlatim-2"
+        }
+      },
+      {
+        "metin": "Sebep-sonuç olayların neden-niçin bağlantısıdır. \"Hava soğudu çünkü kar yağdı.\" Metinde sebep-sonuç ilişkisini bulmak anlamamızı derinleştirir.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ma-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ma-a1",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Selin her Cumartesi nereye gider?",
+      "dogruCevap": "Kütüphaneye",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane",
+        "nesne": "kutuphane"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a2",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Bugün neden üzüldü?",
+      "dogruCevap": "Favori köşesi doluydu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dolu-koltuklar",
+        "nesne": "kutuphane"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a3",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Sonunda nereye oturdu?",
+      "dogruCevap": "Pencere kenarındaki koltuğa",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "pencere-kenari",
+        "nesne": "kutuphane"
+      },
+      "alternatifCevaplar": [
+        "Pencere kenarına"
+      ],
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a4",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Güneş kitabının üzerine vuruyordu\" — bu ne anlama gelir?",
+      "dogruCevap": "Hava güneşliydi, ışık içeriye giriyordu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunes-isigi",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a5",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Selin sonunda ne düşündü?",
+      "dogruCevap": "Pencere köşesinin daha güzel olduğunu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "memnun-cocuk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a6",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Bu metinden Selin hakkında ne öğreniyoruz?",
+      "dogruCevap": "Kitap okumayı seviyor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kitap-seven",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a7",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Selin başta üzüldü ama sonunda mutlu oldu. Neden?",
+      "dogruCevap": "Yeni yerin daha güzel olduğunu fark etti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mutlu-cocuk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a8",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Bu metnin ana fikri nedir?",
+      "dogruCevap": "Bazen beklenmedik şeyler güzel sonuçlar doğurur",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "surpriz-mutluluk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Selin her Cumartesi kütüphaneye giderdi. Bugün de gitti ama favori köşesi doluydu. Biraz üzüldü. Sonra pencere kenarındaki boş koltuğa oturdu. Güneş kitabının üzerine vuruyordu. Sayfaları çevirirken gülümsedi. \"Aslında burası daha güzel\" diye düşündü."
+    },
+    {
+      "id": "ma-a9",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Nerede futbol oynuyorlardı?",
+      "dogruCevap": "Parkta",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "park-sahnesi",
+        "nesne": "park"
+      },
+      "okumaMetni": "Mehmet ve arkadaşları parkta futbol oynuyordu. Aniden yağmur başladı. Herkes \"Eve gidelim!\" dedi. Mehmet \"Bir dakika\" dedi ve gözlerini kapattı. Yağmurun sesini dinledi, yüzüne damlaları hissetti. Sonra gülerek \"Tamam, gidelim\" dedi."
+    },
+    {
+      "id": "ma-a10",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Ne oldu aniden?",
+      "dogruCevap": "Yağmur başladı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmur-park",
+        "nesne": "yagmur"
+      },
+      "okumaMetni": "Mehmet ve arkadaşları parkta futbol oynuyordu. Aniden yağmur başladı. Herkes \"Eve gidelim!\" dedi. Mehmet \"Bir dakika\" dedi ve gözlerini kapattı. Yağmurun sesini dinledi, yüzüne damlaları hissetti. Sonra gülerek \"Tamam, gidelim\" dedi."
+    },
+    {
+      "id": "ma-a11",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Mehmet ne yaptı yağmur yağınca?",
+      "dogruCevap": "Gözlerini kapattı, yağmuru hissetti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmurda-duran",
+        "nesne": "yagmur"
+      },
+      "okumaMetni": "Mehmet ve arkadaşları parkta futbol oynuyordu. Aniden yağmur başladı. Herkes \"Eve gidelim!\" dedi. Mehmet \"Bir dakika\" dedi ve gözlerini kapattı. Yağmurun sesini dinledi, yüzüne damlaları hissetti. Sonra gülerek \"Tamam, gidelim\" dedi."
+    },
+    {
+      "id": "ma-a12",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Mehmet neden gülümsedi sence?",
+      "dogruCevap": "Yağmurun güzelliğini hissetti, mutlu oldu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmurda-gulen",
+        "nesne": "yagmur"
+      },
+      "okumaMetni": "Mehmet ve arkadaşları parkta futbol oynuyordu. Aniden yağmur başladı. Herkes \"Eve gidelim!\" dedi. Mehmet \"Bir dakika\" dedi ve gözlerini kapattı. Yağmurun sesini dinledi, yüzüne damlaları hissetti. Sonra gülerek \"Tamam, gidelim\" dedi."
+    },
+    {
+      "id": "ma-a13",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "yazili",
+      "soru": "Bu metinden Mehmet hakkında ne söylenebilir?",
+      "dogruCevap": "Anın tadını çıkarmasını bilen biri",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "doga-seven",
+        "nesne": "cocuk"
+      },
+      "alternatifCevaplar": [
+        "Doğayı seven biri"
+      ],
+      "okumaMetni": "Mehmet ve arkadaşları parkta futbol oynuyordu. Aniden yağmur başladı. Herkes \"Eve gidelim!\" dedi. Mehmet \"Bir dakika\" dedi ve gözlerini kapattı. Yağmurun sesini dinledi, yüzüne damlaları hissetti. Sonra gülerek \"Tamam, gidelim\" dedi."
+    }
+  ],
+  "test": [
+    {
+      "id": "ma-t1",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayşe neden erken uyandı?",
+      "dogruCevap": "Güzel koku onu uyandırmış",
+      "secenekler": [
+        "Alarm çalmış",
+        "Güzel koku onu uyandırmış",
+        "Okul varmış",
+        "Annesi çağırmış"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ayşe sabah erken uyandı. Mutfaktan mis gibi bir koku geliyordu. Annesi daha kalkmamıştı. Ayşe mutfağa koştu — ekmek makinesi çalışıyordu. Güldü: \"Annem dün gece ayarlamış!\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-mutfak",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "ma-t2",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Annesi daha kalkmamıştı\" — bu cümle ne anlatıyor?",
+      "dogruCevap": "Sabahın erken saatiydi",
+      "secenekler": [
+        "Annenin işi yoktu",
+        "Annesi hastayı",
+        "Anne geç yattı",
+        "Sabahın erken saatiydi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ayşe sabah erken uyandı. Mutfaktan mis gibi bir koku geliyordu. Annesi daha kalkmamıştı. Ayşe mutfağa koştu — ekmek makinesi çalışıyordu. Güldü: \"Annem dün gece ayarlamış!\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-erken",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "ma-t3",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ekmek makinesini kim ayarlamıştı?",
+      "dogruCevap": "Annesi",
+      "secenekler": [
+        "Komşu",
+        "Annesi",
+        "Babası",
+        "Ayşe"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ayşe sabah erken uyandı. Mutfaktan mis gibi bir koku geliyordu. Annesi daha kalkmamıştı. Ayşe mutfağa koştu — ekmek makinesi çalışıyordu. Güldü: \"Annem dün gece ayarlamış!\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ekmek-makinesi",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "ma-t4",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Güldü: Annem dün gece ayarlamış!\" — Ayşe neden güldü?",
+      "dogruCevap": "Annesinin düşünceli davranışını sevdi",
+      "secenekler": [
+        "Annesinin düşünceli davranışını sevdi",
+        "Korktu",
+        "Komik bir şey gördü",
+        "Ekmek yanmıştı"
+      ],
+      "ipucu": "Annesinin önceden düşünmesi onu mutlu etti.",
+      "okumaMetni": "Ayşe sabah erken uyandı. Mutfaktan mis gibi bir koku geliyordu. Annesi daha kalkmamıştı. Ayşe mutfağa koştu — ekmek makinesi çalışıyordu. Güldü: \"Annem dün gece ayarlamış!\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gulen-ayse",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ma-t5",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin ana fikri nedir?",
+      "dogruCevap": "Sevgi küçük jestlerde saklıdır",
+      "secenekler": [
+        "Ayşe yemek yapmayı sever",
+        "Ekmek makineleri kullanışlıdır",
+        "Sevgi küçük jestlerde saklıdır",
+        "Sabah erken kalkmak iyidir"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ayşe sabah erken uyandı. Mutfaktan mis gibi bir koku geliyordu. Annesi daha kalkmamıştı. Ayşe mutfağa koştu — ekmek makinesi çalışıyordu. Güldü: \"Annem dün gece ayarlamış!\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "anne-sevgisi",
+        "nesne": "anne"
+      }
+    },
+    {
+      "id": "ma-t6",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Rex ne yapardı her gün?",
+      "dogruCevap": "Aynı saatte havlardı",
+      "secenekler": [
+        "Uyurdu",
+        "Koşardı",
+        "Aynı saatte havlardı",
+        "Yemek yerdi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ali'nin köpeği Rex her gün aynı saatte havlardı. Ali merak etti. Bir gün saati tuttu. Tam 17:00'de havladı. Ali pencereye baktı — babası kapıdan giriyordu. Rex her gün babasını karşılıyordu!",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "havlayan-kopek",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "ma-t7",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ali ne yaptı merakını gidermek için?",
+      "dogruCevap": "Saati tuttu",
+      "secenekler": [
+        "Kamerayı kurdu",
+        "Uyudu",
+        "Saati tuttu",
+        "Sordu"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ali'nin köpeği Rex her gün aynı saatte havlardı. Ali merak etti. Bir gün saati tuttu. Tam 17:00'de havladı. Ali pencereye baktı — babası kapıdan giriyordu. Rex her gün babasını karşılıyordu!",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "saate-bakan",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t8",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Rex saat 17:00'de neden havlıyordu?",
+      "dogruCevap": "Babasının geldiğini hissediyordu",
+      "secenekler": [
+        "Acıkmıştı",
+        "Korkmuştu",
+        "Oyun istiyordu",
+        "Babasının geldiğini hissediyordu"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ali'nin köpeği Rex her gün aynı saatte havlardı. Ali merak etti. Bir gün saati tuttu. Tam 17:00'de havladı. Ali pencereye baktı — babası kapıdan giriyordu. Rex her gün babasını karşılıyordu!",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kopek-baba",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "ma-t9",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metinden Rex hakkında ne söylenebilir?",
+      "dogruCevap": "Aile üyelerini tanıyan zeki bir köpek",
+      "secenekler": [
+        "Yabancıları sever",
+        "Aile üyelerini tanıyan zeki bir köpek",
+        "Kötü huylu bir köpek",
+        "Sadece gürültü çıkarır"
+      ],
+      "ipucu": "Rex babasını her gün karşılıyordu!",
+      "okumaMetni": "Ali'nin köpeği Rex her gün aynı saatte havlardı. Ali merak etti. Bir gün saati tuttu. Tam 17:00'de havladı. Ali pencereye baktı — babası kapıdan giriyordu. Rex her gün babasını karşılıyordu!",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sadik-kopek",
+        "nesne": "kopek"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ma-t10",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin konusu nedir?",
+      "dogruCevap": "Rex'in her günkü alışkanlığı ve onun sırrı",
+      "secenekler": [
+        "Köpek bakımı",
+        "Rex'in her günkü alışkanlığı ve onun sırrı",
+        "Saat kullanımı",
+        "Ali'nin ailesi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Ali'nin köpeği Rex her gün aynı saatte havlardı. Ali merak etti. Bir gün saati tuttu. Tam 17:00'de havladı. Ali pencereye baktı — babası kapıdan giriyordu. Rex her gün babasını karşılıyordu!",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kopek-cocuk",
+        "nesne": "kopek"
+      }
+    },
+    {
+      "id": "ma-t11",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk saat kaçta uyandı?",
+      "dogruCevap": "06:30",
+      "secenekler": [
+        "05:00",
+        "08:00",
+        "07:00",
+        "06:30"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Berk sabah uyandığında her yer bembeyaz karla kaplıydı. Sevinçle pencereye koştu. Sokakta kimse yoktu. Saate baktı: 06:30. \"Herkes uyuyor\" diye düşündü. Yavaşça giyindi ve dışarı çıktı. Karlar bozulmamıştı. O ilk izleri bırakacaktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "saat-0630",
+        "nesne": "kar"
+      },
+      "cevapTipi": "metin"
+    },
+    {
+      "id": "ma-t12",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sokakta neden kimse yoktu?",
+      "dogruCevap": "Herkes uyuyordu",
+      "secenekler": [
+        "Çok soğuktu",
+        "Okul günüydü",
+        "Herkes uyuyordu",
+        "Tatil günüydü"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Berk sabah uyandığında her yer bembeyaz karla kaplıydı. Sevinçle pencereye koştu. Sokakta kimse yoktu. Saate baktı: 06:30. \"Herkes uyuyor\" diye düşündü. Yavaşça giyindi ve dışarı çıktı. Karlar bozulmamıştı. O ilk izleri bırakacaktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "karli-sokak",
+        "nesne": "kar"
+      }
+    },
+    {
+      "id": "ma-t13",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk neden \"ilk izleri bırakacaktı\" diye düşündü?",
+      "dogruCevap": "Bozulmamış karda iz bırakmanın özelliğini fark etti",
+      "secenekler": [
+        "Bozulmamış karda iz bırakmanın özelliğini fark etti",
+        "Kaybolmamak için",
+        "Karda resim yapmak istiyordu",
+        "Arkadaşlarına göstermek için"
+      ],
+      "ipucu": "Henüz kimse karda yürümemişti.",
+      "okumaMetni": "Berk sabah uyandığında her yer bembeyaz karla kaplıydı. Sevinçle pencereye koştu. Sokakta kimse yoktu. Saate baktı: 06:30. \"Herkes uyuyor\" diye düşündü. Yavaşça giyindi ve dışarı çıktı. Karlar bozulmamıştı. O ilk izleri bırakacaktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bozulmamis-kar",
+        "nesne": "kar"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ma-t14",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metinden Berk nasıl biri olarak çıkıyor?",
+      "dogruCevap": "Meraklı ve anı değerlendiren",
+      "secenekler": [
+        "Bencil",
+        "Tembel ve uyumcu",
+        "Korkak",
+        "Meraklı ve anı değerlendiren"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Berk sabah uyandığında her yer bembeyaz karla kaplıydı. Sevinçle pencereye koştu. Sokakta kimse yoktu. Saate baktı: 06:30. \"Herkes uyuyor\" diye düşündü. Yavaşça giyindi ve dışarı çıktı. Karlar bozulmamıştı. O ilk izleri bırakacaktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "merakli-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t15",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Karlar bozulmamıştı\" cümlesinden ne anlarız?",
+      "dogruCevap": "Henüz kimse basmamış tertemiz kardı",
+      "secenekler": [
+        "Kar çok sertti",
+        "Kar az yağmıştı",
+        "Kar ıslanmıştı",
+        "Henüz kimse basmamış tertemiz kardı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Berk sabah uyandığında her yer bembeyaz karla kaplıydı. Sevinçle pencereye koştu. Sokakta kimse yoktu. Saate baktı: 06:30. \"Herkes uyuyor\" diye düşündü. Yavaşça giyindi ve dışarı çıktı. Karlar bozulmamıştı. O ilk izleri bırakacaktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "temiz-kar",
+        "nesne": "kar"
+      }
+    },
+    {
+      "id": "ma-t16",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma ne zaman ödevini yapmadığını hatırladı?",
+      "dogruCevap": "Okula gelince",
+      "secenekler": [
+        "Okula gelince",
+        "Ders sırasında",
+        "Yolda",
+        "Evde"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Fatma okula geldiğinde ödevini yapmadığını hatırladı. Kalbi hızlandı. Öğretmen sınıfa girdi. Fatma elini kaldırdı: \"Öğretmenim, ödevimi yapmadım, özür dilerim.\" Öğretmen güldü: \"Dürüstlüğün için teşekkür ederim Fatma.\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "okul-kapisi",
+        "nesne": "okul"
+      }
+    },
+    {
+      "id": "ma-t17",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kalbi hızlandı\" ne anlama gelir?",
+      "dogruCevap": "Heyecanlandı ve endişelendi",
+      "secenekler": [
+        "Hasta hissetti",
+        "Heyecanlandı ve endişelendi",
+        "Koştu",
+        "Sevindi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Fatma okula geldiğinde ödevini yapmadığını hatırladı. Kalbi hızlandı. Öğretmen sınıfa girdi. Fatma elini kaldırdı: \"Öğretmenim, ödevimi yapmadım, özür dilerim.\" Öğretmen güldü: \"Dürüstlüğün için teşekkür ederim Fatma.\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "endiseli-yuz",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t18",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fatma ne yaptı?",
+      "dogruCevap": "Dürüstçe itiraf etti",
+      "secenekler": [
+        "Sessiz oturdu",
+        "Kaçtı",
+        "Dürüstçe itiraf etti",
+        "Yalan söyledi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Fatma okula geldiğinde ödevini yapmadığını hatırladı. Kalbi hızlandı. Öğretmen sınıfa girdi. Fatma elini kaldırdı: \"Öğretmenim, ödevimi yapmadım, özür dilerim.\" Öğretmen güldü: \"Dürüstlüğün için teşekkür ederim Fatma.\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "el-kaldiran",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t19",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Öğretmen neden güldü?",
+      "dogruCevap": "Fatma'nın dürüstlüğünü beğendi",
+      "secenekler": [
+        "Fatma'nın dürüstlüğünü beğendi",
+        "Kendi de unutmuştu",
+        "Ödev önemsizdi",
+        "Komik buldu"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Fatma okula geldiğinde ödevini yapmadığını hatırladı. Kalbi hızlandı. Öğretmen sınıfa girdi. Fatma elini kaldırdı: \"Öğretmenim, ödevimi yapmadım, özür dilerim.\" Öğretmen güldü: \"Dürüstlüğün için teşekkür ederim Fatma.\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gulen-ogretmen",
+        "nesne": "ogretmen"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ma-t20",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin vermek istediği mesaj nedir?",
+      "dogruCevap": "Dürüstlük her zaman doğru yoldur",
+      "secenekler": [
+        "Dürüstlük her zaman doğru yoldur",
+        "Ödevler yapılmalıdır",
+        "Unutmak normaldir",
+        "Öğretmenler iyidir"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Fatma okula geldiğinde ödevini yapmadığını hatırladı. Kalbi hızlandı. Öğretmen sınıfa girdi. Fatma elini kaldırdı: \"Öğretmenim, ödevimi yapmadım, özür dilerim.\" Öğretmen güldü: \"Dürüstlüğün için teşekkür ederim Fatma.\"",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "durustluk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t21",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Zeynep her gün ne yapardı?",
+      "dogruCevap": "Bir resim çizerdi",
+      "secenekler": [
+        "Şarkı söylerdi",
+        "Bir resim çizerdi",
+        "Kitap okurdu",
+        "Oyun oynardı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Zeynep her gün bir resim çizerdi. Annesine gösterirdi, anası \"Güzel\" derdi. Babası da \"Harika\" derdi. Bir gün komşunun çocuğu \"Bu ne?\" diye sordu. Zeynep düşündü. \"Belki daha çok çalışmalıyım\" dedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "resim-cizen",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t22",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ailesi resimler için ne derdi?",
+      "dogruCevap": "Güzel ve harika derdi",
+      "secenekler": [
+        "Hiçbir şey",
+        "Güzel ve harika derdi",
+        "Beğenmezdi",
+        "Eleştirirdi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Zeynep her gün bir resim çizerdi. Annesine gösterirdi, anası \"Güzel\" derdi. Babası da \"Harika\" derdi. Bir gün komşunun çocuğu \"Bu ne?\" diye sordu. Zeynep düşündü. \"Belki daha çok çalışmalıyım\" dedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "resme-bakan-aile",
+        "nesne": "aile"
+      }
+    },
+    {
+      "id": "ma-t23",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Komşu çocuğu \"Bu ne?\" diye sordu. Bu Zeynep'e ne düşündürdü?",
+      "dogruCevap": "Daha çok çalışıp gelişmesi gerekiyor",
+      "secenekler": [
+        "Daha çok çalışıp gelişmesi gerekiyor",
+        "Resim çizmek gereksiz",
+        "Ailesi yalan söylüyor",
+        "Komşu kötü bir çocuk"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Zeynep her gün bir resim çizerdi. Annesine gösterirdi, anası \"Güzel\" derdi. Babası da \"Harika\" derdi. Bir gün komşunun çocuğu \"Bu ne?\" diye sordu. Zeynep düşündü. \"Belki daha çok çalışmalıyım\" dedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dusunen-zeynep",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ma-t24",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Belki daha çok çalışmalıyım\" demesi Zeynep hakkında ne gösterir?",
+      "dogruCevap": "Kendini geliştirme isteği",
+      "secenekler": [
+        "Resimden nefret ettiği",
+        "Kendini geliştirme isteği",
+        "Yorulduğu",
+        "Pes ettiği"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Zeynep her gün bir resim çizerdi. Annesine gösterirdi, anası \"Güzel\" derdi. Babası da \"Harika\" derdi. Bir gün komşunun çocuğu \"Bu ne?\" diye sordu. Zeynep düşündü. \"Belki daha çok çalışmalıyım\" dedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kararli-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ma-t25",
+      "kazanimKodu": "TUR.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metinden ne öğrenebiliriz?",
+      "dogruCevap": "Gerçek gelişim için dürüst geri bildirim değerlidir",
+      "secenekler": [
+        "Her zaman aile övgüsü yeterlidir",
+        "Komşuları dinleme",
+        "Gerçek gelişim için dürüst geri bildirim değerlidir",
+        "Resim çizmek zor bir iştir"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Zeynep her gün bir resim çizerdi. Annesine gösterirdi, anası \"Güzel\" derdi. Babası da \"Harika\" derdi. Bir gün komşunun çocuğu \"Bu ne?\" diye sordu. Zeynep düşündü. \"Belki daha çok çalışmalıyım\" dedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gelisim",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    }
+  ]
+}

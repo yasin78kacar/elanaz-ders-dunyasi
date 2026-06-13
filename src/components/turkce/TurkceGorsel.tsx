@@ -45,6 +45,10 @@ const NESNE_EMOJI: Record<string, string> = {
   hikaye: '📖',
   siir: '📜',
   bilgi: '📘',
+  mektup: '✉️',
+  gunluk: '📔',
+  aile: '👨‍👩‍👧',
+  anne: '👩',
   semsiye: '☂️',
   palto: '🧥',
   telefon: '📱',
@@ -443,6 +447,135 @@ function DinlemeSahnesi() {
   );
 }
 
+function YorumGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <SahneGorsel sahne="kitap" nesne="kitap" />
+      <View style={styles.sahne}>
+        <GuvenliMetin style={styles.nesneEmoji} tamGenislik>
+          💭
+        </GuvenliMetin>
+        <GuvenliMetin style={styles.sahneBaslik} tamGenislik>
+          Yorum
+        </GuvenliMetin>
+      </View>
+    </View>
+  );
+}
+
+function CikarimGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <SahneGorsel sahne="semsiye" nesne="semsiye" />
+      <GuvenliMetin style={styles.ok} tamGenislik={false}>
+        →
+      </GuvenliMetin>
+      <SahneGorsel sahne="yagmur" nesne="yagmur" />
+    </View>
+  );
+}
+
+function SebepSonucGorsel() {
+  const adimlar = ['Sebep', 'Sonuç'];
+  return (
+    <View style={styles.karsSatir}>
+      {adimlar.map((a, i) => (
+        <View key={a} style={styles.karsSatir}>
+          <View style={[styles.karsKart, { backgroundColor: (i === 0 ? GEO.mavi : GEO.yesil) + '33' }]}>
+            <GuvenliMetin style={styles.karsMetin} tamGenislik>
+              {a}
+            </GuvenliMetin>
+          </View>
+          {i === 0 ? <GuvenliMetin style={styles.ok} tamGenislik={false}>→</GuvenliMetin> : null}
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function DeyimGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <View style={styles.karsKart}>
+        <GuvenliMetin style={styles.karsMetin} tamGenislik>
+          Kulak vermek
+        </GuvenliMetin>
+      </View>
+      <GuvenliMetin style={styles.ok} tamGenislik={false}>
+        →
+      </GuvenliMetin>
+      <View style={[styles.karsKart, { backgroundColor: GEO.turuncu + '33' }]}>
+        <GuvenliMetin style={styles.karsMetin} tamGenislik>
+          Dikkatle dinlemek
+        </GuvenliMetin>
+      </View>
+    </View>
+  );
+}
+
+function AtasozuGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <SahneGorsel sahne="damla" nesne="deniz" />
+      <GuvenliMetin style={styles.ok} tamGenislik={false}>
+        →
+      </GuvenliMetin>
+      <SahneGorsel sahne="gol" nesne="deniz" />
+    </View>
+  );
+}
+
+function MecazGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <GuvenliMetin style={styles.nesneEmoji} tamGenislik={false}>
+        🦁
+      </GuvenliMetin>
+      <GuvenliMetin style={styles.ok} tamGenislik={false}>
+        =
+      </GuvenliMetin>
+      <SahneGorsel sahne="cesur" nesne="cocuk" />
+    </View>
+  );
+}
+
+function MektupSablonu() {
+  const bolumler = ['Tarih', 'Selamlama', 'Gövde', 'Kapanış', 'İmza'];
+  return (
+    <View style={styles.cumleTurSatir}>
+      {bolumler.map((b) => (
+        <View key={b} style={styles.cumleTurKutu}>
+          <GuvenliMetin style={styles.cumleEtiket} tamGenislik>
+            {b}
+          </GuvenliMetin>
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function GunlukGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <SahneGorsel sahne="gunluk" nesne="gunluk" />
+      <SahneGorsel sahne="kalem" nesne="kalem" />
+    </View>
+  );
+}
+
+function SiirYazmaGorsel() {
+  return (
+    <View style={styles.karsSatir}>
+      <SahneGorsel sahne="siir" nesne="siir" />
+      <View style={styles.sahne}>
+        <GuvenliMetin style={styles.sahneBaslik} tamGenislik>
+          kafiye · ritim
+        </GuvenliMetin>
+      </View>
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'sh-anlatim-1':
@@ -562,6 +695,24 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <SozcukTuruKartlari />;
     case 'sdb-anlatim-3':
       return <ZamirGosterme />;
+    case 'ma-anlatim-1':
+      return <YorumGorsel />;
+    case 'ma-anlatim-2':
+      return <CikarimGorsel />;
+    case 'ma-anlatim-3':
+      return <SebepSonucGorsel />;
+    case 'ka-anlatim-1':
+      return <DeyimGorsel />;
+    case 'ka-anlatim-2':
+      return <AtasozuGorsel />;
+    case 'ka-anlatim-3':
+      return <MecazGorsel />;
+    case 'ya-anlatim-1':
+      return <MektupSablonu />;
+    case 'ya-anlatim-2':
+      return <GunlukGorsel />;
+    case 'ya-anlatim-3':
+      return <SiirYazmaGorsel />;
     default:
       return <SahneGorsel sahne={sahne} />;
   }

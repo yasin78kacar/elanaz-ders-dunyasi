@@ -36,6 +36,9 @@ import bilgiMetni from '../../content/sinif2/turkce/bilgi-metni.json';
 import yazmaBecerileri from '../../content/sinif2/turkce/yazma-becerileri.json';
 import dinlemeVeKonusma from '../../content/sinif2/turkce/dinleme-ve-konusma.json';
 import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgisi.json';
+import metinAnlamaVeYorumlama from '../../content/sinif2/turkce/metin-anlama-ve-yorumlama.json';
+import kelimeVeAnlamBilgisiIleri from '../../content/sinif2/turkce/kelime-ve-anlam-bilgisi-ileri.json';
+import yazmaVeAnlatimIleri from '../../content/sinif2/turkce/yazma-ve-anlatim-ileri.json';
 import canlilarVeCansizlar from '../../content/sinif2/fen-bilimleri/canlilar-ve-cansizlar.json';
 import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
 import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
@@ -93,6 +96,9 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/yazma-becerileri.json': yazmaBecerileri as Konu,
   'turkce/dinleme-ve-konusma.json': dinlemeVeKonusma as Konu,
   'turkce/sozcuk-ve-dil-bilgisi.json': sozcukVeDilBilgisi as Konu,
+  'turkce/metin-anlama-ve-yorumlama.json': metinAnlamaVeYorumlama as Konu,
+  'turkce/kelime-ve-anlam-bilgisi-ileri.json': kelimeVeAnlamBilgisiIleri as Konu,
+  'turkce/yazma-ve-anlatim-ileri.json': yazmaVeAnlatimIleri as Konu,
   'fen-bilimleri/canlilar-ve-cansizlar.json': canlilarVeCansizlar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,

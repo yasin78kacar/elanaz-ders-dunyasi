@@ -1,0 +1,935 @@
+{
+  "id": "kelime-ve-anlam-bilgisi-ileri",
+  "baslik": "Kelime ve Anlam Bilgisi İleri",
+  "kazanimKodu": "TUR.2.4.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Deyim, birden fazla kelimenin bir araya gelerek farklı bir anlam oluşturmasıdır. \"Kulak vermek\" gerçek anlamıyla kulağını vermez — \"dikkatle dinlemek\" demektir!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ka-anlatim-1"
+        }
+      },
+      {
+        "metin": "Atasözleri uzun deneyimlerden doğmuş kısa ve özlü sözlerdir. \"Damlaya damlaya göl olur\" — küçük şeyler birikerek büyük sonuçlar doğurur!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ka-anlatim-2"
+        }
+      },
+      {
+        "metin": "Mecaz anlam bir kelimenin gerçek anlamı dışında kullanılmasıdır. \"Aslan gibi savaştı\" — gerçek aslan değil, güçlü ve cesur demek!",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "ka-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ka-a1",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Kulak vermek\" deyimi ne anlama gelir?",
+      "dogruCevap": "Dikkatle dinlemek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinleyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a2",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"El ele vermek\" ne demektir?",
+      "dogruCevap": "Birlikte çalışmak, yardımlaşmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "el-ele",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a3",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Damlaya damlaya göl olur\" atasözü ne öğretir?",
+      "dogruCevap": "Küçük birikimler büyük sonuçlar doğurur",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "damla",
+        "nesne": "deniz"
+      }
+    },
+    {
+      "id": "ka-a4",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bugün işini yarına bırakma\" atasözünün anlamı nedir?",
+      "dogruCevap": "İşleri ertelemeden yapmalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "calisan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a5",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Aslan gibi cesur\" ifadesinde aslan gerçek midir?",
+      "dogruCevap": "Hayır, mecaz anlam — çok cesur demek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cesur-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a6",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Gönül koydu\" deyimi ne demektir?",
+      "dogruCevap": "Küstü, darıldı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kusan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a7",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Ağzı sıkı\" ne anlama gelir?",
+      "dogruCevap": "Sır saklayan, çok konuşmayan",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "agzi-siki",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a8",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bir elin nesi var, iki elin sesi var\" atasözü ne demek?",
+      "dogruCevap": "Birlikte çalışmak daha güçlüdür",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "birlikte-calisma",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a9",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bal gibi tatlı\" ifadesinde mecaz nedir?",
+      "dogruCevap": "Çok tatlı anlamında bal kullanılmış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bal",
+        "nesne": "meyve"
+      }
+    },
+    {
+      "id": "ka-a10",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Dil dökmek\" deyiminin anlamı?",
+      "dogruCevap": "Birini ikna etmek için güzel konuşmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "konusan-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a11",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Saçma sapan konuşmak\" ne demektir?",
+      "dogruCevap": "Anlamsız, mantıksız şeyler söylemek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kafasi-karisi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a12",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Körle yatan şaşı kalkar\" atasözü ne öğretir?",
+      "dogruCevap": "Kötü arkadaş kötü alışkanlıklar kazandırır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "arkadas-secimi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a13",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Güneş gibi parlak\" ifadesinde ne var?",
+      "dogruCevap": "Mecaz anlam — çok zeki ve başarılı demek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "parlak-ogrenci",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a14",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Baş vurmak\" deyimi ne anlama gelir?",
+      "dogruCevap": "Yardım istemek, başvurmak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yardim-isteyen",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a15",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Taş gibi uyudu\" ifadesini açıkla.",
+      "dogruCevap": "Çok derin ve rahat uyudu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "derin-uyku",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a16",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bir taşla iki kuş vurmak\" deyimi ne demektir?",
+      "dogruCevap": "Tek hareketle iki işi birden halletmek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iki-is",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a17",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Ağzı var dili yok\" deyiminin anlamı?",
+      "dogruCevap": "Çok sessiz, konuşmayan, çekingen biri",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sessiz-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a18",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Sakla samanı, gelir zamanı\" atasözü ne öğretir?",
+      "dogruCevap": "Her şeyi ileride lazım olur diye saklamalıyız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tasarruf",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a19",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Buz gibi soğuk\" ifadesinde mecaz nedir?",
+      "dogruCevap": "Çok soğuk demek için buz kullanılmış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "buz",
+        "nesne": "kar"
+      }
+    },
+    {
+      "id": "ka-a20",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Kör olası para\" ifadesi nasıl bir kullanımdır?",
+      "dogruCevap": "Deyimsel, paranın sorun çıkardığını anlatır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "para",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "ka-a21",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"İki yakasını bir araya getirememek\" ne demektir?",
+      "dogruCevap": "Geçim sıkıntısı, para yetiştirememe",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gecim-sikintisi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a22",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Dağ gibi adam\" ifadesindeki mecaz nedir?",
+      "dogruCevap": "Çok iri, güçlü adam demek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "guclu-adam",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a23",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bin düşün bir söyle\" atasözü ne öğütler?",
+      "dogruCevap": "Konuşmadan önce iyice düşünmeli",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dusunen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a24",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Gözden düştü\" deyiminin anlamı?",
+      "dogruCevap": "Değerini, itibarını kaybetti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "uzgun-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-a25",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Akıl akıldan üstündür\" atasözü ne demektir?",
+      "dogruCevap": "Herkesin fikri değerlidir, birbirinden öğrenilir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "birlikte-dusunen",
+        "nesne": "cocuk"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ka-t1",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Kulak vermek\" deyiminin anlamı nedir?",
+      "dogruCevap": "Dikkatle dinlemek",
+      "secenekler": [
+        "Dikkatle dinlemek",
+        "Kulağını vermek",
+        "Kulak takmak",
+        "Kulağı ağrımak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dinleyen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t2",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Damlaya damlaya göl olur\" atasözü ne öğretir?",
+      "dogruCevap": "Küçük birikimler büyük sonuçlar doğurur",
+      "secenekler": [
+        "Yağmur yağınca göl oluşur",
+        "Su tasarrufu yapmalıyız",
+        "Küçük birikimler büyük sonuçlar doğurur",
+        "Göller yağmurdan oluşur"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "damla-gol",
+        "nesne": "deniz"
+      }
+    },
+    {
+      "id": "ka-t3",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Aslan gibi cesur savaştı\" cümlesinde \"aslan\" nasıl kullanılmıştır?",
+      "dogruCevap": "Mecaz anlamında",
+      "secenekler": [
+        "Atasözü olarak",
+        "Gerçek anlamında",
+        "Deyim olarak",
+        "Mecaz anlamında"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cesur-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t4",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"El ele vermek\" deyimi ne anlama gelir?",
+      "dogruCevap": "Yardımlaşmak",
+      "secenekler": [
+        "Yardımlaşmak",
+        "El sıkışmak",
+        "Tokatlamak",
+        "El vermek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "el-ele",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t5",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle atasözü içerir?",
+      "dogruCevap": "Damlaya damlaya göl olur",
+      "secenekler": [
+        "Damlaya damlaya göl olur",
+        "Bugün hava güzel",
+        "Ali okula gitti",
+        "Kedi miyavladı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "kart",
+        "harfler": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "ka-t6",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ağzı sıkı\" deyiminin anlamı nedir?",
+      "dogruCevap": "Sır saklayan",
+      "secenekler": [
+        "Ağzı küçük",
+        "Sır saklayan",
+        "Az konuşan",
+        "Çok yemek yiyen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sir-saklayan",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t7",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Bal gibi tatlı\" ifadesinde bal gerçek anlamında mı kullanılmıştır?",
+      "dogruCevap": "Hayır, mecaz anlam",
+      "secenekler": [
+        "Evet, bal var",
+        "Her zaman gerçek",
+        "Bazen",
+        "Hayır, mecaz anlam"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bal",
+        "nesne": "meyve"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t8",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Bir taşla iki kuş vurmak\" deyimi ne demektir?",
+      "dogruCevap": "Tek seferde iki işi bitirmek",
+      "secenekler": [
+        "Taş atmak",
+        "Çok çalışmak",
+        "Tek seferde iki işi bitirmek",
+        "İki kuş avlamak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "iki-is",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t9",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Bin düşün bir söyle\" atasözü ne öğütler?",
+      "dogruCevap": "Konuşmadan önce iyice düşün",
+      "secenekler": [
+        "Konuşmadan önce iyice düşün",
+        "Söz söyleme",
+        "Çok konuş",
+        "Yavaş konuş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dusunen-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t10",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Taş gibi uyudu\" ifadesindeki mecaz nedir?",
+      "dogruCevap": "Çok derin uyudu",
+      "secenekler": [
+        "Taş gibi sert yattı",
+        "Uyumadı",
+        "Çok derin uyudu",
+        "Taş üzerinde uyudu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "derin-uyku",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t11",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Deyim hangi seçenektir?",
+      "dogruCevap": "Gönül koydu",
+      "secenekler": [
+        "Hava güzel",
+        "Koştu",
+        "Gönül koydu",
+        "Gülümsedi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "kart",
+        "harfler": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "ka-t12",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Baş vurmak\" deyiminin anlamı nedir?",
+      "dogruCevap": "Yardım istemek, başvurmak",
+      "secenekler": [
+        "Yardım istemek, başvurmak",
+        "Baş ağrısı",
+        "Koşmak",
+        "Başını vurmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yardim-isteyen",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t13",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Dağ gibi adam\" ifadesinde \"dağ\" ne anlama gelir?",
+      "dogruCevap": "İri ve güçlü",
+      "secenekler": [
+        "Dağda yaşayan",
+        "İri ve güçlü",
+        "Yürüyen dağ",
+        "Dağcı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "guclu-adam",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t14",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atasözü hangisidir?",
+      "dogruCevap": "Bir elin nesi var, iki elin sesi var",
+      "secenekler": [
+        "Ali top oynadı",
+        "Güneş doğdu",
+        "Bir elin nesi var, iki elin sesi var",
+        "Yağmur yağdı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "kart",
+        "harfler": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "id": "ka-t15",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ağzı var dili yok\" deyimi kimi anlatır?",
+      "dogruCevap": "Çok sessiz, çekingen biri",
+      "secenekler": [
+        "Çok sessiz, çekingen biri",
+        "Dilsiz biri",
+        "Çok konuşan biri",
+        "Yabancı biri"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sessiz-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t16",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Gözden düştü\" deyimi ne anlatır?",
+      "dogruCevap": "İtibarını kaybetti",
+      "secenekler": [
+        "Yere düştü",
+        "Gözleri düştü",
+        "Ağladı",
+        "İtibarını kaybetti"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "deger-kaybi",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t17",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Buz gibi soğuk\" ifadesi nasıl bir kullanımdır?",
+      "dogruCevap": "Mecaz anlam",
+      "secenekler": [
+        "Deyim",
+        "Gerçek anlam",
+        "Atasözü",
+        "Mecaz anlam"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "buz",
+        "nesne": "kar"
+      }
+    },
+    {
+      "id": "ka-t18",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Dil dökmek\" deyiminin anlamı nedir?",
+      "dogruCevap": "İkna etmek için güzel konuşmak",
+      "secenekler": [
+        "Dilini çıkarmak",
+        "Dili tutulmak",
+        "İkna etmek için güzel konuşmak",
+        "Dili düşmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ikna-eden",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t19",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Mecaz anlam içeren cümle hangisidir?",
+      "dogruCevap": "Yüreği dayanmadı",
+      "secenekler": [
+        "Güneş battı",
+        "Yüreği dayanmadı",
+        "Top yuvarlandı",
+        "Kedi miyavladı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "kart",
+        "harfler": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t20",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sakla samanı gelir zamanı\" atasözü ne öğütler?",
+      "dogruCevap": "Tasarruflu ol, bir gün işe yarar",
+      "secenekler": [
+        "Tasarruflu ol, bir gün işe yarar",
+        "Zamanı iyi kullan",
+        "Her şeyi harca",
+        "Saman topla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "tasarruf",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t21",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Deyim ne demektir?",
+      "dogruCevap": "Birkaç kelimenin farklı anlam oluşturması",
+      "secenekler": [
+        "Birkaç kelimenin farklı anlam oluşturması",
+        "Yabancı kelime",
+        "Kısa ve özlü söz",
+        "Şiirsel söz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "deyim-tanimi",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "ka-t22",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Akıl akıldan üstündür\" atasözünün anlamı nedir?",
+      "dogruCevap": "Her aklın bir değeri var, birbirinden öğrenilir",
+      "secenekler": [
+        "Çok akıllı olmak kötüdür",
+        "Her aklın bir değeri var, birbirinden öğrenilir",
+        "Akıllı olmak iyidir",
+        "Herkes aptal"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "birlikte-dusunen",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "ka-t23",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atasözü ile deyim arasındaki fark nedir?",
+      "dogruCevap": "Atasözü öğüt verir, deyim farklı anlam taşır",
+      "secenekler": [
+        "Fark yok",
+        "Atasözü öğüt verir, deyim farklı anlam taşır",
+        "İkisi de şiirdir",
+        "Atasözü daha kısadır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "karsilastirma",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "ka-t24",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"İki yakasını bir araya getirememek\" ne demektir?",
+      "dogruCevap": "Geçim sıkıntısı çekmek",
+      "secenekler": [
+        "Elbisesi dar gelmek",
+        "Çok kısa boylu olmak",
+        "Ceket dikememek",
+        "Geçim sıkıntısı çekmek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gecim-sikintisi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "ka-t25",
+      "kazanimKodu": "TUR.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Güneş gibi parlak bir öğrenci\" cümlesinde mecaz nedir?",
+      "dogruCevap": "Öğrenci çok başarılı",
+      "secenekler": [
+        "Güneş okula girmiş",
+        "Güneş var sınıfta",
+        "Öğrenci çok başarılı",
+        "Öğrenci ışık saçıyor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "basarili-ogrenci",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    }
+  ]
+}
