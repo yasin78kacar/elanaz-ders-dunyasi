@@ -65,6 +65,7 @@ import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions
 import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
+import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -462,6 +463,13 @@ writeFileSync(join(hbDir, 'saglik-ve-temizlik.json'), JSON.stringify(saglikVeTem
 writeFileSync(join(hbDir, 'guvenli-yasam.json'), JSON.stringify(guvenliYasamKonu, null, 2));
 writeFileSync(join(hbDir, 'meslekler-ve-calisma-hayati.json'), JSON.stringify(mesleklerVeCalismaHayatiKonu, null, 2));
 
+const ulkemizVeVatandaslikKonu = ulkemizVeVatandaslik(karistir);
+const tarihVeKulturumuzKonu = tarihVeKulturumuz(karistir);
+const dogalAfetlerVeKorunmaKonu = dogalAfetlerVeKorunma(karistir);
+writeFileSync(join(hbDir, 'ulkemiz-ve-vatandaslik.json'), JSON.stringify(ulkemizVeVatandaslikKonu, null, 2));
+writeFileSync(join(hbDir, 'tarih-ve-kulturumuz.json'), JSON.stringify(tarihVeKulturumuzKonu, null, 2));
+writeFileSync(join(hbDir, 'dogal-afetler-ve-korunma.json'), JSON.stringify(dogalAfetlerVeKorunmaKonu, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -647,6 +655,15 @@ const index = {
             'hayat-bilgisi/meslekler-ve-calisma-hayati.json',
           ],
         },
+        {
+          id: 'tema-3',
+          baslik: 'Hayat Bilgisi — Tema 3',
+          konuDosyalari: [
+            'hayat-bilgisi/ulkemiz-ve-vatandaslik.json',
+            'hayat-bilgisi/tarih-ve-kulturumuz.json',
+            'hayat-bilgisi/dogal-afetler-ve-korunma.json',
+          ],
+        },
       ],
     },
     {
@@ -752,6 +769,9 @@ console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplum
 console.log('Sağlık ve temizlik:', saglikVeTemizlikKonu.alistirma.length, '+', saglikVeTemizlikKonu.test.length);
 console.log('Güvenli yaşam:', guvenliYasamKonu.alistirma.length, '+', guvenliYasamKonu.test.length);
 console.log('Meslekler ve çalışma hayatı:', mesleklerVeCalismaHayatiKonu.alistirma.length, '+', mesleklerVeCalismaHayatiKonu.test.length);
+console.log('Ülkemiz ve vatandaşlık:', ulkemizVeVatandaslikKonu.alistirma.length, '+', ulkemizVeVatandaslikKonu.test.length);
+console.log('Tarih ve kültürümüz:', tarihVeKulturumuzKonu.alistirma.length, '+', tarihVeKulturumuzKonu.test.length);
+console.log('Doğal afetler ve korunma:', dogalAfetlerVeKorunmaKonu.alistirma.length, '+', dogalAfetlerVeKorunmaKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

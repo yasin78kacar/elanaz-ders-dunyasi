@@ -1,0 +1,963 @@
+{
+  "id": "tarih-ve-kulturumuz",
+  "baslik": "Tarih ve Kültürümüz",
+  "kazanimKodu": "HB.2.3.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Atatürk 1881'de Selanik'te doğdu. Annesi Zübeyde Hanım, babası Ali Rıza Efendi, kız kardeşi Makbule Hanım'dır. Çalışkan ve kitap seven bir çocuktu.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "tk-anlatim-1"
+        }
+      },
+      {
+        "metin": "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı, 29 Ekim Cumhuriyet Bayramıdır. Millî ve dinî bayramlar sevgiyle kutlanır.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "tk-anlatim-2"
+        }
+      },
+      {
+        "metin": "Mantı, baklava, halk oyunları, Nasreddin Hoca fıkraları ve Karagöz-Hacivat kültürümüzün güzel parçalarıdır.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "tk-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "tk-a1",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk ......... şehrinde doğmuştur.",
+      "dogruCevap": "Selanik",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "selanik"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a2",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk'ün annesinin adı ......... Hanım'dır.",
+      "dogruCevap": "Zübeyde",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "zubeyde-hanim"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a3",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk'ün babasının adı ......... Efendi'dir.",
+      "dogruCevap": "Ali Rıza",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ali-riza"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a4",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk'ün kız kardeşinin adı ......... Hanım'dır.",
+      "dogruCevap": "Makbule",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "makbule-hanim"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a5",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk okul yıllarında çok ......... bir öğrenciydi.",
+      "dogruCevap": "çalışkan",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kitap"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a6",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk 23 Nisan'ı dünyadaki tüm ......... armağan etmiştir.",
+      "dogruCevap": "çocuklara",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cocuk-dunya"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a7",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "29 Ekim'de ......... Bayramı'nı kutlarız.",
+      "dogruCevap": "Cumhuriyet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "29-ekim"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a8",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "23 Nisan, dünyada çocuklara armağan edilen tek bayramdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "23-nisan"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a9",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Bayramlarda büyüklerimizi ziyaret etmek güzel bir ......... .",
+      "dogruCevap": "gelenektir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayramlasma"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a10",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Evimize gelen misafirlere kolonya ve ikramlık sunarız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kolonya"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a11",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Yöresel müzikle oynanan oyunlara ......... oyunları denir.",
+      "dogruCevap": "halk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "davul-zurna"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a12",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Mantı, yaprak sarması ve baklava güzel yöresel ......... örnekleridir.",
+      "dogruCevap": "yemeklerimize",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "baklava"
+      },
+      "alternatifCevaplar": [
+        "yemekler",
+        "yemeklerimiz"
+      ],
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a13",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Bayramlarda büyüklerin elini öpmek sevgi ve saygımızı gösterir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "el-opme"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a14",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Karagöz ve Hacivat gölge oyunu kültürümüzün neşeli parçasıdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "karagoz"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a15",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Düğünler ve asker uğurlamaları milletimizin güzel ......... arasındadır.",
+      "dogruCevap": "gelenekleri",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "dugun"
+      },
+      "alternatifCevaplar": [
+        "gelenek"
+      ],
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a16",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Hastalanan komşularımıza uğramak kültürümüzde önemlidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "hasta-ziyaret"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a17",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Akıllı fıkralarıyla güldüren büyüğümüz ......... Hoca'dır.",
+      "dogruCevap": "Nasreddin",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "nasreddin"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a18",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "19 Mayıs'ta Atatürk'ü Anma, Gençlik ve Spor Bayramı'nı kutlarız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "19-mayis"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a19",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Bebekleri uyutmak için söylenen ezgilere ......... denir.",
+      "dogruCevap": "ninni",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ninni"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a20",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Atatürk'ün Ankara'daki anıt mezarının adı ......... .",
+      "dogruCevap": "Anıtkabir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "anitkabir"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a21",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Millî bayramlarda sınıfımızı süslemek bizi mutlu eder.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sinif-susleme"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a22",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "30 Ağustos'ta Zafer Bayramı vardır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "30-agustos"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a23",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "El dokuması ......... evlerimizi süsleyen kültürel eşyalardır.",
+      "dogruCevap": "halılar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kilim"
+      },
+      "alternatifCevaplar": [
+        "kilimler",
+        "halılar/kilimler"
+      ],
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a24",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Horon, zeybek, halay en çok bilinen ......... oyunlarımızdır.",
+      "dogruCevap": "halk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "zeybek"
+      },
+      "kazanim": "HB.2.3.2"
+    },
+    {
+      "id": "tk-a25",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "yazili",
+      "soru": "Akrabalarımızla bir araya geldiğimiz bayramlar bizi sevgiyle ......... .",
+      "dogruCevap": "bağlar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "aile"
+      },
+      "kazanim": "HB.2.3.2"
+    }
+  ],
+  "test": [
+    {
+      "id": "tk-t1",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk hangi şehirde doğmuştur?",
+      "dogruCevap": "Selanik",
+      "secenekler": [
+        "İstanbul",
+        "Selanik",
+        "Ankara",
+        "İzmir"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "selanik"
+      }
+    },
+    {
+      "id": "tk-t2",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk'ün annesinin adı nedir?",
+      "dogruCevap": "Zübeyde Hanım",
+      "secenekler": [
+        "Fatma Hanım",
+        "Makbule Hanım",
+        "Ayşe Hanım",
+        "Zübeyde Hanım"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "zubeyde-hanim"
+      }
+    },
+    {
+      "id": "tk-t3",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk'ün babasının adı nedir?",
+      "dogruCevap": "Ali Rıza Efendi",
+      "secenekler": [
+        "Ali Rıza Efendi",
+        "Hasan Tahsin",
+        "İsmet İnönü",
+        "Mehmet Efendi"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ali-riza"
+      }
+    },
+    {
+      "id": "tk-t4",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk 23 Nisan'ı kime armağan etmiştir?",
+      "dogruCevap": "Dünyadaki tüm çocuklara",
+      "secenekler": [
+        "Sadece öğretmenlere",
+        "Mühendislere",
+        "Tüm yetişkinlere",
+        "Dünyadaki tüm çocuklara"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "23-nisan"
+      }
+    },
+    {
+      "id": "tk-t5",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Anıtkabir hangi şehrimizdedir?",
+      "dogruCevap": "Ankara",
+      "secenekler": [
+        "Antalya",
+        "Selanik",
+        "Ankara",
+        "İstanbul"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "anitkabir"
+      }
+    },
+    {
+      "id": "tk-t6",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "29 Ekim'de hangi bayramı kutlarız?",
+      "dogruCevap": "Cumhuriyet Bayramı",
+      "secenekler": [
+        "Doğa Bayramı",
+        "Cumhuriyet Bayramı",
+        "Zafer Bayramı",
+        "Gençlik Bayramı"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "29-ekim"
+      }
+    },
+    {
+      "id": "tk-t7",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yöresel kıyafetlerle oynanan oyunlara ne denir?",
+      "dogruCevap": "Halk Oyunları",
+      "secenekler": [
+        "Bilgisayar Oyunları",
+        "Halk Oyunları",
+        "Masa Oyunları",
+        "Zeka Oyunları"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "folklor"
+      }
+    },
+    {
+      "id": "tk-t8",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi geleneksel yiyeceğimizdir?",
+      "dogruCevap": "Mantı",
+      "secenekler": [
+        "Mantı",
+        "Sosisli sandviç",
+        "Hamburger",
+        "Pizza"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "yemek"
+      }
+    },
+    {
+      "id": "tk-t9",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Dinî bayramlarda büyüklerimizi ziyarette ne yaparız?",
+      "dogruCevap": "Ellerini öper, bayramlarını kutlarız",
+      "secenekler": [
+        "Sadece oyun oynarız",
+        "Ellerini öper, bayramlarını kutlarız",
+        "Konuşmadan otururuz",
+        "Hemen döneriz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayramlasma"
+      }
+    },
+    {
+      "id": "tk-t10",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Misafire ne ikram ederiz?",
+      "dogruCevap": "Kolonya ve lokum",
+      "secenekler": [
+        "Sadece su",
+        "Eski eşyalar",
+        "Kolonya ve lokum",
+        "Meyve kabukları"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kolonya"
+      }
+    },
+    {
+      "id": "tk-t11",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk'ün kız kardeşinin adı nedir?",
+      "dogruCevap": "Makbule Hanım",
+      "secenekler": [
+        "Makbule Hanım",
+        "Ayşe Hanım",
+        "Fatma Hanım",
+        "Zübeyde Hanım"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "makbule-hanim"
+      }
+    },
+    {
+      "id": "tk-t12",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "19 Mayıs'ta hangi bayramı kutlarız?",
+      "dogruCevap": "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+      "secenekler": [
+        "Atatürk'ü Anma, Gençlik ve Spor Bayramı",
+        "Zafer Bayramı",
+        "Ulusal Egemenlik",
+        "Cumhuriyet"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "19-mayis"
+      }
+    },
+    {
+      "id": "tk-t13",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Akıllı fıkralarıyla güldüren kültür kişimiz kimdir?",
+      "dogruCevap": "Nasreddin Hoca",
+      "secenekler": [
+        "Keloğlan",
+        "Hacivat",
+        "Nasreddin Hoca",
+        "Karagöz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "nasreddin"
+      }
+    },
+    {
+      "id": "tk-t14",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hastayı ziyarette ne söyleriz?",
+      "dogruCevap": "Geçmiş olsun",
+      "secenekler": [
+        "İyi yolculuklar",
+        "Geçmiş olsun",
+        "Başarılar",
+        "Afiyet olsun"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "hasta-ziyaret"
+      }
+    },
+    {
+      "id": "tk-t15",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gölge oyununun kahramanları kimlerdir?",
+      "dogruCevap": "Karagöz ve Hacivat",
+      "secenekler": [
+        "Nasreddin Hoca ve Eşeği",
+        "Karagöz ve Hacivat",
+        "Keloğlan ve Annesi",
+        "Sevimli dostlar"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "karagoz"
+      }
+    },
+    {
+      "id": "tk-t16",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Evlerimizi süsleyen kültürel eşyamız hangisidir?",
+      "dogruCevap": "Halı ve Kilim",
+      "secenekler": [
+        "Bilgisayar",
+        "Plastik masa",
+        "Televizyon",
+        "Halı ve Kilim"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kilim"
+      }
+    },
+    {
+      "id": "tk-t17",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Atatürk'ün çocukluğu hakkında hangisi doğrudur?",
+      "dogruCevap": "Çok zeki ve çalışkan öğrenciydi",
+      "secenekler": [
+        "Okula gitmek istemezdi",
+        "Çok zeki ve çalışkan öğrenciydi",
+        "Kitapla ilgilenmezdi",
+        "Sadece tatil isterdi"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "tk-t18",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Vatan görevine gidecek gençler için ne yapılır?",
+      "dogruCevap": "Sevgi dolu asker uğurlama törenleri",
+      "secenekler": [
+        "Sadece mektup yazılır",
+        "Sevgi dolu asker uğurlama törenleri",
+        "Yalnız bırakılır",
+        "Hiç konuşulmaz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "asker"
+      }
+    },
+    {
+      "id": "tk-t19",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Misafirlere en çok ne sunarız?",
+      "dogruCevap": "Çay ve Ayran",
+      "secenekler": [
+        "Asitli içecekler",
+        "Aromalı sular",
+        "Soğuk kahve",
+        "Çay ve Ayran"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cay"
+      }
+    },
+    {
+      "id": "tk-t20",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ege bölgemizde oynanan halk oyunumuzun adı nedir?",
+      "dogruCevap": "Zeybek",
+      "secenekler": [
+        "Halay",
+        "Horon",
+        "Vals",
+        "Zeybek"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "zeybek"
+      }
+    },
+    {
+      "id": "tk-t21",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bebekleri uyutmak için söylenen ezgilere ne denir?",
+      "dogruCevap": "Ninni",
+      "secenekler": [
+        "Ninni",
+        "Okul Marşı",
+        "Pop Müzik",
+        "Türkü"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ninni"
+      }
+    },
+    {
+      "id": "tk-t22",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Büyüklerimize nasıl davranmalıyız?",
+      "dogruCevap": "Sevgi ve saygıyla",
+      "secenekler": [
+        "Dinlemeyerek",
+        "Sevgi ve saygıyla",
+        "Umursamazca",
+        "Sadece uzaktan bakarak"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "nine"
+      }
+    },
+    {
+      "id": "tk-t23",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "30 Ağustos'ta hangi bayramı kutlarız?",
+      "dogruCevap": "Zafer Bayramı",
+      "secenekler": [
+        "Cumhuriyet Bayramı",
+        "Çocuk Bayramı",
+        "Bahar Bayramı",
+        "Zafer Bayramı"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "30-agustos"
+      }
+    },
+    {
+      "id": "tk-t24",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Millî bayramlarda hangi renkleri çok kullanırız?",
+      "dogruCevap": "Kırmızı - Beyaz",
+      "secenekler": [
+        "Mavi - Pembe",
+        "Siyah - Beyaz",
+        "Kırmızı - Beyaz",
+        "Yeşil - Sarı"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sinif-susleme"
+      }
+    },
+    {
+      "id": "tk-t25",
+      "kazanimKodu": "HB.2.3.2",
+      "tip": "coktanSecmeli",
+      "soru": "Komşularımızla ilişkimiz nasıl olmalıdır?",
+      "dogruCevap": "Yardımlaşmalı ve tatlı dille konuşmalıyız",
+      "secenekler": [
+        "Yardımlaşmalı ve tatlı dille konuşmalıyız",
+        "Hiç tanımamalıyız",
+        "Sadece bayramlarda kapı çalmalıyız",
+        "Görmezden gelmeliyiz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.2",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "komsu"
+      }
+    }
+  ]
+}

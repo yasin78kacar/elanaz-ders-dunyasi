@@ -48,6 +48,9 @@ import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.js
 import saglikVeTemizlik from '../../content/sinif2/hayat-bilgisi/saglik-ve-temizlik.json';
 import guvenliYasam from '../../content/sinif2/hayat-bilgisi/guvenli-yasam.json';
 import mesleklerVeCalismaHayati from '../../content/sinif2/hayat-bilgisi/meslekler-ve-calisma-hayati.json';
+import ulkemizVeVatandaslik from '../../content/sinif2/hayat-bilgisi/ulkemiz-ve-vatandaslik.json';
+import tarihVeKulturumuz from '../../content/sinif2/hayat-bilgisi/tarih-ve-kulturumuz.json';
+import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afetler-ve-korunma.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import type { Ders, DersOzet, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
@@ -102,6 +105,9 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/saglik-ve-temizlik.json': saglikVeTemizlik as Konu,
   'hayat-bilgisi/guvenli-yasam.json': guvenliYasam as Konu,
   'hayat-bilgisi/meslekler-ve-calisma-hayati.json': mesleklerVeCalismaHayati as Konu,
+  'hayat-bilgisi/ulkemiz-ve-vatandaslik.json': ulkemizVeVatandaslik as Konu,
+  'hayat-bilgisi/tarih-ve-kulturumuz.json': tarihVeKulturumuz as Konu,
+  'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {

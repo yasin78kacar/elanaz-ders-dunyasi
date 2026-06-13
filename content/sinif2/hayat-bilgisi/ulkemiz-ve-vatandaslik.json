@@ -1,0 +1,989 @@
+{
+  "id": "ulkemiz-ve-vatandaslik",
+  "baslik": "Ülkemiz ve Vatandaşlık",
+  "kazanimKodu": "HB.2.3.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Ülkemizin adı Türkiye, başkentimiz Ankaradır. Bayrağımız kırmızı beyazdır, üzerinde ay ve yıldız vardır. Biz bu güzel ülkenin mutlu çocuklarıyız.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "uv-anlatim-1"
+        }
+      },
+      {
+        "metin": "İyi vatandaş doğayı korur, suyu israf etmez, kurallara uyar. Çöpleri geri dönüşüme atar, ortak alanlara özen gösterir.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "uv-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bayrak töreninde hazır ol duruşuna geçer, İstiklal Marşımızı saygıyla söyleriz. Marşımızın şairi Mehmet Akif Ersoy'dur.",
+        "gorsel": {
+          "tur": "hb",
+          "mod": "anlatim",
+          "sahne": "uv-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "uv-a1",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Ülkemizin adı ......... .",
+      "dogruCevap": "Türkiye",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "turkiye-haritasi"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a2",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Türkiye'nin başkenti ......... şehridir.",
+      "dogruCevap": "Ankara",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ankara"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a3",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Bayrağımızın renkleri ......... ve ......... .",
+      "dogruCevap": "kırmızı ve beyaz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayrak"
+      },
+      "alternatifCevaplar": [
+        "kırmızı, beyaz",
+        "beyaz ve kırmızı"
+      ],
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a4",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Türk bayrağında ......... ve ......... bulunur.",
+      "dogruCevap": "ay ve yıldız",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ay-yildiz"
+      },
+      "alternatifCevaplar": [
+        "ay, yıldız",
+        "yıldız ve ay"
+      ],
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a5",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Çöpleri yerlere atmamak iyi bir ......... görevidir.",
+      "dogruCevap": "vatandaşlık",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cop"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a6",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Millî marşımızın adı ......... Marşı'dır.",
+      "dogruCevap": "İstiklal",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "istiklal-marasi"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a7",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "İstiklal Marşı okunurken ......... duruşuna geçeriz.",
+      "dogruCevap": "hazır ol",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayrak-toreni"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a8",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Boşa akan suları kapatmak vatanımızı sevdiğimizin göstergesidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "musluk"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a9",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Çevreyi korumak sadece büyüklerin görevidir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "fidan"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a10",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Hastaneler ve okullar tüm vatandaşların ortak kullanım alanıdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "hastane"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a11",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Kağıt, cam ve plastik atıkları ......... kutusuna atmalıyız.",
+      "dogruCevap": "geri dönüşüm",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "geri-donusum"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a12",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Sokak hayvanlarına iyi davranmak iyi vatandaşlık örneğidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "sahne",
+        "sahne": "sokak-hayvani",
+        "ozellik": "yardim"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a13",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Toplu taşıma araçlarına binerken sıramızı beklemeliyiz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "otobus"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a14",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Parktaki banklara zarar vermek iyi vatandaşın davranışıdır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "park"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a15",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "İstiklal Marşı okunurken arkadaşlarımızla konuşabiliriz.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "saygi-durusu"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a16",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Ülkemizi yönetenler başkentimiz İstanbul'da çalışır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ankara"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a17",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Gereksiz yanan lambaları söndürerek ülkemizin enerjisini korumuş oluruz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "lamba"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a18",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Kütüphanedeki kitaplara zarar vermemeliyiz çünkü onlar ......... malıdır.",
+      "dogruCevap": "ortak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kutuphane"
+      },
+      "alternatifCevaplar": [
+        "kamu",
+        "ortak/kamu"
+      ],
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a19",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "İyi vatandaşlar birbirlerine karşı her zaman ......... ve nazik olmalıdır.",
+      "dogruCevap": "saygılı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "yardimlasma"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a20",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "İstiklal Marşı'mızın şairi Mehmet Akif Ersoy'dur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "mehmet-akif"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a21",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Bayrağımız bizim ......... sembolümüzdür.",
+      "dogruCevap": "bağımsızlık",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayrak"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a22",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Büyüklerimiz seçimlerde ......... kullanarak vatandaşlık görevini yapar.",
+      "dogruCevap": "oy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "secim"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a23",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Yiyebileceğimiz kadar yemek almak israfı önler.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "tabak"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a24",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Kurallara uymak bizi daha iyi vatandaş yapar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kirmizi-isik"
+      },
+      "kazanim": "HB.2.3.1"
+    },
+    {
+      "id": "uv-a25",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "yazili",
+      "soru": "Bizler bu ülkenin mutlu ......... olarak ülkemizi çok seviyoruz.",
+      "dogruCevap": "çocukları",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cocuk"
+      },
+      "alternatifCevaplar": [
+        "çocuklarıyız",
+        "çocuklar"
+      ],
+      "kazanim": "HB.2.3.1"
+    }
+  ],
+  "test": [
+    {
+      "id": "uv-t1",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ülkemizin adı nedir?",
+      "dogruCevap": "Türkiye",
+      "secenekler": [
+        "Avrupa",
+        "Ankara",
+        "Türkiye",
+        "İstanbul"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "turkiye-haritasi"
+      }
+    },
+    {
+      "id": "uv-t2",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bayrağımızın renkleri hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Kırmızı - Beyaz",
+      "secenekler": [
+        "Sarı - Lacivert",
+        "Siyah - Beyaz",
+        "Kırmızı - Beyaz",
+        "Mavi - Kırmızı"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayrak"
+      }
+    },
+    {
+      "id": "uv-t3",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Türkiye'nin başkenti neresidir?",
+      "dogruCevap": "Ankara",
+      "secenekler": [
+        "Ankara",
+        "Antalya",
+        "İstanbul",
+        "İzmir"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "meclis"
+      }
+    },
+    {
+      "id": "uv-t4",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Okulda hep bir ağızdan söylediğimiz marşımızın adı nedir?",
+      "dogruCevap": "İstiklal Marşı",
+      "secenekler": [
+        "Çocuk Şarkısı",
+        "İstiklal Marşı",
+        "Gençlik Marşı",
+        "Okul Marşı"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "bayrak-toreni"
+      }
+    },
+    {
+      "id": "uv-t5",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "İstiklal Marşı okunurken nasıl durmalıyız?",
+      "dogruCevap": "Hazır ol duruşunda saygıyla",
+      "secenekler": [
+        "Zıplamalıyız",
+        "Hazır ol duruşunda saygıyla",
+        "Arkadaşlarımızla sohbet",
+        "Kollarımızı bağlamalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "saygi-durusu"
+      }
+    },
+    {
+      "id": "uv-t6",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "İstiklal Marşı'mızın şairi kimdir?",
+      "dogruCevap": "Mehmet Akif Ersoy",
+      "secenekler": [
+        "Zübeyde Hanım",
+        "Ali Rıza Efendi",
+        "Barış Manço",
+        "Mehmet Akif Ersoy"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "mehmet-akif"
+      }
+    },
+    {
+      "id": "uv-t7",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "İyi vatandaş çöplerini nereye atmalıdır?",
+      "dogruCevap": "Çöp kutusuna",
+      "secenekler": [
+        "Çöp kutusuna",
+        "Ormanlara",
+        "Sokağa",
+        "Denizlere"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cop"
+      }
+    },
+    {
+      "id": "uv-t8",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi iyi vatandaşın özelliğidir?",
+      "dogruCevap": "Ağaç dikmek ve doğayı korumak",
+      "secenekler": [
+        "Suyu boşa harcamak",
+        "Kurallara uymamak",
+        "Ağaç dikmek ve doğayı korumak",
+        "Ortak eşyalara zarar vermek"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "fidan"
+      }
+    },
+    {
+      "id": "uv-t9",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Dişlerimizi fırçalarken suyu açık bırakmamak neyin göstergesidir?",
+      "dogruCevap": "Kaynakları koruyan iyi vatandaş olduğumuzun",
+      "secenekler": [
+        "Suyu sevmediğimizin",
+        "Kaynakları koruyan iyi vatandaş olduğumuzun",
+        "Tembel olduğumuzun",
+        "Bilmediğimizin"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "musluk"
+      }
+    },
+    {
+      "id": "uv-t10",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Atıkları geri dönüşüme vermek ülkemize nasıl fayda sağlar?",
+      "dogruCevap": "Kaynakları korumamızı sağlar",
+      "secenekler": [
+        "Kaynakları korumamızı sağlar",
+        "Hiçbir fayda yok",
+        "Ülkemizi yorar",
+        "Çöplüğe dönmesine neden olur"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "geri-donusum"
+      }
+    },
+    {
+      "id": "uv-t11",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bayrağımızdaki şekiller nelerdir?",
+      "dogruCevap": "Ay ve Yıldız",
+      "secenekler": [
+        "Güneş ve Bulut",
+        "Ay ve Yıldız",
+        "Kalp ve Yıldız",
+        "Çiçek ve Böcek"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "ay-yildiz"
+      }
+    },
+    {
+      "id": "uv-t12",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Otobüs beklerken ne yapmalıyız?",
+      "dogruCevap": "Sıramızı beklemek",
+      "secenekler": [
+        "Bağırarak şarkı söylemek",
+        "Sıramızı beklemek",
+        "Otobüsün önüne atlamak",
+        "İterek öne geçmek"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "otobus"
+      }
+    },
+    {
+      "id": "uv-t13",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ödünç aldığımız kitabı nasıl kullanmalıyız?",
+      "dogruCevap": "Özenle okuyup zamanında iade etmeliyiz",
+      "secenekler": [
+        "Resim çizmeliyiz",
+        "Özenle okuyup zamanında iade etmeliyiz",
+        "Sayfalarını yırtmalıyız",
+        "Kaybetmeliyiz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "uv-t14",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gündüz lambayı kapatmak nasıl bir davranıştır?",
+      "dogruCevap": "Enerji tasarrufu sağlayan örnek davranıştır",
+      "secenekler": [
+        "Enerji tasarrufu sağlayan örnek davranıştır",
+        "Yanlıştır",
+        "Kötüdür",
+        "Komiktir"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "lamba"
+      }
+    },
+    {
+      "id": "uv-t15",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Parklardaki oyuncakları nasıl kullanmalıyız?",
+      "dogruCevap": "Dikkatli kullanmalı zarar vermemeliyiz",
+      "secenekler": [
+        "Başkalarını engellemeliyiz",
+        "Kırıp evimize götürmeliyiz",
+        "Dikkatli kullanmalı zarar vermemeliyiz",
+        "Sadece biz oynamalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "park"
+      }
+    },
+    {
+      "id": "uv-t16",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kantinden alışveriş yaparken ne yapmalıyız?",
+      "dogruCevap": "Sıraya girmeliyiz",
+      "secenekler": [
+        "Öne geçmeliyiz",
+        "İtmeliyiz",
+        "Sıraya girmeliyiz",
+        "Bağırmalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sira"
+      }
+    },
+    {
+      "id": "uv-t17",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Otobüste yaşlı teyze gördüğümüzde ne yapmalıyız?",
+      "dogruCevap": "Ona yer vermeliyiz",
+      "secenekler": [
+        "Gözlerimizi kapatmalıyız",
+        "Görmezden gelmeliyiz",
+        "Ona yer vermeliyiz",
+        "Daha çok yayılmalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "yasli-teyze"
+      }
+    },
+    {
+      "id": "uv-t18",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi çevreye karşı sorumluluğumuzdur?",
+      "dogruCevap": "Bitkileri sulamak ve korumak",
+      "secenekler": [
+        "Bitkileri sulamak ve korumak",
+        "Dalları kırmak",
+        "Çiçekleri koparmak",
+        "Çimleri ezmek"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "uv-t19",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kurallar kimlerin iyiliği için konulur?",
+      "dogruCevap": "Tüm vatandaşların barış ve mutluluğu için",
+      "secenekler": [
+        "Sadece büyüklerin",
+        "Hayvanların",
+        "Sadece çocukların",
+        "Tüm vatandaşların barış ve mutluluğu için"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "turkiye-haritasi"
+      }
+    },
+    {
+      "id": "uv-t20",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "İsrafı önlemek için ne yapmalıyız?",
+      "dogruCevap": "Yiyeceğimiz kadar almalıyız",
+      "secenekler": [
+        "Yemekleri çöpe atmalıyız",
+        "Yiyeceğimiz kadar almalıyız",
+        "Çok fazla yemek almalıyız",
+        "Yemeklerle oynamalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "tabak"
+      }
+    },
+    {
+      "id": "uv-t21",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Harçlıktan kumbaraya atmak bize ne kazandırır?",
+      "dogruCevap": "Tasarruf alışkanlığı",
+      "secenekler": [
+        "Paranın kaybolmasını",
+        "Tasarruf alışkanlığı",
+        "Bizi yorar",
+        "Hiçbir işe yaramaz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "kumbara"
+      }
+    },
+    {
+      "id": "uv-t22",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yolda yürürken İstiklal Marşı duyarsak ne yapmalıyız?",
+      "dogruCevap": "Durup saygıyla marşımıza eşlik etmeliyiz",
+      "secenekler": [
+        "Telefonla konuşmalıyız",
+        "Kulaklarımızı kapatmalıyız",
+        "Koşarak uzaklaşmalıyız",
+        "Durup saygıyla marşımıza eşlik etmeliyiz"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "istiklal-marasi"
+      }
+    },
+    {
+      "id": "uv-t23",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıf kurallarına uymak bizi neye hazırlar?",
+      "dogruCevap": "Toplum kurallarına uyan iyi vatandaş olmaya",
+      "secenekler": [
+        "Ressam olmaya",
+        "Toplum kurallarına uyan iyi vatandaş olmaya",
+        "Sporcu olmaya",
+        "Müzisyen olmaya"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "sinif-kurallari"
+      }
+    },
+    {
+      "id": "uv-t24",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ülkemizi geliştirmek için ne yapmalıyız?",
+      "dogruCevap": "Çok çalışmalı ve görevlerimizi en iyi yapmalıyız",
+      "secenekler": [
+        "Çok çalışmalı ve görevlerimizi en iyi yapmalıyız",
+        "Sürekli uyumalıyız",
+        "Görevleri başkalarına bırakmalıyız",
+        "Kuralları bozmalıyız"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "turkiye-kalp"
+      }
+    },
+    {
+      "id": "uv-t25",
+      "kazanimKodu": "HB.2.3.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle yurdunu seven çocuğa aittir?",
+      "dogruCevap": "Ülkemi seviyor, doğayı koruyor ve çalışıyorum",
+      "secenekler": [
+        "Sadece öğretmenim varken uyarım",
+        "Ülkemi seviyor, doğayı koruyor ve çalışıyorum",
+        "Çöplerimi hep yere atarım",
+        "Çevreyi hiç umursamam"
+      ],
+      "ipucu": "",
+      "kazanim": "HB.2.3.1",
+      "gorsel": {
+        "tur": "hb",
+        "mod": "nesne",
+        "nesne": "cocuk"
+      }
+    }
+  ]
+}
