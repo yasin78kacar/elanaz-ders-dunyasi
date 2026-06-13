@@ -7,9 +7,7 @@ import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
-import { SecenekIkon } from './nesneler/SecenekIkon';
 import { AnswerButton } from './AnswerButton';
-import { QuestionOption } from './QuestionOption';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 
 const MAX_DEGISIKLIK = 2;
@@ -84,29 +82,19 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
           return (
             <AnswerButton
               key={secenek}
-              onPress={() => secimYap(secenek)}
+              secenek={secenek}
+              ikon={soru.secenekIkonlari?.[secenek]}
+              secili={secili}
+              dogru={dogruGoster}
+              yanlis={yanlisGoster}
               disabled={kilitli || durum !== 'bekle'}
-              selected={secili && !dogruGoster && !yanlisGoster}
-              correct={dogruGoster}
-              wrong={yanlisGoster}
-            >
-              <QuestionOption
-                text={secenek}
-                icon={
-                  soru.secenekIkonlari?.[secenek] ? (
-                    <SecenekIkon
-                      ikon={soru.secenekIkonlari[secenek]}
-                      size={layout.secenekIkonBoyut}
-                    />
-                  ) : undefined
-                }
-                textStyle={[
-                  secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
-                  dogruGoster && styles.secenekMetinDogru,
-                  yanlisGoster && styles.secenekMetinYanlis,
-                ]}
-              />
-            </AnswerButton>
+              onPress={() => secimYap(secenek)}
+              textStyle={[
+                secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
+                dogruGoster && styles.secenekMetinDogru,
+                yanlisGoster && styles.secenekMetinYanlis,
+              ]}
+            />
           );
         })}
       </View>

@@ -1,29 +1,33 @@
-import { useMemo, type ReactNode } from 'react';
+import { useMemo } from 'react';
 import { StyleSheet, View, type StyleProp, type TextStyle } from 'react-native';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { secenekGosterim } from '../utils/secenekGosterim';
+import type { SecenekIkon as SecenekIkonTip } from '../types/content';
+import { SecenekIkon } from './nesneler/SecenekIkon';
 import { AnswerDisplay } from './AnswerDisplay';
 
 interface Props {
-  text: string | number;
-  icon?: ReactNode;
-  textStyle?: StyleProp<TextStyle>;
+  secenek: string | number;
+  ikon?: SecenekIkonTip;
+  style?: StyleProp<TextStyle>;
 }
 
-/** Şık satırı: isteğe bağlı ikon + cevap metni. */
-export function QuestionOption({ text, icon, textStyle }: Props) {
+/** Tek şık satırı — ikon + metin, esnek genişlik. */
+export function QuestionOption({ secenek, ikon, style }: Props) {
   const layout = useDeviceLayout();
+  const metin = secenekGosterim(secenek);
 
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        icerik: {
+        sarmalayici: {
           flexDirection: 'row',
           alignItems: 'center',
           justifyContent: 'flex-start',
           gap: layout.spacing(10),
-          flexWrap: 'nowrap',
-          flexGrow: 0,
+          flex: 1,
           flexShrink: 0,
+          flexWrap: 'nowrap',
           overflow: 'visible',
           paddingRight: layout.spacing(6),
         },
@@ -32,9 +36,9 @@ export function QuestionOption({ text, icon, textStyle }: Props) {
   );
 
   return (
-    <View style={styles.icerik}>
-      {icon}
-      <AnswerDisplay text={text} style={textStyle} />
+    <View style={styles.sarmalayici}>
+      {ikon ? <SecenekIkon ikon={ikon} size={layout.secenekIkonBoyut} /> : null}
+      <AnswerDisplay style={style}>{metin}</AnswerDisplay>
     </View>
   );
 }

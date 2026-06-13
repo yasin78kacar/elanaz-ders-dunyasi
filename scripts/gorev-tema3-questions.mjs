@@ -1,5 +1,12 @@
 /** GOREV-TEMA3 — Toplama, Çıkarma, Zihinden İşlemler, Problemler (250 görselli soru). */
 
+import {
+  mat3aToplamaAlistirma,
+  mat3aCikarmaAlistirma,
+  mat3aToplamaTest,
+  mat3aCikarmaTest,
+} from './gorev-mat3a-questions.mjs';
+
 const KAZANIM = {
   TOPLAMA: 'MAT.2.3.1',
   CIKARMA: 'MAT.2.3.2',
@@ -698,8 +705,8 @@ export function toplama(karistir) {
         },
       ],
     },
-    alistirma: toplamaAlistirma(),
-    test: toplamaTest(karistir),
+    alistirma: [...toplamaAlistirma(), ...mat3aToplamaAlistirma()],
+    test: [...toplamaTest(karistir), ...mat3aToplamaTest(karistir)],
   };
 }
 
@@ -727,8 +734,8 @@ export function cikarma(karistir) {
         },
       ],
     },
-    alistirma: cikarmaAlistirma(),
-    test: cikarmaTest(karistir),
+    alistirma: [...cikarmaAlistirma(), ...mat3aCikarmaAlistirma()],
+    test: [...cikarmaTest(karistir), ...mat3aCikarmaTest(karistir)],
   };
 }
 

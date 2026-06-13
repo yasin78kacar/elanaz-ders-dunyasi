@@ -28,6 +28,7 @@ export function GuvenliMetin({ children, style, tamGenislik = true, textAlign = 
 
 const styles = StyleSheet.create({
   metin: {
+    flex: 1,
     flexShrink: 0,
     overflow: 'visible',
     paddingHorizontal: 3,

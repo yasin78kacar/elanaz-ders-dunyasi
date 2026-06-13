@@ -1,32 +1,38 @@
-import { useMemo, type ReactNode } from 'react';
-import { Pressable, StyleSheet, View } from 'react-native';
-import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { useMemo } from 'react';
+import { Pressable, StyleSheet, View, type StyleProp, type TextStyle, type ViewStyle } from 'react-native';
 import { colors } from '../theme/colors';
+import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import type { SecenekIkon as SecenekIkonTip } from '../types/content';
+import { QuestionOption } from './QuestionOption';
 
 interface Props {
-  onPress: () => void;
+  secenek: string | number;
+  ikon?: SecenekIkonTip;
+  secili?: boolean;
+  dogru?: boolean;
+  yanlis?: boolean;
   disabled?: boolean;
-  selected?: boolean;
-  correct?: boolean;
-  wrong?: boolean;
-  children: ReactNode;
+  onPress: () => void;
+  textStyle?: StyleProp<TextStyle>;
 }
 
-/** Test şıkkı düğmesi — sabit genişlik yok, metin kırpılmaz. */
+/** Test şıkkı butonu — metin kırpılmaz. */
 export function AnswerButton({
-  onPress,
+  secenek,
+  ikon,
+  secili,
+  dogru,
+  yanlis,
   disabled,
-  selected,
-  correct,
-  wrong,
-  children,
+  onPress,
+  textStyle,
 }: Props) {
   const layout = useDeviceLayout();
 
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        hit: { overflow: 'visible', alignSelf: 'stretch' },
+        hit: { overflow: 'visible', alignSelf: 'stretch', flex: 1 },
         secenek: {
           borderWidth: 2,
           borderColor: colors.kenarlik,
@@ -37,6 +43,8 @@ export function AnswerButton({
           backgroundColor: colors.kart,
           overflow: 'visible',
           alignSelf: 'stretch',
+          flex: 1,
+          flexShrink: 0,
         },
         secenekSecili: {
           borderColor: colors.birincil,
@@ -54,18 +62,17 @@ export function AnswerButton({
     [layout],
   );
 
+  const kutuStili: StyleProp<ViewStyle> = [
+    styles.secenek,
+    secili && !dogru && !yanlis && styles.secenekSecili,
+    dogru && styles.secenekDogru,
+    yanlis && styles.secenekYanlis,
+  ];
+
   return (
     <Pressable onPress={onPress} disabled={disabled} style={styles.hit}>
-      <View
-        collapsable={false}
-        style={[
-          styles.secenek,
-          selected && !correct && !wrong && styles.secenekSecili,
-          correct && styles.secenekDogru,
-          wrong && styles.secenekYanlis,
-        ]}
-      >
-        {children}
+      <View collapsable={false} style={kutuStili}>
+        <QuestionOption secenek={secenek} ikon={ikon} style={textStyle} />
       </View>
     </Pressable>
   );

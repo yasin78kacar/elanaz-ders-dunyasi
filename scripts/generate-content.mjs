@@ -511,13 +511,22 @@ writeFileSync(join(ingDir, 'basit-diyaloglar.json'), JSON.stringify(basitDiyalog
 writeFileSync(join(ingDir, 'ingilizce-sarkilar.json'), JSON.stringify(ingilizceSarkilarKonu, null, 2));
 
 const englishDataDir = join(__dirname, '../src/data/english');
+const mathDataDir = join(__dirname, '../src/data/math');
 mkdirSync(englishDataDir, { recursive: true });
+mkdirSync(mathDataDir, { recursive: true });
 const theme4 = {
   id: 'tema-4',
   baslik: 'İngilizce — Tema 4',
   konular: [kisaHikayelerKonu, basitDiyaloglarKonu, ingilizceSarkilarKonu],
 };
 writeFileSync(join(englishDataDir, 'theme4.json'), JSON.stringify(theme4, null, 2));
+
+const tema3 = {
+  id: 'tema-3',
+  baslik: 'Tema 3 — Toplama ve Çıkarma',
+  konular: [toplamaKonu, cikarmaKonu, zihindenToplamaKonu, zihindenCikarmaKonu, problemlerKonu],
+};
+writeFileSync(join(mathDataDir, 'tema3.json'), JSON.stringify(tema3, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });

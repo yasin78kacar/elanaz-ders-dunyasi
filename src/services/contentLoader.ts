@@ -10,11 +10,6 @@ import siviOlcme from '../../content/sinif2/matematik/sivi-olcme.json';
 import sayiDogrusu from '../../content/sinif2/matematik/sayi-dogrusu.json';
 import oruntu from '../../content/sinif2/matematik/oruntu.json';
 import tahminEtme from '../../content/sinif2/matematik/tahmin-etme.json';
-import toplama from '../../content/sinif2/matematik/toplama.json';
-import cikarma from '../../content/sinif2/matematik/cikarma.json';
-import zihindenToplama from '../../content/sinif2/matematik/zihinden-toplama.json';
-import zihindenCikarma from '../../content/sinif2/matematik/zihinden-cikarma.json';
-import problemler from '../../content/sinif2/matematik/problemler.json';
 import uzunlukOlcme from '../../content/sinif2/matematik/uzunluk-olcme.json';
 import tartma from '../../content/sinif2/matematik/tartma.json';
 import siviMiktari from '../../content/sinif2/matematik/sivi-miktari.json';
@@ -61,9 +56,19 @@ import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.js
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
 import theme4Json from '../data/english/theme4.json';
+import tema3Json from '../data/math/tema3.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
-import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, SinifIcerik } from '../types/content';
+import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
+
+const tema3 = tema3Json as MathTheme;
+const [
+  toplamaTema3,
+  cikarmaTema3,
+  zihindenToplamaTema3,
+  zihindenCikarmaTema3,
+  problemlerTema3,
+] = tema3.konular;
 
 const theme4 = theme4Json as EnglishTheme;
 const [kisaHikayeler, basitDiyaloglar, ingilizceSarkilar] = theme4.konular;
@@ -80,11 +85,11 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/sayi-dogrusu.json': sayiDogrusu as Konu,
   'matematik/oruntu.json': oruntu as Konu,
   'matematik/tahmin-etme.json': tahminEtme as Konu,
-  'matematik/toplama.json': toplama as Konu,
-  'matematik/cikarma.json': cikarma as Konu,
-  'matematik/zihinden-toplama.json': zihindenToplama as Konu,
-  'matematik/zihinden-cikarma.json': zihindenCikarma as Konu,
-  'matematik/problemler.json': problemler as Konu,
+  'matematik/toplama.json': toplamaTema3,
+  'matematik/cikarma.json': cikarmaTema3,
+  'matematik/zihinden-toplama.json': zihindenToplamaTema3,
+  'matematik/zihinden-cikarma.json': zihindenCikarmaTema3,
+  'matematik/problemler.json': problemlerTema3,
   'matematik/uzunluk-olcme.json': uzunlukOlcme as Konu,
   'matematik/tartma.json': tartma as Konu,
   'matematik/sivi-miktari.json': siviMiktari as Konu,

@@ -1,45 +1,32 @@
-import { useMemo } from 'react';
-import { StyleSheet, Text, View, type StyleProp, type TextStyle } from 'react-native';
-import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { colors } from '../theme/colors';
-import { cevapMetniTextProps } from '../theme/typography';
-import { secenekGosterim } from '../utils/secenekGosterim';
+import { Platform, StyleSheet, Text, type StyleProp, type TextStyle } from 'react-native';
+import { metinSigdirProps } from '../theme/typography';
 
 interface Props {
-  text: string | number;
+  children: string;
   style?: StyleProp<TextStyle>;
 }
 
-/** Cevap / şık metni — kırpma yok, içeriğe göre genişler. */
-export function AnswerDisplay({ text, style }: Props) {
-  const layout = useDeviceLayout();
-  const metin = secenekGosterim(text);
-
-  const styles = useMemo(
-    () =>
-      StyleSheet.create({
-        sarmalayici: {
-          flexGrow: 0,
-          flexShrink: 0,
-          overflow: 'visible',
-          paddingRight: layout.spacing(14),
-          paddingLeft: layout.spacing(4),
-        },
-        metin: {
-          fontSize: layout.font.lg,
-          color: colors.metin,
-          textAlign: 'left',
-          flexShrink: 0,
-        },
-      }),
-    [layout],
-  );
-
+/** Şık / cevap metni — sabit genişlik yok, kırpma yok. */
+export function AnswerDisplay({ children, style }: Props) {
   return (
-    <View style={styles.sarmalayici}>
-      <Text style={[styles.metin, style]} {...cevapMetniTextProps()}>
-        {metin}
-      </Text>
-    </View>
+    <Text
+      style={[styles.metin, style]}
+      {...metinSigdirProps}
+      allowFontScaling
+      {...(Platform.OS === 'android'
+        ? { includeFontPadding: false, textBreakStrategy: 'simple' as const }
+        : {})}
+    >
+      {children}
+    </Text>
   );
 }
+
+const styles = StyleSheet.create({
+  metin: {
+    flex: 1,
+    flexShrink: 0,
+    overflow: 'visible',
+    textAlign: 'left',
+  },
+});

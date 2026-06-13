@@ -1,0 +1,5905 @@
+{
+  "id": "tema-3",
+  "baslik": "Matematik — Tema 3",
+  "konular": [
+    {
+      "id": "toplama",
+      "baslik": "Toplama İşlemi",
+      "kazanimKodu": "MAT.2.3.1",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Elimde 3 elma var, arkadaşım bana 2 elma daha verdi. Şimdi kaç elmam var? 3 + 2 = 5! Buna TOPLAMA deriz.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ti-anlatim-1"
+            }
+          },
+          {
+            "metin": "Toplama işaretimiz artı (+) işaretidir. 4 + 3 = 7. Büyük sayıdan başlayıp küçük sayıyı sayarız: 4… 5, 6, 7!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ti-anlatim-2"
+            }
+          },
+          {
+            "metin": "Toplama işleminde sayıların yeri değişse de sonuç değişmez! 2 + 5 = 7, 5 + 2 = 7.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ti-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "ti-a1",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "2 + 3 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 2,
+            "b": 3,
+            "sonuc": 5,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a2",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "4 + 1 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 4,
+            "b": 1,
+            "sonuc": 5,
+            "nesne": "cicek",
+            "renk1": "sari",
+            "renk2": "pembe"
+          }
+        },
+        {
+          "id": "ti-a3",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "3 + 3 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 3,
+            "b": 3,
+            "sonuc": 6,
+            "nesne": "kelebek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a4",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "5 + 2 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 5,
+            "b": 2,
+            "sonuc": 7,
+            "nesne": "elma",
+            "renk1": "yesil",
+            "renk2": "kirmizi"
+          }
+        },
+        {
+          "id": "ti-a5",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "6 + 1 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 6,
+            "b": 1,
+            "sonuc": 7,
+            "nesne": "balon",
+            "renk1": "mavi",
+            "renk2": "sari"
+          }
+        },
+        {
+          "id": "ti-a6",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "4 + 4 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 4,
+            "b": 4,
+            "sonuc": 8,
+            "nesne": "yildiz",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a7",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "3 + 5 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 3,
+            "b": 5,
+            "sonuc": 8,
+            "nesne": "kare",
+            "renk1": "turuncu",
+            "renk2": "mor"
+          }
+        },
+        {
+          "id": "ti-a8",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "7 + 2 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 7,
+            "b": 2,
+            "sonuc": 9,
+            "nesne": "cilek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a9",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "5 + 4 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 5,
+            "b": 4,
+            "sonuc": 9,
+            "nesne": "ari",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a10",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "6 + 4 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 6,
+            "b": 4,
+            "sonuc": 10,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a11",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "8 + 2 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "yildiz",
+            "renk1": "sari",
+            "renk2": "yesil"
+          }
+        },
+        {
+          "id": "ti-a12",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "5 + 5 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 5,
+            "b": 5,
+            "sonuc": 10,
+            "nesne": "parmak",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a13",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "7 + 3 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 7,
+            "b": 3,
+            "sonuc": 10,
+            "nesne": "meyve",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a14",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "9 + 1 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 1,
+            "sonuc": 10,
+            "nesne": "cilek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a15",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "6 + 5 = ?",
+          "dogruCevap": "11",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 6,
+            "b": 5,
+            "sonuc": 11,
+            "nesne": "kup",
+            "renk1": "mavi",
+            "renk2": "kirmizi"
+          }
+        },
+        {
+          "id": "ti-a16",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "8 + 4 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 4,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "sari",
+            "renk2": "mor"
+          }
+        },
+        {
+          "id": "ti-a17",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "7 + 6 = ?",
+          "dogruCevap": "13",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 7,
+            "b": 6,
+            "sonuc": 13,
+            "nesne": "kelebek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a18",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "9 + 5 = ?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 5,
+            "sonuc": 14,
+            "nesne": "yildiz",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a19",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "8 + 7 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 7,
+            "sonuc": 15,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a20",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "9 + 6 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 6,
+            "sonuc": 15,
+            "nesne": "elma",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a21",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "7 + 9 = ?",
+          "dogruCevap": "16",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 7,
+            "b": 9,
+            "sonuc": 16,
+            "nesne": "balon",
+            "renk1": "mavi",
+            "renk2": "kirmizi"
+          }
+        },
+        {
+          "id": "ti-a22",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "8 + 9 = ?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 9,
+            "sonuc": 17,
+            "nesne": "cicek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a23",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "9 + 9 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 9,
+            "sonuc": 18,
+            "nesne": "yildiz",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-a24",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "10 + 8 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 8,
+            "sonuc": 18
+          }
+        },
+        {
+          "id": "ti-a25",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "10 + 9 = ?",
+          "dogruCevap": "19",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 9,
+            "sonuc": 19
+          }
+        },
+        {
+          "id": "3a-go-a1",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "Ali 20 elmaya 15 elma eklerse toplam 35 elması olur.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 20,
+            "b": 15,
+            "sonuc": 35,
+            "nesne": "elma",
+            "renk1": "kirmizi",
+            "renk2": "yesil"
+          }
+        },
+        {
+          "id": "3a-go-a2",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "3 onluk ve 4 birlik toplam 34 sayısını oluşturur.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 30,
+            "b": 4,
+            "sonuc": 34
+          }
+        },
+        {
+          "id": "3a-go-a4",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "Can'ın 40 mavi ve 20 sarı bilyesi var. Toplam bilye sayısı 60'tır.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 40,
+            "b": 20,
+            "sonuc": 60,
+            "nesne": "top",
+            "renk1": "mavi",
+            "renk2": "sari"
+          }
+        },
+        {
+          "id": "3a-go-a5",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "Fatma 25 fındık ve 12 ceviz yedi. Toplam 37 yemiş yedi.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 25,
+            "b": 12,
+            "sonuc": 37,
+            "nesne": "meyve",
+            "renk1": "kirmizi",
+            "renk2": "yesil"
+          }
+        },
+        {
+          "id": "3a-go-a8",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "Bahçede 18 kırmızı, 11 beyaz gül var. Toplam gül sayısı 29 tanedir.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 18,
+            "b": 11,
+            "sonuc": 29,
+            "nesne": "cicek",
+            "renk1": "kirmizi",
+            "renk2": "beyaz"
+          }
+        },
+        {
+          "id": "3a-go-a9",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "yazili",
+          "soru": "75 sayısı, 7 onluk ve 5 birlikten oluşur.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 70,
+            "b": 5,
+            "sonuc": 75
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "ti-t1",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "3 + 4 = ?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "8",
+            "7",
+            "5",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 3,
+            "b": 4,
+            "sonuc": 7,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t2",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "5 + 3 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "9",
+            "8",
+            "6",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 5,
+            "b": 3,
+            "sonuc": 8,
+            "nesne": "cilek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t3",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Elde 4 kalem var, 3 kalem daha aldı. Kaç kalemi var?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "8",
+            "7",
+            "9",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 4,
+            "b": 3,
+            "sonuc": 7,
+            "nesne": "kalem",
+            "renk1": "sari",
+            "renk2": "kirmizi"
+          }
+        },
+        {
+          "id": "ti-t4",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "6 + 6 = ?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "13",
+            "11",
+            "10",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 6,
+            "b": 6,
+            "sonuc": 12,
+            "nesne": "kelebek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t5",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "9 + 0 = ?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "8",
+            "10",
+            "0",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 0,
+            "sonuc": 9,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t6",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 7 kız, 5 erkek öğrenci var. Toplam kaç öğrenci var?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "10",
+            "12",
+            "11",
+            "13"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-ogrenci"
+          }
+        },
+        {
+          "id": "ti-t7",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "8 + 3 = ?",
+          "dogruCevap": "11",
+          "secenekler": [
+            "13",
+            "11",
+            "12",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 3,
+            "sonuc": 11,
+            "nesne": "yildiz",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t8",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "□ + 4 = 9. Kutudaki sayı kaçtır?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "4",
+            "5",
+            "3",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 4,
+            "b": 9,
+            "sonuc": 9,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ti-t9",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "7 + 7 = ?",
+          "dogruCevap": "14",
+          "secenekler": [
+            "15",
+            "13",
+            "12",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 7,
+            "b": 7,
+            "sonuc": 14,
+            "nesne": "elma",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t10",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Hangi işlemin sonucu 10'dur?",
+          "dogruCevap": "6 + 4",
+          "secenekler": [
+            "3 + 6",
+            "4 + 5",
+            "5 + 4",
+            "6 + 4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 4,
+                "b": 5,
+                "sonuc": 9,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 3,
+                "b": 6,
+                "sonuc": 9,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 6,
+                "b": 4,
+                "sonuc": 10,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 5,
+                "b": 4,
+                "sonuc": 9,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ti-t11",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "6 + 7 = ?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "11",
+            "13",
+            "12",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 6,
+            "b": 7,
+            "sonuc": 13,
+            "nesne": "balon",
+            "renk1": "mavi",
+            "renk2": "kirmizi"
+          }
+        },
+        {
+          "id": "ti-t12",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Masada 8 portakal var, 5 tane daha konuldu. Kaç portakal var?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "13",
+            "12",
+            "11",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "masa-portakal"
+          }
+        },
+        {
+          "id": "ti-t13",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "5 + □ = 12. Kutudaki sayı nedir?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "b",
+            "a": 5,
+            "b": 12,
+            "sonuc": 12,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ti-t14",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "9 + 8 = ?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "17",
+            "16",
+            "18",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 8,
+            "sonuc": 17,
+            "nesne": "yildiz",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t15",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Hangisi yanlıştır?",
+          "dogruCevap": "4 + 7 = 10",
+          "secenekler": [
+            "6 + 4 = 10",
+            "3 + 7 = 10",
+            "4 + 7 = 10",
+            "5 + 5 = 10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 3,
+                "b": 7,
+                "sonuc": 10,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 6,
+                "b": 4,
+                "sonuc": 10,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 5,
+                "b": 5,
+                "sonuc": 10,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 4,
+                "b": 7,
+                "sonuc": 11,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ti-t16",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "10 + 7 = ?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "16",
+            "18",
+            "17",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 7,
+            "sonuc": 17
+          }
+        },
+        {
+          "id": "ti-t17",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 9 gül, 9 papatya var. Toplam kaç çiçek?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "19",
+            "16",
+            "17",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-cicek"
+          }
+        },
+        {
+          "id": "ti-t18",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "□ + □ = 8. Hangi çift doğrudur?",
+          "dogruCevap": "4 + 4",
+          "secenekler": [
+            "4 + 4",
+            "5 + 4",
+            "2 + 5",
+            "3 + 6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 4,
+            "b": 4,
+            "sonuc": 8,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ti-t19",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "10 + 10 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "18",
+            "19",
+            "21",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 10,
+            "sonuc": 20
+          }
+        },
+        {
+          "id": "ti-t20",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Bir sayıya 0 eklersek ne olur?",
+          "dogruCevap": "Sayı değişmez",
+          "secenekler": [
+            "Sayı 1 artar",
+            "Sayı 0 olur",
+            "Sayı 2 artar",
+            "Sayı değişmez"
+          ],
+          "ipucu": "0 hiç demek!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 9,
+            "b": 0,
+            "sonuc": 9,
+            "nesne": "top",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ti-t21",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "8 + 5 = ?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "12",
+            "13",
+            "11",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 8,
+            "b": 5,
+            "sonuc": 13,
+            "nesne": "cilek",
+            "renk1": "kirmizi",
+            "renk2": "mavi"
+          }
+        },
+        {
+          "id": "ti-t22",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 5 + 3 ile 3 + 5 eşit midir?",
+          "dogruCevap": "Evet, ikisi de 8'dir",
+          "secenekler": [
+            "Evet, ikisi de 8'dir",
+            "Hiçbir zaman eşit olmaz",
+            "Hayır, farklıdır",
+            "Bazen eşit olur"
+          ],
+          "ipucu": "Toplama işleminde sıra değişmez!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "esitlik",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 5,
+                "b": 3,
+                "sonuc": 8,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 3,
+                "b": 5,
+                "sonuc": 8,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ti-t23",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Kutuda 6 top var, 8 tane daha atıldı. Kutuda kaç top var?",
+          "dogruCevap": "14",
+          "secenekler": [
+            "15",
+            "13",
+            "14",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-top"
+          }
+        },
+        {
+          "id": "ti-t24",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Hangisi en büyük sonucu verir?",
+          "dogruCevap": "8 + 5",
+          "secenekler": [
+            "7 + 4",
+            "9 + 1",
+            "6 + 6",
+            "8 + 5"
+          ],
+          "ipucu": "Her birini hesapla, en büyüğü bul!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 9,
+                "b": 1,
+                "sonuc": 10,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 7,
+                "b": 4,
+                "sonuc": 11,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 8,
+                "b": 5,
+                "sonuc": 13,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              },
+              {
+                "tur": "islem",
+                "mod": "toplama-grup",
+                "a": 6,
+                "b": 6,
+                "sonuc": 12,
+                "nesne": "top",
+                "renk1": "kirmizi",
+                "renk2": "mavi"
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ti-t25",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Elanaz'ın 7 kalemi, Elif'in 9 kalemi var. İkisinin kalemlerini birleştirirlerse kaç kalemi olur?",
+          "dogruCevap": "16",
+          "secenekler": [
+            "16",
+            "15",
+            "14",
+            "17"
+          ],
+          "ipucu": "Elanaz + Elif = ?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-elif-kalem"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "3a-go-t1",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Zeynep'in 30 kalemi vardı. Ali ona 20 kalem daha verdi. Zeynep'in toplam kaç kalemi oldu?",
+          "dogruCevap": "50",
+          "secenekler": [
+            "10",
+            "50",
+            "60",
+            "40"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 30,
+            "b": 20,
+            "sonuc": 50,
+            "nesne": "kalem",
+            "renk1": "kirmizi",
+            "renk2": "yesil"
+          }
+        },
+        {
+          "id": "3a-go-t2",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "4 onluk ve 5 birlikten oluşan sayıya 4 birlik eklersek hangi sayıyı buluruz?",
+          "dogruCevap": "49",
+          "secenekler": [
+            "90",
+            "54",
+            "41",
+            "49"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 45,
+            "b": 4,
+            "sonuc": 49
+          }
+        },
+        {
+          "id": "3a-go-t4",
+          "kazanimKodu": "MAT.2.3.1",
+          "tip": "coktanSecmeli",
+          "soru": "Sepette 25 elma ve 14 armut var. Sepetteki toplam meyve sayısı kaçtır?",
+          "dogruCevap": "39",
+          "secenekler": [
+            "39",
+            "11",
+            "40",
+            "29"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "toplama-grup",
+            "a": 25,
+            "b": 14,
+            "sonuc": 39,
+            "nesne": "meyve",
+            "renk1": "kirmizi",
+            "renk2": "yesil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cikarma",
+      "baslik": "Çıkarma İşlemi",
+      "kazanimKodu": "MAT.2.3.2",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Elimde 5 elma vardı, 2 tanesini yedim. Kaç elma kaldı? 5 - 2 = 3! Buna ÇIKARMA deriz.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ci-anlatim-1"
+            }
+          },
+          {
+            "metin": "Çıkarma işaretimiz eksi (-) işaretidir. Büyük sayıdan küçük sayıyı çıkarırız. 7 - 3 = 4.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ci-anlatim-2"
+            }
+          },
+          {
+            "metin": "Bir sayıdan kendisini çıkarırsak 0 kalır! 5 - 5 = 0. Bir sayıdan 0 çıkarırsak sayı değişmez! 5 - 0 = 5.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "ci-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "ci-a1",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "5 - 2 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 5,
+            "b": 2,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a2",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "4 - 1 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 4,
+            "b": 1,
+            "sonuc": 3,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a3",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "6 - 3 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 6,
+            "b": 3,
+            "sonuc": 3,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a4",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "7 - 2 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 7,
+            "b": 2,
+            "sonuc": 5,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a5",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "8 - 4 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 8,
+            "b": 4,
+            "sonuc": 4,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a6",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "9 - 3 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 9,
+            "b": 3,
+            "sonuc": 6,
+            "nesne": "kelebek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a7",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "10 - 5 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 10,
+            "b": 5,
+            "sonuc": 5,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a8",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "6 - 6 = ?",
+          "dogruCevap": "0",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 6,
+            "b": 6,
+            "sonuc": 0,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a9",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "8 - 0 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 8,
+            "b": 0,
+            "sonuc": 8,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a10",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "10 - 3 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 10,
+            "b": 3,
+            "sonuc": 7,
+            "nesne": "cicek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a11",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "11 - 4 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 11,
+            "b": 4,
+            "sonuc": 7,
+            "nesne": "kup",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a12",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "12 - 5 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 12,
+            "b": 5,
+            "sonuc": 7,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a13",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "13 - 6 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 13,
+            "b": 6,
+            "sonuc": 7,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a14",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "14 - 7 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 14,
+            "b": 7,
+            "sonuc": 7,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a15",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "15 - 8 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 15,
+            "b": 8,
+            "sonuc": 7,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a16",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "16 - 9 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 16,
+            "b": 9,
+            "sonuc": 7,
+            "nesne": "kelebek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a17",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "18 - 9 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 18,
+            "b": 9,
+            "sonuc": 9,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a18",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "20 - 10 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 10,
+            "sonuc": 10,
+            "nesne": "onluk",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a19",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "15 - 5 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 15,
+            "b": 5,
+            "sonuc": 10,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a20",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "20 - 5 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 5,
+            "sonuc": 15,
+            "nesne": "kup",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a21",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "17 - 8 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 17,
+            "b": 8,
+            "sonuc": 9,
+            "nesne": "cicek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a22",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "19 - 10 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 19,
+            "b": 10,
+            "sonuc": 9,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a23",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "16 - 7 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 16,
+            "b": 7,
+            "sonuc": 9,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a24",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "20 - 8 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 8,
+            "sonuc": 12,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-a25",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "20 - 3 = ?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 3,
+            "sonuc": 17,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "3a-go-a3",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "Zeynep 50 sayfalık kitabın 10 sayfasını okudu. Geriye 40 sayfa kaldı.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 50,
+            "b": 10,
+            "sonuc": 40,
+            "nesne": "kitap",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "3a-go-a6",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "6 onluktan 2 onluk çıkarırsak 4 onluk kalır.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 60,
+            "b": -20,
+            "sonuc": 40
+          }
+        },
+        {
+          "id": "3a-go-a7",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "Ayşe'nin 50 lirası vardı, 30 liraya oyuncak aldı. Geriye 20 lirası kaldı.",
+          "dogruCevap": "Yanlış",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Hayır",
+            "hayır",
+            "yanlış"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "oyuncak-alisveris"
+          }
+        },
+        {
+          "id": "3a-go-a10",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "yazili",
+          "soru": "Ağaçtaki 45 kuştan 15'i uçtu. Ağaçta 30 kuş kaldı.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 45,
+            "b": 15,
+            "sonuc": 30,
+            "nesne": "kus",
+            "renk1": "kirmizi"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "ci-t1",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "6 - 2 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 4,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t2",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "9 - 4 = ?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "5",
+            "4",
+            "3",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 9,
+            "b": 4,
+            "sonuc": 5,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t3",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Masada 8 elma vardı, 3 tanesi yendi. Kaç elma kaldı?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "7",
+            "6",
+            "5",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "masa-elma"
+          }
+        },
+        {
+          "id": "ci-t4",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "10 - 6 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "3",
+            "4",
+            "6",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 10,
+            "b": 6,
+            "sonuc": 4,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t5",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "7 - 7 = ?",
+          "dogruCevap": "0",
+          "secenekler": [
+            "2",
+            "7",
+            "0",
+            "1"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 7,
+            "b": 7,
+            "sonuc": 0,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t6",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 12 kuş vardı, 5 tanesi uçtu. Kaç kuş kaldı?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "9",
+            "8",
+            "7",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-kus"
+          }
+        },
+        {
+          "id": "ci-t7",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "11 - 3 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 11,
+            "b": 3,
+            "sonuc": 8,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t8",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "□ - 4 = 6. Kutudaki sayı kaçtır?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "9",
+            "8",
+            "11",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 4,
+            "b": 6,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ci-t9",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "14 - 6 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "7",
+            "6",
+            "8",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 14,
+            "b": 6,
+            "sonuc": 8,
+            "nesne": "cicek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t10",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Hangi işlemin sonucu 5'tir?",
+          "dogruCevap": "10 - 5",
+          "secenekler": [
+            "7 - 3",
+            "10 - 5",
+            "9 - 3",
+            "8 - 2"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 9,
+                "b": 3,
+                "sonuc": 6,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 8,
+                "b": 2,
+                "sonuc": 6,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 10,
+                "b": 5,
+                "sonuc": 5,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 7,
+                "b": 3,
+                "sonuc": 4,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ci-t11",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "15 - 7 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "6",
+            "7",
+            "9",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 15,
+            "b": 7,
+            "sonuc": 8,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t12",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Kutuda 16 top vardı, 9 tanesi alındı. Kaç top kaldı?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "5",
+            "7",
+            "6",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-top-aliniyor"
+          }
+        },
+        {
+          "id": "ci-t13",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "12 - □ = 7. Kutudaki sayı nedir?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "5",
+            "6",
+            "3",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "b",
+            "a": 12,
+            "b": 7,
+            "sonuc": 12,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ci-t14",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "18 - 9 = ?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "8",
+            "10",
+            "7",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 18,
+            "b": 9,
+            "sonuc": 9,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t15",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Hangisi yanlıştır?",
+          "dogruCevap": "9 - 4 = 4",
+          "secenekler": [
+            "10 - 5 = 5",
+            "6 - 3 = 3",
+            "8 - 4 = 4",
+            "9 - 4 = 4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 10,
+                "b": 5,
+                "sonuc": 5,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 8,
+                "b": 4,
+                "sonuc": 4,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 6,
+                "b": 3,
+                "sonuc": 3,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 9,
+                "b": 4,
+                "sonuc": 5,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ci-t16",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "20 - 7 = ?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "14",
+            "13",
+            "12",
+            "11"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 7,
+            "sonuc": 13,
+            "nesne": "kup",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t17",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz'ın 15 boyası vardı, 6 tanesini Elif'e verdi. Kaç boyası kaldı?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "9",
+            "7",
+            "8",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-boya-veriyor"
+          }
+        },
+        {
+          "id": "ci-t18",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Bir sayıdan 0 çıkarırsak ne olur?",
+          "dogruCevap": "Sayı değişmez",
+          "secenekler": [
+            "Sayı değişmez",
+            "Sayı 2 azalır",
+            "Sayı 1 azalır",
+            "Sayı 0 olur"
+          ],
+          "ipucu": "0 hiç demek!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 7,
+            "b": 0,
+            "sonuc": 7,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ci-t19",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "20 - 11 = ?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "9",
+            "8",
+            "7",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "cikarma-grup",
+            "a": 20,
+            "b": 11,
+            "sonuc": 9,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "ci-t20",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 13 - 8 = ?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "6",
+            "4",
+            "5",
+            "3"
+          ],
+          "ipucu": "8'den 13'e kaç adım?",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 8,
+            "adim": 1,
+            "adimSayisi": 6,
+            "vurgulananlar": [
+              8,
+              13
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ci-t21",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 20 kalem vardı, 14 tanesi dağıtıldı. Kaç kalem kaldı?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "6",
+            "7",
+            "4",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kalem-kutusu-dagitim"
+          }
+        },
+        {
+          "id": "ci-t22",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 17 - 9 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "8",
+            "6",
+            "9",
+            "7"
+          ],
+          "ipucu": "17 = 10 + 7, önce 10'dan 9 çıkar!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 17
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 8
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ci-t23",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "□ - 6 = 8. Kutudaki sayı nedir?",
+          "dogruCevap": "14",
+          "secenekler": [
+            "14",
+            "12",
+            "13",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 6,
+            "b": 8,
+            "sonuc": 14,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "ci-t24",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Hangisi en küçük sonucu verir?",
+          "dogruCevap": "11 - 9",
+          "secenekler": [
+            "15 - 9",
+            "12 - 8",
+            "11 - 9",
+            "10 - 7"
+          ],
+          "ipucu": "Her birini hesapla, en küçüğü bul!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 15,
+                "b": 9,
+                "sonuc": 6,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 12,
+                "b": 8,
+                "sonuc": 4,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 10,
+                "b": 7,
+                "sonuc": 3,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              },
+              {
+                "tur": "islem",
+                "mod": "cikarma-grup",
+                "a": 11,
+                "b": 9,
+                "sonuc": 2,
+                "nesne": "top",
+                "renk1": "kirmizi"
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "ci-t25",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Elanaz'ın 20 çikolatası var. Elanaz, Elif'e 7, Alya'ya 5 çikolata verdi. Elanaz'da kaç çikolata kaldı?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "8",
+            "9",
+            "6",
+            "7"
+          ],
+          "ipucu": "Önce verdiği toplam: 7 + 5 = 12, sonra 20 - 12 = ?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-cikolata-paylasim"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "3a-go-t3",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "Can 60 lirasının 20 lirası ile top aldı. Can'ın geriye ne kadar parası kaldı?",
+          "dogruCevap": "40",
+          "secenekler": [
+            "30",
+            "40",
+            "50",
+            "80"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "top-alisveris"
+          }
+        },
+        {
+          "id": "3a-go-t5",
+          "kazanimKodu": "MAT.2.3.2",
+          "tip": "coktanSecmeli",
+          "soru": "7 onluktan 3 onluk çıkarırsak geriye kaç onluk kalır?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "5",
+            "4",
+            "3",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 70,
+            "b": -30,
+            "sonuc": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "zihinden-toplama",
+      "baslik": "Zihinden Toplama",
+      "kazanimKodu": "MAT.2.3.3",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Kağıt-kalem kullanmadan, sadece aklımızda toplama yapabiliriz! Buna ZİHİNDEN TOPLAMA deriz. 6 + 3 = ? Aklında say: 6… 7, 8, 9!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zt-anlatim-1"
+            }
+          },
+          {
+            "metin": "Kolaylaştırma tüyosu: Önce 10'a tamamla! 8 + 5 = ? 8'e 2 ekle → 10, kalan 3'ü ekle → 13!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zt-anlatim-2"
+            }
+          },
+          {
+            "metin": "Büyük sayıdan başla, küçük sayıyı ekle! 14 + 3 = ? 14'ten başla… 15, 16, 17!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zt-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "zt-a1",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "5 + 4 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 5,
+            "b": 4,
+            "sonuc": 9,
+            "nesne": "parmak"
+          }
+        },
+        {
+          "id": "zt-a2",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "7 + 2 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 7,
+            "b": 2,
+            "sonuc": 9,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-a3",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "6 + 3 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 6,
+            "b": 3,
+            "sonuc": 9,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zt-a4",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "8 + 1 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 8,
+            "b": 1,
+            "sonuc": 9,
+            "nesne": "elma"
+          }
+        },
+        {
+          "id": "zt-a5",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "9 + 1 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 9,
+            "b": 1,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-a6",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "8 + 2 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 8
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 10
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a7",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "7 + 3 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 7,
+            "b": 3,
+            "sonuc": 10,
+            "nesne": "cilek"
+          }
+        },
+        {
+          "id": "zt-a8",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "6 + 4 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 6,
+            "b": 4,
+            "sonuc": 10,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zt-a9",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "9 + 3 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a10",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "8 + 4 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 8
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 12
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a11",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "7 + 6 = ?",
+          "dogruCevap": "13",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 7
+              },
+              {
+                "deger": 3
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 3
+              },
+              {
+                "deger": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a12",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "9 + 5 = ?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 4
+              },
+              {
+                "deger": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a13",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "8 + 7 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 8
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 5
+              },
+              {
+                "deger": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a14",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "6 + 9 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 6
+              },
+              {
+                "deger": 4
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 5
+              },
+              {
+                "deger": 15
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-a15",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "10 + 4 = ?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 4,
+            "sonuc": 14
+          }
+        },
+        {
+          "id": "zt-a16",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "10 + 7 = ?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 7,
+            "sonuc": 17
+          }
+        },
+        {
+          "id": "zt-a17",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "10 + 9 = ?",
+          "dogruCevap": "19",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "onluk-toplama",
+            "a": 10,
+            "b": 9,
+            "sonuc": 19
+          }
+        },
+        {
+          "id": "zt-a18",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "11 + 3 = ?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 11,
+            "adim": 1,
+            "adimSayisi": 4,
+            "vurgulananlar": [
+              11,
+              14
+            ]
+          }
+        },
+        {
+          "id": "zt-a19",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "12 + 5 = ?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 12,
+            "adim": 1,
+            "adimSayisi": 6,
+            "vurgulananlar": [
+              12,
+              17
+            ]
+          }
+        },
+        {
+          "id": "zt-a20",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "13 + 4 = ?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 13,
+            "b": 4,
+            "sonuc": 17,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-a21",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "14 + 4 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 14,
+            "adim": 1,
+            "adimSayisi": 5,
+            "vurgulananlar": [
+              14,
+              18
+            ]
+          }
+        },
+        {
+          "id": "zt-a22",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "15 + 3 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 15,
+            "b": 3,
+            "sonuc": 18,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zt-a23",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "16 + 2 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 16,
+            "b": 2,
+            "sonuc": 18,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zt-a24",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "17 + 2 = ?",
+          "dogruCevap": "19",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 17,
+            "adim": 1,
+            "adimSayisi": 3,
+            "vurgulananlar": [
+              17,
+              19
+            ]
+          }
+        },
+        {
+          "id": "zt-a25",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "yazili",
+          "soru": "18 + 2 = ?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 18,
+            "b": 2,
+            "sonuc": 20,
+            "nesne": "top"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "zt-t1",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Zihninden hesapla: 6 + 5 = ?",
+          "dogruCevap": "11",
+          "secenekler": [
+            "12",
+            "11",
+            "10",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 6,
+            "b": 5,
+            "sonuc": 11,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-t2",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "9 + 4 = ?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "12",
+            "13",
+            "14",
+            "11"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 3
+              },
+              {
+                "deger": 13
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-t3",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Markette 7 elma, 5 armut aldı. Toplam kaç meyve aldı?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "11",
+            "10",
+            "12",
+            "13"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "market-sepeti"
+          }
+        },
+        {
+          "id": "zt-t4",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "8 + 6 = ?",
+          "dogruCevap": "14",
+          "secenekler": [
+            "12",
+            "15",
+            "14",
+            "13"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 8
+              },
+              {
+                "deger": 2
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 4
+              },
+              {
+                "deger": 14
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-t5",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "10'a tamamlayarak hesapla: 7 + □ = 10. Kutu kaçtır?",
+          "dogruCevap": "3",
+          "secenekler": [
+            "4",
+            "5",
+            "2",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "b",
+            "a": 7,
+            "b": 10,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-t6",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz'ın 9 resmi, Elif'in 6 resmi var. Toplam kaç resim?",
+          "dogruCevap": "15",
+          "secenekler": [
+            "15",
+            "13",
+            "14",
+            "16"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-elif-resim"
+          }
+        },
+        {
+          "id": "zt-t7",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "8 + 8 = ?",
+          "dogruCevap": "16",
+          "secenekler": [
+            "17",
+            "15",
+            "16",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 8,
+            "b": 8,
+            "sonuc": 16,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-t8",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Zihninden en hızlı nasıl hesaplarsın: 9 + 7 = ?",
+          "dogruCevap": "9'a 1 ekle 10 yap, 6 ekle",
+          "secenekler": [
+            "9'a 1 ekle 10 yap, 6 ekle",
+            "İkisini de say",
+            "9'dan 7 geri say",
+            "7'den başla 9 say"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 6
+              },
+              {
+                "deger": 16
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-t9",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "13 + 5 = ?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "17",
+            "19",
+            "18",
+            "16"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 13,
+            "adim": 1,
+            "adimSayisi": 6,
+            "vurgulananlar": [
+              13,
+              18
+            ]
+          }
+        },
+        {
+          "id": "zt-t10",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Hangi işlemin sonucu 15'tir?",
+          "dogruCevap": "9 + 6",
+          "secenekler": [
+            "6 + 8",
+            "8 + 6",
+            "9 + 6",
+            "7 + 7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 7,
+                "b": 7,
+                "sonuc": 14,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 9,
+                "b": 6,
+                "sonuc": 15,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 8,
+                "b": 6,
+                "sonuc": 14,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 6,
+                "b": 8,
+                "sonuc": 14,
+                "nesne": "top"
+              }
+            ]
+          }
+        },
+        {
+          "id": "zt-t11",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "14 + 5 = ?",
+          "dogruCevap": "19",
+          "secenekler": [
+            "17",
+            "19",
+            "18",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 14,
+            "b": 5,
+            "sonuc": 19,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-t12",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 11 kız, 7 erkek var. Toplam kaç öğrenci?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "16",
+            "19",
+            "17",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-ogrenci"
+          }
+        },
+        {
+          "id": "zt-t13",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "15 + 4 = ?",
+          "dogruCevap": "19",
+          "secenekler": [
+            "18",
+            "19",
+            "17",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 15,
+            "adim": 1,
+            "adimSayisi": 5,
+            "vurgulananlar": [
+              15,
+              19
+            ]
+          }
+        },
+        {
+          "id": "zt-t14",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Hangisi 10'a tamamlama yöntemiyle en kolay hesaplanır?",
+          "dogruCevap": "9 + 6",
+          "secenekler": [
+            "3 + 4",
+            "4 + 5",
+            "9 + 6",
+            "2 + 3"
+          ],
+          "ipucu": "9'u 10'a tamamlamak çok kolay!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zt-t15",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "16 + 3 = ?",
+          "dogruCevap": "19",
+          "secenekler": [
+            "17",
+            "20",
+            "19",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 16,
+            "b": 3,
+            "sonuc": 19,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zt-t16",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 12 kırmızı, 6 sarı gül var. Toplam kaç gül?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "19",
+            "16",
+            "18",
+            "17"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-gul"
+          }
+        },
+        {
+          "id": "zt-t17",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "17 + 3 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 17,
+            "b": 3,
+            "sonuc": 20,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zt-t18",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 □ + 8 = 15. Kutudaki sayı nedir?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "ipucu": "15 - 8 = ?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 8,
+            "b": 15,
+            "sonuc": 15,
+            "nesne": "top"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zt-t19",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "11 + 8 = ?",
+          "dogruCevap": "19",
+          "secenekler": [
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 11,
+            "adim": 1,
+            "adimSayisi": 9,
+            "vurgulananlar": [
+              11,
+              19
+            ]
+          }
+        },
+        {
+          "id": "zt-t20",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 9 + 9 = ?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "19",
+            "16",
+            "18",
+            "17"
+          ],
+          "ipucu": "9 + 1 = 10, 10 + 8 = 18!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 9
+              },
+              {
+                "deger": 1
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 8
+              },
+              {
+                "deger": 18
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zt-t21",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Markette 13 portakal, 4 mandalina var. Toplam kaç turunçgil?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "15",
+            "18",
+            "17",
+            "16"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "market-turuncgil"
+          }
+        },
+        {
+          "id": "zt-t22",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "12 + 7 = ?",
+          "dogruCevap": "19",
+          "secenekler": [
+            "18",
+            "19",
+            "17",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin",
+            "a": 12,
+            "b": 7,
+            "sonuc": 19,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zt-t23",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Aşağıdakilerden hangisi yanlıştır?",
+          "dogruCevap": "7 + 9 = 16",
+          "secenekler": [
+            "6 + 9 = 15",
+            "7 + 9 = 16",
+            "9 + 6 = 15",
+            "8 + 7 = 15"
+          ],
+          "ipucu": "7 + 9 = kaç?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 8,
+                "b": 7,
+                "sonuc": 15,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 9,
+                "b": 6,
+                "sonuc": 15,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 7,
+                "b": 9,
+                "sonuc": 16,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin",
+                "a": 6,
+                "b": 9,
+                "sonuc": 15,
+                "nesne": "top"
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zt-t24",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "Alya'nın 6 oyuncağı, Elanaz'ın 14 oyuncağı var. Toplam kaç oyuncak?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "21",
+            "18",
+            "20",
+            "19"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "alya-elanaz-oyuncak"
+          }
+        },
+        {
+          "id": "zt-t25",
+          "kazanimKodu": "MAT.2.3.3",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Zihninden hesapla: 13 + 7 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "20",
+            "19",
+            "21",
+            "18"
+          ],
+          "ipucu": "13 + 7… 3 + 7 = 10, 10 + 10 = 20!",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 13,
+            "adim": 1,
+            "adimSayisi": 8,
+            "vurgulananlar": [
+              13,
+              20
+            ]
+          },
+          "sasirtma": true
+        }
+      ]
+    },
+    {
+      "id": "zihinden-cikarma",
+      "baslik": "Zihinden Çıkarma",
+      "kazanimKodu": "MAT.2.3.4",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Kağıt kullanmadan aklımızda çıkarma yapabiliriz! 10 - 4 = ? Aklında say: 10… 9, 8, 7, 6!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zc-anlatim-1"
+            }
+          },
+          {
+            "metin": "Kolaylaştırma tüyosu: Önce 10'a in! 13 - 5 = ? 13'ten 3 çıkar → 10, sonra 2 daha çıkar → 8!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zc-anlatim-2"
+            }
+          },
+          {
+            "metin": "Sayı doğrusunda geri say! 15 - 4 = ? 15'ten 4 adım geri: 14, 13, 12, 11!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "zc-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "zc-a1",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "10 - 3 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 10,
+            "b": 3,
+            "sonuc": 7,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-a2",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "9 - 4 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 9,
+            "b": 4,
+            "sonuc": 5,
+            "nesne": "elma"
+          }
+        },
+        {
+          "id": "zc-a3",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "8 - 5 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 8,
+            "b": 5,
+            "sonuc": 3,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zc-a4",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "10 - 7 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 10,
+            "b": 7,
+            "sonuc": 3,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zc-a5",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "10 - 2 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 10,
+            "b": 2,
+            "sonuc": 8,
+            "nesne": "cilek"
+          }
+        },
+        {
+          "id": "zc-a6",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "11 - 1 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 11,
+            "b": 1,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-a7",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "12 - 2 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 12,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "kup"
+          }
+        },
+        {
+          "id": "zc-a8",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "13 - 3 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 13,
+            "b": 3,
+            "sonuc": 10,
+            "nesne": "cicek"
+          }
+        },
+        {
+          "id": "zc-a9",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "14 - 4 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 14,
+            "b": 4,
+            "sonuc": 10,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zc-a10",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "15 - 5 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 15,
+            "b": 5,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-a11",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "11 - 4 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 11
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-a12",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "12 - 5 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 12
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-a13",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "13 - 6 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 13,
+            "adim": 1,
+            "adimSayisi": 7,
+            "vurgulananlar": [
+              13,
+              7
+            ]
+          }
+        },
+        {
+          "id": "zc-a14",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "14 - 7 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 14,
+            "b": 7,
+            "sonuc": 7,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zc-a15",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "15 - 8 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 15
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-a16",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "16 - 9 = ?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 16,
+            "adim": 1,
+            "adimSayisi": 8,
+            "vurgulananlar": [
+              16,
+              7
+            ]
+          }
+        },
+        {
+          "id": "zc-a17",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "17 - 8 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 17
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 9
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-a18",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "18 - 9 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 18,
+            "b": 9,
+            "sonuc": 9,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-a19",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "20 - 10 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 20,
+            "b": 10,
+            "sonuc": 10,
+            "nesne": "onluk"
+          }
+        },
+        {
+          "id": "zc-a20",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "20 - 5 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 20,
+            "b": 5,
+            "sonuc": 15,
+            "nesne": "kup"
+          }
+        },
+        {
+          "id": "zc-a21",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "19 - 9 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 19,
+            "b": 9,
+            "sonuc": 10,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zc-a22",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "16 - 6 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 16,
+            "b": 6,
+            "sonuc": 10,
+            "nesne": "cilek"
+          }
+        },
+        {
+          "id": "zc-a23",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "20 - 8 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 20,
+            "adim": 1,
+            "adimSayisi": 9,
+            "vurgulananlar": [
+              20,
+              12
+            ]
+          }
+        },
+        {
+          "id": "zc-a24",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "20 - 6 = ?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 20,
+            "b": 6,
+            "sonuc": 14,
+            "nesne": "yildiz"
+          }
+        },
+        {
+          "id": "zc-a25",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "yazili",
+          "soru": "20 - 4 = ?",
+          "dogruCevap": "16",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 20,
+            "b": 4,
+            "sonuc": 16,
+            "nesne": "top"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "zc-t1",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Zihninden hesapla: 10 - 6 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "6",
+            "4",
+            "3",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 10,
+            "b": 6,
+            "sonuc": 4,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-t2",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "11 - 5 = ?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "4",
+            "6",
+            "5",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 11
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-t3",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Sepette 12 elma vardı, 4 tanesi yendi. Kaç elma kaldı?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "8",
+            "9",
+            "7",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sepet-elma"
+          }
+        },
+        {
+          "id": "zc-t4",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "13 - 7 = ?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "5",
+            "4",
+            "6",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 13,
+            "adim": 1,
+            "adimSayisi": 7,
+            "vurgulananlar": [
+              13,
+              6
+            ]
+          }
+        },
+        {
+          "id": "zc-t5",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "10'a inerek hesapla: 14 - 6 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "6",
+            "9",
+            "8",
+            "7"
+          ],
+          "ipucu": "14'ten 4 çıkar=10, 2 daha çıkar=8",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 14
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-t6",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 15 kuş vardı, 7 tanesi uçtu. Kaç kuş kaldı?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "9",
+            "7",
+            "8",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-kus"
+          }
+        },
+        {
+          "id": "zc-t7",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "16 - 8 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "8",
+            "6",
+            "7",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 16
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-t8",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "□ - 5 = 8. Kutudaki sayı kaçtır?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "11",
+            "12",
+            "14",
+            "13"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 5,
+            "b": 8,
+            "sonuc": 13,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-t9",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "17 - 9 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "9",
+            "6",
+            "8",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 17,
+            "adim": 1,
+            "adimSayisi": 10,
+            "vurgulananlar": [
+              17,
+              8
+            ]
+          }
+        },
+        {
+          "id": "zc-t10",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Hangi işlemin sonucu 6'dır?",
+          "dogruCevap": "13 - 8",
+          "secenekler": [
+            "14 - 9",
+            "12 - 7",
+            "15 - 8",
+            "13 - 8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 14,
+                "b": 9,
+                "sonuc": 5,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 13,
+                "b": 8,
+                "sonuc": 5,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 12,
+                "b": 7,
+                "sonuc": 5,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 15,
+                "b": 8,
+                "sonuc": 7,
+                "nesne": "top"
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-t11",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "18 - 8 = ?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "9",
+            "8",
+            "11",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 18,
+            "b": 8,
+            "sonuc": 10,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-t12",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Kutuda 20 top vardı, 7 tanesi alındı. Kaç top kaldı?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "13",
+            "12",
+            "14",
+            "11"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-top-aliniyor"
+          }
+        },
+        {
+          "id": "zc-t13",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "20 - 9 = ?",
+          "dogruCevap": "11",
+          "secenekler": [
+            "11",
+            "9",
+            "12",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 20,
+            "adim": 1,
+            "adimSayisi": 10,
+            "vurgulananlar": [
+              20,
+              11
+            ]
+          }
+        },
+        {
+          "id": "zc-t14",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 15 - □ = 8. Kutudaki sayı nedir?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "6",
+            "7",
+            "8",
+            "5"
+          ],
+          "ipucu": "8'e ne eklersek 15 olur?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "b",
+            "a": 15,
+            "b": 8,
+            "sonuc": 15,
+            "nesne": "top"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zc-t15",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz'ın 16 boyası vardı, 9 tanesini Elif'e verdi. Kaç boyası kaldı?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "8",
+            "5",
+            "6",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-boya-veriyor"
+          }
+        },
+        {
+          "id": "zc-t16",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "19 - 8 = ?",
+          "dogruCevap": "11",
+          "secenekler": [
+            "11",
+            "10",
+            "9",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 19
+              },
+              {
+                "deger": 10
+              },
+              {
+                "deger": 11
+              }
+            ]
+          }
+        },
+        {
+          "id": "zc-t17",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Zihninden hesaplamanın en iyi yolu hangisidir?",
+          "dogruCevap": "Önce 10'a in, sonra kalanı çıkar",
+          "secenekler": [
+            "Önce 10'a in, sonra kalanı çıkar",
+            "Hep küçük say",
+            "Rastgele bir sayı söyle",
+            "Parmak say"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "anlatim",
+            "sahne": "zc-anlatim-2"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zc-t18",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "20 - 13 = ?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "7",
+            "6",
+            "5",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "sayi-seridi",
+            "baslangic": 20,
+            "adim": 1,
+            "adimSayisi": 8,
+            "vurgulananlar": [
+              20,
+              7
+            ]
+          }
+        },
+        {
+          "id": "zc-t19",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 18 kalem vardı, 9 tanesi dağıtıldı. Kaç kalem kaldı?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "8",
+            "10",
+            "9",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kalem-kutusu-dagitim"
+          }
+        },
+        {
+          "id": "zc-t20",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 17 - 7 = ?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "9",
+            "8",
+            "10",
+            "11"
+          ],
+          "ipucu": "17'den tam 7 çıkar, 10'a inersin!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "adimlar",
+            "adimlar": [
+              {
+                "deger": 17
+              },
+              {
+                "deger": 10
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zc-t21",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "20 - 12 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "8",
+            "7",
+            "6",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "zihin-cik",
+            "a": 20,
+            "b": 12,
+            "sonuc": 8,
+            "nesne": "balon"
+          }
+        },
+        {
+          "id": "zc-t22",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "□ - 9 = 9. Kutudaki sayı nedir?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "17",
+            "16",
+            "19",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bilinmeyen",
+            "bilinmeyen": "a",
+            "a": 9,
+            "b": 9,
+            "sonuc": 18,
+            "nesne": "top"
+          }
+        },
+        {
+          "id": "zc-t23",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Hangisi en büyük sonucu verir?",
+          "dogruCevap": "18 - 6",
+          "secenekler": [
+            "18 - 6",
+            "20 - 9",
+            "19 - 8",
+            "17 - 7"
+          ],
+          "ipucu": "Her birini hesapla!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 20,
+                "b": 9,
+                "sonuc": 11,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 18,
+                "b": 6,
+                "sonuc": 12,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 17,
+                "b": 7,
+                "sonuc": 10,
+                "nesne": "top"
+              },
+              {
+                "tur": "islem",
+                "mod": "zihin-cik",
+                "a": 19,
+                "b": 8,
+                "sonuc": 11,
+                "nesne": "top"
+              }
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "zc-t24",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "Alya'nın 14 çikolatası vardı, 6 tanesini yedi. Kaç çikolatası kaldı?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "7",
+            "6",
+            "9",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "alya-cikolata"
+          }
+        },
+        {
+          "id": "zc-t25",
+          "kazanimKodu": "MAT.2.3.4",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Elanaz 20 TL ile markete gitti. 8 TL'lik dondurma aldı. Kaç TL'si kaldı?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "12",
+            "10",
+            "11",
+            "13"
+          ],
+          "ipucu": "20 - 8 = ?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-market-dondurma"
+          },
+          "sasirtma": true
+        }
+      ]
+    },
+    {
+      "id": "toplama-cikarma-problemleri",
+      "baslik": "Toplama ve Çıkarma Problemleri",
+      "kazanimKodu": "MAT.2.3.5",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Problem çözmek için önce ne sorulduğunu anlarız! \"Toplam kaç?\" → toplama. \"Kaç kaldı?\" → çıkarma.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "tcp-anlatim-1"
+            }
+          },
+          {
+            "metin": "Problem çözme adımları: 1) Oku 2) Ne soruyor? 3) İşlem seç 4) Hesapla 5) Kontrol et!",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "tcp-anlatim-2"
+            }
+          },
+          {
+            "metin": "Bazen iki işlem yaparız! Önce topla, sonra çıkar — ya da önce çıkar, sonra topla.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "tcp-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "tcp-a1",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Sepette 5 elma, 3 armut var. Toplam kaç meyve?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sepet-meyve"
+          }
+        },
+        {
+          "id": "tcp-a2",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Masada 9 kalem vardı, 4 tanesi düştü. Masada kaç kalem kaldı?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "masa-kalem"
+          }
+        },
+        {
+          "id": "tcp-a3",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bahçede 7 kırmızı, 6 sarı çiçek var. Toplam kaç çiçek?",
+          "dogruCevap": "13",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-cicek"
+          }
+        },
+        {
+          "id": "tcp-a4",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Kutuda 12 top vardı, 5 tanesi alındı. Kaç top kaldı?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-top"
+          }
+        },
+        {
+          "id": "tcp-a5",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Sınıfta 8 kız, 9 erkek var. Toplam kaç öğrenci?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-ogrenci"
+          }
+        },
+        {
+          "id": "tcp-a6",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Rafta 14 kitap vardı, 6 tanesi ödünç verildi. Kaç kitap kaldı?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "raf-kitap"
+          }
+        },
+        {
+          "id": "tcp-a7",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Elanaz 7 resim çizdi, Elif 8 resim çizdi. İkisi toplam kaç resim çizdi?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-elif-resim"
+          }
+        },
+        {
+          "id": "tcp-a8",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Balonda 16 şeker vardı, 7 tanesi yendi. Kaç şeker kaldı?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "balon-seker"
+          }
+        },
+        {
+          "id": "tcp-a9",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Markette 9 elma, 9 portakal var. Toplam kaç meyve?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "market-tezgah"
+          }
+        },
+        {
+          "id": "tcp-a10",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Kutuda 20 kalem vardı, 8 tanesi dağıtıldı. Kaç kalem kaldı?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kalem-kutusu"
+          }
+        },
+        {
+          "id": "tcp-a11",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Alya 4 oyuncak, Elanaz 13 oyuncak aldı. Toplam kaç oyuncak?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "oyuncak-magazasi"
+          }
+        },
+        {
+          "id": "tcp-a12",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bahçede 18 kuş vardı, 9 tanesi uçtu. Kaç kuş kaldı?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "agac-kus"
+          }
+        },
+        {
+          "id": "tcp-a13",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bir kutuda 6 mavi, 7 kırmızı, 4 sarı top var. Toplam kaç top?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-renkli-top"
+          }
+        },
+        {
+          "id": "tcp-a14",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Annem 15 TL verdi, 7 TL harcadım. Kaç TL kaldı?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "cocuk-market"
+          }
+        },
+        {
+          "id": "tcp-a15",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Sınıfta 11 çocuk vardı, 3 tanesi çıktı, 5 tanesi girdi. Şimdi kaç çocuk var?",
+          "dogruCevap": "13",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-kapi"
+          }
+        },
+        {
+          "id": "tcp-a16",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Elanaz sabah 6, öğlen 5 bardak su içti. Toplam kaç bardak?",
+          "dogruCevap": "11",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bardaklar"
+          }
+        },
+        {
+          "id": "tcp-a17",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Rafta 20 kitap vardı, 8 tanesi alındı, 3 tanesi geri kondu. Kaç kitap var?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "raf-sahne"
+          }
+        },
+        {
+          "id": "tcp-a18",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bahçede 14 gül, 5 papatya var. Güller papatyadan kaç fazla?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "gul-papatya"
+          }
+        },
+        {
+          "id": "tcp-a19",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bir torba 9 elma, diğer torba 8 elma var. İkisi birlikte kaç elma?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "iki-torba-elma"
+          }
+        },
+        {
+          "id": "tcp-a20",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Kutuda 16 top vardı, önce 4, sonra 5 tane alındı. Kaç top kaldı?",
+          "dogruCevap": "7",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-iki-kez-aliniyor"
+          }
+        },
+        {
+          "id": "tcp-a21",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Elanaz 13, Elif 7 puan aldı. İkisinin puanları toplamı kaç?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "puan-tablosu"
+          }
+        },
+        {
+          "id": "tcp-a22",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Markette 20 yumurta vardı, 12 tanesi satıldı. Kaç yumurta kaldı?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "yumurta-kasasi"
+          }
+        },
+        {
+          "id": "tcp-a23",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Sınıfta 9 erkek, 8 kız var. Erkekler kızlardan kaç fazla?",
+          "dogruCevap": "1",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-ogrenci"
+          }
+        },
+        {
+          "id": "tcp-a24",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Alya 5 çikolata yedi, Elanaz 9 çikolata yedi. İkisi toplam kaç çikolata yedi?",
+          "dogruCevap": "14",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "cikolata-kutusu"
+          }
+        },
+        {
+          "id": "tcp-a25",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "yazili",
+          "soru": "Bir çantada 7 kitap, 6 defter, 4 kalem var. Toplam kaç eşya?",
+          "dogruCevap": "17",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "acik-canta"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "tcp-t1",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Sepette 8 elma, 5 armut var. Toplam kaç meyve?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "13",
+            "11",
+            "14",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sepet-meyve"
+          }
+        },
+        {
+          "id": "tcp-t2",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 15 kalem vardı, 6 tanesi dağıtıldı. Kaç kalem kaldı?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "7",
+            "10",
+            "9",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kalem-dagitim"
+          }
+        },
+        {
+          "id": "tcp-t3",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Bu problemde hangi işlemi yapmalıyız? \"Bahçede 12 çiçek vardı, 5 tanesi soldu.\"",
+          "dogruCevap": "Çıkarma",
+          "secenekler": [
+            "İkisi de",
+            "Hiçbiri",
+            "Çıkarma",
+            "Toplama"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "bahce-solmus-cicek"
+          }
+        },
+        {
+          "id": "tcp-t4",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz 9 resim, Elif 8 resim çizdi. İkisi toplam kaç resim çizdi?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "17",
+            "18",
+            "16",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-elif-resim"
+          }
+        },
+        {
+          "id": "tcp-t5",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Kutuda 17 top vardı, 8 tanesi alındı. Kaç top kaldı?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "9",
+            "8",
+            "7",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-top"
+          }
+        },
+        {
+          "id": "tcp-t6",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Markette 6 elma, 7 portakal, 4 muz var. Toplam kaç meyve?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "18",
+            "17",
+            "15",
+            "16"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "market-tezgah-uc-meyve"
+          }
+        },
+        {
+          "id": "tcp-t7",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Annem 20 TL verdi, 9 TL harcadım. Kaç TL kaldı?",
+          "dogruCevap": "11",
+          "secenekler": [
+            "10",
+            "11",
+            "9",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "cocuk-kasa"
+          }
+        },
+        {
+          "id": "tcp-t8",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Sınıfta 14 çocuk vardı, 5 tanesi çıktı, 3 tanesi girdi. Şimdi kaç çocuk var?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "11",
+            "10",
+            "13",
+            "12"
+          ],
+          "ipucu": "Önce çıkanları çıkar, sonra girenleri ekle!",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-kapi"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t9",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Rafta 18 kitap vardı, 9 tanesi ödünç verildi. Kaç kitap kaldı?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "10",
+            "7",
+            "9",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "raf-kitap"
+          }
+        },
+        {
+          "id": "tcp-t10",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Güller papatyadan 6 fazla. Papatya 7 tane ise gül kaç tanedir?",
+          "dogruCevap": "13",
+          "secenekler": [
+            "11",
+            "13",
+            "12",
+            "14"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "gul-papatya-karsilastirma"
+          }
+        },
+        {
+          "id": "tcp-t11",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz sabah 5, öğlen 6, akşam 4 bardak su içti. Toplam kaç bardak?",
+          "dogruCevap": "15",
+          "secenekler": [
+            "14",
+            "15",
+            "13",
+            "16"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sabah-oglen-aksam-bardak"
+          }
+        },
+        {
+          "id": "tcp-t12",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Bir torbada 20 top var. 8 tanesi kırmızı, kalanı mavi. Kaç mavi top var?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "12",
+            "10",
+            "13",
+            "11"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "torba-kirmizi-mavi-top"
+          }
+        },
+        {
+          "id": "tcp-t13",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Elanaz'ın 14 TL'si var. 9 TL'lik kitap aldı. Kaç TL kaldı?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "3",
+            "5",
+            "6",
+            "4"
+          ],
+          "ipucu": "14 - 9 = ?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-kitapci"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t14",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 7 kedi, 9 köpek var. Köpekler kedilerden kaç fazla?",
+          "dogruCevap": "2",
+          "secenekler": [
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kedi-kopek"
+          }
+        },
+        {
+          "id": "tcp-t15",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Önce hangi işlemi yapmalıyız? \"Kutuda 10 top vardı, 3 eklendi, 5 alındı.\"",
+          "dogruCevap": "10 + 3 - 5",
+          "secenekler": [
+            "3 + 5 - 10",
+            "10 - 3 + 5",
+            "10 - 5 + 3",
+            "10 + 3 - 5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kutu-ekleme-cikarma"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t16",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 9 kız, 8 erkek var. Kızlar erkeklerden kaç fazla?",
+          "dogruCevap": "1",
+          "secenekler": [
+            "1",
+            "3",
+            "0",
+            "2"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-kiz-erkek"
+          }
+        },
+        {
+          "id": "tcp-t17",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Alya 6, Elanaz 7, Elif 5 çikolata aldı. Üçü toplam kaç çikolata aldı?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "18",
+            "16",
+            "19",
+            "17"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "uc-kiz-cikolata"
+          }
+        },
+        {
+          "id": "tcp-t18",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Bir problemde \"kaç fazla\" yazıyorsa hangi işlemi yaparız?",
+          "dogruCevap": "Çıkarma",
+          "secenekler": [
+            "Toplama",
+            "Hiçbiri",
+            "İkisi de",
+            "Çıkarma"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kac-fazla-kart"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t19",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Rafta 20 oyuncak vardı. 8 tanesi satıldı, 5 tanesi yeni geldi. Kaç oyuncak var?",
+          "dogruCevap": "17",
+          "secenekler": [
+            "16",
+            "15",
+            "17",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "oyuncak-raf"
+          }
+        },
+        {
+          "id": "tcp-t20",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Elanaz'ın 15 kalemi var, Elif'in 9 kalemi var. Elanaz'ın kaç fazla kalemi var?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "6",
+            "4",
+            "5",
+            "7"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-elif-kalem-karsilastirma"
+          }
+        },
+        {
+          "id": "tcp-t21",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Bahçede 8 sarı, 7 kırmızı, 5 beyaz gül var. Toplam kaç gül?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "18",
+            "21",
+            "20",
+            "19"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "uc-renk-gul-bahcesi"
+          }
+        },
+        {
+          "id": "tcp-t22",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Markette 18 TL'lik alışveriş yaptım. 20 TL verdim. Kaç TL para üstü alırım?",
+          "dogruCevap": "2",
+          "secenekler": [
+            "2",
+            "4",
+            "1",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "kasa-sahnesi"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t23",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "Sınıfta 19 öğrenci vardı, 7 tanesi çıktı. Sonra 4 tanesi daha girdi. Şimdi kaç öğrenci var?",
+          "dogruCevap": "16",
+          "secenekler": [
+            "16",
+            "17",
+            "14",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-giris-cikis"
+          }
+        },
+        {
+          "id": "tcp-t24",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Elanaz 20 TL ile markete gitti. 8 TL dondurma, 5 TL su aldı. Kaç TL kaldı?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "7",
+            "8",
+            "6",
+            "5"
+          ],
+          "ipucu": "Önce harcamaları topla: 8+5=13, sonra 20-13=?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "elanaz-market-dondurma-su"
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "tcp-t25",
+          "kazanimKodu": "MAT.2.3.5",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 Sınıfta 9 kız, 8 erkek var. Bugün 2 kız ve 3 erkek hasta. Sınıfta kaç öğrenci var?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "13",
+            "10",
+            "12",
+            "11"
+          ],
+          "ipucu": "Toplam: 9+8=17, hastalar: 2+3=5, 17-5=?",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "problem",
+            "sahne": "sinif-hasta-ogrenci"
+          },
+          "sasirtma": true
+        }
+      ]
+    }
+  ]
+}

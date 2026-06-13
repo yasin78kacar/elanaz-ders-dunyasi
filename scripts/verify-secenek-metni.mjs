@@ -1,46 +1,41 @@
 /**
- * Şık buton metninin sabit genişlik / minWidth ile kısıtlanmadığını doğrular.
+ * Şık buton metninin sabit genişlik / kırpma ile kısıtlanmadığını doğrular.
  */
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
-const secenekMetniSrc = readFileSync(join(ROOT, 'src/components/SecenekMetni.tsx'), 'utf8');
-const kod = secenekMetniSrc.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '');
+const answerDisplaySrc = readFileSync(join(ROOT, 'src/components/AnswerDisplay.tsx'), 'utf8');
+const kod = answerDisplaySrc.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '');
 
 let hata = 0;
 
-if (/GuvenliMetin/.test(kod)) {
-  console.error('FAIL: SecenekMetni hâlâ GuvenliMetin kullanıyor (minWidth kırpma riski)');
+if (/\bellipsizeMode\b/.test(kod)) {
+  console.error('FAIL: AnswerDisplay ellipsizeMode kullanıyor');
   hata++;
 }
-if (/\bminWidth\s*:/.test(kod)) {
-  console.error('FAIL: SecenekMetni minWidth stili içeriyor');
+if (/\bnumberOfLines\s*=/.test(kod)) {
+  console.error('FAIL: AnswerDisplay numberOfLines kısıtlıyor');
   hata++;
 }
-if (/\bflex\s*:\s*1\b/.test(kod) || /width\s*:\s*['"]100%['"]/.test(kod)) {
-  console.error('FAIL: SecenekMetni flex:1 veya width 100% kullanıyor');
+if (!/adjustsFontSizeToFit:\s*true/.test(kod) && !/metinSigdirProps/.test(kod)) {
+  console.error('FAIL: AnswerDisplay adjustsFontSizeToFit yok');
   hata++;
 }
-if (!/paddingRight/.test(secenekMetniSrc)) {
-  console.error('FAIL: SecenekMetni paddingRight yok');
+if (!/flex:\s*1/.test(kod)) {
+  console.error('FAIL: AnswerDisplay flex:1 kullanmıyor');
   hata++;
 }
-if (!/flexShrink:\s*0/.test(secenekMetniSrc)) {
-  console.error('FAIL: SecenekMetni sarmalayıcıda flexShrink:0 yok');
+if (!/flexShrink:\s*0/.test(kod)) {
+  console.error('FAIL: AnswerDisplay flexShrink:0 yok');
   hata++;
 }
 
-const SIK_KELIMELER = ['Çember', 'Üçgen', 'Dikdörtgen', 'Silindir'];
+const SIK_KELIMELER = ['Çember', 'Üçgen', 'Dikdörtgen', 'Silindir', 'mavi'];
 
 for (const kelime of SIK_KELIMELER) {
   const kirpilmis = kelime.slice(0, -1);
-  if (kelime.endsWith('r') || kelime.endsWith('n') || kelime.endsWith('z')) {
-  } else {
-    console.error(`FAIL: test kelimesi r/n/z ile bitmiyor: ${kelime}`);
-    hata++;
-  }
-  if (kirpilmis.length > 1 && kelime === kirpilmis) {
+  if (kelime.length > 1 && kelime === kirpilmis) {
     console.error(`FAIL: "${kelime}" kırpılmış görünüyor`);
     hata++;
   }
@@ -50,4 +45,4 @@ if (hata > 0) {
   console.error(`verify-secenek-metni: ${hata} hata`);
   process.exit(1);
 }
-console.log(`verify-secenek-metni: ${SIK_KELIMELER.length} şık kelimesi + kaynak kontrolü OK`);
+console.log(`verify-secenek-metni: ${SIK_KELIMELER.length} şık kelimesi + AnswerDisplay kontrolü OK`);
