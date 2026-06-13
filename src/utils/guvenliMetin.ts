@@ -12,6 +12,6 @@ export function etiketMinGenislik(metin: string, fontSize: number): number {
     else birim += 0.58;
   }
   const sonHarf = metin.slice(-1);
-  const sonHarfPayi = /[rnzRNZ]/.test(sonHarf) ? fontSize * 0.35 : 0;
+  const sonHarfPayi = /[rnzRNZ]/.test(sonHarf) ? fontSize * 0.35 : fontSize * 0.22;
   return Math.ceil(birim * fontSize) + 14 + Math.ceil(sonHarfPayi);
 }

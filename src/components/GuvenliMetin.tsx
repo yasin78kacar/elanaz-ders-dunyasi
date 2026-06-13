@@ -1,4 +1,5 @@
-import { Platform, StyleSheet, Text, type StyleProp, type TextStyle } from 'react-native';
+import { StyleSheet, Text, type StyleProp, type TextStyle } from 'react-native';
+import { cevapMetniTextProps } from '../theme/typography';
 import { etiketMinGenislik } from '../utils/guvenliMetin';
 
 interface Props {
@@ -19,14 +20,7 @@ export function GuvenliMetin({ children, style, tamGenislik = true, textAlign = 
   const minWidth = tamGenislik ? etiketMinGenislik(children, fontSize) : undefined;
 
   return (
-    <Text
-      style={[styles.metin, { textAlign, minWidth }, style]}
-      adjustsFontSizeToFit={false}
-      allowFontScaling
-      {...(Platform.OS === 'android'
-        ? { includeFontPadding: false, textBreakStrategy: 'simple' as const }
-        : {})}
-    >
+    <Text style={[styles.metin, { textAlign, minWidth }, style]} {...cevapMetniTextProps()}>
       {children}
     </Text>
   );

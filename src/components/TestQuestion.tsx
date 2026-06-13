@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
@@ -8,7 +8,8 @@ import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { SecenekIkon } from './nesneler/SecenekIkon';
-import { SecenekMetni } from './SecenekMetni';
+import { AnswerButton } from './AnswerButton';
+import { QuestionOption } from './QuestionOption';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 
 const MAX_DEGISIKLIK = 2;
@@ -38,40 +39,6 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
     () =>
       StyleSheet.create({
         secenekler: { gap: layout.spacing(12) },
-        secenekHit: { overflow: 'visible' },
-        secenekIcerik: {
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'flex-start',
-          gap: layout.spacing(10),
-          flexWrap: 'nowrap',
-          flexGrow: 0,
-          flexShrink: 0,
-          overflow: 'visible',
-          paddingRight: layout.spacing(6),
-        },
-        secenek: {
-          borderWidth: 2,
-          borderColor: colors.kenarlik,
-          borderRadius: layout.spacing(12),
-          paddingVertical: layout.spacing(16),
-          paddingHorizontal: layout.spacing(24),
-          paddingRight: layout.spacing(28),
-          backgroundColor: colors.kart,
-          overflow: 'visible',
-        },
-        secenekSecili: {
-          borderColor: colors.birincil,
-          backgroundColor: colors.birincilAcik,
-        },
-        secenekDogru: {
-          borderColor: colors.basari,
-          backgroundColor: colors.basariAcik,
-        },
-        secenekYanlis: {
-          borderColor: colors.hata,
-          backgroundColor: colors.hataAcik,
-        },
         secenekMetinSecili: { color: colors.birincil, fontWeight: '700' },
         secenekMetinDogru: { color: colors.basari, fontWeight: '700' },
         secenekMetinYanlis: { color: colors.hata, fontWeight: '700' },
@@ -115,39 +82,31 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
           const dogruGoster = durum === 'dogru' && secili;
           const yanlisGoster = durum === 'yanlis' && secili;
           return (
-            <Pressable
+            <AnswerButton
               key={secenek}
               onPress={() => secimYap(secenek)}
               disabled={kilitli || durum !== 'bekle'}
-              style={styles.secenekHit}
+              selected={secili && !dogruGoster && !yanlisGoster}
+              correct={dogruGoster}
+              wrong={yanlisGoster}
             >
-              <View
-                collapsable={false}
-                style={[
-                  styles.secenek,
-                  secili && !dogruGoster && !yanlisGoster && styles.secenekSecili,
-                  dogruGoster && styles.secenekDogru,
-                  yanlisGoster && styles.secenekYanlis,
-                ]}
-              >
-                <View style={styles.secenekIcerik}>
-                  {soru.secenekIkonlari?.[secenek] && (
+              <QuestionOption
+                text={secenek}
+                icon={
+                  soru.secenekIkonlari?.[secenek] ? (
                     <SecenekIkon
                       ikon={soru.secenekIkonlari[secenek]}
                       size={layout.secenekIkonBoyut}
                     />
-                  )}
-                  <SecenekMetni
-                    secenek={secenek}
-                    style={[
-                      secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
-                      dogruGoster && styles.secenekMetinDogru,
-                      yanlisGoster && styles.secenekMetinYanlis,
-                    ]}
-                  />
-                </View>
-              </View>
-            </Pressable>
+                  ) : undefined
+                }
+                textStyle={[
+                  secili && !dogruGoster && !yanlisGoster && styles.secenekMetinSecili,
+                  dogruGoster && styles.secenekMetinDogru,
+                  yanlisGoster && styles.secenekMetinYanlis,
+                ]}
+              />
+            </AnswerButton>
           );
         })}
       </View>

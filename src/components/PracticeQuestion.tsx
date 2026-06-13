@@ -38,10 +38,12 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
       borderColor: colors.birincil,
       borderRadius: layout.spacing(12),
       padding: layout.spacing(16),
+      paddingRight: layout.spacing(22),
       fontSize: layout.font.lg,
       color: colors.baslik,
       backgroundColor: colors.kart,
       minHeight: layout.buttonHeight,
+      flexShrink: 0,
     }),
     [layout],
   );
