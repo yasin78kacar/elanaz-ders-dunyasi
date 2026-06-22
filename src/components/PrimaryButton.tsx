@@ -59,10 +59,15 @@ export function PrimaryButton({ label, onPress, disabled, variant = 'primary' }:
 const styles = StyleSheet.create({
   hit: {
     overflow: 'visible',
+    alignSelf: 'stretch',
+    width: '100%',
+    maxWidth: '100%',
   },
   button: {
     backgroundColor: colors.birincil,
     alignItems: 'center',
+    width: '100%',
+    maxWidth: '100%',
     overflow: 'visible',
   },
   secondary: {

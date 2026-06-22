@@ -13,13 +13,13 @@ interface Props {
 
 export function FlowImage({ source, style, onError }: Props) {
   const layout = useDeviceLayout();
-  const gorselStyle = useMemo(
-    () => ({
-      maxWidth: layout.flowSize(340),
+  const gorselStyle = useMemo(() => {
+    const yatayBosluk = layout.spacing(40);
+    return {
+      maxWidth: Math.min(layout.flowSize(340), layout.width - yatayBosluk),
       height: layout.flowSize(220),
-    }),
-    [layout],
-  );
+    };
+  }, [layout]);
 
   return (
     <View style={styles.sarmal}>
@@ -64,13 +64,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
+    maxWidth: '100%',
+    overflow: 'visible',
   },
   gorsel: {
     width: '100%',
+    maxWidth: '100%',
   },
   fallbackKapsayici: {
     width: '100%',
+    maxWidth: '100%',
     alignItems: 'center',
+    flexWrap: 'wrap',
     overflow: 'visible',
   },
 });
