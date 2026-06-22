@@ -78,6 +78,7 @@ import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gore
 import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
+import { eylemler, gunlerVeAylar, havaDurumu } from './gorev-ing3-questions.mjs';
 import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
 import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
@@ -524,6 +525,13 @@ writeFileSync(join(ingDir, 'alfabe-ve-renkler.json'), JSON.stringify(alfabeVeRen
 const sayilarVeSinifEsyalariKonu = sayilarVeSinifEsyalari(karistir);
 writeFileSync(join(ingDir, 'sayilar-ve-sinif-esyalari.json'), JSON.stringify(sayilarVeSinifEsyalariKonu, null, 2));
 
+const gunlerVeAylarKonu = gunlerVeAylar(karistir);
+const havaDurumuKonu = havaDurumu(karistir);
+const eylemlerKonu = eylemler(karistir);
+writeFileSync(join(ingDir, 'gunler-ve-aylar.json'), JSON.stringify(gunlerVeAylarKonu, null, 2));
+writeFileSync(join(ingDir, 'hava-durumu.json'), JSON.stringify(havaDurumuKonu, null, 2));
+writeFileSync(join(ingDir, 'eylemler.json'), JSON.stringify(eylemlerKonu, null, 2));
+
 const selamlasmaVeAileKonu = selamlasmaVeAile(karistir);
 const kisaHikayelerKonu = kisaHikayeler(karistir);
 const basitDiyaloglarKonu = basitDiyaloglar(karistir);
@@ -537,6 +545,13 @@ const englishDataDir = join(__dirname, '../src/data/english');
 const mathDataDir = join(__dirname, '../src/data/math');
 mkdirSync(englishDataDir, { recursive: true });
 mkdirSync(mathDataDir, { recursive: true });
+const theme3Ing = {
+  id: 'tema-3',
+  baslik: 'İngilizce — Tema 3',
+  konular: [gunlerVeAylarKonu, havaDurumuKonu, eylemlerKonu],
+};
+writeFileSync(join(englishDataDir, 'theme3.json'), JSON.stringify(theme3Ing, null, 2));
+
 const theme4 = {
   id: 'tema-4',
   baslik: 'İngilizce — Tema 4',
@@ -564,6 +579,13 @@ const matTema5 = {
   konular: [uzunlukOlcmeKonu, tartmaKonu],
 };
 writeFileSync(join(mathDataDir, 'tema5.json'), JSON.stringify(matTema5, null, 2));
+
+const matTema6 = {
+  id: 'tema-6',
+  baslik: 'Matematik — Tema 6 — Kesirler',
+  konular: [esitParcalaraBolmeKonu, yarimVeCeyrekKonu, basitKesirlerKonu],
+};
+writeFileSync(join(mathDataDir, 'tema6.json'), JSON.stringify(matTema6, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -693,7 +715,7 @@ const index = {
         },
         {
           id: 'tema-7',
-          baslik: 'Tema 7 — Kesirler',
+          baslik: 'Matematik — Tema 6 — Kesirler',
           konuDosyalari: [
             'matematik/esit-parcalara-bolme.json',
             'matematik/yarim-ve-ceyrek.json',
@@ -758,18 +780,18 @@ const index = {
           id: 'tema-3',
           baslik: 'Fen Bilimleri — Tema 3',
           konuDosyalari: [
-            'fen-bilimleri/madde-ve-ozellikleri.json',
-            'fen-bilimleri/kuvvet-ve-hareket.json',
-            'fen-bilimleri/isik-ve-ses.json',
+            'fen-bilimleri/dunya-ve-evren.json',
+            'fen-bilimleri/hava-durumu-ve-mevsimler.json',
+            'fen-bilimleri/saglikli-yasam-ve-cevre.json',
           ],
         },
         {
           id: 'tema-4',
           baslik: 'Fen Bilimleri — Tema 4',
           konuDosyalari: [
-            'fen-bilimleri/dunya-ve-evren.json',
-            'fen-bilimleri/hava-durumu-ve-mevsimler.json',
-            'fen-bilimleri/saglikli-yasam-ve-cevre.json',
+            'fen-bilimleri/madde-ve-ozellikleri.json',
+            'fen-bilimleri/kuvvet-ve-hareket.json',
+            'fen-bilimleri/isik-ve-ses.json',
           ],
         },
       ],
@@ -788,6 +810,15 @@ const index = {
           baslik: 'İngilizce — Tema 2',
           konuDosyalari: [
             'ingilizce/sayilar-ve-sinif-esyalari.json',
+          ],
+        },
+        {
+          id: 'tema-3',
+          baslik: 'İngilizce — Tema 3',
+          konuDosyalari: [
+            'ingilizce/gunler-ve-aylar.json',
+            'ingilizce/hava-durumu.json',
+            'ingilizce/eylemler.json',
           ],
         },
         {
@@ -905,6 +936,9 @@ console.log('Tarih ve kültürümüz:', tarihVeKulturumuzKonu.alistirma.length, 
 console.log('Doğal afetler ve korunma:', dogalAfetlerVeKorunmaKonu.alistirma.length, '+', dogalAfetlerVeKorunmaKonu.test.length);
 console.log('Alfabe ve renkler:', alfabeVeRenklerKonu.alistirma.length, '+', alfabeVeRenklerKonu.test.length);
 console.log('Sayılar ve sınıf eşyaları:', sayilarVeSinifEsyalariKonu.alistirma.length, '+', sayilarVeSinifEsyalariKonu.test.length);
+console.log('Günler ve aylar:', gunlerVeAylarKonu.alistirma.length, '+', gunlerVeAylarKonu.test.length);
+console.log('Hava durumu:', havaDurumuKonu.alistirma.length, '+', havaDurumuKonu.test.length);
+console.log('Eylemler:', eylemlerKonu.alistirma.length, '+', eylemlerKonu.test.length);
 console.log('Selamlaşma ve aile:', selamlasmaVeAileKonu.alistirma.length, '+', selamlasmaVeAileKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
 console.log('Basit diyaloglar:', basitDiyaloglarKonu.alistirma.length, '+', basitDiyaloglarKonu.test.length);

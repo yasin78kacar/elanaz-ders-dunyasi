@@ -15,9 +15,6 @@ import zaman from '../../content/sinif2/matematik/zaman.json';
 import tabloOkuma from '../../content/sinif2/matematik/tablo-okuma.json';
 import grafikOkuma from '../../content/sinif2/matematik/grafik-okuma.json';
 import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
-import esitParcalaraBolme from '../../content/sinif2/matematik/esit-parcalara-bolme.json';
-import yarimVeCeyrek from '../../content/sinif2/matematik/yarim-ve-ceyrek.json';
-import basitKesirler from '../../content/sinif2/matematik/basit-kesirler.json';
 import seslerVeHeceler from '../../content/sinif2/turkce/sesler-ve-heceler.json';
 import kelimeBilgisi from '../../content/sinif2/turkce/kelime-bilgisi.json';
 import okumaAnlama from '../../content/sinif2/turkce/okuma-anlama.json';
@@ -53,10 +50,12 @@ import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afet
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
+import theme3Json from '../data/english/theme3.json';
 import theme4Json from '../data/english/theme4.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
 import tema5Json from '../data/math/tema5.json';
+import tema6Json from '../data/math/tema6.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
 import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
@@ -81,6 +80,12 @@ const [carpmaTema4, bolmeTema4] = matTema4.konular;
 
 const matTema5 = tema5Json as MathTheme;
 const [uzunlukOlcmeTema5, tartmaTema5] = matTema5.konular;
+
+const matTema6 = tema6Json as MathTheme;
+const [esitParcalaraBolmeTema6, yarimVeCeyrekTema6, basitKesirlerTema6] = matTema6.konular;
+
+const theme3Ing = theme3Json as EnglishTheme;
+const [gunlerVeAylar, havaDurumu, eylemler] = theme3Ing.konular;
 
 const theme4 = theme4Json as EnglishTheme;
 const [kisaHikayeler, basitDiyaloglar, ingilizceSarkilar] = theme4.konular;
@@ -111,9 +116,9 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/tablo-okuma.json': tabloOkuma as Konu,
   'matematik/grafik-okuma.json': grafikOkuma as Konu,
   'matematik/veri-toplama.json': veriToplama as Konu,
-  'matematik/esit-parcalara-bolme.json': esitParcalaraBolme as Konu,
-  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrek as Konu,
-  'matematik/basit-kesirler.json': basitKesirler as Konu,
+  'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema6,
+  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema6,
+  'matematik/basit-kesirler.json': basitKesirlerTema6,
   'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
   'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
   'turkce/okuma-anlama.json': okumaAnlama as Konu,
@@ -148,6 +153,9 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
   'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
   'ingilizce/sayilar-ve-sinif-esyalari.json': sayilarVeSinifEsyalari as Konu,
+  'ingilizce/gunler-ve-aylar.json': gunlerVeAylar,
+  'ingilizce/hava-durumu.json': havaDurumu,
+  'ingilizce/eylemler.json': eylemler,
   'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAile as Konu,
   'ingilizce/kisa-hikayeler.json': kisaHikayeler,
   'ingilizce/basit-diyaloglar.json': basitDiyaloglar,

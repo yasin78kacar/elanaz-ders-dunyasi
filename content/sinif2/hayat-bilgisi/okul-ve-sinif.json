@@ -417,10 +417,10 @@
       "soru": "Sınıfta konuşmak istediğimizde ne yapmalıyız?",
       "dogruCevap": "El kaldırmalıyız",
       "secenekler": [
-        "El kaldırmalıyız",
-        "Koşmalıyız",
+        "Masaya vurmalıyız",
         "Bağırmalıyız",
-        "Masaya vurmalıyız"
+        "Koşmalıyız",
+        "El kaldırmalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -438,8 +438,8 @@
       "dogruCevap": "Özenle",
       "secenekler": [
         "Kırarak",
-        "Umursamaz",
         "Özenle",
+        "Umursamaz",
         "Kaba"
       ],
       "ipucu": "",
@@ -458,9 +458,9 @@
       "dogruCevap": "Saygılı",
       "secenekler": [
         "Saygılı",
+        "Bağırarak",
         "Umursamaz",
-        "Kaba",
-        "Bağırarak"
+        "Kaba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -477,10 +477,10 @@
       "soru": "Ders araçlarından hangisi doğrudur?",
       "dogruCevap": "Defter",
       "secenekler": [
-        "Araba",
-        "Taş",
         "Defter",
-        "Top"
+        "Top",
+        "Taş",
+        "Araba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -502,10 +502,10 @@
       "soru": "Sınıfta sessiz olmak gerekir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
         "Sadece öğretmen yokken",
-        "Evet",
-        "Bazen değil"
+        "Bazen değil",
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -523,9 +523,9 @@
       "dogruCevap": "Nazik",
       "secenekler": [
         "Kızgın",
-        "Kaba",
         "Kıskanç",
-        "Nazik"
+        "Nazik",
+        "Kaba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -544,8 +544,8 @@
       "secenekler": [
         "Sadece sınav günü",
         "Hayır",
-        "Fark etmez",
-        "Evet"
+        "Evet",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -562,10 +562,10 @@
       "soru": "🎭 Sınıfta koşmak her zaman serbest midir?",
       "dogruCevap": "Hayır",
       "secenekler": [
+        "Sadece öğretmen yokken",
         "Evet",
         "Hayır",
-        "Her zaman evet",
-        "Sadece öğretmen yokken"
+        "Her zaman evet"
       ],
       "ipucu": "Sınıfta güvenli ve düzenli olmalıyız!",
       "gorsel": {
@@ -583,10 +583,10 @@
       "soru": "Öğretmen konuşurken ne yapmalıyız?",
       "dogruCevap": "Dinlemeliyiz",
       "secenekler": [
-        "Oynamalıyız",
         "Bağırmalıyız",
-        "Dinlemeliyiz",
-        "Konuşmalıyız"
+        "Oynamalıyız",
+        "Konuşmalıyız",
+        "Dinlemeliyiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -603,10 +603,10 @@
       "soru": "Çöpleri nereye atmalıyız?",
       "dogruCevap": "Çöp kutusuna",
       "secenekler": [
-        "Masaya",
         "Çöp kutusuna",
-        "Pencereye",
-        "Yere"
+        "Masaya",
+        "Yere",
+        "Pencereye"
       ],
       "ipucu": "",
       "gorsel": {
@@ -622,10 +622,10 @@
       "soru": "Başkasının kalemini izinsiz almak doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Bazen",
         "Evet",
-        "Hayır",
-        "Her zaman"
+        "Bazen",
+        "Her zaman",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -642,10 +642,10 @@
       "soru": "Sınıfta masalar nasıl olmalıdır?",
       "dogruCevap": "Düzenli",
       "secenekler": [
-        "Yerde",
-        "Kırık",
         "Düzenli",
-        "Dağınık"
+        "Dağınık",
+        "Yerde",
+        "Kırık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -662,10 +662,10 @@
       "soru": "Defterimizi nasıl tutmalıyız?",
       "dogruCevap": "Düzenli",
       "secenekler": [
-        "Kirli",
         "Düzenli",
         "Kayıp",
-        "Yırtık"
+        "Yırtık",
+        "Kirli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -682,10 +682,10 @@
       "soru": "Okul bahçesinde oynarken ne yapmalıyız?",
       "dogruCevap": "Kurallara uymalıyız",
       "secenekler": [
-        "Kurallara uymalıyız",
-        "Kavga etmeliyiz",
+        "Eşyaları kırmalıyız",
         "Bağırmalıyız",
-        "Eşyaları kırmalıyız"
+        "Kavga etmeliyiz",
+        "Kurallara uymalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -702,10 +702,10 @@
       "soru": "Sınıfta yüksek sesle bağırmak uygun mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
+        "Hayır",
         "Her zaman",
         "Sadece arkadaşlarla",
-        "Evet",
-        "Hayır"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -723,9 +723,9 @@
       "dogruCevap": "Hayır",
       "secenekler": [
         "Evet",
-        "Hayır",
+        "Sıkıldığımızda evet",
         "Bazen olur",
-        "Sıkıldığımızda evet"
+        "Hayır"
       ],
       "ipucu": "Öğretmenimizi dinlemeliyiz!",
       "gorsel": {
@@ -743,10 +743,10 @@
       "soru": "Silgimizi arkadaşımızla paylaşmak doğru mudur?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece öğretmen isterse",
         "Hayır",
+        "Asla",
         "Evet",
-        "Asla"
+        "Sadece öğretmen isterse"
       ],
       "ipucu": "",
       "gorsel": {
@@ -763,10 +763,10 @@
       "soru": "Sınıfta sıramıza oturmalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Ayakta durmalıyız",
-        "Masaya çıkmalıyız",
+        "Evet",
         "Hayır",
-        "Evet"
+        "Ayakta durmalıyız",
+        "Masaya çıkmalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -784,9 +784,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Evet",
         "Fark etmez",
-        "Sadece bahçede"
+        "Sadece bahçede",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -803,10 +803,10 @@
       "soru": "🎭 Okul kurallarına uymak neden önemlidir?",
       "dogruCevap": "Güvenli ve düzenli öğrenmek için",
       "secenekler": [
+        "Güvenli ve düzenli öğrenmek için",
         "Hiç önemli değil",
         "Sadece öğretmen istediği için",
-        "Sadece ceza yememek için",
-        "Güvenli ve düzenli öğrenmek için"
+        "Sadece ceza yememek için"
       ],
       "ipucu": "Kurallar hepimizin iyiliği içindir!",
       "gorsel": {
@@ -824,9 +824,9 @@
       "dogruCevap": "Öğretmen",
       "secenekler": [
         "Öğretmen",
-        "Veli",
         "Öğrenci",
-        "Komşu"
+        "Komşu",
+        "Veli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -842,9 +842,9 @@
       "soru": "Ders çalışırken ne yapmalıyız?",
       "dogruCevap": "Dikkatli dinlemeliyiz",
       "secenekler": [
+        "Koşmalıyız",
         "Dikkatli dinlemeliyiz",
         "Oynamalıyız",
-        "Koşmalıyız",
         "Uyumalıyız"
       ],
       "ipucu": "",
@@ -862,10 +862,10 @@
       "soru": "Okulda öğrenmek için nereye gideriz?",
       "dogruCevap": "Sınıfa",
       "secenekler": [
-        "Sınıfa",
-        "Markete",
         "Hastaneye",
-        "Denize"
+        "Sınıfa",
+        "Denize",
+        "Markete"
       ],
       "ipucu": "",
       "gorsel": {
@@ -881,10 +881,10 @@
       "soru": "🎭 Arkadaşımızın çantasını izinsiz açmak doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Hayır",
-        "Merak ettiğimizde evet",
         "Evet",
-        "Sadece oyuncak varsa"
+        "Sadece oyuncak varsa",
+        "Hayır",
+        "Merak ettiğimizde evet"
       ],
       "ipucu": "Başkalarının eşyalarına saygı göstermeliyiz!",
       "gorsel": {
@@ -903,8 +903,8 @@
       "dogruCevap": "Saygı ve dinleme",
       "secenekler": [
         "Kavga etmek",
-        "Eşyaları kırmak",
         "Saygı ve dinleme",
+        "Eşyaları kırmak",
         "Bağırmak"
       ],
       "ipucu": "Okulda saygılı ve düzenli olmalıyız!",

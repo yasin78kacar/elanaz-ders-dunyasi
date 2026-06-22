@@ -479,9 +479,9 @@
       "soru": "Ayşe sepeti kendinden uzaklaştırarak hareket ettirdi. Hangi kuvveti uyguladı?",
       "dogruCevap": "İtme",
       "secenekler": [
+        "Yavaşlatma",
         "Çekme",
         "İtme",
-        "Yavaşlatma",
         "Döndürme"
       ],
       "ipucu": "",
@@ -499,10 +499,10 @@
       "soru": "Yusuf fişi prizden çıkardı. Hangi kuvveti uyguladı?",
       "dogruCevap": "Çekme",
       "secenekler": [
-        "Dönme",
+        "İtme",
         "Hızlandırma",
-        "Çekme",
-        "İtme"
+        "Dönme",
+        "Çekme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -519,9 +519,9 @@
       "soru": "Yokuş aşağı giden bisiklet kendi kendine hangi hareketi yapar?",
       "dogruCevap": "Hızlanma",
       "secenekler": [
-        "Durma",
         "Yavaşlama",
         "Dönme",
+        "Durma",
         "Hızlanma"
       ],
       "ipucu": "",
@@ -539,10 +539,10 @@
       "soru": "Şoför frenine basarak hangi hareketi yaptı?",
       "dogruCevap": "Yavaşlama ve durma",
       "secenekler": [
-        "Hızlanma",
         "Yavaşlama ve durma",
-        "Dönme",
-        "Yön değiştirme"
+        "Yön değiştirme",
+        "Hızlanma",
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -560,8 +560,8 @@
       "dogruCevap": "Yön değiştirdi",
       "secenekler": [
         "Yavaşladı",
-        "Döndü",
         "Hızlandı",
+        "Döndü",
         "Yön değiştirdi"
       ],
       "ipucu": "",
@@ -579,10 +579,10 @@
       "soru": "Masadaki kitabı kendimize yaklaştırmak için ne yapmalıyız?",
       "dogruCevap": "Çekmeliyiz",
       "secenekler": [
-        "İtmeliyiz",
-        "Döndürmeliyiz",
         "Durdurmalıyız",
-        "Çekmeliyiz"
+        "İtmeliyiz",
+        "Çekmeliyiz",
+        "Döndürmeliyiz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -600,9 +600,9 @@
       "dogruCevap": "İtme kuvveti",
       "secenekler": [
         "Çekme kuvveti",
-        "İtme kuvveti",
+        "Durdurucu kuvvet",
         "Döndürme kuvveti",
-        "Durdurucu kuvvet"
+        "İtme kuvveti"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -619,10 +619,10 @@
       "soru": "Ali uçurtmanın uçmaması için ipe hangi kuvveti uyguluyor?",
       "dogruCevap": "Çekme",
       "secenekler": [
-        "Döndürme",
         "Yavaşlatma",
+        "İtme",
         "Çekme",
-        "İtme"
+        "Döndürme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -640,9 +640,9 @@
       "dogruCevap": "Yön değiştirme",
       "secenekler": [
         "Yön değiştirme",
+        "Çekme",
         "Dönme",
-        "Hızlanma",
-        "Çekme"
+        "Hızlanma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -659,10 +659,10 @@
       "soru": "Direksiyonu sağa sola çevirdiğimizde direksiyonun hareketi nedir?",
       "dogruCevap": "Dönme",
       "secenekler": [
+        "İtme",
         "Hızlanma",
         "Çekme",
-        "Dönme",
-        "İtme"
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -679,10 +679,10 @@
       "soru": "Top havaya fırlatılınca en tepeye ulaşana kadar nasıl hareket eder?",
       "dogruCevap": "Giderek yavaşlar",
       "secenekler": [
-        "Yön değiştirir",
         "Giderek yavaşlar",
+        "Döner",
         "Giderek hızlanır",
-        "Döner"
+        "Yön değiştirir"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -699,10 +699,10 @@
       "soru": "Kaleci Mehmet topu elleriyle tuttu. Topun hareketini ne yaptı?",
       "dogruCevap": "Durdurdu",
       "secenekler": [
-        "Döndürdü",
         "Durdurdu",
-        "Yön değiştirdi",
-        "Hızlandırdı"
+        "Hızlandırdı",
+        "Döndürdü",
+        "Yön değiştirdi"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -719,10 +719,10 @@
       "soru": "Rüzgargülünün hareketi nedir?",
       "dogruCevap": "Dönme",
       "secenekler": [
+        "Çekme",
         "Yavaşlama",
-        "Hızlanma",
         "Dönme",
-        "Çekme"
+        "Hızlanma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -739,9 +739,9 @@
       "soru": "Montumuzun fermuarını kapatmak için yukarı doğru ne yaparız?",
       "dogruCevap": "Çekeriz",
       "secenekler": [
-        "Döndürürüz",
-        "İteriz",
         "Sıkıştırırız",
+        "İteriz",
+        "Döndürürüz",
         "Çekeriz"
       ],
       "ipucu": "",
@@ -759,10 +759,10 @@
       "soru": "Fatma buzdolabı kapağını açtı. Kapağa hangi kuvveti uyguladı?",
       "dogruCevap": "Çekme",
       "secenekler": [
+        "İtme",
         "Yavaşlatma",
-        "Dönme",
         "Çekme",
-        "İtme"
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -780,8 +780,8 @@
       "dogruCevap": "İtme (Bastırma)",
       "secenekler": [
         "Çekme",
-        "Hızlandırma",
         "Döndürme",
+        "Hızlandırma",
         "İtme (Bastırma)"
       ],
       "ipucu": "",
@@ -799,10 +799,10 @@
       "soru": "Şemsiyeyi açarken sapı yukarı iteriz. Hangi kuvveti kullanırız?",
       "dogruCevap": "İtme",
       "secenekler": [
-        "Durdurma",
-        "Yavaşlatma",
+        "Çekme",
         "İtme",
-        "Çekme"
+        "Yavaşlatma",
+        "Durdurma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -819,10 +819,10 @@
       "soru": "Dalından kopan yaprak yere inerken hangi hareketi yapar?",
       "dogruCevap": "Hızlanma",
       "secenekler": [
-        "Çekme",
-        "Yukarı yön değiştirme",
         "Durma",
-        "Hızlanma"
+        "Çekme",
+        "Hızlanma",
+        "Yukarı yön değiştirme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -839,10 +839,10 @@
       "soru": "Ali masayı duvara doğru uzaklaştırmak için ne uygular?",
       "dogruCevap": "İtme",
       "secenekler": [
-        "Dönme",
-        "Çekme",
         "İtme",
-        "Sallama"
+        "Çekme",
+        "Sallama",
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -859,10 +859,10 @@
       "soru": "Süpürgeyi hem ileri ... hem geri ... . Boşluklara ne gelir?",
       "dogruCevap": "İter - Çeker",
       "secenekler": [
-        "Çeker - İter",
-        "Döndürür - İter",
         "İter - Döndürür",
-        "İter - Çeker"
+        "Çeker - İter",
+        "İter - Çeker",
+        "Döndürür - İter"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -879,10 +879,10 @@
       "soru": "Bağcıkları sıkıca bağlamak için ipleri kendimize doğru ne yaparız?",
       "dogruCevap": "Çekeriz",
       "secenekler": [
+        "Döndürürüz",
         "İteriz",
         "Yavaşlatırız",
-        "Çekeriz",
-        "Döndürürüz"
+        "Çekeriz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -899,10 +899,10 @@
       "soru": "Pili biten treni hareket ettirmek için parmağımızla hangi kuvveti uygularız?",
       "dogruCevap": "İtme",
       "secenekler": [
-        "İtme",
-        "Dönme",
         "Durdurma",
-        "Çekme"
+        "İtme",
+        "Çekme",
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -919,10 +919,10 @@
       "soru": "Masa tenisinde top masaya çarptığında ne yapar?",
       "dogruCevap": "Yön değiştirir",
       "secenekler": [
-        "Yavaşlar",
-        "Durur",
         "Döner",
-        "Yön değiştirir"
+        "Yön değiştirir",
+        "Yavaşlar",
+        "Durur"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -939,10 +939,10 @@
       "soru": "Küreği toprağa batıran Zeynep, küreğe ayağıyla hangi kuvveti uygular?",
       "dogruCevap": "İtme",
       "secenekler": [
-        "Çekme",
         "İtme",
-        "Yavaşlatma",
-        "Döndürme"
+        "Çekme",
+        "Döndürme",
+        "Yavaşlatma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -959,10 +959,10 @@
       "soru": "Marangoz testereyi ileri iter ve kendine çeker. Hangi kuvvetleri kullanmış olur?",
       "dogruCevap": "İtme ve çekme",
       "secenekler": [
-        "Sadece itme",
-        "Sadece çekme",
         "İtme ve çekme",
-        "Yalnızca döndürme"
+        "Yalnızca döndürme",
+        "Sadece itme",
+        "Sadece çekme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",

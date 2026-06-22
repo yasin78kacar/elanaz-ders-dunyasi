@@ -283,6 +283,121 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'sayilar-1-5': { emoji: '1️⃣2️⃣3️⃣4️⃣5️⃣', etiket: '1–5', ing: 'One to Five' },
   'boya-paleti': { emoji: '🎨', etiket: 'Palet', ing: 'Colors Song' },
   'mutlu-ingilizce-sinif': { emoji: '😊', etiket: 'Sınıf', ing: 'Songs' },
+  // Tema 3 — Days, Weather and Actions
+  '12-aylik-takvim': { emoji: '🗓️', etiket: '12 Aylik Takvim', ing: 'Months' },
+  'acik-kitap': { emoji: '📖', etiket: 'Acik Kitap', ing: 'Read' },
+  'agustos-sicak': { emoji: '🌡️', etiket: 'Agustos Sicak', ing: 'August' },
+  'aralik-kar': { emoji: '⛄', etiket: 'Aralik Kar', ing: 'December' },
+  'ates-basinda': { emoji: '🥶', etiket: 'Ates Basinda', ing: 'Cold' },
+  'bale-yapan': { emoji: '💃', etiket: 'Bale Yapan', ing: 'Dance' },
+  'balik-resmi': { emoji: '🏊', etiket: 'Balik Resmi', ing: 'Swim' },
+  'bardak-su': { emoji: '🥤', etiket: 'Bardak Su', ing: 'Drink' },
+  'bardaktan-su': { emoji: '🥤', etiket: 'Bardaktan Su', ing: 'Drink' },
+  'bulut-resmi': { emoji: '☁️', etiket: 'Bulut Resmi', ing: 'Cloud' },
+  'bulut-resmi-test': { emoji: '☁️', etiket: 'Bulut Resmi Test', ing: 'Cloud' },
+  'bulutlu-gokyuzu': { emoji: '☁️', etiket: 'Bulutlu Gokyuzu', ing: 'Cloudy' },
+  'carsamba-yapragi': { emoji: '🌿', etiket: 'Carsamba Yapragi', ing: 'Wednesday' },
+  'cuma-okul': { emoji: '🏫', etiket: 'Cuma Okul', ing: 'Friday' },
+  'cumartesi-park': { emoji: '🌳', etiket: 'Cumartesi Park', ing: 'Saturday' },
+  'defter-kalem': { emoji: '✏️', etiket: 'Defter Kalem', ing: 'Write' },
+  'deftere-yazan': { emoji: '✏️', etiket: 'Deftere Yazan', ing: 'Write' },
+  'denizde-yuzen': { emoji: '🏊', etiket: 'Denizde Yuzen', ing: 'Swim' },
+  'ekim-ruzgar': { emoji: '🍁', etiket: 'Ekim Ruzgar', ing: 'October' },
+  'elma-yiyen': { emoji: '🍽️', etiket: 'Elma Yiyen', ing: 'Eat' },
+  'ev-resmi-cizen': { emoji: '🎨', etiket: 'Ev Resmi Cizen', ing: 'Draw' },
+  'eylemler-sembolleri': { emoji: '🇬🇧', etiket: 'Eylemler Sembolleri', ing: 'Actions' },
+  'eylul-yaprak': { emoji: '🍂', etiket: 'Eylul Yaprak', ing: 'September' },
+  'futbol-topu': { emoji: '⚽', etiket: 'Futbol Topu', ing: 'Play' },
+  'gece-manzarasi': { emoji: '😴', etiket: 'Gece Manzarasi', ing: 'Sleep' },
+  'gokyuzu-bulutlar': { emoji: '☁️', etiket: 'Gokyuzu Bulutlar', ing: 'Cloudy' },
+  'gri-bulutlar': { emoji: '☁️', etiket: 'Gri Bulutlar', ing: 'Cloudy' },
+  'gunes-bulutlar': { emoji: '☀️', etiket: 'Gunes Bulutlar', ing: 'Weather' },
+  'gunes-gozlugu': { emoji: '☀️', etiket: 'Gunes Gozlugu', ing: 'Sunny' },
+  'gunes-gozlugu-test': { emoji: '☀️', etiket: 'Gunes Gozlugu Test', ing: 'Sunny' },
+  'gunes-resmi': { emoji: '☀️', etiket: 'Gunes Resmi', ing: 'Sun' },
+  'gunesli-yagmurlu-semboller': { emoji: '☀️', etiket: 'Gunesli Yagmurlu Semboller', ing: 'Sunny and Rainy' },
+  'gunler-panosu': { emoji: '📆', etiket: 'Gunler Panosu', ing: 'Days of the week' },
+  'hareketli-karakterler': { emoji: '❄️', etiket: 'Hareketli Karakterler', ing: 'Actions' },
+  'hava-durumu-sembolleri': { emoji: '🌤️', etiket: 'Hava Durumu Sembolleri', ing: 'Weather' },
+  'hava-durumu-sunucusu': { emoji: '🥤', etiket: 'Hava Durumu Sunucusu', ing: 'Weather' },
+  'havaya-ziplayan': { emoji: '🤸', etiket: 'Havaya Ziplayan', ing: 'Jump' },
+  'havuz-resmi': { emoji: '🏊', etiket: 'Havuz Resmi', ing: 'Swim' },
+  'haziran-karne': { emoji: '🎓', etiket: 'Haziran Karne', ing: 'June' },
+  'hizli-kosan-sporcu': { emoji: '🏃', etiket: 'Hizli Kosan Sporcu', ing: 'Run' },
+  'ip-atlayan': { emoji: '🤸', etiket: 'Ip Atlayan', ing: 'Jump' },
+  'kar-tanesi': { emoji: '❄️', etiket: 'Kar Tanesi', ing: 'Snow' },
+  'kar-tanesi-resmi': { emoji: '❄️', etiket: 'Kar Tanesi Resmi', ing: 'Snow' },
+  'kardan-adam': { emoji: '❄️', etiket: 'Kardan Adam', ing: 'Snowy' },
+  'kardan-adam-kar': { emoji: '❄️', etiket: 'Kardan Adam Kar', ing: 'Snowy' },
+  'kartopu-oynayan': { emoji: '❄️', etiket: 'Kartopu Oynayan', ing: 'Snowy' },
+  'kartopu-oynayan-iki': { emoji: '❄️', etiket: 'Kartopu Oynayan Iki', ing: 'Snowy' },
+  'kasim-yagmur': { emoji: '🌧️', etiket: 'Kasim Yagmur', ing: 'November' },
+  'kirmizi-termometre': { emoji: '☀️', etiket: 'Kirmizi Termometre', ing: 'Hot' },
+  'kislik-atki': { emoji: '❄️', etiket: 'Kislik Atki', ing: 'Cold' },
+  'kitap-okuyan-gozler': { emoji: '📖', etiket: 'Kitap Okuyan Gozler', ing: 'Read' },
+  'kitap-okuyan-kiz': { emoji: '📖', etiket: 'Kitap Okuyan Kiz', ing: 'Read' },
+  'kosan-bacaklar': { emoji: '🏃', etiket: 'Kosan Bacaklar', ing: 'Run' },
+  'kosan-cocuk': { emoji: '🏃', etiket: 'Kosan Cocuk', ing: 'Run' },
+  'kosu-bandi': { emoji: '🏃', etiket: 'Kosu Bandi', ing: 'Run' },
+  'kosu-havuz': { emoji: '🏃', etiket: 'Kosu Havuz', ing: 'Run / Swim' },
+  'mart-cicek': { emoji: '🌸', etiket: 'Mart Cicek', ing: 'March' },
+  'mavi-termometre': { emoji: '🇬🇧', etiket: 'Mavi Termometre', ing: 'Cold' },
+  'mayis-gunes': { emoji: '☀️', etiket: 'Mayis Gunes', ing: 'May' },
+  'mikrofon-tutan': { emoji: '🎤', etiket: 'Mikrofon Tutan', ing: 'Sing' },
+  'nisan-yagmur': { emoji: '🌧️', etiket: 'Nisan Yagmur', ing: 'April' },
+  'nota-sembolleri': { emoji: '🎤', etiket: 'Nota Sembolleri', ing: 'Sing' },
+  'ocak-kar': { emoji: '❄️', etiket: 'Ocak Kar', ing: 'January' },
+  'okul-masasi': { emoji: '📖', etiket: 'Okul Masasi', ing: 'Read and Write' },
+  'oyuncak-mutlu': { emoji: '⚽', etiket: 'Oyuncak Mutlu', ing: 'Play' },
+  'oyuncak-oynayan': { emoji: '⚽', etiket: 'Oyuncak Oynayan', ing: 'Play' },
+  'pazar-piknik': { emoji: '🧺', etiket: 'Pazar Piknik', ing: 'Sunday' },
+  'pazartesi-okul': { emoji: '🏫', etiket: 'Pazartesi Okul', ing: 'Monday' },
+  'pazartesi-takvim': { emoji: '📅', etiket: 'Pazartesi Takvim', ing: 'Monday' },
+  'pencereden-bakan': { emoji: '🇬🇧', etiket: 'Pencereden Bakan', ing: 'Weather' },
+  'persembe-takvim': { emoji: '📅', etiket: 'Persembe Takvim', ing: 'Thursday' },
+  'pirl-pirl-gunes': { emoji: '☀️', etiket: 'Pirl Pirl Gunes', ing: 'Sunny' },
+  'pirl-pirl-gunesli-gun': { emoji: '☀️', etiket: 'Pirl Pirl Gunesli Gun', ing: 'Sunny' },
+  'plaj-manzarasi': { emoji: '☀️', etiket: 'Plaj Manzarasi', ing: 'Hot' },
+  'plaj-resmi': { emoji: '☀️', etiket: 'Plaj Resmi', ing: 'Hot' },
+  'resim-cizen': { emoji: '🎨', etiket: 'Resim Cizen', ing: 'Draw' },
+  'resim-cizen-eller': { emoji: '🎨', etiket: 'Resim Cizen Eller', ing: 'Draw' },
+  'ritim-tutan': { emoji: '💃', etiket: 'Ritim Tutan', ing: 'Dance' },
+  'ruzgar-gulu': { emoji: '💨', etiket: 'Ruzgar Gulu', ing: 'Windy' },
+  'ruzgar-gulu-donuyor': { emoji: '💨', etiket: 'Ruzgar Gulu Donuyor', ing: 'Windy' },
+  'ruzgar-yapraklar': { emoji: '💨', etiket: 'Ruzgar Yapraklar', ing: 'Windy' },
+  'saat-resmi': { emoji: '🕐', etiket: 'Saat Resmi', ing: 'Time' },
+  'saglikli-yemek': { emoji: '🍽️', etiket: 'Saglikli Yemek', ing: 'Eat' },
+  'sali-takvim': { emoji: '📅', etiket: 'Sali Takvim', ing: 'Tuesday' },
+  'sapsari-gunes': { emoji: '☀️', etiket: 'Sapsari Gunes', ing: 'Sun' },
+  'sarki-soyleyen-agiz': { emoji: '🎤', etiket: 'Sarki Soyleyen Agiz', ing: 'Sing' },
+  'semsiye-acan': { emoji: '🌧️', etiket: 'Semsiye Acan', ing: 'Rainy' },
+  'semsiye-tutan': { emoji: '🌧️', etiket: 'Semsiye Tutan', ing: 'Rainy' },
+  'sicak-corbasi-soguk-dondurma': { emoji: '☀️', etiket: 'Sicak Corbasi Soguk Dondurma', ing: 'Hot and Cold' },
+  'simsek': { emoji: '🌧️', etiket: 'Simsek', ing: 'Rainy' },
+  'somine-aile': { emoji: '🥶', etiket: 'Somine Aile', ing: 'Cold' },
+  'su-icen': { emoji: '🥤', etiket: 'Su Icen', ing: 'Drink' },
+  'subat-takvim': { emoji: '📅', etiket: 'Subat Takvim', ing: 'February' },
+  'suda-yuzen': { emoji: '🏊', etiket: 'Suda Yuzen', ing: 'Swim' },
+  'takvim-yapragi': { emoji: '📅', etiket: 'Takvim Yapragi', ing: 'Day' },
+  'temmuz-deniz': { emoji: '🏖️', etiket: 'Temmuz Deniz', ing: 'July' },
+  'terleyen-cocuk': { emoji: '🇬🇧', etiket: 'Terleyen Cocuk', ing: 'Hot' },
+  'terleyen-dondurma': { emoji: '🇬🇧', etiket: 'Terleyen Dondurma', ing: 'Hot' },
+  'titreyen-cocuk': { emoji: '🥶', etiket: 'Titreyen Cocuk', ing: 'Cold' },
+  'titreyen-kalin-giyinen': { emoji: '🥶', etiket: 'Titreyen Kalin Giyinen', ing: 'Cold' },
+  'top-oynayan-kopek': { emoji: '⚽', etiket: 'Top Oynayan Kopek', ing: 'Play' },
+  'ucan-yapraklar': { emoji: '💨', etiket: 'Ucan Yapraklar', ing: 'Windy' },
+  'ucurtma': { emoji: '💨', etiket: 'Ucurtma', ing: 'Windy' },
+  'ucurtma-ucuran': { emoji: '💨', etiket: 'Ucurtma Ucuran', ing: 'Windy' },
+  'yagmur-bulutu': { emoji: '🌧️', etiket: 'Yagmur Bulutu', ing: 'Rain' },
+  'yagmur-damlalari': { emoji: '🌧️', etiket: 'Yagmur Damlalari', ing: 'Rainy' },
+  'yagmur-damlasi': { emoji: '🌧️', etiket: 'Yagmur Damlasi', ing: 'Rain' },
+  'yagmur-semsiye': { emoji: '🌧️', etiket: 'Yagmur Semsiye', ing: 'Rainy' },
+  'yastik': { emoji: '😴', etiket: 'Yastik', ing: 'Sleep' },
+  'yatakta-uyuyan': { emoji: '😴', etiket: 'Yatakta Uyuyan', ing: 'Sleep' },
+  'yaz-gunesi': { emoji: '☀️', etiket: 'Yaz Gunesi', ing: 'Hot' },
+  'yemek-masasi': { emoji: '🍽️', etiket: 'Yemek Masasi', ing: 'Eat / Drink' },
+  'yemek-yiyen': { emoji: '🍽️', etiket: 'Yemek Yiyen', ing: 'Eat' },
+  'ziplayan-kurbaga': { emoji: '🤸', etiket: 'Ziplayan Kurbaga', ing: 'Jump' },
   default: { emoji: '🇬🇧', etiket: 'English' },
 };
 
@@ -572,6 +687,100 @@ function RenklerSarkiSahne() {
   );
 }
 
+function GunlerAylarSahne1() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="pazartesi-takvim" vurgulu />
+      <NesneKart anahtar="sali-takvim" />
+      <NesneKart anahtar="carsamba-yapragi" />
+      <NesneKart anahtar="persembe-takvim" />
+      <NesneKart anahtar="cuma-okul" />
+    </View>
+  );
+}
+
+function GunlerAylarSahne2() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="ocak-kar" vurgulu />
+      <NesneKart anahtar="mart-cicek" />
+      <NesneKart anahtar="haziran-karne" />
+      <NesneKart anahtar="ekim-ruzgar" />
+      <NesneKart anahtar="aralik-kar" />
+    </View>
+  );
+}
+
+function GunlerAylarSahne3() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="saat-resmi" vurgulu />
+      <NesneKart anahtar="12-aylik-takvim" />
+      <NesneKart anahtar="gunler-panosu" />
+    </View>
+  );
+}
+
+function HavaDurumuSahne1() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="pirl-pirl-gunes" vurgulu />
+      <NesneKart anahtar="yagmur-damlalari" />
+      <NesneKart anahtar="gri-bulutlar" />
+    </View>
+  );
+}
+
+function HavaDurumuSahne2() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="kardan-adam" vurgulu />
+      <NesneKart anahtar="ucurtma" />
+      <NesneKart anahtar="semsiye-tutan" />
+    </View>
+  );
+}
+
+function HavaDurumuSahne3() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="terleyen-cocuk" vurgulu />
+      <NesneKart anahtar="kislik-atki" />
+      <NesneKart anahtar="hava-durumu-sembolleri" />
+    </View>
+  );
+}
+
+function EylemlerSahne1() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="kitap-okuyan-kiz" vurgulu />
+      <NesneKart anahtar="deftere-yazan" />
+      <NesneKart anahtar="resim-cizen" />
+    </View>
+  );
+}
+
+function EylemlerSahne2() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="mikrofon-sarki" vurgulu />
+      <NesneKart anahtar="dans-eden" />
+      <NesneKart anahtar="oyuncak-oynayan" />
+    </View>
+  );
+}
+
+function EylemlerSahne3() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="yemek-yiyen" vurgulu />
+      <NesneKart anahtar="su-icen" />
+      <NesneKart anahtar="yatakta-uyuyan" />
+    </View>
+  );
+}
+
 function GrupGorsel({ nesneler, vurgu }: { nesneler?: string[]; vurgu?: Props['vurgu'] }) {
   const vurgular = Array.isArray(vurgu) ? vurgu : vurgu ? [vurgu] : [];
   return (
@@ -621,6 +830,24 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <SayilarSarkiSahne />;
     case 'is-anlatim-3':
       return <RenklerSarkiSahne />;
+    case 'ga-anlatim-1':
+      return <GunlerAylarSahne1 />;
+    case 'ga-anlatim-2':
+      return <GunlerAylarSahne2 />;
+    case 'ga-anlatim-3':
+      return <GunlerAylarSahne3 />;
+    case 'hd-anlatim-1':
+      return <HavaDurumuSahne1 />;
+    case 'hd-anlatim-2':
+      return <HavaDurumuSahne2 />;
+    case 'hd-anlatim-3':
+      return <HavaDurumuSahne3 />;
+    case 'ey-anlatim-1':
+      return <EylemlerSahne1 />;
+    case 'ey-anlatim-2':
+      return <EylemlerSahne2 />;
+    case 'ey-anlatim-3':
+      return <EylemlerSahne3 />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

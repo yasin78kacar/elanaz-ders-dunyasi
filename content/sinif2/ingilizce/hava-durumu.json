@@ -456,10 +456,10 @@
       "soru": "İngilizcede \"Hava Durumu\" kelimesinin karşılığı nedir?",
       "dogruCevap": "Weather",
       "secenekler": [
-        "Time",
-        "Weather",
         "Months",
-        "Colors"
+        "Colors",
+        "Weather",
+        "Time"
       ],
       "ipucu": "",
       "gorsel": {
@@ -475,10 +475,10 @@
       "soru": "Gökyüzünün açık ve güneşli olduğu günlere İngilizcede ne deriz?",
       "dogruCevap": "Sunny",
       "secenekler": [
-        "Cloudy",
         "Snowy",
+        "Sunny",
         "Rainy",
-        "Sunny"
+        "Cloudy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -494,8 +494,8 @@
       "soru": "Yağmurlu havaların İngilizce karşılığı aşağıdakilerden hangisidir?",
       "dogruCevap": "Rainy",
       "secenekler": [
-        "Windy",
         "Hot",
+        "Windy",
         "Rainy",
         "Sunny"
       ],
@@ -513,10 +513,10 @@
       "soru": "Lapa lapa kar yağan kış günlerine İngilizcede ne denir?",
       "dogruCevap": "Snowy",
       "secenekler": [
-        "Snowy",
-        "Cloudy",
         "Hot",
-        "Rainy"
+        "Rainy",
+        "Snowy",
+        "Cloudy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -532,10 +532,10 @@
       "soru": "Ağaç dallarının sallandığı rüzgarlı havaların İngilizcesi nedir?",
       "dogruCevap": "Windy",
       "secenekler": [
-        "Windy",
+        "Cold",
         "Sunny",
         "Snowy",
-        "Cold"
+        "Windy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -551,9 +551,9 @@
       "soru": "Güneşin görünmediği, bulutlu havalara ne ad verilir?",
       "dogruCevap": "Cloudy",
       "secenekler": [
-        "Cloudy",
         "Sunny",
         "Windy",
+        "Cloudy",
         "Rainy"
       ],
       "ipucu": "",
@@ -570,10 +570,10 @@
       "soru": "Havanın çok sıcak olduğunu anlatmak için hangi İngilizce kelimeyi kullanırız?",
       "dogruCevap": "Hot",
       "secenekler": [
-        "Cold",
+        "Hot",
         "Snowy",
-        "Windy",
-        "Hot"
+        "Cold",
+        "Windy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -589,10 +589,10 @@
       "soru": "Havanın buz gibi soğuk olduğunu ifade eden kelime hangisidir?",
       "dogruCevap": "Cold",
       "secenekler": [
+        "Sunny",
         "Cold",
         "Hot",
-        "Rain",
-        "Sunny"
+        "Rain"
       ],
       "ipucu": "",
       "gorsel": {
@@ -608,10 +608,10 @@
       "soru": "\"Rainy\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Yağmurlu",
       "secenekler": [
-        "Güneşli",
-        "Bulutlu",
+        "Karlı",
         "Yağmurlu",
-        "Karlı"
+        "Bulutlu",
+        "Güneşli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -627,10 +627,10 @@
       "soru": "Hangi havada şapka ve güneş gözlüğü takarız?",
       "dogruCevap": "Sunny",
       "secenekler": [
-        "Snowy",
         "Sunny",
-        "Windy",
-        "Rainy"
+        "Snowy",
+        "Rainy",
+        "Windy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -647,9 +647,9 @@
       "dogruCevap": "Snowy",
       "secenekler": [
         "Hot",
+        "Snowy",
         "Rainy",
-        "Sunny",
-        "Snowy"
+        "Sunny"
       ],
       "ipucu": "",
       "gorsel": {
@@ -665,8 +665,8 @@
       "soru": "\"Windy\" kelimesinin Türkçe karşılığı nedir?",
       "dogruCevap": "Rüzgarlı",
       "secenekler": [
-        "Sisli",
         "Yağmurlu",
+        "Sisli",
         "Rüzgarlı",
         "Sıcak"
       ],
@@ -684,10 +684,10 @@
       "soru": "\"Cloudy\" kelimesi ne anlama gelir?",
       "dogruCevap": "Bulutlu",
       "secenekler": [
-        "Güneşli",
         "Karlı",
+        "Soğuk",
         "Bulutlu",
-        "Soğuk"
+        "Güneşli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -703,10 +703,10 @@
       "soru": "\"Hot\" kelimesinin anlamı nedir?",
       "dogruCevap": "Sıcak",
       "secenekler": [
-        "Bulutlu",
-        "Rüzgarlı",
+        "Soğuk",
         "Sıcak",
-        "Soğuk"
+        "Bulutlu",
+        "Rüzgarlı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -723,9 +723,9 @@
       "dogruCevap": "Soğuk",
       "secenekler": [
         "Sıcak",
+        "Yağmurlu",
         "Güneşli",
-        "Soğuk",
-        "Yağmurlu"
+        "Soğuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -741,10 +741,10 @@
       "soru": "Rüzgarlı (Windy) bir günde aşağıdakilerden hangisini yapmak çok eğlencelidir?",
       "dogruCevap": "Uçurtma uçurmak",
       "secenekler": [
-        "Şemsiye açmak",
-        "Kardan adam yapmak",
+        "Denize girmek",
         "Uçurtma uçurmak",
-        "Denize girmek"
+        "Şemsiye açmak",
+        "Kardan adam yapmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -761,9 +761,9 @@
       "dogruCevap": "Güneş",
       "secenekler": [
         "Yıldız",
-        "Ay",
+        "Bulut",
         "Güneş",
-        "Bulut"
+        "Ay"
       ],
       "ipucu": "",
       "gorsel": {
@@ -779,10 +779,10 @@
       "soru": "İngilizce \"Snow\" kelimesinin anlamı nedir?",
       "dogruCevap": "Kar",
       "secenekler": [
+        "Dolu",
         "Rüzgar",
-        "Yağmur",
         "Kar",
-        "Dolu"
+        "Yağmur"
       ],
       "ipucu": "",
       "gorsel": {
@@ -799,9 +799,9 @@
       "dogruCevap": "Yağmur",
       "secenekler": [
         "Kar",
-        "Güneş",
         "Sis",
-        "Yağmur"
+        "Yağmur",
+        "Güneş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -817,9 +817,9 @@
       "soru": "\"Cloud\" kelimesi hangi anlama gelir?",
       "dogruCevap": "Bulut",
       "secenekler": [
-        "Yağmur",
         "Rüzgar",
         "Bulut",
+        "Yağmur",
         "Kar"
       ],
       "ipucu": "",
@@ -836,8 +836,8 @@
       "soru": "\"Hot\" ve \"Cold\" kelimeleri sırasıyla ne anlama gelir?",
       "dogruCevap": "Sıcak ve Soğuk",
       "secenekler": [
-        "Güneşli ve Yağmurlu",
         "Karlı ve Rüzgarlı",
+        "Güneşli ve Yağmurlu",
         "Soğuk ve Sıcak",
         "Sıcak ve Soğuk"
       ],
@@ -856,9 +856,9 @@
       "dogruCevap": "Güneşli ve Yağmurlu",
       "secenekler": [
         "Karlı ve Rüzgarlı",
-        "Güneşli ve Yağmurlu",
         "Sıcak ve Soğuk",
-        "Bulutlu ve Sisli"
+        "Bulutlu ve Sisli",
+        "Güneşli ve Yağmurlu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -874,9 +874,9 @@
       "soru": "Çok \"Hot\" (Sıcak) bir günde ne yapmayı tercih ederiz?",
       "dogruCevap": "Serinletici sular içip gölgede dinlenmeyi",
       "secenekler": [
-        "Atkı takmayı",
-        "Kartopu oynamayı",
         "Kalın mont giymeyi",
+        "Kartopu oynamayı",
+        "Atkı takmayı",
         "Serinletici sular içip gölgede dinlenmeyi"
       ],
       "ipucu": "",
@@ -912,10 +912,10 @@
       "soru": "Dışarıya çıkmadan önce doğru kıyafetleri seçmek için neye bakarız?",
       "dogruCevap": "Weather (Hava durumu)",
       "secenekler": [
-        "Colors (Renkler)",
         "Body Parts (Vücut bölümleri)",
+        "Weather (Hava durumu)",
         "Numbers (Sayılar)",
-        "Weather (Hava durumu)"
+        "Colors (Renkler)"
       ],
       "ipucu": "",
       "gorsel": {
