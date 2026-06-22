@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { flowButtonContainerStyle } from './FlowImage';
 
 interface ContainerProps {
   children: ReactNode;
@@ -76,7 +77,9 @@ export function ExerciseScreenLayout({
       </ScrollView>
       {bottomBar ? (
         <View style={[styles.fixedFooter, footerStyle]}>
-          <View style={[styles.buttonContainer, buttonContainerStyle]}>{bottomBar}</View>
+          <View style={[styles.buttonContainer, flowButtonContainerStyle, buttonContainerStyle]}>
+            {bottomBar}
+          </View>
         </View>
       ) : null}
     </View>

@@ -59,6 +59,14 @@ export function FlowOrFallback({
   );
 }
 
+/** Konu akışı sabit Devam tuşu kapsayıcısı — Fold 7 görünürlük */
+export const flowButtonContainerStyle = {
+  paddingBottom: 80,
+  marginTop: 30,
+  marginBottom: 40,
+  minHeight: 100,
+};
+
 const styles = StyleSheet.create({
   sarmal: {
     alignItems: 'center',
