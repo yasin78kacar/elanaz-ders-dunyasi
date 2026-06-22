@@ -428,8 +428,8 @@
       "soru": "Aşağıdakilerden hangisi cansızdır?",
       "dogruCevap": "Taş",
       "secenekler": [
-        "Kedi",
         "Ağaç",
+        "Kedi",
         "Taş",
         "Çiçek"
       ],
@@ -453,10 +453,10 @@
       "soru": "Canlıların kaç yaşam özelliği vardır?",
       "dogruCevap": "7",
       "secenekler": [
+        "6",
         "8",
-        "5",
         "7",
-        "6"
+        "5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -472,10 +472,10 @@
       "soru": "Hangisi canlıların yaşam özelliğidir?",
       "dogruCevap": "Beslenir",
       "secenekler": [
-        "Kırılır",
         "Parlar",
         "Erir",
-        "Beslenir"
+        "Beslenir",
+        "Kırılır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -491,8 +491,8 @@
       "soru": "Ağaç canlı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Bazen",
         "Belli değil",
+        "Bazen",
         "Hayır",
         "Evet"
       ],
@@ -510,10 +510,10 @@
       "soru": "Araba canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Bazen",
+        "Sadece hareket edince",
         "Hayır",
         "Evet",
-        "Sadece hareket edince"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -529,10 +529,10 @@
       "soru": "Canlılar büyür mü?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
         "Sadece hayvanlar",
-        "Sadece bitkiler",
-        "Hayır"
+        "Evet",
+        "Hayır",
+        "Sadece bitkiler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -548,10 +548,10 @@
       "soru": "🎭 Hareket eden her şey canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Hayır",
+        "Evet",
         "Sadece uçanlar",
         "Sadece yürüyenler",
-        "Evet"
+        "Hayır"
       ],
       "ipucu": "Araba hareket eder ama canlı değildir!",
       "gorsel": {
@@ -574,10 +574,10 @@
       "soru": "Canlılar solur mu?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece insan",
         "Evet",
-        "Hayır",
-        "Sadece balık"
+        "Sadece balık",
+        "Sadece insan",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -593,10 +593,10 @@
       "soru": "Canlılar ürer mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece bitkiler",
         "Hayır",
         "Evet",
-        "Sadece kuşlar"
+        "Sadece kuşlar",
+        "Sadece bitkiler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -614,8 +614,8 @@
       "secenekler": [
         "Hayır",
         "Sadece köpekler",
-        "Sadece insanlar",
-        "Evet"
+        "Evet",
+        "Sadece insanlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -631,10 +631,10 @@
       "soru": "Hangisi canlıların yaşam özelliği değildir?",
       "dogruCevap": "Parlar",
       "secenekler": [
-        "Beslenir",
-        "Büyür",
         "Solur",
-        "Parlar"
+        "Parlar",
+        "Büyür",
+        "Beslenir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -650,8 +650,8 @@
       "soru": "Çiçek canlı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
         "Sadece yazın",
+        "Hayır",
         "Kuruyunca",
         "Evet"
       ],
@@ -669,10 +669,10 @@
       "soru": "Kelebek canlı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Hayır",
         "Sadece tırtılken",
-        "Sadece uçarken",
         "Evet",
-        "Hayır"
+        "Sadece uçarken"
       ],
       "ipucu": "",
       "gorsel": {
@@ -688,10 +688,10 @@
       "soru": "Kitap canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Okununca",
         "Bazen",
         "Hayır",
-        "Evet"
+        "Evet",
+        "Okununca"
       ],
       "ipucu": "",
       "gorsel": {
@@ -707,10 +707,10 @@
       "soru": "🎭 Güneş canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Evet",
-        "Hayır",
+        "Sıcak olduğu için evet",
         "Sadece gündüz",
-        "Sıcak olduğu için evet"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "Güneş ısı ve ışık verir ama canlı değildir!",
       "gorsel": {
@@ -727,10 +727,10 @@
       "soru": "Canlılar ölür mü?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Sadece bitkiler",
+        "Hiçbiri",
         "Evet",
-        "Hiçbiri"
+        "Hayır",
+        "Sadece bitkiler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -747,9 +747,9 @@
       "dogruCevap": "Balık",
       "secenekler": [
         "Masa",
-        "Balık",
         "Kalem",
-        "Kaya"
+        "Kaya",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -772,9 +772,9 @@
       "dogruCevap": "Hayır",
       "secenekler": [
         "Sadece taşlar",
+        "Evet",
         "Bazen",
-        "Hayır",
-        "Evet"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -794,10 +794,10 @@
       "soru": "🎭 Aşağıdakilerden hangisi hem canlı hem cansız örneği içerir?",
       "dogruCevap": "Kedi — Kaya",
       "secenekler": [
-        "İnsan — Köpek",
         "Kedi — Kuş",
-        "Kedi — Kaya",
-        "Ağaç — Çiçek"
+        "İnsan — Köpek",
+        "Ağaç — Çiçek",
+        "Kedi — Kaya"
       ],
       "ipucu": "Biri canlı, biri cansız olmalı!",
       "gorsel": {
@@ -842,10 +842,10 @@
       "soru": "Top canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
+        "Hayır",
         "Evet",
-        "Yuvarlaksa evet",
         "Zıplarsa evet",
-        "Hayır"
+        "Yuvarlaksa evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -861,9 +861,9 @@
       "soru": "Canlıların yaşam özelliklerinden biri hangisidir?",
       "dogruCevap": "Hareket eder",
       "secenekler": [
-        "Parlar",
-        "Hareket eder",
         "Kırılır",
+        "Hareket eder",
+        "Parlar",
         "Donar"
       ],
       "ipucu": "",
@@ -880,10 +880,10 @@
       "soru": "🎭 Kuruyan çiçek hâlâ canlı mıdır?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Bazen",
         "Rengi varsa evet",
-        "Hayır",
-        "Evet"
+        "Bazen",
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "Ölmüş canlı artık yaşam özelliklerini göstermez!",
       "gorsel": {
@@ -900,9 +900,9 @@
       "soru": "🎭 Aşağıdakilerden hangisi tüm canlılar için geçerlidir?",
       "dogruCevap": "Büyür, beslenir ve solur",
       "secenekler": [
-        "Parlar ve erir",
         "Uçar ve yüzer",
         "Konuşur ve yazar",
+        "Parlar ve erir",
         "Büyür, beslenir ve solur"
       ],
       "ipucu": "Her canlı bu temel özellikleri gösterir!",

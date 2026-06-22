@@ -499,144 +499,6 @@
         "b": 9,
         "sonuc": 19
       }
-    },
-    {
-      "id": "3a-go-a1",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "Ali 20 elmaya 15 elma eklerse toplam 35 elması olur.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 20,
-        "b": 15,
-        "sonuc": 35,
-        "nesne": "elma",
-        "renk1": "kirmizi",
-        "renk2": "yesil"
-      }
-    },
-    {
-      "id": "3a-go-a2",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "3 onluk ve 4 birlik toplam 34 sayısını oluşturur.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "onluk-toplama",
-        "a": 30,
-        "b": 4,
-        "sonuc": 34
-      }
-    },
-    {
-      "id": "3a-go-a4",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "Can'ın 40 mavi ve 20 sarı bilyesi var. Toplam bilye sayısı 60'tır.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 40,
-        "b": 20,
-        "sonuc": 60,
-        "nesne": "top",
-        "renk1": "mavi",
-        "renk2": "sari"
-      }
-    },
-    {
-      "id": "3a-go-a5",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "Fatma 25 fındık ve 12 ceviz yedi. Toplam 37 yemiş yedi.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 25,
-        "b": 12,
-        "sonuc": 37,
-        "nesne": "meyve",
-        "renk1": "kirmizi",
-        "renk2": "yesil"
-      }
-    },
-    {
-      "id": "3a-go-a8",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "Bahçede 18 kırmızı, 11 beyaz gül var. Toplam gül sayısı 29 tanedir.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 18,
-        "b": 11,
-        "sonuc": 29,
-        "nesne": "cicek",
-        "renk1": "kirmizi",
-        "renk2": "beyaz"
-      }
-    },
-    {
-      "id": "3a-go-a9",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "yazili",
-      "soru": "75 sayısı, 7 onluk ve 5 birlikten oluşur.",
-      "dogruCevap": "Doğru",
-      "ipucu": "",
-      "cevapTipi": "metin",
-      "alternatifCevaplar": [
-        "Evet",
-        "evet",
-        "doğru"
-      ],
-      "gorsel": {
-        "tur": "islem",
-        "mod": "onluk-toplama",
-        "a": 70,
-        "b": 5,
-        "sonuc": 75
-      }
     }
   ],
   "test": [
@@ -647,10 +509,10 @@
       "soru": "3 + 4 = ?",
       "dogruCevap": "7",
       "secenekler": [
+        "5",
         "7",
         "8",
-        "6",
-        "5"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -671,10 +533,10 @@
       "soru": "5 + 3 = ?",
       "dogruCevap": "8",
       "secenekler": [
-        "6",
+        "7",
         "9",
-        "8",
-        "7"
+        "6",
+        "8"
       ],
       "ipucu": "",
       "gorsel": {
@@ -695,9 +557,9 @@
       "soru": "Elde 4 kalem var, 3 kalem daha aldı. Kaç kalemi var?",
       "dogruCevap": "7",
       "secenekler": [
+        "7",
         "6",
         "8",
-        "7",
         "9"
       ],
       "ipucu": "",
@@ -719,10 +581,10 @@
       "soru": "6 + 6 = ?",
       "dogruCevap": "12",
       "secenekler": [
-        "13",
+        "11",
         "10",
         "12",
-        "11"
+        "13"
       ],
       "ipucu": "",
       "gorsel": {
@@ -744,9 +606,9 @@
       "dogruCevap": "9",
       "secenekler": [
         "10",
+        "9",
         "8",
-        "0",
-        "9"
+        "0"
       ],
       "ipucu": "",
       "gorsel": {
@@ -768,9 +630,9 @@
       "dogruCevap": "12",
       "secenekler": [
         "11",
-        "10",
+        "12",
         "13",
-        "12"
+        "10"
       ],
       "ipucu": "",
       "gorsel": {
@@ -788,8 +650,8 @@
       "secenekler": [
         "13",
         "12",
-        "10",
-        "11"
+        "11",
+        "10"
       ],
       "ipucu": "",
       "gorsel": {
@@ -810,10 +672,10 @@
       "soru": "□ + 4 = 9. Kutudaki sayı kaçtır?",
       "dogruCevap": "5",
       "secenekler": [
-        "6",
         "4",
+        "5",
         "3",
-        "5"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -833,9 +695,9 @@
       "soru": "7 + 7 = ?",
       "dogruCevap": "14",
       "secenekler": [
+        "15",
         "13",
         "14",
-        "15",
         "12"
       ],
       "ipucu": "",
@@ -857,10 +719,10 @@
       "soru": "Hangi işlemin sonucu 10'dur?",
       "dogruCevap": "6 + 4",
       "secenekler": [
-        "4 + 5",
+        "6 + 4",
         "5 + 4",
         "3 + 6",
-        "6 + 4"
+        "4 + 5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -917,10 +779,10 @@
       "soru": "6 + 7 = ?",
       "dogruCevap": "13",
       "secenekler": [
-        "12",
         "11",
         "14",
-        "13"
+        "13",
+        "12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -941,9 +803,9 @@
       "soru": "Masada 8 portakal var, 5 tane daha konuldu. Kaç portakal var?",
       "dogruCevap": "13",
       "secenekler": [
-        "13",
-        "12",
         "11",
+        "12",
+        "13",
         "14"
       ],
       "ipucu": "",
@@ -960,10 +822,10 @@
       "soru": "5 + □ = 12. Kutudaki sayı nedir?",
       "dogruCevap": "7",
       "secenekler": [
-        "8",
-        "7",
         "5",
-        "6"
+        "6",
+        "8",
+        "7"
       ],
       "ipucu": "",
       "gorsel": {
@@ -983,10 +845,10 @@
       "soru": "9 + 8 = ?",
       "dogruCevap": "17",
       "secenekler": [
-        "16",
+        "18",
         "17",
         "15",
-        "18"
+        "16"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1007,10 +869,10 @@
       "soru": "Hangisi yanlıştır?",
       "dogruCevap": "4 + 7 = 10",
       "secenekler": [
+        "6 + 4 = 10",
         "5 + 5 = 10",
-        "4 + 7 = 10",
         "3 + 7 = 10",
-        "6 + 4 = 10"
+        "4 + 7 = 10"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1067,8 +929,8 @@
       "soru": "10 + 7 = ?",
       "dogruCevap": "17",
       "secenekler": [
-        "17",
         "18",
+        "17",
         "16",
         "15"
       ],
@@ -1088,10 +950,10 @@
       "soru": "Bahçede 9 gül, 9 papatya var. Toplam kaç çiçek?",
       "dogruCevap": "18",
       "secenekler": [
-        "18",
         "19",
         "16",
-        "17"
+        "17",
+        "18"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1107,8 +969,8 @@
       "soru": "□ + □ = 8. Hangi çift doğrudur?",
       "dogruCevap": "4 + 4",
       "secenekler": [
-        "3 + 6",
         "4 + 4",
+        "3 + 6",
         "5 + 4",
         "2 + 5"
       ],
@@ -1130,10 +992,10 @@
       "soru": "10 + 10 = ?",
       "dogruCevap": "20",
       "secenekler": [
-        "21",
-        "18",
         "20",
-        "19"
+        "21",
+        "19",
+        "18"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1153,8 +1015,8 @@
       "secenekler": [
         "Sayı 1 artar",
         "Sayı 0 olur",
-        "Sayı değişmez",
-        "Sayı 2 artar"
+        "Sayı 2 artar",
+        "Sayı değişmez"
       ],
       "ipucu": "0 hiç demek!",
       "gorsel": {
@@ -1177,9 +1039,9 @@
       "dogruCevap": "13",
       "secenekler": [
         "12",
-        "13",
+        "11",
         "14",
-        "11"
+        "13"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1202,8 +1064,8 @@
       "secenekler": [
         "Hayır, farklıdır",
         "Bazen eşit olur",
-        "Evet, ikisi de 8'dir",
-        "Hiçbir zaman eşit olmaz"
+        "Hiçbir zaman eşit olmaz",
+        "Evet, ikisi de 8'dir"
       ],
       "ipucu": "Toplama işleminde sıra değişmez!",
       "gorsel": {
@@ -1241,10 +1103,10 @@
       "soru": "Kutuda 6 top var, 8 tane daha atıldı. Kutuda kaç top var?",
       "dogruCevap": "14",
       "secenekler": [
+        "14",
         "13",
         "15",
-        "12",
-        "14"
+        "12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1260,10 +1122,10 @@
       "soru": "🎭 Hangisi en büyük sonucu verir?",
       "dogruCevap": "8 + 5",
       "secenekler": [
-        "7 + 4",
-        "9 + 1",
         "8 + 5",
-        "6 + 6"
+        "7 + 4",
+        "6 + 6",
+        "9 + 1"
       ],
       "ipucu": "Her birini hesapla, en büyüğü bul!",
       "gorsel": {
@@ -1321,8 +1183,8 @@
       "soru": "🎭 Elanaz'ın 7 kalemi, Elif'in 9 kalemi var. İkisinin kalemlerini birleştirirlerse kaç kalemi olur?",
       "dogruCevap": "16",
       "secenekler": [
-        "16",
         "14",
+        "16",
         "15",
         "17"
       ],
@@ -1333,75 +1195,6 @@
         "sahne": "elanaz-elif-kalem"
       },
       "sasirtma": true
-    },
-    {
-      "id": "3a-go-t1",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "coktanSecmeli",
-      "soru": "Zeynep'in 30 kalemi vardı. Ali ona 20 kalem daha verdi. Zeynep'in toplam kaç kalemi oldu?",
-      "dogruCevap": "50",
-      "secenekler": [
-        "40",
-        "60",
-        "50",
-        "10"
-      ],
-      "ipucu": "",
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 30,
-        "b": 20,
-        "sonuc": 50,
-        "nesne": "kalem",
-        "renk1": "kirmizi",
-        "renk2": "yesil"
-      }
-    },
-    {
-      "id": "3a-go-t2",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "coktanSecmeli",
-      "soru": "4 onluk ve 5 birlikten oluşan sayıya 4 birlik eklersek hangi sayıyı buluruz?",
-      "dogruCevap": "49",
-      "secenekler": [
-        "49",
-        "54",
-        "41",
-        "90"
-      ],
-      "ipucu": "",
-      "gorsel": {
-        "tur": "islem",
-        "mod": "onluk-toplama",
-        "a": 45,
-        "b": 4,
-        "sonuc": 49
-      }
-    },
-    {
-      "id": "3a-go-t4",
-      "kazanimKodu": "MAT.2.3.1",
-      "tip": "coktanSecmeli",
-      "soru": "Sepette 25 elma ve 14 armut var. Sepetteki toplam meyve sayısı kaçtır?",
-      "dogruCevap": "39",
-      "secenekler": [
-        "11",
-        "40",
-        "29",
-        "39"
-      ],
-      "ipucu": "",
-      "gorsel": {
-        "tur": "islem",
-        "mod": "toplama-grup",
-        "a": 25,
-        "b": 14,
-        "sonuc": 39,
-        "nesne": "meyve",
-        "renk1": "kirmizi",
-        "renk2": "yesil"
-      }
     }
   ]
 }

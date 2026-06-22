@@ -447,8 +447,8 @@
           "soru": "Haftanın ilk günü olan Pazartesi'nin İngilizcesi nedir?",
           "dogruCevap": "Monday",
           "secenekler": [
-            "Monday",
             "Sunday",
+            "Monday",
             "Tuesday",
             "Friday"
           ],
@@ -466,10 +466,10 @@
           "soru": "Salı gününün İngilizce adı hangisidir?",
           "dogruCevap": "Tuesday",
           "secenekler": [
-            "Wednesday",
-            "Thursday",
+            "Tuesday",
             "Saturday",
-            "Tuesday"
+            "Thursday",
+            "Wednesday"
           ],
           "ipucu": "",
           "gorsel": {
@@ -485,9 +485,9 @@
           "soru": "Çarşamba gününün İngilizcesi nedir?",
           "dogruCevap": "Wednesday",
           "secenekler": [
+            "Sunday",
             "Wednesday",
             "Friday",
-            "Sunday",
             "Monday"
           ],
           "ipucu": "",
@@ -504,10 +504,10 @@
           "soru": "Perşembe gününün İngilizce karşılığı aşağıdakilerden hangisidir?",
           "dogruCevap": "Thursday",
           "secenekler": [
-            "Tuesday",
-            "Sunday",
+            "Saturday",
             "Thursday",
-            "Saturday"
+            "Tuesday",
+            "Sunday"
           ],
           "ipucu": "",
           "gorsel": {
@@ -542,10 +542,10 @@
           "soru": "Parkta oynadığımız Cumartesi gününün İngilizcesi hangi seçenekte doğru verilmiştir?",
           "dogruCevap": "Saturday",
           "secenekler": [
-            "Friday",
             "Monday",
-            "Saturday",
-            "Sunday"
+            "Sunday",
+            "Friday",
+            "Saturday"
           ],
           "ipucu": "",
           "gorsel": {
@@ -561,10 +561,10 @@
           "soru": "Pazar gününün İngilizcesi nedir?",
           "dogruCevap": "Sunday",
           "secenekler": [
-            "Sunday",
             "Saturday",
-            "Friday",
-            "Monday"
+            "Sunday",
+            "Monday",
+            "Friday"
           ],
           "ipucu": "",
           "gorsel": {
@@ -580,9 +580,9 @@
           "soru": "\"Day\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Gün",
           "secenekler": [
-            "Hafta",
             "Ay",
             "Gün",
+            "Hafta",
             "Saat"
           ],
           "ipucu": "",
@@ -599,10 +599,10 @@
           "soru": "\"Month\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Ay",
           "secenekler": [
-            "Yıl",
             "Hafta",
-            "Gün",
-            "Ay"
+            "Yıl",
+            "Ay",
+            "Gün"
           ],
           "ipucu": "",
           "gorsel": {
@@ -619,9 +619,9 @@
           "dogruCevap": "January",
           "secenekler": [
             "March",
-            "February",
             "December",
-            "January"
+            "January",
+            "February"
           ],
           "ipucu": "",
           "gorsel": {
@@ -637,10 +637,10 @@
           "soru": "Şubat ayının İngilizce adı hangisidir?",
           "dogruCevap": "February",
           "secenekler": [
+            "April",
             "August",
             "June",
-            "February",
-            "April"
+            "February"
           ],
           "ipucu": "",
           "gorsel": {
@@ -656,9 +656,9 @@
           "soru": "Mart ayının İngilizcesi nedir?",
           "dogruCevap": "March",
           "secenekler": [
-            "July",
             "May",
             "November",
+            "July",
             "March"
           ],
           "ipucu": "",
@@ -675,9 +675,9 @@
           "soru": "Nisan ayının İngilizce karşılığı nedir?",
           "dogruCevap": "April",
           "secenekler": [
+            "October",
             "June",
             "December",
-            "October",
             "April"
           ],
           "ipucu": "",
@@ -694,10 +694,10 @@
           "soru": "\"May\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Mayıs",
           "secenekler": [
-            "Mayıs",
-            "Mart",
             "Nisan",
-            "Haziran"
+            "Mayıs",
+            "Haziran",
+            "Mart"
           ],
           "ipucu": "",
           "gorsel": {
@@ -713,10 +713,10 @@
           "soru": "Haziran ayının İngilizcesi nedir?",
           "dogruCevap": "June",
           "secenekler": [
-            "June",
-            "September",
             "August",
-            "July"
+            "July",
+            "June",
+            "September"
           ],
           "ipucu": "",
           "gorsel": {
@@ -732,10 +732,10 @@
           "soru": "\"July\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Temmuz",
           "secenekler": [
-            "Eylül",
-            "Temmuz",
             "Ağustos",
-            "Haziran"
+            "Haziran",
+            "Temmuz",
+            "Eylül"
           ],
           "ipucu": "",
           "gorsel": {
@@ -751,10 +751,10 @@
           "soru": "Ağustos ayının İngilizcesi hangisidir?",
           "dogruCevap": "August",
           "secenekler": [
-            "August",
+            "February",
             "April",
-            "October",
-            "February"
+            "August",
+            "October"
           ],
           "ipucu": "",
           "gorsel": {
@@ -771,9 +771,9 @@
           "dogruCevap": "September",
           "secenekler": [
             "January",
+            "September",
             "March",
-            "November",
-            "September"
+            "November"
           ],
           "ipucu": "",
           "gorsel": {
@@ -789,10 +789,10 @@
           "soru": "\"October\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Ekim",
           "secenekler": [
+            "Ekim",
             "Eylül",
-            "Kasım",
             "Ağustos",
-            "Ekim"
+            "Kasım"
           ],
           "ipucu": "",
           "gorsel": {
@@ -808,10 +808,10 @@
           "soru": "Kasım ayının İngilizcesi nedir?",
           "dogruCevap": "November",
           "secenekler": [
-            "October",
-            "December",
+            "September",
             "November",
-            "September"
+            "December",
+            "October"
           ],
           "ipucu": "",
           "gorsel": {
@@ -827,10 +827,10 @@
           "soru": "Aralık ayının İngilizce karşılığı hangisidir?",
           "dogruCevap": "December",
           "secenekler": [
+            "December",
             "February",
             "November",
-            "January",
-            "December"
+            "January"
           ],
           "ipucu": "",
           "gorsel": {
@@ -846,10 +846,10 @@
           "soru": "\"Saturday\" ve \"Sunday\" kelimeleri sırasıyla hangi günlerdir?",
           "dogruCevap": "Cumartesi ve Pazar",
           "secenekler": [
-            "Perşembe ve Cuma",
             "Cuma ve Cumartesi",
-            "Pazartesi ve Salı",
-            "Cumartesi ve Pazar"
+            "Cumartesi ve Pazar",
+            "Perşembe ve Cuma",
+            "Pazartesi ve Salı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -872,10 +872,10 @@
           "soru": "Okulun bittiği Cuma gününün İngilizcesi nedir?",
           "dogruCevap": "Friday",
           "secenekler": [
-            "Thursday",
-            "Monday",
+            "Saturday",
             "Friday",
-            "Saturday"
+            "Monday",
+            "Thursday"
           ],
           "ipucu": "",
           "gorsel": {
@@ -891,10 +891,10 @@
           "soru": "Sonbaharın başladığı Ekim ayının İngilizcesi nedir?",
           "dogruCevap": "October",
           "secenekler": [
-            "June",
             "October",
-            "August",
-            "April"
+            "June",
+            "April",
+            "August"
           ],
           "ipucu": "",
           "gorsel": {
@@ -910,10 +910,10 @@
           "soru": "Saat ve zamanı ifade eden kelimenin İngilizcesi nedir?",
           "dogruCevap": "Time",
           "secenekler": [
+            "Month",
             "Time",
             "Week",
-            "Day",
-            "Month"
+            "Day"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1382,10 +1382,10 @@
           "soru": "İngilizcede \"Hava Durumu\" kelimesinin karşılığı nedir?",
           "dogruCevap": "Weather",
           "secenekler": [
-            "Colors",
-            "Weather",
+            "Months",
             "Time",
-            "Months"
+            "Weather",
+            "Colors"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1401,10 +1401,10 @@
           "soru": "Gökyüzünün açık ve güneşli olduğu günlere İngilizcede ne deriz?",
           "dogruCevap": "Sunny",
           "secenekler": [
-            "Cloudy",
+            "Rainy",
             "Sunny",
             "Snowy",
-            "Rainy"
+            "Cloudy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1421,8 +1421,8 @@
           "dogruCevap": "Rainy",
           "secenekler": [
             "Windy",
-            "Rainy",
             "Sunny",
+            "Rainy",
             "Hot"
           ],
           "ipucu": "",
@@ -1439,10 +1439,10 @@
           "soru": "Lapa lapa kar yağan kış günlerine İngilizcede ne denir?",
           "dogruCevap": "Snowy",
           "secenekler": [
-            "Cloudy",
-            "Rainy",
+            "Hot",
             "Snowy",
-            "Hot"
+            "Cloudy",
+            "Rainy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1458,10 +1458,10 @@
           "soru": "Ağaç dallarının sallandığı rüzgarlı havaların İngilizcesi nedir?",
           "dogruCevap": "Windy",
           "secenekler": [
-            "Sunny",
-            "Cold",
             "Snowy",
-            "Windy"
+            "Windy",
+            "Sunny",
+            "Cold"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1477,10 +1477,10 @@
           "soru": "Güneşin görünmediği, bulutlu havalara ne ad verilir?",
           "dogruCevap": "Cloudy",
           "secenekler": [
-            "Rainy",
-            "Sunny",
             "Windy",
-            "Cloudy"
+            "Rainy",
+            "Cloudy",
+            "Sunny"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1497,8 +1497,8 @@
           "dogruCevap": "Hot",
           "secenekler": [
             "Windy",
-            "Snowy",
             "Hot",
+            "Snowy",
             "Cold"
           ],
           "ipucu": "",
@@ -1515,10 +1515,10 @@
           "soru": "Havanın buz gibi soğuk olduğunu ifade eden kelime hangisidir?",
           "dogruCevap": "Cold",
           "secenekler": [
+            "Sunny",
             "Hot",
             "Cold",
-            "Rain",
-            "Sunny"
+            "Rain"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1534,10 +1534,10 @@
           "soru": "\"Rainy\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Yağmurlu",
           "secenekler": [
+            "Bulutlu",
             "Güneşli",
             "Karlı",
-            "Yağmurlu",
-            "Bulutlu"
+            "Yağmurlu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1553,10 +1553,10 @@
           "soru": "Hangi havada şapka ve güneş gözlüğü takarız?",
           "dogruCevap": "Sunny",
           "secenekler": [
-            "Windy",
-            "Snowy",
             "Rainy",
-            "Sunny"
+            "Sunny",
+            "Windy",
+            "Snowy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1573,8 +1573,8 @@
           "dogruCevap": "Snowy",
           "secenekler": [
             "Sunny",
-            "Hot",
             "Rainy",
+            "Hot",
             "Snowy"
           ],
           "ipucu": "",
@@ -1591,10 +1591,10 @@
           "soru": "\"Windy\" kelimesinin Türkçe karşılığı nedir?",
           "dogruCevap": "Rüzgarlı",
           "secenekler": [
-            "Sisli",
-            "Rüzgarlı",
             "Yağmurlu",
-            "Sıcak"
+            "Sıcak",
+            "Sisli",
+            "Rüzgarlı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1610,9 +1610,9 @@
           "soru": "\"Cloudy\" kelimesi ne anlama gelir?",
           "dogruCevap": "Bulutlu",
           "secenekler": [
-            "Karlı",
             "Güneşli",
             "Soğuk",
+            "Karlı",
             "Bulutlu"
           ],
           "ipucu": "",
@@ -1629,10 +1629,10 @@
           "soru": "\"Hot\" kelimesinin anlamı nedir?",
           "dogruCevap": "Sıcak",
           "secenekler": [
+            "Sıcak",
             "Rüzgarlı",
-            "Bulutlu",
             "Soğuk",
-            "Sıcak"
+            "Bulutlu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1648,10 +1648,10 @@
           "soru": "\"Cold\" kelimesi Türkçeye nasıl çevrilir?",
           "dogruCevap": "Soğuk",
           "secenekler": [
-            "Soğuk",
+            "Güneşli",
             "Sıcak",
             "Yağmurlu",
-            "Güneşli"
+            "Soğuk"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1668,9 +1668,9 @@
           "dogruCevap": "Uçurtma uçurmak",
           "secenekler": [
             "Uçurtma uçurmak",
+            "Şemsiye açmak",
             "Denize girmek",
-            "Kardan adam yapmak",
-            "Şemsiye açmak"
+            "Kardan adam yapmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1686,10 +1686,10 @@
           "soru": "İngilizcede \"Sun\" kelimesi ne demektir?",
           "dogruCevap": "Güneş",
           "secenekler": [
-            "Güneş",
-            "Bulut",
             "Yıldız",
-            "Ay"
+            "Bulut",
+            "Ay",
+            "Güneş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1706,9 +1706,9 @@
           "dogruCevap": "Kar",
           "secenekler": [
             "Rüzgar",
+            "Yağmur",
             "Dolu",
-            "Kar",
-            "Yağmur"
+            "Kar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1724,10 +1724,10 @@
           "soru": "\"Rain\" kelimesinin Türkçesi nedir?",
           "dogruCevap": "Yağmur",
           "secenekler": [
-            "Yağmur",
-            "Güneş",
             "Sis",
-            "Kar"
+            "Yağmur",
+            "Kar",
+            "Güneş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1743,10 +1743,10 @@
           "soru": "\"Cloud\" kelimesi hangi anlama gelir?",
           "dogruCevap": "Bulut",
           "secenekler": [
+            "Rüzgar",
             "Kar",
             "Bulut",
-            "Yağmur",
-            "Rüzgar"
+            "Yağmur"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1762,10 +1762,10 @@
           "soru": "\"Hot\" ve \"Cold\" kelimeleri sırasıyla ne anlama gelir?",
           "dogruCevap": "Sıcak ve Soğuk",
           "secenekler": [
-            "Güneşli ve Yağmurlu",
-            "Sıcak ve Soğuk",
             "Karlı ve Rüzgarlı",
-            "Soğuk ve Sıcak"
+            "Soğuk ve Sıcak",
+            "Sıcak ve Soğuk",
+            "Güneşli ve Yağmurlu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1781,10 +1781,10 @@
           "soru": "\"Sunny and Rainy\" kelimeleri sırasıyla hangi havaları anlatır?",
           "dogruCevap": "Güneşli ve Yağmurlu",
           "secenekler": [
-            "Karlı ve Rüzgarlı",
+            "Sıcak ve Soğuk",
             "Güneşli ve Yağmurlu",
             "Bulutlu ve Sisli",
-            "Sıcak ve Soğuk"
+            "Karlı ve Rüzgarlı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1800,9 +1800,9 @@
           "soru": "Çok \"Hot\" (Sıcak) bir günde ne yapmayı tercih ederiz?",
           "dogruCevap": "Serinletici sular içip gölgede dinlenmeyi",
           "secenekler": [
-            "Kartopu oynamayı",
             "Serinletici sular içip gölgede dinlenmeyi",
             "Kalın mont giymeyi",
+            "Kartopu oynamayı",
             "Atkı takmayı"
           ],
           "ipucu": "",
@@ -1820,9 +1820,9 @@
           "dogruCevap": "Sıcak bir çay veya süt içmek",
           "secenekler": [
             "Denize girmek",
+            "Sıcak bir çay veya süt içmek",
             "Şortla dolaşmak",
-            "Güneş gözlüğü takmak",
-            "Sıcak bir çay veya süt içmek"
+            "Güneş gözlüğü takmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1838,9 +1838,9 @@
           "soru": "Dışarıya çıkmadan önce doğru kıyafetleri seçmek için neye bakarız?",
           "dogruCevap": "Weather (Hava durumu)",
           "secenekler": [
-            "Colors (Renkler)",
             "Numbers (Sayılar)",
             "Weather (Hava durumu)",
+            "Colors (Renkler)",
             "Body Parts (Vücut bölümleri)"
           ],
           "ipucu": "",
@@ -2307,10 +2307,10 @@
           "soru": "İngilizcede \"Koşmak\" eyleminin karşılığı nedir?",
           "dogruCevap": "Run",
           "secenekler": [
-            "Walk",
-            "Read",
             "Sleep",
-            "Run"
+            "Walk",
+            "Run",
+            "Read"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2326,10 +2326,10 @@
           "soru": "Beden eğitimi dersinde zıplayan Berk hangi İngilizce hareketi yapmaktadır?",
           "dogruCevap": "Jump",
           "secenekler": [
-            "Sing",
-            "Write",
             "Jump",
-            "Eat"
+            "Write",
+            "Eat",
+            "Sing"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2345,10 +2345,10 @@
           "soru": "Suda ilerlemek için yaptığımız \"Yüzmek\" eyleminin İngilizcesi hangisidir?",
           "dogruCevap": "Swim",
           "secenekler": [
-            "Dance",
-            "Draw",
             "Swim",
-            "Drink"
+            "Drink",
+            "Draw",
+            "Dance"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2364,10 +2364,10 @@
           "soru": "Kütüphanede sessizce kitap okuyan Selin'in yaptığı \"Okumak\" eyleminin İngilizcesi nedir?",
           "dogruCevap": "Read",
           "secenekler": [
-            "Read",
-            "Run",
             "Jump",
-            "Sing"
+            "Sing",
+            "Run",
+            "Read"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2383,10 +2383,10 @@
           "soru": "Defterimize ödevimizi yaparken kullandığımız \"Yazmak\" kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Write",
           "secenekler": [
+            "Play",
             "Sleep",
-            "Write",
             "Read",
-            "Play"
+            "Write"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2402,10 +2402,10 @@
           "soru": "Renkli kalemlerle resim \"Çizmek\" İngilizcede nasıl söylenir?",
           "dogruCevap": "Draw",
           "secenekler": [
-            "Eat",
+            "Draw",
             "Swim",
             "Drink",
-            "Draw"
+            "Eat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2421,10 +2421,10 @@
           "soru": "Sahnede güzel sesiyle \"Şarkı söyleyen\" Can'ın yaptığı eylem hangisidir?",
           "dogruCevap": "Sing",
           "secenekler": [
-            "Run",
             "Sing",
-            "Jump",
-            "Dance"
+            "Dance",
+            "Run",
+            "Jump"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2440,10 +2440,10 @@
           "soru": "Müziğe ayak uydurarak yapılan \"Dans etmek\" eyleminin İngilizcesi nedir?",
           "dogruCevap": "Dance",
           "secenekler": [
+            "Read",
             "Sleep",
-            "Dance",
             "Write",
-            "Read"
+            "Dance"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2459,10 +2459,10 @@
           "soru": "Arkadaşımızla veya oyuncaklarımızla \"Oyun oynamak\" İngilizcede nedir?",
           "dogruCevap": "Play",
           "secenekler": [
-            "Drink",
             "Play",
             "Draw",
-            "Eat"
+            "Eat",
+            "Drink"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2478,10 +2478,10 @@
           "soru": "Acıktığımızda yaptığımız \"Yemek yemek\" eyleminin İngilizcesi hangisidir?",
           "dogruCevap": "Eat",
           "secenekler": [
-            "Drink",
-            "Sing",
+            "Swim",
             "Eat",
-            "Swim"
+            "Drink",
+            "Sing"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2499,8 +2499,8 @@
           "secenekler": [
             "Read",
             "Drink",
-            "Eat",
-            "Jump"
+            "Jump",
+            "Eat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2516,10 +2516,10 @@
           "soru": "Geceleri yatağımızda yaptığımız \"Uyumak\" eyleminin İngilizce adı nedir?",
           "dogruCevap": "Sleep",
           "secenekler": [
-            "Run",
-            "Play",
             "Write",
-            "Sleep"
+            "Sleep",
+            "Play",
+            "Run"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2535,10 +2535,10 @@
           "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
           "dogruCevap": "Read = Uyumak",
           "secenekler": [
-            "Jump = Zıplamak",
-            "Read = Uyumak",
+            "Run = Koşmak",
             "Swim = Yüzmek",
-            "Run = Koşmak"
+            "Jump = Zıplamak",
+            "Read = Uyumak"
           ],
           "ipucu": "Read okumak demektir!",
           "gorsel": {
@@ -2555,10 +2555,10 @@
           "soru": "Kurbağalar en çok hangi hareketi (Action) yaparlar?",
           "dogruCevap": "Jump",
           "secenekler": [
-            "Read",
-            "Sing",
             "Jump",
-            "Write"
+            "Write",
+            "Sing",
+            "Read"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2574,10 +2574,10 @@
           "soru": "Balıklar suda hangi eylemi gerçekleştirirler?",
           "dogruCevap": "Swim",
           "secenekler": [
-            "Dance",
+            "Run",
             "Sleep",
-            "Swim",
-            "Run"
+            "Dance",
+            "Swim"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2593,10 +2593,10 @@
           "soru": "\"Sing and Dance\" kelimeleri sırasıyla ne anlama gelir?",
           "dogruCevap": "Şarkı söylemek ve Dans etmek",
           "secenekler": [
-            "Şarkı söylemek ve Dans etmek",
+            "Uyumak ve İçmek",
             "Okumak ve Yazmak",
             "Koşmak ve Zıplamak",
-            "Uyumak ve İçmek"
+            "Şarkı söylemek ve Dans etmek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2613,9 +2613,9 @@
           "dogruCevap": "Read and Write",
           "secenekler": [
             "Read and Write",
-            "Swim and Run",
+            "Sing and Dance",
             "Sleep and Eat",
-            "Sing and Dance"
+            "Swim and Run"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2631,10 +2631,10 @@
           "soru": "\"Eat and Drink\" ifadeleri Türkçede hangi anlama gelir?",
           "dogruCevap": "Yemek ve İçmek",
           "secenekler": [
-            "Dans etmek ve Uyumak",
-            "Koşmak ve Yüzmek",
             "Okumak ve Çizmek",
-            "Yemek ve İçmek"
+            "Koşmak ve Yüzmek",
+            "Yemek ve İçmek",
+            "Dans etmek ve Uyumak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2650,10 +2650,10 @@
           "soru": "\"Play\" kelimesi ne anlama gelir?",
           "dogruCevap": "Oyun oynamak",
           "secenekler": [
-            "Oyun oynamak",
             "Uyumak",
-            "Zıplamak",
-            "Şarkı söylemek"
+            "Oyun oynamak",
+            "Şarkı söylemek",
+            "Zıplamak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2669,10 +2669,10 @@
           "soru": "\"Sleep\" eylemi bize ne hissettirir?",
           "dogruCevap": "Dinlendirir",
           "secenekler": [
-            "Susatır",
             "Acıktırır",
+            "Yorar",
             "Dinlendirir",
-            "Yorar"
+            "Susatır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2688,8 +2688,8 @@
           "soru": "\"Run\" ve \"Swim\" eylemlerinin ortak özelliği nedir?",
           "dogruCevap": "İkisi de eğlenceli ve sağlıklı spor eylemleridir",
           "secenekler": [
-            "İkisi de eğlenceli ve sağlıklı spor eylemleridir",
             "İkisi de müzikle yapılır",
+            "İkisi de eğlenceli ve sağlıklı spor eylemleridir",
             "İkisi de bizi uykulu yapar",
             "İkisi de yemekle ilgilidir"
           ],
@@ -2707,10 +2707,10 @@
           "soru": "\"Read\" eylemini yaparken vücudumuzun en çok hangi bölümünü (Body Part) kullanırız?",
           "dogruCevap": "Eye",
           "secenekler": [
-            "Eye",
-            "Foot",
             "Nose",
-            "Ear"
+            "Ear",
+            "Foot",
+            "Eye"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2727,9 +2727,9 @@
           "dogruCevap": "Leg",
           "secenekler": [
             "Nose",
+            "Leg",
             "Hand",
-            "Ear",
-            "Leg"
+            "Ear"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2745,10 +2745,10 @@
           "soru": "\"Eat\", \"Drink\" ve \"Sing\" eylemlerini yaparken vücudumuzun hangi organını kullanırız?",
           "dogruCevap": "Mouth",
           "secenekler": [
-            "Ear",
-            "Foot",
+            "Mouth",
             "Eye",
-            "Mouth"
+            "Ear",
+            "Foot"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2764,10 +2764,10 @@
           "soru": "\"Write\" ve \"Draw\" yaparken kullandığımız marifetli organımız hangisidir?",
           "dogruCevap": "Hand",
           "secenekler": [
-            "Ear",
             "Nose",
+            "Leg",
             "Hand",
-            "Leg"
+            "Ear"
           ],
           "ipucu": "",
           "gorsel": {

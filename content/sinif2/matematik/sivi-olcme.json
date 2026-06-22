@@ -454,9 +454,9 @@
       "soru": "Hangisine daha çok su sığar?",
       "dogruCevap": "Kova",
       "secenekler": [
+        "Kova",
         "Şişe",
         "Sürahi",
-        "Kova",
         "Bardak"
       ],
       "ipucu": "Kap ne kadar büyükse o kadar çok su sığar.",
@@ -490,8 +490,8 @@
       "soru": "Sürahiyi doldurmak için 4 bardak gerekti. Hangisi doğrudur?",
       "dogruCevap": "Sürahi daha büyüktür",
       "secenekler": [
-        "Bardak 4 kat büyüktür",
         "Sürahi daha büyüktür",
+        "Bardak 4 kat büyüktür",
         "İkisi eşittir",
         "Bardak daha büyüktür"
       ],
@@ -508,10 +508,10 @@
       "soru": "Elanaz kovayı bardakla dolduruyor. Kaç bardak gerekir: az mı çok mu?",
       "dogruCevap": "Çok bardak",
       "secenekler": [
-        "Hiç gerekmez",
         "1 bardak",
+        "Az bardak",
         "Çok bardak",
-        "Az bardak"
+        "Hiç gerekmez"
       ],
       "ipucu": "Kova büyük — çok bardak gerekir.",
       "gorsel": {
@@ -526,8 +526,8 @@
       "soru": "1 büyük şişe kaç küçük şişeye eşit? Resimdeki şişeleri say.",
       "dogruCevap": "3",
       "secenekler": [
-        "10",
         "1",
+        "10",
         "3",
         "5"
       ],
@@ -544,10 +544,10 @@
       "soru": "Onur 3 bardak yetecek dedi, 6 bardak gerekti. Nasıl tahmin etmiş?",
       "dogruCevap": "Az",
       "secenekler": [
-        "Fazla",
-        "Hiç tahmin etmemiş",
+        "Doğru",
         "Az",
-        "Doğru"
+        "Hiç tahmin etmemiş",
+        "Fazla"
       ],
       "ipucu": "3 yetmez dedi, 6 gerekti — az tahmin etmiş.",
       "gorsel": {
@@ -563,9 +563,9 @@
       "dogruCevap": "Bardak",
       "secenekler": [
         "Bidon",
+        "Bardak",
         "Kova",
-        "Sürahi",
-        "Bardak"
+        "Sürahi"
       ],
       "ipucu": "En küçük kap en az su tutar.",
       "gorsel": {
@@ -598,10 +598,10 @@
       "soru": "1 kova su 5 şişeyi doldurdu. Resimdeki 2 kova kaç şişeyi doldurur?",
       "dogruCevap": "10",
       "secenekler": [
-        "5",
-        "3",
         "7",
-        "10"
+        "3",
+        "10",
+        "5"
       ],
       "ipucu": "1 kova 5 şişe — 2 kova 10 şişe eder.",
       "gorsel": {
@@ -616,10 +616,10 @@
       "soru": "🎭 Küçük bardak mı, büyük sürahi mi daha az suyla dolar?",
       "dogruCevap": "Küçük bardak",
       "secenekler": [
-        "İkisi eşit",
         "Önce doldurulan",
+        "Küçük bardak",
         "Büyük sürahi",
-        "Küçük bardak"
+        "İkisi eşit"
       ],
       "ipucu": "KÜÇÜK kap az su sığar — az su gerekir, çabuk dolar!",
       "gorsel": {
@@ -635,10 +635,10 @@
       "soru": "Elanaz sürahiye 4 bardak koydu, sürahi doldu. Sürahiye kaç bardak sığar?",
       "dogruCevap": "4",
       "secenekler": [
-        "3",
         "5",
-        "2",
-        "4"
+        "3",
+        "4",
+        "2"
       ],
       "ipucu": "4 bardak sürahiyi doldurdu.",
       "gorsel": {
@@ -653,10 +653,10 @@
       "soru": "Kap ne kadar büyükse içine ne kadar su sığar?",
       "dogruCevap": "Çok su sığar",
       "secenekler": [
-        "Hiç su sığmaz",
         "Eşit su sığar",
-        "Az su sığar",
-        "Çok su sığar"
+        "Çok su sığar",
+        "Hiç su sığmaz",
+        "Az su sığar"
       ],
       "ipucu": "Büyük kap daha çok su tutar.",
       "gorsel": {
@@ -671,9 +671,9 @@
       "soru": "2 bidon gül suyu 6 şişeyi doldurdu. Resimdeki şişeleri iki gruba ayırınca 1 bidon kaç şişeyi doldurur?",
       "dogruCevap": "3",
       "secenekler": [
-        "6",
         "8",
         "2",
+        "6",
         "3"
       ],
       "ipucu": "6 şişe 2 bidona eşit — 1 bidon 3 şişe eder.",
@@ -689,10 +689,10 @@
       "soru": "🎭 Elanaz \"Büyük kova ile küçük kova aynı suyu tutar\" dedi. Hangisi doğrudur?",
       "dogruCevap": "Büyük kova daha çok tutar",
       "secenekler": [
-        "Küçük kova daha çok tutar",
-        "Büyük kova daha çok tutar",
         "Evet, aynıdır",
-        "İkisi de boştur"
+        "İkisi de boştur",
+        "Küçük kova daha çok tutar",
+        "Büyük kova daha çok tutar"
       ],
       "ipucu": "BÜYÜK kap her zaman DAHA ÇOK su tutar!",
       "gorsel": {
@@ -709,9 +709,9 @@
       "dogruCevap": "Bidon",
       "secenekler": [
         "Bardak",
+        "Sürahi",
         "Şişe",
-        "Bidon",
-        "Sürahi"
+        "Bidon"
       ],
       "ipucu": "Bidon en büyük kaptır.",
       "gorsel": {
@@ -744,8 +744,8 @@
       "soru": "Elanaz 1 sürahi = 3 bardak olduğunu öğrendi. Resimdeki 3 sürahide kaç bardak su var? (Resimdeki bardakları say.)",
       "dogruCevap": "9",
       "secenekler": [
-        "3",
         "12",
+        "3",
         "9",
         "6"
       ],
@@ -762,10 +762,10 @@
       "soru": "Hangisi doğrudur?",
       "dogruCevap": "Büyük kap daha çok su tutar",
       "secenekler": [
-        "Büyük kap daha çok su tutar",
-        "Tüm kaplar eşit tutar",
+        "Büyük kap daha az su tutar",
         "Küçük kap daha çok su tutar",
-        "Büyük kap daha az su tutar"
+        "Tüm kaplar eşit tutar",
+        "Büyük kap daha çok su tutar"
       ],
       "ipucu": "Büyük kap daha çok su tutar.",
       "gorsel": {
@@ -781,8 +781,8 @@
       "dogruCevap": "Fazla",
       "secenekler": [
         "Doğru",
-        "Az",
         "Hiç tahmin etmemiş",
+        "Az",
         "Fazla"
       ],
       "ipucu": "5 dedi ama 3'te doldu — daha az gerekti, fazla mı yoksa az mı düşünmüş?",
@@ -799,10 +799,10 @@
       "soru": "Resimdeki 4 sürahide toplam kaç bardak su var? (Her sürahide 2 bardak su var.)",
       "dogruCevap": "8",
       "secenekler": [
-        "10",
         "4",
-        "8",
-        "6"
+        "6",
+        "10",
+        "8"
       ],
       "ipucu": "Her sürahide 2 bardak — 2 + 2 + 2 + 2 = 8.",
       "gorsel": {
@@ -817,9 +817,9 @@
       "soru": "Hangisi doğru sıralamadır (küçükten büyüğe)?",
       "dogruCevap": "Bardak, sürahi, kova",
       "secenekler": [
+        "Kova, bardak, sürahi",
         "Sürahi, bardak, kova",
         "Bardak, sürahi, kova",
-        "Kova, bardak, sürahi",
         "Kova, sürahi, bardak"
       ],
       "ipucu": "Bardak en küçük, kova en büyük.",
@@ -835,10 +835,10 @@
       "soru": "Elanaz 10 bardak suyu 2 sürahiye eşit doldurdu. Resimdeki bardakları iki gruba ayır: 1 sürahiye kaç bardak sığmış?",
       "dogruCevap": "5",
       "secenekler": [
-        "10",
-        "5",
         "2",
-        "8"
+        "5",
+        "8",
+        "10"
       ],
       "ipucu": "10 bardak 2 sürahiye eşit — 1 sürahiye 5 bardak sığmış.",
       "gorsel": {
@@ -853,8 +853,8 @@
       "soru": "🎭 Bardakla kova doldurmak zor, sürahiyle daha kolay. Neden?",
       "dogruCevap": "Sürahi daha büyük, daha az sayıda gerekir",
       "secenekler": [
-        "Bardak daha büyüktür",
         "Sürahi daha küçüktür",
+        "Bardak daha büyüktür",
         "İkisi aynıdır",
         "Sürahi daha büyük, daha az sayıda gerekir"
       ],
@@ -874,8 +874,8 @@
       "secenekler": [
         "6",
         "4",
-        "8",
-        "2"
+        "2",
+        "8"
       ],
       "ipucu": "1 sürahi 4 bardak — 2 sürahi 8 bardak eder.",
       "gorsel": {
@@ -890,10 +890,10 @@
       "soru": "🎭 \"Az su tutan kap daha hızlı dolar.\" Bu doğru mu?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Evet",
         "Hiçbir zaman",
-        "Bazen"
+        "Bazen",
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "Az su SIĞAR = az su gerekir = çabuk dolar!",
       "gorsel": {
@@ -909,10 +909,10 @@
       "soru": "1 büyük bidon 8 şişeyi doldurdu. Resimdeki 2 bidona bakarak kaç şişe dolar?",
       "dogruCevap": "16",
       "secenekler": [
-        "4",
         "12",
+        "8",
         "16",
-        "8"
+        "4"
       ],
       "ipucu": "1 bidon 8 şişe — 2 bidon 16 şişe eder.",
       "gorsel": {
@@ -927,10 +927,10 @@
       "soru": "Elanaz sürahiyi 4 bardakla doldurdu. 3 sürahi için kaç bardak gerekir?",
       "dogruCevap": "12",
       "secenekler": [
+        "12",
         "16",
         "4",
-        "8",
-        "12"
+        "8"
       ],
       "ipucu": "1 sürahi 4 bardak — 3 sürahi 12 bardak eder.",
       "gorsel": {
@@ -945,10 +945,10 @@
       "soru": "🎭 Büyük kap dolduktan sonra küçük kaba dökülürse ne olur?",
       "dogruCevap": "Küçük kap taşar",
       "secenekler": [
-        "Hiçbir şey olmaz",
-        "İkisi eşit olur",
         "Küçük kap yarı dolar",
-        "Küçük kap taşar"
+        "Hiçbir şey olmaz",
+        "Küçük kap taşar",
+        "İkisi eşit olur"
       ],
       "ipucu": "Büyük kaptan fazla su var — küçük kaba sığmaz, taşar!",
       "gorsel": {

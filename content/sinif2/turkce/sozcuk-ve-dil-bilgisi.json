@@ -418,9 +418,9 @@
       "soru": "\"Kalem\" hangi sözcük türüdür?",
       "dogruCevap": "İsim",
       "secenekler": [
-        "Fiil",
         "Sıfat",
         "İsim",
+        "Fiil",
         "Zamir"
       ],
       "ipucu": "",
@@ -439,9 +439,9 @@
       "dogruCevap": "Sıfat",
       "secenekler": [
         "Sıfat",
-        "İsim",
         "Zamir",
-        "Fiil"
+        "Fiil",
+        "İsim"
       ],
       "ipucu": "",
       "gorsel": {
@@ -459,10 +459,10 @@
       "soru": "\"Uyumak\" hangi sözcük türüdür?",
       "dogruCevap": "Fiil",
       "secenekler": [
-        "Zamir",
-        "İsim",
         "Fiil",
-        "Sıfat"
+        "İsim",
+        "Sıfat",
+        "Zamir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -479,10 +479,10 @@
       "soru": "\"Ben\" hangi sözcük türüdür?",
       "dogruCevap": "Zamir",
       "secenekler": [
+        "İsim",
         "Zamir",
-        "Fiil",
         "Sıfat",
-        "İsim"
+        "Fiil"
       ],
       "ipucu": "",
       "gorsel": {
@@ -499,10 +499,10 @@
       "soru": "\"Büyük ev\" cümlesinde sıfat hangisidir?",
       "dogruCevap": "büyük",
       "secenekler": [
-        "ikisi de değil",
         "büyük",
+        "ev",
         "ikisi de",
-        "ev"
+        "ikisi de değil"
       ],
       "ipucu": "",
       "gorsel": {
@@ -519,9 +519,9 @@
       "soru": "\"Ayşe koştu.\" cümlesinde fiil hangisidir?",
       "dogruCevap": "koştu",
       "secenekler": [
-        "ikisi de",
         "ikisi de değil",
         "koştu",
+        "ikisi de",
         "Ayşe"
       ],
       "ipucu": "",
@@ -539,9 +539,9 @@
       "soru": "Hangi sözcük özel isimdir?",
       "dogruCevap": "Ankara",
       "secenekler": [
+        "Ankara",
         "masa",
         "çiçek",
-        "Ankara",
         "kalem"
       ],
       "ipucu": "",
@@ -563,10 +563,10 @@
       "soru": "\"Ali geldi. O çok mutluydu.\" cümlesinde \"O\" kimin yerini tutuyor?",
       "dogruCevap": "Ali",
       "secenekler": [
-        "Ali",
-        "Bir nesne",
         "Bir hayvan",
-        "Bir yer"
+        "Bir yer",
+        "Bir nesne",
+        "Ali"
       ],
       "ipucu": "",
       "gorsel": {
@@ -584,9 +584,9 @@
       "soru": "\"Üç kırmızı elma\" cümlesinde kaç sıfat var?",
       "dogruCevap": "2",
       "secenekler": [
-        "0",
         "3",
         "2",
+        "0",
         "1"
       ],
       "ipucu": "",
@@ -604,10 +604,10 @@
       "soru": "Hangi sözcük fiildir?",
       "dogruCevap": "koşmak",
       "secenekler": [
-        "koşmak",
-        "masa",
+        "güzel",
         "ben",
-        "güzel"
+        "masa",
+        "koşmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -646,10 +646,10 @@
       "soru": "Hangi cümle sıfat içerir?",
       "dogruCevap": "Mavi araba geçti",
       "secenekler": [
-        "Mavi araba geçti",
-        "Kedi uyudu",
         "Ali koştu",
-        "Güneş battı"
+        "Mavi araba geçti",
+        "Güneş battı",
+        "Kedi uyudu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -671,9 +671,9 @@
       "dogruCevap": "Özel isim olduğu için",
       "secenekler": [
         "Uzun kelime olduğu için",
+        "Güzel bir sözcük olduğu için",
         "Cins isim olduğu için",
-        "Özel isim olduğu için",
-        "Güzel bir sözcük olduğu için"
+        "Özel isim olduğu için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -690,9 +690,9 @@
       "soru": "Cümledeki isimleri bul: \"Küçük kedi bahçede uyudu.\"",
       "dogruCevap": "kedi, bahçe",
       "secenekler": [
-        "küçük, bahçe",
-        "küçük, uyudu",
         "kedi, uyudu",
+        "küçük, uyudu",
+        "küçük, bahçe",
         "kedi, bahçe"
       ],
       "ipucu": "",
@@ -710,10 +710,10 @@
       "soru": "Hangi sözcük hem isim hem sıfat olabilir?",
       "dogruCevap": "güzel",
       "secenekler": [
-        "güzel",
         "ve",
-        "koşmak",
-        "ben"
+        "güzel",
+        "ben",
+        "koşmak"
       ],
       "ipucu": "İpucu: \"Güzel bir kız\" → sıfat, \"Güzel her yerde\" → isim gibi",
       "gorsel": {
@@ -731,9 +731,9 @@
       "soru": "\"Onlar okula gitti.\" cümlesinde zamir hangisidir?",
       "dogruCevap": "Onlar",
       "secenekler": [
-        "Onlar",
-        "okula",
         "Yok",
+        "okula",
+        "Onlar",
         "gitti"
       ],
       "ipucu": "",
@@ -751,10 +751,10 @@
       "soru": "Fiil hangi soruya cevap verir?",
       "dogruCevap": "Ne yaptı/oluyor?",
       "secenekler": [
-        "Nasıl?",
+        "Ne?",
         "Kaç tane?",
         "Ne yaptı/oluyor?",
-        "Ne?"
+        "Nasıl?"
       ],
       "ipucu": "",
       "gorsel": {
@@ -772,9 +772,9 @@
       "soru": "\"Siz nereye gidiyorsunuz?\" cümlesinde \"siz\" nedir?",
       "dogruCevap": "Zamir",
       "secenekler": [
-        "Sıfat",
-        "İsim",
         "Zamir",
+        "İsim",
+        "Sıfat",
         "Fiil"
       ],
       "ipucu": "",
@@ -793,10 +793,10 @@
       "soru": "Sıfat hangi soruya cevap verir?",
       "dogruCevap": "Nasıl/Kaç tane?",
       "secenekler": [
+        "Ne yaptı?",
         "Nasıl/Kaç tane?",
         "Kim?",
-        "Nerede?",
-        "Ne yaptı?"
+        "Nerede?"
       ],
       "ipucu": "",
       "gorsel": {
@@ -814,9 +814,9 @@
       "soru": "\"Küçük, şirin, sarı kedi uyudu.\" cümlesinde kaç sıfat var?",
       "dogruCevap": "3",
       "secenekler": [
+        "4",
         "2",
         "1",
-        "4",
         "3"
       ],
       "ipucu": "",
@@ -835,10 +835,10 @@
       "soru": "Hangi sözcük cins isimdir?",
       "dogruCevap": "masa",
       "secenekler": [
-        "Ayşe",
-        "Türkiye",
         "masa",
-        "İstanbul"
+        "Türkiye",
+        "İstanbul",
+        "Ayşe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -859,10 +859,10 @@
       "soru": "\"Ben, sen, o, biz, siz, onlar\" sözcükleri hangi grupta yer alır?",
       "dogruCevap": "Zamirler",
       "secenekler": [
-        "Sıfatlar",
-        "Zamirler",
+        "İsimler",
         "Fiiller",
-        "İsimler"
+        "Zamirler",
+        "Sıfatlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -885,9 +885,9 @@
       "soru": "\"Güneş battı.\" cümlesinde sözcük türleri nelerdir?",
       "dogruCevap": "İsim + Fiil",
       "secenekler": [
-        "Zamir + Fiil",
-        "İsim + İsim",
         "Sıfat + Fiil",
+        "İsim + İsim",
+        "Zamir + Fiil",
         "İsim + Fiil"
       ],
       "ipucu": "",
@@ -906,10 +906,10 @@
       "soru": "Hangi cümle zamir içerir?",
       "dogruCevap": "O eve gitti",
       "secenekler": [
-        "Kedi uyudu",
+        "Çiçek açtı",
         "O eve gitti",
-        "Güneş battı",
-        "Çiçek açtı"
+        "Kedi uyudu",
+        "Güneş battı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -930,10 +930,10 @@
       "soru": "\"Ali kitap okuyor. O çok mutlu.\" İkinci cümlede \"O\" kimin yerini tutar?",
       "dogruCevap": "Ali'nin",
       "secenekler": [
+        "Okumanın",
         "Kitabın",
         "Ali'nin",
-        "Mutluluğun",
-        "Okumanın"
+        "Mutluluğun"
       ],
       "ipucu": "",
       "gorsel": {

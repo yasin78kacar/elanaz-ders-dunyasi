@@ -3,6 +3,7 @@ import { writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { carpma, bolme } from './gorev-mat-tema4-questions.mjs';
+import { cikarma, toplama } from './gorev-mat-tema3-questions.mjs';
 import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import { canlilar } from './gorev-fen-tema1-questions.mjs';
@@ -16,6 +17,7 @@ import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
+import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -48,6 +50,8 @@ function partiMd(baslik, dosyaAdi, konular) {
   return satirlar.join('\n');
 }
 
+const matToplama = toplama(karistir);
+const matCikarma = cikarma(karistir);
 const matCarpma = carpma(karistir);
 const matBolme = bolme(karistir);
 const matUzunluk = uzunlukOlcme(karistir);
@@ -76,8 +80,29 @@ const turKelime = kelimeVeAnlamBilgisiIleri(karistir);
 const turYazmaIleri = yazmaVeAnlatimIleri(karistir);
 const turYazTuruHikaye = yazTuruHikaye(karistir);
 const turYazTuruSiir = yazTuruSiir(karistir);
+const turOlaySirasiMetin = olaySirasiMetin(karistir);
+const turOlaySirasiZaman = olaySirasiZaman(karistir);
 
 const matMd = [
+  '# Dosya Adı: PARTI-MATEMATIK-TEMA3.md',
+  '## Matematik — Tema 3: Toplama ve Çıkarma',
+  '',
+  ...matToplama.anlatim.ekranlar.map((e, i) => `### Toplama Anlatım ${i + 1}\n${e.metin}\n`),
+  '## TOPLAMA — ALIŞTIRMALAR (25)',
+  ...matToplama.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## TOPLAMA — TEST (25)',
+  ...matToplama.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...matCikarma.anlatim.ekranlar.map((e, i) => `### Çıkarma Anlatım ${i + 1}\n${e.metin}\n`),
+  '## ÇIKARMA — ALIŞTIRMALAR (25)',
+  ...matCikarma.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## ÇIKARMA — TEST (25)',
+  ...matCikarma.test.map((s, i) => satir(s, i, 'test')),
+].join('\n');
+
+const matTema4Md = [
   '# Dosya Adı: PARTI-MATEMATIK-TEMA4.md',
   '## Matematik — Tema 4: Çarpma ve Bölme',
   '',
@@ -115,7 +140,8 @@ const matTema5Md = [
   ...matTartma.test.map((s, i) => satir(s, i, 'test')),
 ].join('\n');
 
-writeFileSync(join(root, 'PARTI-MATEMATIK-TEMA4.md'), matMd);
+writeFileSync(join(root, 'PARTI-MATEMATIK-TEMA3.md'), matMd);
+writeFileSync(join(root, 'PARTI-MATEMATIK-TEMA4.md'), matTema4Md);
 writeFileSync(join(root, 'PARTI-MATEMATIK-TEMA5.md'), matTema5Md);
 
 const matTema6Md = [
@@ -307,6 +333,31 @@ const turTema5Md = [
 ].join('\n');
 writeFileSync(join(root, 'PARTI-TURKCE-TEMA5.md'), turTema5Md);
 
+const turTema8Md = [
+  '# Dosya Adı: PARTI-TURKCE-TEMA8.md',
+  '## Türkçe — Tema 8: Olayların Oluş Sırası',
+  '',
+  ...turOlaySirasiMetin.anlatim.ekranlar.map((e, i) => `### Olay Sırası — Metin Okuma Anlatım ${i + 1}\n${e.metin}\n`),
+  '## OLAY SIRASI — METİN OKUMA — ALIŞTIRMALAR (25)',
+  ...turOlaySirasiMetin.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## OLAY SIRASI — METİN OKUMA — TEST (25)',
+  ...turOlaySirasiMetin.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...turOlaySirasiZaman.anlatim.ekranlar.map((e, i) => `### Olay Sırası — Zaman ve Sıralama Anlatım ${i + 1}\n${e.metin}\n`),
+  '## OLAY SIRASI — ZAMAN VE SIRALAMA — ALIŞTIRMALAR (25)',
+  ...turOlaySirasiZaman.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## OLAY SIRASI — ZAMAN VE SIRALAMA — TEST (25)',
+  ...turOlaySirasiZaman.test.map((s, i) => satir(s, i, 'test')),
+].join('\n');
+writeFileSync(join(root, 'PARTI-TURKCE-TEMA8.md'), turTema8Md);
+
+console.log(
+  'PARTI-MATEMATIK-TEMA3.md:',
+  matToplama.alistirma.length + matToplama.test.length + matCikarma.alistirma.length + matCikarma.test.length,
+  'soru',
+);
 console.log('PARTI-MATEMATIK-TEMA4.md:', matCarpma.alistirma.length + matCarpma.test.length + matBolme.alistirma.length + matBolme.test.length, 'soru');
 console.log('PARTI-MATEMATIK-TEMA5.md:', matUzunluk.alistirma.length + matUzunluk.test.length + matTartma.alistirma.length + matTartma.test.length, 'soru');
 console.log(
@@ -353,6 +404,12 @@ console.log(
   'PARTI-TURKCE-TEMA5.md:',
   turYazTuruHikaye.alistirma.length + turYazTuruHikaye.test.length
     + turYazTuruSiir.alistirma.length + turYazTuruSiir.test.length,
+  'soru',
+);
+console.log(
+  'PARTI-TURKCE-TEMA8.md:',
+  turOlaySirasiMetin.alistirma.length + turOlaySirasiMetin.test.length
+    + turOlaySirasiZaman.alistirma.length + turOlaySirasiZaman.test.length,
   'soru',
 );
 console.log(

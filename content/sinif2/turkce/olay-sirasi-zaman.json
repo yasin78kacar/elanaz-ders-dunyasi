@@ -1,0 +1,916 @@
+{
+  "id": "olay-sirasi-zaman",
+  "baslik": "Olay Sırası — Zaman ve Sıralama",
+  "kazanimKodu": "TUR.2.8.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Zaman ifadeleri olayların sırasını gösterir. Sabah, öğlen, akşam gibi kelimeler günün akışını anlatır.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosz-anlatim-1"
+        }
+      },
+      {
+        "metin": "Hikâyelerde giriş, gelişme ve sonuç bölümleri vardır. Girişte tanıtım yapılır, gelişmede olay büyür, sonuçta düğüm çözülür.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosz-anlatim-2"
+        }
+      },
+      {
+        "metin": "Cümleleri doğru sıraya koymak olay sırasını anlamanın önemli bir parçasıdır. Mantıklı bir akış kurmalıyız.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosz-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "oosz-a1",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Önce\" kelimesi neyi gösterir?",
+      "dogruCevap": "İlk yapılan işi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "once-kelimesi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a2",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Sonra\" kelimesi ne anlama gelir?",
+      "dogruCevap": "Bir sonraki adımı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sonra-kelimesi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a3",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"En son\" ifadesi hangi olayı anlatır?",
+      "dogruCevap": "Son yapılan işi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "en-son",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "oosz-a4",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Ardından\" kelimesi hangi sırayı gösterir?",
+      "dogruCevap": "Hemen sonraki olayı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ardindan",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a5",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"İlk olarak\" ifadesi ne demektir?",
+      "dogruCevap": "Başlangıçtaki olayı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ilk-olarak",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a6",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Sabah, öğlen, akşam kelimeleri neyi gösterir?",
+      "dogruCevap": "Günün zaman dilimlerini",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gun-zamanlari",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosz-a7",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Günün zamanları doğru sırayla nasıldır?",
+      "dogruCevap": "Sabah, öğlen, akşam",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-sirasi",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosz-a8",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Hikâyede giriş bölümü neyi anlatır?",
+      "dogruCevap": "Kahraman ve yerin tanıtımını",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-giris",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a9",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Hikâyede gelişme bölümü neyi anlatır?",
+      "dogruCevap": "Olayların büyüdüğü kısmı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-gelisme",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a10",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Hikâyede sonuç bölümü neyi anlatır?",
+      "dogruCevap": "Olayın nasıl bittiğini",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-sonuc",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a11",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Giriş, gelişme, sonuç hangi sırayla gelir?",
+      "dogruCevap": "Giriş → gelişme → sonuç",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "giris-gelisme-sonuc",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a12",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Aşağıdaki cümleleri sırala: \"Çantasını aldı.\" \"Okula gitti.\" \"Uyandı.\"",
+      "dogruCevap": "Uyandı, çantasını aldı, okula gitti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cumle-sirasi",
+        "nesne": "okul"
+      }
+    },
+    {
+      "id": "oosz-a13",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Aşağıdaki cümleleri sırala: \"Yemek yedi.\" \"Ellerini yıkadı.\" \"Sofraya oturdu.\"",
+      "dogruCevap": "Sofraya oturdu, ellerini yıkadı, yemek yedi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sofra-sirasi",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosz-a14",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Aşağıdaki cümleleri sırala: \"Kitabı okudu.\" \"Kütüphaneye gitti.\" \"Kitap seçti.\"",
+      "dogruCevap": "Kütüphaneye gitti, kitap seçti, kitabı okudu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-sirasi",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "oosz-a15",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Aşağıdaki cümleleri sırala: \"Top oynadı.\" \"Formasını giydi.\" \"Sahaya çıktı.\"",
+      "dogruCevap": "Formasını giydi, sahaya çıktı, top oynadı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "futbol-sirasi",
+        "nesne": "futbol"
+      }
+    },
+    {
+      "id": "oosz-a16",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Aşağıdaki cümleleri sırala: \"Uyudu.\" \"Pijamasını giydi.\" \"Dişlerini fırçaladı.\"",
+      "dogruCevap": "Dişlerini fırçaladı, pijamasını giydi, uyudu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gece-sirasi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosz-a17",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Ertesi gün\" ifadesi neyi gösterir?",
+      "dogruCevap": "Bir sonraki günü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ertesi-gun",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosz-a18",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Bir süre sonra\" ne anlama gelir?",
+      "dogruCevap": "Biraz zaman geçtikten sonra",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sure-sonra",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "oosz-a19",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Olay örgüsü ne demektir?",
+      "dogruCevap": "Olayların sıralı düzeni",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-orgusu",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a20",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Zaman ifadeleri metinde ne işe yarar?",
+      "dogruCevap": "Olayların sırasını gösterir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-ifadeleri",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a21",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Hangi kelime olay sırasını bozar?",
+      "dogruCevap": "Rastgele",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yanlis-sira",
+        "nesne": "kitap"
+      },
+      "alternatifCevaplar": [
+        "Karışık"
+      ]
+    },
+    {
+      "id": "oosz-a22",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Resimleri sıraya dizmek hangi beceriyi geliştirir?",
+      "dogruCevap": "Olay sırasını anlama",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "resim-sirasi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosz-a23",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Bir günlük yazarken olaylar nasıl yazılmalı?",
+      "dogruCevap": "Zaman sırasına göre",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-yazma",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "oosz-a24",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Hikâye anlatırken ilk söylenen bölüm hangisidir?",
+      "dogruCevap": "Giriş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-giris",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-a25",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "yazili",
+      "soru": "Olayların oluş sırasını anlamak okumayı nasıl etkiler?",
+      "dogruCevap": "Metni daha iyi anlamamızı sağlar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "okuma-anlama",
+        "nesne": "kitap"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "oosz-t1",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Önce\" kelimesi neyi gösterir?",
+      "dogruCevap": "İlk yapılan işi",
+      "secenekler": [
+        "Yarını",
+        "Rastgele olayı",
+        "Son işi",
+        "İlk yapılan işi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "once-kelimesi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t2",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sonra\" kelimesi hangi anlamı verir?",
+      "dogruCevap": "Bir sonraki adımı",
+      "secenekler": [
+        "Başlığı",
+        "Önceki adımı",
+        "Son cümleyi",
+        "Bir sonraki adımı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sonra-kelimesi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t3",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"En son\" ifadesi neyi anlatır?",
+      "dogruCevap": "Son yapılan işi",
+      "secenekler": [
+        "Son yapılan işi",
+        "İlk işi",
+        "Ortadaki işi",
+        "Yarınki işi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "en-son",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "oosz-t4",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Günün zamanları doğru sırayla hangisidir?",
+      "dogruCevap": "Sabah, öğlen, akşam",
+      "secenekler": [
+        "Akşam, sabah, öğlen",
+        "Sabah, öğlen, akşam",
+        "Gece, sabah, öğlen",
+        "Öğlen, akşam, sabah"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gun-zamanlari",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosz-t5",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede giriş bölümü neyi anlatır?",
+      "dogruCevap": "Kahraman ve yerin tanıtımını",
+      "secenekler": [
+        "Sadece başlığı",
+        "Olayın sonunu",
+        "Şiir kafiyesini",
+        "Kahraman ve yerin tanıtımını"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-giris",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t6",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede gelişme bölümü neyi anlatır?",
+      "dogruCevap": "Olayların büyüdüğü kısmı",
+      "secenekler": [
+        "Sadece selamı",
+        "Kitap kapağını",
+        "Olayların büyüdüğü kısmı",
+        "Noktalama işaretini"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-gelisme",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t7",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Giriş, gelişme, sonuç hangi sırayla gelir?",
+      "dogruCevap": "Giriş → gelişme → sonuç",
+      "secenekler": [
+        "Rastgele",
+        "Sonuç → giriş → gelişme",
+        "Gelişme → sonuç → giriş",
+        "Giriş → gelişme → sonuç"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "giris-gelisme-sonuc",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t8",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Cümleleri doğru sıraya koy: Uyandı / Çantasını aldı / Okula gitti",
+      "dogruCevap": "Uyandı → çantasını aldı → okula gitti",
+      "secenekler": [
+        "Okula gitti → uyandı → çanta",
+        "Uyandı → çantasını aldı → okula gitti",
+        "Uyandı → okul → çanta",
+        "Çanta → okul → uyandı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cumle-sirasi",
+        "nesne": "okul"
+      }
+    },
+    {
+      "id": "oosz-t9",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Cümleleri doğru sıraya koy: Sofraya oturdu / Ellerini yıkadı / Yemek yedi",
+      "dogruCevap": "Sofraya oturdu → ellerini yıkadı → yemek yedi",
+      "secenekler": [
+        "Yemek yedi → sofra → yıkadı",
+        "Oturu → yedi → yıkadı",
+        "Sofraya oturdu → ellerini yıkadı → yemek yedi",
+        "Yıkadı → yedi → oturdu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sofra-sirasi",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosz-t10",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Cümleleri doğru sıraya koy: Kütüphaneye gitti / Kitap seçti / Okudu",
+      "dogruCevap": "Gitti → seçti → okudu",
+      "secenekler": [
+        "Okudu → gitti → seçti",
+        "Gitti → okudu → seçti",
+        "Seçti → okudu → gitti",
+        "Gitti → seçti → okudu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-sirasi",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "oosz-t11",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ertesi gün\" ifadesi neyi gösterir?",
+      "dogruCevap": "Bir sonraki günü",
+      "secenekler": [
+        "Öğleni",
+        "Geceyi",
+        "Dünü",
+        "Bir sonraki günü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ertesi-gun",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosz-t12",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Olay örgüsü ne demektir?",
+      "dogruCevap": "Olayların sıralı düzeni",
+      "secenekler": [
+        "Hece sayısı",
+        "Noktalama kuralı",
+        "Şiir kafiyesi",
+        "Olayların sıralı düzeni"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-orgusu",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t13",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Zaman ifadeleri metinde ne işe yarar?",
+      "dogruCevap": "Olayların sırasını gösterir",
+      "secenekler": [
+        "Başlık yazar",
+        "Renk verir",
+        "Hece sayar",
+        "Olayların sırasını gösterir"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-ifadeleri",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t14",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle olay sırasına uygundur?",
+      "dogruCevap": "Önce yıkadı, sonra giyindi",
+      "secenekler": [
+        "Sonra önce yıkadı",
+        "Yıkadı sonra önce",
+        "Giyindi önce sonra yıkadı",
+        "Önce yıkadı, sonra giyindi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cumle-sirasi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t15",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâye anlatırken ilk söylenen bölüm hangisidir?",
+      "dogruCevap": "Giriş",
+      "secenekler": [
+        "Kapanış şiiri",
+        "Sonuç",
+        "Giriş",
+        "Gelişme"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-giris",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t16",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Resimleri sıraya dizmek hangi beceriyi geliştirir?",
+      "dogruCevap": "Olay sırasını anlama",
+      "secenekler": [
+        "Noktalama",
+        "Olay sırasını anlama",
+        "Çarpım tablosu",
+        "Hece sayma"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "resim-sirasi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosz-t17",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bir günlük yazarken olaylar nasıl yazılmalı?",
+      "dogruCevap": "Zaman sırasına göre",
+      "secenekler": [
+        "Tersten",
+        "Zaman sırasına göre",
+        "Sadece tek cümle",
+        "Rastgele"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gunluk-yazma",
+        "nesne": "gunluk"
+      }
+    },
+    {
+      "id": "oosz-t18",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ardından\" kelimesi hangi ilişkiyi gösterir?",
+      "dogruCevap": "Hemen sonraki olayı",
+      "secenekler": [
+        "Başlığı",
+        "Son cümleyi",
+        "Önceki günü",
+        "Hemen sonraki olayı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ardindan",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t19",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Olayların oluş sırasını anlamak okumayı nasıl etkiler?",
+      "dogruCevap": "Metni daha iyi anlamamızı sağlar",
+      "secenekler": [
+        "Okumayı zorlaştırır",
+        "Metni uzatır",
+        "Hiç etkilemez",
+        "Metni daha iyi anlamamızı sağlar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "okuma-anlama",
+        "nesne": "kitap"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "oosz-t20",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Cümleleri doğru sıraya koy: Forma giydi / Sahaya çıktı / Top oynadı",
+      "dogruCevap": "Forma → sahaya çıktı → top oynadı",
+      "secenekler": [
+        "Forma → sahaya çıktı → top oynadı",
+        "Sahaya → top → forma",
+        "Forma → top → sahaya",
+        "Top oynadı → forma → sahaya"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "futbol-sirasi",
+        "nesne": "futbol"
+      }
+    },
+    {
+      "id": "oosz-t21",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Cümleleri doğru sıraya koy: Diş fırçaladı / Pijama giydi / Uyudu",
+      "dogruCevap": "Fırçaladı → pijama → uyudu",
+      "secenekler": [
+        "Uyudu → fırçaladı → pijama",
+        "Pijama → uyudu → fırçaladı",
+        "Fırçaladı → pijama → uyudu",
+        "Uyudu → pijama → fırçaladı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gece-sirasi",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosz-t22",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi kelime grubu zaman sırasını gösterir?",
+      "dogruCevap": "Önce, sonra, en son",
+      "secenekler": [
+        "Elma, armut, muz",
+        "Kırmızı, mavi, yeşil",
+        "Önce, sonra, en son",
+        "Kedi, köpek, kuş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-kelimeleri",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t23",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede sonuç bölümü neyi anlatır?",
+      "dogruCevap": "Olayın nasıl bittiğini",
+      "secenekler": [
+        "Sadece rengi",
+        "Kahramanın adını",
+        "Hece sayısını",
+        "Olayın nasıl bittiğini"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-sonuc",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t24",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Olay sırasını bozan ifade hangisidir?",
+      "dogruCevap": "Sonra önce karışık anlattı",
+      "secenekler": [
+        "Önce yıkadı",
+        "Sonra önce karışık anlattı",
+        "En son uyudu",
+        "Sonra giyindi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yanlis-sira",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosz-t25",
+      "kazanimKodu": "TUR.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Olayların oluş sırası konusunun amacı nedir?",
+      "dogruCevap": "Metindeki olayları doğru sırayla anlamak",
+      "secenekler": [
+        "Metindeki olayları doğru sırayla anlamak",
+        "Renk öğrenmek",
+        "Hece saymak",
+        "Sadece yazı yazmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      }
+    }
+  ]
+}

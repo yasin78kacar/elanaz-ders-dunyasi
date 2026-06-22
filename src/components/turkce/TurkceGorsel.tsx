@@ -576,6 +576,51 @@ function SiirYazmaGorsel() {
   );
 }
 
+function OlaySirasiGorsel({ adimlar }: { adimlar?: string[] }) {
+  const liste = adimlar ?? ['1. Önce', '2. Sonra', '3. En son'];
+  return (
+    <View style={styles.cumleTurSatir}>
+      {liste.map((a, i) => (
+        <View key={a} style={styles.karsSatir}>
+          <View style={[styles.karsKart, { backgroundColor: HECE_RENK[i % HECE_RENK.length] }]}>
+            <GuvenliMetin style={styles.karsMetin} tamGenislik>
+              {a}
+            </GuvenliMetin>
+          </View>
+          {i < liste.length - 1 ? (
+            <GuvenliMetin style={styles.ok} tamGenislik={false}>
+              →
+            </GuvenliMetin>
+          ) : null}
+        </View>
+      ))}
+    </View>
+  );
+}
+
+function GirisGelismeSonucGorsel() {
+  const bolumler = ['Giriş', 'Gelişme', 'Sonuç'];
+  const renkler = [GEO.mavi, GEO.turuncu, GEO.yesil];
+  return (
+    <View style={styles.cumleTurSatir}>
+      {bolumler.map((b, i) => (
+        <View key={b} style={styles.karsSatir}>
+          <View style={[styles.cumleTurKutu, { backgroundColor: renkler[i] + '33' }]}>
+            <GuvenliMetin style={styles.cumleEtiket} tamGenislik>
+              {b}
+            </GuvenliMetin>
+          </View>
+          {i < bolumler.length - 1 ? (
+            <GuvenliMetin style={styles.ok} tamGenislik={false}>
+              →
+            </GuvenliMetin>
+          ) : null}
+        </View>
+      ))}
+    </View>
+  );
+}
+
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
     case 'sh-anlatim-1':
@@ -725,6 +770,30 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <SiirGorsel sahne="kafiye" />;
     case 'yts-anlatim-3':
       return <SiirGorsel sahne="kisilestirme" />;
+    case 'oosm-anlatim-1':
+      return <OlaySirasiGorsel adimlar={['1. İlk olay', '2. Orta olay', '3. Son olay']} />;
+    case 'oosm-anlatim-2':
+      return (
+        <View style={styles.karsSatir}>
+          <SahneGorsel sahne="once-kelimesi" nesne="kitap" />
+          <SahneGorsel sahne="sonra-kelimesi" nesne="kitap" />
+          <SahneGorsel sahne="en-son" nesne="default" />
+        </View>
+      );
+    case 'oosm-anlatim-3':
+      return <OlaySirasiGorsel adimlar={['Uyandı', 'Hazırlandı', 'Okula gitti']} />;
+    case 'oosz-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <SahneGorsel sahne="sabah" nesne="gunes" />
+          <SahneGorsel sahne="oglen" nesne="gunes" />
+          <SahneGorsel sahne="aksam" nesne="gece" />
+        </View>
+      );
+    case 'oosz-anlatim-2':
+      return <GirisGelismeSonucGorsel />;
+    case 'oosz-anlatim-3':
+      return <OlaySirasiGorsel adimlar={['1. cümle', '2. cümle', '3. cümle']} />;
     default:
       return <SahneGorsel sahne={sahne} />;
   }

@@ -927,9 +927,9 @@
       "soru": "En çok hangi hayvan var?",
       "dogruCevap": "Köpek",
       "secenekler": [
-        "Kuş",
-        "Kedi",
         "Tavşan",
+        "Kedi",
+        "Kuş",
         "Köpek"
       ],
       "ipucu": "",
@@ -966,10 +966,10 @@
       "soru": "Kedi ve kuş toplamı kaçtır?",
       "dogruCevap": "13",
       "secenekler": [
+        "10",
         "11",
-        "12",
         "13",
-        "10"
+        "12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1006,10 +1006,10 @@
       "soru": "En az hangi hayvan var?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Tavşan",
+        "Kedi",
         "Kuş",
         "Köpek",
-        "Kedi"
+        "Tavşan"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1046,9 +1046,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "2",
-        "4",
         "5",
-        "3"
+        "3",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1129,8 +1129,8 @@
       "secenekler": [
         "Pazartesi",
         "Salı",
-        "Cuma",
-        "Perşembe"
+        "Perşembe",
+        "Cuma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1168,9 +1168,9 @@
       "soru": "Pazartesi ve salı toplamı kaçtır?",
       "dogruCevap": "35",
       "secenekler": [
+        "32",
         "37",
         "35",
-        "32",
         "33"
       ],
       "ipucu": "",
@@ -1210,10 +1210,10 @@
       "soru": "En az ekmek hangi gün satıldı?",
       "dogruCevap": "Salı",
       "secenekler": [
-        "Çarşamba",
+        "Perşembe",
         "Pazartesi",
         "Salı",
-        "Perşembe"
+        "Çarşamba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1251,9 +1251,9 @@
       "soru": "🎭 Çarşamba ile perşembe farkı kaçtır?",
       "dogruCevap": "4",
       "secenekler": [
+        "6",
         "2",
         "3",
-        "6",
         "4"
       ],
       "ipucu": "22 - 18 = ?",
@@ -1294,10 +1294,10 @@
       "soru": "Beş günde toplam kaç ekmek satıldı?",
       "dogruCevap": "100",
       "secenekler": [
-        "105",
-        "95",
         "98",
-        "100"
+        "95",
+        "100",
+        "105"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1339,10 +1339,10 @@
       "soru": "En çok sevilen ders hangisi?",
       "dogruCevap": "Matematik",
       "secenekler": [
-        "Türkçe",
-        "Müzik",
         "Matematik",
-        "Fen"
+        "Türkçe",
+        "Fen",
+        "Müzik"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1378,9 +1378,9 @@
       "soru": "Fen ile müzik toplamı kaçtır?",
       "dogruCevap": "21",
       "secenekler": [
-        "23",
-        "20",
         "21",
+        "20",
+        "23",
         "19"
       ],
       "ipucu": "",
@@ -1418,9 +1418,9 @@
       "soru": "🎭 Matematik türkçeden kaç fazla sevilmiştir?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
         "4",
         "3",
+        "6",
         "5"
       ],
       "ipucu": "14 - 10 = ?",
@@ -1460,9 +1460,9 @@
       "dogruCevap": "Fen",
       "secenekler": [
         "Matematik",
-        "Müzik",
+        "Türkçe",
         "Fen",
-        "Türkçe"
+        "Müzik"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1499,9 +1499,9 @@
       "dogruCevap": "45",
       "secenekler": [
         "47",
+        "45",
         "44",
-        "43",
-        "45"
+        "43"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1540,9 +1540,9 @@
       "soru": "En çok hangi meyve satıldı?",
       "dogruCevap": "Elma",
       "secenekler": [
-        "Kiraz",
         "Muz",
         "Armut",
+        "Kiraz",
         "Elma"
       ],
       "ipucu": "",
@@ -1580,9 +1580,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Belli değil",
-        "Evet",
         "Eşit",
-        "Hayır"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "9 + 12 = 21, 21 > 18",
       "gorsel": {
@@ -1661,10 +1661,10 @@
       "soru": "Toplam kaç kg meyve satıldı?",
       "dogruCevap": "54",
       "secenekler": [
-        "56",
         "58",
+        "54",
         "52",
-        "54"
+        "56"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1703,9 +1703,9 @@
       "soru": "🎭 Elma satışı hangi iki meyvenin toplamına eşittir?",
       "dogruCevap": "Hiçbiri",
       "secenekler": [
+        "Hiçbiri",
         "Muz + Kiraz",
         "Armut + Kiraz",
-        "Hiçbiri",
         "Muz + Armut"
       ],
       "ipucu": "Hiçbir ikili toplam 18 etmez",
@@ -1746,10 +1746,10 @@
       "soru": "Çarşamba günü kim nöbetçi?",
       "dogruCevap": "Ali",
       "secenekler": [
-        "Mehmet",
+        "Ayşe",
         "Ali",
-        "Fatma",
-        "Ayşe"
+        "Mehmet",
+        "Fatma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1787,10 +1787,10 @@
       "soru": "Fatma hangi gün nöbetçi?",
       "dogruCevap": "Perşembe",
       "secenekler": [
-        "Salı",
+        "Çarşamba",
         "Perşembe",
-        "Cuma",
-        "Çarşamba"
+        "Salı",
+        "Cuma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1828,9 +1828,9 @@
       "soru": "🎭 Haftanın ilk nöbetçisi kim?",
       "dogruCevap": "Mehmet",
       "secenekler": [
+        "Ayşe",
         "Ali",
         "Mehmet",
-        "Ayşe",
         "Berk"
       ],
       "ipucu": "",
@@ -1870,10 +1870,10 @@
       "soru": "Berk hangi gün nöbetçi?",
       "dogruCevap": "Cuma",
       "secenekler": [
-        "Salı",
-        "Perşembe",
+        "Pazartesi",
         "Cuma",
-        "Pazartesi"
+        "Salı",
+        "Perşembe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1911,10 +1911,10 @@
       "soru": "🎭 Salı nöbetçisi ile perşembe nöbetçisi yer değiştirse, perşembe kim nöbet tutar?",
       "dogruCevap": "Ayşe",
       "secenekler": [
-        "Fatma",
         "Ayşe",
-        "Ali",
-        "Mehmet"
+        "Fatma",
+        "Mehmet",
+        "Ali"
       ],
       "ipucu": "Salı = Ayşe, Perşembe = Fatma → yer değiştirince Perşembe = Ayşe",
       "gorsel": {

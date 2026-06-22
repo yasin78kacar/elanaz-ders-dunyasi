@@ -52,6 +52,8 @@ import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-si
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
 import yazTuruHikaye from '../../content/sinif2/turkce/yaz-turu-hikaye.json';
 import yazTuruSiir from '../../content/sinif2/turkce/yaz-turu-siir.json';
+import olaySirasiMetin from '../../content/sinif2/turkce/olay-sirasi-metin.json';
+import olaySirasiZaman from '../../content/sinif2/turkce/olay-sirasi-zaman.json';
 import giyimEsyalari from '../../content/sinif2/ingilizce/giyim-esyalari.json';
 import mevsimlerIng from '../../content/sinif2/ingilizce/mevsimler-ing.json';
 import theme3Json from '../data/english/theme3.json';
@@ -71,13 +73,7 @@ import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, S
 import { appConfig } from '../config/appConfig';
 
 const tema3 = tema3Json as MathTheme;
-const [
-  toplamaTema3,
-  cikarmaTema3,
-  zihindenToplamaTema3,
-  zihindenCikarmaTema3,
-  problemlerTema3,
-] = tema3.konular;
+const [toplamaTema3, cikarmaTema3] = tema3.konular;
 
 const matTema4 = tema4Json as MathTheme;
 const [carpmaTema4, bolmeTema4] = matTema4.konular;
@@ -108,9 +104,6 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/tahmin-etme.json': tahminEtme as Konu,
   'matematik/toplama.json': toplamaTema3,
   'matematik/cikarma.json': cikarmaTema3,
-  'matematik/zihinden-toplama.json': zihindenToplamaTema3,
-  'matematik/zihinden-cikarma.json': zihindenCikarmaTema3,
-  'matematik/problemler.json': problemlerTema3,
   'matematik/carpma.json': carpmaTema4,
   'matematik/bolme.json': bolmeTema4,
   'matematik/uzunluk-olcme.json': uzunlukOlcmeTema5,
@@ -139,6 +132,8 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/yazma-ve-anlatim-ileri.json': yazmaVeAnlatimIleri as Konu,
   'turkce/yaz-turu-hikaye.json': yazTuruHikaye as Konu,
   'turkce/yaz-turu-siir.json': yazTuruSiir as Konu,
+  'turkce/olay-sirasi-metin.json': olaySirasiMetin as Konu,
+  'turkce/olay-sirasi-zaman.json': olaySirasiZaman as Konu,
   'fen-bilimleri/canlilar.json': canlilar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,

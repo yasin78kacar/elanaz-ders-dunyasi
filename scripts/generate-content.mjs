@@ -45,13 +45,7 @@ import { geometrikSekilModelleri } from './gorev-3g-questions.mjs';
 import { bicimselOzellikler } from './gorev-3h-questions.mjs';
 import { siviOlcme } from './gorev-3i-questions.mjs';
 import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
-import {
-  cikarma,
-  problemler,
-  toplama,
-  zihindenCikarma,
-  zihindenToplama,
-} from './gorev-tema3-questions.mjs';
+import { cikarma, toplama } from './gorev-mat-tema3-questions.mjs';
 import { siviMiktari, zaman } from './gorev-tema4-questions.mjs';
 import { bolme, carpma } from './gorev-mat-tema4-questions.mjs';
 import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
@@ -85,6 +79,7 @@ import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
 import { ingilizceSarkilar } from './gorev-ing4c-questions.mjs';
 import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
+import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
 import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
 import { gorselSanatlar } from './gorev-gorsel-sanatlar-questions.mjs';
 import { zekaVeDikkat } from './gorev-zeka-dikkat-questions.mjs';
@@ -406,14 +401,8 @@ writeFileSync(join(contentDir, 'sivi-olcme.json'), JSON.stringify(siviOlcmeKonu,
 
 const toplamaKonu = toplama(karistir);
 const cikarmaKonu = cikarma(karistir);
-const zihindenToplamaKonu = zihindenToplama(karistir);
-const zihindenCikarmaKonu = zihindenCikarma(karistir);
-const problemlerKonu = problemler(karistir);
 writeFileSync(join(contentDir, 'toplama.json'), JSON.stringify(toplamaKonu, null, 2));
 writeFileSync(join(contentDir, 'cikarma.json'), JSON.stringify(cikarmaKonu, null, 2));
-writeFileSync(join(contentDir, 'zihinden-toplama.json'), JSON.stringify(zihindenToplamaKonu, null, 2));
-writeFileSync(join(contentDir, 'zihinden-cikarma.json'), JSON.stringify(zihindenCikarmaKonu, null, 2));
-writeFileSync(join(contentDir, 'problemler.json'), JSON.stringify(problemlerKonu, null, 2));
 
 const carpmaKonu = carpma(karistir);
 const bolmeKonu = bolme(karistir);
@@ -537,8 +526,12 @@ writeFileSync(join(ingDir, 'eylemler.json'), JSON.stringify(eylemlerKonu, null, 
 const selamlasmaVeAileKonu = selamlasmaVeAile(karistir);
 const yazTuruHikayeKonu = yazTuruHikaye(karistir);
 const yazTuruSiirKonu = yazTuruSiir(karistir);
+const olaySirasiMetinKonu = olaySirasiMetin(karistir);
+const olaySirasiZamanKonu = olaySirasiZaman(karistir);
 writeFileSync(join(turkceDir, 'yaz-turu-hikaye.json'), JSON.stringify(yazTuruHikayeKonu, null, 2));
 writeFileSync(join(turkceDir, 'yaz-turu-siir.json'), JSON.stringify(yazTuruSiirKonu, null, 2));
+writeFileSync(join(turkceDir, 'olay-sirasi-metin.json'), JSON.stringify(olaySirasiMetinKonu, null, 2));
+writeFileSync(join(turkceDir, 'olay-sirasi-zaman.json'), JSON.stringify(olaySirasiZamanKonu, null, 2));
 
 const giyimEsyalariKonu = giyimEsyalari(karistir);
 const mevsimlerIngKonu = mevsimlerIng(karistir);
@@ -573,8 +566,8 @@ writeFileSync(join(englishDataDir, 'theme4.json'), JSON.stringify(theme4, null, 
 
 const tema3 = {
   id: 'tema-3',
-  baslik: 'Tema 3 — Toplama ve Çıkarma',
-  konular: [toplamaKonu, cikarmaKonu, zihindenToplamaKonu, zihindenCikarmaKonu, problemlerKonu],
+  baslik: 'Matematik — Tema 3 — Toplama ve Çıkarma',
+  konular: [toplamaKonu, cikarmaKonu],
 };
 writeFileSync(join(mathDataDir, 'tema3.json'), JSON.stringify(tema3, null, 2));
 
@@ -668,6 +661,14 @@ const index = {
             'turkce/yaz-turu-siir.json',
           ],
         },
+        {
+          id: 'tema-8',
+          baslik: 'Türkçe — Tema 8',
+          konuDosyalari: [
+            'turkce/olay-sirasi-metin.json',
+            'turkce/olay-sirasi-zaman.json',
+          ],
+        },
       ] },
     {
       id: 'matematik',
@@ -698,13 +699,10 @@ const index = {
         },
         {
           id: 'tema-3',
-          baslik: 'Tema 3 — Toplama ve Çıkarma',
+          baslik: 'Matematik — Tema 3 — Toplama ve Çıkarma',
           konuDosyalari: [
             'matematik/toplama.json',
             'matematik/cikarma.json',
-            'matematik/zihinden-toplama.json',
-            'matematik/zihinden-cikarma.json',
-            'matematik/problemler.json',
           ],
         },
         {
@@ -911,9 +909,6 @@ console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.leng
 console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
 console.log('Toplama:', toplamaKonu.alistirma.length, '+', toplamaKonu.test.length);
 console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.length);
-console.log('Zihinden toplama:', zihindenToplamaKonu.alistirma.length, '+', zihindenToplamaKonu.test.length);
-console.log('Zihinden çıkarma:', zihindenCikarmaKonu.alistirma.length, '+', zihindenCikarmaKonu.test.length);
-console.log('Problemler:', problemlerKonu.alistirma.length, '+', problemlerKonu.test.length);
 console.log('Çarpma:', carpmaKonu.alistirma.length, '+', carpmaKonu.test.length);
 console.log('Bölme:', bolmeKonu.alistirma.length, '+', bolmeKonu.test.length);
 console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
@@ -968,6 +963,8 @@ console.log('Eylemler:', eylemlerKonu.alistirma.length, '+', eylemlerKonu.test.l
 console.log('Selamlaşma ve aile:', selamlasmaVeAileKonu.alistirma.length, '+', selamlasmaVeAileKonu.test.length);
 console.log('Yazı türü — hikâye:', yazTuruHikayeKonu.alistirma.length, '+', yazTuruHikayeKonu.test.length);
 console.log('Yazı türü — şiir:', yazTuruSiirKonu.alistirma.length, '+', yazTuruSiirKonu.test.length);
+console.log('Olay sırası — metin:', olaySirasiMetinKonu.alistirma.length, '+', olaySirasiMetinKonu.test.length);
+console.log('Olay sırası — zaman:', olaySirasiZamanKonu.alistirma.length, '+', olaySirasiZamanKonu.test.length);
 console.log('Giyim eşyaları:', giyimEsyalariKonu.alistirma.length, '+', giyimEsyalariKonu.test.length);
 console.log('Mevsimler (İng):', mevsimlerIngKonu.alistirma.length, '+', mevsimlerIngKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);

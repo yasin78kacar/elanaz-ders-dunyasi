@@ -1,0 +1,963 @@
+{
+  "id": "olay-sirasi-metin",
+  "baslik": "Olay Sırası — Metin Okuma",
+  "kazanimKodu": "TUR.2.8.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Metinlerde olaylar genellikle zaman sırasına göre anlatılır. Önce ne oldu, sonra ne oldu sorularıyla olayların oluş sırasını bulabiliriz.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosm-anlatim-1"
+        }
+      },
+      {
+        "metin": "\"Önce\", \"sonra\", \"ardından\", \"en son\" gibi kelimeler bize olayların hangi sırayla olduğunu gösterir. Bu kelimelere dikkat ederek metni daha iyi anlarız.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosm-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bir metni okurken olayları kafamızda sıraya dizmeliyiz. İlk olay, aradaki olaylar ve son olay — hepsi birbirine bağlıdır.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "oosm-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "oosm-a1",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Elanaz sabah ilk ne yaptı?",
+      "dogruCevap": "Uyandı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-uyanma",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a2",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Yüzünü yıkadıktan sonra ne yaptı?",
+      "dogruCevap": "Dişlerini fırçaladı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dis-fircalama",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a3",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Okul çantasını hazırlamadan önce ne yapmıştı?",
+      "dogruCevap": "Dişlerini fırçalamıştı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "canta-hazirlama",
+        "nesne": "okul"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a4",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Kahvaltı etmeden önce hangi işi yaptı?",
+      "dogruCevap": "Çantasını hazırladı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kahvalti",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a5",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Metindeki olayların doğru sırası hangisidir?",
+      "dogruCevap": "Uyandı, yıkadı, fırçaladı, çanta, kahvaltı, okula gitti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a6",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "En son yapılan işlem hangisidir?",
+      "dogruCevap": "Okula gitmek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "okula-gitme",
+        "nesne": "okul"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a7",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "\"Önce\" kelimesi metinde neyi gösterir?",
+      "dogruCevap": "İlk yapılan işi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "once-kelimesi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a8",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "\"En son\" ifadesi hangi olayı anlatır?",
+      "dogruCevap": "Kahvaltı etmeyi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "en-son",
+        "nesne": "default"
+      },
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti."
+    },
+    {
+      "id": "oosm-a9",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Suna ve annesi nereye girdi?",
+      "dogruCevap": "Mutfağa",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mutfak-sahnesi",
+        "nesne": "ev"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a10",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "İlk olarak ne yaptılar?",
+      "dogruCevap": "Yumurtaları kırdılar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yumurta-kirma",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a11",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Un ve şekeri karıştırmadan önce ne olmuştu?",
+      "dogruCevap": "Yumurtalar kırılmıştı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "karistirma",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a12",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Hamur fırına konmadan önce ne yapıldı?",
+      "dogruCevap": "Yağlı kağıda döküldü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hamur-dokme",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a13",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Pastanın sofraya gelmesinden önce ne oldu?",
+      "dogruCevap": "Fırında pişirildi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firin-pasta",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a14",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Olayların oluş sırasını yaz.",
+      "dogruCevap": "Yumurta, karıştırma, hamur, fırın, pasta",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a15",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "\"Ardından\" kelimesi ne anlama gelir?",
+      "dogruCevap": "Sonraki adımı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ardindan",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a16",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Metindeki son olay nedir?",
+      "dogruCevap": "Pasta sofraya geldi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "pasta-sofra",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi."
+    },
+    {
+      "id": "oosm-a17",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Aile nereye gitti?",
+      "dogruCevap": "Pikniğe",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "piknik-sahnesi",
+        "nesne": "park"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a18",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Piknikte ilk ne yapıldı?",
+      "dogruCevap": "Battaniye serildi",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "battaniye-serme",
+        "nesne": "park"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a19",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Sandviçler ne zaman çıkarıldı?",
+      "dogruCevap": "Battaniyeyi serdikten sonra",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sandvic",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a20",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Çocuklar ne zaman koştu?",
+      "dogruCevap": "Sandviçlerden sonra",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "parkta-kosma",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a21",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Yağmur ne zaman başladı?",
+      "dogruCevap": "Akşamüzeri",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yagmur-park",
+        "nesne": "yagmur"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a22",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Aile eve ne zaman döndü?",
+      "dogruCevap": "Yağmur başlayınca",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "eve-donus",
+        "nesne": "ev"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a23",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Metindeki olaylar hangi sırayla oldu?",
+      "dogruCevap": "Piknik, battaniye, sandviç, koşma, yağmur, dönüş",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a24",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Metnin son olayı nedir?",
+      "dogruCevap": "Eve dönmek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "eve-donus",
+        "nesne": "ev"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    },
+    {
+      "id": "oosm-a25",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "yazili",
+      "soru": "Bu metinde olaylar nasıl anlatılmış?",
+      "dogruCevap": "Zaman sırasına göre",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-sirasi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler."
+    }
+  ],
+  "test": [
+    {
+      "id": "oosm-t1",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz sabah ilk ne yaptı?",
+      "dogruCevap": "Uyandı",
+      "secenekler": [
+        "Kahvaltı etti",
+        "Uyandı",
+        "Çantasını hazırladı",
+        "Okula gitti"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-uyanma",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosm-t2",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Dişlerini fırçalamadan önce ne yapmıştı?",
+      "dogruCevap": "Yüzünü yıkamıştı",
+      "secenekler": [
+        "Kahvaltı etmişti",
+        "Yüzünü yıkamıştı",
+        "Okula gitmişti",
+        "Çantasını hazırlamıştı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dis-fircalama",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosm-t3",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kahvaltıdan önceki son işlem hangisidir?",
+      "dogruCevap": "Çanta hazırlama",
+      "secenekler": [
+        "Okula gitme",
+        "Çanta hazırlama",
+        "Uyku",
+        "Oyun oynama"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "canta-hazirlama",
+        "nesne": "okul"
+      }
+    },
+    {
+      "id": "oosm-t4",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Metindeki olayların doğru sırası hangisidir?",
+      "dogruCevap": "Uyandı → yıkadı → fırçaladı → çanta → kahvaltı",
+      "secenekler": [
+        "Kahvaltı → uyandı → okul",
+        "Fırçaladı → uyandı → yıkadı",
+        "Uyandı → yıkadı → fırçaladı → çanta → kahvaltı",
+        "Okul → çanta → kahvaltı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "oosm-t5",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ardından\" kelimesi hangi anlamı verir?",
+      "dogruCevap": "Sonraki adımı",
+      "secenekler": [
+        "Önceki adımı",
+        "İlk olayı",
+        "Sonraki adımı",
+        "Son olayı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ardindan",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosm-t6",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pasta yapımında ilk adım hangisidir?",
+      "dogruCevap": "Yumurtaları kırmak",
+      "secenekler": [
+        "Fırına koymak",
+        "Yumurtaları kırmak",
+        "Hamuru dökmek",
+        "Pastayı yemek"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yumurta-kirma",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosm-t7",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hamur fırına konmadan önce ne yapıldı?",
+      "dogruCevap": "Yağlı kağıda döküldü",
+      "secenekler": [
+        "Yumurta kırıldı",
+        "Yenildi",
+        "Yağlı kağıda döküldü",
+        "Un karıştırıldı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hamur-dokme",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosm-t8",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pastanın sofraya gelmesinden hemen önce ne oldu?",
+      "dogruCevap": "Fırında pişirildi",
+      "secenekler": [
+        "Yumurta kırıldı",
+        "Un alındı",
+        "Mutfak temizlendi",
+        "Fırında pişirildi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firin-pasta",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosm-t9",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Piknikte battaniyeden sonra ne yapıldı?",
+      "dogruCevap": "Sandviçler çıkarıldı",
+      "secenekler": [
+        "Yağmur yağdı",
+        "Sandviçler çıkarıldı",
+        "Uyku",
+        "Eve dönüldü"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sandvic",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "oosm-t10",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aile eve ne zaman döndü?",
+      "dogruCevap": "Yağmur başlayınca",
+      "secenekler": [
+        "Yağmur başlayınca",
+        "Sabah erken",
+        "Battaniye sererken",
+        "Sandviç yerken"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "eve-donus",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "oosm-t11",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Deniz kütüphanede ilk ne yaptı?",
+      "dogruCevap": "Kartını gösterdi",
+      "secenekler": [
+        "Eve döndü",
+        "Koştu",
+        "Kitap okudu",
+        "Kartını gösterdi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-kart",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "oosm-t12",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kitabı ödünç almadan önce ne yaptı?",
+      "dogruCevap": "Koltuğa oturdu",
+      "secenekler": [
+        "Uyudu",
+        "Koştu",
+        "Koltuğa oturdu",
+        "Yemek yedi"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-oturma",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "oosm-t13",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kütüphane metnindeki son olay nedir?",
+      "dogruCevap": "Kitabı ödünç alıp eve dönmek",
+      "secenekler": [
+        "Kart göstermek",
+        "Kitabı ödünç alıp eve dönmek",
+        "Kitap seçmek",
+        "Koşmak"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kutuphane-donus",
+        "nesne": "kutuphane"
+      }
+    },
+    {
+      "id": "oosm-t14",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Can bisiklette ilk olarak kimin yardımıyla gitti?",
+      "dogruCevap": "Babasının",
+      "secenekler": [
+        "Annesinin",
+        "Babasının",
+        "Kimsenin",
+        "Öğretmeninin"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Can bisiklet sürmeyi öğreniyordu. İlk olarak babası tekerlekleri tuttu. Sonra yavaşça bıraktı. Can biraz sallandı ama düşmedi. Ardından parkta tek başına tur attı. En son gururla gülümsedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bisiklet-ogrenme",
+        "nesne": "bisiklet"
+      }
+    },
+    {
+      "id": "oosm-t15",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Baba tekerlekleri bıraktıktan sonra ne oldu?",
+      "dogruCevap": "Can biraz sallandı ama düşmedi",
+      "secenekler": [
+        "Yağmur yağdı",
+        "Can biraz sallandı ama düşmedi",
+        "Can düştü",
+        "Can bisikleti bıraktı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Can bisiklet sürmeyi öğreniyordu. İlk olarak babası tekerlekleri tuttu. Sonra yavaşça bıraktı. Can biraz sallandı ama düşmedi. Ardından parkta tek başına tur attı. En son gururla gülümsedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bisiklet-surus",
+        "nesne": "bisiklet"
+      }
+    },
+    {
+      "id": "oosm-t16",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bisiklet metnindeki son olay hangisidir?",
+      "dogruCevap": "Gururla gülümsemek",
+      "secenekler": [
+        "Gururla gülümsemek",
+        "Ağlamak",
+        "Düşmek",
+        "Uyumak"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Can bisiklet sürmeyi öğreniyordu. İlk olarak babası tekerlekleri tuttu. Sonra yavaşça bıraktı. Can biraz sallandı ama düşmedi. Ardından parkta tek başına tur attı. En son gururla gülümsedi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gururlu-cocuk",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosm-t17",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmur günü metninde öğlen ne oldu?",
+      "dogruCevap": "Bulutlar toplandı",
+      "secenekler": [
+        "Kar yağdı",
+        "Gökkuşağı çıktı",
+        "Bulutlar toplandı",
+        "Güneş parladı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sabah güneş parlıyordu. Öğlen bulutlar toplandı. Sonra yağmur yağmaya başladı. Çocuklar şemsiyelerini açtı. Akşam yağmur durdu ve gökkuşağı çıktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "bulutlar",
+        "nesne": "yagmur"
+      }
+    },
+    {
+      "id": "oosm-t18",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gökkuşağı ne zaman çıktı?",
+      "dogruCevap": "Akşam yağmur durunca",
+      "secenekler": [
+        "Sabah",
+        "Akşam yağmur durunca",
+        "Gece",
+        "Öğlen"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sabah güneş parlıyordu. Öğlen bulutlar toplandı. Sonra yağmur yağmaya başladı. Çocuklar şemsiyelerini açtı. Akşam yağmur durdu ve gökkuşağı çıktı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gokkusagi",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "oosm-t19",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Olayların oluş sırasını anlamak için hangi soru sorulur?",
+      "dogruCevap": "Önce ne oldu, sonra ne oldu?",
+      "secenekler": [
+        "Kaç harf var?",
+        "Kaç sayfa?",
+        "Kim yazdı?",
+        "Önce ne oldu, sonra ne oldu?"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "soru-isaretleri",
+        "nesne": "kitap"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "oosm-t20",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Metinlerde olaylar genelde nasıl anlatılır?",
+      "dogruCevap": "Zaman sırasına göre",
+      "secenekler": [
+        "Alfabetik",
+        "Tersten",
+        "Rastgele",
+        "Zaman sırasına göre"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "zaman-sirasi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosm-t21",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sonra\" kelimesi hangi ilişkiyi gösterir?",
+      "dogruCevap": "Bir sonraki olayı",
+      "secenekler": [
+        "Bir sonraki olayı",
+        "İlk olayı",
+        "Önceki olayı",
+        "Son olayı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sonra-kelimesi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosm-t22",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi cümle olay sırasına uygundur?",
+      "dogruCevap": "Önce yıkadı, sonra giyindi",
+      "secenekler": [
+        "Giyindi önce yıkadı sonra",
+        "Önce yıkadı, sonra giyindi",
+        "Yıkadı giyindi önce",
+        "Sonra önce yıkadı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "cumle-sirasi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosm-t23",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Piknik metninde yağmur başlamadan önce çocuklar ne yaptı?",
+      "dogruCevap": "Parkta koştular",
+      "secenekler": [
+        "Eve döndüler",
+        "Battaniye topladılar",
+        "Uyudular",
+        "Parkta koştular"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "parkta-kosma",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "oosm-t24",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Olay sırasını bozan cümle hangisidir?",
+      "dogruCevap": "Sonra önce kahvaltı etti uyandı",
+      "secenekler": [
+        "Önce uyandı",
+        "Ardından okula gitti",
+        "Sonra önce kahvaltı etti uyandı",
+        "Sonra kahvaltı etti"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "yanlis-sira",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oosm-t25",
+      "kazanimKodu": "TUR.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metinlerin ortak özelliği nedir?",
+      "dogruCevap": "Olaylar sırayla anlatılmıştır",
+      "secenekler": [
+        "Hiç olay yoktur",
+        "Olaylar sırayla anlatılmıştır",
+        "Hepsi şiirdir",
+        "Sadece soru vardır"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      }
+    }
+  ]
+}
