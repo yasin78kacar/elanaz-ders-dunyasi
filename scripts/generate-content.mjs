@@ -53,6 +53,7 @@ import {
   zihindenToplama,
 } from './gorev-tema3-questions.mjs';
 import { siviMiktari, tartma, uzunlukOlcme, zaman } from './gorev-tema4-questions.mjs';
+import { bolme, carpma } from './gorev-mat-tema4-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import {
@@ -409,6 +410,11 @@ writeFileSync(join(contentDir, 'zihinden-toplama.json'), JSON.stringify(zihinden
 writeFileSync(join(contentDir, 'zihinden-cikarma.json'), JSON.stringify(zihindenCikarmaKonu, null, 2));
 writeFileSync(join(contentDir, 'problemler.json'), JSON.stringify(problemlerKonu, null, 2));
 
+const carpmaKonu = carpma(karistir);
+const bolmeKonu = bolme(karistir);
+writeFileSync(join(contentDir, 'carpma.json'), JSON.stringify(carpmaKonu, null, 2));
+writeFileSync(join(contentDir, 'bolme.json'), JSON.stringify(bolmeKonu, null, 2));
+
 const uzunlukOlcmeKonu = uzunlukOlcme(karistir);
 const tartmaKonu = tartma(karistir);
 const siviMiktariKonu = siviMiktari(karistir);
@@ -543,6 +549,13 @@ const tema3 = {
 };
 writeFileSync(join(mathDataDir, 'tema3.json'), JSON.stringify(tema3, null, 2));
 
+const matTema4 = {
+  id: 'tema-4',
+  baslik: 'Tema 4 — Çarpma ve Bölme',
+  konular: [carpmaKonu, bolmeKonu],
+};
+writeFileSync(join(mathDataDir, 'tema4.json'), JSON.stringify(matTema4, null, 2));
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -638,6 +651,14 @@ const index = {
         },
         {
           id: 'tema-4',
+          baslik: 'Tema 4 — Çarpma ve Bölme',
+          konuDosyalari: [
+            'matematik/carpma.json',
+            'matematik/bolme.json',
+          ],
+        },
+        {
+          id: 'olcme',
           baslik: 'Tema 4 — Ölçme',
           konuDosyalari: [
             'matematik/uzunluk-olcme.json',
@@ -808,6 +829,8 @@ console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.le
 console.log('Zihinden toplama:', zihindenToplamaKonu.alistirma.length, '+', zihindenToplamaKonu.test.length);
 console.log('Zihinden çıkarma:', zihindenCikarmaKonu.alistirma.length, '+', zihindenCikarmaKonu.test.length);
 console.log('Problemler:', problemlerKonu.alistirma.length, '+', problemlerKonu.test.length);
+console.log('Çarpma:', carpmaKonu.alistirma.length, '+', carpmaKonu.test.length);
+console.log('Bölme:', bolmeKonu.alistirma.length, '+', bolmeKonu.test.length);
 console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
 console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);
 console.log('Sıvı miktarı:', siviMiktariKonu.alistirma.length, '+', siviMiktariKonu.test.length);
@@ -844,6 +867,7 @@ console.log('Hava durumu ve mevsimler:', havaDurumuVeMevsimlerKonu.alistirma.len
 console.log('Sağlıklı yaşam ve çevre:', saglikliYasamVeCevreKonu.alistirma.length, '+', saglikliYasamVeCevreKonu.test.length);
 console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
 console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
+console.log('Aile ve duygular:', aileDuygularKonu.alistirma.length, '+', aileDuygularKonu.test.length);
 console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);
 console.log('Sağlık ve temizlik:', saglikVeTemizlikKonu.alistirma.length, '+', saglikVeTemizlikKonu.test.length);
 console.log('Güvenli yaşam:', guvenliYasamKonu.alistirma.length, '+', guvenliYasamKonu.test.length);

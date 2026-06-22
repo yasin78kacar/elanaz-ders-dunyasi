@@ -55,6 +55,8 @@ export interface GorselTahminEtme {
 export type IslemMod =
   | 'toplama-grup'
   | 'cikarma-grup'
+  | 'carpma-grup'
+  | 'bolme-grup'
   | 'bilinmeyen'
   | 'karsilastirma'
   | 'adimlar'

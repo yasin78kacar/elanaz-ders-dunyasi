@@ -136,6 +136,17 @@ const NESNE: Record<string, { emoji: string; etiket: string }> = {
   nefes: { emoji: '🧘', etiket: 'Sakin Kal' },
   'ilk-yardim': { emoji: '🩹', etiket: 'İlk Yardım' },
   telefon: { emoji: '📱', etiket: 'Telefon' },
+  // Aile ve Duygular
+  mutluluk: { emoji: '😊', etiket: 'Mutluluk' },
+  uzuntu: { emoji: '😢', etiket: 'Üzüntü' },
+  kizginlik: { emoji: '😠', etiket: 'Kızgınlık' },
+  korku: { emoji: '😨', etiket: 'Korku' },
+  sevgi: { emoji: '❤️', etiket: 'Sevgi' },
+  empati: { emoji: '🤗', etiket: 'Empati' },
+  heyecan: { emoji: '🤩', etiket: 'Heyecan' },
+  saskinlik: { emoji: '😲', etiket: 'Şaşkınlık' },
+  'duygu-kartlari': { emoji: '🎭', etiket: 'Duygular' },
+  oyuncak: { emoji: '🧸', etiket: 'Oyuncak' },
   default: { emoji: '🏠', etiket: 'Hayat Bilgisi' },
 };
 
@@ -450,6 +461,30 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       );
     case 'aa-anlatim-3':
       return <GrupGorsel nesneler={['arkadas', 'cocuk']} vurgu="arkadas" />;
+    case 'ad-anlatim-1':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="mutluluk" />
+          <NesneKart anahtar="uzuntu" />
+          <NesneKart anahtar="kizginlik" />
+          <NesneKart anahtar="korku" />
+        </View>
+      );
+    case 'ad-anlatim-2':
+      return (
+        <KuralListesi
+          baslik="Duygularımızı Paylaşalım"
+          maddeler={['Üzüldüğümüzde anlatalım', 'Korktuğumuzda söyleyelim', 'Mutlu olduğumuzda paylaşalım', 'Sakin konuşalım']}
+        />
+      );
+    case 'ad-anlatim-3':
+      return (
+        <View style={styles.karsSatir}>
+          <NesneKart anahtar="sevgi" />
+          <NesneKart anahtar="empati" />
+          <NesneKart anahtar="aile" />
+        </View>
+      );
     case 'tc-anlatim-1':
       return <MeslekGorsel />;
     case 'tc-anlatim-2':

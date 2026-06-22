@@ -1,0 +1,2122 @@
+{
+  "id": "tema-4",
+  "baslik": "Tema 4 — Çarpma ve Bölme",
+  "konular": [
+    {
+      "id": "carpma",
+      "baslik": "Çarpma",
+      "kazanimKodu": "MAT.2.4.1",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Çarpma, eşit grupların toplamını kısa yoldan bulmaktır. 3 grup, her grupta 4 elma → 3 × 4 = 12 elma.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "cp-anlatim-1"
+            }
+          },
+          {
+            "metin": "Çarpma işleminde sıra önemli değildir: 2 × 5 = 5 × 2 = 10. Aynı sayıları farklı sırada çarpınca sonuç değişmez.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "cp-anlatim-2"
+            }
+          },
+          {
+            "metin": "Çarpma tablosunu öğrenmek için grupları saymayı kullanırız. Her gruptaki nesne sayısını gruplarla çarparız.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "cp-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "cp-a1",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "2 × 3 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 3,
+            "sonuc": 6,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a2",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "3 × 2 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 2,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "yesil"
+          }
+        },
+        {
+          "id": "cp-a3",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "4 × 2 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 2,
+            "sonuc": 8,
+            "nesne": "yildiz",
+            "renk1": "sari"
+          }
+        },
+        {
+          "id": "cp-a4",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "2 × 4 = ?",
+          "dogruCevap": "8",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 4,
+            "sonuc": 8,
+            "nesne": "balon",
+            "renk1": "mavi"
+          }
+        },
+        {
+          "id": "cp-a5",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "5 × 2 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a6",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "2 × 5 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 5,
+            "sonuc": 10,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a7",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "3 × 3 = ?",
+          "dogruCevap": "9",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 3,
+            "sonuc": 9,
+            "nesne": "kelebek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a8",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "4 × 3 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 3,
+            "sonuc": 12,
+            "nesne": "kalem",
+            "renk1": "sari"
+          }
+        },
+        {
+          "id": "cp-a9",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "3 × 4 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 4,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a10",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "5 × 3 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 3,
+            "sonuc": 15,
+            "nesne": "cicek",
+            "renk1": "pembe"
+          }
+        },
+        {
+          "id": "cp-a11",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "3 × 5 = ?",
+          "dogruCevap": "15",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 5,
+            "sonuc": 15,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a12",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "4 × 4 = ?",
+          "dogruCevap": "16",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 4,
+            "sonuc": 16,
+            "nesne": "kare",
+            "renk1": "turuncu"
+          }
+        },
+        {
+          "id": "cp-a13",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "5 × 4 = ?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 4,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a14",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "4 × 5 = ?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 5,
+            "sonuc": 20,
+            "nesne": "ari",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a15",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "5 × 5 = ?",
+          "dogruCevap": "25",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 5,
+            "sonuc": 25,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a16",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "2 × 6 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 6,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a17",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "6 × 2 = ?",
+          "dogruCevap": "12",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "mavi"
+          }
+        },
+        {
+          "id": "cp-a18",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "3 × 6 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 6,
+            "sonuc": 18,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a19",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "6 × 3 = ?",
+          "dogruCevap": "18",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 3,
+            "sonuc": 18,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a20",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "4 × 6 = ?",
+          "dogruCevap": "24",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 6,
+            "sonuc": 24,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a21",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "6 × 4 = ?",
+          "dogruCevap": "24",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 4,
+            "sonuc": 24,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a22",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "5 × 6 = ?",
+          "dogruCevap": "30",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 6,
+            "sonuc": 30,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a23",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "6 × 5 = ?",
+          "dogruCevap": "30",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 5,
+            "sonuc": 30,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a24",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "10 × 2 = ?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 10,
+            "b": 2,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-a25",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "yazili",
+          "soru": "2 × 10 = ?",
+          "dogruCevap": "20",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 10,
+            "sonuc": 20,
+            "nesne": "kalem",
+            "renk1": "kirmizi"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "cp-t1",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "2 × 4 = ?",
+          "dogruCevap": "8",
+          "secenekler": [
+            "10",
+            "8",
+            "12",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 4,
+            "sonuc": 8,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t2",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "3 × 3 = ?",
+          "dogruCevap": "9",
+          "secenekler": [
+            "6",
+            "15",
+            "9",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 3,
+            "sonuc": 9,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t3",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her sepette 5 elma var. 3 sepette kaç elma vardır?",
+          "dogruCevap": "15",
+          "secenekler": [
+            "15",
+            "12",
+            "18",
+            "10"
+          ],
+          "ipucu": "3 × 5",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 5,
+            "sonuc": 15,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t4",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "4 × 5 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "15",
+            "25",
+            "18",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 5,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t5",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "5 × 2 = ?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "12",
+            "10",
+            "8",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t6",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her kutuda 4 kalem var. 4 kutuda kaç kalem vardır?",
+          "dogruCevap": "16",
+          "secenekler": [
+            "14",
+            "20",
+            "16",
+            "12"
+          ],
+          "ipucu": "4 × 4",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 4,
+            "sonuc": 16,
+            "nesne": "kalem",
+            "renk1": "sari"
+          }
+        },
+        {
+          "id": "cp-t7",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "6 × 2 = ?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "10",
+            "14",
+            "12",
+            "11"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t8",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "3 × 5 = ?",
+          "dogruCevap": "15",
+          "secenekler": [
+            "12",
+            "15",
+            "20",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 5,
+            "sonuc": 15,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t9",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her sırada 3 öğrenci var. 5 sırada kaç öğrenci vardır?",
+          "dogruCevap": "15",
+          "secenekler": [
+            "15",
+            "18",
+            "10",
+            "12"
+          ],
+          "ipucu": "5 × 3",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 3,
+            "sonuc": 15,
+            "nesne": "top",
+            "renk1": "mavi"
+          }
+        },
+        {
+          "id": "cp-t10",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "4 × 4 = ?",
+          "dogruCevap": "16",
+          "secenekler": [
+            "18",
+            "14",
+            "16",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 4,
+            "sonuc": 16,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t11",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "2 × 6 = ?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "12",
+            "16",
+            "14",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 6,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t12",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "5 × 5 = ?",
+          "dogruCevap": "25",
+          "secenekler": [
+            "30",
+            "20",
+            "22",
+            "25"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 5,
+            "sonuc": 25,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t13",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her tabakta 2 kurabiye var. 6 tabakta kaç kurabiye vardır?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "16",
+            "10",
+            "14",
+            "12"
+          ],
+          "ipucu": "6 × 2",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 12,
+            "nesne": "kare",
+            "renk1": "kahve"
+          }
+        },
+        {
+          "id": "cp-t14",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "3 × 4 = ?",
+          "dogruCevap": "12",
+          "secenekler": [
+            "15",
+            "12",
+            "10",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 4,
+            "sonuc": 12,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t15",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "10 × 2 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "18",
+            "22",
+            "20",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 10,
+            "b": 2,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t16",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 4 × 3 ile 3 × 4 sonuçları nasıldır?",
+          "dogruCevap": "İkisi de 12",
+          "secenekler": [
+            "3 daha büyük",
+            "4 daha büyük",
+            "Farklıdır",
+            "İkisi de 12"
+          ],
+          "ipucu": "Çarpma değişmelidir.",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              "4×3=12",
+              "3×4=12"
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "cp-t17",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "6 × 3 = ?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "15",
+            "21",
+            "16",
+            "18"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 3,
+            "sonuc": 18,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t18",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her grupta 5 top var. 4 grupta kaç top vardır?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "20",
+            "15",
+            "25",
+            "18"
+          ],
+          "ipucu": "4 × 5",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 5,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t19",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "5 × 4 = ?",
+          "dogruCevap": "20",
+          "secenekler": [
+            "18",
+            "16",
+            "20",
+            "24"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 5,
+            "b": 4,
+            "sonuc": 20,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t20",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "2 × 5 = ?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "9",
+            "12",
+            "10",
+            "8"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 2,
+            "b": 5,
+            "sonuc": 10,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t21",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "4 × 6 = ?",
+          "dogruCevap": "24",
+          "secenekler": [
+            "22",
+            "28",
+            "24",
+            "20"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 4,
+            "b": 6,
+            "sonuc": 24,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t22",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Her rafta 3 kitap var. 6 rafta kaç kitap vardır?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "15",
+            "18",
+            "21",
+            "16"
+          ],
+          "ipucu": "6 × 3",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 3,
+            "sonuc": 18,
+            "nesne": "kalem",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t23",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "6 × 5 = ?",
+          "dogruCevap": "30",
+          "secenekler": [
+            "25",
+            "30",
+            "35",
+            "28"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 6,
+            "b": 5,
+            "sonuc": 30,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t24",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "3 × 6 = ?",
+          "dogruCevap": "18",
+          "secenekler": [
+            "18",
+            "20",
+            "16",
+            "15"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "carpma-grup",
+            "a": 3,
+            "b": 6,
+            "sonuc": 18,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "cp-t25",
+          "kazanimKodu": "MAT.2.4.1",
+          "tip": "coktanSecmeli",
+          "soru": "Çarpma işlemi ne anlama gelir?",
+          "dogruCevap": "Eşit grupların toplamı",
+          "secenekler": [
+            "Bölme",
+            "Çıkarma",
+            "Eşit grupların toplamı",
+            "Sıralama"
+          ],
+          "ipucu": "Tekrarlı toplama.",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "anlatim",
+            "sahne": "cp-anlatim-1"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bolme",
+      "baslik": "Bölme",
+      "kazanimKodu": "MAT.2.4.2",
+      "anlatim": {
+        "ekranlar": [
+          {
+            "metin": "Bölme, bir topluluğu eşit parçalara ayırmaktır. 12 elmayı 3 kişiye eşit paylaştırırsak her birine 4 elma düşer: 12 ÷ 3 = 4.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "bl-anlatim-1"
+            }
+          },
+          {
+            "metin": "Bölmede kalan olmamalıdır. Eşit paylaştırma yaparken her grupta aynı sayıda nesne olur.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "bl-anlatim-2"
+            }
+          },
+          {
+            "metin": "Bölme, çarpmanın tersidir. 3 × 4 = 12 ise 12 ÷ 3 = 4 ve 12 ÷ 4 = 3 olur.",
+            "gorsel": {
+              "tur": "islem",
+              "mod": "anlatim",
+              "sahne": "bl-anlatim-3"
+            }
+          }
+        ]
+      },
+      "alistirma": [
+        {
+          "id": "bl-a1",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "6 ÷ 2 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a2",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "8 ÷ 2 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 8,
+            "b": 2,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a3",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "10 ÷ 2 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 10,
+            "b": 2,
+            "sonuc": 5,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a4",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "12 ÷ 2 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 2,
+            "sonuc": 6,
+            "nesne": "kalem",
+            "renk1": "sari"
+          }
+        },
+        {
+          "id": "bl-a5",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "6 ÷ 3 = ?",
+          "dogruCevap": "2",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 6,
+            "b": 3,
+            "sonuc": 2,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a6",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "9 ÷ 3 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 9,
+            "b": 3,
+            "sonuc": 3,
+            "nesne": "top",
+            "renk1": "mavi"
+          }
+        },
+        {
+          "id": "bl-a7",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "12 ÷ 3 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 3,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a8",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "15 ÷ 3 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 15,
+            "b": 3,
+            "sonuc": 5,
+            "nesne": "cicek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a9",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "18 ÷ 3 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 18,
+            "b": 3,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a10",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "10 ÷ 5 = ?",
+          "dogruCevap": "2",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 10,
+            "b": 5,
+            "sonuc": 2,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a11",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "15 ÷ 5 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 15,
+            "b": 5,
+            "sonuc": 3,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a12",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "20 ÷ 5 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 5,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a13",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "25 ÷ 5 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 25,
+            "b": 5,
+            "sonuc": 5,
+            "nesne": "balon",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a14",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "30 ÷ 5 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 30,
+            "b": 5,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a15",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "8 ÷ 4 = ?",
+          "dogruCevap": "2",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 8,
+            "b": 4,
+            "sonuc": 2,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a16",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "12 ÷ 4 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 4,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a17",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "16 ÷ 4 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 16,
+            "b": 4,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a18",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "20 ÷ 4 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 4,
+            "sonuc": 5,
+            "nesne": "kare",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a19",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "24 ÷ 4 = ?",
+          "dogruCevap": "6",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 24,
+            "b": 4,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a20",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "6 ÷ 6 = ?",
+          "dogruCevap": "1",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 6,
+            "b": 6,
+            "sonuc": 1,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a21",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "12 ÷ 6 = ?",
+          "dogruCevap": "2",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 6,
+            "sonuc": 2,
+            "nesne": "cilek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a22",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "18 ÷ 6 = ?",
+          "dogruCevap": "3",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 18,
+            "b": 6,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a23",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "24 ÷ 6 = ?",
+          "dogruCevap": "4",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 24,
+            "b": 6,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a24",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "30 ÷ 6 = ?",
+          "dogruCevap": "5",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 30,
+            "b": 6,
+            "sonuc": 5,
+            "nesne": "kelebek",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-a25",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "yazili",
+          "soru": "20 ÷ 2 = ?",
+          "dogruCevap": "10",
+          "ipucu": "",
+          "cevapTipi": "sayi",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        }
+      ],
+      "test": [
+        {
+          "id": "bl-t1",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "8 ÷ 2 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "3",
+            "2",
+            "5",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 8,
+            "b": 2,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t2",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "12 ÷ 3 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "3",
+            "6",
+            "5",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 3,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t3",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "10 elmayı 2 kişiye eşit paylaştırırsak her birine kaç elma düşer?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "5",
+            "4",
+            "6",
+            "8"
+          ],
+          "ipucu": "10 ÷ 2",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 10,
+            "b": 2,
+            "sonuc": 5,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t4",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "15 ÷ 5 = ?",
+          "dogruCevap": "3",
+          "secenekler": [
+            "2",
+            "5",
+            "4",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 15,
+            "b": 5,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t5",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "18 ÷ 3 = ?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "9",
+            "5",
+            "6",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 18,
+            "b": 3,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t6",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "20 kurabiyeyi 4 tabağa eşit koyarsak her tabakta kaç kurabiye olur?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "4",
+            "6",
+            "5",
+            "8"
+          ],
+          "ipucu": "20 ÷ 4",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 4,
+            "sonuc": 5,
+            "nesne": "kare",
+            "renk1": "turuncu"
+          }
+        },
+        {
+          "id": "bl-t7",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "24 ÷ 6 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "4",
+            "5",
+            "6",
+            "3"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 24,
+            "b": 6,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t8",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "16 ÷ 4 = ?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "4",
+            "8",
+            "3",
+            "2"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 16,
+            "b": 4,
+            "sonuc": 4,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t9",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "12 kalemi 3 gruba eşit ayırırsak her grupta kaç kalem olur?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "5",
+            "6",
+            "4",
+            "3"
+          ],
+          "ipucu": "12 ÷ 3",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 3,
+            "sonuc": 4,
+            "nesne": "kalem",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t10",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "30 ÷ 5 = ?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "5",
+            "7",
+            "10",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 30,
+            "b": 5,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t11",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "9 ÷ 3 = ?",
+          "dogruCevap": "3",
+          "secenekler": [
+            "6",
+            "3",
+            "2",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 9,
+            "b": 3,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t12",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "20 ÷ 4 = ?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "6",
+            "4",
+            "8",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 4,
+            "sonuc": 5,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t13",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "18 topu 6 çocuğa eşit verirsek her çocuk kaç top alır?",
+          "dogruCevap": "3",
+          "secenekler": [
+            "4",
+            "6",
+            "3",
+            "2"
+          ],
+          "ipucu": "18 ÷ 6",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 18,
+            "b": 6,
+            "sonuc": 3,
+            "nesne": "top",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t14",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "25 ÷ 5 = ?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "6",
+            "4",
+            "5",
+            "10"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 25,
+            "b": 5,
+            "sonuc": 5,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t15",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "6 ÷ 2 = ?",
+          "dogruCevap": "3",
+          "secenekler": [
+            "6",
+            "3",
+            "2",
+            "4"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 6,
+            "b": 2,
+            "sonuc": 3,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t16",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "🎭 12 ÷ 3 ile 12 ÷ 4 sonuçları sırasıyla nedir?",
+          "dogruCevap": "4 ve 3",
+          "secenekler": [
+            "4 ve 4",
+            "3 ve 3",
+            "4 ve 3",
+            "3 ve 4"
+          ],
+          "ipucu": "Bölen değişince sonuç değişir.",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "karsilastirma",
+            "islemler": [
+              "12÷3=4",
+              "12÷4=3"
+            ]
+          },
+          "sasirtma": true
+        },
+        {
+          "id": "bl-t17",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "14 ÷ 2 = ?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "7",
+            "6",
+            "8",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 14,
+            "b": 2,
+            "sonuc": 7,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t18",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "21 ÷ 3 = ?",
+          "dogruCevap": "7",
+          "secenekler": [
+            "7",
+            "8",
+            "6",
+            "9"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 21,
+            "b": 3,
+            "sonuc": 7,
+            "nesne": "yildiz",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t19",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "24 ÷ 4 = ?",
+          "dogruCevap": "6",
+          "secenekler": [
+            "4",
+            "8",
+            "6",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 24,
+            "b": 4,
+            "sonuc": 6,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t20",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "10 ÷ 5 = ?",
+          "dogruCevap": "2",
+          "secenekler": [
+            "1",
+            "3",
+            "2",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 10,
+            "b": 5,
+            "sonuc": 2,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t21",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "15 ÷ 3 = ?",
+          "dogruCevap": "5",
+          "secenekler": [
+            "3",
+            "6",
+            "4",
+            "5"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 15,
+            "b": 3,
+            "sonuc": 5,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t22",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "16 balonu 4 gruba eşit ayırırsak her grupta kaç balon olur?",
+          "dogruCevap": "4",
+          "secenekler": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "ipucu": "16 ÷ 4",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 16,
+            "b": 4,
+            "sonuc": 4,
+            "nesne": "balon",
+            "renk1": "mavi"
+          }
+        },
+        {
+          "id": "bl-t23",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "12 ÷ 6 = ?",
+          "dogruCevap": "2",
+          "secenekler": [
+            "1",
+            "3",
+            "2",
+            "6"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 12,
+            "b": 6,
+            "sonuc": 2,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t24",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "20 ÷ 2 = ?",
+          "dogruCevap": "10",
+          "secenekler": [
+            "8",
+            "9",
+            "10",
+            "12"
+          ],
+          "ipucu": "",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "bolme-grup",
+            "a": 20,
+            "b": 2,
+            "sonuc": 10,
+            "nesne": "elma",
+            "renk1": "kirmizi"
+          }
+        },
+        {
+          "id": "bl-t25",
+          "kazanimKodu": "MAT.2.4.2",
+          "tip": "coktanSecmeli",
+          "soru": "Bölme işlemi ne anlama gelir?",
+          "dogruCevap": "Eşit paylaştırma",
+          "secenekler": [
+            "Eşit paylaştırma",
+            "Toplama",
+            "Çarpma",
+            "Sıralama"
+          ],
+          "ipucu": "Eşit gruplara ayırma.",
+          "gorsel": {
+            "tur": "islem",
+            "mod": "anlatim",
+            "sahne": "bl-anlatim-1"
+          }
+        }
+      ]
+    }
+  ]
+}

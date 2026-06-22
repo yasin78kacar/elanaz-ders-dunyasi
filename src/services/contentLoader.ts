@@ -56,6 +56,7 @@ import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-si
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
 import theme4Json from '../data/english/theme4.json';
 import tema3Json from '../data/math/tema3.json';
+import tema4Json from '../data/math/tema4.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
 import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
@@ -74,6 +75,9 @@ const [
   zihindenCikarmaTema3,
   problemlerTema3,
 ] = tema3.konular;
+
+const matTema4 = tema4Json as MathTheme;
+const [carpmaTema4, bolmeTema4] = matTema4.konular;
 
 const theme4 = theme4Json as EnglishTheme;
 const [kisaHikayeler, basitDiyaloglar, ingilizceSarkilar] = theme4.konular;
@@ -95,6 +99,8 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/zihinden-toplama.json': zihindenToplamaTema3,
   'matematik/zihinden-cikarma.json': zihindenCikarmaTema3,
   'matematik/problemler.json': problemlerTema3,
+  'matematik/carpma.json': carpmaTema4,
+  'matematik/bolme.json': bolmeTema4,
   'matematik/uzunluk-olcme.json': uzunlukOlcme as Konu,
   'matematik/tartma.json': tartma as Konu,
   'matematik/sivi-miktari.json': siviMiktari as Konu,

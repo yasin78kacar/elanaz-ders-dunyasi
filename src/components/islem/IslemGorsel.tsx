@@ -31,6 +31,63 @@ function IslemSembol({ sembol, x, y }: { sembol: string; x: number; y: number })
   );
 }
 
+function CarpmaGrup({
+  a,
+  b,
+  nesne,
+  renk1,
+}: {
+  a: number;
+  b: number;
+  nesne?: string;
+  renk1?: string;
+}) {
+  const grupW = 72;
+  const genislik = Math.min(300, a * grupW + 40);
+  return (
+    <View style={{ width: genislik, height: 110, position: 'relative', flexDirection: 'row', alignItems: 'center', gap: 4 }}>
+      {Array.from({ length: a }, (_, i) => (
+        <View key={i} style={{ width: grupW }}>
+          <NesneGrup adet={b} tip={nesne} renk={renk1} genislik={grupW} maxSatir={5} />
+        </View>
+      ))}
+      <GuvenliMetin style={{ fontSize: 14, fontWeight: '700', color: GEO.metin, marginLeft: 4 }} tamGenislik={false}>
+        {`${a}×${b}=${a * b}`}
+      </GuvenliMetin>
+    </View>
+  );
+}
+
+function BolmeGrup({
+  a,
+  b,
+  nesne,
+  renk1,
+}: {
+  a: number;
+  b: number;
+  nesne?: string;
+  renk1?: string;
+}) {
+  const grupW = 72;
+  const grupBasina = a / b;
+  return (
+    <View style={{ width: 300, alignItems: 'center' }}>
+      <NesneGrup adet={a} tip={nesne} renk={renk1} genislik={280} maxSatir={10} />
+      <View style={{ flexDirection: 'row', marginTop: 6, gap: 8 }}>
+        {Array.from({ length: b }, (_, i) => (
+          <View key={i} style={{ borderWidth: 2, borderColor: GEO.mavi, borderRadius: 8, padding: 2 }}>
+            <NesneGrup adet={grupBasina} tip={nesne} renk={renk1} genislik={grupW} maxSatir={5} />
+          </View>
+        ))}
+      </View>
+      <GuvenliMetin style={{ fontSize: 14, fontWeight: '700', color: GEO.metin, marginTop: 4 }} tamGenislik={false}>
+        {`${a}÷${b}=${grupBasina}`}
+      </GuvenliMetin>
+    </View>
+  );
+}
+
 function ToplamaCikarmaGrup({
   a,
   b,
@@ -223,6 +280,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       );
     case 'tcp-anlatim-3':
       return <AdimlarGorsel adimlar={[{ etiket: '1.adım', deger: 1 }, { etiket: '2.adım', deger: 2 }]} />;
+    case 'cp-anlatim-1':
+      return <CarpmaGrup a={3} b={4} nesne="elma" renk1="kirmizi" />;
+    case 'cp-anlatim-2':
+      return <Karsilastirma islemler={['2 × 5 = 10', '5 × 2 = 10']} />;
+    case 'cp-anlatim-3':
+      return <CarpmaGrup a={4} b={3} nesne="top" renk1="mavi" />;
+    case 'bl-anlatim-1':
+      return <BolmeGrup a={12} b={3} nesne="elma" renk1="yesil" />;
+    case 'bl-anlatim-2':
+      return <Karsilastirma islemler={['Eşit paylaştırma', 'Her grupta aynı sayı']} />;
+    case 'bl-anlatim-3':
+      return <Karsilastirma islemler={['3 × 4 = 12', '12 ÷ 3 = 4', '12 ÷ 4 = 3']} />;
     default:
       return <ProblemSahne sahne={sahne} />;
   }
@@ -269,6 +338,10 @@ export function IslemGorsel(props: Props) {
       return <ToplamaCikarmaGrup a={a} b={b} nesne={nesne} renk1={renk1} renk2={renk2} />;
     case 'cikarma-grup':
       return <ToplamaCikarmaGrup a={a} b={b} nesne={nesne} renk1={renk1} cikarma />;
+    case 'carpma-grup':
+      return <CarpmaGrup a={a} b={b} nesne={nesne} renk1={renk1} />;
+    case 'bolme-grup':
+      return <BolmeGrup a={a} b={b} nesne={nesne} renk1={renk1} />;
     case 'bilinmeyen':
       return <BilinmeyenKutu {...props} />;
     case 'karsilastirma':
