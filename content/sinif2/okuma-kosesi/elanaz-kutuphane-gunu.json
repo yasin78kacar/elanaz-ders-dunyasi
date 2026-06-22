@@ -1,0 +1,119 @@
+{
+  "id": "elanaz-kutuphane-gunu",
+  "baslik": "Elanaz ve Kütüphane Günü",
+  "sayfalar": [
+    {
+      "metin": "Okul kütüphanesi haftası başlamıştı. Elanaz kütüphaneye ilk kez gidecekti. İçeri girince raflar dolu kitaplarla kaplıydı. Kütüphaneci teyze \"Sessiz olalım, burada herkes okuyor,\" dedi. Elanaz fısıldayarak \"Tamam,\" dedi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-kutuphane-raflar"
+      }
+    },
+    {
+      "metin": "Elanaz hayvanlar hakkında kitap aradı. Bir rafın en üstünde güzel bir kitap gördü ama yetişemedi. Yanındaki Ali uzun boyuyla kitabı indirdi. \"Bunu mu istiyorsun?\" diye sordu. Elanaz başını salladı. Ali kitabı ona verdi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ali-kitap"
+      }
+    },
+    {
+      "metin": "Elanaz kitabı masaya koydu. Kediler ve köpekler hakkında okudu. Okurken zaman su gibi aktı. Kütüphane kapanmadan önce kitabı yerine koydu. Eve gidince annesine anlattı. \"Yarın yine gideceğim!\" dedi. O gün Elanaz kitapların dünyasını ve yardımlaşmayı öğrendi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-elanaz-okuyor"
+      }
+    }
+  ],
+  "sorular": [
+    {
+      "id": "ok4-s1",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz kütüphanede ne aradı?",
+      "dogruCevap": "Hayvanlar hakkında kitap",
+      "secenekler": [
+        "Matematik kitabı",
+        "Hayvanlar hakkında kitap",
+        "Yemek kitabı",
+        "Harita"
+      ],
+      "ipucu": "Elanaz hangi konuda kitap istedi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-hayvan-kitap"
+      }
+    },
+    {
+      "id": "ok4-s2",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kitaba kim yardım etti?",
+      "dogruCevap": "Ali",
+      "secenekler": [
+        "Zeynep",
+        "Öğretmen",
+        "Ali",
+        "Kütüphaneci"
+      ],
+      "ipucu": "Uzun boylu arkadaş kimdi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ali-elanaz"
+      }
+    },
+    {
+      "id": "ok4-s3",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kütüphaneci ne dedi?",
+      "dogruCevap": "Sessiz olalım",
+      "secenekler": [
+        "Koşun",
+        "Sessiz olalım",
+        "Yemek yiyin",
+        "Oyun oynayın"
+      ],
+      "ipucu": "Kütüphanede nasıl davranmalıyız?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-sessizlik"
+      }
+    },
+    {
+      "id": "ok4-s4",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz kitabı nereye koydu?",
+      "dogruCevap": "Yerine, rafa",
+      "secenekler": [
+        "Çöpe attı",
+        "Çantasına koydu",
+        "Yerine, rafa",
+        "Masada bıraktı"
+      ],
+      "ipucu": "Kütüphane kapanmadan önce ne yaptı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-kitap-raf"
+      }
+    },
+    {
+      "id": "ok4-s5",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin ana fikri nedir?",
+      "dogruCevap": "Kitap okumak güzeldir, yardımlaşmak iyidir",
+      "secenekler": [
+        "Kütüphaneye gitmemeliyiz",
+        "Kitap okumak güzeldir, yardımlaşmak iyidir",
+        "Kitap verilmez",
+        "Sessiz olmak zordur"
+      ],
+      "ipucu": "Elanaz ne öğrendi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-okuma-kosesi"
+      }
+    }
+  ]
+}

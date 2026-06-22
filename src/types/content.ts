@@ -191,6 +191,12 @@ export interface GorselTurkce {
   iliski?: 'esAnlam' | 'zit' | 'esSeslilik';
 }
 
+/** Okuma Köşesi — OkumaKosesiGorsel'de tanımlı */
+export interface GorselOkumaKosesi {
+  tur: 'okuma-kosesi';
+  sahne: string;
+}
+
 /** İngilizce — IngilizceGorsel'de tanımlı */
 export interface GorselIngilizce {
   tur: 'ingilizce';
@@ -201,6 +207,25 @@ export interface GorselIngilizce {
   vurgu?: string | string[];
   renk?: string;
   sayi?: string;
+}
+
+/** Görsel Sanatlar — GorselSanatlarGorsel'de tanımlı */
+export interface GorselGorselSanatlar {
+  tur: 'gorsel-sanatlar';
+  mod?: 'anlatim' | 'renk' | 'nesne' | 'eser';
+  sahne?: string;
+  nesne?: string;
+  renk?: string;
+}
+
+/** Zekâ ve Dikkat — ZekaDikkatGorsel'de tanımlı */
+export interface GorselZekaDikkat {
+  tur: 'zeka-dikkat';
+  mod?: 'anlatim' | 'farkli' | 'sayim' | 'dikkat';
+  sahne?: string;
+  ogeler?: string[];
+  farkliIndeks?: number;
+  adet?: number;
 }
 
 export type Gorsel =
@@ -217,7 +242,10 @@ export type Gorsel =
   | GorselHb
   | GorselFen
   | GorselTurkce
+  | GorselOkumaKosesi
   | GorselIngilizce
+  | GorselGorselSanatlar
+  | GorselZekaDikkat
   | null;
 
 export interface AnlatimEkrani {

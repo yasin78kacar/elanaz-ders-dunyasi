@@ -17,7 +17,9 @@
  * - { tur: "turkce", mod, ... } → TurkceGorsel (Türkçe Tema 1)
  * - { tur: "fen", mod, ... } → FenGorsel (Fen Bilimleri Tema 1)
  * - { tur: "hb", mod, ... } → HbGorsel (Hayat Bilgisi Tema 1)
- * - { tur: "ingilizce", mod, ... } → IngilizceGorsel (İngilizce Tema 1)
+ * - { tur: "okuma-kosesi", sahne } → OkumaKosesiGorsel (Okuma Köşesi hikâyeleri)
+ * - { tur: "gorsel-sanatlar", ... } → GorselSanatlarGorsel
+ * - { tur: "zeka-dikkat", ... } → ZekaDikkatGorsel
  */
 import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
@@ -64,9 +66,11 @@ import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
+import { canlilar } from './gorev-fen-tema1-questions.mjs';
 import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
 import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
+import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
@@ -75,6 +79,9 @@ import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
 import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
 import { ingilizceSarkilar } from './gorev-ing4c-questions.mjs';
+import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
+import { gorselSanatlar } from './gorev-gorsel-sanatlar-questions.mjs';
+import { zekaVeDikkat } from './gorev-zeka-dikkat-questions.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -83,11 +90,15 @@ const turkceDir = join(__dirname, '../content/sinif2/turkce');
 const fenDir = join(__dirname, '../content/sinif2/fen-bilimleri');
 const hbDir = join(__dirname, '../content/sinif2/hayat-bilgisi');
 const ingDir = join(__dirname, '../content/sinif2/ingilizce');
+const gsDir = join(__dirname, '../content/sinif2/gorsel-sanatlar');
+const zdDir = join(__dirname, '../content/sinif2/zeka-dikkat');
 mkdirSync(contentDir, { recursive: true });
 mkdirSync(turkceDir, { recursive: true });
 mkdirSync(fenDir, { recursive: true });
 mkdirSync(hbDir, { recursive: true });
 mkdirSync(ingDir, { recursive: true });
+mkdirSync(gsDir, { recursive: true });
+mkdirSync(zdDir, { recursive: true });
 
 function karistir(arr) {
   const a = [...arr];
@@ -453,9 +464,11 @@ writeFileSync(join(turkceDir, 'metin-anlama-ve-yorumlama.json'), JSON.stringify(
 writeFileSync(join(turkceDir, 'kelime-ve-anlam-bilgisi-ileri.json'), JSON.stringify(kelimeVeAnlamBilgisiIleriKonu, null, 2));
 writeFileSync(join(turkceDir, 'yazma-ve-anlatim-ileri.json'), JSON.stringify(yazmaVeAnlatimIleriKonu, null, 2));
 
+const canlilarKonu = canlilar(karistir);
 const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
 const bitkilerKonu = bitkiler(karistir);
 const hayvanlarKonu = hayvanlar(karistir);
+writeFileSync(join(fenDir, 'canlilar.json'), JSON.stringify(canlilarKonu, null, 2));
 writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlilarVeCansizlarKonu, null, 2));
 writeFileSync(join(fenDir, 'bitkiler.json'), JSON.stringify(bitkilerKonu, null, 2));
 writeFileSync(join(fenDir, 'hayvanlar.json'), JSON.stringify(hayvanlarKonu, null, 2));
@@ -476,9 +489,11 @@ writeFileSync(join(fenDir, 'saglikli-yasam-ve-cevre.json'), JSON.stringify(sagli
 
 const okulVeSinifKonu = okulVeSinif(karistir);
 const aileVeArkadaslikKonu = aileVeArkadaslik(karistir);
+const aileDuygularKonu = aileDuygular(karistir);
 const toplumVeCevreKonu = toplumVeCevre(karistir);
 writeFileSync(join(hbDir, 'okul-ve-sinif.json'), JSON.stringify(okulVeSinifKonu, null, 2));
 writeFileSync(join(hbDir, 'aile-ve-arkadaslik.json'), JSON.stringify(aileVeArkadaslikKonu, null, 2));
+writeFileSync(join(hbDir, 'aile-duygular.json'), JSON.stringify(aileDuygularKonu, null, 2));
 writeFileSync(join(hbDir, 'toplum-ve-cevre.json'), JSON.stringify(toplumVeCevreKonu, null, 2));
 
 const saglikVeTemizlikKonu = saglikVeTemizlik(karistir);
@@ -531,63 +546,14 @@ writeFileSync(join(mathDataDir, 'tema3.json'), JSON.stringify(tema3, null, 2));
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
-const hikaye = {
-  id: 'elanaz-kayip-boya-kalemi',
-  baslik: 'Elanaz ve Kayıp Boya Kalemi',
-  sayfalar: [
-    {
-      metin: 'Elanaz o sabah okula neşeyle gitti. Çünkü resim dersi vardı ve öğretmeni "Bugün hayalinizdeki bahçeyi çizeceğiz" demişti. Elanaz çantasını açtı. Boya kalemlerini tek tek sıraya dizdi. Kırmızı, sarı, mavi, yeşil... Ama bir şey eksikti. Turuncu kalemi yoktu!',
-      gorsel: 'cizim-kalemleri',
-    },
-    {
-      metin: '"Olamaz!" dedi Elanaz. "Bahçemdeki portakal ağacını nasıl boyayacağım?" Yan sırada oturan arkadaşı Zeynep, Elanaz\'ın üzüldüğünü fark etti. "Ne oldu Elanaz?" diye sordu. "Turuncu kalemim kaybolmuş," dedi Elanaz. Zeynep biraz düşündü. Sonra gülümsedi. "Kaybolan kalemine üzülme. Bir sırrım var: kırmızı ile sarıyı karıştırırsan turuncu olur!"',
-      gorsel: 'renk-karistirma',
-    },
-    {
-      metin: 'Elanaz önce inanamadı. Kâğıdın kenarına önce kırmızı sürdü, üstüne sarı sürdü. Gerçekten de turuncu olmuştu! Portakal ağacını boyadı. Resmi o kadar güzel oldu ki öğretmeni resmi sınıf panosuna astı. O gün Elanaz iki şey öğrendi: Renkler karışınca yeni renkler oluşur. Ve bir sorun olduğunda üzülmek yerine çözüm aramak gerekir.',
-      gorsel: 'panoya-asilan-resim',
-    },
-  ],
-  sorular: [
-    {
-      id: 'hk-s1', kazanimKodu: 'OKU.2.1', tip: 'coktanSecmeli',
-      soru: 'Elanaz o gün okula neden neşeyle gitti?',
-      dogruCevap: 'Resim dersi olduğu için',
-      secenekler: ['Matematik sınavı olduğu için', 'Resim dersi olduğu için', 'Tatil olduğu için', 'Arkadaşı hasta olduğu için'],
-      ipucu: 'Hikâyenin başında hangi ders vardı?',
-    },
-    {
-      id: 'hk-s2', kazanimKodu: 'OKU.2.1', tip: 'coktanSecmeli',
-      soru: 'Elanaz\'ın hangi boya kalemi kayıptı?',
-      dogruCevap: 'Turuncu',
-      secenekler: ['Kırmızı', 'Mavi', 'Turuncu', 'Yeşil'],
-      ipucu: 'Portakal ağacını boyayamadı çünkü bu renk yoktu.',
-    },
-    {
-      id: 'hk-s3', kazanimKodu: 'OKU.2.1', tip: 'coktanSecmeli',
-      soru: 'Zeynep hangi sırrı söyledi?',
-      dogruCevap: 'Kırmızı ile sarı karışınca turuncu olur',
-      secenekler: ['Mavi ile yeşil karışınca mor olur', 'Kırmızı ile sarı karışınca turuncu olur', 'Sarı ile yeşil karışınca kahverengi olur', 'Turuncu kalem bulunur'],
-      ipucu: 'Zeynep iki rengi karıştırmayı önerdi.',
-    },
-    {
-      id: 'hk-s4', kazanimKodu: 'OKU.2.1', tip: 'coktanSecmeli',
-      soru: 'Öğretmen resmi ne yaptı?',
-      dogruCevap: 'Sınıf panosuna astı',
-      secenekler: ['Çöpe attı', 'Sınıf panosuna astı', 'Elanaz\'a geri verdi', 'Zeynep\'e verdi'],
-      ipucu: 'Resim çok beğenildi, hikâyenin sonuna bak.',
-    },
-    {
-      id: 'hk-s5', kazanimKodu: 'OKU.2.1', tip: 'coktanSecmeli',
-      soru: 'Hikâyenin ana fikri nedir?',
-      dogruCevap: 'Sorun olunca üzülmek yerine çözüm aramak gerekir',
-      secenekler: ['Boya kalemleri çok önemlidir', 'Okula geç kalmamak gerekir', 'Sorun olunca üzülmek yerine çözüm aramak gerekir', 'Turuncu en güzel renktir'],
-      ipucu: 'Elanaz sonunda ne öğrendi?',
-    },
-  ],
-};
+for (const hikaye of okumaKosesiHikayeleri) {
+  writeFileSync(join(hikayeDir, `${hikaye.id}.json`), JSON.stringify(hikaye, null, 2));
+}
 
-writeFileSync(join(hikayeDir, 'elanaz-kayip-boya-kalemi.json'), JSON.stringify(hikaye, null, 2));
+const gorselSanatlarKonu = gorselSanatlar(karistir);
+const zekaVeDikkatKonu = zekaVeDikkat(karistir);
+writeFileSync(join(gsDir, 'gorsel-sanatlar.json'), JSON.stringify(gorselSanatlarKonu, null, 2));
+writeFileSync(join(zdDir, 'zeka-ve-dikkat.json'), JSON.stringify(zekaVeDikkatKonu, null, 2));
 
 const index = {
   sinif: 2,
@@ -710,6 +676,7 @@ const index = {
           konuDosyalari: [
             'hayat-bilgisi/okul-ve-sinif.json',
             'hayat-bilgisi/aile-ve-arkadaslik.json',
+            'hayat-bilgisi/aile-duygular.json',
             'hayat-bilgisi/toplum-ve-cevre.json',
           ],
         },
@@ -741,9 +708,7 @@ const index = {
           id: 'tema-1',
           baslik: 'Fen Bilimleri — Tema 1',
           konuDosyalari: [
-            'fen-bilimleri/canlilar-ve-cansizlar.json',
-            'fen-bilimleri/bitkiler.json',
-            'fen-bilimleri/hayvanlar.json',
+            'fen-bilimleri/canlilar.json',
           ],
         },
         {
@@ -786,14 +751,26 @@ const index = {
           ],
         },
       ] },
-    { id: 'gorsel-sanatlar', baslik: 'Görsel Sanatlar', unite: [] },
+    { id: 'gorsel-sanatlar', baslik: 'Görsel Sanatlar', unite: [
+        {
+          id: 'tema-1',
+          baslik: 'Görsel Sanatlar',
+          konuDosyalari: ['gorsel-sanatlar/gorsel-sanatlar.json'],
+        },
+      ] },
     {
       id: 'okuma-kosesi',
       baslik: 'Okuma Köşesi',
       unite: [],
-      hikayeDosyalari: ['okuma-kosesi/elanaz-kayip-boya-kalemi.json'],
+      hikayeDosyalari: okumaKosesiHikayeleri.map((h) => `okuma-kosesi/${h.id}.json`),
     },
-    { id: 'zeka-dikkat', baslik: 'Zekâ ve Dikkat', unite: [] },
+    { id: 'zeka-dikkat', baslik: 'Zekâ ve Dikkat', unite: [
+        {
+          id: 'tema-1',
+          baslik: 'Zekâ ve Dikkat',
+          konuDosyalari: ['zeka-dikkat/zeka-ve-dikkat.json'],
+        },
+      ] },
   ],
 };
 
@@ -855,6 +832,7 @@ console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length,
 console.log('Metin anlama ve yorumlama:', metinAnlamaVeYorumlamaKonu.alistirma.length, '+', metinAnlamaVeYorumlamaKonu.test.length);
 console.log('Kelime ve anlam bilgisi ileri:', kelimeVeAnlamBilgisiIleriKonu.alistirma.length, '+', kelimeVeAnlamBilgisiIleriKonu.test.length);
 console.log('Yazma ve anlatım ileri:', yazmaVeAnlatimIleriKonu.alistirma.length, '+', yazmaVeAnlatimIleriKonu.test.length);
+console.log('Canlılar:', canlilarKonu.alistirma.length, '+', canlilarKonu.test.length);
 console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
 console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
 console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
@@ -879,6 +857,8 @@ console.log('Selamlaşma ve aile:', selamlasmaVeAileKonu.alistirma.length, '+', 
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
 console.log('Basit diyaloglar:', basitDiyaloglarKonu.alistirma.length, '+', basitDiyaloglarKonu.test.length);
 console.log('İngilizce şarkılar:', ingilizceSarkilarKonu.alistirma.length, '+', ingilizceSarkilarKonu.test.length);
+console.log('Görsel Sanatlar:', gorselSanatlarKonu.alistirma.length, '+', gorselSanatlarKonu.test.length);
+console.log('Zekâ ve Dikkat:', zekaVeDikkatKonu.alistirma.length, '+', zekaVeDikkatKonu.test.length);
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

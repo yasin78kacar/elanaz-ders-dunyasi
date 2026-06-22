@@ -1,0 +1,119 @@
+{
+  "id": "elanaz-yagmurlu-piknik",
+  "baslik": "Elanaz ve Yağmurlu Piknik",
+  "sayfalar": [
+    {
+      "metin": "Cumartesi sabahı güneş parlıyordu. Aile pikniğe gidecekti. Elanaz en sevdiği kırmızı elbiseni giydi. Annesi sandviçleri hazırladı, babası battaniyeyi arabaya koydu. Elanaz parka gitmek için sabırsızlanıyordu. \"Bugün harika bir gün olacak!\" dedi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-gunesli-park"
+      }
+    },
+    {
+      "metin": "Parka vardıklarında gökyüzü karardı. Damla damla yağmur yağmaya başladı. \"Ne yazık, piknik iptal,\" dedi baba. Elanaz çok üzüldü. Gözleri doldu. Annesi ona sarıldı. \"Üzülme canım. Plan değişebilir. Eve dönüp salonda piknik yapabiliriz!\"",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-yagmur-aile"
+      }
+    },
+    {
+      "metin": "Eve geldiler. Annesi battaniyeyi salona serdi. Sandviçleri ortaya koydular. Baba mum yakıp ışıkları söndürdü. \"İşte salon pikniğimiz!\" dedi. Elanaz güldü. Yağmur sesi pencereden geliyordu. O gün Elanaz planlar değişse bile mutlu olmayı öğrendi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-salon-piknik"
+      }
+    }
+  ],
+  "sorular": [
+    {
+      "id": "ok3-s1",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aile nereye gitmek istiyordu?",
+      "dogruCevap": "Parka pikniğe",
+      "secenekler": [
+        "Alışverişe",
+        "Sinemaya",
+        "Parka pikniğe",
+        "Okula"
+      ],
+      "ipucu": "Cumartesi planı neydi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-park"
+      }
+    },
+    {
+      "id": "ok3-s2",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Parkta ne oldu?",
+      "dogruCevap": "Yağmur yağdı",
+      "secenekler": [
+        "Kar yağdı",
+        "Güneş daha çok parladı",
+        "Yağmur yağdı",
+        "Park kapalıydı"
+      ],
+      "ipucu": "Gökyüzü ne yaptı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-yagmur"
+      }
+    },
+    {
+      "id": "ok3-s3",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Annesi ne önerdi?",
+      "dogruCevap": "Salonda piknik yapmak",
+      "secenekler": [
+        "Pikniği iptal etmek",
+        "Dışarıda beklemek",
+        "Salonda piknik yapmak",
+        "Uyumak"
+      ],
+      "ipucu": "Annesi alternatif plan önerdi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-battaniye"
+      }
+    },
+    {
+      "id": "ok3-s4",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Baba ne yaptı?",
+      "dogruCevap": "Mum yaktı",
+      "secenekler": [
+        "Televizyon açtı",
+        "Mum yaktı",
+        "Dışarı çıktı",
+        "Yemek pişirdi"
+      ],
+      "ipucu": "Salon pikniğinde baba ne yaptı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mum"
+      }
+    },
+    {
+      "id": "ok3-s5",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin ana fikri nedir?",
+      "dogruCevap": "Plan değişse bile mutlu olabiliriz",
+      "secenekler": [
+        "Yağmurdan korkmalıyız",
+        "Piknik yapılmaz",
+        "Plan değişse bile mutlu olabiliriz",
+        "Parka gitmemeliyiz"
+      ],
+      "ipucu": "Elanaz sonunda ne öğrendi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mutlu-piknik"
+      }
+    }
+  ]
+}

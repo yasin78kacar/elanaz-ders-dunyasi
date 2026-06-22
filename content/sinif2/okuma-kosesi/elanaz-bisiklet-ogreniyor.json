@@ -1,0 +1,119 @@
+{
+  "id": "elanaz-bisiklet-ogreniyor",
+  "baslik": "Elanaz Bisiklet Sürmeyi Öğreniyor",
+  "sayfalar": [
+    {
+      "metin": "Elanaz'ın yeni bir bisikleti vardı. Dört tekerlekli küçük bisikletti. Artık büyük çocuklar gibi iki tekerlekli bisiklete binmek istiyordu. Babası destek tekerleklerini taktı. \"Önce bunlarla alış, sonra çıkarırız,\" dedi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-destek-bisiklet"
+      }
+    },
+    {
+      "metin": "İlk denemede Elanaz dengesini kaybetti ve düştü. Dizinin üstü acıdı. Ağlamak istedi ama pes etmedi. Baba yanına geldi. \"Herkes düşerek öğrenir. Tekrar dene!\" dedi. Elanaz ayağa kalktı. Bu sefer babası arkadan tuttu. Pedallara bastı, yavaş yavaş ilerledi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-baba-tutuyor"
+      }
+    },
+    {
+      "metin": "Bir hafta sonra Elanaz tek başına sürebildi. Destek tekerleklerini çıkardılar. Parkta arkadaşlarının yanından geçti. Rüzgâr yüzüne vuruyordu. \"Babacığım, başardım!\" diye bağırdı. Baba alkışladı. O gün Elanaz düşse bile tekrar denemenin önemini öğrendi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-basari-surus"
+      }
+    }
+  ],
+  "sorular": [
+    {
+      "id": "ok5-s1",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz ilk başta hangi bisikleti kullandı?",
+      "dogruCevap": "Destek tekerlekli bisiklet",
+      "secenekler": [
+        "İki tekerlekli bisiklet",
+        "Üç tekerlekli bisiklet",
+        "Destek tekerlekli bisiklet",
+        "Scooter"
+      ],
+      "ipucu": "Baba ne taktı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-destek-bisiklet"
+      }
+    },
+    {
+      "id": "ok5-s2",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "İlk denemede ne oldu?",
+      "dogruCevap": "Düştü",
+      "secenekler": [
+        "Uçtu",
+        "Düştü",
+        "Uyudu",
+        "Koştu"
+      ],
+      "ipucu": "Dizinin üstü acıdı.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-dusen-bisiklet"
+      }
+    },
+    {
+      "id": "ok5-s3",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Baba ne dedi?",
+      "dogruCevap": "Herkes düşerek öğrenir, tekrar dene",
+      "secenekler": [
+        "Bisiklete binme",
+        "Herkes düşerek öğrenir, tekrar dene",
+        "Yarın dene",
+        "Korkma ama bırak"
+      ],
+      "ipucu": "Baba cesaret verdi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-baba-tutuyor"
+      }
+    },
+    {
+      "id": "ok5-s4",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bir hafta sonra ne yapabildi?",
+      "dogruCevap": "Tek başına sürebildi",
+      "secenekler": [
+        "Hiç süremedi",
+        "Baba tutmadan süremedi",
+        "Tek başına sürebildi",
+        "Bisikleti sattı"
+      ],
+      "ipucu": "Destek tekerlekleri çıkarıldı.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-tek-basina"
+      }
+    },
+    {
+      "id": "ok5-s5",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin ana fikri nedir?",
+      "dogruCevap": "Düşsek bile tekrar denemek gerekir",
+      "secenekler": [
+        "Bisiklet tehlikelidir",
+        "Düşsek bile tekrar denemek gerekir",
+        "Destek tekerlekleri hep gerekir",
+        "Parka gitmemeliyiz"
+      ],
+      "ipucu": "Elanaz ne öğrendi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-basari-surus"
+      }
+    }
+  ]
+}

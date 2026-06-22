@@ -19,6 +19,9 @@ import { TurkceGorsel } from './turkce/TurkceGorsel';
 import { FenGorsel } from './fen/FenGorsel';
 import { HbGorsel } from './hayat-bilgisi/HbGorsel';
 import { IngilizceGorsel } from './ingilizce/IngilizceGorsel';
+import { OkumaKosesiGorsel } from './okuma-kosesi/OkumaKosesiGorsel';
+import { GorselSanatlarGorsel } from './gorsel-sanatlar/GorselSanatlarGorsel';
+import { ZekaDikkatGorsel } from './zeka-dikkat/ZekaDikkatGorsel';
 import { resolveFlowImage, resolveFlowImageForTur } from '../assets/imageCatalog';
 import { FlowOrFallback } from './FlowImage';
 import { GorselOlcek } from './GorselOlcek';
@@ -151,6 +154,30 @@ export function ContentIllustration({ gorsel, konuId }: Props) {
       return (
         <View style={kutu}>
           <IngilizceGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'okuma-kosesi') {
+      return (
+        <View style={kutu}>
+          <OkumaKosesiGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'gorsel-sanatlar') {
+      return (
+        <View style={kutu}>
+          <GorselSanatlarGorsel {...gorsel} />
+        </View>
+      );
+    }
+
+    if (gorsel.tur === 'zeka-dikkat') {
+      return (
+        <View style={kutu}>
+          <ZekaDikkatGorsel {...gorsel} />
         </View>
       );
     }

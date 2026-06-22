@@ -34,9 +34,7 @@ import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgis
 import metinAnlamaVeYorumlama from '../../content/sinif2/turkce/metin-anlama-ve-yorumlama.json';
 import kelimeVeAnlamBilgisiIleri from '../../content/sinif2/turkce/kelime-ve-anlam-bilgisi-ileri.json';
 import yazmaVeAnlatimIleri from '../../content/sinif2/turkce/yazma-ve-anlatim-ileri.json';
-import canlilarVeCansizlar from '../../content/sinif2/fen-bilimleri/canlilar-ve-cansizlar.json';
-import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
-import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
+import canlilar from '../../content/sinif2/fen-bilimleri/canlilar.json';
 import maddeVeOzellikleri from '../../content/sinif2/fen-bilimleri/madde-ve-ozellikleri.json';
 import kuvvetVeHareket from '../../content/sinif2/fen-bilimleri/kuvvet-ve-hareket.json';
 import isikVeSes from '../../content/sinif2/fen-bilimleri/isik-ve-ses.json';
@@ -45,6 +43,7 @@ import havaDurumuVeMevsimler from '../../content/sinif2/fen-bilimleri/hava-durum
 import saglikliYasamVeCevre from '../../content/sinif2/fen-bilimleri/saglikli-yasam-ve-cevre.json';
 import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
 import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
+import aileDuygular from '../../content/sinif2/hayat-bilgisi/aile-duygular.json';
 import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
 import saglikVeTemizlik from '../../content/sinif2/hayat-bilgisi/saglik-ve-temizlik.json';
 import guvenliYasam from '../../content/sinif2/hayat-bilgisi/guvenli-yasam.json';
@@ -58,6 +57,12 @@ import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.
 import theme4Json from '../data/english/theme4.json';
 import tema3Json from '../data/math/tema3.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
+import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
+import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
+import elanazKutuphaneGunu from '../../content/sinif2/okuma-kosesi/elanaz-kutuphane-gunu.json';
+import elanazBisikletOgreniyor from '../../content/sinif2/okuma-kosesi/elanaz-bisiklet-ogreniyor.json';
+import gorselSanatlarJson from '../../content/sinif2/gorsel-sanatlar/gorsel-sanatlar.json';
+import zekaVeDikkatJson from '../../content/sinif2/zeka-dikkat/zeka-ve-dikkat.json';
 import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
 
@@ -114,9 +119,7 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/metin-anlama-ve-yorumlama.json': metinAnlamaVeYorumlama as Konu,
   'turkce/kelime-ve-anlam-bilgisi-ileri.json': kelimeVeAnlamBilgisiIleri as Konu,
   'turkce/yazma-ve-anlatim-ileri.json': yazmaVeAnlatimIleri as Konu,
-  'fen-bilimleri/canlilar-ve-cansizlar.json': canlilarVeCansizlar as Konu,
-  'fen-bilimleri/bitkiler.json': bitkiler as Konu,
-  'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,
+  'fen-bilimleri/canlilar.json': canlilar as Konu,
   'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,
   'fen-bilimleri/kuvvet-ve-hareket.json': kuvvetVeHareket as Konu,
   'fen-bilimleri/isik-ve-ses.json': isikVeSes as Konu,
@@ -125,6 +128,7 @@ const konuDosyalari: Record<string, Konu> = {
   'fen-bilimleri/saglikli-yasam-ve-cevre.json': saglikliYasamVeCevre as Konu,
   'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
   'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
+  'hayat-bilgisi/aile-duygular.json': aileDuygular as Konu,
   'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,
   'hayat-bilgisi/saglik-ve-temizlik.json': saglikVeTemizlik as Konu,
   'hayat-bilgisi/guvenli-yasam.json': guvenliYasam as Konu,
@@ -138,10 +142,16 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/kisa-hikayeler.json': kisaHikayeler,
   'ingilizce/basit-diyaloglar.json': basitDiyaloglar,
   'ingilizce/ingilizce-sarkilar.json': ingilizceSarkilar,
+  'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
+  'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
 };
 
 const hikayeDosyalari: Record<string, Hikaye> = {
   'okuma-kosesi/elanaz-kayip-boya-kalemi.json': elanazHikaye as Hikaye,
+  'okuma-kosesi/elanaz-sinif-bahcesi-tohum.json': elanazSinifBahcesi as Hikaye,
+  'okuma-kosesi/elanaz-yagmurlu-piknik.json': elanazYagmurluPiknik as Hikaye,
+  'okuma-kosesi/elanaz-kutuphane-gunu.json': elanazKutuphaneGunu as Hikaye,
+  'okuma-kosesi/elanaz-bisiklet-ogreniyor.json': elanazBisikletOgreniyor as Hikaye,
 };
 
 interface IndexDers {

@@ -154,9 +154,7 @@
           "id": "tema-1",
           "baslik": "Fen Bilimleri — Tema 1",
           "konuDosyalari": [
-            "fen-bilimleri/canlilar-ve-cansizlar.json",
-            "fen-bilimleri/bitkiler.json",
-            "fen-bilimleri/hayvanlar.json"
+            "fen-bilimleri/canlilar.json"
           ]
         },
         {
@@ -206,20 +204,40 @@
     {
       "id": "gorsel-sanatlar",
       "baslik": "Görsel Sanatlar",
-      "unite": []
+      "unite": [
+        {
+          "id": "tema-1",
+          "baslik": "Görsel Sanatlar",
+          "konuDosyalari": [
+            "gorsel-sanatlar/gorsel-sanatlar.json"
+          ]
+        }
+      ]
     },
     {
       "id": "okuma-kosesi",
       "baslik": "Okuma Köşesi",
       "unite": [],
       "hikayeDosyalari": [
-        "okuma-kosesi/elanaz-kayip-boya-kalemi.json"
+        "okuma-kosesi/elanaz-kayip-boya-kalemi.json",
+        "okuma-kosesi/elanaz-sinif-bahcesi-tohum.json",
+        "okuma-kosesi/elanaz-yagmurlu-piknik.json",
+        "okuma-kosesi/elanaz-kutuphane-gunu.json",
+        "okuma-kosesi/elanaz-bisiklet-ogreniyor.json"
       ]
     },
     {
       "id": "zeka-dikkat",
       "baslik": "Zekâ ve Dikkat",
-      "unite": []
+      "unite": [
+        {
+          "id": "tema-1",
+          "baslik": "Zekâ ve Dikkat",
+          "konuDosyalari": [
+            "zeka-dikkat/zeka-ve-dikkat.json"
+          ]
+        }
+      ]
     }
   ]
 }
