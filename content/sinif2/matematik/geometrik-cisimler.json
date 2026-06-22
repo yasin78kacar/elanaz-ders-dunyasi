@@ -347,10 +347,10 @@
       "soru": "Hangisi yuvarlak bir cisimdir?",
       "dogruCevap": "Top",
       "secenekler": [
-        "Dolap",
-        "Top",
         "Kitap",
-        "Hediye kutusu"
+        "Hediye kutusu",
+        "Top",
+        "Dolap"
       ],
       "ipucu": "Top yuvarlanır.",
       "gorsel": {
@@ -365,10 +365,10 @@
       "soru": "Hangisi köşeli bir cisimdir?",
       "dogruCevap": "Süt kutusu",
       "secenekler": [
-        "Tenis topu",
-        "Süt kutusu",
+        "Misket",
         "Portakal",
-        "Misket"
+        "Tenis topu",
+        "Süt kutusu"
       ],
       "ipucu": "Kutunun köşeleri vardır.",
       "gorsel": {
@@ -383,10 +383,10 @@
       "soru": "Hangisi yuvarlak cisimdir?",
       "dogruCevap": "Karpuz",
       "secenekler": [
-        "Defter",
         "Masa",
         "Dolap",
-        "Karpuz"
+        "Karpuz",
+        "Defter"
       ],
       "ipucu": "Karpuz yuvarlaktır."
     },
@@ -397,9 +397,9 @@
       "soru": "Elanaz kampta bir termos gördü. Termosun gövdesi yuvarlaktır. Termos hangi gruba girer?",
       "dogruCevap": "Yuvarlak",
       "secenekler": [
-        "Köşeli",
-        "Kare",
         "Üçgen",
+        "Kare",
+        "Köşeli",
         "Yuvarlak"
       ],
       "ipucu": "Yuvarlak gövde."
@@ -412,8 +412,8 @@
       "dogruCevap": "Misket",
       "secenekler": [
         "Hediye kutusu",
-        "Çamaşır makinesi",
         "Kitap",
+        "Çamaşır makinesi",
         "Misket"
       ],
       "ipucu": "\"DEĞİLDİR\" diyor — köşeli OLMAYANI arıyoruz!",
@@ -426,9 +426,9 @@
       "soru": "Top ve portakal için hangisi doğrudur?",
       "dogruCevap": "İkisi de yuvarlaktır",
       "secenekler": [
-        "İkisi de yuvarlaktır",
         "İkisi de köşelidir",
         "Top köşeli, portakal yuvarlaktır",
+        "İkisi de yuvarlaktır",
         "İkisi de karedir"
       ],
       "ipucu": "İkisi de yuvarlanabilir."
@@ -440,9 +440,9 @@
       "soru": "Kerem'in oyuncak kutusu köşelidir. Kutuda ne vardır?",
       "dogruCevap": "Köşe ve kenar",
       "secenekler": [
+        "Sadece yuvarlaklık",
         "Tekerlek",
         "Köşe ve kenar",
-        "Sadece yuvarlaklık",
         "Sap"
       ],
       "ipucu": "Köşeli cisimlerin köşe ve kenarı vardır."
@@ -454,10 +454,10 @@
       "soru": "Kalem kutusu köşelidir ama içindeki misket nasıldır?",
       "dogruCevap": "Yuvarlaktır",
       "secenekler": [
-        "Yuvarlaktır",
-        "Üçgendir",
         "Köşelidir",
-        "Karedir"
+        "Yuvarlaktır",
+        "Karedir",
+        "Üçgendir"
       ],
       "ipucu": "Dikkat, soru kutuyu değil İÇİNDEKİ misketi soruyor!",
       "sasirtma": true
@@ -527,10 +527,10 @@
       "soru": "Hangisi yuvarlak bir cisimdir?",
       "dogruCevap": "Karpuz",
       "secenekler": [
-        "Televizyon",
         "Defter",
+        "Karpuz",
         "Kutu",
-        "Karpuz"
+        "Televizyon"
       ],
       "ipucu": "Karpuz yuvarlaktır."
     },
@@ -543,8 +543,8 @@
       "secenekler": [
         "Portakal",
         "Balon",
-        "Misket",
-        "Zar"
+        "Zar",
+        "Misket"
       ],
       "ipucu": "Zarın köşeleri vardır."
     },
@@ -555,8 +555,8 @@
       "soru": "Yuvarlak cisimlerde ne YOKTUR?",
       "dogruCevap": "Köşe ve kenar",
       "secenekler": [
-        "Renk",
         "Büyüklük",
+        "Renk",
         "Ağırlık",
         "Köşe ve kenar"
       ],
@@ -570,9 +570,9 @@
       "dogruCevap": "Karpuz",
       "secenekler": [
         "İkisi de köşeli",
-        "Hiçbiri",
+        "Kutu meyve suyu",
         "Karpuz",
-        "Kutu meyve suyu"
+        "Hiçbiri"
       ],
       "ipucu": "Karpuz yuvarlaktır."
     },
@@ -601,10 +601,10 @@
       "soru": "Hangisi yuvarlak DEĞİLDİR?",
       "dogruCevap": "Zekâ küpü",
       "secenekler": [
-        "Portakal",
-        "Tenis topu",
         "Zekâ küpü",
-        "Misket"
+        "Portakal",
+        "Misket",
+        "Tenis topu"
       ],
       "ipucu": "\"DEĞİLDİR\" — yuvarlak OLMAYANI arıyoruz!",
       "sasirtma": true
@@ -616,10 +616,10 @@
       "soru": "Köşeli cisimler için hangisi doğrudur?",
       "dogruCevap": "Köşesi ve kenarı vardır",
       "secenekler": [
-        "Köşesi ve kenarı vardır",
-        "Hepsi yumuşaktır",
         "Köşesi yoktur",
-        "Yuvarlanır"
+        "Yuvarlanır",
+        "Hepsi yumuşaktır",
+        "Köşesi ve kenarı vardır"
       ],
       "ipucu": "Köşeli cisimlerin köşe ve kenarı vardır."
     },
@@ -631,8 +631,8 @@
       "dogruCevap": "Ayakkabı kutusu",
       "secenekler": [
         "Yumurta",
-        "Ayakkabı kutusu",
         "Balon",
+        "Ayakkabı kutusu",
         "Bilye"
       ],
       "ipucu": "Kutunun kenarları vardır."
@@ -644,10 +644,10 @@
       "soru": "Elanaz'ın sınıfındaki yazı tahtası hangi gruba girer?",
       "dogruCevap": "Köşeli",
       "secenekler": [
+        "Köşeli",
         "Yuvarlak",
         "Hem yuvarlak hem köşeli",
-        "Hiçbiri",
-        "Köşeli"
+        "Hiçbiri"
       ],
       "ipucu": "Yazı tahtasının köşeleri vardır."
     },
@@ -658,10 +658,10 @@
       "soru": "Aşağıdaki çiftlerden hangisi AYNI gruptadır?",
       "dogruCevap": "Portakal - Misket",
       "secenekler": [
-        "Kutu - Karpuz",
         "Top - Kitap",
-        "Portakal - Misket",
-        "Zar - Balon"
+        "Zar - Balon",
+        "Kutu - Karpuz",
+        "Portakal - Misket"
       ],
       "ipucu": "İkisi de yuvarlaktır.",
       "gorsel": {
@@ -676,10 +676,10 @@
       "soru": "Saat kulesindeki saat yusyuvarlaktır. Saatin köşesi var mıdır?",
       "dogruCevap": "Yoktur",
       "secenekler": [
-        "Saatlerde köşe olmaz ama kenar olur",
-        "Bazen vardır",
         "Vardır",
-        "Yoktur"
+        "Yoktur",
+        "Saatlerde köşe olmaz ama kenar olur",
+        "Bazen vardır"
       ],
       "ipucu": "Yuvarlaksa ne köşesi ne kenarı olur — D şıkkı tuzak!",
       "sasirtma": true
@@ -692,9 +692,9 @@
       "dogruCevap": "Süt kutusu",
       "secenekler": [
         "Süt kutusu",
-        "Mandalina",
         "Bilye",
-        "Kavun"
+        "Kavun",
+        "Mandalina"
       ],
       "ipucu": "Kutunun köşeleri vardır."
     },
@@ -719,9 +719,9 @@
       "soru": "Hangisinin köşesi YOKTUR?",
       "dogruCevap": "Karpuz",
       "secenekler": [
+        "Masa",
         "Karpuz",
         "Kutu",
-        "Masa",
         "Defter"
       ],
       "ipucu": "Karpuz yuvarlaktır.",
@@ -738,9 +738,9 @@
       "dogruCevap": "Portakal",
       "secenekler": [
         "Portakal",
+        "Makarna kutusu",
         "Peçete kutusu",
-        "Kibrit kutusu",
-        "Makarna kutusu"
+        "Kibrit kutusu"
       ],
       "ipucu": "Portakal yuvarlaktır."
     },
@@ -751,10 +751,10 @@
       "soru": "Hangisi köşeli cisim ÇİFTİDİR?",
       "dogruCevap": "Kitap - Kutu",
       "secenekler": [
-        "Karpuz - Kavun",
-        "Kitap - Kutu",
         "Misket - Defter",
-        "Top - Zar"
+        "Top - Zar",
+        "Karpuz - Kavun",
+        "Kitap - Kutu"
       ],
       "ipucu": "İKİSİ DE köşeli olmalı — tek tek kontrol et!",
       "sasirtma": true
@@ -768,8 +768,8 @@
       "secenekler": [
         "Yuvarlak cisimlerin köşesi vardır",
         "Köşeli cisimler yuvarlanır",
-        "Topun kenarı vardır",
-        "Köşeli cisimlerin kenarı vardır"
+        "Köşeli cisimlerin kenarı vardır",
+        "Topun kenarı vardır"
       ],
       "ipucu": "Köşeli cisimlerin kenarı vardır."
     },
@@ -780,10 +780,10 @@
       "soru": "Elanaz'ın kumbarasında biriken paralar yuvarlaktır. Madeni paranın köşesi var mıdır?",
       "dogruCevap": "Yoktur",
       "secenekler": [
-        "Paralar köşelidir",
-        "Sadece 1 liranın vardır",
+        "Vardır",
         "Yoktur",
-        "Vardır"
+        "Sadece 1 liranın vardır",
+        "Paralar köşelidir"
       ],
       "ipucu": "Yuvarlak cisimlerin köşesi olmaz."
     },
@@ -808,10 +808,10 @@
       "soru": "Sınıftaki hangi eşya köşelidir?",
       "dogruCevap": "Sıra",
       "secenekler": [
-        "Sıra",
-        "Bilye",
         "Top",
-        "Balon"
+        "Bilye",
+        "Balon",
+        "Sıra"
       ],
       "ipucu": "Sıranın köşeleri vardır.",
       "gorsel": {
@@ -826,10 +826,10 @@
       "soru": "Elanaz \"Kenarı olmayan bir cisim buldum.\" dedi. Elanaz hangi cismi bulmuş olabilir?",
       "dogruCevap": "Portakal",
       "secenekler": [
-        "Kutu",
-        "Kitap",
         "Defter",
-        "Portakal"
+        "Kutu",
+        "Portakal",
+        "Kitap"
       ],
       "ipucu": "Kenarı OLMAYAN = yuvarlak grup!",
       "sasirtma": true
@@ -841,10 +841,10 @@
       "soru": "Hangisi yuvarlanmaz?",
       "dogruCevap": "Hediye kutusu",
       "secenekler": [
-        "Bilye",
-        "Top",
+        "Misket",
         "Hediye kutusu",
-        "Misket"
+        "Bilye",
+        "Top"
       ],
       "ipucu": "Kutu köşelidir.",
       "gorsel": {
@@ -873,10 +873,10 @@
       "soru": "Hangisi köşeli cisimlerin özelliğidir?",
       "dogruCevap": "Köşesi ve kenarı olmak",
       "secenekler": [
-        "Köşesi ve kenarı olmak",
-        "Hep küçük olmak",
         "Köşesiz olmak",
-        "Yuvarlanmak"
+        "Yuvarlanmak",
+        "Hep küçük olmak",
+        "Köşesi ve kenarı olmak"
       ],
       "ipucu": "Köşeli cisimlerin köşe ve kenarı vardır."
     },
@@ -887,10 +887,10 @@
       "soru": "Bir kutunun İÇİNE bilye koyduk. Kutu ve bilye için hangisi doğrudur?",
       "dogruCevap": "Kutu köşeli, bilye yuvarlaktır",
       "secenekler": [
+        "Kutu köşeli, bilye yuvarlaktır",
         "İkisi de köşelidir",
         "İkisi de yuvarlaktır",
-        "Kutu yuvarlak, bilye köşelidir",
-        "Kutu köşeli, bilye yuvarlaktır"
+        "Kutu yuvarlak, bilye köşelidir"
       ],
       "ipucu": "Her cismi AYRI AYRI düşün — iç içe olmaları grubunu değiştirmez!",
       "sasirtma": true

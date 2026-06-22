@@ -416,10 +416,10 @@
       "soru": "Ailemizde kimler bulunabilir?",
       "dogruCevap": "Anne ve baba",
       "secenekler": [
-        "Sadece doktor",
-        "Sadece komşu",
         "Sadece öğretmen",
-        "Anne ve baba"
+        "Anne ve baba",
+        "Sadece komşu",
+        "Sadece doktor"
       ],
       "ipucu": "",
       "gorsel": {
@@ -435,10 +435,10 @@
       "soru": "Ailemizde birbirimize ne göstermeliyiz?",
       "dogruCevap": "Sevgi",
       "secenekler": [
+        "Sevgi",
         "Kaba davranış",
         "Kızgınlık",
-        "Kıskançlık",
-        "Sevgi"
+        "Kıskançlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -455,10 +455,10 @@
       "soru": "Evde yardımlaşmak güzel midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece büyükler",
         "Hiç gerekmez",
-        "Hayır",
-        "Evet"
+        "Sadece büyükler",
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -475,8 +475,8 @@
       "soru": "Arkadaşlarımızla ne yapmalıyız?",
       "dogruCevap": "Paylaşmalıyız",
       "secenekler": [
-        "Paylaşmalıyız",
         "Yalan söylemeliyiz",
+        "Paylaşmalıyız",
         "Kavga etmeliyiz",
         "Kıskanmalıyız"
       ],
@@ -495,9 +495,9 @@
       "soru": "Arkadaşımıza kıskanmak doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
+        "Hayır",
         "Evet",
         "Bazen olur",
-        "Hayır",
         "Her zaman"
       ],
       "ipucu": "",
@@ -515,10 +515,10 @@
       "soru": "Hata yaptığımızda ne yapmalıyız?",
       "dogruCevap": "Özür dilemeliyiz",
       "secenekler": [
-        "Bağırmalıyız",
-        "Kaçmalıyız",
         "Özür dilemeliyiz",
-        "Yalan söylemeliyiz"
+        "Kaçmalıyız",
+        "Yalan söylemeliyiz",
+        "Bağırmalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -535,10 +535,10 @@
       "soru": "Arkadaşlarımızla birlikte oynamak güzel midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Sadece yalnız",
         "Hiç oynamamalıyız",
-        "Hayır"
+        "Evet",
+        "Hayır",
+        "Sadece yalnız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -557,8 +557,8 @@
       "secenekler": [
         "Sadece küçükse",
         "Merak ettiğimizde evet",
-        "Evet",
-        "Hayır"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "Paylaşmak güzeldir ama izin almalıyız!",
       "gorsel": {
@@ -576,10 +576,10 @@
       "soru": "Annemize nasıl davranmalıyız?",
       "dogruCevap": "Saygılı",
       "secenekler": [
-        "Saygılı",
         "Bağırarak",
-        "Umursamaz",
-        "Kaba"
+        "Kaba",
+        "Saygılı",
+        "Umursamaz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -596,9 +596,9 @@
       "soru": "Babamıza yardım etmek güzel midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece annemize",
-        "Hayır",
         "Hiç gerekmez",
+        "Hayır",
+        "Sadece annemize",
         "Evet"
       ],
       "ipucu": "",
@@ -616,10 +616,10 @@
       "soru": "Kardeşimize kaba davranmak doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Bazen",
-        "Kızdığımızda evet",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Kızdığımızda evet",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -657,9 +657,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Fark etmez",
-        "Sadece bayramda",
         "Hayır",
-        "Evet"
+        "Evet",
+        "Sadece bayramda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -697,9 +697,9 @@
       "dogruCevap": "Saygılı",
       "secenekler": [
         "Kaba",
+        "Umursamaz",
         "Bağırarak",
-        "Saygılı",
-        "Umursamaz"
+        "Saygılı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -719,10 +719,10 @@
       "soru": "🎭 Evde sadece annemiz mi yardımlaşmalıdır?",
       "dogruCevap": "Hayır, hepimiz yardımlaşmalıyız",
       "secenekler": [
-        "Hayır, hepimiz yardımlaşmalıyız",
-        "Hiç kimse yardım etmez",
         "Sadece babamız",
-        "Evet, sadece annemiz"
+        "Hayır, hepimiz yardımlaşmalıyız",
+        "Evet, sadece annemiz",
+        "Hiç kimse yardım etmez"
       ],
       "ipucu": "Ailede herkes görev alır!",
       "gorsel": {
@@ -760,9 +760,9 @@
       "soru": "Birbirimize \"özür dilerim\" demek güzel midir?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Evet",
         "Gereksiz",
         "Sadece büyükler",
-        "Evet",
         "Hayır"
       ],
       "ipucu": "",
@@ -782,8 +782,8 @@
       "secenekler": [
         "Paylaşır ve yardım eder",
         "Kavga eder",
-        "Yalan söyler",
-        "Kıskanır"
+        "Kıskanır",
+        "Yalan söyler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -800,10 +800,10 @@
       "soru": "🎭 Arkadaşımızın başarısını kıskanmak doğru mudur?",
       "dogruCevap": "Hayır, onu tebrik etmeliyiz",
       "secenekler": [
-        "Uzaklaşmalıyız",
         "Onu eleştirmeliyiz",
-        "Hayır, onu tebrik etmeliyiz",
-        "Evet, hep kıskanmalıyız"
+        "Uzaklaşmalıyız",
+        "Evet, hep kıskanmalıyız",
+        "Hayır, onu tebrik etmeliyiz"
       ],
       "ipucu": "İyi arkadaş birbirini destekler!",
       "gorsel": {
@@ -821,10 +821,10 @@
       "soru": "Ailemizde kavga yerine ne yapmalıyız?",
       "dogruCevap": "Konuşarak çözmek",
       "secenekler": [
-        "Susmak",
         "Bağırmak",
+        "Konuşarak çözmek",
         "Kaçmak",
-        "Konuşarak çözmek"
+        "Susmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -841,10 +841,10 @@
       "soru": "Arkadaşımızın oyuncağını kırarsak ne yapmalıyız?",
       "dogruCevap": "Özür dilemeliyiz",
       "secenekler": [
-        "Suçlamalıyız",
-        "Gizlemeliyiz",
+        "Kaçmalıyız",
         "Özür dilemeliyiz",
-        "Kaçmalıyız"
+        "Gizlemeliyiz",
+        "Suçlamalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -862,9 +862,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hiç gerekmez",
-        "Sadece babamız",
+        "Evet",
         "Hayır",
-        "Evet"
+        "Sadece babamız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -881,10 +881,10 @@
       "soru": "🎭 Paylaşmak sadece oyuncaklar için midir?",
       "dogruCevap": "Hayır, sevgi ve yardım da paylaşılır",
       "secenekler": [
-        "Hiç paylaşmayız",
         "Evet, sadece oyuncak",
-        "Sadece yemek için",
-        "Hayır, sevgi ve yardım da paylaşılır"
+        "Hiç paylaşmayız",
+        "Hayır, sevgi ve yardım da paylaşılır",
+        "Sadece yemek için"
       ],
       "ipucu": "Paylaşmak güzel bir davranıştır!",
       "gorsel": {
@@ -902,9 +902,9 @@
       "soru": "🎭 Aile ve arkadaşlıkta en önemli değer hangisidir?",
       "dogruCevap": "Sevgi ve saygı",
       "secenekler": [
-        "Yalan",
-        "Kıskançlık",
         "Kaba davranış",
+        "Kıskançlık",
+        "Yalan",
         "Sevgi ve saygı"
       ],
       "ipucu": "Sevgi ve saygı ilişkilerimizi güçlendirir!",

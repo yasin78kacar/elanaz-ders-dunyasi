@@ -463,10 +463,10 @@
       "soru": "Ali karanlık odada oyuncağını görmek istiyor. Neye ihtiyacı var?",
       "dogruCevap": "Işığa",
       "secenekler": [
+        "Işığa",
         "Büyütece",
-        "Daha iyi gözlüğe",
         "Müzik sesine",
-        "Işığa"
+        "Daha iyi gözlüğe"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -483,9 +483,9 @@
       "soru": "En büyük doğal ışık kaynağımız hangisidir?",
       "dogruCevap": "Güneş",
       "secenekler": [
-        "Yıldızlar",
-        "Güneş",
         "Sokak lambası",
+        "Güneş",
+        "Yıldızlar",
         "El feneri"
       ],
       "ipucu": "",
@@ -504,9 +504,9 @@
       "dogruCevap": "Kendi ışığı yok, Güneş'i yansıtır",
       "secenekler": [
         "Dünyayı ısıtır",
+        "En büyük doğal ışık kaynağı",
         "Kendi ışığı yok, Güneş'i yansıtır",
-        "İnsanlar yaptı",
-        "En büyük doğal ışık kaynağı"
+        "İnsanlar yaptı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -523,9 +523,9 @@
       "soru": "Evdeki ampul hangi gruba girer?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Yapay ışık kaynağı",
         "Doğal ışık kaynağı",
         "Doğal ses kaynağı",
+        "Yapay ışık kaynağı",
         "Yapay ses kaynağı"
       ],
       "ipucu": "",
@@ -544,9 +544,9 @@
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
         "Doğal ışık kaynağı",
+        "Yapay ışık kaynağı",
         "Işık kaynağı değildir",
-        "Doğal ses kaynağı",
-        "Yapay ışık kaynağı"
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -563,10 +563,10 @@
       "soru": "Üzerine fener tutulunca parlayan ayna ışık kaynağı mıdır?",
       "dogruCevap": "Hayır, sadece yansıtır",
       "secenekler": [
-        "Hayır, sadece yansıtır",
-        "Evet, doğal",
         "Evet, yapay",
-        "Hem ses hem ışık"
+        "Hem ses hem ışık",
+        "Evet, doğal",
+        "Hayır, sadece yansıtır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -583,10 +583,10 @@
       "soru": "Trafik lambaları ne tür kaynaktır?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
-        "Doğal ışık kaynağı",
         "Güneş yansıtıcısı",
-        "Yapay ışık kaynağı"
+        "Yapay ışık kaynağı",
+        "Doğal ışık kaynağı",
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -605,8 +605,8 @@
       "secenekler": [
         "Doğal ses kaynağı",
         "Doğal ışık kaynağı",
-        "Yapay ışık kaynağı",
-        "Yapay ses kaynağı"
+        "Yapay ses kaynağı",
+        "Yapay ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -623,9 +623,9 @@
       "soru": "Nehrin su sesi ne tür kaynaktır?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Yapay ışık kaynağı",
-        "Yapay ses kaynağı",
         "Doğal ışık kaynağı",
+        "Yapay ses kaynağı",
+        "Yapay ışık kaynağı",
         "Doğal ses kaynağı"
       ],
       "ipucu": "",
@@ -643,10 +643,10 @@
       "soru": "Selin'in flütü ne tür ses kaynağıdır?",
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
-        "Doğal ışık kaynağı",
         "Doğal ses kaynağı",
-        "Yapay ışık kaynağı",
-        "Yapay ses kaynağı"
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı",
+        "Yapay ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -663,10 +663,10 @@
       "soru": "Horozun sesi nedir?",
       "dogruCevap": "Doğal ses",
       "secenekler": [
-        "Yapay ışık",
         "Doğal ışık",
+        "Yapay ses",
         "Doğal ses",
-        "Yapay ses"
+        "Yapay ışık"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -684,9 +684,9 @@
       "dogruCevap": "Yapay ses",
       "secenekler": [
         "Yapay ışık",
+        "Doğal ses",
         "Doğal ışık",
-        "Yapay ses",
-        "Doğal ses"
+        "Yapay ses"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -703,10 +703,10 @@
       "soru": "Yağmur damlalarının çıkardığı ses hangi gruba aittir?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
         "İnsan yapımı",
-        "Yapay ses",
-        "Yansıtıcı"
+        "Doğal ses kaynağı",
+        "Yansıtıcı",
+        "Yapay ses"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -724,9 +724,9 @@
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
         "Doğal ses kaynağı",
-        "Doğal ışık kaynağı",
         "Yapay ses kaynağı",
-        "Yıldız ışığı"
+        "Yıldız ışığı",
+        "Doğal ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -744,8 +744,8 @@
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
         "Işık yansıtıcısı",
-        "Yapay ses kaynağı",
         "Yapay ışık kaynağı",
+        "Yapay ses kaynağı",
         "Doğal ışık kaynağı"
       ],
       "ipucu": "",
@@ -763,10 +763,10 @@
       "soru": "Televizyondan gelen sesler hangi gruba girer?",
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
-        "Doğal ışık kaynağı",
+        "Sessiz kaynak",
         "Yapay ses kaynağı",
         "Doğal ses kaynağı",
-        "Sessiz kaynak"
+        "Doğal ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -783,10 +783,10 @@
       "soru": "Annemizin sesi hangi türe örnektir?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
-        "Yapay ses kaynağı",
         "Mekanik ses",
-        "Yankı kaynağı"
+        "Yapay ses kaynağı",
+        "Yankı kaynağı",
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -803,10 +803,10 @@
       "soru": "Hangisinde doğal ses + yapay ışık yan yana verilmiştir?",
       "dogruCevap": "Rüzgar sesi - Yanan Mum",
       "secenekler": [
-        "Rüzgar sesi - Yanan Mum",
+        "Kuş sesi - Güneş",
         "Radyo sesi - Yıldız",
-        "Araba kornası - El feneri",
-        "Kuş sesi - Güneş"
+        "Rüzgar sesi - Yanan Mum",
+        "Araba kornası - El feneri"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -831,8 +831,8 @@
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
         "Yapay ses",
-        "Sadece ses",
         "Yapay ışık kaynağı",
+        "Sadece ses",
         "Doğal ışık kaynağı"
       ],
       "ipucu": "",
@@ -851,9 +851,9 @@
       "dogruCevap": "Hayır, sadece yansıtır",
       "secenekler": [
         "Evet, doğal",
+        "Hayır, sadece yansıtır",
         "Evet, yapay",
-        "Kendi üretir",
-        "Hayır, sadece yansıtır"
+        "Kendi üretir"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -870,10 +870,10 @@
       "soru": "Arkadaşımızın şiirini duymamızı sağlayan organ hangisidir?",
       "dogruCevap": "Kulağımız",
       "secenekler": [
-        "Dilimiz",
-        "Gözümüz",
         "Burnumuz",
-        "Kulağımız"
+        "Gözümüz",
+        "Kulağımız",
+        "Dilimiz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -892,8 +892,8 @@
       "secenekler": [
         "Güneş ışığı",
         "Doğal ses kaynağı",
-        "Yapay ses kaynağı",
-        "Doğal ışık kaynağı"
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -910,10 +910,10 @@
       "soru": "İnsanların yaktığı meşale ne tür ışık kaynağıdır?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
+        "Yapay ses kaynağı",
         "Doğal ses kaynağı",
-        "Doğal ışık kaynağı",
         "Yapay ışık kaynağı",
-        "Yapay ses kaynağı"
+        "Doğal ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -930,10 +930,10 @@
       "soru": "Aslanın sesi hangi ses sınıfına girer?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Teknoloji sesi",
-        "Yapay ses kaynağı",
         "İnsan yapımı",
-        "Doğal ses kaynağı"
+        "Doğal ses kaynağı",
+        "Teknoloji sesi",
+        "Yapay ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -950,10 +950,10 @@
       "soru": "Henüz yakılmamış mum ışık kaynağı mıdır?",
       "dogruCevap": "Hayır, ışık yaymadığı için o an değildir",
       "secenekler": [
-        "Işığı yansıtır",
-        "Hayır, ışık yaymadığı için o an değildir",
+        "Evet, doğal",
         "Evet, yapay",
-        "Evet, doğal"
+        "Hayır, ışık yaymadığı için o an değildir",
+        "Işığı yansıtır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",

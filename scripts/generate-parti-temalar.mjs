@@ -1,4 +1,4 @@
-/** PARTI kaynak dosyalarını üretir: Mat-T4, Mat-T5, Fen-T1, Hayat-T1, İng-T1, İng-T2 */
+/** PARTI kaynak dosyalarını üretir: Mat-T4, Mat-T5, Fen-T2, Hayat-T1, İng-T1, İng-T2, Türç-T3 */
 import { writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -9,6 +9,7 @@ import { bitkilerTema2 } from './gorev-fen-tema2-questions.mjs';
 import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
+import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -50,6 +51,9 @@ const fen2 = bitkilerTema2(karistir);
 const hayat = aileDuygular(karistir);
 const ing = alfabeVeRenkler(karistir);
 const ing2 = sayilarVeSinifEsyalari(karistir);
+const turYazma = yazmaBecerileri(karistir);
+const turDinleme = dinlemeVeKonusma(karistir);
+const turSozcuk = sozcukVeDilBilgisi(karistir);
 
 const matMd = [
   '# Dosya Adı: PARTI-MATEMATIK-TEMA4.md',
@@ -96,6 +100,33 @@ writeFileSync(join(root, 'PARTI-INGILIZCE-TEMA1.md'), partiMd('İngilizce — Te
 writeFileSync(join(root, 'PARTI-INGILIZCE-TEMA2.md'), partiMd('İngilizce — Tema 2: Numbers and Classroom', 'PARTI-INGILIZCE-TEMA2.md', [ing2]));
 writeFileSync(join(root, 'PARTI-FEN-TEMA2.md'), partiMd('Fen Bilimleri — Tema 2: Bitkiler', 'PARTI-FEN-TEMA2.md', [fen2]));
 
+const turTema3Md = [
+  '# Dosya Adı: PARTI-TURKCE-TEMA3.md',
+  '## Türkçe — Tema 3: Yazma, Dinleme ve Sözcük Bilgisi',
+  '',
+  ...turYazma.anlatim.ekranlar.map((e, i) => `### Yazma Becerileri Anlatım ${i + 1}\n${e.metin}\n`),
+  '## YAZMA BECERİLERİ — ALIŞTIRMALAR (25)',
+  ...turYazma.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## YAZMA BECERİLERİ — TEST (25)',
+  ...turYazma.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...turDinleme.anlatim.ekranlar.map((e, i) => `### Dinleme ve Konuşma Anlatım ${i + 1}\n${e.metin}\n`),
+  '## DİNLEME VE KONUŞMA — ALIŞTIRMALAR (25)',
+  ...turDinleme.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## DİNLEME VE KONUŞMA — TEST (25)',
+  ...turDinleme.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...turSozcuk.anlatim.ekranlar.map((e, i) => `### Sözcük ve Dil Bilgisi Anlatım ${i + 1}\n${e.metin}\n`),
+  '## SÖZCÜK VE DİL BİLGİSİ — ALIŞTIRMALAR (25)',
+  ...turSozcuk.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## SÖZCÜK VE DİL BİLGİSİ — TEST (25)',
+  ...turSozcuk.test.map((s, i) => satir(s, i, 'test')),
+].join('\n');
+writeFileSync(join(root, 'PARTI-TURKCE-TEMA3.md'), turTema3Md);
+
 console.log('PARTI-MATEMATIK-TEMA4.md:', matCarpma.alistirma.length + matCarpma.test.length + matBolme.alistirma.length + matBolme.test.length, 'soru');
 console.log('PARTI-MATEMATIK-TEMA5.md:', matUzunluk.alistirma.length + matUzunluk.test.length + matTartma.alistirma.length + matTartma.test.length, 'soru');
 console.log('PARTI-HAYAT-TEMA1.md:', hayat.alistirma.length + hayat.test.length, 'soru');
@@ -103,3 +134,10 @@ console.log('PARTI-INGILIZCE-TEMA1.md:', ing.alistirma.length + ing.test.length,
 console.log('PARTI-INGILIZCE-TEMA2.md:', ing2.alistirma.length + ing2.test.length, 'soru');
 console.log('PARTI-FEN-TEMA1.md zaten mevcut (generate-parti-fen-tema1.mjs ile)');
 console.log('PARTI-FEN-TEMA2.md:', fen2.alistirma.length + fen2.test.length, 'soru');
+console.log(
+  'PARTI-TURKCE-TEMA3.md:',
+  turYazma.alistirma.length + turYazma.test.length
+    + turDinleme.alistirma.length + turDinleme.test.length
+    + turSozcuk.alistirma.length + turSozcuk.test.length,
+  'soru',
+);

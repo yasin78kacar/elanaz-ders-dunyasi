@@ -425,10 +425,10 @@
       "soru": "Zar hangi geometrik cisme benzer?",
       "dogruCevap": "Küp",
       "secenekler": [
-        "Küre",
-        "Küp",
+        "Silindir",
         "Üçgen prizma",
-        "Silindir"
+        "Küre",
+        "Küp"
       ],
       "ipucu": "Zarın her yüzü karedir.",
       "gorsel": {
@@ -461,9 +461,9 @@
       "soru": "Hangisi silindire benzer?",
       "dogruCevap": "Konserve kutusu",
       "secenekler": [
+        "Zar",
         "Konserve kutusu",
         "Futbol topu",
-        "Zar",
         "Kitap"
       ],
       "ipucu": "Silindirin yuvarlak gövdesi vardır.",
@@ -497,9 +497,9 @@
       "soru": "Futbol topu hangi geometrik cisme benzer?",
       "dogruCevap": "Küre",
       "secenekler": [
-        "Silindir",
         "Kare prizma",
         "Küre",
+        "Silindir",
         "Küp"
       ],
       "ipucu": "Top her yönden yuvarlaktır.",
@@ -534,9 +534,9 @@
       "dogruCevap": "Misket",
       "secenekler": [
         "Misket",
-        "Süt kutusu",
+        "Çadır",
         "Kibrit kutusu",
-        "Çadır"
+        "Süt kutusu"
       ],
       "ipucu": "Küre her yönden yuvarlaktır.",
       "gorsel": {
@@ -570,8 +570,8 @@
       "dogruCevap": "Üçgen prizma",
       "secenekler": [
         "Üçgen prizma",
-        "Silindir",
         "Küp",
+        "Silindir",
         "Küre"
       ],
       "ipucu": "Çadırın çatısı üçgen şeklindedir.",
@@ -607,8 +607,8 @@
       "secenekler": [
         "Konserve kutusu",
         "Zar",
-        "Küp şeker",
-        "Zekâ küpü"
+        "Zekâ küpü",
+        "Küp şeker"
       ],
       "ipucu": "\"BenzeMEZ\" diyor — küp OLMAYANI arıyoruz!",
       "gorsel": {
@@ -642,10 +642,10 @@
       "soru": "Ayakkabı kutusu hangi geometrik cisme benzer?",
       "dogruCevap": "Dikdörtgen prizma",
       "secenekler": [
-        "Küre",
         "Dikdörtgen prizma",
-        "Üçgen prizma",
-        "Silindir"
+        "Küre",
+        "Silindir",
+        "Üçgen prizma"
       ],
       "ipucu": "Ayakkabı kutusu köşeli ve uzundur.",
       "gorsel": {
@@ -679,8 +679,8 @@
       "dogruCevap": "Kitap",
       "secenekler": [
         "Kitap",
-        "Pil",
         "Portakal",
+        "Pil",
         "Top"
       ],
       "ipucu": "Kitap köşeli ve ince bir kutudur.",
@@ -715,9 +715,9 @@
       "dogruCevap": "İkisi de silindire",
       "secenekler": [
         "İkisi de üçgen prizmaya",
-        "İkisi de silindire",
         "İkisi de küpe",
-        "Biri küre, biri küp"
+        "Biri küre, biri küp",
+        "İkisi de silindire"
       ],
       "ipucu": "Teneke ve pil yuvarlak gövdelidir.",
       "gorsel": {
@@ -768,10 +768,10 @@
       "soru": "🎭 Elanaz \"Her yüzü kare olan bir kutum var.\" dedi. Elanaz'ın kutusu hangi cisme benzer?",
       "dogruCevap": "Küp",
       "secenekler": [
-        "Silindir",
         "Dikdörtgen prizma",
-        "Küp",
-        "Küre"
+        "Silindir",
+        "Küre",
+        "Küp"
       ],
       "ipucu": "HER yüzü kare olan özel kutunun adı nedir?",
       "gorsel": {
@@ -805,10 +805,10 @@
       "soru": "Evlerin üçgen çatısı hangi cisme benzer?",
       "dogruCevap": "Üçgen prizma",
       "secenekler": [
-        "Silindir",
-        "Küre",
+        "Küp",
         "Üçgen prizma",
-        "Küp"
+        "Silindir",
+        "Küre"
       ],
       "ipucu": "Üçgen çatılar üçgen prizmaya benzer.",
       "gorsel": {
@@ -841,9 +841,9 @@
       "soru": "Hangisi küreye benzeyen nesnelerdir?",
       "dogruCevap": "Top - Misket",
       "secenekler": [
+        "Top - Misket",
         "Çadır - Çatı",
         "Zar - Kutu",
-        "Top - Misket",
         "Pil - Konserve"
       ],
       "ipucu": "Top ve misket yuvarlaktır.",
@@ -881,9 +881,9 @@
       "soru": "Kale kulesi hangi geometrik cisme benzer?",
       "dogruCevap": "Silindir",
       "secenekler": [
+        "Kare prizma",
         "Küre",
         "Küp",
-        "Kare prizma",
         "Silindir"
       ],
       "ipucu": "Kuleler genelde yuvarlak gövdelidir.",
@@ -917,9 +917,9 @@
       "soru": "Elanaz markette süt kutusu aldı. Süt kutusu hangi cisme benzer?",
       "dogruCevap": "Dikdörtgen prizma",
       "secenekler": [
+        "Küre",
         "Üçgen prizma",
         "Dikdörtgen prizma",
-        "Küre",
         "Silindir"
       ],
       "ipucu": "Süt kutusu köşeli bir kutudur.",
@@ -953,9 +953,9 @@
       "soru": "🎭 Hangisi SİLİNDİRE benzeMEZ?",
       "dogruCevap": "Zar",
       "secenekler": [
-        "Zar",
-        "Pil",
         "Tuvalet kâğıdı rulosu",
+        "Pil",
+        "Zar",
         "Konserve kutusu"
       ],
       "ipucu": "Silindirin yuvarlak gövdesi vardır — köşeli olan hangisi?",
@@ -990,10 +990,10 @@
       "soru": "Kibrit kutusu hangi geometrik cisme benzer?",
       "dogruCevap": "Dikdörtgen prizma",
       "secenekler": [
-        "Küre",
-        "Küp",
+        "Silindir",
         "Dikdörtgen prizma",
-        "Silindir"
+        "Küp",
+        "Küre"
       ],
       "ipucu": "Kibrit kutusu köşeli bir kutudur.",
       "gorsel": {
@@ -1026,10 +1026,10 @@
       "soru": "Hangisi üçgen prizmaya benzer?",
       "dogruCevap": "Çadır",
       "secenekler": [
-        "Konserve",
-        "Çadır",
+        "Top",
         "Misket",
-        "Top"
+        "Çadır",
+        "Konserve"
       ],
       "ipucu": "Çadırın çatısı üçgen şeklindedir.",
       "gorsel": {
@@ -1062,10 +1062,10 @@
       "soru": "Elanaz'ın kalem kutusu uzun ve kare tabanlı bir kutudur. Hangi cisme benzer?",
       "dogruCevap": "Kare prizma",
       "secenekler": [
-        "Küre",
-        "Kare prizma",
         "Silindir",
-        "Üçgen prizma"
+        "Üçgen prizma",
+        "Küre",
+        "Kare prizma"
       ],
       "ipucu": "Kare tabanlı uzun kutular kare prizmaya benzer.",
       "gorsel": {
@@ -1098,10 +1098,10 @@
       "soru": "Portakal ve karpuz hangi cisme benzer?",
       "dogruCevap": "Küreye",
       "secenekler": [
-        "Küreye",
-        "Silindire",
         "Küpe",
-        "Üçgen prizmaya"
+        "Üçgen prizmaya",
+        "Küreye",
+        "Silindire"
       ],
       "ipucu": "Portakal ve karpuz yuvarlaktır.",
       "gorsel": {
@@ -1116,9 +1116,9 @@
       "soru": "🎭 Kutudaki süt bitince Elanaz kutuyu geri dönüşüme attı. Boş kutu hangi cisme benzer?",
       "dogruCevap": "Dikdörtgen prizma",
       "secenekler": [
+        "Dikdörtgen prizma",
         "Küre",
         "Hiçbirine — boş kutu cisim değildir",
-        "Dikdörtgen prizma",
         "Silindir"
       ],
       "ipucu": "Kutu boş da olsa dolu da olsa biçimi DEĞİŞMEZ!",
@@ -1153,10 +1153,10 @@
       "soru": "Hangisi küpe benzer?",
       "dogruCevap": "Zar",
       "secenekler": [
-        "Top",
         "Çadır",
+        "Konserve",
         "Zar",
-        "Konserve"
+        "Top"
       ],
       "ipucu": "Zar küp şeklindedir.",
       "gorsel": {
@@ -1190,9 +1190,9 @@
       "dogruCevap": "Dikdörtgen prizma",
       "secenekler": [
         "Küre",
+        "Silindir",
         "Dikdörtgen prizma",
-        "Üçgen prizma",
-        "Silindir"
+        "Üçgen prizma"
       ],
       "ipucu": "Binalar köşeli ve uzun kutulardır.",
       "gorsel": {
@@ -1225,8 +1225,8 @@
       "soru": "🎭 Elanaz dondurma külahını bitirdi, elinde sadece YUVARLAK dondurma topu kaldı. Dondurma topu hangi cisme benzer?",
       "dogruCevap": "Küre",
       "secenekler": [
-        "Kare prizma",
         "Küre",
+        "Kare prizma",
         "Küp",
         "Silindir"
       ],
@@ -1262,10 +1262,10 @@
       "soru": "Hangisi doğru eşleşmedir?",
       "dogruCevap": "Konserve → Silindir",
       "secenekler": [
-        "Çadır → Küp",
-        "Konserve → Silindir",
         "Zar → Küre",
-        "Top → Silindir"
+        "Top → Silindir",
+        "Çadır → Küp",
+        "Konserve → Silindir"
       ],
       "ipucu": "Her nesneyi doğru geometrik cisme eşleştir.",
       "gorsel": {
