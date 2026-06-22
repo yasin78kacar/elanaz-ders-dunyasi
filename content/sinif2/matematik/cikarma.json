@@ -576,8 +576,8 @@
       "soru": "6 - 2 = ?",
       "dogruCevap": "4",
       "secenekler": [
-        "5",
         "4",
+        "5",
         "6",
         "3"
       ],
@@ -599,10 +599,10 @@
       "soru": "9 - 4 = ?",
       "dogruCevap": "5",
       "secenekler": [
-        "4",
-        "3",
+        "5",
         "6",
-        "5"
+        "3",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -622,10 +622,10 @@
       "soru": "Masada 8 elma vardı, 3 tanesi yendi. Kaç elma kaldı?",
       "dogruCevap": "5",
       "secenekler": [
-        "7",
+        "4",
         "5",
-        "6",
-        "4"
+        "7",
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -642,9 +642,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "4",
-        "6",
+        "3",
         "5",
-        "3"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -664,10 +664,10 @@
       "soru": "7 - 7 = ?",
       "dogruCevap": "0",
       "secenekler": [
-        "7",
-        "2",
+        "1",
         "0",
-        "1"
+        "7",
+        "2"
       ],
       "ipucu": "",
       "gorsel": {
@@ -687,9 +687,9 @@
       "soru": "Bahçede 12 kuş vardı, 5 tanesi uçtu. Kaç kuş kaldı?",
       "dogruCevap": "7",
       "secenekler": [
+        "7",
         "6",
         "8",
-        "7",
         "9"
       ],
       "ipucu": "",
@@ -707,9 +707,9 @@
       "dogruCevap": "8",
       "secenekler": [
         "7",
+        "9",
         "6",
-        "8",
-        "9"
+        "8"
       ],
       "ipucu": "",
       "gorsel": {
@@ -731,8 +731,8 @@
       "secenekler": [
         "8",
         "9",
-        "11",
-        "10"
+        "10",
+        "11"
       ],
       "ipucu": "",
       "gorsel": {
@@ -752,10 +752,10 @@
       "soru": "14 - 6 = ?",
       "dogruCevap": "8",
       "secenekler": [
+        "7",
         "8",
         "6",
-        "9",
-        "7"
+        "9"
       ],
       "ipucu": "",
       "gorsel": {
@@ -775,10 +775,10 @@
       "soru": "Hangi işlemin sonucu 5'tir?",
       "dogruCevap": "10 - 5",
       "secenekler": [
-        "10 - 5",
         "7 - 3",
         "9 - 3",
-        "8 - 2"
+        "8 - 2",
+        "10 - 5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -831,10 +831,10 @@
       "soru": "15 - 7 = ?",
       "dogruCevap": "8",
       "secenekler": [
-        "6",
         "8",
-        "9",
-        "7"
+        "7",
+        "6",
+        "9"
       ],
       "ipucu": "",
       "gorsel": {
@@ -854,9 +854,9 @@
       "soru": "Kutuda 16 top vardı, 9 tanesi alındı. Kaç top kaldı?",
       "dogruCevap": "7",
       "secenekler": [
-        "5",
-        "8",
         "6",
+        "8",
+        "5",
         "7"
       ],
       "ipucu": "",
@@ -873,10 +873,10 @@
       "soru": "12 - □ = 7. Kutudaki sayı nedir?",
       "dogruCevap": "5",
       "secenekler": [
+        "5",
         "4",
         "3",
-        "6",
-        "5"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -896,10 +896,10 @@
       "soru": "18 - 9 = ?",
       "dogruCevap": "9",
       "secenekler": [
-        "7",
         "8",
-        "9",
-        "10"
+        "10",
+        "7",
+        "9"
       ],
       "ipucu": "",
       "gorsel": {
@@ -919,9 +919,9 @@
       "soru": "Hangisi yanlıştır?",
       "dogruCevap": "9 - 4 = 4",
       "secenekler": [
+        "8 - 4 = 4",
         "9 - 4 = 4",
         "6 - 3 = 3",
-        "8 - 4 = 4",
         "10 - 5 = 5"
       ],
       "ipucu": "",
@@ -975,9 +975,9 @@
       "soru": "20 - 7 = ?",
       "dogruCevap": "13",
       "secenekler": [
-        "14",
         "13",
         "12",
+        "14",
         "11"
       ],
       "ipucu": "",
@@ -998,8 +998,8 @@
       "soru": "Elanaz'ın 15 boyası vardı, 6 tanesini Elif'e verdi. Kaç boyası kaldı?",
       "dogruCevap": "9",
       "secenekler": [
-        "10",
         "7",
+        "10",
         "9",
         "8"
       ],
@@ -1017,10 +1017,10 @@
       "soru": "🎭 Bir sayıdan 0 çıkarırsak ne olur?",
       "dogruCevap": "Sayı değişmez",
       "secenekler": [
-        "Sayı değişmez",
-        "Sayı 1 azalır",
         "Sayı 0 olur",
-        "Sayı 2 azalır"
+        "Sayı değişmez",
+        "Sayı 2 azalır",
+        "Sayı 1 azalır"
       ],
       "ipucu": "0 hiç demek!",
       "gorsel": {
@@ -1041,10 +1041,10 @@
       "soru": "20 - 11 = ?",
       "dogruCevap": "9",
       "secenekler": [
-        "10",
+        "8",
         "7",
-        "9",
-        "8"
+        "10",
+        "9"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1064,10 +1064,10 @@
       "soru": "🎭 13 - 8 = ?",
       "dogruCevap": "5",
       "secenekler": [
-        "3",
         "6",
-        "4",
-        "5"
+        "3",
+        "5",
+        "4"
       ],
       "ipucu": "8'den 13'e kaç adım?",
       "gorsel": {
@@ -1089,10 +1089,10 @@
       "soru": "Sınıfta 20 kalem vardı, 14 tanesi dağıtıldı. Kaç kalem kaldı?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
-        "4",
+        "6",
         "7",
-        "6"
+        "5",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1108,9 +1108,9 @@
       "soru": "🎭 17 - 9 = ?",
       "dogruCevap": "8",
       "secenekler": [
+        "8",
         "7",
         "9",
-        "8",
         "6"
       ],
       "ipucu": "17 = 10 + 7, önce 10'dan 9 çıkar!",
@@ -1139,9 +1139,9 @@
       "dogruCevap": "14",
       "secenekler": [
         "15",
+        "13",
         "12",
-        "14",
-        "13"
+        "14"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1161,10 +1161,10 @@
       "soru": "🎭 Hangisi en küçük sonucu verir?",
       "dogruCevap": "11 - 9",
       "secenekler": [
-        "11 - 9",
+        "12 - 8",
         "10 - 7",
         "15 - 9",
-        "12 - 8"
+        "11 - 9"
       ],
       "ipucu": "Her birini hesapla, en küçüğü bul!",
       "gorsel": {
@@ -1218,10 +1218,10 @@
       "soru": "🎭 Elanaz'ın 20 çikolatası var. Elanaz, Elif'e 7, Alya'ya 5 çikolata verdi. Elanaz'da kaç çikolata kaldı?",
       "dogruCevap": "8",
       "secenekler": [
+        "8",
         "6",
-        "9",
         "7",
-        "8"
+        "9"
       ],
       "ipucu": "Önce verdiği toplam: 7 + 5 = 12, sonra 20 - 12 = ?",
       "gorsel": {
@@ -1238,10 +1238,10 @@
       "soru": "Can 60 lirasının 20 lirası ile top aldı. Can'ın geriye ne kadar parası kaldı?",
       "dogruCevap": "40",
       "secenekler": [
-        "50",
-        "30",
+        "40",
         "80",
-        "40"
+        "30",
+        "50"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1258,9 +1258,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "3",
-        "5",
+        "4",
         "10",
-        "4"
+        "5"
       ],
       "ipucu": "",
       "gorsel": {

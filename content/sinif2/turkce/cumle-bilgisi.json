@@ -391,8 +391,8 @@
       "dogruCevap": "Ayşe",
       "secenekler": [
         "bahçeye",
-        "Ayşe",
         "gitti bahçeye",
+        "Ayşe",
         "gitti"
       ],
       "ipucu": "",
@@ -410,9 +410,9 @@
       "dogruCevap": "uyudu",
       "secenekler": [
         "Yok",
-        "uyudu",
+        "Kedi uyudu",
         "Kedi",
-        "Kedi uyudu"
+        "uyudu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -429,9 +429,9 @@
       "dogruCevap": "Mehmet gelmedi",
       "secenekler": [
         "Kuşlar uçtu",
-        "Hava güzel",
+        "Ali koştu",
         "Mehmet gelmedi",
-        "Ali koştu"
+        "Hava güzel"
       ],
       "ipucu": "",
       "gorsel": {
@@ -447,10 +447,10 @@
       "soru": "Hangi cümle soru cümlesidir?",
       "dogruCevap": "Hava güzel mi?",
       "secenekler": [
-        "Hava güzel mi?",
-        "Hava güzeldi.",
         "Ne güzel hava!",
-        "Hava güzel."
+        "Hava güzel.",
+        "Hava güzel mi?",
+        "Hava güzeldi."
       ],
       "ipucu": "",
       "gorsel": {
@@ -466,10 +466,10 @@
       "soru": "\"Çocuklar oyun oynadı\" cümlesinde özne hangisidir?",
       "dogruCevap": "Çocuklar",
       "secenekler": [
-        "oyun oynadı",
-        "oynadı",
+        "oyun",
         "Çocuklar",
-        "oyun"
+        "oyun oynadı",
+        "oynadı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -504,10 +504,10 @@
       "soru": "\"Fatma kitap okumadı\" cümlesi hangi türdür?",
       "dogruCevap": "Olumsuz",
       "secenekler": [
-        "Olumsuz",
         "Ünlem",
-        "Soru",
-        "Olumlu"
+        "Olumsuz",
+        "Olumlu",
+        "Soru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -523,10 +523,10 @@
       "soru": "\"Ali koştu\" cümlesini soru cümlesine çevirirsek ne olur?",
       "dogruCevap": "Ali koştu mu?",
       "secenekler": [
-        "Ali koştu mu?",
         "Ali koşmadı",
-        "Ali koştu!",
-        "Koşan Ali"
+        "Koşan Ali",
+        "Ali koştu mu?",
+        "Ali koştu!"
       ],
       "ipucu": "",
       "gorsel": {
@@ -544,8 +544,8 @@
       "dogruCevap": "battı",
       "secenekler": [
         "Güneş battı",
-        "Güneş",
         "battı",
+        "Güneş",
         "Yok"
       ],
       "ipucu": "",
@@ -562,10 +562,10 @@
       "soru": "Ünlem cümlesi hangisidir?",
       "dogruCevap": "Ne güzel yağmur!",
       "secenekler": [
-        "Yağmur yağıyor mu?",
         "Ne güzel yağmur!",
         "Yağmur yağıyor.",
-        "Yağmur yağmıyor."
+        "Yağmur yağmıyor.",
+        "Yağmur yağıyor mu?"
       ],
       "ipucu": "",
       "gorsel": {
@@ -581,9 +581,9 @@
       "soru": "\"Öğretmen tahtaya yazdı\" cümlesinde özne hangisidir?",
       "dogruCevap": "Öğretmen",
       "secenekler": [
+        "yazdı",
         "tahtaya yazdı",
         "tahtaya",
-        "yazdı",
         "Öğretmen"
       ],
       "ipucu": "",
@@ -600,10 +600,10 @@
       "soru": "\"Kedi balık yedi\" cümlesini olumsuza çevir.",
       "dogruCevap": "Kedi balık yemedi",
       "secenekler": [
-        "Kedi balık yemedi",
-        "Kedi balık yer",
         "Kedi yemedi",
-        "Kedi balık yedi mi?"
+        "Kedi balık yer",
+        "Kedi balık yedi mi?",
+        "Kedi balık yemedi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -620,9 +620,9 @@
       "soru": "Hangi cümle olumlulur?",
       "dogruCevap": "Mehmet koştu",
       "secenekler": [
+        "Ali gelmedi",
         "Fatma uyumadı",
         "Hava güzel değil",
-        "Ali gelmedi",
         "Mehmet koştu"
       ],
       "ipucu": "",
@@ -640,9 +640,9 @@
       "dogruCevap": "Soru",
       "secenekler": [
         "Ünlem",
+        "Olumlu",
         "Olumsuz",
-        "Soru",
-        "Olumlu"
+        "Soru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -659,9 +659,9 @@
       "dogruCevap": "\"Ayşe (özne) gitti (yüklem)\"",
       "secenekler": [
         "\"Koştu (özne) Ali (yüklem)\"",
-        "\"Kedi (yüklem) uyudu (özne)\"",
+        "\"Gitti (özne) Mehmet (yüklem)\"",
         "\"Ayşe (özne) gitti (yüklem)\"",
-        "\"Gitti (özne) Mehmet (yüklem)\""
+        "\"Kedi (yüklem) uyudu (özne)\""
       ],
       "ipucu": "",
       "gorsel": {
@@ -680,10 +680,10 @@
       "soru": "\"Çiçekler solmadı\" — hangi türde cümle?",
       "dogruCevap": "Olumsuz",
       "secenekler": [
-        "Olumlu",
-        "Ünlem",
         "Olumsuz",
-        "Soru"
+        "Soru",
+        "Ünlem",
+        "Olumlu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -699,10 +699,10 @@
       "soru": "\"Yaşlı adam yavaş yürüdü\" — özne hangisidir?",
       "dogruCevap": "adam",
       "secenekler": [
-        "yavaş yürüdü",
         "yavaş",
         "adam",
-        "yürüdü"
+        "yürüdü",
+        "yavaş yürüdü"
       ],
       "ipucu": "",
       "gorsel": {
@@ -718,9 +718,9 @@
       "soru": "Bu cümleyi tamamla: \"Çocuklar bahçede ___\" (yüklem ekle)",
       "dogruCevap": "oynadı",
       "secenekler": [
+        "güzel bahçe",
         "yeşil çimen",
         "hızlı çocuk",
-        "güzel bahçe",
         "oynadı"
       ],
       "ipucu": "",
@@ -738,9 +738,9 @@
       "soru": "Hangi cümle tam değildir (yüklem eksik)?",
       "dogruCevap": "Güzel çiçek",
       "secenekler": [
+        "Güzel çiçek",
         "Ali koştu",
         "Hava soğuk",
-        "Güzel çiçek",
         "Kedi uyudu"
       ],
       "ipucu": "",
@@ -758,9 +758,9 @@
       "dogruCevap": "Köpekler havladı",
       "secenekler": [
         "Köpekler havladı",
-        "Köpekler havlar",
         "Köpek havlar",
-        "Köpekler havladı mı?"
+        "Köpekler havladı mı?",
+        "Köpekler havlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -778,9 +778,9 @@
       "dogruCevap": "güldü",
       "secenekler": [
         "güldü mü",
-        "mü",
+        "güldü",
         "Selin",
-        "güldü"
+        "mü"
       ],
       "ipucu": "",
       "gorsel": {
@@ -796,10 +796,10 @@
       "soru": "Ünlem cümlesinde hangi işaret kullanılır?",
       "dogruCevap": "!",
       "secenekler": [
-        ".",
+        ",",
         "?",
-        "!",
-        ","
+        ".",
+        "!"
       ],
       "ipucu": "",
       "gorsel": {
@@ -815,10 +815,10 @@
       "soru": "\"Ne güzel bir gün!\" cümlesinin türü nedir?",
       "dogruCevap": "Ünlem",
       "secenekler": [
-        "Olumsuz",
-        "Ünlem",
         "Soru",
-        "Olumlu"
+        "Olumsuz",
+        "Olumlu",
+        "Ünlem"
       ],
       "ipucu": "",
       "gorsel": {
@@ -835,10 +835,10 @@
       "soru": "\"Annem yemek pişirdi\" — özne ve yüklem hangileri?",
       "dogruCevap": "Özne: Annem, Yüklem: pişirdi",
       "secenekler": [
-        "Özne: pişirdi, Yüklem: Annem",
+        "Özne: yemek, Yüklem: Annem",
         "Özne: Annem, Yüklem: pişirdi",
-        "Özne: yemek, Yüklem: pişirdi",
-        "Özne: yemek, Yüklem: Annem"
+        "Özne: pişirdi, Yüklem: Annem",
+        "Özne: yemek, Yüklem: pişirdi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -854,10 +854,10 @@
       "soru": "Aşağıdaki cümle türlerini eşleştir: \"Yağmur yağdı. / Yağmur yağdı mı? / Yağmur yağmadı. / Ne yağmur!\"",
       "dogruCevap": "Olumlu-Soru-Olumsuz-Ünlem",
       "secenekler": [
-        "Soru-Olumlu-Ünlem-Olumsuz",
-        "Olumlu-Soru-Olumsuz-Ünlem",
         "Ünlem-Soru-Olumlu-Olumsuz",
-        "Olumsuz-Soru-Olumlu-Ünlem"
+        "Soru-Olumlu-Ünlem-Olumsuz",
+        "Olumsuz-Soru-Olumlu-Ünlem",
+        "Olumlu-Soru-Olumsuz-Ünlem"
       ],
       "ipucu": "",
       "gorsel": {

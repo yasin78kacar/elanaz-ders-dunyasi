@@ -491,10 +491,10 @@
       "soru": "Üzerinde yaşadığımız gezegenin adı nedir?",
       "dogruCevap": "Dünya",
       "secenekler": [
-        "Yıldız",
-        "Güneş",
+        "Ay",
         "Dünya",
-        "Ay"
+        "Yıldız",
+        "Güneş"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -512,9 +512,9 @@
       "dogruCevap": "Küre",
       "secenekler": [
         "Küre",
-        "Kare",
+        "Küp",
         "Silindir",
-        "Küp"
+        "Kare"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -537,8 +537,8 @@
       "secenekler": [
         "Güneş",
         "Dünya",
-        "Yıldızlar",
-        "Ay"
+        "Ay",
+        "Yıldızlar"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -556,9 +556,9 @@
       "dogruCevap": "Dünya'nın kendi etrafında dönmesi",
       "secenekler": [
         "Güneş'in uyuması",
-        "Ay'ın uzaklaşması",
+        "Bulutlar",
         "Dünya'nın kendi etrafında dönmesi",
-        "Bulutlar"
+        "Ay'ın uzaklaşması"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -575,9 +575,9 @@
       "soru": "Ay hakkında hangisi doğrudur?",
       "dogruCevap": "Dünya'nın doğal uydusu, Güneş'i yansıtır",
       "secenekler": [
-        "Güneş'ten büyük",
         "Dünya'nın doğal uydusu, Güneş'i yansıtır",
         "Kendisi ısı kaynağı",
+        "Güneş'ten büyük",
         "Kare şekilli"
       ],
       "ipucu": "",
@@ -595,10 +595,10 @@
       "soru": "Modeldeki mavi renkler neyi gösterir?",
       "dogruCevap": "Okyanus ve denizleri",
       "secenekler": [
-        "Çölleri",
-        "Okyanus ve denizleri",
         "Ormanları",
-        "Dağları"
+        "Çölleri",
+        "Dağları",
+        "Okyanus ve denizleri"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -635,10 +635,10 @@
       "soru": "Eski zamanlarda Dünya'nın şekli neye benzetilirdi?",
       "dogruCevap": "Düz tepsi",
       "secenekler": [
-        "Üçgen",
         "Küre",
+        "Düz tepsi",
         "Yuvarlak top",
-        "Düz tepsi"
+        "Üçgen"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -695,8 +695,8 @@
       "soru": "Yıldızların ve gezegenlerin bulunduğu boşluğa ne denir?",
       "dogruCevap": "Uzay",
       "secenekler": [
-        "Bulut",
         "Okyanus",
+        "Bulut",
         "Uzay",
         "Gökyüzü"
       ],
@@ -715,10 +715,10 @@
       "soru": "Bitkilerin büyümesi için neye ihtiyaç vardır?",
       "dogruCevap": "Güneş ışığına",
       "secenekler": [
-        "Karanlığa",
-        "Ay ışığına",
         "Güneş ışığına",
-        "Sadece rüzgara"
+        "Sadece rüzgara",
+        "Karanlığa",
+        "Ay ışığına"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -735,8 +735,8 @@
       "soru": "Ufuktan gelen geminin önce neresini görürüz?",
       "dogruCevap": "Direğin en üstü",
       "secenekler": [
-        "Deniz altı",
         "Direğin en üstü",
+        "Deniz altı",
         "Sadece gövdesi",
         "Arka taraf"
       ],
@@ -757,8 +757,8 @@
       "secenekler": [
         "Dünya - Güneş - Ay",
         "Ay - Dünya - Güneş",
-        "Güneş - Dünya - Ay",
-        "Dünya - Ay - Güneş"
+        "Dünya - Ay - Güneş",
+        "Güneş - Dünya - Ay"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -784,10 +784,10 @@
       "soru": "Dünya Güneş etrafında dönerken ne oluşur?",
       "dogruCevap": "Mevsimler",
       "secenekler": [
-        "Saatler",
+        "Sadece gündüz",
         "Mevsimler",
-        "Sadece gece",
-        "Sadece gündüz"
+        "Saatler",
+        "Sadece gece"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -804,10 +804,10 @@
       "soru": "Sular ve karalar nasıldır?",
       "dogruCevap": "Sular daha fazla",
       "secenekler": [
-        "Eşit",
+        "Hiç su yok",
         "Sular daha fazla",
-        "Karalar daha fazla",
-        "Hiç su yok"
+        "Eşit",
+        "Karalar daha fazla"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -824,10 +824,10 @@
       "soru": "Geceleri parlayan küçük ışıklara ne denir?",
       "dogruCevap": "Yıldız",
       "secenekler": [
-        "Gökkuşağı",
+        "Bulut",
         "Ay",
-        "Yıldız",
-        "Bulut"
+        "Gökkuşağı",
+        "Yıldız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -845,9 +845,9 @@
       "dogruCevap": "Güneş kremi",
       "secenekler": [
         "Sabun",
-        "Şampuan",
+        "Güneş kremi",
         "Kolonya",
-        "Güneş kremi"
+        "Şampuan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -864,10 +864,10 @@
       "soru": "Dünyamız ortadan biraz şişkin, hafif basık bir ......... benzer.",
       "dogruCevap": "Küreye",
       "secenekler": [
-        "Konie",
+        "Küreye",
         "Kareye",
-        "Silindire",
-        "Küreye"
+        "Konie",
+        "Silindire"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -884,9 +884,9 @@
       "soru": "Canlılar dinlenmek için hangi zaman dilimini tercih eder?",
       "dogruCevap": "Gece",
       "secenekler": [
+        "Gündüz",
         "Gece",
         "İkindi",
-        "Gündüz",
         "Öğle"
       ],
       "ipucu": "",
@@ -925,8 +925,8 @@
       "dogruCevap": "Doğu",
       "secenekler": [
         "Doğu",
-        "Batı",
         "Kuzey",
+        "Batı",
         "Güney"
       ],
       "ipucu": "",
@@ -964,10 +964,10 @@
       "soru": "Uzaydan bakıldığında Dünya'da hangi renk öne çıkar?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Sarı",
+        "Mavi",
         "Kırmızı",
-        "Siyah",
-        "Mavi"
+        "Sarı",
+        "Siyah"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -984,10 +984,10 @@
       "soru": "Dünya'yı diğer gezegenlerden özel kılan nedir?",
       "dogruCevap": "Üzerinde canlıların yaşaması",
       "secenekler": [
-        "Hiç dönmemesi",
         "Güneş'ten büyük olması",
-        "Üzerinde canlıların yaşaması",
-        "Çok sıcak olması"
+        "Hiç dönmemesi",
+        "Çok sıcak olması",
+        "Üzerinde canlıların yaşaması"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",

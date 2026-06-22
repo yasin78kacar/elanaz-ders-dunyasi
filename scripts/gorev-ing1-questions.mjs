@@ -82,6 +82,31 @@ function alistirma() {
   boslukEkle(s, 'ar-a23', '"Purple" kelimesi Türkçe olarak ......... rengidir.', 'mor', '', { gorsel: nesne('mor-balon') });
   dyEkle(s, 'ar-a24', '"Orange" kelimesi hem meyve olan portakal hem de turuncu renk için kullanılır.', 'Doğru', '', { gorsel: nesne('turuncu-top') });
   boslukEkle(s, 'ar-a25', 'Ağacın gövdesi İngilizcede "........." renktedir.', 'brown', '', { gorsel: nesne('kahverengi-agac') });
+  boslukEkle(s, 'ar-a26', 'İngilizcede "D" harfi ......... diye okunur.', 'Di', '', { gorsel: harf('D', 'green') });
+  dyEkle(s, 'ar-a27', '"Gray" kelimesi gri rengi ifade eder.', 'Doğru', '', { gorsel: nesne('gri-fil') });
+  boslukEkle(s, 'ar-a28', 'Çileğin rengi İngilizcede ......... kelimesidir.', 'red', '', { gorsel: nesne('kirmizi-cilek') });
+  dyEkle(s, 'ar-a29', 'İngilizce alfabede 26 harf vardır.', 'Doğru', '', { gorsel: nesne('alfabe-tablosu') });
+  boslukEkle(s, 'ar-a30', 'Limonun rengi İngilizcede ......... kelimesidir.', 'yellow', '', { gorsel: nesne('sari-limon') });
+  dyEkle(s, 'ar-a31', '"White" kelimesi siyah anlamına gelir.', 'Yanlış', '', { gorsel: nesne('beyaz-kar') });
+  boslukEkle(s, 'ar-a32', 'Denizin rengi İngilizcede ......... kelimesidir.', 'blue', '', { gorsel: nesne('mavi-deniz') });
+  dyEkle(s, 'ar-a33', '"E" harfi İngilizcede "İ" diye okunur.', 'Doğru', '', { gorsel: harf('E', 'pink') });
+  boslukEkle(s, 'ar-a34', 'Üzümün rengi İngilizcede ......... kelimesidir.', 'purple', '', { gorsel: nesne('mor-uzum') });
+  dyEkle(s, 'ar-a35', 'Renkler İngilizcede "Colors" olarak adlandırılır.', 'Doğru', '', { gorsel: nesne('renkli-boya-kutusu') });
+  boslukEkle(s, 'ar-a36', 'Portakalın rengi İngilizcede ......... kelimesidir.', 'orange', '', { gorsel: nesne('turuncu-portakal') });
+  dyEkle(s, 'ar-a37', '"F" harfi "Ef" şeklinde okunur.', 'Doğru', '', { gorsel: harf('F', 'blue') });
+  boslukEkle(s, 'ar-a38', 'Çimenin rengi İngilizcede ......... kelimesidir.', 'green', '', { gorsel: nesne('yesil-cimen') });
+  dyEkle(s, 'ar-a39', '"Pink" kelimesi pembe rengi ifade eder.', 'Doğru', '', { gorsel: nesne('pembe-cicek') });
+  boslukEkle(s, 'ar-a40', 'Gökyüzünün rengi İngilizcede ......... kelimesidir.', 'blue', '', { gorsel: nesne('mavi-gokyuzu') });
+  dyEkle(s, 'ar-a41', 'İngilizce alfabenin ikinci harfi "B"dir.', 'Doğru', '', { gorsel: harf('B', 'red') });
+  boslukEkle(s, 'ar-a42', 'Karanlık rengin İngilizcesi ......... kelimesidir.', 'black', '', { gorsel: nesne('siyah-gece') });
+  dyEkle(s, 'ar-a43', '"G" harfi "Ci" şeklinde okunur.', 'Doğru', '', { gorsel: harf('G', 'green') });
+  boslukEkle(s, 'ar-a44', 'Gülün rengi İngilizcede ......... kelimesidir.', 'red', '', { gorsel: nesne('kirmizi-gul') });
+  dyEkle(s, 'ar-a45', '"Brown" kelimesi kahverengi rengi ifade eder.', 'Doğru', '', { gorsel: nesne('kahverengi-ayi') });
+  boslukEkle(s, 'ar-a46', 'Karın rengi İngilizcede ......... kelimesidir.', 'white', '', { gorsel: nesne('beyaz-kar') });
+  dyEkle(s, 'ar-a47', 'İngilizcede "H" harfi "Eyc" diye okunur.', 'Doğru', '', { gorsel: harf('H', 'orange') });
+  boslukEkle(s, 'ar-a48', 'Muzun kabuğu İngilizcede ......... renktedir.', 'yellow', '', { gorsel: nesne('sari-muz') });
+  dyEkle(s, 'ar-a49', '"Purple" ve "Pink" farklı renklerdir.', 'Doğru', '', { gorsel: grup(['mor-uzum', 'pembe-cicek'], 'renkler') });
+  boslukEkle(s, 'ar-a50', 'İngilizce alfabenin üçüncü harfi ......... harfidir.', 'C', '', { gorsel: harf('C', 'yellow') });
   return s;
 }
 
@@ -114,6 +139,31 @@ function test(karistir) {
   e('ar-t23', 'Berk\'in takımının renkleri "Yellow and Blue"dur. Bunlar hangi renklerdir?', 'Sarı ve Mavi', ['Sarı ve Mavi', 'Kırmızı ve Beyaz', 'Siyah ve Beyaz', 'Yeşil ve Turuncu'], '', { gorsel: nesne('sari-mavi-forma') });
   e('ar-t24', '"Blue sky, white clouds" cümlesinde geçen renkler sırasıyla hangileridir?', 'Mavi ve Beyaz', ['Siyah ve Yeşil', 'Mavi ve Beyaz', 'Sarı ve Kırmızı', 'Mor ve Pembe'], '', { gorsel: nesne('mavi-gokyuzu-bulut') });
   e('ar-t25', 'Aşağıdaki renklerden hangisi bir gökkuşağında bulunmaz?', 'Black', ['Red', 'Blue', 'Black', 'Yellow'], '', { gorsel: nesne('gokkusagi') });
+  e('ar-t26', 'İngilizcede "D" harfi nasıl okunur?', 'Di', ['Bi', 'Di', 'Si', 'Ci'], '', { gorsel: harf('D', 'green') });
+  e('ar-t27', 'Çileğin rengi İngilizcede hangi kelimedir?', 'Red', ['Blue', 'Red', 'Green', 'Yellow'], '', { gorsel: nesne('kirmizi-cilek') });
+  e('ar-t28', 'İngilizce alfabede kaç harf vardır?', '26', ['24', '25', '26', '28'], '', { gorsel: nesne('alfabe-tablosu') });
+  e('ar-t29', 'Limonun rengi İngilizcede nedir?', 'Yellow', ['Red', 'Blue', 'Yellow', 'Green'], '', { gorsel: nesne('sari-limon') });
+  e('ar-t30', '"White" kelimesinin Türkçe karşılığı nedir?', 'Beyaz', ['Siyah', 'Beyaz', 'Mavi', 'Kırmızı'], '', { gorsel: nesne('beyaz-kar') });
+  e('ar-t31', 'Üzümün rengi İngilizcede hangi kelimedir?', 'Purple', ['Pink', 'Purple', 'Orange', 'Brown'], '', { gorsel: nesne('mor-uzum') });
+  e('ar-t32', 'İngilizcede renkler kelimesi nedir?', 'Colors', ['Numbers', 'Colors', 'Letters', 'Animals'], '', { gorsel: nesne('renkli-boya-kutusu') });
+  e('ar-t33', '"F" harfi nasıl okunur?', 'Ef', ['Ey', 'Bi', 'Ef', 'Di'], '', { gorsel: harf('F', 'blue') });
+  e('ar-t34', 'Çimenin rengi İngilizcede nedir?', 'Green', ['Blue', 'Green', 'Red', 'Pink'], '', { gorsel: nesne('yesil-cimen') });
+  e('ar-t35', 'Gökyüzünün rengi İngilizcede hangi kelimedir?', 'Blue', ['Green', 'Blue', 'Yellow', 'Red'], '', { gorsel: nesne('mavi-gokyuzu') });
+  e('ar-t36', 'İngilizce alfabenin ikinci harfi hangisidir?', 'B', ['A', 'B', 'C', 'D'], '', { gorsel: harf('B', 'red') });
+  e('ar-t37', 'Karanlık rengin İngilizcesi nedir?', 'Black', ['White', 'Black', 'Gray', 'Brown'], '', { gorsel: nesne('siyah-gece') });
+  e('ar-t38', '"G" harfi nasıl okunur?', 'Ci', ['Bi', 'Di', 'Ci', 'Si'], '', { gorsel: harf('G', 'green') });
+  e('ar-t39', 'Gülün rengi İngilizcede hangi kelimedir?', 'Red', ['Pink', 'Red', 'Purple', 'Orange'], '', { gorsel: nesne('kirmizi-gul') });
+  e('ar-t40', 'Karın rengi İngilizcede nedir?', 'White', ['Blue', 'White', 'Gray', 'Yellow'], '', { gorsel: nesne('beyaz-kar') });
+  e('ar-t41', '"H" harfi nasıl okunur?', 'Eyc', ['Ef', 'Eyc', 'Bi', 'Di'], '', { gorsel: harf('H', 'orange') });
+  e('ar-t42', 'Muzun kabuğu hangi renktedir?', 'Yellow', ['Green', 'Yellow', 'Brown', 'Red'], '', { gorsel: nesne('sari-muz') });
+  e('ar-t43', '🎭 "Purple" kelimesi hangi renktir?', 'Mor', ['Pembe', 'Mor', 'Kırmızı', 'Sarı'], 'Purple = mor!', { gorsel: nesne('mor-uzum'), sasirtma: true });
+  e('ar-t44', 'İngilizce alfabenin üçüncü harfi hangisidir?', 'C', ['B', 'C', 'D', 'E'], '', { gorsel: harf('C', 'yellow') });
+  e('ar-t45', '"Gray" kelimesinin Türkçe karşılığı nedir?', 'Gri', ['Beyaz', 'Gri', 'Siyah', 'Mavi'], '', { gorsel: nesne('gri-fil') });
+  e('ar-t46', 'Portakal hem meyve hem renk adıdır. İngilizcede nedir?', 'Orange', ['Apple', 'Orange', 'Banana', 'Grape'], '', { gorsel: nesne('turuncu-portakal') });
+  e('ar-t47', '"Red apple" ifadesi Türkçede ne demektir?', 'Kırmızı elma', ['Mavi elma', 'Kırmızı elma', 'Sarı elma', 'Yeşil elma'], '', { gorsel: nesne('kirmizi-elma') });
+  e('ar-t48', 'Pembe rengin İngilizcesi nedir?', 'Pink', ['Purple', 'Pink', 'Red', 'Orange'], '', { gorsel: nesne('pembe-cicek') });
+  e('ar-t49', 'İngilizcede "E" harfi nasıl okunur?', 'İ', ['Ey', 'İ', 'Bi', 'Si'], '', { gorsel: harf('E', 'pink') });
+  e('ar-t50', 'Alfabe ve renkler konusunda en önemli kelime grubu hangisidir?', 'Colors ve Alphabet', ['Numbers only', 'Colors ve Alphabet', 'Animals only', 'Food only'], '', { gorsel: nesne('alfabe-tablosu') });
   return s;
 }
 

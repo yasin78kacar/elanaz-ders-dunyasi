@@ -450,10 +450,10 @@
       "soru": "Hangi kapta daha çok su var? Şişe: 2 L, Bardak: 200 mL",
       "dogruCevap": "Şişe",
       "secenekler": [
-        "Belli değil",
+        "Şişe",
         "Bardak",
-        "Eşit",
-        "Şişe"
+        "Belli değil",
+        "Eşit"
       ],
       "ipucu": "",
       "gorsel": {
@@ -473,10 +473,10 @@
       "soru": "1 L kaç mL'dir?",
       "dogruCevap": "1000",
       "secenekler": [
-        "500",
-        "100",
+        "1000",
         "10",
-        "1000"
+        "500",
+        "100"
       ],
       "ipucu": "",
       "gorsel": {
@@ -493,9 +493,9 @@
       "dogruCevap": "Litre",
       "secenekler": [
         "cm",
-        "Litre",
         "metre",
-        "kg"
+        "kg",
+        "Litre"
       ],
       "ipucu": "",
       "gorsel": {
@@ -530,10 +530,10 @@
       "soru": "En az sıvı hangisinde? 3 L, 2500 mL, 3500 mL",
       "dogruCevap": "2500 mL",
       "secenekler": [
-        "2500 mL",
-        "Hepsi eşit",
         "3 L",
-        "3500 mL"
+        "3500 mL",
+        "2500 mL",
+        "Hepsi eşit"
       ],
       "ipucu": "",
       "gorsel": {
@@ -554,10 +554,10 @@
       "soru": "Bardak 250 mL alıyor. 4 bardak kaç mL?",
       "dogruCevap": "1000",
       "secenekler": [
-        "1000",
         "1100",
-        "900",
-        "800"
+        "800",
+        "1000",
+        "900"
       ],
       "ipucu": "",
       "gorsel": {
@@ -573,10 +573,10 @@
       "soru": "Sürahi 2 L su var. Yarısı içildi. Kaç mL kaldı?",
       "dogruCevap": "1000",
       "secenekler": [
-        "2000",
+        "500",
         "1500",
         "1000",
-        "500"
+        "2000"
       ],
       "ipucu": "",
       "gorsel": {
@@ -596,9 +596,9 @@
       "soru": "🎭 2500 mL kaç L ve mL'dir?",
       "dogruCevap": "2 L 500 mL",
       "secenekler": [
-        "2 L",
-        "3 L",
         "2 L 500 mL",
+        "3 L",
+        "2 L",
         "1 L 500 mL"
       ],
       "ipucu": "2500 = 2000 + 500",
@@ -616,10 +616,10 @@
       "soru": "Mehmet 500 mL, Ali 750 mL su içti. Toplam kaç mL?",
       "dogruCevap": "1250",
       "secenekler": [
-        "1100",
+        "1250",
         "1000",
-        "1500",
-        "1250"
+        "1100",
+        "1500"
       ],
       "ipucu": "",
       "gorsel": {
@@ -639,10 +639,10 @@
       "soru": "Hangi kap en çok sıvı alır?",
       "dogruCevap": "Kova",
       "secenekler": [
-        "Kaşık",
         "Bardak",
-        "Kova",
-        "Şişe"
+        "Şişe",
+        "Kaşık",
+        "Kova"
       ],
       "ipucu": "",
       "gorsel": {
@@ -658,10 +658,10 @@
       "soru": "4 L - 1500 mL = ?",
       "dogruCevap": "2500 mL",
       "secenekler": [
-        "2000 mL",
+        "3000 mL",
         "3500 mL",
         "2500 mL",
-        "3000 mL"
+        "2000 mL"
       ],
       "ipucu": "",
       "gorsel": {
@@ -677,10 +677,10 @@
       "soru": "🎭 Bir şişe 1 L 200 mL alıyor. 3 şişe kaç mL alır?",
       "dogruCevap": "3600",
       "secenekler": [
+        "3600",
         "3200",
-        "4000",
         "3000",
-        "3600"
+        "4000"
       ],
       "ipucu": "1200 × 3 = ?",
       "gorsel": {
@@ -697,10 +697,10 @@
       "soru": "Ayşe sabah 200 mL, öğlen 300 mL, akşam 500 mL su içti. Toplam kaç mL?",
       "dogruCevap": "1000",
       "secenekler": [
-        "1000",
         "1100",
-        "800",
-        "900"
+        "900",
+        "1000",
+        "800"
       ],
       "ipucu": "",
       "gorsel": {
@@ -716,10 +716,10 @@
       "soru": "5000 mL kaç L?",
       "dogruCevap": "5",
       "secenekler": [
+        "4",
         "50",
-        "5",
         "6",
-        "4"
+        "5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -735,10 +735,10 @@
       "soru": "🎭 Hangi nesne için litre kullanılır?",
       "dogruCevap": "Havuz suyu",
       "secenekler": [
-        "Gözyaşı",
         "Parfüm",
+        "İlaç",
         "Havuz suyu",
-        "İlaç"
+        "Gözyaşı"
       ],
       "ipucu": "Büyük miktarlar için litre!",
       "gorsel": {
@@ -755,10 +755,10 @@
       "soru": "Kova 10 L alıyor. 4 L dolduruldu. Kaç L daha gerekir?",
       "dogruCevap": "6",
       "secenekler": [
-        "7",
         "5",
+        "6",
         "8",
-        "6"
+        "7"
       ],
       "ipucu": "",
       "gorsel": {
@@ -774,10 +774,10 @@
       "soru": "Fatma 1 L 500 mL, Zeynep 500 mL su içti. Fatma Zeynep'ten kaç mL fazla içti?",
       "dogruCevap": "1000",
       "secenekler": [
-        "1000",
-        "2000",
         "1500",
-        "500"
+        "1000",
+        "500",
+        "2000"
       ],
       "ipucu": "",
       "gorsel": {
@@ -797,9 +797,9 @@
       "soru": "🎭 Bir tarif 1 L 250 mL süt gerektiriyor. İki tarif için kaç mL süt gerekir?",
       "dogruCevap": "2500",
       "secenekler": [
-        "1500",
-        "3000",
         "2000",
+        "3000",
+        "1500",
         "2500"
       ],
       "ipucu": "1250 × 2 = ?",
@@ -817,9 +817,9 @@
       "soru": "Küçükten büyüğe sırala: 1500 mL, 1 L, 2 L",
       "dogruCevap": "1 L, 1500 mL, 2 L",
       "secenekler": [
+        "1500 mL, 1 L, 2 L",
         "1 L, 2 L, 1500 mL",
         "1 L, 1500 mL, 2 L",
-        "1500 mL, 1 L, 2 L",
         "2 L, 1500 mL, 1 L"
       ],
       "ipucu": "",
@@ -841,10 +841,10 @@
       "soru": "🎭 Şişede 3 L var. Her bardak 500 mL alıyor. Kaç bardak doldurulabilir?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
-        "6",
         "8",
-        "4"
+        "6",
+        "4",
+        "5"
       ],
       "ipucu": "3000 ÷ 500 = ?",
       "gorsel": {
@@ -885,10 +885,10 @@
       "soru": "1 L 800 mL kaç mL?",
       "dogruCevap": "1800",
       "secenekler": [
-        "1800",
-        "18",
+        "180",
         "108",
-        "180"
+        "18",
+        "1800"
       ],
       "ipucu": "",
       "gorsel": {
@@ -904,10 +904,10 @@
       "soru": "🎭 Havuzu doldurmak için 50 L su gerekiyor. 20 L dolduruldu. Kaç L daha gerekir?",
       "dogruCevap": "30",
       "secenekler": [
-        "30",
+        "35",
         "25",
-        "40",
-        "35"
+        "30",
+        "40"
       ],
       "ipucu": "50 - 20 = ?",
       "gorsel": {
@@ -924,9 +924,9 @@
       "soru": "Yusuf her gün 2 L su içiyor. 3 günde kaç L içer?",
       "dogruCevap": "6",
       "secenekler": [
-        "8",
         "7",
         "6",
+        "8",
         "5"
       ],
       "ipucu": "",
@@ -943,10 +943,10 @@
       "soru": "🎭 Bir şişede 2 L var. 750 mL içildi. Kaç mL kaldı?",
       "dogruCevap": "1250",
       "secenekler": [
-        "1000",
+        "1100",
         "1500",
         "1250",
-        "1100"
+        "1000"
       ],
       "ipucu": "2000 - 750 = ?",
       "gorsel": {

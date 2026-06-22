@@ -412,10 +412,10 @@
       "soru": "Hastaları tedavi eden meslek hangisidir?",
       "dogruCevap": "Doktor",
       "secenekler": [
-        "İtfaiyeci",
+        "Doktor",
         "Öğretmen",
-        "Polis",
-        "Doktor"
+        "İtfaiyeci",
+        "Polis"
       ],
       "ipucu": "",
       "gorsel": {
@@ -431,10 +431,10 @@
       "soru": "Güvenliğimizi sağlayan meslek hangisidir?",
       "dogruCevap": "Polis",
       "secenekler": [
-        "İtfaiyeci",
         "Aşçı",
-        "Polis",
-        "Doktor"
+        "Doktor",
+        "İtfaiyeci",
+        "Polis"
       ],
       "ipucu": "",
       "gorsel": {
@@ -452,8 +452,8 @@
       "secenekler": [
         "İtfaiyeci",
         "Doktor",
-        "Polis",
-        "Berber"
+        "Berber",
+        "Polis"
       ],
       "ipucu": "",
       "gorsel": {
@@ -469,10 +469,10 @@
       "soru": "Komşularımıza nasıl davranmalıyız?",
       "dogruCevap": "Saygılı",
       "secenekler": [
-        "Saygılı",
-        "Bağırarak",
+        "Kaba",
         "Umursamaz",
-        "Kaba"
+        "Saygılı",
+        "Bağırarak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -489,10 +489,10 @@
       "soru": "Çevremizi temiz tutmalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece evde",
         "Evet",
+        "Fark etmez",
         "Hayır",
-        "Fark etmez"
+        "Sadece evde"
       ],
       "ipucu": "",
       "gorsel": {
@@ -509,10 +509,10 @@
       "soru": "Çöpleri nereye atmalıyız?",
       "dogruCevap": "Çöp kutusuna",
       "secenekler": [
-        "Sokağa",
+        "Çöp kutusuna",
         "Yere",
-        "Denize",
-        "Çöp kutusuna"
+        "Sokağa",
+        "Denize"
       ],
       "ipucu": "",
       "gorsel": {
@@ -528,10 +528,10 @@
       "soru": "Geri dönüşüm ne demektir?",
       "dogruCevap": "Atıkları yeniden kullanmak",
       "secenekler": [
-        "Ağaç kesmek",
-        "Suyu kirletmek",
         "Atıkları yeniden kullanmak",
-        "Çöpleri yere atmak"
+        "Suyu kirletmek",
+        "Çöpleri yere atmak",
+        "Ağaç kesmek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -547,10 +547,10 @@
       "soru": "🎭 Kırmızı ışıkta koşarak geçmek doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Evet",
         "Kimse yoksa evet",
         "Acelemiz varsa evet",
-        "Hayır"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "Kırmızı ışıkta durmalıyız!",
       "gorsel": {
@@ -568,10 +568,10 @@
       "soru": "Yeşil ışıkta yaya ne yapabilir?",
       "dogruCevap": "Geçebilir",
       "secenekler": [
-        "Koşmalı",
-        "Geçebilir",
         "Durmalı",
-        "Uyumalı"
+        "Uyumalı",
+        "Koşmalı",
+        "Geçebilir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -589,9 +589,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Sadece yazın",
+        "Fark etmez",
         "Evet",
-        "Hayır",
-        "Fark etmez"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -608,10 +608,10 @@
       "soru": "Ağaçları korumalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Kesebiliriz",
         "Evet",
-        "Hayır",
-        "Fark etmez"
+        "Fark etmez",
+        "Kesebiliriz",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -628,10 +628,10 @@
       "soru": "Kamu kurallarına uymalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hiç gerekmez",
         "Sadece okulda",
         "Hayır",
-        "Evet"
+        "Evet",
+        "Hiç gerekmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -649,9 +649,9 @@
       "dogruCevap": "Geri dönüşüme",
       "secenekler": [
         "Denize",
-        "Sokağa",
+        "Yere",
         "Geri dönüşüme",
-        "Yere"
+        "Sokağa"
       ],
       "ipucu": "",
       "gorsel": {
@@ -688,10 +688,10 @@
       "soru": "Sokakları kirletmek doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Hayır",
-        "Evet",
         "Bazen",
-        "Kimse görmezse"
+        "Kimse görmezse",
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -708,10 +708,10 @@
       "soru": "🎭 Doktor sadece çocuklara mı bakar?",
       "dogruCevap": "Hayır, herkese bakar",
       "secenekler": [
-        "Evet, sadece çocuklara",
         "Hayır, herkese bakar",
         "Hiç kimseye bakmaz",
-        "Sadece kedilere"
+        "Sadece kedilere",
+        "Evet, sadece çocuklara"
       ],
       "ipucu": "Doktor tüm hastalara yardım eder!",
       "gorsel": {
@@ -729,10 +729,10 @@
       "soru": "Polis ne iş yapar?",
       "dogruCevap": "Güvenliği sağlar",
       "secenekler": [
-        "Güvenliği sağlar",
+        "Ders anlatır",
         "Yemek yapar",
-        "Ağaç diker",
-        "Ders anlatır"
+        "Güvenliği sağlar",
+        "Ağaç diker"
       ],
       "ipucu": "",
       "gorsel": {
@@ -749,10 +749,10 @@
       "soru": "İtfaiyeci ne iş yapar?",
       "dogruCevap": "Yangın söndürür",
       "secenekler": [
-        "Kitap satar",
         "Hasta tedavi eder",
-        "Yangın söndürür",
-        "Trafik yönetir"
+        "Trafik yönetir",
+        "Kitap satar",
+        "Yangın söndürür"
       ],
       "ipucu": "",
       "gorsel": {
@@ -769,10 +769,10 @@
       "soru": "Çevreyi korumak neden önemlidir?",
       "dogruCevap": "Sağlıklı yaşamak için",
       "secenekler": [
+        "Sağlıklı yaşamak için",
         "Çirkin görünür diye",
-        "Sadece öğretmen istedi",
         "Hiç önemli değil",
-        "Sağlıklı yaşamak için"
+        "Sadece öğretmen istedi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -789,10 +789,10 @@
       "soru": "🎭 Geri dönüşüm sadece cam için midir?",
       "dogruCevap": "Hayır, plastik ve kağıt da geri dönüşür",
       "secenekler": [
-        "Hayır, plastik ve kağıt da geri dönüşür",
-        "Evet, sadece cam",
         "Hiçbir şey geri dönüşmez",
-        "Sadece metal"
+        "Sadece metal",
+        "Evet, sadece cam",
+        "Hayır, plastik ve kağıt da geri dönüşür"
       ],
       "ipucu": "Birçok atık geri dönüştürülebilir!",
       "gorsel": {
@@ -809,10 +809,10 @@
       "soru": "Trafik kurallarına uymak gerekir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece arabalar için",
-        "Hiç gerekmez",
+        "Evet",
         "Hayır",
-        "Evet"
+        "Hiç gerekmez",
+        "Sadece arabalar için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -829,9 +829,9 @@
       "dogruCevap": "Geri dönüşüme",
       "secenekler": [
         "Sokağa",
-        "Yere",
         "Geri dönüşüme",
-        "Denize"
+        "Denize",
+        "Yere"
       ],
       "ipucu": "",
       "gorsel": {
@@ -848,10 +848,10 @@
       "soru": "Yaya geçidinde ne yapmalıyız?",
       "dogruCevap": "Dikkatli geçmeliyiz",
       "secenekler": [
-        "Dikkatli geçmeliyiz",
-        "Beklemeden geçmeliyiz",
+        "Koşarak geçmeliyiz",
         "Göz kapalı geçmeliyiz",
-        "Koşarak geçmeliyiz"
+        "Dikkatli geçmeliyiz",
+        "Beklemeden geçmeliyiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -868,10 +868,10 @@
       "soru": "🎭 Parkta çiçekleri koparmak serbest midir?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Evet",
-        "Kimse görmezse",
+        "Hayır",
         "Güzel görünüyorsa evet",
-        "Hayır"
+        "Evet",
+        "Kimse görmezse"
       ],
       "ipucu": "Doğayı ve çiçekleri korumalıyız!",
       "gorsel": {
@@ -890,9 +890,9 @@
       "dogruCevap": "Hayır, her yerde önemlidir",
       "secenekler": [
         "Evet, sadece evde",
-        "Sadece okulda",
         "Hayır, her yerde önemlidir",
-        "Hiç önemli değil"
+        "Hiç önemli değil",
+        "Sadece okulda"
       ],
       "ipucu": "Okul, park ve sokak da temiz olmalı!",
       "gorsel": {

@@ -450,10 +450,10 @@
       "soru": "İngilizcede 1, 2, 3 sayıları sırasıyla nasıl söylenir?",
       "dogruCevap": "One, Two, Three",
       "secenekler": [
-        "One, Two, Three",
         "Four, Five, Six",
-        "Ten, Nine, Eight",
-        "Seven, Eight, Nine"
+        "Seven, Eight, Nine",
+        "One, Two, Three",
+        "Ten, Nine, Eight"
       ],
       "ipucu": "",
       "gorsel": {
@@ -480,8 +480,8 @@
       "secenekler": [
         "Five",
         "Ten",
-        "Six",
-        "Four"
+        "Four",
+        "Six"
       ],
       "ipucu": "",
       "gorsel": {
@@ -497,8 +497,8 @@
       "soru": "Can'ın tişörtünde yazan 10 sayısının İngilizce karşılığı hangisidir?",
       "dogruCevap": "Ten",
       "secenekler": [
-        "Ten",
         "Eight",
+        "Ten",
         "Seven",
         "Nine"
       ],
@@ -516,9 +516,9 @@
       "soru": "Hande'nin elindeki kitabın İngilizce adı nedir?",
       "dogruCevap": "Book",
       "secenekler": [
-        "Book",
         "Desk",
         "Bag",
+        "Book",
         "Pencil"
       ],
       "ipucu": "",
@@ -535,10 +535,10 @@
       "soru": "Okula giderken eşyalarımızı koyduğumuz okul çantasının İngilizcesi nedir?",
       "dogruCevap": "Bag",
       "secenekler": [
-        "Eraser",
-        "Chair",
         "Board",
-        "Bag"
+        "Bag",
+        "Eraser",
+        "Chair"
       ],
       "ipucu": "",
       "gorsel": {
@@ -554,10 +554,10 @@
       "soru": "İngilizcede kurşun kalem \"........\", tükenmez kalem ise \"........\" olarak adlandırılır.",
       "dogruCevap": "Pencil / Pen",
       "secenekler": [
-        "Bag / Board",
-        "Book / Desk",
         "Pencil / Pen",
-        "Pen / Pencil"
+        "Book / Desk",
+        "Pen / Pencil",
+        "Bag / Board"
       ],
       "ipucu": "",
       "gorsel": {
@@ -580,10 +580,10 @@
       "soru": "Sınıfta oturduğumuz öğrenci sırasının İngilizcesi nedir?",
       "dogruCevap": "Desk",
       "secenekler": [
-        "Chair",
         "Door",
-        "Window",
-        "Desk"
+        "Chair",
+        "Desk",
+        "Window"
       ],
       "ipucu": "",
       "gorsel": {
@@ -599,10 +599,10 @@
       "soru": "Öğretmenin üzerine yazı yazdığı tahtanın İngilizcesi nedir?",
       "dogruCevap": "Board",
       "secenekler": [
-        "Bag",
         "Eraser",
+        "Book",
         "Board",
-        "Book"
+        "Bag"
       ],
       "ipucu": "",
       "gorsel": {
@@ -619,9 +619,9 @@
       "dogruCevap": "Chair",
       "secenekler": [
         "Teacher",
-        "Pencil case",
+        "Pen",
         "Chair",
-        "Pen"
+        "Pencil case"
       ],
       "ipucu": "",
       "gorsel": {
@@ -656,10 +656,10 @@
       "soru": "İngilizcede 4 sayısı nasıl yazılır?",
       "dogruCevap": "Four",
       "secenekler": [
-        "Four",
+        "Two",
         "Five",
-        "Three",
-        "Two"
+        "Four",
+        "Three"
       ],
       "ipucu": "",
       "gorsel": {
@@ -675,10 +675,10 @@
       "soru": "\"Eight\" kelimesinin Türkçedeki anlamı hangi sayıdır?",
       "dogruCevap": "8",
       "secenekler": [
-        "9",
+        "6",
         "8",
-        "7",
-        "6"
+        "9",
+        "7"
       ],
       "ipucu": "",
       "gorsel": {
@@ -695,9 +695,9 @@
       "dogruCevap": "Eraser",
       "secenekler": [
         "Book",
-        "Desk",
         "Pencil",
-        "Eraser"
+        "Eraser",
+        "Desk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -713,10 +713,10 @@
       "soru": "İngilizcede \"Three books\" ne anlama gelir?",
       "dogruCevap": "Üç kitap",
       "secenekler": [
-        "İki çanta",
         "Beş silgi",
-        "Üç kitap",
-        "Dört kalem"
+        "İki çanta",
+        "Dört kalem",
+        "Üç kitap"
       ],
       "ipucu": "",
       "gorsel": {
@@ -733,9 +733,9 @@
       "dogruCevap": "Teacher",
       "secenekler": [
         "Teacher",
-        "Doctor",
+        "Police",
         "Student",
-        "Police"
+        "Doctor"
       ],
       "ipucu": "",
       "gorsel": {
@@ -770,10 +770,10 @@
       "soru": "\"Nine\" kelimesi hangi sayıyı anlatır?",
       "dogruCevap": "9",
       "secenekler": [
-        "8",
         "10",
-        "7",
-        "9"
+        "9",
+        "8",
+        "7"
       ],
       "ipucu": "",
       "gorsel": {
@@ -789,10 +789,10 @@
       "soru": "\"Six\" kelimesinin Türkçesi hangi sayıdır?",
       "dogruCevap": "6",
       "secenekler": [
-        "6",
-        "4",
+        "7",
         "5",
-        "7"
+        "6",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -808,8 +808,8 @@
       "soru": "Sınıfın penceresine İngilizcede ne denir?",
       "dogruCevap": "Window",
       "secenekler": [
-        "Chair",
         "Window",
+        "Chair",
         "Door",
         "Desk"
       ],
@@ -827,10 +827,10 @@
       "soru": "İngilizcede sınıf kapısına ne isim verilir?",
       "dogruCevap": "Door",
       "secenekler": [
-        "Board",
+        "Bag",
         "Window",
         "Door",
-        "Bag"
+        "Board"
       ],
       "ipucu": "",
       "gorsel": {
@@ -847,9 +847,9 @@
       "dogruCevap": "İki tükenmez kalem",
       "secenekler": [
         "Üç kitap",
-        "İki tükenmez kalem",
+        "Bir silgi",
         "Dört çanta",
-        "Bir silgi"
+        "İki tükenmez kalem"
       ],
       "ipucu": "",
       "gorsel": {
@@ -865,10 +865,10 @@
       "soru": "Bütün bu eşyaların bulunduğu yer olan sınıfımızın İngilizce adı nedir?",
       "dogruCevap": "Classroom",
       "secenekler": [
-        "Garden",
-        "Classroom",
+        "Kitchen",
         "Bedroom",
-        "Kitchen"
+        "Garden",
+        "Classroom"
       ],
       "ipucu": "",
       "gorsel": {
@@ -884,9 +884,9 @@
       "soru": "İngilizce \"Five erasers\" ifadesi neyi anlatır?",
       "dogruCevap": "Beş silgi",
       "secenekler": [
-        "Altı kalem",
         "Üç kitap",
         "Beş silgi",
+        "Altı kalem",
         "Dört çanta"
       ],
       "ipucu": "",
@@ -903,9 +903,9 @@
       "soru": "İngilizcede saymaya başlarken ilk söylediğimiz iki sayı sırasıyla hangileridir?",
       "dogruCevap": "One, Two",
       "secenekler": [
-        "Five, Six",
-        "One, Two",
         "Nine, Ten",
+        "One, Two",
+        "Five, Six",
         "Three, Four"
       ],
       "ipucu": "",
