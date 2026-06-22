@@ -1,10 +1,10 @@
 /** GOREV-TEMA4 — Uzunluk Ölçme, Tartma, Sıvı Ölçme, Zaman (200 görselli soru). */
 
 const KAZANIM = {
-  UZUNLUK: 'MAT.2.4.1',
-  TARTMA: 'MAT.2.4.2',
-  SIVI: 'MAT.2.4.3',
-  ZAMAN: 'MAT.2.4.4',
+  UZUNLUK: 'MAT.2.5.1',
+  TARTMA: 'MAT.2.5.2',
+  SIVI: 'MAT.2.5.3',
+  ZAMAN: 'MAT.2.5.4',
 };
 
 function olc(sahne) {

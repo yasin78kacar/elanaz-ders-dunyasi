@@ -85,7 +85,7 @@ export interface GorselIslem {
 
 export type OlcmeMod = 'uzunluk' | 'tartma' | 'sivi' | 'zaman' | 'anlatim' | 'araclar';
 
-/** Ölçme (Tema 4) — OlcmeGorsel'de tanımlı */
+/** Ölçme (Tema 5) — OlcmeGorsel'de tanımlı */
 export interface GorselOlcme {
   tur: 'olcme';
   mod: OlcmeMod;

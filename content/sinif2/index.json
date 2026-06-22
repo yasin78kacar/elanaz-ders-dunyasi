@@ -92,18 +92,24 @@
           ]
         },
         {
-          "id": "olcme",
-          "baslik": "Tema 4 — Ölçme",
+          "id": "tema-5",
+          "baslik": "Matematik — Tema 5 — Ölçü ve Tartı",
           "konuDosyalari": [
             "matematik/uzunluk-olcme.json",
-            "matematik/tartma.json",
+            "matematik/tartma.json"
+          ]
+        },
+        {
+          "id": "olcme-ek",
+          "baslik": "Ölçme — Sıvı ve Zaman",
+          "konuDosyalari": [
             "matematik/sivi-miktari.json",
             "matematik/zaman.json"
           ]
         },
         {
-          "id": "tema-5",
-          "baslik": "Tema 5 — Veri",
+          "id": "tema-6",
+          "baslik": "Tema 6 — Veri",
           "konuDosyalari": [
             "matematik/tablo-okuma.json",
             "matematik/grafik-okuma.json",
@@ -111,8 +117,8 @@
           ]
         },
         {
-          "id": "tema-6",
-          "baslik": "Tema 6 — Kesirler",
+          "id": "tema-7",
+          "baslik": "Tema 7 — Kesirler",
           "konuDosyalari": [
             "matematik/esit-parcalara-bolme.json",
             "matematik/yarim-ve-ceyrek.json",
@@ -170,14 +176,21 @@
           "id": "tema-2",
           "baslik": "Fen Bilimleri — Tema 2",
           "konuDosyalari": [
+            "fen-bilimleri/bitkiler.json"
+          ]
+        },
+        {
+          "id": "tema-3",
+          "baslik": "Fen Bilimleri — Tema 3",
+          "konuDosyalari": [
             "fen-bilimleri/madde-ve-ozellikleri.json",
             "fen-bilimleri/kuvvet-ve-hareket.json",
             "fen-bilimleri/isik-ve-ses.json"
           ]
         },
         {
-          "id": "tema-3",
-          "baslik": "Fen Bilimleri — Tema 3",
+          "id": "tema-4",
+          "baslik": "Fen Bilimleri — Tema 4",
           "konuDosyalari": [
             "fen-bilimleri/dunya-ve-evren.json",
             "fen-bilimleri/hava-durumu-ve-mevsimler.json",
@@ -195,8 +208,14 @@
           "baslik": "İngilizce — Tema 1",
           "konuDosyalari": [
             "ingilizce/alfabe-ve-renkler.json",
-            "ingilizce/sayilar-ve-sinif-esyalari.json",
             "ingilizce/selamlasma-ve-aile.json"
+          ]
+        },
+        {
+          "id": "tema-2",
+          "baslik": "İngilizce — Tema 2",
+          "konuDosyalari": [
+            "ingilizce/sayilar-ve-sinif-esyalari.json"
           ]
         },
         {

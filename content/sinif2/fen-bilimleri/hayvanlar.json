@@ -413,10 +413,10 @@
       "soru": "Kedinin vücut örtüsü hangisidir?",
       "dogruCevap": "Deri",
       "secenekler": [
+        "Tüy",
         "Deri",
         "Taş",
-        "Pul",
-        "Tüy"
+        "Pul"
       ],
       "ipucu": "",
       "gorsel": {
@@ -434,9 +434,9 @@
       "dogruCevap": "Tüy",
       "secenekler": [
         "Pul",
-        "Tüy",
+        "Deri",
         "Kaya",
-        "Deri"
+        "Tüy"
       ],
       "ipucu": "",
       "gorsel": {
@@ -453,10 +453,10 @@
       "soru": "Balığın vücut örtüsü hangisidir?",
       "dogruCevap": "Pul",
       "secenekler": [
+        "Tüy",
         "Kürk",
-        "Pul",
         "Deri",
-        "Tüy"
+        "Pul"
       ],
       "ipucu": "",
       "gorsel": {
@@ -473,10 +473,10 @@
       "soru": "Kedi hangi ortamda yaşar?",
       "dogruCevap": "Kara",
       "secenekler": [
-        "Uzay",
-        "Kara",
         "Hava",
-        "Su"
+        "Su",
+        "Kara",
+        "Uzay"
       ],
       "ipucu": "",
       "gorsel": {
@@ -493,10 +493,10 @@
       "soru": "Balık hangi ortamda yaşar?",
       "dogruCevap": "Su",
       "secenekler": [
-        "Toprak",
         "Hava",
+        "Su",
         "Kara",
-        "Su"
+        "Toprak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -513,8 +513,8 @@
       "soru": "Kuş en çok hangi ortamda hareket eder?",
       "dogruCevap": "Hava",
       "secenekler": [
-        "Hava",
         "Su",
+        "Hava",
         "Toprak",
         "Mağara"
       ],
@@ -534,8 +534,8 @@
       "dogruCevap": "Yürür",
       "secenekler": [
         "Yüzer",
-        "Sürünür",
         "Uçar",
+        "Sürünür",
         "Yürür"
       ],
       "ipucu": "",
@@ -553,9 +553,9 @@
       "soru": "🎭 Yürüyen her hayvan memeli midir?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Sadece köpekler",
         "Evet",
         "Sadece kediler",
+        "Sadece köpekler",
         "Hayır"
       ],
       "ipucu": "Kaplumbağa da yürür ama memeli değildir!",
@@ -574,10 +574,10 @@
       "soru": "Kuş nasıl hareket eder?",
       "dogruCevap": "Uçar",
       "secenekler": [
-        "Sürünür",
+        "Yüzer",
         "Uçar",
         "Zıplar",
-        "Yüzer"
+        "Sürünür"
       ],
       "ipucu": "",
       "gorsel": {
@@ -596,8 +596,8 @@
       "secenekler": [
         "Uçar",
         "Yüzer",
-        "Tırmanır",
-        "Yürür"
+        "Yürür",
+        "Tırmanır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -614,10 +614,10 @@
       "soru": "Kedi hangi hayvan grubundadır?",
       "dogruCevap": "Memeli",
       "secenekler": [
-        "Balık",
-        "Memeli",
         "Böcek",
-        "Kuş"
+        "Memeli",
+        "Kuş",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -634,10 +634,10 @@
       "soru": "Ördek hangi hayvan grubundadır?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Böcek",
-        "Kuş",
         "Memeli",
-        "Balık"
+        "Balık",
+        "Kuş",
+        "Böcek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -656,8 +656,8 @@
       "secenekler": [
         "Memeli",
         "Kuş",
-        "Balık",
-        "Böcek"
+        "Böcek",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -674,10 +674,10 @@
       "soru": "İnek hangi hayvan grubundadır?",
       "dogruCevap": "Memeli",
       "secenekler": [
-        "Balık",
+        "Kuş",
         "Memeli",
-        "Böcek",
-        "Kuş"
+        "Balık",
+        "Böcek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -694,8 +694,8 @@
       "soru": "Yılan nasıl hareket eder?",
       "dogruCevap": "Sürünür",
       "secenekler": [
-        "Yüzer",
         "Koşar",
+        "Yüzer",
         "Uçar",
         "Sürünür"
       ],
@@ -714,8 +714,8 @@
       "soru": "🎭 Tüy örtüsü olan hayvan hangisidir?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Kuş",
         "Kedi",
+        "Kuş",
         "Balık",
         "Kurbağa"
       ],
@@ -737,8 +737,8 @@
       "secenekler": [
         "Arı",
         "Kedi",
-        "Kuş",
-        "Balık"
+        "Balık",
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -776,9 +776,9 @@
       "dogruCevap": "Böcek",
       "secenekler": [
         "Balık",
-        "Kuş",
         "Memeli",
-        "Böcek"
+        "Böcek",
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -795,9 +795,9 @@
       "soru": "🎭 Balık karada mı yaşar?",
       "dogruCevap": "Hayır, suda yaşar",
       "secenekler": [
-        "Toprakta",
         "Hayır, suda yaşar",
         "Evet, karada",
+        "Toprakta",
         "Hem karada hem havada"
       ],
       "ipucu": "Balıklar solungaçlarıyla suda yaşar!",
@@ -816,10 +816,10 @@
       "soru": "Kaplumbağa nasıl hareket eder?",
       "dogruCevap": "Yürür",
       "secenekler": [
-        "Yürür",
+        "Uçar",
         "Sürünür",
         "Yüzer",
-        "Uçar"
+        "Yürür"
       ],
       "ipucu": "",
       "gorsel": {
@@ -856,10 +856,10 @@
       "soru": "Hayvanlar beslenir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Sadece taşlar",
         "Sadece bitkiler",
-        "Evet"
+        "Hayır",
+        "Evet",
+        "Sadece taşlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -875,10 +875,10 @@
       "soru": "🎭 Ördek hem yüzer hem uçar. Hangi gruptadır?",
       "dogruCevap": "Kuş",
       "secenekler": [
+        "Böcek",
         "Balık",
-        "Kuş",
         "Memeli",
-        "Böcek"
+        "Kuş"
       ],
       "ipucu": "Ördek bir kuştur!",
       "gorsel": {
@@ -897,9 +897,9 @@
       "dogruCevap": "Evet, memelilerde tüy veya kıl olabilir",
       "secenekler": [
         "Hayır, hiç tüy yok",
+        "Sadece kuşlarda tüy var",
         "Evet, memelilerde tüy veya kıl olabilir",
-        "Sadece balıklarda tüy var",
-        "Sadece kuşlarda tüy var"
+        "Sadece balıklarda tüy var"
       ],
       "ipucu": "Kedi memelidir, vücudunda tüy bulunur!",
       "gorsel": {

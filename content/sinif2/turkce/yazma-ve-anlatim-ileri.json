@@ -424,10 +424,10 @@
       "soru": "Mektupta hangi bölüm en başta gelir?",
       "dogruCevap": "Tarih ve selamlama",
       "secenekler": [
-        "Kapanış",
-        "İmza",
+        "Tarih ve selamlama",
         "Gövde",
-        "Tarih ve selamlama"
+        "Kapanış",
+        "İmza"
       ],
       "ipucu": "",
       "gorsel": {
@@ -444,10 +444,10 @@
       "soru": "Günlük nedir?",
       "dogruCevap": "Her günü nasıl geçirdiğimizi yazdığımız kişisel defter",
       "secenekler": [
-        "Ders notu",
-        "Günlük haber gazetesi",
         "Her günü nasıl geçirdiğimizi yazdığımız kişisel defter",
-        "Alışveriş listesi"
+        "Alışveriş listesi",
+        "Günlük haber gazetesi",
+        "Ders notu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -464,10 +464,10 @@
       "soru": "Şiirde kafiye ne demektir?",
       "dogruCevap": "Dizelerin sonundaki benzer sesler",
       "secenekler": [
-        "Şiirin başlığı",
         "Dizelerin sonundaki benzer sesler",
         "Şiirin uzunluğu",
-        "Şiirin konusu"
+        "Şiirin konusu",
+        "Şiirin başlığı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -484,10 +484,10 @@
       "soru": "Mektup nasıl bitirilir?",
       "dogruCevap": "Kapanış ifadesi ve imza ile",
       "secenekler": [
-        "Selamlama ile",
-        "Nokta ile",
         "Tarih ile",
-        "Kapanış ifadesi ve imza ile"
+        "Selamlama ile",
+        "Kapanış ifadesi ve imza ile",
+        "Nokta ile"
       ],
       "ipucu": "",
       "gorsel": {
@@ -504,8 +504,8 @@
       "soru": "Günlüğe hangi bilgi en başta yazılır?",
       "dogruCevap": "Tarih",
       "secenekler": [
-        "Selamlama",
         "İmza",
+        "Selamlama",
         "Tarih",
         "Konu"
       ],
@@ -524,10 +524,10 @@
       "soru": "\"Güneş güldü\" ifadesinde ne var?",
       "dogruCevap": "Kişileştirme",
       "secenekler": [
-        "Gerçek bilgi",
         "Atasözü",
-        "Kişileştirme",
-        "Kafiye"
+        "Kafiye",
+        "Gerçek bilgi",
+        "Kişileştirme"
       ],
       "ipucu": "",
       "gorsel": {
@@ -544,10 +544,10 @@
       "soru": "Mektup ile günlük arasındaki fark nedir?",
       "dogruCevap": "Mektup birine yazılır, günlük kişisel",
       "secenekler": [
+        "Günlük daha uzundur",
         "Mektup birine yazılır, günlük kişisel",
         "İkisi de aynı",
-        "Fark yok",
-        "Günlük daha uzundur"
+        "Fark yok"
       ],
       "ipucu": "",
       "gorsel": {
@@ -565,10 +565,10 @@
       "soru": "Şiirde benzetme neden kullanılır?",
       "dogruCevap": "Anlatımı güzelleştirmek için",
       "secenekler": [
-        "Konu değiştirmek için",
         "Şiiri uzatmak için",
+        "Kafiye oluşturmak için",
         "Anlatımı güzelleştirmek için",
-        "Kafiye oluşturmak için"
+        "Konu değiştirmek için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -585,10 +585,10 @@
       "soru": "\"Sevgili Ayşe,\" ifadesi mektubun hangi bölümüdür?",
       "dogruCevap": "Selamlama",
       "secenekler": [
-        "Kapanış",
+        "Gövde",
         "İmza",
         "Selamlama",
-        "Gövde"
+        "Kapanış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -605,10 +605,10 @@
       "soru": "Günlük neden kişiseldir?",
       "dogruCevap": "Sadece bize ait duygu ve düşünceler içerir",
       "secenekler": [
-        "Çünkü kimse okumaz",
+        "Sadece bize ait duygu ve düşünceler içerir",
         "Çünkü gizli bir dilde yazılır",
         "Çünkü çok uzundur",
-        "Sadece bize ait duygu ve düşünceler içerir"
+        "Çünkü kimse okumaz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -626,10 +626,10 @@
       "soru": "Şiirde kıta nedir?",
       "dogruCevap": "Birkaç dizenin oluşturduğu grup",
       "secenekler": [
-        "Birkaç dizenin oluşturduğu grup",
+        "Kafiye çifti",
         "Şiirin başlığı",
-        "Tek bir dize",
-        "Kafiye çifti"
+        "Birkaç dizenin oluşturduğu grup",
+        "Tek bir dize"
       ],
       "ipucu": "",
       "gorsel": {
@@ -646,8 +646,8 @@
       "soru": "Mektupta tarih neden yazılır?",
       "dogruCevap": "Ne zaman yazıldığını göstermek için",
       "secenekler": [
-        "Posta için",
         "Zorunlu olduğu için",
+        "Posta için",
         "Ne zaman yazıldığını göstermek için",
         "Güzel görünsün diye"
       ],
@@ -666,10 +666,10 @@
       "soru": "\"Yağmur gökyüzünün gözyaşı\" ifadesinde ne var?",
       "dogruCevap": "Benzetme",
       "secenekler": [
+        "Deyim",
         "Atasözü",
         "Kafiye",
-        "Benzetme",
-        "Deyim"
+        "Benzetme"
       ],
       "ipucu": "",
       "gorsel": {
@@ -687,10 +687,10 @@
       "soru": "Şiir yazarken en önemli şey nedir?",
       "dogruCevap": "Duygu ve düşüncelerimizi özgünce ifade etmek",
       "secenekler": [
-        "Duygu ve düşüncelerimizi özgünce ifade etmek",
-        "Hep kafiye kullanmak",
         "Başkasının şiirini kopyalamak",
-        "Çok uzun yazmak"
+        "Çok uzun yazmak",
+        "Hep kafiye kullanmak",
+        "Duygu ve düşüncelerimizi özgünce ifade etmek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -708,9 +708,9 @@
       "dogruCevap": "Birine düşünce ve duygularımızı iletmek için",
       "secenekler": [
         "Not almak için",
-        "Hikâye anlatmak için",
+        "Birine düşünce ve duygularımızı iletmek için",
         "Alışveriş için",
-        "Birine düşünce ve duygularımızı iletmek için"
+        "Hikâye anlatmak için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -728,9 +728,9 @@
       "dogruCevap": "Geçmiş zaman",
       "secenekler": [
         "Gelecek zaman",
-        "Geniş zaman",
+        "Geçmiş zaman",
         "Şimdiki zaman",
-        "Geçmiş zaman"
+        "Geniş zaman"
       ],
       "ipucu": "",
       "gorsel": {
@@ -749,9 +749,9 @@
       "dogruCevap": "Güneş doğdu parlayarak / Kuşlar uçtu şakıyarak",
       "secenekler": [
         "Ali koştu, Ayşe yürüdü",
-        "Hava güzel, top oynadım",
+        "Okula gittim, ders çalıştım",
         "Güneş doğdu parlayarak / Kuşlar uçtu şakıyarak",
-        "Okula gittim, ders çalıştım"
+        "Hava güzel, top oynadım"
       ],
       "ipucu": "",
       "gorsel": {
@@ -768,10 +768,10 @@
       "soru": "Mektup ile mesajın farkı nedir?",
       "dogruCevap": "Mektup daha uzun ve resmi, mesaj kısa ve hızlı",
       "secenekler": [
-        "Mektup yazılı, mesaj sözlü",
-        "Fark yok",
         "İkisi de aynı uzunlukta",
-        "Mektup daha uzun ve resmi, mesaj kısa ve hızlı"
+        "Mektup yazılı, mesaj sözlü",
+        "Mektup daha uzun ve resmi, mesaj kısa ve hızlı",
+        "Fark yok"
       ],
       "ipucu": "",
       "gorsel": {
@@ -788,10 +788,10 @@
       "soru": "Şiirde ritim ne işe yarar?",
       "dogruCevap": "Şiiri müzikal ve akıcı yapar",
       "secenekler": [
-        "Şiiri uzatır",
         "Kafiye oluşturur",
-        "Şiiri müzikal ve akıcı yapar",
-        "Anlam değiştirir"
+        "Anlam değiştirir",
+        "Şiiri uzatır",
+        "Şiiri müzikal ve akıcı yapar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -809,10 +809,10 @@
       "soru": "Günlük ne zaman yazılır?",
       "dogruCevap": "O günün yaşananlarını o gün veya gece",
       "secenekler": [
+        "Sadece özel günlerde",
         "Ayda bir",
-        "Hafta sonları",
         "O günün yaşananlarını o gün veya gece",
-        "Sadece özel günlerde"
+        "Hafta sonları"
       ],
       "ipucu": "",
       "gorsel": {
@@ -829,10 +829,10 @@
       "soru": "Kişileştirme nedir?",
       "dogruCevap": "Cansız varlıklara insan özellikleri vermek",
       "secenekler": [
-        "Benzetme yapmak",
-        "İsim vermek",
         "Bir kişiyi tanıtmak",
-        "Cansız varlıklara insan özellikleri vermek"
+        "Cansız varlıklara insan özellikleri vermek",
+        "Benzetme yapmak",
+        "İsim vermek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -870,10 +870,10 @@
       "soru": "Şiirde benzetme nasıl yapılır?",
       "dogruCevap": "\"Gibi, sanki, tıpkı\" gibi sözcüklerle",
       "secenekler": [
-        "\"Gibi, sanki, tıpkı\" gibi sözcüklerle",
+        "Kafiye kurarak",
         "Uzun cümleler yazarak",
         "Konuyu anlatarak",
-        "Kafiye kurarak"
+        "\"Gibi, sanki, tıpkı\" gibi sözcüklerle"
       ],
       "ipucu": "",
       "gorsel": {
@@ -890,9 +890,9 @@
       "soru": "Hangisi yaratıcı yazma türüdür?",
       "dogruCevap": "Hikâye yazma",
       "secenekler": [
-        "Hikâye yazma",
         "Alışveriş listesi",
         "Telefon numarası",
+        "Hikâye yazma",
         "Tarih listesi"
       ],
       "ipucu": "",
@@ -912,9 +912,9 @@
       "dogruCevap": "Yazarın duygularını içtenlikle yansıtması",
       "secenekler": [
         "Yazarın duygularını içtenlikle yansıtması",
-        "Hep aynı konuda olması",
+        "Çok uzun olması",
         "Resimsiz olması",
-        "Çok uzun olması"
+        "Hep aynı konuda olması"
       ],
       "ipucu": "",
       "gorsel": {

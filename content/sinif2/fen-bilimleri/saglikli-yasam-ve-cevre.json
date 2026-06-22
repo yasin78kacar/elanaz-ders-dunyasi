@@ -474,10 +474,10 @@
       "soru": "Dişlerimizi günde kaç kez fırçalamalıyız?",
       "dogruCevap": "Günde en az iki kez",
       "secenekler": [
-        "Sadece ağrıyınca",
         "Günde en az iki kez",
+        "Hiç",
         "Ayda bir",
-        "Hiç"
+        "Sadece ağrıyınca"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -495,9 +495,9 @@
       "dogruCevap": "Elma ve havuç",
       "secenekler": [
         "Çok cips",
-        "Hazır şekerlemeler",
+        "Elma ve havuç",
         "Asitli içecekler",
-        "Elma ve havuç"
+        "Hazır şekerlemeler"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -514,8 +514,8 @@
       "soru": "Ellerimizi ne zaman yıkamalıyız?",
       "dogruCevap": "Yemeklerden önce, sonra ve tuvaletten çıkınca",
       "secenekler": [
-        "Sadece banyoda",
         "Yemeklerden önce, sonra ve tuvaletten çıkınca",
+        "Sadece banyoda",
         "Haftada bir",
         "Sadece çamurluysa"
       ],
@@ -534,10 +534,10 @@
       "soru": "Kemik ve kasların güçlenmesi için ne yapmalıyız?",
       "dogruCevap": "Düzenli spor yapmalıyız",
       "secenekler": [
-        "Sadece TV izlemeliyiz",
-        "Sürekli uyumalıyız",
+        "Bilgisayar oynamalıyız",
         "Düzenli spor yapmalıyız",
-        "Bilgisayar oynamalıyız"
+        "Sadece TV izlemeliyiz",
+        "Sürekli uyumalıyız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -555,9 +555,9 @@
       "dogruCevap": "Erken yatıp yeterli uyku",
       "secenekler": [
         "Çok yemek",
-        "Geç saate kadar TV",
         "Çok şeker",
-        "Erken yatıp yeterli uyku"
+        "Erken yatıp yeterli uyku",
+        "Geç saate kadar TV"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -576,8 +576,8 @@
       "secenekler": [
         "Ormana",
         "Denize",
-        "Sokağa",
-        "Geri dönüşüm kutularına"
+        "Geri dönüşüm kutularına",
+        "Sokağa"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -594,10 +594,10 @@
       "soru": "Çevreyi temiz tutmak için ne yapmalıyız?",
       "dogruCevap": "Çöpleri çöp kutusuna atmak",
       "secenekler": [
-        "Parka bırakmak",
         "Pencereden atmak",
         "Çöpleri yere atmak",
-        "Çöpleri çöp kutusuna atmak"
+        "Çöpleri çöp kutusuna atmak",
+        "Parka bırakmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -614,8 +614,8 @@
       "soru": "Hapşırırken ne yapmalıyız?",
       "dogruCevap": "Mendil veya kolumuzla ağzı kapatmak",
       "secenekler": [
-        "Mendil veya kolumuzla ağzı kapatmak",
         "Hiçbir şey",
+        "Mendil veya kolumuzla ağzı kapatmak",
         "Bağırmak",
         "Yüzlere hapşırmak"
       ],
@@ -635,9 +635,9 @@
       "dogruCevap": "Düzenli kesmeliyiz",
       "secenekler": [
         "Düzenli kesmeliyiz",
-        "Boyamalıyız",
+        "Çok uzatmalıyız",
         "Dişle koparmalıyız",
-        "Çok uzatmalıyız"
+        "Boyamalıyız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -655,9 +655,9 @@
       "dogruCevap": "Düzenli banyo yapmak",
       "secenekler": [
         "Sadece yüz yıkamak",
-        "Islak mendil kullanmak",
         "Düzenli banyo yapmak",
-        "Parfüm sıkmak"
+        "Parfüm sıkmak",
+        "Islak mendil kullanmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -675,8 +675,8 @@
       "dogruCevap": "Gözler",
       "secenekler": [
         "Kulaklar",
-        "Burun",
         "Mide",
+        "Burun",
         "Gözler"
       ],
       "ipucu": "",
@@ -694,10 +694,10 @@
       "soru": "Kemik ve dişleri güçlendiren içecek nedir?",
       "dogruCevap": "Süt",
       "secenekler": [
+        "Gazoz",
         "Kahve",
-        "Süt",
         "Asitli içecek",
-        "Gazoz"
+        "Süt"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -714,10 +714,10 @@
       "soru": "Doğayı korumak için en güzel davranış nedir?",
       "dogruCevap": "Fidan dikmek",
       "secenekler": [
-        "Çimleri ezmek",
+        "Fidan dikmek",
         "Dal kırmak",
-        "Çiçek koparmak",
-        "Fidan dikmek"
+        "Çimleri ezmek",
+        "Çiçek koparmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -736,8 +736,8 @@
       "secenekler": [
         "Su temizlenir",
         "Su israfı yaparız",
-        "Mikroplar kaçar",
-        "Elektrik üretiriz"
+        "Elektrik üretiriz",
+        "Mikroplar kaçar"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -754,10 +754,10 @@
       "soru": "Hastalanınca kime gidmeliyiz?",
       "dogruCevap": "Doktora",
       "secenekler": [
-        "İtfaiyeciye",
         "Polise",
+        "Öğretmene",
         "Doktora",
-        "Öğretmene"
+        "İtfaiyeciye"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -775,8 +775,8 @@
       "dogruCevap": "Banyo ve temiz kıyafet",
       "secenekler": [
         "Banyo ve temiz kıyafet",
-        "Çöp bırakmak",
         "Odayı dağıtmak",
+        "Çöp bırakmak",
         "Çamurlu ayakkabı ile eve girmek"
       ],
       "ipucu": "",
@@ -794,10 +794,10 @@
       "soru": "Çok şeker ve cips tüketmek neye neden olur?",
       "dogruCevap": "Diş çürümesi ve hastalık",
       "secenekler": [
-        "Güçlü olmak",
         "Zeka artışı",
         "Boy uzaması",
-        "Diş çürümesi ve hastalık"
+        "Diş çürümesi ve hastalık",
+        "Güçlü olmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -814,10 +814,10 @@
       "soru": "Seksek ve ip atlamak ne tür etkinliktir?",
       "dogruCevap": "Fiziksel aktivite",
       "secenekler": [
-        "Fiziksel aktivite",
-        "Zeka oyunu",
+        "Bilgisayar oyunu",
         "Tembellik",
-        "Bilgisayar oyunu"
+        "Fiziksel aktivite",
+        "Zeka oyunu"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -834,10 +834,10 @@
       "soru": "Güne enerjik başlamak için ne yapmalıyız?",
       "dogruCevap": "Sağlıklı kahvaltı yapmak",
       "secenekler": [
-        "Hiç yemeden gitmek",
         "Sadece çikolata yemek",
+        "Sağlıklı kahvaltı yapmak",
         "Hemen uyumak",
-        "Sağlıklı kahvaltı yapmak"
+        "Hiç yemeden gitmek"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -855,9 +855,9 @@
       "dogruCevap": "Sevgiyle yaklaşıp su ve mama koymak",
       "secenekler": [
         "Zarar vermek",
-        "Sevgiyle yaklaşıp su ve mama koymak",
+        "Görmezden gelmek",
         "Rahatsız etmek",
-        "Görmezden gelmek"
+        "Sevgiyle yaklaşıp su ve mama koymak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -874,10 +874,10 @@
       "soru": "Meyve ve sebzeleri yemeden önce ne yapmalıyız?",
       "dogruCevap": "Bol suyla yıkamak",
       "secenekler": [
-        "Bol suyla yıkamak",
-        "Peçeteyle silmek",
         "Hemen yemek",
-        "Güneşte bekletmek"
+        "Peçeteyle silmek",
+        "Güneşte bekletmek",
+        "Bol suyla yıkamak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -894,10 +894,10 @@
       "soru": "Bol ağaçlı ve yeşillik alanlara ne denir?",
       "dogruCevap": "Orman",
       "secenekler": [
-        "Orman",
-        "Otopark",
         "Çöl",
-        "Otoban"
+        "Orman",
+        "Otoban",
+        "Otopark"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -914,10 +914,10 @@
       "soru": "Odamız güneş alıyorken ne yapmalıyız?",
       "dogruCevap": "Gereksiz lambaları kapatmak",
       "secenekler": [
-        "Gereksiz lambaları kapatmak",
-        "Perde kapatıp lamba yakmak",
         "El feneri kullanmak",
-        "Tüm lambaları açmak"
+        "Tüm lambaları açmak",
+        "Gereksiz lambaları kapatmak",
+        "Perde kapatıp lamba yakmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -934,10 +934,10 @@
       "soru": "En temel içeceğimiz nedir?",
       "dogruCevap": "Temiz su",
       "secenekler": [
-        "Asitli içecek",
-        "Temiz su",
         "Soğuk çay",
-        "Limonata"
+        "Asitli içecek",
+        "Limonata",
+        "Temiz su"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -954,10 +954,10 @@
       "soru": "Sağlıklı ve temiz yaşayan çocuk etrafına ne verir?",
       "dogruCevap": "Neşe ve mutluluk",
       "secenekler": [
-        "Mutsuzluk",
+        "Neşe ve mutluluk",
         "Şikayet",
         "Üzüntü",
-        "Neşe ve mutluluk"
+        "Mutsuzluk"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",

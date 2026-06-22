@@ -388,6 +388,380 @@
         "mod": "bitki",
         "vurgu": "meyve"
       }
+    },
+    {
+      "id": "bt-a26",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Gül bir bitki midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "bt-a27",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Çam ağacı bitki midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-a28",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Domates bitkiden mi gelir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-a29",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Kök bitkiye su taşır mı?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "kök"
+      }
+    },
+    {
+      "id": "bt-a30",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Yapraklar hangi renkte olur?",
+      "dogruCevap": "Yeşil",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "yaprak"
+      }
+    },
+    {
+      "id": "bt-a31",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Çiçek bitkinin hangi parçasıdır?",
+      "dogruCevap": "Üreme parçası",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "çiçek"
+      }
+    },
+    {
+      "id": "bt-a32",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Meyve içinde ne bulunur?",
+      "dogruCevap": "Tohum",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "meyve"
+      }
+    },
+    {
+      "id": "bt-a33",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Bitkiler güneş ışığından enerji alır mı?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "bt-a34",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Fasulye bitki midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-a35",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Kaktüs de bir bitkidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      },
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ]
+    },
+    {
+      "id": "bt-a36",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Gövde bitkiyi yerden yükseltir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "gövde"
+      },
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ]
+    },
+    {
+      "id": "bt-a37",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Bitkiler ölür mü?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-a38",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Tohum ekilince ne olur?",
+      "dogruCevap": "Filiz çıkar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "toprak"
+      }
+    },
+    {
+      "id": "bt-a39",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Ormanlardaki ağaçlar bitki midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-a40",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Lale bir çiçek midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "bt-a41",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Bitkiler hava almadan yaşayabilir mi?",
+      "dogruCevap": "Hayır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "cicek",
+          "su",
+          "gunes",
+          "toprak"
+        ]
+      }
+    },
+    {
+      "id": "bt-a42",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Patates bitkiden mi gelir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-a43",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Çilek meyve midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve"
+      }
+    },
+    {
+      "id": "bt-a44",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Bitkilerin ihtiyaçlarından üçünü yaz",
+      "dogruCevap": "Su, güneş, toprak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "su",
+          "gunes",
+          "toprak"
+        ]
+      }
+    },
+    {
+      "id": "bt-a45",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Kiraz ağacı bitki midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-a46",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Yapraklar fotosentez yapar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "yaprak"
+      },
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ]
+    },
+    {
+      "id": "bt-a47",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Kök toprak altında mı bulunur?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "kök"
+      }
+    },
+    {
+      "id": "bt-a48",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Muz bitkiden mi gelir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve"
+      }
+    },
+    {
+      "id": "bt-a49",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Bitkiler ürer mi?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "çiçek"
+      }
+    },
+    {
+      "id": "bt-a50",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "yazili",
+      "soru": "Salatalık sebze midir?",
+      "dogruCevap": "Evet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
     }
   ],
   "test": [
@@ -398,9 +772,9 @@
       "soru": "Bitkinin toprağa tutunan kısmı hangisidir?",
       "dogruCevap": "Kök",
       "secenekler": [
-        "Yaprak",
-        "Kök",
         "Meyve",
+        "Kök",
+        "Yaprak",
         "Çiçek"
       ],
       "ipucu": "",
@@ -417,10 +791,10 @@
       "soru": "Bitkinin gövdesi ne işe yarar?",
       "dogruCevap": "Bitkiyi yükseltir",
       "secenekler": [
-        "Tohum üretir",
-        "Bitkiyi yükseltir",
         "Su içer",
-        "Güneşi tutar"
+        "Güneşi tutar",
+        "Bitkiyi yükseltir",
+        "Tohum üretir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -455,10 +829,10 @@
       "soru": "Bitkinin renkli üreme kısmı hangisidir?",
       "dogruCevap": "Çiçek",
       "secenekler": [
-        "Kabuk",
+        "Kök",
         "Gövde",
-        "Çiçek",
-        "Kök"
+        "Kabuk",
+        "Çiçek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -474,9 +848,9 @@
       "soru": "Tohumları koruyan bitki parçası hangisidir?",
       "dogruCevap": "Meyve",
       "secenekler": [
+        "Dal",
         "Meyve",
         "Yaprak",
-        "Dal",
         "Kök"
       ],
       "ipucu": "",
@@ -493,10 +867,10 @@
       "soru": "Bitkilerin yaşaması için hangisi gereklidir?",
       "dogruCevap": "Su",
       "secenekler": [
+        "Su",
         "Taş",
-        "Araba",
         "Kalem",
-        "Su"
+        "Araba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -512,10 +886,10 @@
       "soru": "Bitkilerin büyümesi için hangisi gereklidir?",
       "dogruCevap": "Güneş",
       "secenekler": [
-        "Ay",
-        "Kar",
         "Rüzgâr",
-        "Güneş"
+        "Kar",
+        "Güneş",
+        "Ay"
       ],
       "ipucu": "",
       "gorsel": {
@@ -532,9 +906,9 @@
       "dogruCevap": "Sağlıklı büyüyemez",
       "secenekler": [
         "Meyve verir",
-        "Çok hızlı büyür",
         "Hiç etkilenmez",
-        "Sağlıklı büyüyemez"
+        "Sağlıklı büyüyemez",
+        "Çok hızlı büyür"
       ],
       "ipucu": "Bitkiler hem su hem güneş ister!",
       "gorsel": {
@@ -559,10 +933,10 @@
       "soru": "Bitkilerin yaşaması için toprak gerekli midir?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Sadece ağaçlar için",
         "Hayır",
         "Evet",
-        "Sadece çiçekler için",
-        "Sadece ağaçlar için"
+        "Sadece çiçekler için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -580,8 +954,8 @@
       "secenekler": [
         "Sadece yazın",
         "Evet",
-        "Hayır",
-        "Sadece kök için"
+        "Sadece kök için",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -602,10 +976,10 @@
       "soru": "Ağaç bitki midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece ormanda",
-        "Sadece meyve verince",
         "Evet",
-        "Hayır"
+        "Sadece meyve verince",
+        "Hayır",
+        "Sadece ormanda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -621,10 +995,10 @@
       "soru": "Elma nereden gelir?",
       "dogruCevap": "Bitkiden",
       "secenekler": [
-        "Bitkiden",
         "Hayvandan",
+        "Taştan",
         "Sudan",
-        "Taştan"
+        "Bitkiden"
       ],
       "ipucu": "",
       "gorsel": {
@@ -640,10 +1014,10 @@
       "soru": "Havuç hangi canlı grubundadır?",
       "dogruCevap": "Bitki",
       "secenekler": [
+        "Araba",
         "Taş",
-        "Hayvan",
         "Bitki",
-        "Araba"
+        "Hayvan"
       ],
       "ipucu": "",
       "gorsel": {
@@ -660,9 +1034,9 @@
       "dogruCevap": "Meyve",
       "secenekler": [
         "Taş",
-        "Meyve",
         "Kalem",
-        "Kök"
+        "Kök",
+        "Meyve"
       ],
       "ipucu": "",
       "gorsel": {
@@ -678,10 +1052,10 @@
       "soru": "Yapraklar genellikle hangi renktedir?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Kırmızı",
-        "Mavi",
+        "Siyah",
         "Yeşil",
-        "Siyah"
+        "Mavi",
+        "Kırmızı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -697,10 +1071,10 @@
       "soru": "🎭 Kökün görevi nedir?",
       "dogruCevap": "Toprağa tutunmak ve su almak",
       "secenekler": [
-        "Güneşi yakalamak",
-        "Tohum üretmek",
         "Toprağa tutunmak ve su almak",
-        "Uçmak"
+        "Tohum üretmek",
+        "Uçmak",
+        "Güneşi yakalamak"
       ],
       "ipucu": "Kök yerin altındadır!",
       "gorsel": {
@@ -717,10 +1091,10 @@
       "soru": "Bitki büyür mü?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Sadece kışın",
         "Hayır",
         "Evet",
-        "Sadece meyve verince",
-        "Sadece kışın"
+        "Sadece meyve verince"
       ],
       "ipucu": "",
       "gorsel": {
@@ -736,9 +1110,9 @@
       "soru": "Susuz bırakılan bitki ne olur?",
       "dogruCevap": "Solar",
       "secenekler": [
-        "Uçar",
-        "Solar",
         "Büyür",
+        "Solar",
+        "Uçar",
         "Konuşur"
       ],
       "ipucu": "",
@@ -755,9 +1129,9 @@
       "soru": "Bitkinin beş ana parçasından biri hangisidir?",
       "dogruCevap": "Gövde",
       "secenekler": [
+        "Kanat",
         "Pul",
         "Tekerlek",
-        "Kanat",
         "Gövde"
       ],
       "ipucu": "",
@@ -793,10 +1167,10 @@
       "soru": "Bitkiler beslenir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
         "Sadece insanlar",
-        "Hayır",
-        "Sadece hayvanlar"
+        "Sadece hayvanlar",
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -812,10 +1186,10 @@
       "soru": "Bitkiler solur mu?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece kuşlar",
         "Sadece balıklar",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Sadece kuşlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -831,10 +1205,10 @@
       "soru": "Bitkilerin ihtiyaçlarından biri değildir?",
       "dogruCevap": "Araba",
       "secenekler": [
-        "Araba",
-        "Su",
         "Toprak",
-        "Güneş"
+        "Güneş",
+        "Su",
+        "Araba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -856,10 +1230,10 @@
       "soru": "🎭 Çiçeği olmayan bitki canlı olamaz mı?",
       "dogruCevap": "Olabilir, çiçeği olmayabilir",
       "secenekler": [
-        "Hayır, çiçeksiz olamaz",
         "Evet, çiçek şart",
         "Olabilir, çiçeği olmayabilir",
-        "Sadece ağaçlar çiçeksiz"
+        "Sadece ağaçlar çiçeksiz",
+        "Hayır, çiçeksiz olamaz"
       ],
       "ipucu": "Bazı bitkilerin çiçeği görülmez!",
       "gorsel": {
@@ -876,9 +1250,9 @@
       "soru": "🎭 Bitki toprakta mı hava da mı yaşar?",
       "dogruCevap": "Toprakta",
       "secenekler": [
-        "Suda",
-        "Taşta",
         "Havada",
+        "Taşta",
+        "Suda",
         "Toprakta"
       ],
       "ipucu": "Bitkiler kökleriyle toprakta tutunur!",
@@ -888,6 +1262,493 @@
         "nesne": "agac"
       },
       "sasirtma": true
+    },
+    {
+      "id": "bt-t26",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gül hangi canlı grubundadır?",
+      "dogruCevap": "Bitki",
+      "secenekler": [
+        "Taş",
+        "Bitki",
+        "Araba",
+        "Hayvan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "bt-t27",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çam ağacı hangi gruptadır?",
+      "dogruCevap": "Bitki",
+      "secenekler": [
+        "Böcek",
+        "Balık",
+        "Bitki",
+        "Kuş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-t28",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Domates nereden gelir?",
+      "dogruCevap": "Bitkiden",
+      "secenekler": [
+        "Bitkiden",
+        "Sudan",
+        "Hayvandan",
+        "Taştan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-t29",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kökün görevi nedir?",
+      "dogruCevap": "Toprağa tutunmak",
+      "secenekler": [
+        "Yüzmek",
+        "Toprağa tutunmak",
+        "Güneşi tutmak",
+        "Uçmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "kök"
+      }
+    },
+    {
+      "id": "bt-t30",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yapraklar genelde hangi renktedir?",
+      "dogruCevap": "Yeşil",
+      "secenekler": [
+        "Mavi",
+        "Sarı",
+        "Mor",
+        "Yeşil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "yaprak"
+      }
+    },
+    {
+      "id": "bt-t31",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çiçeğin görevi nedir?",
+      "dogruCevap": "Üremek",
+      "secenekler": [
+        "Yüzmek",
+        "Üremek",
+        "Parlamak",
+        "Uçmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "çiçek"
+      }
+    },
+    {
+      "id": "bt-t32",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Meyvenin içinde genelde ne bulunur?",
+      "dogruCevap": "Tohum",
+      "secenekler": [
+        "Kalem",
+        "Su",
+        "Taş",
+        "Tohum"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "meyve"
+      }
+    },
+    {
+      "id": "bt-t33",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bitkiler enerjiyi nereden alır?",
+      "dogruCevap": "Güneşten",
+      "secenekler": [
+        "Karanlıktan",
+        "Ay'dan",
+        "Güneşten",
+        "Taştan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "bt-t34",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Fasulye hangi gruptadır?",
+      "dogruCevap": "Bitki",
+      "secenekler": [
+        "Memeli",
+        "Bitki",
+        "Kuş",
+        "Balık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-t35",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kaktüs bitki midir?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Sadece çölde",
+        "Hayır",
+        "Sadece yazın",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "bt-t36",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gövdenin görevi nedir?",
+      "dogruCevap": "Bitkiyi yükseltmek",
+      "secenekler": [
+        "Bitkiyi yükseltmek",
+        "Tohum üretmek",
+        "Yüzmek",
+        "Uçmak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "gövde"
+      }
+    },
+    {
+      "id": "bt-t37",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bitkiler ölür mü?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hiçbiri",
+        "Evet",
+        "Sadece kışın",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-t38",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Tohum ekilince ne olur?",
+      "dogruCevap": "Filiz çıkar",
+      "secenekler": [
+        "Erir",
+        "Uçar",
+        "Filiz çıkar",
+        "Taş olur"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "toprak"
+      }
+    },
+    {
+      "id": "bt-t39",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ormandaki ağaçlar bitki midir?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Sadece büyükler",
+        "Sadece meyveliler",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-t40",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Lale hangi gruptadır?",
+      "dogruCevap": "Bitki",
+      "secenekler": [
+        "Taş",
+        "Hayvan",
+        "Bitki",
+        "Araba"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cicek"
+      }
+    },
+    {
+      "id": "bt-t41",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "🎭 Bitki hava olmadan yaşayabilir mi?",
+      "dogruCevap": "Hayır",
+      "secenekler": [
+        "Hayır",
+        "Sadece yazın",
+        "Sadece kök için",
+        "Evet"
+      ],
+      "ipucu": "Bitkiler solunum için havaya ihtiyaç duyar!",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "cicek",
+          "su",
+          "gunes",
+          "toprak"
+        ]
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "bt-t42",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Patates nereden gelir?",
+      "dogruCevap": "Bitkiden",
+      "secenekler": [
+        "Taştan",
+        "Sudan",
+        "Bitkiden",
+        "Hayvandan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
+    },
+    {
+      "id": "bt-t43",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çilek hangi bitki parçasıdır?",
+      "dogruCevap": "Meyve",
+      "secenekler": [
+        "Meyve",
+        "Tohum",
+        "Kök",
+        "Gövde"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve"
+      }
+    },
+    {
+      "id": "bt-t44",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bitkilerin ihtiyaçlarından biri değildir?",
+      "dogruCevap": "Televizyon",
+      "secenekler": [
+        "Televizyon",
+        "Toprak",
+        "Su",
+        "Güneş"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "su",
+          "gunes",
+          "toprak",
+          "araba"
+        ],
+        "vurgu": "araba"
+      }
+    },
+    {
+      "id": "bt-t45",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kiraz ağacı bitki midir?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Evet",
+        "Sadece yazın",
+        "Sadece meyve verince"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "bt-t46",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yaprakların görevi nedir?",
+      "dogruCevap": "Güneş enerjisi almak",
+      "secenekler": [
+        "Yüzmek",
+        "Taşımak",
+        "Uçmak",
+        "Güneş enerjisi almak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "yaprak"
+      }
+    },
+    {
+      "id": "bt-t47",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kök nerede bulunur?",
+      "dogruCevap": "Toprak altında",
+      "secenekler": [
+        "Toprak altında",
+        "Havada",
+        "Gökyüzünde",
+        "Suda"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "kök"
+      }
+    },
+    {
+      "id": "bt-t48",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Muz nereden gelir?",
+      "dogruCevap": "Bitkiden",
+      "secenekler": [
+        "Hayvandan",
+        "Taştan",
+        "Bitkiden",
+        "Kalemden"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "meyve"
+      }
+    },
+    {
+      "id": "bt-t49",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bitkiler ürer mi?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Sadece hayvanlar",
+        "Sadece insanlar",
+        "Hayır"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "bitki",
+        "vurgu": "çiçek"
+      }
+    },
+    {
+      "id": "bt-t50",
+      "kazanimKodu": "FEN.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "Salatalık hangi gruptadır?",
+      "dogruCevap": "Bitki",
+      "secenekler": [
+        "Kuş",
+        "Böcek",
+        "Bitki",
+        "Balık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sebze"
+      }
     }
   ]
 }

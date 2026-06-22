@@ -440,10 +440,10 @@
       "soru": "Elma ikiye eşit bölündü. Her parçanın adı nedir?",
       "dogruCevap": "Yarım",
       "secenekler": [
-        "Çeyrek",
-        "Tam",
+        "Üçte bir",
         "Yarım",
-        "Üçte bir"
+        "Tam",
+        "Çeyrek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -459,10 +459,10 @@
       "soru": "1/4 ne anlama gelir?",
       "dogruCevap": "Dörde bölünmüş, bir parça",
       "secenekler": [
-        "Beşe bölünmüş",
-        "İkiye bölünmüş",
         "Dörde bölünmüş, bir parça",
-        "Üçe bölünmüş"
+        "Üçe bölünmüş",
+        "Beşe bölünmüş",
+        "İkiye bölünmüş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -480,10 +480,10 @@
       "soru": "2 çeyrek kaç yarime eşittir?",
       "dogruCevap": "1",
       "secenekler": [
-        "1",
         "3",
+        "4",
         "2",
-        "4"
+        "1"
       ],
       "ipucu": "",
       "gorsel": {
@@ -502,8 +502,8 @@
       "secenekler": [
         "3/4",
         "1/3",
-        "1/2",
-        "1/4"
+        "1/4",
+        "1/2"
       ],
       "ipucu": "",
       "gorsel": {
@@ -522,9 +522,9 @@
       "soru": "4 çeyrek kaç tama eşittir?",
       "dogruCevap": "1",
       "secenekler": [
-        "2",
         "1",
         "4",
+        "2",
         "3"
       ],
       "ipucu": "",
@@ -542,9 +542,9 @@
       "soru": "Hangisi daha büyüktür?",
       "dogruCevap": "1/2",
       "secenekler": [
+        "Eşit",
         "1/2",
         "Belli değil",
-        "Eşit",
         "1/4"
       ],
       "ipucu": "",
@@ -586,10 +586,10 @@
       "soru": "🎭 Pastanın yarısı 4 dilimse, çeyreği kaç dilimdir?",
       "dogruCevap": "2",
       "secenekler": [
-        "3",
-        "4",
         "1",
-        "2"
+        "2",
+        "3",
+        "4"
       ],
       "ipucu": "Yarım = 4 dilim → Tam = 8 dilim → Çeyrek = 2 dilim",
       "gorsel": {
@@ -608,10 +608,10 @@
       "soru": "1/2 + 1/2 = ?",
       "dogruCevap": "1 tam",
       "secenekler": [
+        "1 tam",
         "1/4",
         "1/2",
-        "2 tam",
-        "1 tam"
+        "2 tam"
       ],
       "ipucu": "",
       "gorsel": {
@@ -628,9 +628,9 @@
       "soru": "Elmadan Ali 1/4, Ayşe 1/4 aldı. Toplam ne kadar aldılar?",
       "dogruCevap": "1/2",
       "secenekler": [
-        "3/4",
         "1 tam",
         "1/2",
+        "3/4",
         "1/4"
       ],
       "ipucu": "",
@@ -650,8 +650,8 @@
       "soru": "6 yarım kaç tama eşittir?",
       "dogruCevap": "3",
       "secenekler": [
-        "2",
         "6",
+        "2",
         "4",
         "3"
       ],
@@ -670,10 +670,10 @@
       "soru": "🎭 Pastadan 1/4 Mehmet'e, 1/2 Fatma'ya verildi. Toplam kaçta kaçı verildi?",
       "dogruCevap": "3/4",
       "secenekler": [
-        "3/4",
         "1",
         "1/4",
-        "1/2"
+        "1/2",
+        "3/4"
       ],
       "ipucu": "1/4 + 2/4 = 3/4",
       "gorsel": {
@@ -694,9 +694,9 @@
       "dogruCevap": "4'te 1",
       "secenekler": [
         "8'de 1",
-        "3'te 1",
         "4'te 1",
-        "2'de 1"
+        "2'de 1",
+        "3'te 1"
       ],
       "ipucu": "",
       "gorsel": {
@@ -714,10 +714,10 @@
       "soru": "🎭 8 çeyrek kaç tama eşittir?",
       "dogruCevap": "2",
       "secenekler": [
+        "3",
         "2",
         "1",
-        "4",
-        "3"
+        "4"
       ],
       "ipucu": "4 çeyrek = 1 tam, 8 çeyrek = ?",
       "gorsel": {
@@ -735,10 +735,10 @@
       "soru": "Elmadan 3/4 yendi. Kaçta kaçı kaldı?",
       "dogruCevap": "1/4",
       "secenekler": [
-        "1/2",
-        "1/4",
         "3/4",
-        "2/4"
+        "1/2",
+        "2/4",
+        "1/4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -757,10 +757,10 @@
       "soru": "🎭 Pastanın çeyreği 3 dilimse, yarısı kaç dilimdir?",
       "dogruCevap": "6",
       "secenekler": [
-        "6",
-        "8",
+        "4",
         "3",
-        "4"
+        "8",
+        "6"
       ],
       "ipucu": "Çeyrek=3 → Tam=12 → Yarım=6",
       "gorsel": {
@@ -779,9 +779,9 @@
       "soru": "1/4 + 1/4 + 1/4 + 1/4 = ?",
       "dogruCevap": "1 tam",
       "secenekler": [
-        "3/4",
         "1/2",
         "2/4",
+        "3/4",
         "1 tam"
       ],
       "ipucu": "",
@@ -799,9 +799,9 @@
       "soru": "Hangi ifade doğrudur?",
       "dogruCevap": "1/2 > 1/4",
       "secenekler": [
-        "1/2 > 1/4",
         "1/4 > 1/2",
         "1/4 = 1/2",
+        "1/2 > 1/4",
         "1/2 = 1/4"
       ],
       "ipucu": "",
@@ -822,8 +822,8 @@
       "dogruCevap": "1/2",
       "secenekler": [
         "1/2",
-        "2/4 = 1/2",
         "1/4",
+        "2/4 = 1/2",
         "3/4"
       ],
       "ipucu": "2 parça = 2/4 = 1/2",
@@ -845,9 +845,9 @@
       "dogruCevap": "2 tam",
       "secenekler": [
         "4 tam",
+        "2 tam",
         "1 tam",
-        "3 tam",
-        "2 tam"
+        "3 tam"
       ],
       "ipucu": "",
       "gorsel": {
@@ -864,10 +864,10 @@
       "soru": "🎭 Pastanın yarısını 2 kişi eşit paylaştı. Her biri kaçta kaç aldı?",
       "dogruCevap": "1/4",
       "secenekler": [
-        "1/3",
+        "1/4",
         "2/4",
         "1/2",
-        "1/4"
+        "1/3"
       ],
       "ipucu": "1/2 ÷ 2 = 1/4",
       "gorsel": {
@@ -886,10 +886,10 @@
       "soru": "Bir elmanın 1/4'ü 50 g ise, tam elma kaç gramdır?",
       "dogruCevap": "200 g",
       "secenekler": [
-        "200 g",
-        "250 g",
         "100 g",
-        "150 g"
+        "200 g",
+        "150 g",
+        "250 g"
       ],
       "ipucu": "",
       "gorsel": {
@@ -928,10 +928,10 @@
       "soru": "🎭 Pastadan Berk 1/4, Can 1/4, Selin 1/2 aldı. Pastanın tamamı yendi mi?",
       "dogruCevap": "Evet, tamamı yendi",
       "secenekler": [
-        "Hayır, 1/4 kaldı",
-        "Evet ama fazla var",
+        "Evet, tamamı yendi",
         "Hayır, 1/2 kaldı",
-        "Evet, tamamı yendi"
+        "Hayır, 1/4 kaldı",
+        "Evet ama fazla var"
       ],
       "ipucu": "1/4 + 1/4 + 1/2 = 1/4 + 1/4 + 2/4 = 4/4 = 1 tam",
       "gorsel": {
@@ -951,10 +951,10 @@
       "soru": "🎭 4 elmanın yarısı kaç elmadır?",
       "dogruCevap": "2",
       "secenekler": [
-        "2",
-        "1",
+        "4",
         "3",
-        "4"
+        "1",
+        "2"
       ],
       "ipucu": "4'ün yarısı = 2",
       "gorsel": {

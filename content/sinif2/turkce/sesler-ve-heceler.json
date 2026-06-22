@@ -533,10 +533,10 @@
       "soru": "\"elma\" kelimesi kaç heceli?",
       "dogruCevap": "2",
       "secenekler": [
-        "1",
         "2",
-        "4",
-        "3"
+        "1",
+        "3",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -557,10 +557,10 @@
       "soru": "Aşağıdakilerden hangisi sesli harftir?",
       "dogruCevap": "ö",
       "secenekler": [
-        "k",
         "ö",
+        "s",
         "t",
-        "s"
+        "k"
       ],
       "ipucu": "",
       "gorsel": {
@@ -582,9 +582,9 @@
       "dogruCevap": "def-ter",
       "secenekler": [
         "deft-er",
-        "def-ter",
         "de-ft-er",
-        "d-ef-ter"
+        "d-ef-ter",
+        "def-ter"
       ],
       "ipucu": "",
       "gorsel": {
@@ -605,9 +605,9 @@
       "soru": "\"araba\" kelimesinde kaç sesli harf var?",
       "dogruCevap": "3",
       "secenekler": [
-        "1",
         "3",
         "2",
+        "1",
         "4"
       ],
       "ipucu": "",
@@ -628,8 +628,8 @@
       "secenekler": [
         "3",
         "2",
-        "5",
-        "4"
+        "4",
+        "5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -674,9 +674,9 @@
       "soru": "Hangi kelimede sessiz harf sayısı sesli harf sayısından fazladır?",
       "dogruCevap": "kitap",
       "secenekler": [
-        "araba",
         "ev",
         "kitap",
+        "araba",
         "anne"
       ],
       "ipucu": "kitap → k,t,p=3 sessiz, i,a=2 sesli",
@@ -714,10 +714,10 @@
       "soru": "Aşağıdaki kelimelerden hangisi 1 heceli?",
       "dogruCevap": "ev",
       "secenekler": [
-        "kedi",
-        "elma",
         "masa",
-        "ev"
+        "ev",
+        "elma",
+        "kedi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -738,9 +738,9 @@
       "soru": "\"çikolata\" kaç heceli?",
       "dogruCevap": "4",
       "secenekler": [
-        "5",
         "2",
         "4",
+        "5",
         "3"
       ],
       "ipucu": "",
@@ -764,10 +764,10 @@
       "soru": "Aşağıdaki kelimelerden hangisi 4 heceli?",
       "dogruCevap": "televizyon",
       "secenekler": [
-        "televizyon",
         "defter",
         "araba",
-        "kalem"
+        "kalem",
+        "televizyon"
       ],
       "ipucu": "",
       "gorsel": {
@@ -789,10 +789,10 @@
       "soru": "Aşağıdakilerden hangisi sessiz harftir?",
       "dogruCevap": "m",
       "secenekler": [
-        "e",
-        "m",
         "i",
-        "a"
+        "a",
+        "m",
+        "e"
       ],
       "ipucu": "",
       "gorsel": {
@@ -813,10 +813,10 @@
       "soru": "\"okul\" kelimesini doğru heceleyen hangisi?",
       "dogruCevap": "o-kul",
       "secenekler": [
-        "o-kul",
-        "o-ku-l",
         "ok-ul",
-        "oku-l"
+        "oku-l",
+        "o-ku-l",
+        "o-kul"
       ],
       "ipucu": "",
       "gorsel": {
@@ -839,8 +839,8 @@
       "secenekler": [
         "2",
         "3",
-        "1",
-        "4"
+        "4",
+        "1"
       ],
       "ipucu": "",
       "gorsel": {
@@ -858,9 +858,9 @@
       "soru": "Hangi kelimede her hece bir harften oluşur?",
       "dogruCevap": "u-çu-yor",
       "secenekler": [
-        "elma",
         "a-ra-ba",
         "u-çu-yor",
+        "elma",
         "araba"
       ],
       "ipucu": "u, ça, yor — hayır! a-ra-ba her hece 1-2 harf",
@@ -874,9 +874,9 @@
       "dogruCevap": "tav-şan",
       "secenekler": [
         "tav-şan",
-        "tavş-an",
         "ta-vşan",
-        "t-avşan"
+        "t-avşan",
+        "tavş-an"
       ],
       "ipucu": "",
       "gorsel": {
@@ -897,10 +897,10 @@
       "soru": "Kaç sesli harf var: \"köpek\"",
       "dogruCevap": "2",
       "secenekler": [
-        "4",
-        "2",
+        "1",
         "3",
-        "1"
+        "4",
+        "2"
       ],
       "ipucu": "",
       "gorsel": {
@@ -918,9 +918,9 @@
       "soru": "Hangi kelime 3 heceli?",
       "dogruCevap": "merdiven",
       "secenekler": [
+        "kalem",
         "ev",
         "merdiven",
-        "kalem",
         "masa"
       ],
       "ipucu": "",
@@ -942,10 +942,10 @@
       "soru": "\"bilgisayar\" kelimesinde kaç sesli harf var?",
       "dogruCevap": "4",
       "secenekler": [
-        "3",
-        "5",
         "4",
-        "2"
+        "2",
+        "3",
+        "5"
       ],
       "ipucu": "bil-gi-sa-yar → i, i, a, a = 4 sesli",
       "sasirtma": true
@@ -958,9 +958,9 @@
       "dogruCevap": "uç-ak",
       "secenekler": [
         "u-çak",
-        "uç-ak",
         "uça-k",
-        "u-ça-k"
+        "u-ça-k",
+        "uç-ak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -981,10 +981,10 @@
       "soru": "Aşağıdaki sesli harflerden hangisi Türkçede yoktur?",
       "dogruCevap": "w",
       "secenekler": [
-        "ü",
         "ö",
-        "w",
-        "ı"
+        "ü",
+        "ı",
+        "w"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1031,8 +1031,8 @@
       "secenekler": [
         "3",
         "4",
-        "2",
-        "1"
+        "1",
+        "2"
       ],
       "ipucu": "Sesli harf sayısı = hece sayısı!",
       "sasirtma": true
@@ -1044,9 +1044,9 @@
       "soru": "\"çikolata\" kelimesinde sessiz harf sayısı kaçtır?",
       "dogruCevap": "4",
       "secenekler": [
+        "2",
         "3  B: 5",
-        "4",
-        "2"
+        "4"
       ],
       "ipucu": "ç,k,l,t = 4 sessiz harf",
       "sasirtma": true

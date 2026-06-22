@@ -11,7 +11,7 @@
  * - { tur: "oruntu", elemanlar, adimEtiketi? } → OruntuGorsel (GOREV-4A)
  * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
  * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma)
- * - { tur: "olcme", mod, ... } → OlcmeGorsel (TEMA4 ölçme)
+ * - { tur: "olcme", mod, ... } → OlcmeGorsel (Tema 5 ölçme)
  * - { tur: "veri", mod, ... } → VeriGorsel (TEMA5 veri)
  * - { tur: "kesir", mod, ... } → KesirGorsel (TEMA6 kesirler)
  * - { tur: "turkce", mod, ... } → TurkceGorsel (Türkçe Tema 1)
@@ -52,8 +52,9 @@ import {
   zihindenCikarma,
   zihindenToplama,
 } from './gorev-tema3-questions.mjs';
-import { siviMiktari, tartma, uzunlukOlcme, zaman } from './gorev-tema4-questions.mjs';
+import { siviMiktari, zaman } from './gorev-tema4-questions.mjs';
 import { bolme, carpma } from './gorev-mat-tema4-questions.mjs';
+import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import {
@@ -68,6 +69,7 @@ import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-t
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
 import { canlilar } from './gorev-fen-tema1-questions.mjs';
+import { bitkilerTema2 } from './gorev-fen-tema2-questions.mjs';
 import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
 import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
 import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
@@ -75,7 +77,7 @@ import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
 import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
-import { sayilarVeSinifEsyalari } from './gorev-ing1b-questions.mjs';
+import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
 import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
 import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
@@ -472,7 +474,7 @@ writeFileSync(join(turkceDir, 'yazma-ve-anlatim-ileri.json'), JSON.stringify(yaz
 
 const canlilarKonu = canlilar(karistir);
 const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
-const bitkilerKonu = bitkiler(karistir);
+const bitkilerKonu = bitkilerTema2(karistir);
 const hayvanlarKonu = hayvanlar(karistir);
 writeFileSync(join(fenDir, 'canlilar.json'), JSON.stringify(canlilarKonu, null, 2));
 writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlilarVeCansizlarKonu, null, 2));
@@ -555,6 +557,13 @@ const matTema4 = {
   konular: [carpmaKonu, bolmeKonu],
 };
 writeFileSync(join(mathDataDir, 'tema4.json'), JSON.stringify(matTema4, null, 2));
+
+const matTema5 = {
+  id: 'tema-5',
+  baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
+  konular: [uzunlukOlcmeKonu, tartmaKonu],
+};
+writeFileSync(join(mathDataDir, 'tema5.json'), JSON.stringify(matTema5, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -658,18 +667,24 @@ const index = {
           ],
         },
         {
-          id: 'olcme',
-          baslik: 'Tema 4 — Ölçme',
+          id: 'tema-5',
+          baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
           konuDosyalari: [
             'matematik/uzunluk-olcme.json',
             'matematik/tartma.json',
+          ],
+        },
+        {
+          id: 'olcme-ek',
+          baslik: 'Ölçme — Sıvı ve Zaman',
+          konuDosyalari: [
             'matematik/sivi-miktari.json',
             'matematik/zaman.json',
           ],
         },
         {
-          id: 'tema-5',
-          baslik: 'Tema 5 — Veri',
+          id: 'tema-6',
+          baslik: 'Tema 6 — Veri',
           konuDosyalari: [
             'matematik/tablo-okuma.json',
             'matematik/grafik-okuma.json',
@@ -677,8 +692,8 @@ const index = {
           ],
         },
         {
-          id: 'tema-6',
-          baslik: 'Tema 6 — Kesirler',
+          id: 'tema-7',
+          baslik: 'Tema 7 — Kesirler',
           konuDosyalari: [
             'matematik/esit-parcalara-bolme.json',
             'matematik/yarim-ve-ceyrek.json',
@@ -736,14 +751,21 @@ const index = {
           id: 'tema-2',
           baslik: 'Fen Bilimleri — Tema 2',
           konuDosyalari: [
+            'fen-bilimleri/bitkiler.json',
+          ],
+        },
+        {
+          id: 'tema-3',
+          baslik: 'Fen Bilimleri — Tema 3',
+          konuDosyalari: [
             'fen-bilimleri/madde-ve-ozellikleri.json',
             'fen-bilimleri/kuvvet-ve-hareket.json',
             'fen-bilimleri/isik-ve-ses.json',
           ],
         },
         {
-          id: 'tema-3',
-          baslik: 'Fen Bilimleri — Tema 3',
+          id: 'tema-4',
+          baslik: 'Fen Bilimleri — Tema 4',
           konuDosyalari: [
             'fen-bilimleri/dunya-ve-evren.json',
             'fen-bilimleri/hava-durumu-ve-mevsimler.json',
@@ -758,8 +780,14 @@ const index = {
           baslik: 'İngilizce — Tema 1',
           konuDosyalari: [
             'ingilizce/alfabe-ve-renkler.json',
-            'ingilizce/sayilar-ve-sinif-esyalari.json',
             'ingilizce/selamlasma-ve-aile.json',
+          ],
+        },
+        {
+          id: 'tema-2',
+          baslik: 'İngilizce — Tema 2',
+          konuDosyalari: [
+            'ingilizce/sayilar-ve-sinif-esyalari.json',
           ],
         },
         {
