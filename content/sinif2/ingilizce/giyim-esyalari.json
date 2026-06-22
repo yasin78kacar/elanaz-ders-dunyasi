@@ -1,0 +1,917 @@
+{
+  "id": "giyim-esyalari",
+  "baslik": "Clothes",
+  "kazanimKodu": "ING.2.4.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz ve Berk dolaplarını düzenliyordu. Elanaz, \"Bu bir shirt, bu da pants!\" dedi. Berk de \"Benim mavi jacket ve kırmızı t-shirt nerede?\" diye sordu. Sonra birlikte shoes, socks ve hat kelimelerini tekrar ettiler. Her yeni kelimeyle İngilizce giyim eşyalarını daha kolay hatırladılar.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ge-anlatim-1"
+        }
+      },
+      {
+        "metin": "Hava biraz serinleyince çocuklar dışarı çıkmadan önce kıyafet seçti. Berk coat ve scarf aldı. Elanaz \"Gloves da giyelim, ellerimiz üşümesin\" dedi. Kapının yanında umbrella duruyordu. Yağmur başlarsa hemen kullanacaklardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ge-anlatim-2"
+        }
+      },
+      {
+        "metin": "Okulda \"What are you wearing?\" oyunu oynadılar. Çocuklar sırayla \"I am wearing a dress\", \"I am wearing boots\", \"I am wearing a sweater\" dedi. Öğretmenleri hepsini alkışladı. Artık giyim eşyalarını İngilizce söylemek onlar için çok daha eğlenceliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ge-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ge-a1",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Gömlek kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "shirt",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "shirt"
+      }
+    },
+    {
+      "id": "ge-a2",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Pantolon kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "pants",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pants"
+      }
+    },
+    {
+      "id": "ge-a3",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Elbise kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "dress",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dress"
+      }
+    },
+    {
+      "id": "ge-a4",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Etek kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "skirt",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "skirt"
+      }
+    },
+    {
+      "id": "ge-a5",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Ayakkabı için İngilizcede ......... kelimesi kullanılır.",
+      "dogruCevap": "shoes",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "shoes"
+      }
+    },
+    {
+      "id": "ge-a6",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Çorap kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "socks",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "socks"
+      }
+    },
+    {
+      "id": "ge-a7",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Şapka İngilizcede ......... demektir.",
+      "dogruCevap": "hat",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hat"
+      }
+    },
+    {
+      "id": "ge-a8",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kaban kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "coat",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "coat"
+      }
+    },
+    {
+      "id": "ge-a9",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Atkı İngilizcede ......... kelimesidir.",
+      "dogruCevap": "scarf",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "scarf"
+      }
+    },
+    {
+      "id": "ge-a10",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Eldiven için İngilizcede ......... denir.",
+      "dogruCevap": "gloves",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gloves"
+      }
+    },
+    {
+      "id": "ge-a11",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Tişört kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "t-shirt",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "t-shirt"
+      },
+      "alternatifCevaplar": [
+        "tshirt",
+        "t shirt",
+        "T-shirt"
+      ]
+    },
+    {
+      "id": "ge-a12",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Ceket İngilizcede ......... demektir.",
+      "dogruCevap": "jacket",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "jacket"
+      }
+    },
+    {
+      "id": "ge-a13",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Bot kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "boots",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boots"
+      }
+    },
+    {
+      "id": "ge-a14",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Kazak İngilizcede ......... kelimesidir.",
+      "dogruCevap": "sweater",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sweater"
+      }
+    },
+    {
+      "id": "ge-a15",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "Şemsiye kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "umbrella",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "umbrella"
+      }
+    },
+    {
+      "id": "ge-a16",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Shirt\" kelimesi Türkçede gömlek anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "shirt"
+      }
+    },
+    {
+      "id": "ge-a17",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Skirt\" kelimesi pantolon demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "skirt"
+      }
+    },
+    {
+      "id": "ge-a18",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Gloves\" ellerimizi sıcak tutar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gloves"
+      }
+    },
+    {
+      "id": "ge-a19",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Scarf\" boynumuza takılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "scarf"
+      }
+    },
+    {
+      "id": "ge-a20",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Boots\" yazın giyilen ince terliktir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boots"
+      }
+    },
+    {
+      "id": "ge-a21",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Coat\" kalın bir dış giysidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "coat"
+      }
+    },
+    {
+      "id": "ge-a22",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Hat\" başımıza takılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hat"
+      }
+    },
+    {
+      "id": "ge-a23",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Socks\" ayaklarımıza giyilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "socks"
+      }
+    },
+    {
+      "id": "ge-a24",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Umbrella\" yağmurdan korunmak için kullanılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "umbrella"
+      }
+    },
+    {
+      "id": "ge-a25",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "yazili",
+      "soru": "\"Dress\" kelimesi ceket anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dress"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ge-t1",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gömlek kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Shirt",
+      "secenekler": [
+        "Skirt",
+        "Scarf",
+        "Shoes",
+        "Shirt"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "shirt"
+      }
+    },
+    {
+      "id": "ge-t2",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pantolonun İngilizcesi nedir?",
+      "dogruCevap": "Pants",
+      "secenekler": [
+        "Dress",
+        "Coat",
+        "Pants",
+        "Hat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pants"
+      }
+    },
+    {
+      "id": "ge-t3",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elbise için doğru İngilizce kelime hangisidir?",
+      "dogruCevap": "Dress",
+      "secenekler": [
+        "Dress",
+        "Gloves",
+        "Jacket",
+        "Boots"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dress"
+      }
+    },
+    {
+      "id": "ge-t4",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Etek kelimesinin İngilizce karşılığı nedir?",
+      "dogruCevap": "Skirt",
+      "secenekler": [
+        "Skirt",
+        "Sweater",
+        "Shirt",
+        "Socks"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "skirt"
+      }
+    },
+    {
+      "id": "ge-t5",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayakkabı için İngilizcede hangi kelime kullanılır?",
+      "dogruCevap": "Shoes",
+      "secenekler": [
+        "Shirt",
+        "Scarf",
+        "Socks",
+        "Shoes"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "shoes"
+      }
+    },
+    {
+      "id": "ge-t6",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çorap kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Socks",
+      "secenekler": [
+        "Gloves",
+        "Boots",
+        "Pants",
+        "Socks"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "socks"
+      }
+    },
+    {
+      "id": "ge-t7",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Şapkanın İngilizcesi hangi seçenektedir?",
+      "dogruCevap": "Hat",
+      "secenekler": [
+        "Dress",
+        "Hat",
+        "Coat",
+        "Shirt"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hat"
+      }
+    },
+    {
+      "id": "ge-t8",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kaban kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Coat",
+      "secenekler": [
+        "Coat",
+        "Scarf",
+        "Socks",
+        "Skirt"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "coat"
+      }
+    },
+    {
+      "id": "ge-t9",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Atkı kelimesinin İngilizce karşılığı hangisidir?",
+      "dogruCevap": "Scarf",
+      "secenekler": [
+        "Scarf",
+        "Gloves",
+        "Hat",
+        "Shoes"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "scarf"
+      }
+    },
+    {
+      "id": "ge-t10",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Eldiven için doğru İngilizce kelime nedir?",
+      "dogruCevap": "Gloves",
+      "secenekler": [
+        "Boots",
+        "Pants",
+        "Gloves",
+        "Dress"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gloves"
+      }
+    },
+    {
+      "id": "ge-t11",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tişört kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "T-shirt",
+      "secenekler": [
+        "Jacket",
+        "T-shirt",
+        "Skirt",
+        "Sweater"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "t-shirt"
+      }
+    },
+    {
+      "id": "ge-t12",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ceketin İngilizce karşılığı nedir?",
+      "dogruCevap": "Jacket",
+      "secenekler": [
+        "Jacket",
+        "Coat",
+        "Hat",
+        "Shirt"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "jacket"
+      }
+    },
+    {
+      "id": "ge-t13",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bot kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Boots",
+      "secenekler": [
+        "Socks",
+        "Boots",
+        "Gloves",
+        "Shoes"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boots"
+      }
+    },
+    {
+      "id": "ge-t14",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kazak için İngilizcede hangi kelime kullanılır?",
+      "dogruCevap": "Sweater",
+      "secenekler": [
+        "Skirt",
+        "Dress",
+        "Sweater",
+        "Scarf"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sweater"
+      }
+    },
+    {
+      "id": "ge-t15",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Şemsiyenin İngilizcesi nedir?",
+      "dogruCevap": "Umbrella",
+      "secenekler": [
+        "Umbrella",
+        "Pants",
+        "Coat",
+        "Hat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "umbrella"
+      }
+    },
+    {
+      "id": "ge-t16",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Hat, gloves, scarf\" kelimeleri daha çok hangi mevsimde kullanılır?",
+      "dogruCevap": "Winter",
+      "secenekler": [
+        "Autumn",
+        "Winter",
+        "Summer",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kis-aksesuarlari"
+      }
+    },
+    {
+      "id": "ge-t17",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"T-shirt and shorts\" ifadesinde tişörtün İngilizcesi hangisidir?",
+      "dogruCevap": "T-shirt",
+      "secenekler": [
+        "Coat",
+        "T-shirt",
+        "Boots",
+        "Dress"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "t-shirt"
+      }
+    },
+    {
+      "id": "ge-t18",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmurlu bir günde en çok hangi eşya işe yarar?",
+      "dogruCevap": "Umbrella",
+      "secenekler": [
+        "Hat",
+        "Skirt",
+        "Umbrella",
+        "Socks"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "umbrella"
+      }
+    },
+    {
+      "id": "ge-t19",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi bir dış giyim ürünüdür?",
+      "dogruCevap": "Coat",
+      "secenekler": [
+        "Coat",
+        "Socks",
+        "Hat",
+        "Gloves"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "coat"
+      }
+    },
+    {
+      "id": "ge-t20",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki kelimelerden hangisi ayakla ilgilidir?",
+      "dogruCevap": "Boots",
+      "secenekler": [
+        "Scarf",
+        "Coat",
+        "Hat",
+        "Boots"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "boots"
+      }
+    },
+    {
+      "id": "ge-t21",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Shirt + pants\" kombininde pants ne demektir?",
+      "dogruCevap": "Pantolon",
+      "secenekler": [
+        "Pantolon",
+        "Gömlek",
+        "Çorap",
+        "Ayakkabı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pants"
+      }
+    },
+    {
+      "id": "ge-t22",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kışın ellerimizi sıcak tutan eşya hangisidir?",
+      "dogruCevap": "Gloves",
+      "secenekler": [
+        "Gloves",
+        "Scarf",
+        "Skirt",
+        "Hat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gloves"
+      }
+    },
+    {
+      "id": "ge-t23",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Boyna takılan giyim eşyasının İngilizcesi nedir?",
+      "dogruCevap": "Scarf",
+      "secenekler": [
+        "Dress",
+        "Boots",
+        "Socks",
+        "Scarf"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "scarf"
+      }
+    },
+    {
+      "id": "ge-t24",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi üst bedene giyilir?",
+      "dogruCevap": "Jacket",
+      "secenekler": [
+        "Shoes",
+        "Boots",
+        "Jacket",
+        "Socks"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "jacket"
+      }
+    },
+    {
+      "id": "ge-t25",
+      "kazanimKodu": "ING.2.4.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sweater\" kelimesinin Türkçe karşılığı nedir?",
+      "dogruCevap": "Kazak",
+      "secenekler": [
+        "Şapka",
+        "Atkı",
+        "Kazak",
+        "Ceket"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sweater"
+      }
+    }
+  ]
+}

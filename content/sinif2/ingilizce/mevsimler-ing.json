@@ -1,0 +1,941 @@
+{
+  "id": "mevsimler-ing",
+  "baslik": "Seasons",
+  "kazanimKodu": "ING.2.4.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Yılın ilk renkli günlerinde öğretmen tahtaya dört kelime yazdı: Spring, Summer, Autumn, Winter. Elanaz çiçekleri görünce \"Spring!\" dedi. Berk sıcak güneşi görünce \"Summer!\" diye ekledi. Her mevsimin farklı bir adı ve farklı bir havası olduğunu öğrendiler.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "mv-anlatim-1"
+        }
+      },
+      {
+        "metin": "Sonra mevsimlere göre kıyafet oyunu oynadılar. \"Winter için coat, gloves, boots!\" dedi sınıf. \"Summer için t-shirt ve hat!\" diye devam ettiler. Sonbaharda scarf ve umbrella, ilkbaharda ise hafif jacket uygun oluyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "mv-anlatim-2"
+        }
+      },
+      {
+        "metin": "Dersin sonunda etkinlik kartlarını eşleştirdiler: Spring-play in the park, Summer-swim, Autumn-windy walk, Winter-make a snowman. Böylece hem mevsim adlarını hem de mevsimlere uygun kıyafet ve etkinlikleri İngilizce söylemeyi başardılar.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "mv-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "mv-a1",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "İlkbahar kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "spring",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-flowers"
+      }
+    },
+    {
+      "id": "mv-a2",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yaz mevsiminin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "summer",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-sun"
+      }
+    },
+    {
+      "id": "mv-a3",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Sonbahar İngilizcede ......... kelimesiyle ifade edilir.",
+      "dogruCevap": "autumn",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-leaves"
+      }
+    },
+    {
+      "id": "mv-a4",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kış mevsiminin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "winter",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snow"
+      }
+    },
+    {
+      "id": "mv-a5",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "İlkbaharda hafif .......... (jacket) giyebiliriz.",
+      "dogruCevap": "jacket",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-jacket"
+      }
+    },
+    {
+      "id": "mv-a6",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yazın sık kullanılan giysi ......... (t-shirt) olur.",
+      "dogruCevap": "t-shirt",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-t-shirt"
+      },
+      "alternatifCevaplar": [
+        "tshirt",
+        "t shirt"
+      ]
+    },
+    {
+      "id": "mv-a7",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Sonbaharda rüzgarlı günlerde ......... takarız.",
+      "dogruCevap": "scarf",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-scarf"
+      }
+    },
+    {
+      "id": "mv-a8",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kışın ellerimizi korumak için ......... giyeriz.",
+      "dogruCevap": "gloves",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-gloves"
+      }
+    },
+    {
+      "id": "mv-a9",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Karlı günlerde ......... giymek ayaklarımızı sıcak tutar.",
+      "dogruCevap": "boots",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-boots"
+      }
+    },
+    {
+      "id": "mv-a10",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yağmurlu havada ......... kullanırız.",
+      "dogruCevap": "umbrella",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "rainy-umbrella"
+      }
+    },
+    {
+      "id": "mv-a11",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Spring\" mevsiminde çiçekler açar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-flowers"
+      }
+    },
+    {
+      "id": "mv-a12",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Summer\" mevsimi genellikle sıcak olur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-sun"
+      }
+    },
+    {
+      "id": "mv-a13",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Autumn\" mevsiminde yapraklar sararır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-leaves"
+      }
+    },
+    {
+      "id": "mv-a14",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Winter\" mevsimi en sıcak mevsimdir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snow"
+      }
+    },
+    {
+      "id": "mv-a15",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kış mevsiminde \"coat\" giymek uygun olur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-coat"
+      }
+    },
+    {
+      "id": "mv-a16",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yaz mevsiminde kalın \"sweater\" giymek en iyi seçimdir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-sweater"
+      }
+    },
+    {
+      "id": "mv-a17",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Sonbaharda bazen \"umbrella\" gerekir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-rain"
+      }
+    },
+    {
+      "id": "mv-a18",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "İlkbaharda parkta \"play\" yapmak eğlencelidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-park-play"
+      }
+    },
+    {
+      "id": "mv-a19",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yazın denizde \"swim\" aktivitesi yapılabilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-swim"
+      }
+    },
+    {
+      "id": "mv-a20",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kışın \"snowman\" yapmak mümkündür.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snowman"
+      }
+    },
+    {
+      "id": "mv-a21",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Autumn\" Türkçede ilkbahar demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-leaves"
+      }
+    },
+    {
+      "id": "mv-a22",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Spring\" kelimesi kış mevsimini anlatır.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-flowers"
+      }
+    },
+    {
+      "id": "mv-a23",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yazın güneşten korunmak için \"hat\" takabiliriz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-hat"
+      }
+    },
+    {
+      "id": "mv-a24",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kışın \"gloves\" ve \"boots\" iyi bir kombin olur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-outfit"
+      }
+    },
+    {
+      "id": "mv-a25",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Mevsim kelimesinin İngilizcesi \"season\" dur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "season-wheel"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "mv-t1",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "İlkbaharın İngilizce karşılığı nedir?",
+      "dogruCevap": "Spring",
+      "secenekler": [
+        "Summer",
+        "Winter",
+        "Autumn",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-flowers"
+      }
+    },
+    {
+      "id": "mv-t2",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yaz mevsimi İngilizcede nasıl söylenir?",
+      "dogruCevap": "Summer",
+      "secenekler": [
+        "Summer",
+        "Autumn",
+        "Spring",
+        "Winter"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-sun"
+      }
+    },
+    {
+      "id": "mv-t3",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sonbaharın İngilizcesi hangisidir?",
+      "dogruCevap": "Autumn",
+      "secenekler": [
+        "Spring",
+        "Autumn",
+        "Winter",
+        "Summer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-leaves"
+      }
+    },
+    {
+      "id": "mv-t4",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kış mevsiminin İngilizcesi nedir?",
+      "dogruCevap": "Winter",
+      "secenekler": [
+        "Autumn",
+        "Winter",
+        "Summer",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snow"
+      }
+    },
+    {
+      "id": "mv-t5",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi yaz mevsimine daha uygundur?",
+      "dogruCevap": "T-shirt",
+      "secenekler": [
+        "Coat",
+        "Boots",
+        "T-shirt",
+        "Gloves"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-t-shirt"
+      }
+    },
+    {
+      "id": "mv-t6",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kış mevsiminde hangi giysi daha uygundur?",
+      "dogruCevap": "Coat",
+      "secenekler": [
+        "T-shirt",
+        "Skirt",
+        "Coat",
+        "Dress"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-coat"
+      }
+    },
+    {
+      "id": "mv-t7",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmurlu sonbahar gününde hangisi kullanılır?",
+      "dogruCevap": "Umbrella",
+      "secenekler": [
+        "Hat",
+        "Shoes",
+        "Socks",
+        "Umbrella"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-rain"
+      }
+    },
+    {
+      "id": "mv-t8",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Karlı havada ayakları sıcak tutan eşya hangisidir?",
+      "dogruCevap": "Boots",
+      "secenekler": [
+        "Hat",
+        "Scarf",
+        "Gloves",
+        "Boots"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-boots"
+      }
+    },
+    {
+      "id": "mv-t9",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Boynu sıcak tutan giyim eşyası hangisidir?",
+      "dogruCevap": "Scarf",
+      "secenekler": [
+        "Scarf",
+        "Socks",
+        "Shoes",
+        "Pants"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-scarf"
+      }
+    },
+    {
+      "id": "mv-t10",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ellerimizi koruyan eşya hangisidir?",
+      "dogruCevap": "Gloves",
+      "secenekler": [
+        "Skirt",
+        "Gloves",
+        "Dress",
+        "Hat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-gloves"
+      }
+    },
+    {
+      "id": "mv-t11",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Swim\" aktivitesi en çok hangi mevsimde yapılır?",
+      "dogruCevap": "Summer",
+      "secenekler": [
+        "Autumn",
+        "Summer",
+        "Winter",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-swim"
+      }
+    },
+    {
+      "id": "mv-t12",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Make a snowman\" etkinliği hangi mevsime aittir?",
+      "dogruCevap": "Winter",
+      "secenekler": [
+        "Winter",
+        "Autumn",
+        "Spring",
+        "Summer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snowman"
+      }
+    },
+    {
+      "id": "mv-t13",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yaprakların sarardığı mevsim hangisidir?",
+      "dogruCevap": "Autumn",
+      "secenekler": [
+        "Winter",
+        "Autumn",
+        "Summer",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "autumn-leaves"
+      }
+    },
+    {
+      "id": "mv-t14",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çiçeklerin açtığı mevsim genellikle hangisidir?",
+      "dogruCevap": "Spring",
+      "secenekler": [
+        "Autumn",
+        "Summer",
+        "Winter",
+        "Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-flowers"
+      }
+    },
+    {
+      "id": "mv-t15",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki eşleşmelerden hangisi doğrudur?",
+      "dogruCevap": "Winter - coat",
+      "secenekler": [
+        "Winter - coat",
+        "Autumn - t-shirt",
+        "Summer - boots",
+        "Spring - gloves"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "season-clothes-match"
+      }
+    },
+    {
+      "id": "mv-t16",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Season\" kelimesinin Türkçe anlamı nedir?",
+      "dogruCevap": "Mevsim",
+      "secenekler": [
+        "Rüzgar",
+        "Giysi",
+        "Mevsim",
+        "Hava"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "season-wheel"
+      }
+    },
+    {
+      "id": "mv-t17",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yazın güneşten korunmak için hangisi kullanılabilir?",
+      "dogruCevap": "Hat",
+      "secenekler": [
+        "Coat",
+        "Hat",
+        "Scarf",
+        "Gloves"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-hat"
+      }
+    },
+    {
+      "id": "mv-t18",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "İlkbahar için hafif bir dış giyim hangisidir?",
+      "dogruCevap": "Jacket",
+      "secenekler": [
+        "Jacket",
+        "Sweater",
+        "Boots",
+        "Gloves"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-jacket"
+      }
+    },
+    {
+      "id": "mv-t19",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi kış kombinine uygundur?",
+      "dogruCevap": "Coat + gloves + boots",
+      "secenekler": [
+        "T-shirt + shorts",
+        "Skirt + hat",
+        "Dress + sandals",
+        "Coat + gloves + boots"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-outfit"
+      }
+    },
+    {
+      "id": "mv-t20",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki aktivitelerden hangisi ilkbahara uygundur?",
+      "dogruCevap": "Play in the park",
+      "secenekler": [
+        "Make a snowman",
+        "Wear thick coat",
+        "Stay home all day",
+        "Play in the park"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spring-park-play"
+      }
+    },
+    {
+      "id": "mv-t21",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Autumn and winter\" sıralaması hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Sonbahar ve kış",
+      "secenekler": [
+        "Yaz ve sonbahar",
+        "Sonbahar ve kış",
+        "İlkbahar ve yaz",
+        "Kış ve ilkbahar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "season-wheel"
+      }
+    },
+    {
+      "id": "mv-t22",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi mevsim en sıcak olur?",
+      "dogruCevap": "Summer",
+      "secenekler": [
+        "Summer",
+        "Autumn",
+        "Spring",
+        "Winter"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "summer-sun"
+      }
+    },
+    {
+      "id": "mv-t23",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi mevsimde soğuk hava daha yaygındır?",
+      "dogruCevap": "Winter",
+      "secenekler": [
+        "Autumn",
+        "Spring",
+        "Winter",
+        "Summer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "winter-snow"
+      }
+    },
+    {
+      "id": "mv-t24",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yağmurlu bir güne uygun seçim hangisidir?",
+      "dogruCevap": "Umbrella and jacket",
+      "secenekler": [
+        "Scarf only",
+        "T-shirt and shorts",
+        "Umbrella and jacket",
+        "Boots and gloves only"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "rainy-umbrella"
+      }
+    },
+    {
+      "id": "mv-t25",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki mevsim sırası hangisidir?",
+      "dogruCevap": "Spring - Summer - Autumn - Winter",
+      "secenekler": [
+        "Spring - Summer - Autumn - Winter",
+        "Autumn - Winter - Summer - Spring",
+        "Summer - Spring - Winter - Autumn",
+        "Winter - Autumn - Summer - Spring"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "season-wheel"
+      }
+    }
+  ]
+}

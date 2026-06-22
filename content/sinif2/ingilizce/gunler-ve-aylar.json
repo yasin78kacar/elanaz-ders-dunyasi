@@ -462,9 +462,9 @@
       "soru": "Salı gününün İngilizce adı hangisidir?",
       "dogruCevap": "Tuesday",
       "secenekler": [
-        "Saturday",
-        "Thursday",
         "Wednesday",
+        "Thursday",
+        "Saturday",
         "Tuesday"
       ],
       "ipucu": "",
@@ -500,10 +500,10 @@
       "soru": "Perşembe gününün İngilizce karşılığı aşağıdakilerden hangisidir?",
       "dogruCevap": "Thursday",
       "secenekler": [
-        "Saturday",
         "Tuesday",
         "Sunday",
-        "Thursday"
+        "Thursday",
+        "Saturday"
       ],
       "ipucu": "",
       "gorsel": {
@@ -519,8 +519,8 @@
       "soru": "Cuma gününün İngilizcesi nedir?",
       "dogruCevap": "Friday",
       "secenekler": [
-        "Monday",
         "Sunday",
+        "Monday",
         "Friday",
         "Thursday"
       ],
@@ -539,9 +539,9 @@
       "dogruCevap": "Saturday",
       "secenekler": [
         "Friday",
-        "Sunday",
         "Monday",
-        "Saturday"
+        "Saturday",
+        "Sunday"
       ],
       "ipucu": "",
       "gorsel": {
@@ -557,9 +557,9 @@
       "soru": "Pazar gününün İngilizcesi nedir?",
       "dogruCevap": "Sunday",
       "secenekler": [
-        "Friday",
         "Sunday",
         "Saturday",
+        "Friday",
         "Monday"
       ],
       "ipucu": "",
@@ -576,10 +576,10 @@
       "soru": "\"Day\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Gün",
       "secenekler": [
-        "Saat",
+        "Hafta",
         "Ay",
         "Gün",
-        "Hafta"
+        "Saat"
       ],
       "ipucu": "",
       "gorsel": {
@@ -595,9 +595,9 @@
       "soru": "\"Month\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Ay",
       "secenekler": [
-        "Gün",
-        "Hafta",
         "Yıl",
+        "Hafta",
+        "Gün",
         "Ay"
       ],
       "ipucu": "",
@@ -615,9 +615,9 @@
       "dogruCevap": "January",
       "secenekler": [
         "March",
-        "January",
         "February",
-        "December"
+        "December",
+        "January"
       ],
       "ipucu": "",
       "gorsel": {
@@ -634,9 +634,9 @@
       "dogruCevap": "February",
       "secenekler": [
         "August",
+        "June",
         "February",
-        "April",
-        "June"
+        "April"
       ],
       "ipucu": "",
       "gorsel": {
@@ -652,10 +652,10 @@
       "soru": "Mart ayının İngilizcesi nedir?",
       "dogruCevap": "March",
       "secenekler": [
-        "May",
         "July",
-        "March",
-        "November"
+        "May",
+        "November",
+        "March"
       ],
       "ipucu": "",
       "gorsel": {
@@ -671,9 +671,9 @@
       "soru": "Nisan ayının İngilizce karşılığı nedir?",
       "dogruCevap": "April",
       "secenekler": [
-        "October",
-        "December",
         "June",
+        "December",
+        "October",
         "April"
       ],
       "ipucu": "",
@@ -690,10 +690,10 @@
       "soru": "\"May\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Mayıs",
       "secenekler": [
-        "Haziran",
-        "Nisan",
+        "Mayıs",
         "Mart",
-        "Mayıs"
+        "Nisan",
+        "Haziran"
       ],
       "ipucu": "",
       "gorsel": {
@@ -709,10 +709,10 @@
       "soru": "Haziran ayının İngilizcesi nedir?",
       "dogruCevap": "June",
       "secenekler": [
-        "July",
+        "June",
         "September",
         "August",
-        "June"
+        "July"
       ],
       "ipucu": "",
       "gorsel": {
@@ -728,10 +728,10 @@
       "soru": "\"July\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Temmuz",
       "secenekler": [
+        "Eylül",
         "Temmuz",
-        "Haziran",
         "Ağustos",
-        "Eylül"
+        "Haziran"
       ],
       "ipucu": "",
       "gorsel": {
@@ -747,10 +747,10 @@
       "soru": "Ağustos ayının İngilizcesi hangisidir?",
       "dogruCevap": "August",
       "secenekler": [
-        "April",
-        "February",
         "August",
-        "October"
+        "April",
+        "October",
+        "February"
       ],
       "ipucu": "",
       "gorsel": {
@@ -767,8 +767,8 @@
       "dogruCevap": "September",
       "secenekler": [
         "January",
-        "November",
         "March",
+        "November",
         "September"
       ],
       "ipucu": "",
@@ -785,10 +785,10 @@
       "soru": "\"October\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Ekim",
       "secenekler": [
-        "Ağustos",
-        "Ekim",
         "Eylül",
-        "Kasım"
+        "Kasım",
+        "Ağustos",
+        "Ekim"
       ],
       "ipucu": "",
       "gorsel": {
@@ -804,9 +804,9 @@
       "soru": "Kasım ayının İngilizcesi nedir?",
       "dogruCevap": "November",
       "secenekler": [
-        "November",
         "October",
         "December",
+        "November",
         "September"
       ],
       "ipucu": "",
@@ -823,8 +823,8 @@
       "soru": "Aralık ayının İngilizce karşılığı hangisidir?",
       "dogruCevap": "December",
       "secenekler": [
-        "November",
         "February",
+        "November",
         "January",
         "December"
       ],
@@ -843,9 +843,9 @@
       "dogruCevap": "Cumartesi ve Pazar",
       "secenekler": [
         "Perşembe ve Cuma",
-        "Cumartesi ve Pazar",
         "Cuma ve Cumartesi",
-        "Pazartesi ve Salı"
+        "Pazartesi ve Salı",
+        "Cumartesi ve Pazar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -869,8 +869,8 @@
       "dogruCevap": "Friday",
       "secenekler": [
         "Thursday",
-        "Friday",
         "Monday",
+        "Friday",
         "Saturday"
       ],
       "ipucu": "",
@@ -887,9 +887,9 @@
       "soru": "Sonbaharın başladığı Ekim ayının İngilizcesi nedir?",
       "dogruCevap": "October",
       "secenekler": [
-        "August",
         "June",
         "October",
+        "August",
         "April"
       ],
       "ipucu": "",
@@ -906,10 +906,10 @@
       "soru": "Saat ve zamanı ifade eden kelimenin İngilizcesi nedir?",
       "dogruCevap": "Time",
       "secenekler": [
-        "Month",
         "Time",
+        "Week",
         "Day",
-        "Week"
+        "Month"
       ],
       "ipucu": "",
       "gorsel": {

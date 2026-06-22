@@ -1,4 +1,4 @@
-/** PARTI kaynak dosyalarını üretir: Mat-T4, Mat-T5, Mat-T6, Fen-T2, Fen-T3, Hayat-T1, İng-T1, İng-T2, İng-T3, Türç-T3, Türç-T4 */
+/** PARTI kaynak dosyalarını üretir: Mat-T4..T7, Fen-T2, Fen-T3, Hayat-T1, İng-T1..T4, Türç-T3..T5 */
 import { writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
@@ -12,8 +12,10 @@ import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
 import { eylemler, gunlerVeAylar, havaDurumu } from './gorev-ing3-questions.mjs';
+import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
+import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
@@ -64,12 +66,16 @@ const ing2 = sayilarVeSinifEsyalari(karistir);
 const ing3a = gunlerVeAylar(karistir);
 const ing3b = havaDurumu(karistir);
 const ing3c = eylemler(karistir);
+const ing4a = giyimEsyalari(karistir);
+const ing4b = mevsimlerIng(karistir);
 const turYazma = yazmaBecerileri(karistir);
 const turDinleme = dinlemeVeKonusma(karistir);
 const turSozcuk = sozcukVeDilBilgisi(karistir);
 const turMetin = metinAnlamaVeYorumlama(karistir);
 const turKelime = kelimeVeAnlamBilgisiIleri(karistir);
 const turYazmaIleri = yazmaVeAnlatimIleri(karistir);
+const turYazTuruHikaye = yazTuruHikaye(karistir);
+const turYazTuruSiir = yazTuruSiir(karistir);
 
 const matMd = [
   '# Dosya Adı: PARTI-MATEMATIK-TEMA4.md',
@@ -169,6 +175,35 @@ const ingTema3Md = [
   ...ing3c.test.map((s, i) => satir(s, i, 'test')),
 ].join('\n');
 writeFileSync(join(root, 'PARTI-INGILIZCE-TEMA3.md'), ingTema3Md);
+
+const ingTema4Md = [
+  '# Dosya Adı: PARTI-INGILIZCE-TEMA4.md',
+  '## İngilizce — Tema 4: Clothes & Seasons',
+  '',
+  ...ing4a.anlatim.ekranlar.map((e, i) => `### Giyim Eşyaları Anlatım ${i + 1}\n${e.metin}\n`),
+  '## GİYİM EŞYALARI — ALIŞTIRMALAR (25)',
+  ...ing4a.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## GİYİM EŞYALARI — TEST (25)',
+  ...ing4a.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...ing4b.anlatim.ekranlar.map((e, i) => `### Mevsimler Anlatım ${i + 1}\n${e.metin}\n`),
+  '## MEVSİMLER — ALIŞTIRMALAR (25)',
+  ...ing4b.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## MEVSİMLER — TEST (25)',
+  ...ing4b.test.map((s, i) => satir(s, i, 'test')),
+].join('\n');
+writeFileSync(join(root, 'PARTI-INGILIZCE-TEMA4.md'), ingTema4Md);
+
+writeFileSync(join(root, 'PARTI-MATEMATIK-TEMA7.md'), matTema6Md.replace(
+  'PARTI-MATEMATIK-TEMA6.md',
+  'PARTI-MATEMATIK-TEMA7.md',
+).replace(
+  'Matematik — Tema 6: Kesirler',
+  'Matematik — Tema 7: Parça-Bütün',
+));
+
 writeFileSync(join(root, 'PARTI-FEN-TEMA2.md'), partiMd('Fen Bilimleri — Tema 2: Bitkiler', 'PARTI-FEN-TEMA2.md', [fen2]));
 
 const fenTema3Md = [
@@ -252,6 +287,26 @@ const turTema4Md = [
 ].join('\n');
 writeFileSync(join(root, 'PARTI-TURKCE-TEMA4.md'), turTema4Md);
 
+const turTema5Md = [
+  '# Dosya Adı: PARTI-TURKCE-TEMA5.md',
+  '## Türkçe — Tema 5: Yazı Türleri',
+  '',
+  ...turYazTuruHikaye.anlatim.ekranlar.map((e, i) => `### Yazı Türü — Hikâye Anlatım ${i + 1}\n${e.metin}\n`),
+  '## YAZI TÜRÜ — HİKÂYE — ALIŞTIRMALAR (25)',
+  ...turYazTuruHikaye.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## YAZI TÜRÜ — HİKÂYE — TEST (25)',
+  ...turYazTuruHikaye.test.map((s, i) => satir(s, i, 'test')),
+  '',
+  ...turYazTuruSiir.anlatim.ekranlar.map((e, i) => `### Yazı Türü — Şiir Anlatım ${i + 1}\n${e.metin}\n`),
+  '## YAZI TÜRÜ — ŞİİR — ALIŞTIRMALAR (25)',
+  ...turYazTuruSiir.alistirma.map((s, i) => satir(s, i, 'alistirma')),
+  '',
+  '## YAZI TÜRÜ — ŞİİR — TEST (25)',
+  ...turYazTuruSiir.test.map((s, i) => satir(s, i, 'test')),
+].join('\n');
+writeFileSync(join(root, 'PARTI-TURKCE-TEMA5.md'), turTema5Md);
+
 console.log('PARTI-MATEMATIK-TEMA4.md:', matCarpma.alistirma.length + matCarpma.test.length + matBolme.alistirma.length + matBolme.test.length, 'soru');
 console.log('PARTI-MATEMATIK-TEMA5.md:', matUzunluk.alistirma.length + matUzunluk.test.length + matTartma.alistirma.length + matTartma.test.length, 'soru');
 console.log(
@@ -292,5 +347,23 @@ console.log(
   turMetin.alistirma.length + turMetin.test.length
     + turKelime.alistirma.length + turKelime.test.length
     + turYazmaIleri.alistirma.length + turYazmaIleri.test.length,
+  'soru',
+);
+console.log(
+  'PARTI-TURKCE-TEMA5.md:',
+  turYazTuruHikaye.alistirma.length + turYazTuruHikaye.test.length
+    + turYazTuruSiir.alistirma.length + turYazTuruSiir.test.length,
+  'soru',
+);
+console.log(
+  'PARTI-INGILIZCE-TEMA4.md:',
+  ing4a.alistirma.length + ing4a.test.length + ing4b.alistirma.length + ing4b.test.length,
+  'soru',
+);
+console.log(
+  'PARTI-MATEMATIK-TEMA7.md:',
+  matEsit.alistirma.length + matEsit.test.length
+    + matYarim.alistirma.length + matYarim.test.length
+    + matKesir.alistirma.length + matKesir.test.length,
   'soru',
 );

@@ -445,10 +445,10 @@
       "soru": "Elma 300 g, armut 500 g. Hangisi daha ağır?",
       "dogruCevap": "Armut",
       "secenekler": [
-        "Elma",
+        "Eşit",
         "Armut",
         "Belli değil",
-        "Eşit"
+        "Elma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -469,10 +469,10 @@
       "soru": "Terazi dengede. Sol kefede 4 kg var. Sağ kefede kaç kg var?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
-        "4",
+        "3",
         "5",
-        "3"
+        "4",
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -493,10 +493,10 @@
       "soru": "Hangi ölçüm aracı ağırlık ölçmek için kullanılır?",
       "dogruCevap": "Terazi",
       "secenekler": [
-        "Bardak",
         "Terazi",
-        "Saat",
-        "Cetvel"
+        "Bardak",
+        "Cetvel",
+        "Saat"
       ],
       "ipucu": "",
       "gorsel": {
@@ -512,10 +512,10 @@
       "soru": "1 kg kaç gramdır?",
       "dogruCevap": "1000",
       "secenekler": [
-        "10",
         "100",
         "500",
-        "1000"
+        "1000",
+        "10"
       ],
       "ipucu": "",
       "gorsel": {
@@ -531,10 +531,10 @@
       "soru": "Karpuz 6 kg, kavun 3 kg. Fark kaç kg?",
       "dogruCevap": "3",
       "secenekler": [
-        "3",
-        "5",
         "4",
-        "2"
+        "2",
+        "3",
+        "5"
       ],
       "ipucu": "",
       "gorsel": {
@@ -555,9 +555,9 @@
       "soru": "Sol kefe 7 kg, sağ kefe 4 kg. Terazi hangi tarafa eğik?",
       "dogruCevap": "Sola",
       "secenekler": [
-        "Sola",
-        "Sağa",
         "Dengede",
+        "Sağa",
+        "Sola",
         "Belli değil"
       ],
       "ipucu": "",
@@ -579,10 +579,10 @@
       "soru": "Mehmet 36 kg, Ali 29 kg. Toplam kaç kg?",
       "dogruCevap": "65",
       "secenekler": [
-        "63",
         "64",
         "66",
-        "65"
+        "65",
+        "63"
       ],
       "ipucu": "",
       "gorsel": {
@@ -599,9 +599,9 @@
       "dogruCevap": "2 kg 500 g",
       "secenekler": [
         "2 kg",
+        "1 kg 500 g",
         "2 kg 500 g",
-        "3 kg",
-        "1 kg 500 g"
+        "3 kg"
       ],
       "ipucu": "2500 = 2000 + 500",
       "gorsel": {
@@ -618,10 +618,10 @@
       "soru": "En ağır hangisi? 3 kg, 2500 g, 3500 g",
       "dogruCevap": "3500 g",
       "secenekler": [
-        "3 kg",
         "2500 g",
-        "Hepsi eşit",
-        "3500 g"
+        "3500 g",
+        "3 kg",
+        "Hepsi eşit"
       ],
       "ipucu": "",
       "gorsel": {
@@ -637,10 +637,10 @@
       "soru": "Bir paket 250 g. 4 paket kaç g?",
       "dogruCevap": "1000",
       "secenekler": [
-        "800",
-        "750",
         "1000",
-        "1200"
+        "1200",
+        "750",
+        "800"
       ],
       "ipucu": "",
       "gorsel": {
@@ -656,10 +656,10 @@
       "soru": "Ayşe 31 kg, annesi 58 kg. Fark kaç kg?",
       "dogruCevap": "27",
       "secenekler": [
-        "29",
+        "27",
         "23",
         "25",
-        "27"
+        "29"
       ],
       "ipucu": "",
       "gorsel": {
@@ -677,8 +677,8 @@
       "secenekler": [
         "1",
         "2",
-        "4",
-        "3"
+        "3",
+        "4"
       ],
       "ipucu": "Eksik ağırlığı ekle!",
       "gorsel": {
@@ -700,10 +700,10 @@
       "soru": "En hafif hangisi? 1 kg, 999 g, 1001 g",
       "dogruCevap": "999 g",
       "secenekler": [
-        "1 kg",
-        "Hepsi eşit",
         "999 g",
-        "1001 g"
+        "1001 g",
+        "1 kg",
+        "Hepsi eşit"
       ],
       "ipucu": "",
       "gorsel": {
@@ -719,10 +719,10 @@
       "soru": "Fatma'nın çantası 2 kg 500 g. Kaç gramdır?",
       "dogruCevap": "2500",
       "secenekler": [
-        "2050",
+        "200",
         "250",
         "2500",
-        "200"
+        "2050"
       ],
       "ipucu": "",
       "gorsel": {
@@ -738,10 +738,10 @@
       "soru": "🎭 Hangi nesne gram ile ölçülür?",
       "dogruCevap": "Çikolata",
       "secenekler": [
-        "Kamyon",
-        "Araba",
+        "Fil",
         "Çikolata",
-        "Fil"
+        "Kamyon",
+        "Araba"
       ],
       "ipucu": "Hafif nesneler gram ile ölçülür!",
       "gorsel": {
@@ -758,8 +758,8 @@
       "soru": "Bir sandık 15 kg. 3 sandık kaç kg?",
       "dogruCevap": "45",
       "secenekler": [
-        "40",
         "35",
+        "40",
         "45",
         "50"
       ],
@@ -778,9 +778,9 @@
       "dogruCevap": "35",
       "secenekler": [
         "30",
-        "40",
         "45",
-        "35"
+        "35",
+        "40"
       ],
       "ipucu": "",
       "gorsel": {
@@ -798,8 +798,8 @@
       "secenekler": [
         "1",
         "3",
-        "4",
-        "2"
+        "2",
+        "4"
       ],
       "ipucu": "3 - 2 = ?",
       "gorsel": {
@@ -821,9 +821,9 @@
       "soru": "4000 g kaç kg?",
       "dogruCevap": "4",
       "secenekler": [
+        "4",
         "400",
         "3",
-        "4",
         "5"
       ],
       "ipucu": "",
@@ -840,9 +840,9 @@
       "soru": "Selin'in çantası 1 kg 800 g. Zeynep'in çantası 2 kg. Hangisi daha ağır?",
       "dogruCevap": "Zeynep",
       "secenekler": [
+        "Eşit",
         "Belli değil",
         "Zeynep",
-        "Eşit",
         "Selin"
       ],
       "ipucu": "",
@@ -864,10 +864,10 @@
       "soru": "🎭 Bir karpuz 8 kg. Yarısı kaç kg?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
+        "3",
         "5",
-        "4",
-        "3"
+        "6",
+        "4"
       ],
       "ipucu": "8 ÷ 2 = ?",
       "gorsel": {
@@ -903,8 +903,8 @@
       "soru": "Hangi nesne kilogram ile ölçülür?",
       "dogruCevap": "Karpuz",
       "secenekler": [
-        "Karpuz",
         "İğne",
+        "Karpuz",
         "Tüy",
         "Kâğıt"
       ],
@@ -922,10 +922,10 @@
       "soru": "🎭 Terazi dengede. Sol kefede 2 kg + 300 g var. Sağ kefede kaç g var?",
       "dogruCevap": "2300",
       "secenekler": [
-        "2030",
-        "230",
         "2300",
-        "2003"
+        "2030",
+        "2003",
+        "230"
       ],
       "ipucu": "2 kg = 2000 g, 2000 + 300 = ?",
       "gorsel": {
@@ -949,8 +949,8 @@
       "secenekler": [
         "2400",
         "2200",
-        "2000",
-        "2600"
+        "2600",
+        "2000"
       ],
       "ipucu": "3 × 800 = ?",
       "gorsel": {

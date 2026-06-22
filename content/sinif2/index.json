@@ -42,6 +42,14 @@
             "turkce/kelime-ve-anlam-bilgisi-ileri.json",
             "turkce/yazma-ve-anlatim-ileri.json"
           ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Türkçe — Tema 5",
+          "konuDosyalari": [
+            "turkce/yaz-turu-hikaye.json",
+            "turkce/yaz-turu-siir.json"
+          ]
         }
       ]
     },
@@ -118,7 +126,7 @@
         },
         {
           "id": "tema-7",
-          "baslik": "Matematik — Tema 6 — Kesirler",
+          "baslik": "Matematik — Tema 7 — Parça-Bütün",
           "konuDosyalari": [
             "matematik/esit-parcalara-bolme.json",
             "matematik/yarim-ve-ceyrek.json",
@@ -231,9 +239,8 @@
           "id": "tema-4",
           "baslik": "İngilizce — Tema 4",
           "konuDosyalari": [
-            "ingilizce/kisa-hikayeler.json",
-            "ingilizce/basit-diyaloglar.json",
-            "ingilizce/ingilizce-sarkilar.json"
+            "ingilizce/giyim-esyalari.json",
+            "ingilizce/mevsimler-ing.json"
           ]
         }
       ]

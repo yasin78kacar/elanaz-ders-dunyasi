@@ -50,12 +50,16 @@ import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afet
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
 import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
+import yazTuruHikaye from '../../content/sinif2/turkce/yaz-turu-hikaye.json';
+import yazTuruSiir from '../../content/sinif2/turkce/yaz-turu-siir.json';
+import giyimEsyalari from '../../content/sinif2/ingilizce/giyim-esyalari.json';
+import mevsimlerIng from '../../content/sinif2/ingilizce/mevsimler-ing.json';
 import theme3Json from '../data/english/theme3.json';
 import theme4Json from '../data/english/theme4.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
 import tema5Json from '../data/math/tema5.json';
-import tema6Json from '../data/math/tema6.json';
+import tema7Json from '../data/math/tema7.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
 import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
@@ -81,14 +85,14 @@ const [carpmaTema4, bolmeTema4] = matTema4.konular;
 const matTema5 = tema5Json as MathTheme;
 const [uzunlukOlcmeTema5, tartmaTema5] = matTema5.konular;
 
-const matTema6 = tema6Json as MathTheme;
-const [esitParcalaraBolmeTema6, yarimVeCeyrekTema6, basitKesirlerTema6] = matTema6.konular;
+const matTema7 = tema7Json as MathTheme;
+const [esitParcalaraBolmeTema7, yarimVeCeyrekTema7, basitKesirlerTema7] = matTema7.konular;
 
 const theme3Ing = theme3Json as EnglishTheme;
 const [gunlerVeAylar, havaDurumu, eylemler] = theme3Ing.konular;
 
 const theme4 = theme4Json as EnglishTheme;
-const [kisaHikayeler, basitDiyaloglar, ingilizceSarkilar] = theme4.konular;
+const [giyimEsyalariIng, mevsimlerIngKonu] = theme4.konular;
 
 const konuDosyalari: Record<string, Konu> = {
   'matematik/ritmik-sayma.json': ritmikSayma as Konu,
@@ -116,9 +120,9 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/tablo-okuma.json': tabloOkuma as Konu,
   'matematik/grafik-okuma.json': grafikOkuma as Konu,
   'matematik/veri-toplama.json': veriToplama as Konu,
-  'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema6,
-  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema6,
-  'matematik/basit-kesirler.json': basitKesirlerTema6,
+  'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema7,
+  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema7,
+  'matematik/basit-kesirler.json': basitKesirlerTema7,
   'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
   'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
   'turkce/okuma-anlama.json': okumaAnlama as Konu,
@@ -133,6 +137,8 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/metin-anlama-ve-yorumlama.json': metinAnlamaVeYorumlama as Konu,
   'turkce/kelime-ve-anlam-bilgisi-ileri.json': kelimeVeAnlamBilgisiIleri as Konu,
   'turkce/yazma-ve-anlatim-ileri.json': yazmaVeAnlatimIleri as Konu,
+  'turkce/yaz-turu-hikaye.json': yazTuruHikaye as Konu,
+  'turkce/yaz-turu-siir.json': yazTuruSiir as Konu,
   'fen-bilimleri/canlilar.json': canlilar as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
   'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,
@@ -156,10 +162,9 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/gunler-ve-aylar.json': gunlerVeAylar,
   'ingilizce/hava-durumu.json': havaDurumu,
   'ingilizce/eylemler.json': eylemler,
+  'ingilizce/giyim-esyalari.json': giyimEsyalariIng,
+  'ingilizce/mevsimler-ing.json': mevsimlerIngKonu,
   'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAile as Konu,
-  'ingilizce/kisa-hikayeler.json': kisaHikayeler,
-  'ingilizce/basit-diyaloglar.json': basitDiyaloglar,
-  'ingilizce/ingilizce-sarkilar.json': ingilizceSarkilar,
   'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
   'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
 };

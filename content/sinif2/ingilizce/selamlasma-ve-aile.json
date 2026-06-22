@@ -468,10 +468,10 @@
       "soru": "Sabah okulda arkadaşımızla karşılaştığımızda ona ne söyleriz?",
       "dogruCevap": "Hello / Good morning",
       "secenekler": [
-        "Hello / Good morning",
-        "Good night",
         "Goodbye",
-        "See you"
+        "Good night",
+        "See you",
+        "Hello / Good morning"
       ],
       "ipucu": "",
       "gorsel": {
@@ -488,9 +488,9 @@
       "dogruCevap": "Good morning",
       "secenekler": [
         "Good night",
-        "Good evening",
+        "Good morning",
         "Goodbye",
-        "Good morning"
+        "Good evening"
       ],
       "ipucu": "",
       "gorsel": {
@@ -506,8 +506,8 @@
       "soru": "\"Anne\" kelimesinin İngilizcesi aşağıdakilerden hangisidir?",
       "dogruCevap": "Mother",
       "secenekler": [
-        "Sister",
         "Mother",
+        "Sister",
         "Father",
         "Brother"
       ],
@@ -525,9 +525,9 @@
       "soru": "İngilizcede \"Baba\" kelimesi nasıl yazılır?",
       "dogruCevap": "Father",
       "secenekler": [
+        "Father",
         "Brother",
         "Mother",
-        "Father",
         "Sister"
       ],
       "ipucu": "",
@@ -563,10 +563,10 @@
       "soru": "Ali'nin küçük bir erkek kardeşi var. Erkek kardeş kelimesinin İngilizcesi nedir?",
       "dogruCevap": "Brother",
       "secenekler": [
-        "Mother",
+        "Sister",
         "Brother",
         "Grandfather",
-        "Sister"
+        "Mother"
       ],
       "ipucu": "",
       "gorsel": {
@@ -582,10 +582,10 @@
       "soru": "Anne, baba ve çocuklardan oluşan topluluğa (Aile) İngilizcede ne denir?",
       "dogruCevap": "Family",
       "secenekler": [
-        "Family",
         "Colors",
-        "Classroom",
-        "Numbers"
+        "Family",
+        "Numbers",
+        "Classroom"
       ],
       "ipucu": "",
       "gorsel": {
@@ -601,10 +601,10 @@
       "soru": "Arkadaşımızdan ayrılırken \"Hoşça kal\" demek için İngilizce hangi kelimeyi söyleriz?",
       "dogruCevap": "Goodbye",
       "secenekler": [
-        "Good morning",
-        "Hi",
+        "Hello",
         "Goodbye",
-        "Hello"
+        "Hi",
+        "Good morning"
       ],
       "ipucu": "",
       "gorsel": {
@@ -620,10 +620,10 @@
       "soru": "Uyumadan önce ailemize İngilizce \"İyi geceler\" demek için ne söyleriz?",
       "dogruCevap": "Good night",
       "secenekler": [
-        "Hello",
-        "Good night",
         "Good afternoon",
-        "Good morning"
+        "Hello",
+        "Good morning",
+        "Good night"
       ],
       "ipucu": "",
       "gorsel": {
@@ -639,10 +639,10 @@
       "soru": "Arkadaşımıza kısaca \"Selam\" demek için İngilizce hangi küçük kelimeyi kullanırız?",
       "dogruCevap": "Hi",
       "secenekler": [
-        "Good",
+        "Hi",
         "See",
         "Bye",
-        "Hi"
+        "Good"
       ],
       "ipucu": "",
       "gorsel": {
@@ -658,10 +658,10 @@
       "soru": "Öğleden sonra saatlerinde (Tünaydın demek için) İngilizce hangi ifade kullanılır?",
       "dogruCevap": "Good afternoon",
       "secenekler": [
-        "Good night",
-        "Good morning",
         "Goodbye",
-        "Good afternoon"
+        "Good afternoon",
+        "Good morning",
+        "Good night"
       ],
       "ipucu": "",
       "gorsel": {
@@ -677,10 +677,10 @@
       "soru": "\"Görüşürüz\" kelimesinin İngilizcesi aşağıdakilerden hangisidir?",
       "dogruCevap": "See you",
       "secenekler": [
+        "Hi",
         "See you",
-        "Hello",
         "Good morning",
-        "Hi"
+        "Hello"
       ],
       "ipucu": "",
       "gorsel": {
@@ -696,10 +696,10 @@
       "soru": "\"Grandmother\" kelimesinin Türkçedeki anlamı nedir?",
       "dogruCevap": "Büyükanne (Nine)",
       "secenekler": [
-        "Kız kardeş",
+        "Erkek kardeş",
         "Baba",
         "Büyükanne (Nine)",
-        "Erkek kardeş"
+        "Kız kardeş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -715,8 +715,8 @@
       "soru": "Dedemize (büyükbabamıza) İngilizce ne deriz?",
       "dogruCevap": "Grandfather",
       "secenekler": [
-        "Brother",
         "Sister",
+        "Brother",
         "Father",
         "Grandfather"
       ],
@@ -736,8 +736,8 @@
       "secenekler": [
         "Teacher",
         "Mother",
-        "Grandfather",
-        "Baby"
+        "Baby",
+        "Grandfather"
       ],
       "ipucu": "",
       "gorsel": {
@@ -753,10 +753,10 @@
       "soru": "Akşam vakti karşılaştığımız kişilere \"İyi akşamlar\" demek için ne söyleriz?",
       "dogruCevap": "Good evening",
       "secenekler": [
-        "Good evening",
+        "Good night",
         "Good afternoon",
-        "Good morning",
-        "Good night"
+        "Good evening",
+        "Good morning"
       ],
       "ipucu": "",
       "gorsel": {
@@ -773,8 +773,8 @@
       "dogruCevap": "Benim ailem",
       "secenekler": [
         "Benim ailem",
-        "Benim okulum",
         "Benim arkadaşlarım",
+        "Benim okulum",
         "Benim sınıfım"
       ],
       "ipucu": "",
@@ -791,10 +791,10 @@
       "soru": "\"Brother and Sister\" kelimeleri Türkçeye nasıl çevrilir?",
       "dogruCevap": "Erkek kardeş ve Kız kardeş",
       "secenekler": [
-        "Öğretmen ve Öğrenci",
-        "Büyükanne ve Büyükbaba",
         "Erkek kardeş ve Kız kardeş",
-        "Anne ve Baba"
+        "Büyükanne ve Büyükbaba",
+        "Anne ve Baba",
+        "Öğretmen ve Öğrenci"
       ],
       "ipucu": "",
       "gorsel": {
@@ -810,9 +810,9 @@
       "soru": "\"Bye bye\" ne zaman söylenir?",
       "dogruCevap": "Birisinden ayrılırken (Hoşça kal derken)",
       "secenekler": [
+        "Birisiyle karşılaşıldığında (Merhaba derken)",
         "Gece uyurken",
         "Birisinden ayrılırken (Hoşça kal derken)",
-        "Birisiyle karşılaşıldığında (Merhaba derken)",
         "Sabah uyanınca"
       ],
       "ipucu": "",
@@ -831,9 +831,9 @@
       "dogruCevap": "Anne ve Baba",
       "secenekler": [
         "Kız kardeş ve Erkek kardeş",
-        "Anne ve Baba",
         "Teyze ve Amca",
-        "Dede ve Nine"
+        "Dede ve Nine",
+        "Anne ve Baba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -849,9 +849,9 @@
       "soru": "Sabah kalktığımızda odamıza giren annemize ilk olarak İngilizce ne söyleriz?",
       "dogruCevap": "Good morning",
       "secenekler": [
+        "Good night",
         "Good afternoon",
         "Good morning",
-        "Good night",
         "Goodbye"
       ],
       "ipucu": "",
@@ -868,10 +868,10 @@
       "soru": "Sınıfa yeni katılan bir arkadaşımıza kendimizi tanıtırken sıcak bir başlangıç için ne demeliyiz?",
       "dogruCevap": "Hello",
       "secenekler": [
-        "Bye bye",
-        "See you",
         "Good night",
-        "Hello"
+        "Bye bye",
+        "Hello",
+        "See you"
       ],
       "ipucu": "",
       "gorsel": {
@@ -887,9 +887,9 @@
       "soru": "\"I love my family\" cümlesi İngilizcede neyi ifade eder?",
       "dogruCevap": "Ailemi seviyorum",
       "secenekler": [
-        "Ailemi seviyorum",
         "Renkleri seviyorum",
         "Yemekleri seviyorum",
+        "Ailemi seviyorum",
         "Okulumu seviyorum"
       ],
       "ipucu": "",
@@ -906,10 +906,10 @@
       "soru": "Uykudan önce \"Good night\" diyen birisine biz nasıl cevap veririz?",
       "dogruCevap": "Good night",
       "secenekler": [
-        "Hello",
-        "Good night",
+        "Good afternoon",
         "Good morning",
-        "Good afternoon"
+        "Hello",
+        "Good night"
       ],
       "ipucu": "",
       "gorsel": {
@@ -926,8 +926,8 @@
       "dogruCevap": "Goodbye",
       "secenekler": [
         "Good morning",
-        "Hi",
         "Hello",
+        "Hi",
         "Goodbye"
       ],
       "ipucu": "",

@@ -455,8 +455,8 @@
       "soru": "Limonun sarı ve ekşi olduğunu hangi iki duyumuzla anlarız?",
       "dogruCevap": "Görme - Tatma",
       "secenekler": [
-        "İşitme - Koklama",
         "Görme - Tatma",
+        "İşitme - Koklama",
         "Görme - Dokunma",
         "Tatma - İşitme"
       ],
@@ -475,10 +475,10 @@
       "soru": "Ayşe lastiği çekip bıraktı, eski haline döndü. Lastik nasıl bir maddedir?",
       "dogruCevap": "Esnek",
       "secenekler": [
+        "Pürüzlü",
         "Kırılgan",
-        "Sert",
         "Esnek",
-        "Pürüzlü"
+        "Sert"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -495,10 +495,10 @@
       "soru": "Selin cam sürahiyi taşırken çok dikkat ediyor. Çünkü sürahi nasıl bir maddedir?",
       "dogruCevap": "Kırılgan",
       "secenekler": [
-        "Yumuşak",
         "Esnek",
-        "Pürüzsüz",
-        "Kırılgan"
+        "Yumuşak",
+        "Kırılgan",
+        "Pürüzsüz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -516,9 +516,9 @@
       "dogruCevap": "Yumuşak",
       "secenekler": [
         "Pürüzlü",
+        "Yumuşak",
         "Sert",
-        "Kırılgan",
-        "Yumuşak"
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -536,9 +536,9 @@
       "dogruCevap": "Pürüzsüz - Pürüzlü",
       "secenekler": [
         "Esnek - Kırılgan",
-        "Pürüzsüz - Pürüzlü",
         "Yumuşak - Sert",
-        "Pürüzlü - Pürüzsüz"
+        "Pürüzlü - Pürüzsüz",
+        "Pürüzsüz - Pürüzlü"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -562,10 +562,10 @@
       "soru": "Ağaçta öten kuşun sesini hangi organımızla algılarız?",
       "dogruCevap": "Kulak",
       "secenekler": [
-        "Göz",
-        "Dil",
         "Kulak",
-        "Burun"
+        "Dil",
+        "Burun",
+        "Göz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -582,10 +582,10 @@
       "soru": "Ali oyun hamuruyla araba yapıyor. Oyun hamuru için hangisi söylenemez?",
       "dogruCevap": "Serttir",
       "secenekler": [
-        "Şekil verilebilir",
-        "Ele yapışabilir",
         "Yumuşaktır",
-        "Serttir"
+        "Serttir",
+        "Ele yapışabilir",
+        "Şekil verilebilir"
       ],
       "ipucu": "Oyun hamuru yumuşaktır, sert değildir!",
       "kazanim": "FEN.2.2.1",
@@ -603,10 +603,10 @@
       "soru": "Berk zımpara kağıdına dokunduğunda eli çizildi. Zımpara nasıl bir yüzeye sahiptir?",
       "dogruCevap": "Pürüzlü",
       "secenekler": [
+        "Esnek",
         "Pürüzlü",
         "Pürüzsüz",
-        "Kaygan",
-        "Esnek"
+        "Kaygan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -625,8 +625,8 @@
       "secenekler": [
         "Görme - Koklama",
         "Dokunma - Koklama",
-        "Tatma - Görme",
-        "İşitme - Koklama"
+        "İşitme - Koklama",
+        "Tatma - Görme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -643,10 +643,10 @@
       "soru": "Evimizin demir kapısı için hangisi doğrudur?",
       "dogruCevap": "Serttir",
       "secenekler": [
+        "Kırılgandır",
         "Serttir",
-        "Yumuşaktır",
         "Esnektir",
-        "Kırılgandır"
+        "Yumuşaktır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -664,8 +664,8 @@
       "dogruCevap": "Tadarak",
       "secenekler": [
         "Bakarak",
-        "Dokunarak",
         "Koklayarak",
+        "Dokunarak",
         "Tadarak"
       ],
       "ipucu": "",
@@ -683,9 +683,9 @@
       "soru": "Gökyüzündeki bulutlar pamuk gibidir. Pamuk hangi özelliğe sahiptir?",
       "dogruCevap": "Yumuşak",
       "secenekler": [
-        "Pürüzlü",
         "Kırılgan",
         "Yumuşak",
+        "Pürüzlü",
         "Sert"
       ],
       "ipucu": "",
@@ -704,9 +704,9 @@
       "dogruCevap": "Yumuşaktır",
       "secenekler": [
         "Kırılgandır",
+        "Yumuşaktır",
         "Serttir",
-        "Pürüzsüzdür",
-        "Yumuşaktır"
+        "Pürüzsüzdür"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -724,9 +724,9 @@
       "dogruCevap": "Esnek",
       "secenekler": [
         "Esnek",
-        "Sert",
         "Pürüzsüz",
-        "Kırılgan"
+        "Kırılgan",
+        "Sert"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -743,10 +743,10 @@
       "soru": "Hande cevizi kırmak için çekiç kullandı çünkü ceviz kabuğu çok ... .",
       "dogruCevap": "Sertti",
       "secenekler": [
-        "Pürüzsüzdü",
-        "Yumuşaktı",
         "Esnekti",
-        "Sertti"
+        "Pürüzsüzdü",
+        "Sertti",
+        "Yumuşaktı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -763,10 +763,10 @@
       "soru": "Yusuf'un telefonu yere düşünce çatladı. Çünkü ekran ... .",
       "dogruCevap": "Kırılgandır",
       "secenekler": [
-        "Pürüzlüdür",
-        "Yumuşaktır",
         "Kırılgandır",
-        "Esnektir"
+        "Yumuşaktır",
+        "Esnektir",
+        "Pürüzlüdür"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -785,8 +785,8 @@
       "secenekler": [
         "Pürüzlü",
         "Sert",
-        "Yumuşak",
-        "Kırılgan"
+        "Kırılgan",
+        "Yumuşak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -804,9 +804,9 @@
       "dogruCevap": "Pürüzlü",
       "secenekler": [
         "Yumuşak",
-        "Pürüzlü",
         "Pürüzsüz",
-        "Esnek"
+        "Esnek",
+        "Pürüzlü"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -824,9 +824,9 @@
       "dogruCevap": "Dokunarak",
       "secenekler": [
         "Koklayarak",
+        "Tadarak",
         "Dokunarak",
-        "Dinleyerek",
-        "Tadarak"
+        "Dinleyerek"
       ],
       "ipucu": "Gözler kapalıyken dokunma duyumunu kullanırız!",
       "kazanim": "FEN.2.2.1",
@@ -844,10 +844,10 @@
       "soru": "Hangisi kırılgan bir madde değildir?",
       "dogruCevap": "Plastik top",
       "secenekler": [
-        "Porselen tabak",
-        "Cam şişe",
+        "Cam bardak",
         "Plastik top",
-        "Cam bardak"
+        "Cam şişe",
+        "Porselen tabak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -868,10 +868,10 @@
       "soru": "Tükenmez kalemin içindeki küçük yay nasıl bir maddedir?",
       "dogruCevap": "Esnek",
       "secenekler": [
-        "Yumuşak",
         "Pürüzsüz",
-        "Kırılgan",
-        "Esnek"
+        "Yumuşak",
+        "Esnek",
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -888,9 +888,9 @@
       "soru": "Çileğin kırmızı olduğunu ..., tatlı olduğunu ... anlarız.",
       "dogruCevap": "Gözümüzle - Dilimizle",
       "secenekler": [
-        "Burnumuzla - Gözümüzle",
-        "Dilimizle - Kulaklarımızla",
         "Gözümüzle - Dilimizle",
+        "Dilimizle - Kulaklarımızla",
+        "Burnumuzla - Gözümüzle",
         "Gözümüzle - Burnumuzla"
       ],
       "ipucu": "",
@@ -908,8 +908,8 @@
       "soru": "Taş ve pamuk için hangisi doğrudur?",
       "dogruCevap": "Taş sert, pamuk yumuşaktır",
       "secenekler": [
-        "Taş esnek, pamuk kırılgandır",
         "İkisi de serttir",
+        "Taş esnek, pamuk kırılgandır",
         "Taş sert, pamuk yumuşaktır",
         "İkisi de yumuşaktır"
       ],
@@ -935,10 +935,10 @@
       "soru": "Çayın sıcak olduğunu anladığımız duyumuz hangisidir?",
       "dogruCevap": "Dokunma",
       "secenekler": [
-        "Dokunma",
-        "Tatma",
         "İşitme",
-        "Görme"
+        "Dokunma",
+        "Görme",
+        "Tatma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -955,10 +955,10 @@
       "soru": "Islak bir sabun elimizdeyken kolayca kayar. Bu onun nasıl bir yüzeye sahip olduğunu gösterir?",
       "dogruCevap": "Pürüzsüz",
       "secenekler": [
-        "Sert",
+        "Esnek",
         "Pürüzlü",
         "Pürüzsüz",
-        "Esnek"
+        "Sert"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",

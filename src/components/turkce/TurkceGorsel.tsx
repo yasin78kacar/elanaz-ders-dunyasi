@@ -713,6 +713,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <GunlukGorsel />;
     case 'ya-anlatim-3':
       return <SiirYazmaGorsel />;
+    case 'yth-anlatim-1':
+      return <SahneGorsel sahne="hikaye" nesne="hikaye" />;
+    case 'yth-anlatim-2':
+      return <HikayeYapisi />;
+    case 'yth-anlatim-3':
+      return <SoruIsaretleriGorsel />;
+    case 'yts-anlatim-1':
+      return <SiirGorsel sahne="siir-dize" />;
+    case 'yts-anlatim-2':
+      return <SiirGorsel sahne="kafiye" />;
+    case 'yts-anlatim-3':
+      return <SiirGorsel sahne="kisilestirme" />;
     default:
       return <SahneGorsel sahne={sahne} />;
   }

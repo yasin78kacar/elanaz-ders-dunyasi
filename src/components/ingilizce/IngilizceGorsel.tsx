@@ -283,6 +283,43 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'sayilar-1-5': { emoji: '1️⃣2️⃣3️⃣4️⃣5️⃣', etiket: '1–5', ing: 'One to Five' },
   'boya-paleti': { emoji: '🎨', etiket: 'Palet', ing: 'Colors Song' },
   'mutlu-ingilizce-sinif': { emoji: '😊', etiket: 'Sınıf', ing: 'Songs' },
+  // Tema 4 — Clothes & Seasons
+  shirt: { emoji: '👕', etiket: 'Gömlek', ing: 'Shirt' },
+  pants: { emoji: '👖', etiket: 'Pantolon', ing: 'Pants' },
+  dress: { emoji: '👗', etiket: 'Elbise', ing: 'Dress' },
+  skirt: { emoji: '👗', etiket: 'Etek', ing: 'Skirt' },
+  shoes: { emoji: '👟', etiket: 'Ayakkabı', ing: 'Shoes' },
+  socks: { emoji: '🧦', etiket: 'Çorap', ing: 'Socks' },
+  hat: { emoji: '🧢', etiket: 'Şapka', ing: 'Hat' },
+  coat: { emoji: '🧥', etiket: 'Kaban', ing: 'Coat' },
+  scarf: { emoji: '🧣', etiket: 'Atkı', ing: 'Scarf' },
+  gloves: { emoji: '🧤', etiket: 'Eldiven', ing: 'Gloves' },
+  't-shirt': { emoji: '👕', etiket: 'Tişört', ing: 'T-shirt' },
+  jacket: { emoji: '🧥', etiket: 'Ceket', ing: 'Jacket' },
+  boots: { emoji: '👢', etiket: 'Bot', ing: 'Boots' },
+  sweater: { emoji: '🧶', etiket: 'Kazak', ing: 'Sweater' },
+  umbrella: { emoji: '☂️', etiket: 'Şemsiye', ing: 'Umbrella' },
+  'kis-aksesuarlari': { emoji: '🧣', etiket: 'Kış Aksesuarları', ing: 'Winter clothes' },
+  'spring-flowers': { emoji: '🌸', etiket: 'İlkbahar', ing: 'Spring' },
+  'summer-sun': { emoji: '☀️', etiket: 'Yaz', ing: 'Summer' },
+  'autumn-leaves': { emoji: '🍂', etiket: 'Sonbahar', ing: 'Autumn' },
+  'winter-snow': { emoji: '❄️', etiket: 'Kış', ing: 'Winter' },
+  'spring-jacket': { emoji: '🧥', etiket: 'İlkbahar Ceket', ing: 'Spring jacket' },
+  'summer-t-shirt': { emoji: '👕', etiket: 'Yaz Tişört', ing: 'Summer t-shirt' },
+  'autumn-scarf': { emoji: '🧣', etiket: 'Sonbahar Atkı', ing: 'Autumn scarf' },
+  'winter-gloves': { emoji: '🧤', etiket: 'Kış Eldiven', ing: 'Winter gloves' },
+  'winter-boots': { emoji: '👢', etiket: 'Kış Bot', ing: 'Winter boots' },
+  'rainy-umbrella': { emoji: '☂️', etiket: 'Yağmurlu Gün', ing: 'Rainy day' },
+  'winter-coat': { emoji: '🧥', etiket: 'Kış Kaban', ing: 'Winter coat' },
+  'summer-sweater': { emoji: '🧶', etiket: 'Yaz Kazak', ing: 'Summer sweater' },
+  'autumn-rain': { emoji: '🌧️', etiket: 'Sonbahar Yağmur', ing: 'Autumn rain' },
+  'spring-park-play': { emoji: '🌳', etiket: 'Park Oyunu', ing: 'Play in the park' },
+  'summer-swim': { emoji: '🏊', etiket: 'Yüzme', ing: 'Swim' },
+  'winter-snowman': { emoji: '⛄', etiket: 'Kardan Adam', ing: 'Make a snowman' },
+  'summer-hat': { emoji: '🧢', etiket: 'Yaz Şapkası', ing: 'Summer hat' },
+  'winter-outfit': { emoji: '🧥', etiket: 'Kış Kombini', ing: 'Winter outfit' },
+  'season-wheel': { emoji: '🔄', etiket: 'Mevsimler', ing: 'Seasons' },
+  'season-clothes-match': { emoji: '👕', etiket: 'Mevsim-Giysi', ing: 'Season match' },
   // Tema 3 — Days, Weather and Actions
   '12-aylik-takvim': { emoji: '🗓️', etiket: '12 Aylik Takvim', ing: 'Months' },
   'acik-kitap': { emoji: '📖', etiket: 'Acik Kitap', ing: 'Read' },
@@ -687,6 +724,72 @@ function RenklerSarkiSahne() {
   );
 }
 
+function GiyimSahne1() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="shirt" vurgulu />
+      <NesneKart anahtar="pants" />
+      <NesneKart anahtar="dress" />
+      <NesneKart anahtar="shoes" />
+    </View>
+  );
+}
+
+function GiyimSahne2() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="coat" vurgulu />
+      <NesneKart anahtar="scarf" />
+      <NesneKart anahtar="gloves" />
+      <NesneKart anahtar="umbrella" />
+    </View>
+  );
+}
+
+function GiyimSahne3() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="jacket" vurgulu />
+      <NesneKart anahtar="boots" />
+      <NesneKart anahtar="sweater" />
+      <NesneKart anahtar="hat" />
+    </View>
+  );
+}
+
+function MevsimSahne1() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="spring-flowers" vurgulu />
+      <NesneKart anahtar="summer-sun" />
+      <NesneKart anahtar="autumn-leaves" />
+      <NesneKart anahtar="winter-snow" />
+    </View>
+  );
+}
+
+function MevsimSahne2() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="winter-coat" vurgulu />
+      <NesneKart anahtar="summer-t-shirt" />
+      <NesneKart anahtar="autumn-scarf" />
+      <NesneKart anahtar="rainy-umbrella" />
+    </View>
+  );
+}
+
+function MevsimSahne3() {
+  return (
+    <View style={styles.grup}>
+      <NesneKart anahtar="spring-park-play" vurgulu />
+      <NesneKart anahtar="summer-swim" />
+      <NesneKart anahtar="winter-snowman" />
+      <NesneKart anahtar="season-wheel" />
+    </View>
+  );
+}
+
 function GunlerAylarSahne1() {
   return (
     <View style={styles.grup}>
@@ -848,6 +951,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <EylemlerSahne2 />;
     case 'ey-anlatim-3':
       return <EylemlerSahne3 />;
+    case 'ge-anlatim-1':
+      return <GiyimSahne1 />;
+    case 'ge-anlatim-2':
+      return <GiyimSahne2 />;
+    case 'ge-anlatim-3':
+      return <GiyimSahne3 />;
+    case 'mv-anlatim-1':
+      return <MevsimSahne1 />;
+    case 'mv-anlatim-2':
+      return <MevsimSahne2 />;
+    case 'mv-anlatim-3':
+      return <MevsimSahne3 />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

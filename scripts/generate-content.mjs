@@ -83,6 +83,8 @@ import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
 import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
 import { ingilizceSarkilar } from './gorev-ing4c-questions.mjs';
+import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
+import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
 import { gorselSanatlar } from './gorev-gorsel-sanatlar-questions.mjs';
 import { zekaVeDikkat } from './gorev-zeka-dikkat-questions.mjs';
@@ -533,6 +535,16 @@ writeFileSync(join(ingDir, 'hava-durumu.json'), JSON.stringify(havaDurumuKonu, n
 writeFileSync(join(ingDir, 'eylemler.json'), JSON.stringify(eylemlerKonu, null, 2));
 
 const selamlasmaVeAileKonu = selamlasmaVeAile(karistir);
+const yazTuruHikayeKonu = yazTuruHikaye(karistir);
+const yazTuruSiirKonu = yazTuruSiir(karistir);
+writeFileSync(join(turkceDir, 'yaz-turu-hikaye.json'), JSON.stringify(yazTuruHikayeKonu, null, 2));
+writeFileSync(join(turkceDir, 'yaz-turu-siir.json'), JSON.stringify(yazTuruSiirKonu, null, 2));
+
+const giyimEsyalariKonu = giyimEsyalari(karistir);
+const mevsimlerIngKonu = mevsimlerIng(karistir);
+writeFileSync(join(ingDir, 'giyim-esyalari.json'), JSON.stringify(giyimEsyalariKonu, null, 2));
+writeFileSync(join(ingDir, 'mevsimler-ing.json'), JSON.stringify(mevsimlerIngKonu, null, 2));
+
 const kisaHikayelerKonu = kisaHikayeler(karistir);
 const basitDiyaloglarKonu = basitDiyaloglar(karistir);
 const ingilizceSarkilarKonu = ingilizceSarkilar(karistir);
@@ -555,7 +567,7 @@ writeFileSync(join(englishDataDir, 'theme3.json'), JSON.stringify(theme3Ing, nul
 const theme4 = {
   id: 'tema-4',
   baslik: 'İngilizce — Tema 4',
-  konular: [kisaHikayelerKonu, basitDiyaloglarKonu, ingilizceSarkilarKonu],
+  konular: [giyimEsyalariKonu, mevsimlerIngKonu],
 };
 writeFileSync(join(englishDataDir, 'theme4.json'), JSON.stringify(theme4, null, 2));
 
@@ -586,6 +598,13 @@ const matTema6 = {
   konular: [esitParcalaraBolmeKonu, yarimVeCeyrekKonu, basitKesirlerKonu],
 };
 writeFileSync(join(mathDataDir, 'tema6.json'), JSON.stringify(matTema6, null, 2));
+
+const matTema7 = {
+  id: 'tema-7',
+  baslik: 'Matematik — Tema 7 — Parça-Bütün',
+  konular: [esitParcalaraBolmeKonu, yarimVeCeyrekKonu, basitKesirlerKonu],
+};
+writeFileSync(join(mathDataDir, 'tema7.json'), JSON.stringify(matTema7, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -639,6 +658,14 @@ const index = {
             'turkce/metin-anlama-ve-yorumlama.json',
             'turkce/kelime-ve-anlam-bilgisi-ileri.json',
             'turkce/yazma-ve-anlatim-ileri.json',
+          ],
+        },
+        {
+          id: 'tema-5',
+          baslik: 'Türkçe — Tema 5',
+          konuDosyalari: [
+            'turkce/yaz-turu-hikaye.json',
+            'turkce/yaz-turu-siir.json',
           ],
         },
       ] },
@@ -715,7 +742,7 @@ const index = {
         },
         {
           id: 'tema-7',
-          baslik: 'Matematik — Tema 6 — Kesirler',
+          baslik: 'Matematik — Tema 7 — Parça-Bütün',
           konuDosyalari: [
             'matematik/esit-parcalara-bolme.json',
             'matematik/yarim-ve-ceyrek.json',
@@ -825,9 +852,8 @@ const index = {
           id: 'tema-4',
           baslik: 'İngilizce — Tema 4',
           konuDosyalari: [
-            'ingilizce/kisa-hikayeler.json',
-            'ingilizce/basit-diyaloglar.json',
-            'ingilizce/ingilizce-sarkilar.json',
+            'ingilizce/giyim-esyalari.json',
+            'ingilizce/mevsimler-ing.json',
           ],
         },
       ] },
@@ -940,6 +966,10 @@ console.log('Günler ve aylar:', gunlerVeAylarKonu.alistirma.length, '+', gunler
 console.log('Hava durumu:', havaDurumuKonu.alistirma.length, '+', havaDurumuKonu.test.length);
 console.log('Eylemler:', eylemlerKonu.alistirma.length, '+', eylemlerKonu.test.length);
 console.log('Selamlaşma ve aile:', selamlasmaVeAileKonu.alistirma.length, '+', selamlasmaVeAileKonu.test.length);
+console.log('Yazı türü — hikâye:', yazTuruHikayeKonu.alistirma.length, '+', yazTuruHikayeKonu.test.length);
+console.log('Yazı türü — şiir:', yazTuruSiirKonu.alistirma.length, '+', yazTuruSiirKonu.test.length);
+console.log('Giyim eşyaları:', giyimEsyalariKonu.alistirma.length, '+', giyimEsyalariKonu.test.length);
+console.log('Mevsimler (İng):', mevsimlerIngKonu.alistirma.length, '+', mevsimlerIngKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
 console.log('Basit diyaloglar:', basitDiyaloglarKonu.alistirma.length, '+', basitDiyaloglarKonu.test.length);
 console.log('İngilizce şarkılar:', ingilizceSarkilarKonu.alistirma.length, '+', ingilizceSarkilarKonu.test.length);

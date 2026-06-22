@@ -3,129 +3,258 @@
   "baslik": "İngilizce — Tema 4",
   "konular": [
     {
-      "id": "kisa-hikayeler",
-      "baslik": "Short Stories",
+      "id": "giyim-esyalari",
+      "baslik": "Clothes",
       "kazanimKodu": "ING.2.4.1",
       "anlatim": {
         "ekranlar": [
           {
-            "metin": "Ali ve Ayşe kütüphanede yan yana oturdular. Öğretmenleri onlara İngilizce çok tatlı bir kısa hikaye (Short Story) vermişti. Hikayenin adı \"The Little Red Apple\" (Küçük Kırmızı Elma) idi. Ali, kitaptaki resimlere bakarak İngilizce kelimeleri okumaya başladı. Hikayede, kocaman yeşil bir ağacın (Green Tree) dalında duran mutlu, kırmızı bir elma anlatılıyordu. Ayşe, \"Hikaye okumak, yani Read a story, İngilizce yeni kelimeler öğrenmek için çok eğlenceli!\" dedi.",
+            "metin": "Elanaz ve Berk dolaplarını düzenliyordu. Elanaz, \"Bu bir shirt, bu da pants!\" dedi. Berk de \"Benim mavi jacket ve kırmızı t-shirt nerede?\" diye sordu. Sonra birlikte shoes, socks ve hat kelimelerini tekrar ettiler. Her yeni kelimeyle İngilizce giyim eşyalarını daha kolay hatırladılar.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "kh-anlatim-1"
+              "sahne": "ge-anlatim-1"
             }
           },
           {
-            "metin": "Berk ve Fatma bahçede \"The Brave Dog\" (Cesur Köpek) hikayesini açtılar. Berk kelimeleri takip etti: \"Dog (Köpek), Run (Koşmak), Jump (Zıplamak).\" Fatma, \"Bak Berk, köpek koyunları (Sheep) koruyor, o gerçekten çok cesur (Brave)!\" diyerek gülümsedi.",
+            "metin": "Hava biraz serinleyince çocuklar dışarı çıkmadan önce kıyafet seçti. Berk coat ve scarf aldı. Elanaz \"Gloves da giyelim, ellerimiz üşümesin\" dedi. Kapının yanında umbrella duruyordu. Yağmur başlarsa hemen kullanacaklardı.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "kh-anlatim-2"
+              "sahne": "ge-anlatim-2"
             }
           },
           {
-            "metin": "Can ve Zeynep çok renkli bir kitap seçtiler. Başlık \"The Happy Bird\" (Mutlu Kuş) idi. Kuş sabahları uyanıyor, Güneş'e \"Good morning!\" diyor ve gökyüzünde özgürce uçuyordu (Fly). Can, \"Kuş çok güzel şarkı söylüyor, yani Sing a song yapıyor,\" dedi.",
+            "metin": "Okulda \"What are you wearing?\" oyunu oynadılar. Çocuklar sırayla \"I am wearing a dress\", \"I am wearing boots\", \"I am wearing a sweater\" dedi. Öğretmenleri hepsini alkışladı. Artık giyim eşyalarını İngilizce söylemek onlar için çok daha eğlenceliydi.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "kh-anlatim-3"
+              "sahne": "ge-anlatim-3"
             }
           }
         ]
       },
       "alistirma": [
         {
-          "id": "kh-a1",
+          "id": "ge-a1",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Hikaye kelimesinin İngilizcesi ......... .",
-          "dogruCevap": "story",
+          "soru": "Gömlek kelimesinin İngilizcesi ......... kelimesidir.",
+          "dogruCevap": "shirt",
           "ipucu": "",
           "cevapTipi": "metin",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hikaye-kitabi"
+            "nesne": "shirt"
           }
         },
         {
-          "id": "kh-a2",
+          "id": "ge-a2",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "\"The Little Red Apple\" kırmızı bir elmayı anlatır.",
-          "dogruCevap": "Doğru",
+          "soru": "Pantolon kelimesinin İngilizcesi ......... kelimesidir.",
+          "dogruCevap": "pants",
           "ipucu": "",
           "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kirmizi-elma-kucuk"
+            "nesne": "pants"
           }
         },
         {
-          "id": "kh-a3",
+          "id": "ge-a3",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Köpek İngilizcede \"Dog\" demektir.",
-          "dogruCevap": "Doğru",
+          "soru": "Elbise kelimesinin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "dress",
           "ipucu": "",
           "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "cesur-kopek"
+            "nesne": "dress"
           }
         },
         {
-          "id": "kh-a4",
+          "id": "ge-a4",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Mutlu kuşun adı \"The Happy .........\" .",
-          "dogruCevap": "Bird",
+          "soru": "Etek kelimesinin İngilizcesi ......... kelimesidir.",
+          "dogruCevap": "skirt",
           "ipucu": "",
           "cevapTipi": "metin",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "mutlu-kus"
+            "nesne": "skirt"
+          }
+        },
+        {
+          "id": "ge-a5",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Ayakkabı için İngilizcede ......... kelimesi kullanılır.",
+          "dogruCevap": "shoes",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "shoes"
+          }
+        },
+        {
+          "id": "ge-a6",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Çorap kelimesinin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "socks",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "socks"
+          }
+        },
+        {
+          "id": "ge-a7",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Şapka İngilizcede ......... demektir.",
+          "dogruCevap": "hat",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "hat"
+          }
+        },
+        {
+          "id": "ge-a8",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Kaban kelimesinin İngilizce yazılışı ......... kelimesidir.",
+          "dogruCevap": "coat",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "coat"
+          }
+        },
+        {
+          "id": "ge-a9",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Atkı İngilizcede ......... kelimesidir.",
+          "dogruCevap": "scarf",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "scarf"
+          }
+        },
+        {
+          "id": "ge-a10",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Eldiven için İngilizcede ......... denir.",
+          "dogruCevap": "gloves",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "gloves"
+          }
+        },
+        {
+          "id": "ge-a11",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Tişört kelimesinin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "t-shirt",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "t-shirt"
           },
           "alternatifCevaplar": [
-            "bird"
+            "tshirt",
+            "t shirt",
+            "T-shirt"
           ]
         },
         {
-          "id": "kh-a5",
+          "id": "ge-a12",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Şarkı söylemek \"Sing a .........\" ile ifade edilir.",
-          "dogruCevap": "song",
+          "soru": "Ceket İngilizcede ......... demektir.",
+          "dogruCevap": "jacket",
           "ipucu": "",
           "cevapTipi": "metin",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "sarki-kusu"
-          },
-          "alternatifCevaplar": [
-            "Song"
-          ]
+            "nesne": "jacket"
+          }
         },
         {
-          "id": "kh-a6",
+          "id": "ge-a13",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Hikayedeki yeşil ağaç İngilizcede \"Green Tree\" olarak okunur.",
+          "soru": "Bot kelimesinin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "boots",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "boots"
+          }
+        },
+        {
+          "id": "ge-a14",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Kazak İngilizcede ......... kelimesidir.",
+          "dogruCevap": "sweater",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sweater"
+          }
+        },
+        {
+          "id": "ge-a15",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "Şemsiye kelimesinin İngilizcesi ......... kelimesidir.",
+          "dogruCevap": "umbrella",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "umbrella"
+          }
+        },
+        {
+          "id": "ge-a16",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Shirt\" kelimesi Türkçede gömlek anlamına gelir.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -137,265 +266,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "agac-resmi"
+            "nesne": "shirt"
           }
         },
         {
-          "id": "kh-a7",
+          "id": "ge-a17",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Cesur köpek \"The Brave Dog\" hikayesinde geçmektedir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ciftlik-kopegi"
-          }
-        },
-        {
-          "id": "kh-a8",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Hikayedeki kuş sabahları uyanıp Güneş'e İngilizce \"......... morning\" der.",
-          "dogruCevap": "Good",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gunesli-gokyuz"
-          }
-        },
-        {
-          "id": "kh-a9",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "\"Sing a song\" İngilizcede ......... söylemek demektir.",
-          "dogruCevap": "şarkı",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sarki-kusu"
-          }
-        },
-        {
-          "id": "kh-a10",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "İngilizce kısa hikayeler \"Short Stories\" olarak adlandırılır.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kitaplik"
-          }
-        },
-        {
-          "id": "kh-a11",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Cesur köpek hikayesinde köpek, sevimli ......... (koyunları) korur.",
-          "dogruCevap": "sheep",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "koyun-surusu"
-          }
-        },
-        {
-          "id": "kh-a12",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Köpeğin zıplaması İngilizcede \"Jump\" eylemiyle anlatılır.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ziplayan-kopek"
-          }
-        },
-        {
-          "id": "kh-a13",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Gökyüzünde \"Fly\" (uçmak) kuşların yaptığı en güzel eylemdir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ucan-kuslar"
-          }
-        },
-        {
-          "id": "kh-a14",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Kitabın sonunda cesur köpek mışıl mışıl \".........\" (uyur).",
-          "dogruCevap": "sleep",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "uyuyan-kopek"
-          },
-          "alternatifCevaplar": [
-            "sleeps"
-          ]
-        },
-        {
-          "id": "kh-a15",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Mutlu kelimesinin İngilizcesi ......... kelimesidir.",
-          "dogruCevap": "happy",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gulen-cocuk"
-          }
-        },
-        {
-          "id": "kh-a16",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Hikayedeki tüm orman canlılarına genel olarak \"Animals\" deriz.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "orman-hayvanlari"
-          }
-        },
-        {
-          "id": "kh-a17",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Resimlere bakarak hikaye okumak kelime öğrenmemizi çok ......... .",
-          "dogruCevap": "kolaylaştırır",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "renkli-sayfa"
-          },
-          "alternatifCevaplar": [
-            "sağlar"
-          ]
-        },
-        {
-          "id": "kh-a18",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Mutlu kuşun tüyleri sarı (Yellow) ve ......... (mavi) renktedir.",
-          "dogruCevap": "blue",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sari-mavi-tuy"
-          }
-        },
-        {
-          "id": "kh-a19",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Elma kelimesinin İngilizcesi \".........\" kelimesidir.",
-          "dogruCevap": "apple",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "elma-agaci"
-          }
-        },
-        {
-          "id": "kh-a20",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Hikayedeki köpek çok hızlı \"Run\" (koşar).",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kosan-kopek"
-          }
-        },
-        {
-          "id": "kh-a21",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Kuşlar pencereden girerken \"Hello\" (merhaba) derler.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "acik-pencere"
-          }
-        },
-        {
-          "id": "kh-a22",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "\"Short\" kelimesi uzun anlamına gelir.",
+          "soru": "\"Skirt\" kelimesi pantolon demektir.",
           "dogruCevap": "Yanlış",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -407,28 +285,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hikaye-dinleyen"
+            "nesne": "skirt"
           }
         },
         {
-          "id": "kh-a23",
+          "id": "ge-a18",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Kırmızı renk İngilizcede \".........\" olarak yazılır.",
-          "dogruCevap": "red",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kirmizi-elma-sepet"
-          }
-        },
-        {
-          "id": "kh-a24",
-          "kazanimKodu": "ING.2.4.1",
-          "tip": "yazili",
-          "soru": "Küçük kelimesinin İngilizcesi \"Little\" demektir.",
+          "soru": "\"Gloves\" ellerimizi sıcak tutar.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -440,14 +304,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kopek-yavrusu"
+            "nesne": "gloves"
           }
         },
         {
-          "id": "kh-a25",
+          "id": "ge-a19",
           "kazanimKodu": "ING.2.4.1",
           "tip": "yazili",
-          "soru": "Kütüphanede hikaye okurken (Read) sessiz olmalıyız.",
+          "soru": "\"Scarf\" boynumuza takılır.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -459,543 +323,784 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kutuphane-sessiz"
+            "nesne": "scarf"
+          }
+        },
+        {
+          "id": "ge-a20",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Boots\" yazın giyilen ince terliktir.",
+          "dogruCevap": "Yanlış",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Hayır",
+            "hayır",
+            "yanlış"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "boots"
+          }
+        },
+        {
+          "id": "ge-a21",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Coat\" kalın bir dış giysidir.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "coat"
+          }
+        },
+        {
+          "id": "ge-a22",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Hat\" başımıza takılır.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "hat"
+          }
+        },
+        {
+          "id": "ge-a23",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Socks\" ayaklarımıza giyilir.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "socks"
+          }
+        },
+        {
+          "id": "ge-a24",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Umbrella\" yağmurdan korunmak için kullanılır.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "umbrella"
+          }
+        },
+        {
+          "id": "ge-a25",
+          "kazanimKodu": "ING.2.4.1",
+          "tip": "yazili",
+          "soru": "\"Dress\" kelimesi ceket anlamına gelir.",
+          "dogruCevap": "Yanlış",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Hayır",
+            "hayır",
+            "yanlış"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "dress"
           }
         }
       ],
       "test": [
         {
-          "id": "kh-t1",
+          "id": "ge-t1",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "İngilizcede \"Hikaye\" anlamına gelen kelime hangisidir?",
-          "dogruCevap": "Story",
+          "soru": "Gömlek kelimesinin İngilizcesi hangisidir?",
+          "dogruCevap": "Shirt",
           "secenekler": [
-            "Apple",
-            "Dog",
-            "Song",
-            "Story"
+            "Skirt",
+            "Scarf",
+            "Shoes",
+            "Shirt"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hikaye-kitabi-acik"
+            "nesne": "shirt"
           }
         },
         {
-          "id": "kh-t2",
+          "id": "ge-t2",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Read a story\" Türkçede hangi güzel anlama gelir?",
-          "dogruCevap": "Hikaye okumak",
+          "soru": "Pantolonun İngilizcesi nedir?",
+          "dogruCevap": "Pants",
           "secenekler": [
-            "Yemek yemek",
-            "Şarkı söylemek",
-            "Hikaye okumak",
-            "Resim çizmek"
+            "Dress",
+            "Coat",
+            "Pants",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kitap-okuyan-iki"
+            "nesne": "pants"
           }
         },
         {
-          "id": "kh-t3",
+          "id": "ge-t3",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "İngilizcede \"Short\" kelimesi ne anlama gelir?",
-          "dogruCevap": "Kısa",
+          "soru": "Elbise için doğru İngilizce kelime hangisidir?",
+          "dogruCevap": "Dress",
           "secenekler": [
-            "Büyük",
-            "Uzun",
-            "Kısa",
-            "Sıcak"
+            "Dress",
+            "Gloves",
+            "Jacket",
+            "Boots"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kisa-masal"
+            "nesne": "dress"
           }
         },
         {
-          "id": "kh-t4",
+          "id": "ge-t4",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"The Little Red Apple\" hikayesinde anlatılan meyve hangisidir?",
-          "dogruCevap": "Elma",
+          "soru": "Etek kelimesinin İngilizce karşılığı nedir?",
+          "dogruCevap": "Skirt",
           "secenekler": [
-            "Portakal",
-            "Muz",
-            "Elma",
-            "Karpuz"
+            "Skirt",
+            "Sweater",
+            "Shirt",
+            "Socks"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kirmizi-elma-kucuk"
+            "nesne": "skirt"
           }
         },
         {
-          "id": "kh-t5",
+          "id": "ge-t5",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Hikayenin adında geçen \"Little\" kelimesi ne demektir?",
-          "dogruCevap": "Küçük",
+          "soru": "Ayakkabı için İngilizcede hangi kelime kullanılır?",
+          "dogruCevap": "Shoes",
           "secenekler": [
-            "Kocaman",
-            "Uzun",
-            "Küçük",
-            "Yeşil"
+            "Shirt",
+            "Scarf",
+            "Socks",
+            "Shoes"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "gulen-elma"
+            "nesne": "shoes"
           }
         },
         {
-          "id": "kh-t6",
+          "id": "ge-t6",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"The Brave Dog\" hikayesinin kahramanı olan hayvan hangisidir?",
-          "dogruCevap": "Dog",
+          "soru": "Çorap kelimesinin İngilizcesi nedir?",
+          "dogruCevap": "Socks",
           "secenekler": [
-            "Lion",
-            "Dog",
-            "Cat",
-            "Bird"
+            "Gloves",
+            "Boots",
+            "Pants",
+            "Socks"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "cesur-kopek"
+            "nesne": "socks"
           }
         },
         {
-          "id": "kh-t7",
+          "id": "ge-t7",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"The Happy Bird\" hikayesinde uçan sevimli hayvanın adı nedir?",
-          "dogruCevap": "Kuş (Bird)",
+          "soru": "Şapkanın İngilizcesi hangi seçenektedir?",
+          "dogruCevap": "Hat",
           "secenekler": [
-            "Kuş (Bird)",
-            "At (Horse)",
-            "Köpek (Dog)",
-            "İnek (Cow)"
+            "Dress",
+            "Hat",
+            "Coat",
+            "Shirt"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "mutlu-kus"
+            "nesne": "hat"
           }
         },
         {
-          "id": "kh-t8",
+          "id": "ge-t8",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "İngilizcede \"Happy\" kelimesinin Türkçe karşılığı nedir?",
-          "dogruCevap": "Mutlu",
+          "soru": "Kaban kelimesinin İngilizcesi nedir?",
+          "dogruCevap": "Coat",
           "secenekler": [
-            "Mutlu",
-            "Kızgın",
-            "Üzgün",
-            "Şaşkın"
+            "Coat",
+            "Scarf",
+            "Socks",
+            "Skirt"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "gulen-cocuk"
+            "nesne": "coat"
           }
         },
         {
-          "id": "kh-t9",
+          "id": "ge-t9",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Kuşun yaptığı \"Sing a song\" eylemi ne demektir?",
-          "dogruCevap": "Şarkı söylemek",
+          "soru": "Atkı kelimesinin İngilizce karşılığı hangisidir?",
+          "dogruCevap": "Scarf",
           "secenekler": [
-            "Uyumak",
-            "Dans etmek",
-            "Koşmak",
-            "Şarkı söylemek"
+            "Scarf",
+            "Gloves",
+            "Hat",
+            "Shoes"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "sarki-kusu"
+            "nesne": "scarf"
           }
         },
         {
-          "id": "kh-t10",
+          "id": "ge-t10",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "İngilizcede kuşların yaptığı eylem olan \"Fly\" ne anlama gelir?",
-          "dogruCevap": "Uçmak",
+          "soru": "Eldiven için doğru İngilizce kelime nedir?",
+          "dogruCevap": "Gloves",
           "secenekler": [
-            "Oturmak",
-            "Yüzmek",
-            "Zıplamak",
-            "Uçmak"
+            "Boots",
+            "Pants",
+            "Gloves",
+            "Dress"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "ucan-kuslar"
+            "nesne": "gloves"
           }
         },
         {
-          "id": "kh-t11",
+          "id": "ge-t11",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Köpeğin koruduğu \"Sheep\" kelimesi hangi hayvandır?",
-          "dogruCevap": "Koyun",
+          "soru": "Tişört kelimesinin İngilizcesi hangisidir?",
+          "dogruCevap": "T-shirt",
           "secenekler": [
-            "Tavuk",
-            "At",
-            "İnek",
-            "Koyun"
+            "Jacket",
+            "T-shirt",
+            "Skirt",
+            "Sweater"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "koyun-surusu"
+            "nesne": "t-shirt"
           }
         },
         {
-          "id": "kh-t12",
+          "id": "ge-t12",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Green Tree\" ifadesi Türkçede neyi anlatır?",
-          "dogruCevap": "Yeşil ağaç",
+          "soru": "Ceketin İngilizce karşılığı nedir?",
+          "dogruCevap": "Jacket",
           "secenekler": [
-            "Sarı güneş",
-            "Kırmızı elma",
-            "Yeşil ağaç",
-            "Mavi deniz"
+            "Jacket",
+            "Coat",
+            "Hat",
+            "Shirt"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "agac-resmi"
+            "nesne": "jacket"
           }
         },
         {
-          "id": "kh-t13",
+          "id": "ge-t13",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Kuşun sabahları Güneş'e söylediği \"Good morning\" ne demektir?",
-          "dogruCevap": "Günaydın",
+          "soru": "Bot kelimesinin İngilizcesi nedir?",
+          "dogruCevap": "Boots",
           "secenekler": [
-            "Günaydın",
-            "İyi geceler",
-            "Hoşça kal",
-            "Teşekkürler"
+            "Socks",
+            "Boots",
+            "Gloves",
+            "Shoes"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "gunes-dogusu-kus"
+            "nesne": "boots"
           }
         },
         {
-          "id": "kh-t14",
+          "id": "ge-t14",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Short Stories\" kelimeleri sırasıyla ne anlama gelir?",
-          "dogruCevap": "Kısa hikayeler",
+          "soru": "Kazak için İngilizcede hangi kelime kullanılır?",
+          "dogruCevap": "Sweater",
           "secenekler": [
-            "Kısa hikayeler",
-            "Uzun şiirler",
-            "Renkli resimler",
-            "Müzikli şarkılar"
+            "Skirt",
+            "Dress",
+            "Sweater",
+            "Scarf"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kitaplik"
+            "nesne": "sweater"
           }
         },
         {
-          "id": "kh-t15",
+          "id": "ge-t15",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Aşağıdakilerden hangisi bir \"Story\" (Hikaye) kahramanı olabilir?",
-          "dogruCevap": "The Brave Dog (Cesur Köpek)",
+          "soru": "Şemsiyenin İngilizcesi nedir?",
+          "dogruCevap": "Umbrella",
           "secenekler": [
-            "Desk (Sıra)",
-            "Pencil (Kalem)",
-            "Chair (Sandalye)",
-            "The Brave Dog (Cesur Köpek)"
+            "Umbrella",
+            "Pants",
+            "Coat",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hikaye-kapak"
+            "nesne": "umbrella"
           }
         },
         {
-          "id": "kh-t16",
+          "id": "ge-t16",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Hikayedeki köpeğin yaptığı \"Run\" eylemi nedir?",
-          "dogruCevap": "Koşmak",
+          "soru": "\"Hat, gloves, scarf\" kelimeleri daha çok hangi mevsimde kullanılır?",
+          "dogruCevap": "Winter",
           "secenekler": [
-            "İçmek",
-            "Yürümek",
-            "Uyumak",
-            "Koşmak"
+            "Autumn",
+            "Winter",
+            "Summer",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kosan-kopek"
+            "nesne": "kis-aksesuarlari"
           }
         },
         {
-          "id": "kh-t17",
+          "id": "ge-t17",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Köpeğin engellerden geçerken yaptığı \"Jump\" nedir?",
-          "dogruCevap": "Zıplamak",
+          "soru": "\"T-shirt and shorts\" ifadesinde tişörtün İngilizcesi hangisidir?",
+          "dogruCevap": "T-shirt",
           "secenekler": [
-            "Zıplamak",
-            "Düşmek",
-            "Uçmak",
-            "Çizmek"
+            "Coat",
+            "T-shirt",
+            "Boots",
+            "Dress"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "ziplayan-kopek"
+            "nesne": "t-shirt"
           }
         },
         {
-          "id": "kh-t18",
+          "id": "ge-t18",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Hikayenin sonunda köpeğin yaptığı \"Sleep\" eylemi nedir?",
-          "dogruCevap": "Uyumak",
+          "soru": "Yağmurlu bir günde en çok hangi eşya işe yarar?",
+          "dogruCevap": "Umbrella",
           "secenekler": [
-            "Yemek yemek",
-            "Oturmak",
-            "Uyanmak",
-            "Uyumak"
+            "Hat",
+            "Skirt",
+            "Umbrella",
+            "Socks"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "uyuyan-kopek"
+            "nesne": "umbrella"
           }
         },
         {
-          "id": "kh-t19",
+          "id": "ge-t19",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Ormandaki tüm canlılar olan \"Animals\" ne anlama gelir?",
-          "dogruCevap": "Hayvanlar",
+          "soru": "Aşağıdakilerden hangisi bir dış giyim ürünüdür?",
+          "dogruCevap": "Coat",
           "secenekler": [
-            "Sayılar",
-            "Hayvanlar",
-            "Renkler",
-            "Eşyalar"
+            "Coat",
+            "Socks",
+            "Hat",
+            "Gloves"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "orman-hayvanlari"
+            "nesne": "coat"
           }
         },
         {
-          "id": "kh-t20",
+          "id": "ge-t20",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Blue bird\" Türkçede ne anlama gelir?",
-          "dogruCevap": "Mavi kuş",
+          "soru": "Aşağıdaki kelimelerden hangisi ayakla ilgilidir?",
+          "dogruCevap": "Boots",
           "secenekler": [
-            "Yeşil ağaç",
-            "Sarı güneş",
-            "Mavi kuş",
-            "Kırmızı elma"
+            "Scarf",
+            "Coat",
+            "Hat",
+            "Boots"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "mavi-kus"
+            "nesne": "boots"
           }
         },
         {
-          "id": "kh-t21",
+          "id": "ge-t21",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Red apple\" ifadesi hangi meyveyi tarif eder?",
-          "dogruCevap": "Kırmızı elma",
+          "soru": "\"Shirt + pants\" kombininde pants ne demektir?",
+          "dogruCevap": "Pantolon",
           "secenekler": [
-            "Sarı muz",
-            "Kırmızı elma",
-            "Yeşil armut",
-            "Mor üzüm"
+            "Pantolon",
+            "Gömlek",
+            "Çorap",
+            "Ayakkabı"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kirmizi-elma-sepet"
+            "nesne": "pants"
           }
         },
         {
-          "id": "kh-t22",
+          "id": "ge-t22",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "\"Happy\" kelimesinin zıttı (tersi) aşağıdakilerden hangisi olabilir?",
-          "dogruCevap": "Üzgün (Sad)",
+          "soru": "Kışın ellerimizi sıcak tutan eşya hangisidir?",
+          "dogruCevap": "Gloves",
           "secenekler": [
-            "Sevimli",
-            "Neşeli",
-            "Hızlı",
-            "Üzgün (Sad)"
+            "Gloves",
+            "Scarf",
+            "Skirt",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "mutlu-cocuk-kus"
+            "nesne": "gloves"
           }
         },
         {
-          "id": "kh-t23",
+          "id": "ge-t23",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Hikaye okurken (Read) en çok hangi organımızı kullanırız?",
-          "dogruCevap": "Eye",
+          "soru": "Boyna takılan giyim eşyasının İngilizcesi nedir?",
+          "dogruCevap": "Scarf",
           "secenekler": [
-            "Eye",
-            "Hand",
-            "Foot",
-            "Leg"
+            "Dress",
+            "Boots",
+            "Socks",
+            "Scarf"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "okuyan-kiz"
+            "nesne": "scarf"
           }
         },
         {
-          "id": "kh-t24",
+          "id": "ge-t24",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Hayvanların \"Sing\" yapması ne anlama gelir?",
-          "dogruCevap": "Şarkı söylemesi",
+          "soru": "Aşağıdakilerden hangisi üst bedene giyilir?",
+          "dogruCevap": "Jacket",
           "secenekler": [
-            "Şarkı söylemesi",
-            "Yemek yemesi",
-            "Su içmesi",
-            "Oyun oynaması"
+            "Shoes",
+            "Boots",
+            "Jacket",
+            "Socks"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hayvan-korosu"
+            "nesne": "jacket"
           }
         },
         {
-          "id": "kh-t25",
+          "id": "ge-t25",
           "kazanimKodu": "ING.2.4.1",
           "tip": "coktanSecmeli",
-          "soru": "Kitap okumak hayal gücümüzü nasıl etkiler?",
-          "dogruCevap": "Çok geliştirir ve bizi mutlu eder",
+          "soru": "\"Sweater\" kelimesinin Türkçe karşılığı nedir?",
+          "dogruCevap": "Kazak",
           "secenekler": [
-            "Bizi sıkıcı yapar",
-            "Bizi üzer",
-            "Hiç etkilemez",
-            "Çok geliştirir ve bizi mutlu eder"
+            "Şapka",
+            "Atkı",
+            "Kazak",
+            "Ceket"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kitap-okuyan-mutlu"
+            "nesne": "sweater"
           }
         }
       ]
     },
     {
-      "id": "basit-diyaloglar",
-      "baslik": "Simple Dialogues",
+      "id": "mevsimler-ing",
+      "baslik": "Seasons",
       "kazanimKodu": "ING.2.4.2",
       "anlatim": {
         "ekranlar": [
           {
-            "metin": "Selin ve Yusuf parkta karşılaştılar. Selin: \"Hello Yusuf! How are you?\" (Nasılsın?). Yusuf: \"I am fine, thank you. And you?\" (Ben iyiyim, ya sen?). Selin: \"I am good, let's play!\" (İyiyim, hadi oynayalım!).",
+            "metin": "Yılın ilk renkli günlerinde öğretmen tahtaya dört kelime yazdı: Spring, Summer, Autumn, Winter. Elanaz çiçekleri görünce \"Spring!\" dedi. Berk sıcak güneşi görünce \"Summer!\" diye ekledi. Her mevsimin farklı bir adı ve farklı bir havası olduğunu öğrendiler.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "bd-anlatim-1"
+              "sahne": "mv-anlatim-1"
             }
           },
           {
-            "metin": "Mehmet: \"Can I have an apple, please?\" (Bir elma alabilir miyim?). Bakkal: \"Here you are!\" (Buyurun!). Mehmet: \"Thank you!\" (Teşekkür ederim).",
+            "metin": "Sonra mevsimlere göre kıyafet oyunu oynadılar. \"Winter için coat, gloves, boots!\" dedi sınıf. \"Summer için t-shirt ve hat!\" diye devam ettiler. Sonbaharda scarf ve umbrella, ilkbaharda ise hafif jacket uygun oluyordu.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "bd-anlatim-2"
+              "sahne": "mv-anlatim-2"
             }
           },
           {
-            "metin": "Ali: \"May I come in?\" (İçeri girebilir miyim?). Öğretmen: \"Yes, you may.\" (Evet). Öğretmen: \"Stand up!\" (Ayağa kalk). Öğretmen: \"Sit down!\" (Otur).",
+            "metin": "Dersin sonunda etkinlik kartlarını eşleştirdiler: Spring-play in the park, Summer-swim, Autumn-windy walk, Winter-make a snowman. Böylece hem mevsim adlarını hem de mevsimlere uygun kıyafet ve etkinlikleri İngilizce söylemeyi başardılar.",
             "gorsel": {
               "tur": "ingilizce",
               "mod": "anlatim",
-              "sahne": "bd-anlatim-3"
+              "sahne": "mv-anlatim-3"
             }
           }
         ]
       },
       "alistirma": [
         {
-          "id": "bd-a1",
+          "id": "mv-a1",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Karşılıklı konuşmalara İngilizcede \".........\" (Dialogue) denir.",
-          "dogruCevap": "diyalog",
+          "soru": "İlkbahar kelimesinin İngilizcesi ......... kelimesidir.",
+          "dogruCevap": "spring",
           "ipucu": "",
           "cevapTipi": "metin",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "konusma-balonlari"
+            "nesne": "spring-flowers"
+          }
+        },
+        {
+          "id": "mv-a2",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Yaz mevsiminin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "summer",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "summer-sun"
+          }
+        },
+        {
+          "id": "mv-a3",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Sonbahar İngilizcede ......... kelimesiyle ifade edilir.",
+          "dogruCevap": "autumn",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "autumn-leaves"
+          }
+        },
+        {
+          "id": "mv-a4",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Kış mevsiminin İngilizce karşılığı ......... kelimesidir.",
+          "dogruCevap": "winter",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "winter-snow"
+          }
+        },
+        {
+          "id": "mv-a5",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "İlkbaharda hafif .......... (jacket) giyebiliriz.",
+          "dogruCevap": "jacket",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "spring-jacket"
+          }
+        },
+        {
+          "id": "mv-a6",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Yazın sık kullanılan giysi ......... (t-shirt) olur.",
+          "dogruCevap": "t-shirt",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "summer-t-shirt"
           },
           "alternatifCevaplar": [
-            "dialogue"
+            "tshirt",
+            "t shirt"
           ]
         },
         {
-          "id": "bd-a2",
+          "id": "mv-a7",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Arkadaşımıza \"How are you?\" diye sorduğumuzda \"Nasılsın?\" demiş oluruz.",
+          "soru": "Sonbaharda rüzgarlı günlerde ......... takarız.",
+          "dogruCevap": "scarf",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "autumn-scarf"
+          }
+        },
+        {
+          "id": "mv-a8",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Kışın ellerimizi korumak için ......... giyeriz.",
+          "dogruCevap": "gloves",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "winter-gloves"
+          }
+        },
+        {
+          "id": "mv-a9",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Karlı günlerde ......... giymek ayaklarımızı sıcak tutar.",
+          "dogruCevap": "boots",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "winter-boots"
+          }
+        },
+        {
+          "id": "mv-a10",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Yağmurlu havada ......... kullanırız.",
+          "dogruCevap": "umbrella",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "rainy-umbrella"
+          }
+        },
+        {
+          "id": "mv-a11",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "\"Spring\" mevsiminde çiçekler açar.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1007,42 +1112,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "el-sallayan-cocuk"
+            "nesne": "spring-flowers"
           }
         },
         {
-          "id": "bd-a3",
+          "id": "mv-a12",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "\"I am fine\" cümlesi Türkçede \"Ben .........\" demektir.",
-          "dogruCevap": "iyiyim",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gulen-cocuk"
-          }
-        },
-        {
-          "id": "bd-a4",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Birisi bize yardım ettiğinde ona mutlaka \"Thank .........\" deriz.",
-          "dogruCevap": "you",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "tesekkur-eden"
-          }
-        },
-        {
-          "id": "bd-a5",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "İngilizcede \"Lütfen\" kelimesinin karşılığı \"Please\" kelimesidir.",
+          "soru": "\"Summer\" mevsimi genellikle sıcak olur.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1054,31 +1131,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "rica-eden"
+            "nesne": "summer-sun"
           }
         },
         {
-          "id": "bd-a6",
+          "id": "mv-a13",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Arkadaşımıza \"Let's play!\" dediğimizde \"Hadi .........!\" demiş oluruz.",
-          "dogruCevap": "oynayalım",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "top-oynayan-ikili"
-          },
-          "alternatifCevaplar": [
-            "oynayalim"
-          ]
-        },
-        {
-          "id": "bd-a7",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Bir eşyayı verirken \"Buyurun\" demek için \"Here you are\" deriz.",
+          "soru": "\"Autumn\" mevsiminde yapraklar sararır.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1090,28 +1150,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "elma-uzatan-bakkal"
+            "nesne": "autumn-leaves"
           }
         },
         {
-          "id": "bd-a8",
+          "id": "mv-a14",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Sınıfa girmek için izin isterken \"May I come .........?\" diye sorarız.",
-          "dogruCevap": "in",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kapi-calan-ogrenci"
-          }
-        },
-        {
-          "id": "bd-a9",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Öğretmenimiz \"Stand up!\" dediğinde sıralarımıza otururuz.",
+          "soru": "\"Winter\" mevsimi en sıcak mevsimdir.",
           "dogruCevap": "Yanlış",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1123,42 +1169,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "ayaga-kalkan-sinif"
+            "nesne": "winter-snow"
           }
         },
         {
-          "id": "bd-a10",
+          "id": "mv-a15",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Sıramıza oturmamız söylendiğinde İngilizce \"Sit .........\" kelimesi kullanılır.",
-          "dogruCevap": "down",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "oturan-ogrenci"
-          }
-        },
-        {
-          "id": "bd-a11",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Bize teşekkür eden birisine \"Rica ederim\" demek için \"You are .........\" deriz.",
-          "dogruCevap": "welcome",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "hediye-alan-kiz"
-          }
-        },
-        {
-          "id": "bd-a12",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "İngilizce diyalog kurmak İngilizce konuşmayı öğrenmemizi sağlar.",
+          "soru": "Kış mevsiminde \"coat\" giymek uygun olur.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1170,52 +1188,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "neseli-iki-arkadas"
+            "nesne": "winter-coat"
           }
         },
         {
-          "id": "bd-a13",
+          "id": "mv-a16",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Diyaloglar genellikle \".........\" veya \"Hi\" (Merhaba) diyerek başlar.",
-          "dogruCevap": "Hello",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "hello-diyen"
-          },
-          "alternatifCevaplar": [
-            "hello",
-            "Hi",
-            "hi"
-          ]
-        },
-        {
-          "id": "bd-a14",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Konuşmayı bitirip ayrılırken birbirimize \"Goodbye\" deriz.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "goodbye-yazisi"
-          }
-        },
-        {
-          "id": "bd-a15",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "\"I am fine\" kelimesi \"Hastayım\" anlamına gelir.",
+          "soru": "Yaz mevsiminde kalın \"sweater\" giymek en iyi seçimdir.",
           "dogruCevap": "Yanlış",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1227,42 +1207,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "uzgun-yuz"
+            "nesne": "summer-sweater"
           }
         },
         {
-          "id": "bd-a16",
+          "id": "mv-a17",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "İstemek ve rica etmek için kullandığımız nazik kelime \".........\" (Lütfen)'dir.",
-          "dogruCevap": "please",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "please-kelimesi"
-          }
-        },
-        {
-          "id": "bd-a17",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "\"Catch the ball\" ifadesi \"Topu .........\" anlamına gelir.",
-          "dogruCevap": "yakala",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "top-firlatilan"
-          }
-        },
-        {
-          "id": "bd-a18",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Kapıdan içeri girmeden önce kapıyı çalmak güzel bir nezaket kuralıdır.",
+          "soru": "Sonbaharda bazen \"umbrella\" gerekir.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1274,14 +1226,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kapi-resmi"
+            "nesne": "autumn-rain"
           }
         },
         {
-          "id": "bd-a19",
+          "id": "mv-a18",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "\"Can I have an apple?\" sorusu \"Bir elma alabilir miyim?\" demektir.",
+          "soru": "İlkbaharda parkta \"play\" yapmak eğlencelidir.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1293,42 +1245,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kirmizi-elma-diyalog"
+            "nesne": "spring-park-play"
           }
         },
         {
-          "id": "bd-a20",
+          "id": "mv-a19",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Karşılıklı konuşmalarda sırayla konuşmak ve birbirimizi ......... (dinlemek) önemlidir.",
-          "dogruCevap": "dinlemek",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "iki-konusan-cocuk"
-          }
-        },
-        {
-          "id": "bd-a21",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "\"Stand up\" ve \"......... down\" birbirinin tersi (zıt) hareketlerdir.",
-          "dogruCevap": "Sit",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "otur-kalk-oklar"
-          }
-        },
-        {
-          "id": "bd-a22",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "Öğretmenimiz \"Yes, you may\" diyerek bize izin verdiğini söyler.",
+          "soru": "Yazın denizde \"swim\" aktivitesi yapılabilir.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1340,34 +1264,14 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "gulumsen-ogretmen"
+            "nesne": "summer-swim"
           }
         },
         {
-          "id": "bd-a23",
+          "id": "mv-a20",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "\"How are you?\" sorusuna vereceğimiz en güzel cevap \"I am .........\" (İyiyim) olur.",
-          "dogruCevap": "fine",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "iyiyim-isareti"
-          },
-          "alternatifCevaplar": [
-            "fine",
-            "good",
-            "Fine",
-            "Good"
-          ]
-        },
-        {
-          "id": "bd-a24",
-          "kazanimKodu": "ING.2.4.2",
-          "tip": "yazili",
-          "soru": "İngilizce konuşurken gülümsemek karşımızdakini çok mutlu eder.",
+          "soru": "Kışın \"snowman\" yapmak mümkündür.",
           "dogruCevap": "Doğru",
           "ipucu": "",
           "cevapTipi": "metin",
@@ -1379,1447 +1283,579 @@
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "goz-kirpan"
+            "nesne": "winter-snowman"
           }
         },
         {
-          "id": "bd-a25",
+          "id": "mv-a21",
           "kazanimKodu": "ING.2.4.2",
           "tip": "yazili",
-          "soru": "Küçük ve basit konuşmalara İngilizcede \"Simple .........\" (Dialogues) denir.",
-          "dogruCevap": "Dialogues",
+          "soru": "\"Autumn\" Türkçede ilkbahar demektir.",
+          "dogruCevap": "Yanlış",
           "ipucu": "",
           "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Hayır",
+            "hayır",
+            "yanlış"
+          ],
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "konusma-balonu"
+            "nesne": "autumn-leaves"
+          }
+        },
+        {
+          "id": "mv-a22",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "\"Spring\" kelimesi kış mevsimini anlatır.",
+          "dogruCevap": "Yanlış",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Hayır",
+            "hayır",
+            "yanlış"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "spring-flowers"
+          }
+        },
+        {
+          "id": "mv-a23",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Yazın güneşten korunmak için \"hat\" takabiliriz.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "summer-hat"
+          }
+        },
+        {
+          "id": "mv-a24",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Kışın \"gloves\" ve \"boots\" iyi bir kombin olur.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "winter-outfit"
+          }
+        },
+        {
+          "id": "mv-a25",
+          "kazanimKodu": "ING.2.4.2",
+          "tip": "yazili",
+          "soru": "Mevsim kelimesinin İngilizcesi \"season\" dur.",
+          "dogruCevap": "Doğru",
+          "ipucu": "",
+          "cevapTipi": "metin",
+          "alternatifCevaplar": [
+            "Evet",
+            "evet",
+            "doğru"
+          ],
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "season-wheel"
           }
         }
       ],
       "test": [
         {
-          "id": "bd-t1",
+          "id": "mv-t1",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Parkta karşılaştığınız arkadaşınız size \"How are you?\" diye sorarsa ne cevap verirsiniz?",
-          "dogruCevap": "I am fine, thank you.",
+          "soru": "İlkbaharın İngilizce karşılığı nedir?",
+          "dogruCevap": "Spring",
           "secenekler": [
-            "I am fine, thank you.",
-            "Goodbye.",
-            "It is an apple.",
-            "Open the door."
+            "Summer",
+            "Winter",
+            "Autumn",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "karsilasan-arkadaslar"
+            "nesne": "spring-flowers"
           }
         },
         {
-          "id": "bd-t2",
+          "id": "mv-t2",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"How are you?\" sorusunun Türkçe anlamı nedir?",
-          "dogruCevap": "Nasılsın?",
+          "soru": "Yaz mevsimi İngilizcede nasıl söylenir?",
+          "dogruCevap": "Summer",
           "secenekler": [
-            "Adın ne?",
-            "Kaç yaşındasın?",
-            "Nasılsın?",
-            "Neredesin?"
+            "Summer",
+            "Autumn",
+            "Spring",
+            "Winter"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "soru-isareti"
+            "nesne": "summer-sun"
           }
         },
         {
-          "id": "bd-t3",
+          "id": "mv-t3",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Size kalemini ödünç veren arkadaşınıza İngilizce ne söylersiniz?",
-          "dogruCevap": "Thank you!",
+          "soru": "Sonbaharın İngilizcesi hangisidir?",
+          "dogruCevap": "Autumn",
           "secenekler": [
-            "Sit down!",
-            "Thank you!",
-            "Stand up!",
-            "May I come in?"
+            "Spring",
+            "Autumn",
+            "Winter",
+            "Summer"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "tesekkur-eden"
+            "nesne": "autumn-leaves"
           }
         },
         {
-          "id": "bd-t4",
+          "id": "mv-t4",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Thank you\" diyen birine \"Rica ederim\" diye cevap vermek için hangisi söylenir?",
-          "dogruCevap": "You are welcome!",
+          "soru": "Kış mevsiminin İngilizcesi nedir?",
+          "dogruCevap": "Winter",
           "secenekler": [
-            "See you!",
-            "Goodbye!",
-            "You are welcome!",
-            "Let's play!"
+            "Autumn",
+            "Winter",
+            "Summer",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "rica-eden-kiz"
+            "nesne": "winter-snow"
           }
         },
         {
-          "id": "bd-t5",
+          "id": "mv-t5",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "İngilizcede \"Lütfen\" kelimesinin karşılığı hangisidir?",
-          "dogruCevap": "Please",
+          "soru": "Aşağıdakilerden hangisi yaz mevsimine daha uygundur?",
+          "dogruCevap": "T-shirt",
           "secenekler": [
-            "Hello",
-            "Thank you",
-            "Please",
-            "Sorry"
+            "Coat",
+            "Boots",
+            "T-shirt",
+            "Gloves"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "lutfen-diyen"
+            "nesne": "summer-t-shirt"
           }
         },
         {
-          "id": "bd-t6",
+          "id": "mv-t6",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Bakkaldan elma isterken \"Can I have an apple, .........?\" cümlesindeki boşluğa hangi nazik kelime gelmelidir?",
-          "dogruCevap": "Please",
+          "soru": "Kış mevsiminde hangi giysi daha uygundur?",
+          "dogruCevap": "Coat",
           "secenekler": [
-            "Please",
-            "Up",
-            "Goodbye",
-            "Down"
+            "T-shirt",
+            "Skirt",
+            "Coat",
+            "Dress"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "bakkal-elma"
+            "nesne": "winter-coat"
           }
         },
         {
-          "id": "bd-t7",
+          "id": "mv-t7",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Size istenilen bir şeyi (örneğin elmayı) uzatırken \"Buyurun\" demek için İngilizce ne denir?",
-          "dogruCevap": "Here you are!",
+          "soru": "Yağmurlu sonbahar gününde hangisi kullanılır?",
+          "dogruCevap": "Umbrella",
           "secenekler": [
-            "Sit down!",
-            "May I come in!",
-            "Catch the ball!",
-            "Here you are!"
+            "Hat",
+            "Shoes",
+            "Socks",
+            "Umbrella"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "esya-uzatan"
+            "nesne": "autumn-rain"
           }
         },
         {
-          "id": "bd-t8",
+          "id": "mv-t8",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Derse geç kaldığınızda kapıyı çalıp \"İçeri girebilir miyim?\" demek için hangi soruyu sorarsınız?",
-          "dogruCevap": "May I come in?",
+          "soru": "Karlı havada ayakları sıcak tutan eşya hangisidir?",
+          "dogruCevap": "Boots",
           "secenekler": [
-            "Let's play?",
-            "What is this?",
-            "How are you?",
-            "May I come in?"
+            "Hat",
+            "Scarf",
+            "Gloves",
+            "Boots"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "kapi-calan"
+            "nesne": "winter-boots"
           }
         },
         {
-          "id": "bd-t9",
+          "id": "mv-t9",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Öğretmen sınıfa girdiğinde saygı için \"Ayağa kalk\" demek istediğinde ne söyler?",
-          "dogruCevap": "Stand up!",
+          "soru": "Boynu sıcak tutan giyim eşyası hangisidir?",
+          "dogruCevap": "Scarf",
           "secenekler": [
-            "Eat!",
-            "Sleep!",
-            "Stand up!",
-            "Sit down!"
+            "Scarf",
+            "Socks",
+            "Shoes",
+            "Pants"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "ayaga-kalkan-sinif"
+            "nesne": "autumn-scarf"
           }
         },
         {
-          "id": "bd-t10",
+          "id": "mv-t10",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Sit down\" kelimesinin Türkçedeki komut anlamı nedir?",
-          "dogruCevap": "Otur",
+          "soru": "Ellerimizi koruyan eşya hangisidir?",
+          "dogruCevap": "Gloves",
           "secenekler": [
-            "Zıpla",
-            "Koş",
-            "Otur",
-            "Ayağa kalk"
+            "Skirt",
+            "Gloves",
+            "Dress",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "sandalyeye-oturan"
+            "nesne": "winter-gloves"
           }
         },
         {
-          "id": "bd-t11",
+          "id": "mv-t11",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Arkadaşınıza \"Hadi oynayalım!\" demek için İngilizce ne söylersiniz?",
-          "dogruCevap": "Let's play!",
+          "soru": "\"Swim\" aktivitesi en çok hangi mevsimde yapılır?",
+          "dogruCevap": "Summer",
           "secenekler": [
-            "Let's sleep!",
-            "Let's write!",
-            "Let's play!",
-            "Let's read!"
+            "Autumn",
+            "Summer",
+            "Winter",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "top-oynayan-ikili"
+            "nesne": "summer-swim"
           }
         },
         {
-          "id": "bd-t12",
+          "id": "mv-t12",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Oyunda arkadaşınıza \"Topu yakala!\" demek isterseniz hangi cümleyi kurarsınız?",
-          "dogruCevap": "Catch the ball!",
+          "soru": "\"Make a snowman\" etkinliği hangi mevsime aittir?",
+          "dogruCevap": "Winter",
           "secenekler": [
-            "Drink water!",
-            "Open the door!",
-            "Catch the ball!",
-            "Read the book!"
+            "Winter",
+            "Autumn",
+            "Spring",
+            "Summer"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "top-firlatilan"
+            "nesne": "winter-snowman"
           }
         },
         {
-          "id": "bd-t13",
+          "id": "mv-t13",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"I am fine\" cümlesinin Türkçe çevirisi nedir?",
-          "dogruCevap": "Ben iyiyim",
+          "soru": "Yaprakların sarardığı mevsim hangisidir?",
+          "dogruCevap": "Autumn",
           "secenekler": [
-            "Ben iyiyim",
-            "Ben yorgunum",
-            "Ben uyuyorum",
-            "Ben kötüyüm"
+            "Winter",
+            "Autumn",
+            "Summer",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "gulumseyen-yuz"
+            "nesne": "autumn-leaves"
           }
         },
         {
-          "id": "bd-t14",
+          "id": "mv-t14",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Konuşmayı bitirip vedalaşırken söylenen \"Goodbye\" kelimesi ne demektir?",
-          "dogruCevap": "Hoşça kal",
+          "soru": "Çiçeklerin açtığı mevsim genellikle hangisidir?",
+          "dogruCevap": "Spring",
           "secenekler": [
-            "Lütfen",
-            "Hoşça kal",
-            "Günaydın",
-            "Merhaba"
+            "Autumn",
+            "Summer",
+            "Winter",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "okul-kapisindan-cikan"
+            "nesne": "spring-flowers"
           }
         },
         {
-          "id": "bd-t15",
+          "id": "mv-t15",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Karşılıklı iki kişinin konuşmasına İngilizcede ne ad verilir?",
-          "dogruCevap": "Dialogue",
+          "soru": "Aşağıdaki eşleşmelerden hangisi doğrudur?",
+          "dogruCevap": "Winter - coat",
           "secenekler": [
-            "Color",
-            "Number",
-            "Dialogue",
-            "Animal"
+            "Winter - coat",
+            "Autumn - t-shirt",
+            "Summer - boots",
+            "Spring - gloves"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "konusma-balonu-dialogue"
+            "nesne": "season-clothes-match"
           }
         },
         {
-          "id": "bd-t16",
+          "id": "mv-t16",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"I am fine, thank you. And you?\" cümlesindeki \"And you?\" ne anlama gelir?",
-          "dogruCevap": "Ya sen (nasılsın)?",
+          "soru": "\"Season\" kelimesinin Türkçe anlamı nedir?",
+          "dogruCevap": "Mevsim",
           "secenekler": [
-            "Sen kimsin?",
-            "Benim adım ne?",
-            "Saat kaç?",
-            "Ya sen (nasılsın)?"
+            "Rüzgar",
+            "Giysi",
+            "Mevsim",
+            "Hava"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "and-you-sorusu"
+            "nesne": "season-wheel"
           }
         },
         {
-          "id": "bd-t17",
+          "id": "mv-t17",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Biriyle konuşurken (Diyalog kurarken) nereye bakmalıyız?",
-          "dogruCevap": "Karşımızdaki kişinin gözlerine",
+          "soru": "Yazın güneşten korunmak için hangisi kullanılabilir?",
+          "dogruCevap": "Hat",
           "secenekler": [
-            "Yere",
-            "Havaya",
-            "Arkamıza",
-            "Karşımızdaki kişinin gözlerine"
+            "Coat",
+            "Hat",
+            "Scarf",
+            "Gloves"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "goz-temasi"
+            "nesne": "summer-hat"
           }
         },
         {
-          "id": "bd-t18",
+          "id": "mv-t18",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "İnsanlara \"Please\" ve \"Thank you\" demek bizi nasıl biri yapar?",
-          "dogruCevap": "Nazik ve saygılı biri yapar",
+          "soru": "İlkbahar için hafif bir dış giyim hangisidir?",
+          "dogruCevap": "Jacket",
           "secenekler": [
-            "Kaba biri yapar",
-            "Şaşkın biri yapar",
-            "Komik biri yapar",
-            "Nazik ve saygılı biri yapar"
+            "Jacket",
+            "Sweater",
+            "Boots",
+            "Gloves"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "neseli-arkadas"
+            "nesne": "spring-jacket"
           }
         },
         {
-          "id": "bd-t19",
+          "id": "mv-t19",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Can I have a toy, please?\" cümlesinde çocuk ne rica etmektedir?",
-          "dogruCevap": "Bir oyuncak",
+          "soru": "Aşağıdakilerden hangisi kış kombinine uygundur?",
+          "dogruCevap": "Coat + gloves + boots",
           "secenekler": [
-            "Bir kitap",
-            "Bir oyuncak",
-            "Bir elma",
-            "Bir kalem"
+            "T-shirt + shorts",
+            "Skirt + hat",
+            "Dress + sandals",
+            "Coat + gloves + boots"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "oyuncak-ayi"
+            "nesne": "winter-outfit"
           }
         },
         {
-          "id": "bd-t20",
+          "id": "mv-t20",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Yes, you may.\" cümlesi Türkçede ne anlama gelir?",
-          "dogruCevap": "Evet, yapabilirsin (İzin veriyorum).",
+          "soru": "Aşağıdaki aktivitelerden hangisi ilkbahara uygundur?",
+          "dogruCevap": "Play in the park",
           "secenekler": [
-            "Belki.",
-            "Evet, yapabilirsin (İzin veriyorum).",
-            "Hayır, yapamazsın.",
-            "Bilmiyorum."
+            "Make a snowman",
+            "Wear thick coat",
+            "Stay home all day",
+            "Play in the park"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "izin-veren-ogretmen"
+            "nesne": "spring-park-play"
           }
         },
         {
-          "id": "bd-t21",
+          "id": "mv-t21",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Stand up\" cümlesindeki \"Up\" kelimesi hangi yönü belirtir?",
-          "dogruCevap": "Yukarı",
+          "soru": "\"Autumn and winter\" sıralaması hangi seçenekte doğru verilmiştir?",
+          "dogruCevap": "Sonbahar ve kış",
           "secenekler": [
-            "Sağ",
-            "Sol",
-            "Aşağı",
-            "Yukarı"
+            "Yaz ve sonbahar",
+            "Sonbahar ve kış",
+            "İlkbahar ve yaz",
+            "Kış ve ilkbahar"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "yukari-ok"
+            "nesne": "season-wheel"
           }
         },
         {
-          "id": "bd-t22",
+          "id": "mv-t22",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Sit down\" cümlesindeki \"Down\" kelimesi hangi yönü belirtir?",
-          "dogruCevap": "Aşağı",
+          "soru": "Hangi mevsim en sıcak olur?",
+          "dogruCevap": "Summer",
           "secenekler": [
-            "İleri",
-            "Yukarı",
-            "Geri",
-            "Aşağı"
+            "Summer",
+            "Autumn",
+            "Spring",
+            "Winter"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "asagi-ok"
+            "nesne": "summer-sun"
           }
         },
         {
-          "id": "bd-t23",
+          "id": "mv-t23",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "İngilizce bir konuşma (diyalog) genellikle hangi kelimeyle başlar?",
-          "dogruCevap": "Hello / Hi",
+          "soru": "Hangi mevsimde soğuk hava daha yaygındır?",
+          "dogruCevap": "Winter",
           "secenekler": [
-            "Hello / Hi",
-            "Please",
-            "Goodbye",
-            "Thank you"
+            "Autumn",
+            "Spring",
+            "Winter",
+            "Summer"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "hello-yazisi"
+            "nesne": "winter-snow"
           }
         },
         {
-          "id": "bd-t24",
+          "id": "mv-t24",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "Sınıf içinde kurallara uymak ve nazik olmak neden çok önemlidir?",
-          "dogruCevap": "Derslerin eğlenceli ve huzurlu geçmesi için",
+          "soru": "Yağmurlu bir güne uygun seçim hangisidir?",
+          "dogruCevap": "Umbrella and jacket",
           "secenekler": [
-            "Hiç önemli değildir",
-            "Çabuk yorulmak için",
-            "Derslerin eğlenceli ve huzurlu geçmesi için",
-            "Sadece öğretmenden korktuğumuz için"
+            "Scarf only",
+            "T-shirt and shorts",
+            "Umbrella and jacket",
+            "Boots and gloves only"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "ogretmen-masasi-diyalog"
+            "nesne": "rainy-umbrella"
           }
         },
         {
-          "id": "bd-t25",
+          "id": "mv-t25",
           "kazanimKodu": "ING.2.4.2",
           "tip": "coktanSecmeli",
-          "soru": "\"Simple Dialogues\" Türkçede ne anlama gelir?",
-          "dogruCevap": "Basit karşılıklı konuşmalar",
+          "soru": "Aşağıdaki mevsim sırası hangisidir?",
+          "dogruCevap": "Spring - Summer - Autumn - Winter",
           "secenekler": [
-            "Renkli resimler",
-            "Uzun şiirler",
-            "Basit karşılıklı konuşmalar",
-            "Zor şarkılar"
+            "Spring - Summer - Autumn - Winter",
+            "Autumn - Winter - Summer - Spring",
+            "Summer - Spring - Winter - Autumn",
+            "Winter - Autumn - Summer - Spring"
           ],
           "ipucu": "",
           "gorsel": {
             "tur": "ingilizce",
             "mod": "nesne",
-            "nesne": "mutlu-konusan"
-          }
-        }
-      ]
-    },
-    {
-      "id": "ingilizce-sarkilar",
-      "baslik": "Songs",
-      "kazanimKodu": "ING.2.4.3",
-      "anlatim": {
-        "ekranlar": [
-          {
-            "metin": "\"A, B, C, D, E, F, G... H, I, J, K, L, M, N, O, P... Q, R, S... T, U, V... W, X, Y and Z\". Şarkı söylemek (Sing a song) alfabeyi ezberlemeyi çok kolaylaştırıyordu.",
-            "gorsel": {
-              "tur": "ingilizce",
-              "mod": "anlatim",
-              "sahne": "is-anlatim-1"
-            }
-          },
-          {
-            "metin": "\"One, two, three, four, five... Jump!\" (Zıpla). \"Six, seven, eight, nine, ten... Clap your hands!\" (Ellerini çırp).",
-            "gorsel": {
-              "tur": "ingilizce",
-              "mod": "anlatim",
-              "sahne": "is-anlatim-2"
-            }
-          },
-          {
-            "metin": "\"I can sing a rainbow... Red, yellow, pink, green, purple, orange, blue.\" Renkler (Colors) şarkıyla çok daha akılda kalıcıydı.",
-            "gorsel": {
-              "tur": "ingilizce",
-              "mod": "anlatim",
-              "sahne": "is-anlatim-3"
-            }
-          }
-        ]
-      },
-      "alistirma": [
-        {
-          "id": "is-a1",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizcede şarkı kelimesi \".........\" (Song) olarak yazılır.",
-          "dogruCevap": "song",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "muzik-notalari"
-          }
-        },
-        {
-          "id": "is-a2",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Şarkı söylemek eylemine İngilizcede \"Sing a song\" denir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sarki-soyleyen-cocuklar"
-          }
-        },
-        {
-          "id": "is-a3",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Harfleri eğlenerek öğrenmek için \"The ......... Song\" (Alfabe Şarkısı) dinleriz.",
-          "dogruCevap": "Alphabet",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "alfabe-bloklari"
-          },
-          "alternatifCevaplar": [
-            "alphabet"
-          ]
-        },
-        {
-          "id": "is-a4",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Alfabe şarkısı \"A, B, C, D\" (Ey, Bi, Si, Di) diye başlar.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "abc-harfleri"
-          }
-        },
-        {
-          "id": "is-a5",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizce alfabe şarkısının en sonundaki harf \".........\" (Z) harfidir.",
-          "dogruCevap": "Z",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "z-harfi"
-          }
-        },
-        {
-          "id": "is-a6",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Sayıları öğrenmek için \"The Numbers Song\" şarkısını söyleriz.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sayi-1-10"
-          }
-        },
-        {
-          "id": "is-a7",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Sayılar şarkısında geçen \"Five\" kelimesi ......... (5) sayısıdır.",
-          "dogruCevap": "beş",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "bes-balon"
-          },
-          "alternatifCevaplar": [
-            "bes",
-            "5"
-          ]
-        },
-        {
-          "id": "is-a8",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Sayılar şarkısındaki \"Jump\" komutunu duyunca yere otururuz.",
-          "dogruCevap": "Yanlış",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Hayır",
-            "hayır",
-            "yanlış"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ziplayan-cocuk"
-          }
-        },
-        {
-          "id": "is-a9",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "\"Clap your hands\" ifadesi Türkçede \"Ellerini .........\" demektir.",
-          "dogruCevap": "çırp",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ellerini-cirpan"
-          },
-          "alternatifCevaplar": [
-            "cirp"
-          ]
-        },
-        {
-          "id": "is-a10",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Sayılar şarkısında \"Ten\" sayısı söylendiğinde 10 demiş oluruz.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "on-blok"
-          }
-        },
-        {
-          "id": "is-a11",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Renkleri öğrenmek için söylediğimiz şarkının konusu \"The ......... Song\"dur.",
-          "dogruCevap": "Colors",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gokkusagi"
-          }
-        },
-        {
-          "id": "is-a12",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Gökkuşağı şarkısındaki \"Red and Yellow\", Kırmızı ve Sarı renkleridir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kirmizi-sari-boya"
-          }
-        },
-        {
-          "id": "is-a13",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "\"Pink and Green\" kelimeleri Pembe ve ......... renklerini anlatır.",
-          "dogruCevap": "yeşil",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "pembe-yesil-elma"
-          },
-          "alternatifCevaplar": [
-            "yesil"
-          ]
-        },
-        {
-          "id": "is-a14",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Gökkuşağı şarkısında \"Purple and Orange\", Mor ve Turuncu renkleridir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mor-turuncu"
-          }
-        },
-        {
-          "id": "is-a15",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizce şarkılar dinlemek yeni kelimeler öğrenmemizi çok ......... (kolaylaştırır).",
-          "dogruCevap": "kolaylaştırır",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kulaklik-dinleyen"
-          },
-          "alternatifCevaplar": [
-            "kolaylastirir"
-          ]
-        },
-        {
-          "id": "is-a16",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "\"Song\" kelimesi Türkçede hikaye demektir.",
-          "dogruCevap": "Yanlış",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Hayır",
-            "hayır",
-            "yanlış"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "muzik-notalari"
-          }
-        },
-        {
-          "id": "is-a17",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Müzik eşliğinde İngilizce öğrenmek çok eğlencelidir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "piyano-tuslari"
-          }
-        },
-        {
-          "id": "is-a18",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Gökkuşağı şarkısındaki ilk renk \".........\" (Kırmızı)'dır.",
-          "dogruCevap": "Red",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kirmizi-elma"
-          }
-        },
-        {
-          "id": "is-a19",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "\"Blue\" kelimesi şarkıda da geçen mavi renk demektir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mavi-deniz"
-          }
-        },
-        {
-          "id": "is-a20",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Şarkılar (Songs) sayesinde alfabeyi (Alphabet) hiç ......... (unutmayız).",
-          "dogruCevap": "unutmayız",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "harf-corbasi"
-          },
-          "alternatifCevaplar": [
-            "unutmayiz"
-          ]
-        },
-        {
-          "id": "is-a21",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizce şarkılara sınıfça eşlik etmek ve ritim tutmak takım çalışmasını güçlendirir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "koro-sarki"
-          }
-        },
-        {
-          "id": "is-a22",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizcede alfabe \".........\" kelimesiyle ifade edilir.",
-          "dogruCevap": "alphabet",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gulen-harfler"
-          },
-          "alternatifCevaplar": [
-            "Alphabet"
-          ]
-        },
-        {
-          "id": "is-a23",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Sadece okulda değil, evde de İngilizce şarkılar dinlemek bize fayda sağlar.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "muzik-dinleyen"
-          }
-        },
-        {
-          "id": "is-a24",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "Şarkı söylerken aynı zamanda \".........\" (dans etmek/dance) da yapabiliriz.",
-          "dogruCevap": "dance",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "dans-eden-arkadas"
-          }
-        },
-        {
-          "id": "is-a25",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "yazili",
-          "soru": "İngilizce şarkılar ve oyunlar, öğrenmeyi sıkıcı olmaktan kurtarıp neşeli hale getirir.",
-          "dogruCevap": "Doğru",
-          "ipucu": "",
-          "cevapTipi": "metin",
-          "alternatifCevaplar": [
-            "Evet",
-            "evet",
-            "doğru"
-          ],
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mutlu-cocuk-sarki"
-          }
-        }
-      ],
-      "test": [
-        {
-          "id": "is-t1",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "İngilizcede \"Şarkı\" kelimesinin karşılığı nedir?",
-          "dogruCevap": "Song",
-          "secenekler": [
-            "Story",
-            "Song",
-            "Apple",
-            "Dialogue"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "muzik-notasi-sembolu"
-          }
-        },
-        {
-          "id": "is-t2",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"Sing a song\" ifadesi Türkçede hangi eylemdir?",
-          "dogruCevap": "Şarkı söylemek",
-          "secenekler": [
-            "Koşmak",
-            "Resim çizmek",
-            "Kitap okumak",
-            "Şarkı söylemek"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mikrofon-sarki"
-          }
-        },
-        {
-          "id": "is-t3",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "İngilizce harfleri eğlenerek öğrenmek için hangi şarkıyı dinleriz?",
-          "dogruCevap": "The Alphabet Song",
-          "secenekler": [
-            "The Colors Song",
-            "The Alphabet Song",
-            "The Animal Song",
-            "The Numbers Song"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "abc-tablosu"
-          }
-        },
-        {
-          "id": "is-t4",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Alfabe şarkısı hangi harflerle başlar?",
-          "dogruCevap": "A, B, C",
-          "secenekler": [
-            "A, B, C",
-            "Z, Y, X",
-            "One, Two, Three",
-            "Red, Blue, Green"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sarki-soyleyen"
-          }
-        },
-        {
-          "id": "is-t5",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Sayıları öğrenmek için dinlediğimiz \"The Numbers Song\"da hangi kelimeler geçer?",
-          "dogruCevap": "One, Two, Three",
-          "secenekler": [
-            "One, Two, Three",
-            "A, B, C",
-            "Cat, Dog, Bird",
-            "Red, Yellow, Blue"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "rakam-tahta"
-          }
-        },
-        {
-          "id": "is-t6",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Sayılar şarkısındaki \"Five\" kelimesi hangi sayıdır?",
-          "dogruCevap": "5",
-          "secenekler": [
-            "6",
-            "10",
-            "5",
-            "4"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "bes-balon"
-          }
-        },
-        {
-          "id": "is-t7",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Sayılar şarkısındaki \"Jump\" komutu geldiğinde çocuklar ne yapar?",
-          "dogruCevap": "Zıplarlar",
-          "secenekler": [
-            "Kitap okurlar",
-            "Uyumaya başlarlar",
-            "Yere otururlar",
-            "Zıplarlar"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "ziplayan"
-          }
-        },
-        {
-          "id": "is-t8",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Şarkıdaki \"Clap your hands\" komutunun anlamı nedir?",
-          "dogruCevap": "Ellerini çırp",
-          "secenekler": [
-            "Ayaklarını vur",
-            "Arkana dön",
-            "Ellerini çırp",
-            "Gözlerini kapat"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "eller-cirpan"
-          }
-        },
-        {
-          "id": "is-t9",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "İngilizce renkleri öğrenmek için hangi şarkı çok eğlencelidir?",
-          "dogruCevap": "The Colors Song (Renkler Şarkısı)",
-          "secenekler": [
-            "The Classroom Song",
-            "The Colors Song (Renkler Şarkısı)",
-            "The Numbers Song",
-            "The Alphabet Song"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "gokkusagi-resmi"
-          }
-        },
-        {
-          "id": "is-t10",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Renkler şarkısında geçen \"Red and Yellow\" sırasıyla hangi renklerdir?",
-          "dogruCevap": "Kırmızı ve Sarı",
-          "secenekler": [
-            "Yeşil ve Mavi",
-            "Siyah ve Beyaz",
-            "Kırmızı ve Sarı",
-            "Mor ve Pembe"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kirmizi-sari-kalem"
-          }
-        },
-        {
-          "id": "is-t11",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"Pink and Green\" kelimelerinin Türkçe karşılığı nedir?",
-          "dogruCevap": "Pembe ve Yeşil",
-          "secenekler": [
-            "Mavi ve Siyah",
-            "Kırmızı ve Sarı",
-            "Pembe ve Yeşil",
-            "Mor ve Turuncu"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "pembe-yesil-balon"
-          }
-        },
-        {
-          "id": "is-t12",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Renkler şarkısında geçen \"Blue\" kelimesi hangi renktir?",
-          "dogruCevap": "Mavi",
-          "secenekler": [
-            "Kırmızı",
-            "Mavi",
-            "Yeşil",
-            "Sarı"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mavi-deniz-gokyuzu"
-          }
-        },
-        {
-          "id": "is-t13",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "İngilizce şarkılar (Songs) dinlemek kelime öğrenmemizi nasıl etkiler?",
-          "dogruCevap": "Eğlenerek kalıcı şekilde öğrenmemizi sağlar",
-          "secenekler": [
-            "Eğlenerek kalıcı şekilde öğrenmemizi sağlar",
-            "Daha çabuk unutmamızı sağlar",
-            "Hiçbir işe yaramaz",
-            "Sıkılmamıza sebep olur"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kulaklik-dinleyen"
-          }
-        },
-        {
-          "id": "is-t14",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Şarkılarda söylenen \"Words\" (Kelimeler) neden zihnimizde daha kolay kalır?",
-          "dogruCevap": "Çünkü müzik ve ritim hafızamızı güçlendirir",
-          "secenekler": [
-            "Çünkü müzik ve ritim hafızamızı güçlendirir",
-            "Çünkü zor yazılırlar",
-            "Çünkü çok kısadırlar",
-            "Çünkü siyah beyazdırlar"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "kelime-nota"
-          }
-        },
-        {
-          "id": "is-t15",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"The Numbers Song\" şarkısı genellikle hangi sayıyla biter?",
-          "dogruCevap": "Ten",
-          "secenekler": [
-            "One",
-            "Ten",
-            "Three",
-            "Five"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "on-blok"
-          }
-        },
-        {
-          "id": "is-t16",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Gökkuşağı şarkısında geçen \"Purple\" kelimesinin anlamı nedir?",
-          "dogruCevap": "Mor",
-          "secenekler": [
-            "Turuncu",
-            "Pembe",
-            "Mavi",
-            "Mor"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mor-cicek"
-          }
-        },
-        {
-          "id": "is-t17",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"Orange\" kelimesi hangi renk için kullanılır?",
-          "dogruCevap": "Turuncu",
-          "secenekler": [
-            "Beyaz",
-            "Siyah",
-            "Turuncu",
-            "Yeşil"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "turuncu-portakal"
-          }
-        },
-        {
-          "id": "is-t18",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Sınıfça şarkı söylerken nasıl davranmalıyız?",
-          "dogruCevap": "Arkadaşlarımızla uyumlu bir şekilde ritim tutmalıyız",
-          "secenekler": [
-            "Kulaklarımızı kapatmalıyız",
-            "Sadece bağırmalıyız",
-            "Şarkıyı bozmalıyız",
-            "Arkadaşlarımızla uyumlu bir şekilde ritim tutmalıyız"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sinif-sarki"
-          }
-        },
-        {
-          "id": "is-t19",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"Alphabet\" kelimesi Türkçede ne anlama gelir?",
-          "dogruCevap": "Alfabe",
-          "secenekler": [
-            "Renkler",
-            "Hayvanlar",
-            "Sayılar",
-            "Alfabe"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "nota-alfabe"
-          }
-        },
-        {
-          "id": "is-t20",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Alfabe şarkısının son harfi hangisidir?",
-          "dogruCevap": "Z",
-          "secenekler": [
-            "M",
-            "C",
-            "A",
-            "Z"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "z-harfi-kup"
-          }
-        },
-        {
-          "id": "is-t21",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Şarkı söylerken aynı zamanda \"Dance\" yapmak ne demektir?",
-          "dogruCevap": "Dans etmek",
-          "secenekler": [
-            "Kitap okumak",
-            "Resim çizmek",
-            "Yemek yemek",
-            "Dans etmek"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "dans-eden"
-          }
-        },
-        {
-          "id": "is-t22",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "İngilizce dersinde şarkı dinlemek dersi nasıl bir hale getirir?",
-          "dogruCevap": "Eğlenceli, neşeli ve akılda kalıcı",
-          "secenekler": [
-            "Eğlenceli, neşeli ve akılda kalıcı",
-            "Korkutucu",
-            "Çok sıkıcı ve yorucu",
-            "Uykulu"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "muzik-calar"
-          }
-        },
-        {
-          "id": "is-t23",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "\"One, two, three, four, five\" sayılarından \"Three\" hangisidir?",
-          "dogruCevap": "3",
-          "secenekler": [
-            "4",
-            "3",
-            "2",
-            "1"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "sayilar-1-5"
-          }
-        },
-        {
-          "id": "is-t24",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Gökkuşağı şarkısında \"I can sing a rainbow\" ne demektir?",
-          "dogruCevap": "Bir gökkuşağı şarkısı söyleyebilirim",
-          "secenekler": [
-            "Bir kitap okuyabilirim",
-            "Bir araba çizebilirim",
-            "Bir kuş uçurabilirim",
-            "Bir gökkuşağı şarkısı söyleyebilirim"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "boya-paleti"
-          }
-        },
-        {
-          "id": "is-t25",
-          "kazanimKodu": "ING.2.4.3",
-          "tip": "coktanSecmeli",
-          "soru": "Şarkılar, hikayeler ve diyaloglar sayesinde İngilizce dilini öğrenmek bizim için nasıldır?",
-          "dogruCevap": "Eğlenceli ve yepyeni bir macera",
-          "secenekler": [
-            "Sıkıcı",
-            "İmkansız",
-            "Eğlenceli ve yepyeni bir macera",
-            "Çok zor ve üzücü"
-          ],
-          "ipucu": "",
-          "gorsel": {
-            "tur": "ingilizce",
-            "mod": "nesne",
-            "nesne": "mutlu-ingilizce-sinif"
+            "nesne": "season-wheel"
           }
         }
       ]

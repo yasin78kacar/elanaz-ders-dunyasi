@@ -1,0 +1,966 @@
+{
+  "id": "yazi-turu-hikaye",
+  "baslik": "Yazı Türü — Hikâye",
+  "kazanimKodu": "TUR.2.5.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Hikâye, bir olayın kişi, yer ve zaman unsurlarıyla anlatıldığı yazı türüdür. Hikâyede kahramanlar bir sorun yaşar, olaylar gelişir ve sonunda bir sonuca ulaşılır.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "yth-anlatim-1"
+        }
+      },
+      {
+        "metin": "Hikâyelerde genellikle giriş, gelişme ve sonuç bölümü bulunur. Girişte kişiler ve ortam tanıtılır; gelişmede olay büyür; sonuçta ise düğüm çözülür.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "yth-anlatim-2"
+        }
+      },
+      {
+        "metin": "Hikâyeyi daha iyi anlamak için şu sorular önemlidir: Kim? Nerede? Ne oldu? Nasıl bitti? Bu sorular metnin ana fikrine ulaşmamıza yardımcı olur.",
+        "gorsel": {
+          "tur": "turkce",
+          "mod": "anlatim",
+          "sahne": "yth-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "yth-a1",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Hikâyedeki çocuk kimdir?",
+      "dogruCevap": "Elif",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gol-kenari-yuruyus",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a2",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Elif kiminle yürüdü?",
+      "dogruCevap": "Dedesiyle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dede-torun-yuruyus",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a3",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Gölün üstünde ne vardı?",
+      "dogruCevap": "Ördekler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "golde-ordekler",
+        "nesne": "hayvan"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a4",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Elif suya ne attı?",
+      "dogruCevap": "Ekmek kırıntıları",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "suya-yem-atan-cocuk",
+        "nesne": "gol"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a5",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Dedesi Elif'e ne öğüt verdi?",
+      "dogruCevap": "Sabırlı olursan doğa yaklaşır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dede-ogut",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a6",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Hikâye sonunda Elif neyi düşündü?",
+      "dogruCevap": "Göldeki yansımayı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gol-yansima",
+        "nesne": "gol"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a7",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu hikâyenin geçtiği yer neresidir?",
+      "dogruCevap": "Göl kenarı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gol-manzarasi",
+        "nesne": "gol"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a8",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu hikâyenin ana fikri nedir?",
+      "dogruCevap": "Doğada sakin ve sabırlı olmak güzeldir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dogada-sakinlik",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü."
+    },
+    {
+      "id": "yth-a9",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Mert parkta ne yapıyordu?",
+      "dogruCevap": "Uçurtma uçuruyordu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "parkta-ucurtma",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a10",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Uçurtmanın ipi neden koptu?",
+      "dogruCevap": "Rüzgar hızlandığı için",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ruzgarli-park",
+        "nesne": "ruzgar"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a11",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Mert uçurtma kaybolunca nasıl hissetti?",
+      "dogruCevap": "Üzüldü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "uzgun-mert",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a12",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Uçurtmayı kim buldu?",
+      "dogruCevap": "Komşu teyze",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "komsu-teyze-kapi",
+        "nesne": "ev"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a13",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Mert sonunda ne yaptı?",
+      "dogruCevap": "Uçurtmaya daha sıkı ip bağladı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ucurtma-ipi-baglama",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a14",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu hikâyenin sonucu nasıl bitti?",
+      "dogruCevap": "Mutlu bitti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mutlu-son",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a15",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Hikâyedeki olay hangi sırayla oldu?",
+      "dogruCevap": "Uçurdu, kaybetti, geri buldu",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a16",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu metnin ana fikri nedir?",
+      "dogruCevap": "Umudu kaybetmeden çözüm aranmalıdır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "umutlu-cocuk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı."
+    },
+    {
+      "id": "yth-a17",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Sena annesiyle nereye gitti?",
+      "dogruCevap": "Fırına",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firin-onu",
+        "nesne": "fırın"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a18",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Tezgahta ne diziliydi?",
+      "dogruCevap": "Sıcak simitler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "simit-tezgahi",
+        "nesne": "yiyecek"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a19",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Fırıncı amca Sena'dan ne istedi?",
+      "dogruCevap": "Yardım etmesini",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firinci-yardim",
+        "nesne": "fırın"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a20",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Sena hangi işi yaptı?",
+      "dogruCevap": "Poşet tuttu ve simit saydı",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "simit-sayan-sena",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a21",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Annesi dönüşte ne söyledi?",
+      "dogruCevap": "Sorumluluk almak seni büyütür",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "anne-konusma",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a22",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Sena kendini nasıl hissetti?",
+      "dogruCevap": "Önemli hissetti",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "kendine-guvenen-cocuk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a23",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu hikâyede hangi değer öne çıkıyor?",
+      "dogruCevap": "Sorumluluk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sorumluluk",
+        "nesne": "cocuk"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a24",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Hikâyenin zamanı ne olabilir?",
+      "dogruCevap": "Sabah erken saatler",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-firin",
+        "nesne": "gunes"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    },
+    {
+      "id": "yth-a25",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "yazili",
+      "soru": "Bu metnin türü nedir?",
+      "dogruCevap": "Hikâye",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-kitabi",
+        "nesne": "kitap"
+      },
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti."
+    }
+  ],
+  "test": [
+    {
+      "id": "yth-t1",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elif, dedesiyle nereye yürüdü?",
+      "dogruCevap": "Göl kenarına",
+      "secenekler": [
+        "Parka",
+        "Ormana",
+        "Göl kenarına",
+        "Okula"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "gol-kenari-yuruyus",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t2",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Suyun üstünde hangi hayvanlar vardı?",
+      "dogruCevap": "Ördekler",
+      "secenekler": [
+        "Ördekler",
+        "Balıklar",
+        "Martılar",
+        "Kurbağalar"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "golde-ordekler",
+        "nesne": "hayvan"
+      }
+    },
+    {
+      "id": "yth-t3",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elif suya ne attı?",
+      "dogruCevap": "Ekmek kırıntıları",
+      "secenekler": [
+        "Taş",
+        "Yaprak",
+        "Ekmek kırıntıları",
+        "Yem torbası"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "suya-yem-atan-cocuk",
+        "nesne": "gol"
+      }
+    },
+    {
+      "id": "yth-t4",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Sabırlı olursan doğa sana yaklaşır\" cümlesi ne anlatır?",
+      "dogruCevap": "Sakin davranınca güzel şeyler olur",
+      "secenekler": [
+        "Koşunca ördek gelir",
+        "Sakin davranınca güzel şeyler olur",
+        "Dede şaka yaptı",
+        "Doğa sadece sabah uyanır"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dede-ogut",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "yth-t5",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu metnin ana fikri hangisidir?",
+      "dogruCevap": "Doğada sabır ve dikkat önemlidir",
+      "secenekler": [
+        "Doğada sabır ve dikkat önemlidir",
+        "Ördekler hızlı yüzer",
+        "Gölde gezmek zordur",
+        "Ekmek taşımalıyız"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "dogada-sakinlik",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t6",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mert parkta ne yapıyordu?",
+      "dogruCevap": "Uçurtma uçuruyordu",
+      "secenekler": [
+        "Top oynuyordu",
+        "Bisiklet sürüyordu",
+        "Kitap okuyordu",
+        "Uçurtma uçuruyordu"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "parkta-ucurtma",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t7",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Uçurtma neden kayboldu?",
+      "dogruCevap": "Rüzgar hızlanıp ipi kopardığı için",
+      "secenekler": [
+        "Yağmur yağdığı için",
+        "Rüzgar hızlanıp ipi kopardığı için",
+        "Kuş aldığı için",
+        "Mert bıraktığı için"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ruzgarli-park",
+        "nesne": "ruzgar"
+      }
+    },
+    {
+      "id": "yth-t8",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mert ertesi sabah ne öğrendi?",
+      "dogruCevap": "Uçurtmanın komşu bahçesine düştüğünü",
+      "secenekler": [
+        "Uçurtmanın denize gittiğini",
+        "Uçurtmanın bulunmadığını",
+        "Uçurtmanın komşu bahçesine düştüğünü",
+        "Uçurtmanın yandığını"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "komsu-teyze-kapi",
+        "nesne": "ev"
+      }
+    },
+    {
+      "id": "yth-t9",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mert uçurtmasına neden daha sıkı ip bağladı?",
+      "dogruCevap": "Tekrar kaybolmaması için",
+      "secenekler": [
+        "Tekrar kaybolmaması için",
+        "Daha güzel görünsün diye",
+        "Daha yükseğe çıksın diye",
+        "Komşu istediği için"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ucurtma-ipi-baglama",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "yth-t10",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu hikâyenin sonucu nasıldır?",
+      "dogruCevap": "Sorun çözülür ve mutlu biter",
+      "secenekler": [
+        "Yarım kalır",
+        "Kahraman kaybolur",
+        "Üzücü biter",
+        "Sorun çözülür ve mutlu biter"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "mutlu-son",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t11",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sena annesiyle hangi saatte fırına gitti?",
+      "dogruCevap": "Sabah erkenden",
+      "secenekler": [
+        "Sabah erkenden",
+        "Akşam",
+        "Öğlen",
+        "Gece"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-firin",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "yth-t12",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tezgahta ne vardı?",
+      "dogruCevap": "Sıcak simitler",
+      "secenekler": [
+        "Pastalar",
+        "Ekmek hamuru",
+        "Sıcak simitler",
+        "Kurabiye"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "simit-tezgahi",
+        "nesne": "yiyecek"
+      }
+    },
+    {
+      "id": "yth-t13",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fırıncı amca Sena'dan ne istedi?",
+      "dogruCevap": "Yardım etmesini",
+      "secenekler": [
+        "Para vermesini",
+        "Yardım etmesini",
+        "Eve gitmesini",
+        "Simit almasını"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firinci-yardim",
+        "nesne": "fırın"
+      }
+    },
+    {
+      "id": "yth-t14",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sena ne yaparak yardım etti?",
+      "dogruCevap": "Poşet tuttu ve simit saydı",
+      "secenekler": [
+        "Masa sildi",
+        "Poşet tuttu ve simit saydı",
+        "Fırını yaktı",
+        "Kasayı açtı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "simit-sayan-sena",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t15",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Annesinin \"Sorumluluk almak seni büyütür\" sözü neyi vurgular?",
+      "dogruCevap": "Görev almanın kişiyi geliştirdiğini",
+      "secenekler": [
+        "Sorumluluğun zor olduğunu",
+        "Görev almanın kişiyi geliştirdiğini",
+        "Fırın işinin kolay olduğunu",
+        "Sadece büyüklerin çalıştığını"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "anne-konusma",
+        "nesne": "cocuk"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "yth-t16",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede geçen yerlerden biri hangisidir?",
+      "dogruCevap": "Fırın",
+      "secenekler": [
+        "Kütüphane",
+        "Müze",
+        "Fırın",
+        "Sinema"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "firin-onu",
+        "nesne": "fırın"
+      }
+    },
+    {
+      "id": "yth-t17",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede \"kahraman\" ne demektir?",
+      "dogruCevap": "Olayı yaşayan kişi",
+      "secenekler": [
+        "Son cümle",
+        "Olayı yaşayan kişi",
+        "Metnin başlığı",
+        "Yazarın adı"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-kahraman",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "yth-t18",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede olayların belli sırayla verilmesine ne denir?",
+      "dogruCevap": "Olay örgüsü",
+      "secenekler": [
+        "Dize",
+        "Olay örgüsü",
+        "Başlık",
+        "Kafiye"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "olay-sirasi",
+        "nesne": "default"
+      }
+    },
+    {
+      "id": "yth-t19",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi hikâye metninin özelliğidir?",
+      "dogruCevap": "Kahraman, olay ve yer içerir",
+      "secenekler": [
+        "Kafiyelidir",
+        "Dizelerden oluşur",
+        "Kahraman, olay ve yer içerir",
+        "Sadece bilgi verir"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-ozellikleri",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "yth-t20",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede sonuç bölümü neyi anlatır?",
+      "dogruCevap": "Olayın nasıl bittiğini",
+      "secenekler": [
+        "Yalnızca zamanı",
+        "Kahramanın adını",
+        "Mekanın rengini",
+        "Olayın nasıl bittiğini"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-sonuc",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "yth-t21",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi hikâye başlığı olabilir?",
+      "dogruCevap": "Kayıp Uçurtma",
+      "secenekler": [
+        "Rüzgar Nedir?",
+        "Mevsimler",
+        "Çarpım Tablosu",
+        "Kayıp Uçurtma"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-kitabi",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "yth-t22",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede \"ana fikir\" neyi belirtir?",
+      "dogruCevap": "Metnin vermek istediği temel mesajı",
+      "secenekler": [
+        "Metnin vermek istediği temel mesajı",
+        "Metnin uzunluğunu",
+        "Sadece ilk cümleyi",
+        "Kahramanın boyunu"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Elif, dedesiyle göl kenarına yürüdü. Suyun üstünde ördekler sessizce süzülüyordu. Elif cebinden ekmek kırıntıları çıkarıp suya attı. Bir ördek yanlarına kadar geldi. Dedesi gülümseyip \"Sabırlı olursan doğa sana yaklaşır\" dedi. Elif eve dönerken göldeki yansımayı uzun süre düşündü.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "ana-fikir",
+        "nesne": "kitap"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "yth-t23",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyede zaman ifadesi hangisidir?",
+      "dogruCevap": "Ertesi sabah",
+      "secenekler": [
+        "Güzel bir gün",
+        "Ertesi sabah",
+        "Uçan ördek",
+        "Mavi göl"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "sabah-zamani",
+        "nesne": "gunes"
+      }
+    },
+    {
+      "id": "yth-t24",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdakilerden hangisi bir hikâyede çatışma oluşturur?",
+      "dogruCevap": "İpin kopup uçurtmanın kaybolması",
+      "secenekler": [
+        "Simitlerin sıcak olması",
+        "Ördeklerin yüzmesi",
+        "İpin kopup uçurtmanın kaybolması",
+        "Güneşin doğması"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Mert yeni uçurtmasını parkta uçuruyordu. Rüzgar birden hızlandı, ip koptu. Uçurtma ağaçların üstünden geçip gözden kayboldu. Mert üzülerek eve döndü. Ertesi sabah komşu teyze kapıyı çaldı; uçurtma bahçesine düşmüştü. Mert teşekkür edip uçurtmasına daha sıkı bir ip bağladı.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "catisma-anı",
+        "nesne": "cocuk"
+      }
+    },
+    {
+      "id": "yth-t25",
+      "kazanimKodu": "TUR.2.5.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bu üç metnin ortak özelliği nedir?",
+      "dogruCevap": "Hepsi bir olayı anlatan hikâyedir",
+      "secenekler": [
+        "Hepsi şiirdir",
+        "Hepsi bir olayı anlatan hikâyedir",
+        "Hepsi haber metnidir",
+        "Hepsi bilgi metnidir"
+      ],
+      "ipucu": "",
+      "okumaMetni": "Sena annesiyle sabah erkenden fırına gitti. Tezgahta sıcak simitler diziliydi. Fırıncı amca \"Bugün yardım eder misin?\" dedi. Sena poşetleri tuttu, simitleri saydı. Eve dönerken annesi \"Sorumluluk almak seni büyütür\" dedi. Sena kendini çok önemli hissetti.",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "sahne",
+        "sahne": "hikaye-turu",
+        "nesne": "kitap"
+      }
+    }
+  ]
+}
