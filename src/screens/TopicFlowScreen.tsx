@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
 import { kaydetSoruCevabi, tamamlaKonu } from '../services/progressStore';
@@ -10,6 +10,7 @@ import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { ExerciseScreenLayout } from '../components/ExerciseScreenContainer';
 import { VideoIzleButton } from '../components/VideoIzleButton';
 import { getKonuAnlatimVideo } from '../assets/videoCatalog';
 import { colors } from '../theme/colors';
@@ -34,7 +35,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        container: { padding: layout.spacing(20), paddingBottom: layout.spacing(40) },
+        container: {
+          padding: layout.spacing(20),
+        },
         kutu: { gap: layout.spacing(32) },
         etiket: {
           fontSize: layout.font.md,
@@ -78,9 +81,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
 
   if (!konu || !oturum) {
     return (
-      <View style={styles.container}>
+      <ExerciseScreenLayout contentContainerStyle={styles.container}>
         <Text style={styles.hata}>Konu bulunamadı.</Text>
-      </View>
+      </ExerciseScreenLayout>
     );
   }
 
@@ -160,11 +163,38 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     else if (adim.tip === 'test') sonrakiTest(testDogru);
   };
 
+  let bottomAction: { label: string; onPress: () => void } | null = null;
+  if (adim.tip === 'anlatim') {
+    bottomAction = {
+      label: adim.index < anlatimEkranlari.length - 1 ? 'Devam' : 'Alıştırmalara Geç',
+      onPress: sonrakiAnlatim,
+    };
+  } else if (adim.tip === 'alistirma' && cevapBekleniyor) {
+    bottomAction = {
+      label: adim.index < alistirmalar.length - 1 ? 'Sonraki Soru' : 'Teste Geç',
+      onPress: devamEt,
+    };
+  } else if (adim.tip === 'test' && cevapBekleniyor) {
+    bottomAction = {
+      label: adim.index < testler.length - 1 ? 'Sonraki Soru' : 'Sonuçları Gör',
+      onPress: devamEt,
+    };
+  } else if (adim.tip === 'sonuc') {
+    bottomAction = { label: 'Haritaya Dön', onPress: () => navigation.goBack() };
+  }
+
   const anlatimVideo =
     adim.tip === 'anlatim' ? getKonuAnlatimVideo(konuId, adim.index) : undefined;
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ExerciseScreenLayout
+      contentContainerStyle={styles.container}
+      bottomBar={
+        bottomAction ? (
+          <PrimaryButton label={bottomAction.label} onPress={bottomAction.onPress} />
+        ) : undefined
+      }
+    >
       {adim.tip === 'anlatim' && (
         <View style={styles.kutu}>
           <ElanazHeader />
@@ -175,10 +205,6 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           <Text style={styles.sayac}>
             {adim.index + 1} / {anlatimEkranlari.length}
           </Text>
-          <PrimaryButton
-            label={adim.index < anlatimEkranlari.length - 1 ? 'Devam' : 'Alıştırmalara Geç'}
-            onPress={sonrakiAnlatim}
-          />
         </View>
       )}
 
@@ -193,12 +219,6 @@ export function TopicFlowScreen({ route, navigation }: Props) {
             konuId={konuId}
             onAnswer={alistirmaCevap}
           />
-          {cevapBekleniyor && (
-            <PrimaryButton
-              label={adim.index < alistirmalar.length - 1 ? 'Sonraki Soru' : 'Teste Geç'}
-              onPress={devamEt}
-            />
-          )}
         </View>
       )}
 
@@ -213,12 +233,6 @@ export function TopicFlowScreen({ route, navigation }: Props) {
             konuId={konuId}
             onAnswer={testCevap}
           />
-          {cevapBekleniyor && (
-            <PrimaryButton
-              label={adim.index < testler.length - 1 ? 'Sonraki Soru' : 'Sonuçları Gör'}
-              onPress={devamEt}
-            />
-          )}
         </View>
       )}
 
@@ -238,10 +252,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
                   ? 'İyi başlangıç! Tekrar denemek her zaman faydalıdır.'
                   : 'Bu konuyu birlikte tekrar edebiliriz.'}
           </Text>
-          <PrimaryButton label="Haritaya Dön" onPress={() => navigation.goBack()} />
         </View>
       )}
-    </ScrollView>
+    </ExerciseScreenLayout>
   );
 }
 

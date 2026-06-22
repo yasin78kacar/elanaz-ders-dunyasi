@@ -1,10 +1,11 @@
 import { useLayoutEffect, useMemo, useState } from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getHikaye } from '../services/contentLoader';
 import { kaydetHikayeCevabi, tamamlaHikaye } from '../services/progressStore';
 import { TestQuestion } from '../components/TestQuestion';
 import { PrimaryButton } from '../components/PrimaryButton';
+import { ExerciseScreenLayout } from '../components/ExerciseScreenContainer';
 import { ContentIllustration } from '../components/ContentIllustration';
 import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
@@ -26,7 +27,9 @@ export function StoryFlowScreen({ route, navigation }: Props) {
   const styles = useMemo(
     () =>
       StyleSheet.create({
-        container: { padding: layout.spacing(20), paddingBottom: layout.spacing(40) },
+        container: {
+          padding: layout.spacing(20),
+        },
         kutu: { gap: layout.spacing(20) },
         etiket: {
           fontSize: layout.font.md,
@@ -57,9 +60,9 @@ export function StoryFlowScreen({ route, navigation }: Props) {
 
   if (!hikaye) {
     return (
-      <View style={styles.container}>
+      <ExerciseScreenLayout contentContainerStyle={styles.container}>
         <Text style={styles.hata}>Hikâye bulunamadı.</Text>
-      </View>
+      </ExerciseScreenLayout>
     );
   }
 
@@ -108,8 +111,30 @@ export function StoryFlowScreen({ route, navigation }: Props) {
     setCevapBekleniyor(true);
   };
 
+  let bottomAction: { label: string; onPress: () => void } | null = null;
+  if (adim.tip === 'okuma') {
+    bottomAction = {
+      label: adim.index < sayfalar.length - 1 ? 'Sonraki Sayfa' : 'Sorulara Geç',
+      onPress: sonrakiSayfa,
+    };
+  } else if (adim.tip === 'soru' && cevapBekleniyor) {
+    bottomAction = {
+      label: adim.index < sorular.length - 1 ? 'Sonraki Soru' : 'Sonuçları Gör',
+      onPress: () => sonrakiSoru(dogruSayisi),
+    };
+  } else if (adim.tip === 'sonuc') {
+    bottomAction = { label: 'Listeye Dön', onPress: () => navigation.goBack() };
+  }
+
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ExerciseScreenLayout
+      contentContainerStyle={styles.container}
+      bottomBar={
+        bottomAction ? (
+          <PrimaryButton label={bottomAction.label} onPress={bottomAction.onPress} />
+        ) : undefined
+      }
+    >
       {adim.tip === 'okuma' && (
         <View style={styles.kutu}>
           <Text style={styles.etiket}>Okuma Köşesi</Text>
@@ -118,10 +143,6 @@ export function StoryFlowScreen({ route, navigation }: Props) {
           <Text style={styles.sayac}>
             Sayfa {adim.index + 1} / {sayfalar.length}
           </Text>
-          <PrimaryButton
-            label={adim.index < sayfalar.length - 1 ? 'Sonraki Sayfa' : 'Sorulara Geç'}
-            onPress={sonrakiSayfa}
-          />
         </View>
       )}
 
@@ -136,12 +157,6 @@ export function StoryFlowScreen({ route, navigation }: Props) {
             konuId="okuma-kosesi"
             onAnswer={soruCevap}
           />
-          {cevapBekleniyor && (
-            <PrimaryButton
-              label={adim.index < sorular.length - 1 ? 'Sonraki Soru' : 'Sonuçları Gör'}
-              onPress={() => sonrakiSoru(dogruSayisi)}
-            />
-          )}
         </View>
       )}
 
@@ -152,10 +167,9 @@ export function StoryFlowScreen({ route, navigation }: Props) {
             {adim.dogru} / {adim.toplam} doğru
           </Text>
           <Text style={styles.yildizlar}>{'⭐'.repeat(adim.yildiz) || '—'}</Text>
-          <PrimaryButton label="Listeye Dön" onPress={() => navigation.goBack()} />
         </View>
       )}
-    </ScrollView>
+    </ExerciseScreenLayout>
   );
 }
 

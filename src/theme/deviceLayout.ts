@@ -101,6 +101,19 @@ export function deviceSpacing(width: number, base: number): number {
   return Math.round(base * SPACING_MULTIPLIER[getDeviceTier(width)]);
 }
 
+/** En büyük sabit boşluk token'ının taban piksel değeri. */
+const SPACING_XXXL_BASE = 120;
+
+export type SpacingFn = ((base: number) => number) & {
+  xxxl: number;
+};
+
+function buildSpacing(width: number): SpacingFn {
+  const fn = ((base: number) => deviceSpacing(width, base)) as SpacingFn;
+  fn.xxxl = deviceSpacing(width, SPACING_XXXL_BASE);
+  return fn;
+}
+
 export interface DeviceLayout {
   width: number;
   tier: DeviceTier;
@@ -109,7 +122,7 @@ export interface DeviceLayout {
   flowScale: number;
   buttonHeight: number;
   font: Typography;
-  spacing: (base: number) => number;
+  spacing: SpacingFn;
   flowSize: (base: number) => number;
   ikonSize: (base: number) => number;
   avatarSize: number;
@@ -121,7 +134,7 @@ export function buildDeviceLayout(width: number): DeviceLayout {
   const isTablet = tier !== 'phone';
   const flowScale = FLOW_SCALE[tier];
   const ikonMult = UI_IKON_MULTIPLIER[tier];
-  const spacing = (base: number) => deviceSpacing(width, base);
+  const spacing = buildSpacing(width);
 
   return {
     width,
