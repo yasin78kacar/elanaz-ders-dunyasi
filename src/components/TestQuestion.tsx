@@ -9,6 +9,7 @@ import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { AnswerButton } from './AnswerButton';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
+import { QuestionScreenLayout } from './ExerciseScreenContainer';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -66,7 +67,13 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
   };
 
   return (
-    <View style={q.container}>
+    <QuestionScreenLayout
+      footer={
+        durum === 'bekle' ? (
+          <PrimaryButton label="Cevabım Bu" onPress={onayla} disabled={!secim} />
+        ) : undefined
+      }
+    >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       {soru.okumaMetni ? <Text style={q.okumaMetni}>{soru.okumaMetni}</Text> : null}
@@ -98,9 +105,6 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
           );
         })}
       </View>
-      {durum === 'bekle' && (
-        <PrimaryButton label="Cevabım Bu" onPress={onayla} disabled={!secim} />
-      )}
       {durum === 'dogru' && (
         <QuestionFeedback
           variant="dogru"
@@ -117,6 +121,6 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </View>
+    </QuestionScreenLayout>
   );
 }

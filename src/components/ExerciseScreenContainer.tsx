@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import { colors } from '../theme/colors';
 import { flowButtonContainerStyle } from './FlowImage';
 
 interface ContainerProps {
@@ -22,6 +23,14 @@ export function ExerciseScreenContainer({ children }: ContainerProps) {
 interface LayoutProps {
   children: ReactNode;
   bottomBar?: ReactNode;
+  contentContainerStyle?: StyleProp<ViewStyle>;
+  /** false: içerik kendi ScrollView'unu yönetir (soru ekranları). */
+  scrollable?: boolean;
+}
+
+interface QuestionLayoutProps {
+  children: ReactNode;
+  footer?: ReactNode;
   contentContainerStyle?: StyleProp<ViewStyle>;
 }
 
@@ -38,11 +47,7 @@ export function exerciseScrollPadBottom(
  * Scroll içerik + altta mutlak konumlu buton alanı.
  * İçerik ScrollView içinde; aksiyon butonları sabit footer'da kalır.
  */
-export function ExerciseScreenLayout({
-  children,
-  bottomBar,
-  contentContainerStyle,
-}: LayoutProps) {
+function useExerciseFooterMetrics() {
   const insets = useSafeAreaInsets();
   const layout = useDeviceLayout();
 
@@ -66,6 +71,50 @@ export function ExerciseScreenLayout({
     [buttonMaxWidth, layout],
   );
 
+  return { footerStyle, scrollPadBottom, buttonContainerStyle };
+}
+
+function ExerciseFixedFooter({
+  bottomBar,
+  footerStyle,
+  buttonContainerStyle,
+}: {
+  bottomBar: ReactNode;
+  footerStyle: { paddingBottom: number; paddingHorizontal: number };
+  buttonContainerStyle: { maxWidth: number; gap: number };
+}) {
+  return (
+    <View style={[styles.fixedFooter, footerStyle]}>
+      <View style={[styles.buttonContainer, flowButtonContainerStyle, buttonContainerStyle]}>
+        {bottomBar}
+      </View>
+    </View>
+  );
+}
+
+export function ExerciseScreenLayout({
+  children,
+  bottomBar,
+  contentContainerStyle,
+  scrollable = true,
+}: LayoutProps) {
+  const { footerStyle, scrollPadBottom, buttonContainerStyle } = useExerciseFooterMetrics();
+
+  if (!scrollable) {
+    return (
+      <View style={styles.layout}>
+        <View style={[styles.nonScrollContent, contentContainerStyle]}>{children}</View>
+        {bottomBar ? (
+          <ExerciseFixedFooter
+            bottomBar={bottomBar}
+            footerStyle={footerStyle}
+            buttonContainerStyle={buttonContainerStyle}
+          />
+        ) : null}
+      </View>
+    );
+  }
+
   return (
     <View style={styles.layout}>
       <ScrollView
@@ -76,10 +125,49 @@ export function ExerciseScreenLayout({
         {children}
       </ScrollView>
       {bottomBar ? (
-        <View style={[styles.fixedFooter, footerStyle]}>
-          <View style={[styles.buttonContainer, flowButtonContainerStyle, buttonContainerStyle]}>
-            {bottomBar}
-          </View>
+        <ExerciseFixedFooter
+          bottomBar={bottomBar}
+          footerStyle={footerStyle}
+          buttonContainerStyle={buttonContainerStyle}
+        />
+      ) : null}
+    </View>
+  );
+}
+
+/**
+ * Soru bileşenleri: görsel + seçenekler ScrollView içinde;
+ * onay butonu altta sabit footer'da kalır.
+ */
+export function QuestionScreenLayout({
+  children,
+  footer,
+  contentContainerStyle,
+}: QuestionLayoutProps) {
+  const layout = useDeviceLayout();
+  const { footerStyle, scrollPadBottom, buttonContainerStyle } = useExerciseFooterMetrics();
+
+  return (
+    <View style={styles.questionLayout}>
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={[
+          { paddingBottom: scrollPadBottom, gap: layout.spacing(24) },
+          contentContainerStyle,
+        ]}
+        {...exerciseScrollViewProps}
+      >
+        {children}
+      </ScrollView>
+      {footer ? (
+        <View
+          style={[
+            styles.fixedFooter,
+            footerStyle,
+            { paddingTop: layout.spacing(10) },
+          ]}
+        >
+          <View style={[styles.buttonContainer, buttonContainerStyle]}>{footer}</View>
         </View>
       ) : null}
     </View>
@@ -105,6 +193,14 @@ const styles = StyleSheet.create({
     flex: 1,
     overflow: 'visible',
   },
+  nonScrollContent: {
+    flex: 1,
+    overflow: 'visible',
+  },
+  questionLayout: {
+    flex: 1,
+    overflow: 'visible',
+  },
   scrollView: {
     flex: 1,
   },
@@ -114,7 +210,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     paddingTop: 10,
-    backgroundColor: 'transparent',
+    backgroundColor: colors.kart,
     alignItems: 'center',
     zIndex: 999,
     overflow: 'visible',

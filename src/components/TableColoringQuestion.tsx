@@ -9,6 +9,7 @@ import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
+import { QuestionScreenLayout } from './ExerciseScreenContainer';
 
 const MAX_DENEME = 2;
 const SATIR_BOYUT = 10;
@@ -141,7 +142,13 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
   const kalanDeneme = MAX_DENEME - deneme;
 
   return (
-    <View style={q.container}>
+    <QuestionScreenLayout
+      footer={
+        durum === 'bekle' && !kilitli ? (
+          <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={boyali.size === 0} />
+        ) : undefined
+      }
+    >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
@@ -186,9 +193,6 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
           </View>
         ))}
       </View>
-      {durum === 'bekle' && !kilitli && (
-        <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={boyali.size === 0} />
-      )}
       {durum === 'dogru' && (
         <QuestionFeedback
           variant="dogru"
@@ -213,7 +217,7 @@ export function TableColoringQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </View>
+    </QuestionScreenLayout>
   );
 }
 

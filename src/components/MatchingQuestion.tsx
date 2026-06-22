@@ -10,6 +10,7 @@ import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { soruMetni } from '../utils/soruHelpers';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
+import { QuestionScreenLayout } from './ExerciseScreenContainer';
 
 const MAX_DENEME = 2;
 
@@ -161,7 +162,13 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   const kalanDeneme = MAX_DENEME - deneme;
 
   return (
-    <View style={q.container}>
+    <QuestionScreenLayout
+      footer={
+        durum === 'bekle' && !kilitli ? (
+          <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!tumEslesti} />
+        ) : undefined
+      }
+    >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>
@@ -224,9 +231,6 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
           ))}
         </View>
       </View>
-      {durum === 'bekle' && !kilitli && (
-        <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!tumEslesti} />
-      )}
       {durum === 'dogru' && (
         <QuestionFeedback
           variant="dogru"
@@ -251,7 +255,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </View>
+    </QuestionScreenLayout>
   );
 }
 

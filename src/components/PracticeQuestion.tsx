@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Platform, Text, TextInput, View } from 'react-native';
+import { Platform, Text, TextInput } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
@@ -7,6 +7,7 @@ import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 import { ContentIllustration } from './ContentIllustration';
+import { QuestionScreenLayout } from './ExerciseScreenContainer';
 import { soruMetni } from '../utils/soruHelpers';
 
 interface Props {
@@ -59,7 +60,13 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   };
 
   return (
-    <View style={q.container}>
+    <QuestionScreenLayout
+      footer={
+        durum === 'bekle' ? (
+          <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />
+        ) : undefined
+      }
+    >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       {soru.okumaMetni ? <Text style={q.okumaMetni}>{soru.okumaMetni}</Text> : null}
@@ -75,9 +82,6 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
         autoCorrect={false}
         {...(Platform.OS === 'android' ? { includeFontPadding: false } : {})}
       />
-      {durum === 'bekle' && (
-        <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />
-      )}
       {durum === 'dogru' && (
         <QuestionFeedback
           variant="dogru"
@@ -94,6 +98,6 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </View>
+    </QuestionScreenLayout>
   );
 }

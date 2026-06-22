@@ -31,6 +31,8 @@ export function StoryFlowScreen({ route, navigation }: Props) {
           padding: layout.spacing(20),
         },
         kutu: { gap: layout.spacing(20) },
+        soruKutu: { flex: 1 },
+        soruIcerik: { flex: 1 },
         etiket: {
           fontSize: layout.font.md,
           fontWeight: '700',
@@ -128,6 +130,7 @@ export function StoryFlowScreen({ route, navigation }: Props) {
 
   return (
     <ExerciseScreenLayout
+      scrollable={adim.tip !== 'soru'}
       contentContainerStyle={styles.container}
       bottomBar={
         bottomAction ? (
@@ -147,16 +150,18 @@ export function StoryFlowScreen({ route, navigation }: Props) {
       )}
 
       {adim.tip === 'soru' && (
-        <View style={styles.kutu}>
+        <View style={[styles.kutu, styles.soruKutu]}>
           <Text style={styles.etiket}>
             Anlama Sorusu {adim.index + 1} / {sorular.length}
           </Text>
-          <TestQuestion
-            key={sorular[adim.index].id}
-            soru={sorular[adim.index]}
-            konuId="okuma-kosesi"
-            onAnswer={soruCevap}
-          />
+          <View style={styles.soruIcerik}>
+            <TestQuestion
+              key={sorular[adim.index].id}
+              soru={sorular[adim.index]}
+              konuId="okuma-kosesi"
+              onAnswer={soruCevap}
+            />
+          </View>
         </View>
       )}
 

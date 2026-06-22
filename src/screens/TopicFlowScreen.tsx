@@ -39,6 +39,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           padding: layout.spacing(20),
         },
         kutu: { gap: layout.spacing(32) },
+        soruKutu: { flex: 1 },
+        soruIcerik: { flex: 1 },
         etiket: {
           fontSize: layout.font.md,
           fontWeight: '700',
@@ -186,8 +188,11 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const anlatimVideo =
     adim.tip === 'anlatim' ? getKonuAnlatimVideo(konuId, adim.index) : undefined;
 
+  const soruAdimi = adim.tip === 'alistirma' || adim.tip === 'test';
+
   return (
     <ExerciseScreenLayout
+      scrollable={!soruAdimi}
       contentContainerStyle={styles.container}
       bottomBar={
         bottomAction ? (
@@ -209,30 +214,34 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       )}
 
       {adim.tip === 'alistirma' && (
-        <View style={styles.kutu}>
+        <View style={[styles.kutu, styles.soruKutu]}>
           <Text style={styles.etiket}>
             Alıştırma {adim.index + 1} / {alistirmalar.length}
           </Text>
-          <PracticeQuestion
+          <View style={styles.soruIcerik}>
+            <PracticeQuestion
             key={alistirmalar[adim.index].id}
             soru={alistirmalar[adim.index]}
             konuId={konuId}
             onAnswer={alistirmaCevap}
           />
+          </View>
         </View>
       )}
 
       {adim.tip === 'test' && (
-        <View style={styles.kutu}>
+        <View style={[styles.kutu, styles.soruKutu]}>
           <Text style={styles.etiket}>
             Test {adim.index + 1} / {testler.length}
           </Text>
-          <SessionQuestion
+          <View style={styles.soruIcerik}>
+            <SessionQuestion
             key={testler[adim.index].id}
             soru={testler[adim.index]}
             konuId={konuId}
             onAnswer={testCevap}
           />
+          </View>
         </View>
       )}
 
