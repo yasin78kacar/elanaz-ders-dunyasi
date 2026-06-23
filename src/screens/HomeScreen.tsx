@@ -145,8 +145,8 @@ export function HomeScreen({ navigation }: Props) {
       <ScrollView contentContainerStyle={styles.scroll}>
         <ElanazHeader>
           <GamificationBar />
-          <StatsDisplay compact />
-          <BadgeShowcase compact />
+          <StatsDisplay />
+          <BadgeShowcase />
           <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
           <ThemeToggle />
           {offline?.hazir ? (

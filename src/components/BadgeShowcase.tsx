@@ -1,5 +1,5 @@
-import { useMemo } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { useEffect, useMemo, useRef } from 'react';
+import { Animated, StyleSheet, Text, View } from 'react-native';
 import { useGamification } from '../contexts/GamificationContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
@@ -7,6 +7,60 @@ import { BADGES } from '../types/gamification';
 
 interface Props {
   compact?: boolean;
+}
+
+function BadgeKart({
+  kazanildi,
+  badge,
+  compact,
+  styles,
+}: {
+  kazanildi: boolean;
+  badge: (typeof BADGES)[number];
+  compact: boolean;
+  styles: ReturnType<typeof StyleSheet.create>;
+}) {
+  const scale = useRef(new Animated.Value(kazanildi ? 1 : 1)).current;
+  const glow = useRef(new Animated.Value(0)).current;
+
+  useEffect(() => {
+    if (!kazanildi) return;
+    const pulse = Animated.loop(
+      Animated.sequence([
+        Animated.parallel([
+          Animated.timing(scale, { toValue: 1.06, duration: 900, useNativeDriver: true }),
+          Animated.timing(glow, { toValue: 1, duration: 900, useNativeDriver: true }),
+        ]),
+        Animated.parallel([
+          Animated.timing(scale, { toValue: 1, duration: 900, useNativeDriver: true }),
+          Animated.timing(glow, { toValue: 0, duration: 900, useNativeDriver: true }),
+        ]),
+      ]),
+    );
+    pulse.start();
+    return () => pulse.stop();
+  }, [kazanildi, scale, glow]);
+
+  const kart = (
+    <Animated.View
+      style={[
+        styles.kart,
+        !kazanildi && styles.kartKilitli,
+        kazanildi && {
+          transform: [{ scale }],
+          shadowOpacity: glow.interpolate({ inputRange: [0, 1], outputRange: [0.15, 0.45] }),
+          shadowRadius: glow.interpolate({ inputRange: [0, 1], outputRange: [4, 12] }),
+        },
+      ]}
+    >
+      <Text style={styles.emoji}>{badge.emoji}</Text>
+      <Text style={styles.ad}>{badge.baslik}</Text>
+      {!compact ? <Text style={styles.aciklama}>{badge.aciklama}</Text> : null}
+      {kazanildi ? <Text style={styles.kilitAcildi}>✓</Text> : <Text style={styles.kilit}>🔒</Text>}
+    </Animated.View>
+  );
+
+  return kart;
 }
 
 export function BadgeShowcase({ compact = false }: Props) {
@@ -54,6 +108,9 @@ export function BadgeShowcase({ compact = false }: Props) {
           borderColor: colors.birincil,
           alignItems: 'center',
           gap: layout.spacing(4),
+          shadowColor: colors.birincil,
+          shadowOffset: { width: 0, height: 2 },
+          elevation: 3,
         },
         kartKilitli: {
           backgroundColor: colors.kart,
@@ -73,6 +130,16 @@ export function BadgeShowcase({ compact = false }: Props) {
           textAlign: 'center',
           lineHeight: layout.spacing(18),
         },
+        kilit: {
+          fontSize: layout.font.sm,
+          marginTop: layout.spacing(2),
+        },
+        kilitAcildi: {
+          fontSize: layout.font.sm,
+          fontWeight: '700',
+          color: colors.basari,
+          marginTop: layout.spacing(2),
+        },
       }),
     [layout, colors, compact, gap, pad, kartGenislik],
   );
@@ -86,16 +153,15 @@ export function BadgeShowcase({ compact = false }: Props) {
         {kazanilanSayisi}/{BADGES.length} rozet kazanıldı
       </Text>
       <View style={styles.grid}>
-        {BADGES.map((badge) => {
-          const kazanildi = kazanilanRozetler.includes(badge.id);
-          return (
-            <View key={badge.id} style={[styles.kart, !kazanildi && styles.kartKilitli]}>
-              <Text style={styles.emoji}>{badge.emoji}</Text>
-              <Text style={styles.ad}>{badge.baslik}</Text>
-              {!compact ? <Text style={styles.aciklama}>{badge.aciklama}</Text> : null}
-            </View>
-          );
-        })}
+        {BADGES.map((badge) => (
+          <BadgeKart
+            key={badge.id}
+            badge={badge}
+            kazanildi={kazanilanRozetler.includes(badge.id)}
+            compact={compact}
+            styles={styles}
+          />
+        ))}
       </View>
     </View>
   );

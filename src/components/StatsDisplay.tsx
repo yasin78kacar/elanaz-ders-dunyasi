@@ -5,7 +5,7 @@ import { ProgressService, type GenelIstatistikler } from '../services/ProgressSe
 import { useGamification } from '../contexts/GamificationContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { POINTS_PER_LEVEL } from '../types/gamification';
+import { POINTS_PER_LEVEL, BADGES } from '../types/gamification';
 import { sureMetni } from '../utils/sureMetni';
 
 interface Props {
@@ -14,7 +14,7 @@ interface Props {
 
 export function StatsDisplay({ compact = false }: Props) {
   const [istatistik, setIstatistik] = useState<GenelIstatistikler | null>(null);
-  const { points, level, levelBaslik } = useGamification();
+  const { points, level, levelBaslik, kazanilanRozetler } = useGamification();
   const { colors } = useTheme();
   const layout = useDeviceLayout();
 
@@ -101,6 +101,29 @@ export function StatsDisplay({ compact = false }: Props) {
           color: colors.metin,
           paddingLeft: layout.spacing(4),
         },
+        rozetSatir: {
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          gap: layout.spacing(6),
+          marginTop: layout.spacing(4),
+        },
+        rozetChip: {
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: layout.spacing(4),
+          backgroundColor: colors.birincilAcik,
+          borderRadius: layout.spacing(8),
+          paddingVertical: layout.spacing(4),
+          paddingHorizontal: layout.spacing(8),
+          borderWidth: 1,
+          borderColor: colors.birincil,
+        },
+        rozetEmoji: { fontSize: layout.font.md },
+        rozetAd: {
+          fontSize: layout.font.sm,
+          fontWeight: '600',
+          color: colors.baslik,
+        },
       }),
     [layout, colors, compact],
   );
@@ -126,6 +149,19 @@ export function StatsDisplay({ compact = false }: Props) {
       <Text style={styles.seviyeSatir}>
         Sonraki seviye: {sonrakiSeviyePuan} puan ({seviyeIlerleme}%)
       </Text>
+      <Text style={styles.seviyeSatir}>
+        Rozetler: {kazanilanRozetler.length}/{BADGES.length}
+      </Text>
+      {kazanilanRozetler.length > 0 ? (
+        <View style={styles.rozetSatir}>
+          {BADGES.filter((b) => kazanilanRozetler.includes(b.id)).map((b) => (
+            <View key={b.id} style={styles.rozetChip}>
+              <Text style={styles.rozetEmoji}>{b.emoji}</Text>
+              <Text style={styles.rozetAd}>{b.baslik}</Text>
+            </View>
+          ))}
+        </View>
+      ) : null}
       <View style={styles.satirlar}>
         {hucreler.map((h) => (
           <View key={h.etiket} style={styles.hucre}>

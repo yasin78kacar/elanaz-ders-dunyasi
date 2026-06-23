@@ -161,3 +161,7 @@ export async function getTumSoruKayitlari(): Promise<SoruKaydi[]> {
   const hikayeKayitlari = Object.values(data.hikayeler).flatMap((h) => h.sorular);
   return [...konuKayitlari, ...hikayeKayitlari];
 }
+
+export async function clearProgress(): Promise<void> {
+  await AsyncStorage.removeItem(STORAGE_KEY);
+}

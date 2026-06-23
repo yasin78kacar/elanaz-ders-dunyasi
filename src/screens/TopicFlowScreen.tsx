@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
-import { kaydetSoruCevabi, tamamlaKonu } from '../services/progressStore';
+import { kaydetSoruCevabi } from '../services/progressStore';
+import { ProgressService } from '../services/ProgressService';
 import { oturumSorulariSec } from '../services/sessionPicker';
 import {
   getAdaptiveDifficulty,
@@ -142,7 +143,12 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       setCevapBekleniyor(false);
     } else {
       const sureSaniye = Math.max(1, Math.round((Date.now() - baslangicRef.current) / 1000));
-      const ilerleme = await tamamlaKonu(dersId, konuId, dogru, testler.length, sureSaniye);
+      const ilerleme = await ProgressService.saveProgress(
+        `${dersId}:${konuId}`,
+        dogru,
+        testler.length,
+        sureSaniye,
+      );
       await recordTopicComplete(ilerleme.yildiz);
       setAdim({
         tip: 'sonuc',

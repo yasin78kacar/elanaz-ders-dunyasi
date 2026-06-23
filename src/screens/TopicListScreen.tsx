@@ -16,6 +16,7 @@ import {
 import type { DifficultyLevel } from '../types/difficulty';
 import { DifficultySelector } from '../components/DifficultySelector';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { GamificationBar } from '../components/GamificationBar';
 import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
@@ -188,7 +189,9 @@ export function TopicListScreen({ route, navigation }: Props) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <ElanazHeader />
+      <ElanazHeader>
+        <GamificationBar />
+      </ElanazHeader>
       <DifficultySelector
         value={zorluk}
         onChange={zorlukDegistir}

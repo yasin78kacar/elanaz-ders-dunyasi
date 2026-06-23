@@ -170,3 +170,6 @@ export function useGamification(): GamificationContextValue {
   if (!ctx) throw new Error('useGamification GamificationProvider içinde kullanılmalı');
   return ctx;
 }
+
+/** Typo-tolerant alias — spec: useGameification */
+export const useGameification = useGamification;

@@ -1,5 +1,6 @@
 import type { SoruKaydi, KonuIlerleme, HikayeIlerleme } from '../types/progress';
 import {
+  clearProgress as clearStoredProgress,
   getTumIlerleme,
   getTumSoruKayitlari,
   kaydetSoruCevabi,
@@ -163,6 +164,35 @@ export const ProgressService = {
     }
 
     return oneriler.slice(0, 3);
+  },
+
+  /** lessonId format: `dersId:konuId` */
+  async saveProgress(
+    lessonId: string,
+    correct: number,
+    total: number,
+    timeSpent: number,
+  ): Promise<KonuIlerleme> {
+    const sep = lessonId.indexOf(':');
+    if (sep < 0) {
+      throw new Error('saveProgress lessonId "dersId:konuId" formatında olmalı');
+    }
+    const dersId = lessonId.slice(0, sep);
+    const konuId = lessonId.slice(sep + 1);
+    return tamamlaKonu(dersId, konuId, correct, total, timeSpent);
+  },
+
+  async getProgress(subject: string): Promise<DersIlerlemeDetay | null> {
+    const detaylar = await this.getDersDetaylari();
+    return detaylar.find((d) => d.dersId === subject) ?? null;
+  },
+
+  async getStatistics(): Promise<GenelIstatistikler> {
+    return this.getGenelIstatistikler();
+  },
+
+  async clearProgress(): Promise<void> {
+    await clearStoredProgress();
   },
 
   async getGenelIstatistikler(): Promise<GenelIstatistikler> {

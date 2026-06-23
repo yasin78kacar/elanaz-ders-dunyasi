@@ -21,10 +21,10 @@ export const BADGES: Badge[] = [
   { id: 'ilk_adim', baslik: 'First Steps', aciklama: 'İlk doğru cevabını verdin!', emoji: '🌱' },
   { id: 'on_soru', baslik: 'Sharpshooter', aciklama: '10 doğru cevap topladın.', emoji: '🎯' },
   { id: 'elli_soru', baslik: 'On Fire', aciklama: '50 doğru cevap topladın.', emoji: '🔥' },
-  { id: 'bir_yildiz', baslik: 'Rising Star', aciklama: 'İlk konunda yıldız kazandın.', emoji: '⭐' },
-  { id: 'uc_yildiz', baslik: 'Star Champion', aciklama: 'Bir konuda 3 yıldız aldın.', emoji: '🌟' },
-  { id: 'bes_konu', baslik: 'Explorer', aciklama: '5 konuyu tamamladın.', emoji: '🧭' },
-  { id: 'hikaye_ustasi', baslik: 'Story Master', aciklama: '3 hikâyeyi tamamladın.', emoji: '📖' },
+  { id: 'bir_yildiz', baslik: 'Brain Master', aciklama: 'İlk konunda yıldız kazandın.', emoji: '🧠' },
+  { id: 'uc_yildiz', baslik: 'Puzzle Solver', aciklama: 'Bir konuda 3 yıldız aldın.', emoji: '🧩' },
+  { id: 'bes_konu', baslik: 'Bookworm', aciklama: '5 konuyu tamamladın.', emoji: '📚' },
+  { id: 'hikaye_ustasi', baslik: 'Artist', aciklama: '3 hikâyeyi tamamladın.', emoji: '🎨' },
 ];
 
 export interface GamificationState {
