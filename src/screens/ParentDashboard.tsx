@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
-import { ProgressService, type DersIlerlemeDetay, type Oneri } from '../services/ProgressService';
+import { getDersDetaylari, getOneriler, type DersIlerlemeDetay, type Oneri } from '../services/ProgressService';
 import { OfflineManager, type OfflineDurum } from '../services/OfflineManager';
 import { useGamification } from '../contexts/GamificationContext';
 import { useTheme } from '../contexts/ThemeContext';
@@ -108,8 +108,8 @@ export function ParentDashboard() {
 
   useFocusEffect(
     useCallback(() => {
-      ProgressService.getDersDetaylari().then(setDetaylar);
-      ProgressService.getOneriler().then(setOneriler);
+      getDersDetaylari().then(setDetaylar);
+      getOneriler().then(setOneriler);
       OfflineManager.getDurum().then(setOffline);
     }, []),
   );
