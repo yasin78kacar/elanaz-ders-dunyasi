@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { Text, View, type ViewStyle } from 'react-native';
 import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
 import { VideoPlayer } from './VideoPlayer';
@@ -23,7 +24,7 @@ interface YanlisProps {
 
 type Props = DogruProps | YanlisProps;
 
-export function QuestionFeedback(props: Props) {
+export const QuestionFeedback = memo(function QuestionFeedback(props: Props) {
   const { baslik, metin, styles: q } = props;
   const videoKey = props.variant === 'dogru' ? SISTEM_VIDEOLARI.dogru : SISTEM_VIDEOLARI.yanlis;
   const kutu = props.variant === 'dogru' ? q.feedbackDogru : q.feedbackYanlis;
@@ -36,10 +37,10 @@ export function QuestionFeedback(props: Props) {
       <Text style={q.feedbackMetin}>{metin}</Text>
     </View>
   );
-}
+});
 
 /** Şaşırtma sorusu başında uyarı videosu */
-export function SasirtmaUyariVideo() {
+export const SasirtmaUyariVideo = memo(function SasirtmaUyariVideo() {
   return (
     <VideoPlayer
       source={getVideoSource(SISTEM_VIDEOLARI.sasirtma)}
@@ -48,4 +49,4 @@ export function SasirtmaUyariVideo() {
       showControls={false}
     />
   );
-}
+});

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { memo, useCallback, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
@@ -26,7 +26,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function TestQuestion({ soru, konuId, onAnswer }: Props) {
+export const TestQuestion = memo(function TestQuestion({ soru, konuId, onAnswer }: Props) {
   const [secim, setSecim] = useState<string | null>(null);
   const [degisiklikSayisi, setDegisiklikSayisi] = useState(0);
   const [kilitli, setKilitli] = useState(false);
@@ -47,24 +47,27 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
 
   const kalanHak = MAX_DEGISIKLIK - degisiklikSayisi;
 
-  const secimYap = (secenek: string) => {
-    if (kilitli || durum !== 'bekle') return;
-    if (secim === secenek) return;
-    if (secim !== null) {
-      const yeniSayi = degisiklikSayisi + 1;
-      setDegisiklikSayisi(yeniSayi);
-      if (yeniSayi >= MAX_DEGISIKLIK) setKilitli(true);
-    }
-    setSecim(secenek);
-  };
+  const secimYap = useCallback(
+    (secenek: string) => {
+      if (kilitli || durum !== 'bekle') return;
+      if (secim === secenek) return;
+      if (secim !== null) {
+        const yeniSayi = degisiklikSayisi + 1;
+        setDegisiklikSayisi(yeniSayi);
+        if (yeniSayi >= MAX_DEGISIKLIK) setKilitli(true);
+      }
+      setSecim(secenek);
+    },
+    [kilitli, durum, secim, degisiklikSayisi],
+  );
 
-  const onayla = () => {
+  const onayla = useCallback(() => {
     if (!secim) return;
     const dogruMu = secim === soru.dogruCevap;
     setDurum(dogruMu ? 'dogru' : 'yanlis');
     setKilitli(true);
     onAnswer(secim, dogruMu);
-  };
+  }, [secim, soru.dogruCevap, onAnswer]);
 
   return (
     <QuestionScreen
@@ -123,4 +126,4 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
       )}
     </QuestionScreen>
   );
-}
+});

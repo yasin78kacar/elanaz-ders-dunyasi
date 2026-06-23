@@ -1,6 +1,11 @@
-import { useMemo, useState, type ReactNode } from 'react';
+import { memo, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Image, StyleSheet, type ImageStyle, type StyleProp, View } from 'react-native';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
+import {
+  bundledImageProps,
+  optimizeImageStyle,
+  prefetchImage,
+} from '../utils/imageOptimizer';
 
 /** Metro require() doğrulama — elanaz.jpeg doğrudan yükleme testi */
 export const FLOW_TEST_ELanaz = require('../../assets/images/A_cute_Turkish_girl_named_202606120924.jpeg');
@@ -11,16 +16,24 @@ interface Props {
   onError?: () => void;
 }
 
-export function FlowImage({ source, style, onError }: Props) {
+function FlowImageBase({ source, style, onError }: Props) {
   const layout = useDeviceLayout();
+
   const gorselStyle = useMemo(() => {
     const yatayBosluk = layout.spacing(40);
     const maxW = Math.min(layout.flowSize(340), layout.width - yatayBosluk);
-    return {
-      maxWidth: maxW,
-      height: layout.gorselBoyut.buyuk,
-    };
+    return optimizeImageStyle(
+      {
+        maxWidth: maxW,
+        height: layout.gorselBoyut.buyuk,
+      },
+      { maxWidth: maxW, maxHeight: layout.gorselBoyut.buyuk },
+    );
   }, [layout]);
+
+  useEffect(() => {
+    prefetchImage(source).catch(() => undefined);
+  }, [source]);
 
   return (
     <View style={styles.sarmal}>
@@ -30,10 +43,13 @@ export function FlowImage({ source, style, onError }: Props) {
         resizeMode="contain"
         accessibilityRole="image"
         onError={onError}
+        {...bundledImageProps}
       />
     </View>
   );
 }
+
+export const FlowImage = memo(FlowImageBase);
 
 /** Kaynak varsa Flow görseli; hata veya yüklenemezse SVG yedek. transform KULLANMA — Android Image kırılır. */
 export function FlowOrFallback({

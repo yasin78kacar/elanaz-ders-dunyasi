@@ -1,4 +1,4 @@
-import { useMemo, type ReactNode } from 'react';
+import { memo, useMemo, type ReactNode } from 'react';
 import {
   ScrollView,
   StyleProp,
@@ -28,12 +28,6 @@ interface LayoutProps {
   scrollable?: boolean;
 }
 
-interface QuestionLayoutProps {
-  children: ReactNode;
-  footer?: ReactNode;
-  contentContainerStyle?: StyleProp<ViewStyle>;
-}
-
 /** Scroll alt boşluğu — sabit footer + güvenli alan için yeterli padding. */
 export function exerciseScrollPadBottom(
   layout: ReturnType<typeof useDeviceLayout>,
@@ -47,7 +41,7 @@ export function exerciseScrollPadBottom(
  * Scroll içerik + altta mutlak konumlu buton alanı.
  * İçerik ScrollView içinde; aksiyon butonları sabit footer'da kalır.
  */
-function useExerciseFooterMetrics() {
+export function useExerciseFooterMetrics() {
   const insets = useSafeAreaInsets();
   const layout = useDeviceLayout();
 
@@ -74,7 +68,7 @@ function useExerciseFooterMetrics() {
   return { footerStyle, scrollPadBottom, buttonContainerStyle };
 }
 
-function ExerciseFixedFooter({
+const ExerciseFixedFooter = memo(function ExerciseFixedFooter({
   bottomBar,
   footerStyle,
   buttonContainerStyle,
@@ -90,9 +84,9 @@ function ExerciseFixedFooter({
       </View>
     </View>
   );
-}
+});
 
-export function ExerciseScreenLayout({
+function ExerciseScreenLayoutBase({
   children,
   bottomBar,
   contentContainerStyle,
@@ -120,6 +114,7 @@ export function ExerciseScreenLayout({
       <ScrollView
         style={styles.scrollView}
         contentContainerStyle={[{ paddingBottom: scrollPadBottom }, contentContainerStyle]}
+        removeClippedSubviews
         {...exerciseScrollViewProps}
       >
         {children}
@@ -135,44 +130,7 @@ export function ExerciseScreenLayout({
   );
 }
 
-/**
- * Soru bileşenleri: görsel + seçenekler ScrollView içinde;
- * onay butonu altta sabit footer'da kalır.
- */
-export function QuestionScreenLayout({
-  children,
-  footer,
-  contentContainerStyle,
-}: QuestionLayoutProps) {
-  const layout = useDeviceLayout();
-  const { footerStyle, scrollPadBottom, buttonContainerStyle } = useExerciseFooterMetrics();
-
-  return (
-    <View style={styles.questionLayout}>
-      <ScrollView
-        style={styles.scrollView}
-        contentContainerStyle={[
-          { paddingBottom: scrollPadBottom, gap: layout.spacing(24) },
-          contentContainerStyle,
-        ]}
-        {...exerciseScrollViewProps}
-      >
-        {children}
-      </ScrollView>
-      {footer ? (
-        <View
-          style={[
-            styles.fixedFooter,
-            footerStyle,
-            { paddingTop: layout.spacing(10) },
-          ]}
-        >
-          <View style={[styles.buttonContainer, buttonContainerStyle]}>{footer}</View>
-        </View>
-      ) : null}
-    </View>
-  );
-}
+export const ExerciseScreenLayout = memo(ExerciseScreenLayoutBase);
 
 export const exerciseScrollViewProps = {
   bounces: false as const,
@@ -194,10 +152,6 @@ const styles = StyleSheet.create({
     overflow: 'visible',
   },
   nonScrollContent: {
-    flex: 1,
-    overflow: 'visible',
-  },
-  questionLayout: {
     flex: 1,
     overflow: 'visible',
   },

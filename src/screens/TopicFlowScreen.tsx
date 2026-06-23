@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
@@ -26,6 +26,8 @@ import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
 import type { DifficultyLevel } from '../types/difficulty';
 import { DIFFICULTY_POINT_MULTIPLIER } from '../types/difficulty';
+import { useLazyLoad } from '../hooks/useLazyLoad';
+import { clearImageCache } from '../utils/imageOptimizer';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TopicFlow'>;
 
@@ -41,8 +43,19 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const { colors } = useTheme();
   const { recordCorrectAnswer, recordTopicComplete } = useGamification();
   const konu = getKonu(dersId, konuId);
+  const alistirmaKaynak = konu?.alistirma ?? [];
+  const testKaynak = konu?.test ?? [];
+  const anlatimKaynak = konu?.anlatim?.ekranlar ?? [];
+
+  const alistirmaLazy = useLazyLoad(alistirmaKaynak);
+  const testLazy = useLazyLoad(testKaynak);
+  const anlatimLazy = useLazyLoad(anlatimKaynak);
+
   const [sessionSize, setSessionSize] = useState(5);
   const [zorluk, setZorluk] = useState<DifficultyLevel>('medium');
+  const [adim, setAdim] = useState<Adim>({ tip: 'anlatim', index: 0 });
+  const [testDogru, setTestDogru] = useState(0);
+  const [cevapBekleniyor, setCevapBekleniyor] = useState(false);
   const baslangicRef = useRef(Date.now());
 
   useEffect(() => {
@@ -81,42 +94,48 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     [layout, colors],
   );
 
+  useEffect(() => {
+    return () => {
+      clearImageCache();
+    };
+  }, [dersId, konuId]);
+
+  useEffect(() => {
+    if (adim.tip === 'anlatim') {
+      anlatimLazy.ensureIndexLoaded(adim.index);
+    } else if (adim.tip === 'alistirma') {
+      alistirmaLazy.ensureIndexLoaded(adim.index);
+      if (!alistirmaLazy.isFullyLoaded) alistirmaLazy.loadAll();
+    } else if (adim.tip === 'test') {
+      testLazy.ensureIndexLoaded(adim.index);
+      if (!testLazy.isFullyLoaded) testLazy.loadAll();
+    }
+  }, [adim, anlatimLazy, alistirmaLazy, testLazy]);
+
   const oturum = useMemo(() => {
     if (!konu) return null;
+    const alistirmaHavuzu = alistirmaLazy.isFullyLoaded ? alistirmaKaynak : alistirmaLazy.items;
+    const testHavuzu = testLazy.isFullyLoaded ? testKaynak : testLazy.items;
     return {
-      alistirmalar: oturumSorulariSec(konu.alistirma, sessionSize, zorluk),
-      testler: oturumSorulariSec(konu.test, sessionSize, zorluk),
+      alistirmalar: oturumSorulariSec(alistirmaHavuzu, sessionSize, zorluk),
+      testler: oturumSorulariSec(testHavuzu, sessionSize, zorluk),
     };
-  }, [konu, sessionSize, zorluk]);
+  }, [konu, alistirmaKaynak, testKaynak, alistirmaLazy.isFullyLoaded, alistirmaLazy.items, testLazy.isFullyLoaded, testLazy.items, sessionSize, zorluk]);
 
-  const [adim, setAdim] = useState<Adim>({ tip: 'anlatim', index: 0 });
-  const [testDogru, setTestDogru] = useState(0);
-  const [cevapBekleniyor, setCevapBekleniyor] = useState(false);
+  const alistirmalar: Soru[] = oturum?.alistirmalar ?? [];
+  const testler: Soru[] = oturum?.testler ?? [];
+  const anlatimEkranlari = anlatimKaynak;
 
-  useKonuMuzikHeader(navigation, { title: konuBaslik });
-
-  if (!konu || !oturum) {
-    return (
-      <ExerciseScreenLayout contentContainerStyle={styles.container}>
-        <Text style={styles.hata}>Konu bulunamadı.</Text>
-      </ExerciseScreenLayout>
-    );
-  }
-
-  const anlatimEkranlari = konu.anlatim.ekranlar;
-  const alistirmalar: Soru[] = oturum.alistirmalar;
-  const testler: Soru[] = oturum.testler;
-
-  const sonrakiAnlatim = () => {
+  const sonrakiAnlatim = useCallback(() => {
     if (adim.tip !== 'anlatim') return;
-    if (adim.index < anlatimEkranlari.length - 1) {
+    if (adim.index < anlatimKaynak.length - 1) {
       setAdim({ tip: 'anlatim', index: adim.index + 1 });
     } else {
       setAdim({ tip: 'alistirma', index: 0 });
     }
-  };
+  }, [adim, anlatimKaynak.length]);
 
-  const sonrakiAlistirma = () => {
+  const sonrakiAlistirma = useCallback(() => {
     if (adim.tip !== 'alistirma') return;
     if (adim.index < alistirmalar.length - 1) {
       setAdim({ tip: 'alistirma', index: adim.index + 1 });
@@ -126,9 +145,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       setCevapBekleniyor(false);
       setTestDogru(0);
     }
-  };
+  }, [adim, alistirmalar.length]);
 
-  const sonrakiTest = async (dogru: number) => {
+  const sonrakiTest = useCallback(async (dogru: number) => {
     if (adim.tip !== 'test') return;
     if (adim.index < testler.length - 1) {
       setAdim({ tip: 'test', index: adim.index + 1 });
@@ -149,9 +168,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
         toplam: testler.length,
       });
     }
-  };
+  }, [adim, testler.length, dersId, konuId, recordTopicComplete]);
 
-  const alistirmaCevap = async (cevap: string, dogruMu: boolean) => {
+  const alistirmaCevap = useCallback(async (cevap: string, dogruMu: boolean) => {
     const soru = alistirmalar[adim.tip === 'alistirma' ? adim.index : 0];
     await kaydetSoruCevabi(dersId, konuId, {
       soruId: soru.id,
@@ -165,9 +184,9 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     if (dogruMu) await recordCorrectAnswer(DIFFICULTY_POINT_MULTIPLIER[zorluk]);
     await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
-  };
+  }, [adim, alistirmalar, dersId, konuId, zorluk, recordCorrectAnswer]);
 
-  const testCevap = async (cevap: string, dogruMu: boolean) => {
+  const testCevap = useCallback(async (cevap: string, dogruMu: boolean) => {
     if (adim.tip !== 'test') return;
     const soru = testler[adim.index];
     if (dogruMu) setTestDogru((n) => n + 1);
@@ -183,12 +202,22 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     if (dogruMu) await recordCorrectAnswer(DIFFICULTY_POINT_MULTIPLIER[zorluk]);
     await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
-  };
+  }, [adim, testler, dersId, konuId, recordCorrectAnswer]);
 
-  const devamEt = () => {
+  const devamEt = useCallback(() => {
     if (adim.tip === 'alistirma') sonrakiAlistirma();
     else if (adim.tip === 'test') sonrakiTest(testDogru);
-  };
+  }, [adim, sonrakiAlistirma, sonrakiTest, testDogru]);
+
+  useKonuMuzikHeader(navigation, { title: konuBaslik });
+
+  if (!konu || !oturum) {
+    return (
+      <ExerciseScreenLayout contentContainerStyle={styles.container}>
+        <Text style={styles.hata}>Konu bulunamadı.</Text>
+      </ExerciseScreenLayout>
+    );
+  }
 
   let bottomAction: { label: string; onPress: () => void } | null = null;
   if (adim.tip === 'anlatim') {
@@ -225,6 +254,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       {adim.tip === 'anlatim' && (
         <LessonView
           ekran={anlatimEkranlari[adim.index]}
+          ekranlar={anlatimEkranlari}
           konuId={konuId}
           index={adim.index}
           toplam={anlatimEkranlari.length}

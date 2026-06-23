@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import type { Soru } from '../types/content';
 import { TestQuestion } from './TestQuestion';
 import { MatchingQuestion } from './MatchingQuestion';
@@ -9,7 +10,7 @@ interface Props {
   onAnswer: (cevap: string, dogruMu: boolean) => void;
 }
 
-export function SessionQuestion({ soru, konuId, onAnswer }: Props) {
+export const SessionQuestion = memo(function SessionQuestion({ soru, konuId, onAnswer }: Props) {
   if (soru.tip === 'eslestirme') {
     return <MatchingQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
   }
@@ -17,4 +18,4 @@ export function SessionQuestion({ soru, konuId, onAnswer }: Props) {
     return <TableColoringQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
   }
   return <TestQuestion soru={soru} konuId={konuId} onAnswer={onAnswer} />;
-}
+});

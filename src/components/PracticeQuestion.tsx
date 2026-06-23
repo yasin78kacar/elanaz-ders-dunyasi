@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { memo, useCallback, useMemo, useState } from 'react';
 import { Platform, Text, TextInput } from 'react-native';
 import type { Soru } from '../types/content';
 import { colors } from '../theme/colors';
@@ -27,7 +27,7 @@ function yanlisMesaj(soru: Soru): string {
   return soru.ipucu;
 }
 
-export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
+export const PracticeQuestion = memo(function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   const [cevap, setCevap] = useState('');
   const [durum, setDurum] = useState<'bekle' | 'dogru' | 'yanlis'>('bekle');
   const layout = useDeviceLayout();
@@ -49,7 +49,7 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
     [layout],
   );
 
-  const kontrolEt = () => {
+  const kontrolEt = useCallback(() => {
     const normalize = normalizeCevap(cevap);
     const kabul = [soru.dogruCevap, ...(soru.alternatifCevaplar ?? [])]
       .filter(Boolean)
@@ -57,7 +57,7 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
     const dogruMu = kabul.includes(normalize);
     setDurum(dogruMu ? 'dogru' : 'yanlis');
     onAnswer(cevap, dogruMu);
-  };
+  }, [cevap, soru, onAnswer]);
 
   return (
     <QuestionScreen
@@ -100,4 +100,4 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
       )}
     </QuestionScreen>
   );
-}
+});
