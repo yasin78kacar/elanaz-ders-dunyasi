@@ -82,9 +82,8 @@ import { renkler, duygular } from './gorev-ing-tema4-questions.mjs';
 import { hayvanlar as hayvanlarIng, yiyecekler, sekiller, vucudBolumleri } from './gorev-ing-tema5-questions.mjs';
 import { eylemler, okulHobilerGunluk } from './gorev-ing-tema6-questions.mjs';
 import { giyimEsyalari as giyimT7, havaDurumu as havaT7, mevsimlerIng as mevsimT7, oyuncaklar } from './gorev-ing-tema7-questions.mjs';
-import { spor, meslekler, enstrumanlar, ulasim } from './gorev-ing-tema8-questions.mjs';
-import { tatiller, odalar, dersler, sayilar1120 } from './gorev-ing-tema9-questions.mjs';
 import { sporlar, enstrumanlar, meslekler, ulasim } from './gorev-ing-tema8-questions.mjs';
+import { tatiller, odalar, dersler, sayilar1120 } from './gorev-ing-tema9-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
 import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
@@ -582,13 +581,13 @@ writeFileSync(join(ingDir, 'giyim-esyalari.json'), JSON.stringify(giyimEsyalariK
 writeFileSync(join(ingDir, 'mevsimler-ing.json'), JSON.stringify(mevsimlerIngKonuParca, null, 2));
 writeFileSync(join(ingDir, 'oyuncaklar.json'), JSON.stringify(oyuncaklarKonu, null, 2));
 
-const sporKonu = konuParca(spor);
-const mesleklerKonu = konuParca(meslekler);
+const sporlarKonu = konuParca(sporlar);
 const enstrumanlarKonu = konuParca(enstrumanlar);
+const mesleklerKonu = konuParca(meslekler);
 const ulasimKonu = konuParca(ulasim);
-writeFileSync(join(ingDir, 'spor.json'), JSON.stringify(sporKonu, null, 2));
-writeFileSync(join(ingDir, 'meslekler-ing.json'), JSON.stringify(mesleklerKonu, null, 2));
+writeFileSync(join(ingDir, 'sporlar.json'), JSON.stringify(sporlarKonu, null, 2));
 writeFileSync(join(ingDir, 'enstrumanlar.json'), JSON.stringify(enstrumanlarKonu, null, 2));
+writeFileSync(join(ingDir, 'meslekler-ing.json'), JSON.stringify(mesleklerKonu, null, 2));
 writeFileSync(join(ingDir, 'ulasim.json'), JSON.stringify(ulasimKonu, null, 2));
 
 const tatillerKonu = konuParca(tatiller);
@@ -635,21 +634,19 @@ const theme7Ing = {
 };
 writeFileSync(join(englishDataDir, 'theme7.json'), JSON.stringify(theme7Ing, null, 2));
 
-const sporlarKonu = konuParca(sporlar);
-const enstrumanlarKonu = konuParca(enstrumanlar);
-const mesleklerKonu = konuParca(meslekler);
-const ulasimKonu = konuParca(ulasim);
-writeFileSync(join(ingDir, 'sporlar.json'), JSON.stringify(sporlarKonu, null, 2));
-writeFileSync(join(ingDir, 'enstrumanlar.json'), JSON.stringify(enstrumanlarKonu, null, 2));
-writeFileSync(join(ingDir, 'meslekler-ing.json'), JSON.stringify(mesleklerKonu, null, 2));
-writeFileSync(join(ingDir, 'ulasim.json'), JSON.stringify(ulasimKonu, null, 2));
-
 const theme8Ing = {
   id: 'tema-8',
   baslik: 'İngilizce — Tema 8',
   konular: [sporlarKonu, enstrumanlarKonu, mesleklerKonu, ulasimKonu],
 };
 writeFileSync(join(englishDataDir, 'theme8.json'), JSON.stringify(theme8Ing, null, 2));
+
+const theme9Ing = {
+  id: 'tema-9',
+  baslik: 'İngilizce — Tema 9',
+  konular: [tatillerKonu, odalarKonu, derslerKonu, sayilar1120Konu],
+};
+writeFileSync(join(englishDataDir, 'theme9.json'), JSON.stringify(theme9Ing, null, 2));
 
 const tema3 = {
   id: 'tema-3',
@@ -975,6 +972,16 @@ const index = {
             'ingilizce/enstrumanlar.json',
             'ingilizce/meslekler-ing.json',
             'ingilizce/ulasim.json',
+          ],
+        },
+        {
+          id: 'tema-9',
+          baslik: 'İngilizce — Tema 9',
+          konuDosyalari: [
+            'ingilizce/tatiller.json',
+            'ingilizce/odalar.json',
+            'ingilizce/dersler-ing.json',
+            'ingilizce/sayilar-11-20.json',
           ],
         },
       ] },

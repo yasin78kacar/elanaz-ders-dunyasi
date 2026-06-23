@@ -1,0 +1,477 @@
+{
+  "id": "ulkeler",
+  "baslik": "Countries",
+  "kazanimKodu": "ING.2.10.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz ve Berk sınıfta dünya haritasına baktılar. Türkiye Turkey, İngiltere England! Her ülkenin bayrağı farklı ve güzeldi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-1"
+        }
+      },
+      {
+        "metin": "Öğretmen Fransa France, Almanya Germany ve İspanya Spain ülkelerini gösterdi. \"Country\" kelimesi ülke demektir. Haritada yeni yerler keşfetmek çok heyecanlıydı!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-2"
+        }
+      },
+      {
+        "metin": "Japonya Japan, Çin China ve Mısır Egypt haritada uzak ülkelerdi. Elanaz \"I love my country Turkey!\" dedi. Ülkeleri İngilizce öğrenmek dünyayı tanımak gibiydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ul-a1",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Türkiye kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "Turkey",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turkiye-bayrak"
+      }
+    },
+    {
+      "id": "ul-a2",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "İngiltere İngilizcede \"England\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ingiltere-bayrak"
+      }
+    },
+    {
+      "id": "ul-a3",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Amerika Birleşik Devletleri İngilizcede ......... olarak yazılır.",
+      "dogruCevap": "USA",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "abd-bayrak"
+      }
+    },
+    {
+      "id": "ul-a4",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Fransa kelimesinin İngilizcesi \"France\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "fransa-bayrak"
+      }
+    },
+    {
+      "id": "ul-a5",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Almanya kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "Germany",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "almanya-bayrak"
+      }
+    },
+    {
+      "id": "ul-a6",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "İtalya İngilizcede \"Italy\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "italya-bayrak"
+      }
+    },
+    {
+      "id": "ul-a7",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "İspanya kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "Spain",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ispanya-bayrak"
+      }
+    },
+    {
+      "id": "ul-a8",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "\"Japan\" kelimesi Japonya anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "japonya-bayrak"
+      }
+    },
+    {
+      "id": "ul-a9",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Çin kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "China",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cin-bayrak"
+      }
+    },
+    {
+      "id": "ul-a10",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Mısır İngilizcede \"Egypt\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "misir-bayrak"
+      }
+    },
+    {
+      "id": "ul-a11",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Ülke kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "country",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dunya-haritasi"
+      }
+    },
+    {
+      "id": "ul-a12",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "\"Brazil\" kelimesi Brezilya demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "brezilya-bayrak"
+      }
+    },
+    {
+      "id": "ul-a13",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "yazili",
+      "soru": "Avustralya kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "Australia",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "avustralya-bayrak"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ul-t1",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Türkiye'nin İngilizce adı nedir?",
+      "dogruCevap": "Turkey",
+      "secenekler": [
+        "England",
+        "Turkey",
+        "France",
+        "Japan"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turkiye-bayrak"
+      }
+    },
+    {
+      "id": "ul-t2",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "İngiltere'nin İngilizce adı hangisidir?",
+      "dogruCevap": "England",
+      "secenekler": [
+        "Spain",
+        "England",
+        "Germany",
+        "China"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ingiltere-bayrak"
+      }
+    },
+    {
+      "id": "ul-t3",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Amerika'nın kısa İngilizce adı nedir?",
+      "dogruCevap": "USA",
+      "secenekler": [
+        "UN",
+        "USA",
+        "EU",
+        "UK"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "abd-bayrak"
+      }
+    },
+    {
+      "id": "ul-t4",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Fransa'nın İngilizce adı nedir?",
+      "dogruCevap": "France",
+      "secenekler": [
+        "Greece",
+        "Italy",
+        "France",
+        "Spain"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "fransa-bayrak"
+      }
+    },
+    {
+      "id": "ul-t5",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Almanya'nın İngilizce adı hangisidir?",
+      "dogruCevap": "Germany",
+      "secenekler": [
+        "Greece",
+        "Brazil",
+        "Germany",
+        "India"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "almanya-bayrak"
+      }
+    },
+    {
+      "id": "ul-t6",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "İtalya'nın İngilizce adı nedir?",
+      "dogruCevap": "Italy",
+      "secenekler": [
+        "Mexico",
+        "Italy",
+        "Egypt",
+        "India"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "italya-bayrak"
+      }
+    },
+    {
+      "id": "ul-t7",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "İspanya'nın İngilizce adı nedir?",
+      "dogruCevap": "Spain",
+      "secenekler": [
+        "Russia",
+        "China",
+        "Spain",
+        "France"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ispanya-bayrak"
+      }
+    },
+    {
+      "id": "ul-t8",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Japonya'nın İngilizce adı hangisidir?",
+      "dogruCevap": "Japan",
+      "secenekler": [
+        "Japan",
+        "India",
+        "China",
+        "Brazil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "japonya-bayrak"
+      }
+    },
+    {
+      "id": "ul-t9",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çin'in İngilizce adı nedir?",
+      "dogruCevap": "China",
+      "secenekler": [
+        "Japan",
+        "India",
+        "China",
+        "Korea"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cin-bayrak"
+      }
+    },
+    {
+      "id": "ul-t10",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mısır'ın İngilizce adı nedir?",
+      "dogruCevap": "Egypt",
+      "secenekler": [
+        "Egypt",
+        "Canada",
+        "Greece",
+        "Mexico"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "misir-bayrak"
+      }
+    },
+    {
+      "id": "ul-t11",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ülke kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Country",
+      "secenekler": [
+        "Fruit",
+        "Country",
+        "School",
+        "City"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dunya-haritasi"
+      }
+    },
+    {
+      "id": "ul-t12",
+      "kazanimKodu": "ING.2.10.1",
+      "tip": "coktanSecmeli",
+      "soru": "Brezilya'nın İngilizce adı nedir?",
+      "dogruCevap": "Brazil",
+      "secenekler": [
+        "Canada",
+        "Australia",
+        "Brazil",
+        "Russia"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "brezilya-bayrak"
+      }
+    }
+  ]
+}

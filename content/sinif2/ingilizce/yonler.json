@@ -1,0 +1,477 @@
+{
+  "id": "yonler",
+  "baslik": "Directions",
+  "kazanimKodu": "ING.2.10.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz pusulaya baktı. Kuzey north, güney south, doğu east, batı west! Dört yön haritada farklı yerlere işaret ediyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yn-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk yön tabelasını gösterdi. Sol left, sağ right! \"Go straight\" düz git demekti. \"Turn left\" sola dön, \"Turn right\" sağa dön!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yn-anlatim-2"
+        }
+      },
+      {
+        "metin": "Öğretmen güneşin doğu east yönünden doğduğunu, batı west yönünden battığını anlattı. Yukarı up, aşağı down! Yönleri bilmek kaybolmamak demekti.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yn-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "yn-a1",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Kuzey kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "north",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-kuzey"
+      }
+    },
+    {
+      "id": "yn-a2",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Güney İngilizcede \"south\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-guney"
+      }
+    },
+    {
+      "id": "yn-a3",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Doğu kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "east",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-dogu"
+      }
+    },
+    {
+      "id": "yn-a4",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Batı İngilizcede \"west\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-bati"
+      }
+    },
+    {
+      "id": "yn-a5",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Sol kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "left",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sol-ok"
+      }
+    },
+    {
+      "id": "yn-a6",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Sağ İngilizcede \"right\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sag-ok"
+      }
+    },
+    {
+      "id": "yn-a7",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Yukarı kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "up",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yukari-ok"
+      }
+    },
+    {
+      "id": "yn-a8",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Aşağı İngilizcede \"down\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "asagi-ok"
+      }
+    },
+    {
+      "id": "yn-a9",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Düz git ifadesinin İngilizcesi \"Go .........\" kelimesidir.",
+      "dogruCevap": "straight",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "duz-git"
+      }
+    },
+    {
+      "id": "yn-a10",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Sola dön İngilizcede \"Turn left\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sola-don"
+      }
+    },
+    {
+      "id": "yn-a11",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Sağa dön ifadesinin İngilizcesi \"Turn .........\" kelimesidir.",
+      "dogruCevap": "right",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "saga-don"
+      }
+    },
+    {
+      "id": "yn-a12",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Yön tabelası İngilizcede \"direction sign\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yon-tabelasi"
+      }
+    },
+    {
+      "id": "yn-a13",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "yazili",
+      "soru": "Güneş doğudan doğar. Doğu kelimesi ......... kelimesidir.",
+      "dogruCevap": "east",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogu-gunes"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "yn-t1",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kuzeyin İngilizce adı nedir?",
+      "dogruCevap": "North",
+      "secenekler": [
+        "South",
+        "North",
+        "East",
+        "West"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-kuzey"
+      }
+    },
+    {
+      "id": "yn-t2",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Güneyin İngilizce adı hangisidir?",
+      "dogruCevap": "South",
+      "secenekler": [
+        "Left",
+        "North",
+        "East",
+        "South"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-guney"
+      }
+    },
+    {
+      "id": "yn-t3",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Doğunun İngilizce adı nedir?",
+      "dogruCevap": "East",
+      "secenekler": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-dogu"
+      }
+    },
+    {
+      "id": "yn-t4",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Batının İngilizce adı nedir?",
+      "dogruCevap": "West",
+      "secenekler": [
+        "West",
+        "East",
+        "Up",
+        "Down"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pusula-bati"
+      }
+    },
+    {
+      "id": "yn-t5",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Solun İngilizce adı hangisidir?",
+      "dogruCevap": "Left",
+      "secenekler": [
+        "Left",
+        "Down",
+        "Right",
+        "Up"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sol-ok"
+      }
+    },
+    {
+      "id": "yn-t6",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sağın İngilizce adı nedir?",
+      "dogruCevap": "Right",
+      "secenekler": [
+        "Left",
+        "North",
+        "Right",
+        "South"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sag-ok"
+      }
+    },
+    {
+      "id": "yn-t7",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yukarının İngilizce adı nedir?",
+      "dogruCevap": "Up",
+      "secenekler": [
+        "Up",
+        "Right",
+        "Down",
+        "Left"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yukari-ok"
+      }
+    },
+    {
+      "id": "yn-t8",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağının İngilizce adı hangisidir?",
+      "dogruCevap": "Down",
+      "secenekler": [
+        "West",
+        "East",
+        "Down",
+        "Up"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "asagi-ok"
+      }
+    },
+    {
+      "id": "yn-t9",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Düz git ifadesinin İngilizcesi nedir?",
+      "dogruCevap": "Go straight",
+      "secenekler": [
+        "Go down",
+        "Go straight",
+        "Turn right",
+        "Turn left"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "duz-git"
+      }
+    },
+    {
+      "id": "yn-t10",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sola dön ifadesinin İngilizcesi nedir?",
+      "dogruCevap": "Turn left",
+      "secenekler": [
+        "Go down",
+        "Turn right",
+        "Go up",
+        "Turn left"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sola-don"
+      }
+    },
+    {
+      "id": "yn-t11",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sağa dön ifadesinin İngilizcesi nedir?",
+      "dogruCevap": "Turn right",
+      "secenekler": [
+        "Go up",
+        "Turn right",
+        "Go straight",
+        "Turn left"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "saga-don"
+      }
+    },
+    {
+      "id": "yn-t12",
+      "kazanimKodu": "ING.2.10.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yön kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Direction",
+      "secenekler": [
+        "Number",
+        "Fruit",
+        "Direction",
+        "Country"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yon-tabelasi"
+      }
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "meyveler",
+  "baslik": "Fruits",
+  "kazanimKodu": "ING.2.10.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz pazara gitti. Tezgahta kırmızı elmalar, sarı muzlar ve turuncu portakallar vardı. Apple, banana, orange! Meyveler renkli ve lezzetliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "my-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk mor üzüm salkımını gösterdi. \"Grape!\" dedi. Karpuz watermelon, çilek strawberry, kiraz cherry! \"Fruit\" kelimesi meyve demektir.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "my-anlatim-2"
+        }
+      },
+      {
+        "metin": "Öğretmen ananas pineapple, mango, kivi kiwi ve erik plum kelimelerini öğretti. Elanaz \"I love fruits!\" dedi. Meyveler sağlıklı beslenmenin anahtarıydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "my-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "my-a1",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Elma kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "apple",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      }
+    },
+    {
+      "id": "my-a2",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Muz İngilizcede \"banana\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-muz"
+      }
+    },
+    {
+      "id": "my-a3",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Portakal kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "orange",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "portakal-resmi"
+      }
+    },
+    {
+      "id": "my-a4",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Üzüm İngilizcede \"grape\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-uzum"
+      }
+    },
+    {
+      "id": "my-a5",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Karpuz kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "watermelon",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "karpuz-dilim"
+      }
+    },
+    {
+      "id": "my-a6",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Çilek İngilizcede \"strawberry\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cilek-sepet"
+      }
+    },
+    {
+      "id": "my-a7",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Kiraz kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "cherry",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kiraz-dallari"
+      }
+    },
+    {
+      "id": "my-a8",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Şeftali İngilizcede \"peach\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "seftali-meyve"
+      }
+    },
+    {
+      "id": "my-a9",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Armut kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "pear",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "armut-yesil"
+      }
+    },
+    {
+      "id": "my-a10",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Kavun İngilizcede \"melon\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kavun-dilim"
+      }
+    },
+    {
+      "id": "my-a11",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Limon kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "lemon",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-limon"
+      }
+    },
+    {
+      "id": "my-a12",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Ananas İngilizcede \"pineapple\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ananas-meyve"
+      }
+    },
+    {
+      "id": "my-a13",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "yazili",
+      "soru": "Mango kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "mango",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mango-meyve"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "my-t1",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Elmanın İngilizce adı nedir?",
+      "dogruCevap": "Apple",
+      "secenekler": [
+        "Orange",
+        "Grape",
+        "Banana",
+        "Apple"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      }
+    },
+    {
+      "id": "my-t2",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Muzun İngilizce adı hangisidir?",
+      "dogruCevap": "Banana",
+      "secenekler": [
+        "Pear",
+        "Banana",
+        "Melon",
+        "Lemon"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-muz"
+      }
+    },
+    {
+      "id": "my-t3",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Portakalın İngilizce adı nedir?",
+      "dogruCevap": "Orange",
+      "secenekler": [
+        "Apple",
+        "Plum",
+        "Cherry",
+        "Orange"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "portakal-resmi"
+      }
+    },
+    {
+      "id": "my-t4",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Üzümün İngilizce adı nedir?",
+      "dogruCevap": "Grape",
+      "secenekler": [
+        "Peach",
+        "Kiwi",
+        "Mango",
+        "Grape"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mor-uzum"
+      }
+    },
+    {
+      "id": "my-t5",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Karpuzun İngilizce adı hangisidir?",
+      "dogruCevap": "Watermelon",
+      "secenekler": [
+        "Lemon",
+        "Pear",
+        "Melon",
+        "Watermelon"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "karpuz-dilim"
+      }
+    },
+    {
+      "id": "my-t6",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çileğin İngilizce adı nedir?",
+      "dogruCevap": "Strawberry",
+      "secenekler": [
+        "Peach",
+        "Strawberry",
+        "Plum",
+        "Cherry"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cilek-sepet"
+      }
+    },
+    {
+      "id": "my-t7",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kirazın İngilizce adı nedir?",
+      "dogruCevap": "Cherry",
+      "secenekler": [
+        "Pear",
+        "Grape",
+        "Cherry",
+        "Kiwi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kiraz-dallari"
+      }
+    },
+    {
+      "id": "my-t8",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Şeftalinin İngilizce adı hangisidir?",
+      "dogruCevap": "Peach",
+      "secenekler": [
+        "Plum",
+        "Mango",
+        "Peach",
+        "Melon"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "seftali-meyve"
+      }
+    },
+    {
+      "id": "my-t9",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Armutun İngilizce adı nedir?",
+      "dogruCevap": "Pear",
+      "secenekler": [
+        "Banana",
+        "Orange",
+        "Pear",
+        "Apple"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "armut-yesil"
+      }
+    },
+    {
+      "id": "my-t10",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kavunun İngilizce adı nedir?",
+      "dogruCevap": "Melon",
+      "secenekler": [
+        "Melon",
+        "Kiwi",
+        "Watermelon",
+        "Mango"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kavun-dilim"
+      }
+    },
+    {
+      "id": "my-t11",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Limonun İngilizce adı nedir?",
+      "dogruCevap": "Lemon",
+      "secenekler": [
+        "Orange",
+        "Cherry",
+        "Lemon",
+        "Plum"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-limon"
+      }
+    },
+    {
+      "id": "my-t12",
+      "kazanimKodu": "ING.2.10.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ananasın İngilizce adı hangisidir?",
+      "dogruCevap": "Pineapple",
+      "secenekler": [
+        "Peach",
+        "Banana",
+        "Grape",
+        "Pineapple"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ananas-meyve"
+      }
+    }
+  ]
+}

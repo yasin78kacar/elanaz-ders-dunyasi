@@ -1,0 +1,477 @@
+{
+  "id": "odalar",
+  "baslik": "Rooms",
+  "kazanimKodu": "ING.2.9.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz evini tanıttı. \"This is my bedroom. This is the kitchen.\" Her odanın bir adı vardı. Ev çok sıcaktı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "od-anlatim-1"
+        }
+      },
+      {
+        "metin": "Banyoda dişlerini fırçaladı. Oturma odasında ailesiyle TV izledi. \"I love my house!\" dedi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "od-anlatim-2"
+        }
+      },
+      {
+        "metin": "Bahçede oynadılar. \"The garden is beautiful!\" dedi Berk. Evin her odası farklıydı ve hepsi güzeldi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "od-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "od-a1",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Yatak odası kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bedroom",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yatak-odasi"
+      }
+    },
+    {
+      "id": "od-a2",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Mutfak İngilizcede \"Kitchen\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutfak"
+      }
+    },
+    {
+      "id": "od-a3",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Banyo kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bathroom",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "banyo"
+      }
+    },
+    {
+      "id": "od-a4",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Oturma odası İngilizcede \"Living room\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oturma-odasi"
+      }
+    },
+    {
+      "id": "od-a5",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Oda kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "room",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ev-odalari"
+      }
+    },
+    {
+      "id": "od-a6",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Yemek odasında yemek yenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yemek-odasi"
+      }
+    },
+    {
+      "id": "od-a7",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Balkon kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "balcony",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "balkon"
+      }
+    },
+    {
+      "id": "od-a8",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Garaj arabaların park ettiği yerdir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "garaj"
+      }
+    },
+    {
+      "id": "od-a9",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Merdiven kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "stairs",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "merdiven"
+      }
+    },
+    {
+      "id": "od-a10",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Koridor İngilizcede \"Hallway\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koridor"
+      }
+    },
+    {
+      "id": "od-a11",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Çalışma odası İngilizcede \".........\" room kelimesidir.",
+      "dogruCevap": "study",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "calisma-odasi"
+      }
+    },
+    {
+      "id": "od-a12",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Yatak odasında uyuruz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yatak-odasi"
+      }
+    },
+    {
+      "id": "od-a13",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "yazili",
+      "soru": "Kapı kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "door",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kapi"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "od-t1",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Uyuduğumuz odanın İngilizcesi nedir?",
+      "dogruCevap": "Bedroom",
+      "secenekler": [
+        "Bedroom",
+        "Bathroom",
+        "Garage",
+        "Kitchen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yatak-odasi"
+      }
+    },
+    {
+      "id": "od-t2",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yemek pişirilen odanın İngilizcesi nedir?",
+      "dogruCevap": "Kitchen",
+      "secenekler": [
+        "Bedroom",
+        "Garden",
+        "Garage",
+        "Kitchen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutfak"
+      }
+    },
+    {
+      "id": "od-t3",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Duş aldığımız odanın İngilizcesi nedir?",
+      "dogruCevap": "Bathroom",
+      "secenekler": [
+        "Kitchen",
+        "Bathroom",
+        "Bedroom",
+        "Balcony"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "banyo"
+      }
+    },
+    {
+      "id": "od-t4",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "TV izlediğimiz odanın İngilizcesi nedir?",
+      "dogruCevap": "Living room",
+      "secenekler": [
+        "Living room",
+        "Kitchen",
+        "Garage",
+        "Garden"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oturma-odasi"
+      }
+    },
+    {
+      "id": "od-t5",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Room\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Oda",
+      "secenekler": [
+        "Oda",
+        "Ev",
+        "Pencere",
+        "Kapı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ev-odalari"
+      }
+    },
+    {
+      "id": "od-t6",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yemek yenilen odanın İngilizcesi nedir?",
+      "dogruCevap": "Dining room",
+      "secenekler": [
+        "Garage",
+        "Dining room",
+        "Bathroom",
+        "Bedroom"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yemek-odasi"
+      }
+    },
+    {
+      "id": "od-t7",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Balkonun İngilizcesi nedir?",
+      "dogruCevap": "Balcony",
+      "secenekler": [
+        "Bedroom",
+        "Balcony",
+        "Stairs",
+        "Kitchen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "balkon"
+      }
+    },
+    {
+      "id": "od-t8",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Arabanın park ettiği yerin İngilizcesi nedir?",
+      "dogruCevap": "Garage",
+      "secenekler": [
+        "Garage",
+        "Kitchen",
+        "Garden",
+        "Bedroom"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "garaj"
+      }
+    },
+    {
+      "id": "od-t9",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Merdivenin İngilizcesi nedir?",
+      "dogruCevap": "Stairs",
+      "secenekler": [
+        "Window",
+        "Stairs",
+        "Door",
+        "Balcony"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "merdiven"
+      }
+    },
+    {
+      "id": "od-t10",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Koridorun İngilizcesi nedir?",
+      "dogruCevap": "Hallway",
+      "secenekler": [
+        "Hallway",
+        "Garage",
+        "Kitchen",
+        "Garden"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koridor"
+      }
+    },
+    {
+      "id": "od-t11",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çalışma odasının İngilizcesi nedir?",
+      "dogruCevap": "Study room",
+      "secenekler": [
+        "Bathroom",
+        "Study room",
+        "Balcony",
+        "Garage"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "calisma-odasi"
+      }
+    },
+    {
+      "id": "od-t12",
+      "kazanimKodu": "ING.2.9.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kapının İngilizcesi nedir?",
+      "dogruCevap": "Door",
+      "secenekler": [
+        "Door",
+        "Floor",
+        "Wall",
+        "Window"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kapi"
+      }
+    }
+  ]
+}

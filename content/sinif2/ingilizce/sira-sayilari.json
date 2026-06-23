@@ -1,0 +1,477 @@
+{
+  "id": "siraSayilari",
+  "baslik": "Ordinal Numbers",
+  "kazanimKodu": "ING.2.10.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Okul yarışması başladı! Birinci first altın madalya kazandı. İkinci second gümüş, üçüncü third bronz madalya aldı. Sıra sayıları yarışlarda çok önemliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ss-anlatim-1"
+        }
+      },
+      {
+        "metin": "Öğretmen tahtaya first, second, third, fourth, fifth yazdı. Dördüncü fourth, beşinci fifth, altıncı sixth! Sıra sayıları ordinal numbers olarak adlandırılır.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ss-anlatim-2"
+        }
+      },
+      {
+        "metin": "Yedinci seventh, sekizinci eighth, dokuzuncu ninth, onuncu tenth! Elanaz \"I am first!\" dedi. Sıra sayılarını bilmek sıralamada yerini bulmak demekti.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ss-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ss-a1",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Birinci kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "first",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "birinci-madalya"
+      }
+    },
+    {
+      "id": "ss-a2",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "İkinci İngilizcede \"second\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ikinci-madalya"
+      }
+    },
+    {
+      "id": "ss-a3",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Üçüncü kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "third",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucuncu-podyum"
+      }
+    },
+    {
+      "id": "ss-a4",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Dördüncü İngilizcede \"fourth\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dorduncu-sira"
+      }
+    },
+    {
+      "id": "ss-a5",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Beşinci kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "fifth",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "besinci-sira"
+      }
+    },
+    {
+      "id": "ss-a6",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Altıncı İngilizcede \"sixth\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "altinci-sira"
+      }
+    },
+    {
+      "id": "ss-a7",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Yedinci kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "seventh",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yedinci-sira"
+      }
+    },
+    {
+      "id": "ss-a8",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Sekizinci İngilizcede \"eighth\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sekizinci-sira"
+      }
+    },
+    {
+      "id": "ss-a9",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Dokuzuncu kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "ninth",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dokuzuncu-sira"
+      }
+    },
+    {
+      "id": "ss-a10",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Onuncu İngilizcede \"tenth\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "onuncu-sira"
+      }
+    },
+    {
+      "id": "ss-a11",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Sıra sayıları İngilizcede \"ordinal .........\" olarak adlandırılır.",
+      "dogruCevap": "numbers",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sira-sayilari-pano"
+      }
+    },
+    {
+      "id": "ss-a12",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Yarışta birinci olan altın madalya kazanır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yaris-birinci"
+      }
+    },
+    {
+      "id": "ss-a13",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "yazili",
+      "soru": "Podyumda üçüncü olan bronz madalya alır. Üçüncü ......... kelimesidir.",
+      "dogruCevap": "third",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucuncu-madalya"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ss-t1",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Birincinin İngilizce adı nedir?",
+      "dogruCevap": "First",
+      "secenekler": [
+        "Second",
+        "Fourth",
+        "First",
+        "Third"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "birinci-madalya"
+      }
+    },
+    {
+      "id": "ss-t2",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "İkincinin İngilizce adı hangisidir?",
+      "dogruCevap": "Second",
+      "secenekler": [
+        "Fifth",
+        "Third",
+        "First",
+        "Second"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ikinci-madalya"
+      }
+    },
+    {
+      "id": "ss-t3",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Üçüncünün İngilizce adı nedir?",
+      "dogruCevap": "Third",
+      "secenekler": [
+        "Fourth",
+        "Sixth",
+        "Third",
+        "Second"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucuncu-podyum"
+      }
+    },
+    {
+      "id": "ss-t4",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Dördüncünün İngilizce adı nedir?",
+      "dogruCevap": "Fourth",
+      "secenekler": [
+        "Fourth",
+        "Second",
+        "Fifth",
+        "Third"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dorduncu-sira"
+      }
+    },
+    {
+      "id": "ss-t5",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Beşincinin İngilizce adı hangisidir?",
+      "dogruCevap": "Fifth",
+      "secenekler": [
+        "Fourth",
+        "Sixth",
+        "Fifth",
+        "First"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "besinci-sira"
+      }
+    },
+    {
+      "id": "ss-t6",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Altıncının İngilizce adı nedir?",
+      "dogruCevap": "Sixth",
+      "secenekler": [
+        "Seventh",
+        "Eighth",
+        "Sixth",
+        "Fifth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "altinci-sira"
+      }
+    },
+    {
+      "id": "ss-t7",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Yedincinin İngilizce adı nedir?",
+      "dogruCevap": "Seventh",
+      "secenekler": [
+        "Ninth",
+        "Seventh",
+        "Sixth",
+        "Eighth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yedinci-sira"
+      }
+    },
+    {
+      "id": "ss-t8",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Sekizincinin İngilizce adı hangisidir?",
+      "dogruCevap": "Eighth",
+      "secenekler": [
+        "Eighth",
+        "Tenth",
+        "Seventh",
+        "Ninth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sekizinci-sira"
+      }
+    },
+    {
+      "id": "ss-t9",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Dokuzuncunun İngilizce adı nedir?",
+      "dogruCevap": "Ninth",
+      "secenekler": [
+        "Tenth",
+        "Ninth",
+        "Eighth",
+        "Seventh"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dokuzuncu-sira"
+      }
+    },
+    {
+      "id": "ss-t10",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Onuncunun İngilizce adı nedir?",
+      "dogruCevap": "Tenth",
+      "secenekler": [
+        "Tenth",
+        "Eighth",
+        "First",
+        "Ninth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "onuncu-sira"
+      }
+    },
+    {
+      "id": "ss-t11",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Sıra sayılarının İngilizce adı nedir?",
+      "dogruCevap": "Ordinal numbers",
+      "secenekler": [
+        "Cardinal numbers",
+        "Directions",
+        "Ordinal numbers",
+        "Countries"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sira-sayilari-pano"
+      }
+    },
+    {
+      "id": "ss-t12",
+      "kazanimKodu": "ING.2.10.4",
+      "tip": "coktanSecmeli",
+      "soru": "Yarışta birinci olan ne kazanır?",
+      "dogruCevap": "Gold medal",
+      "secenekler": [
+        "Bronze medal",
+        "Gold medal",
+        "No medal",
+        "Silver medal"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yaris-birinci"
+      }
+    }
+  ]
+}

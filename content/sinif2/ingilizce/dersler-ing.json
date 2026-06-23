@@ -1,0 +1,477 @@
+{
+  "id": "dersler",
+  "baslik": "School Subjects",
+  "kazanimKodu": "ING.2.9.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Ders programına baktılar. \"Math, Science, English, Art!\" dedi Elanaz. Her gün farklı dersler vardı. Okul çok eğlenceliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dr-anlatim-1"
+        }
+      },
+      {
+        "metin": "Müzik dersinde şarkı söylediler. Resim dersinde boyadılar. \"I love Art class!\" dedi Berk. Her ders farklıydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dr-anlatim-2"
+        }
+      },
+      {
+        "metin": "Beden eğitiminde koştular. Fen dersinde deney yaptılar. \"School subjects are fun!\" dediler.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dr-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "dr-a1",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Matematik dersinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "math",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "matematik-dersi"
+      }
+    },
+    {
+      "id": "dr-a2",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Fen bilimleri İngilizcede \"Science\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "fen-dersi"
+      }
+    },
+    {
+      "id": "dr-a3",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Türkçe dersinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "Turkish",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turkce-dersi"
+      }
+    },
+    {
+      "id": "dr-a4",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "İngilizce dersi \"English\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ingilizce-dersi"
+      }
+    },
+    {
+      "id": "dr-a5",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Müzik dersinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "music",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-dersi"
+      }
+    },
+    {
+      "id": "dr-a6",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Resim dersi İngilizcede \"Art\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "resim-dersi"
+      }
+    },
+    {
+      "id": "dr-a7",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Beden eğitimi İngilizcede \"PE\" veya \".........\" education kelimesidir.",
+      "dogruCevap": "physical",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beden-egitimi"
+      }
+    },
+    {
+      "id": "dr-a8",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Sosyal bilgiler İngilizcede \"Social studies\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sosyal-dersi"
+      }
+    },
+    {
+      "id": "dr-a9",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Ders kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "lesson",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-programi"
+      }
+    },
+    {
+      "id": "dr-a10",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Hayat bilgisi dersi okulda işlenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hayat-dersi"
+      }
+    },
+    {
+      "id": "dr-a11",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Ders programı İngilizcede \".........\" table kelimesidir.",
+      "dogruCevap": "timetable",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-programi"
+      }
+    },
+    {
+      "id": "dr-a12",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Görsel sanatlar İngilizcede \"Visual arts\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gorsel-sanatlar-ders"
+      }
+    },
+    {
+      "id": "dr-a13",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "yazili",
+      "soru": "Okuma dersinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "reading",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okuma-dersi"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "dr-t1",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sayıların öğrenildiği dersin İngilizcesi nedir?",
+      "dogruCevap": "Math",
+      "secenekler": [
+        "Art",
+        "Music",
+        "PE",
+        "Math"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "matematik-dersi"
+      }
+    },
+    {
+      "id": "dr-t2",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Deneylerin yapıldığı dersin İngilizcesi nedir?",
+      "dogruCevap": "Science",
+      "secenekler": [
+        "Science",
+        "Math",
+        "Music",
+        "Art"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "fen-dersi"
+      }
+    },
+    {
+      "id": "dr-t3",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Türkçe dersinin İngilizcesi nedir?",
+      "dogruCevap": "Turkish",
+      "secenekler": [
+        "Art",
+        "Turkish",
+        "Math",
+        "English"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turkce-dersi"
+      }
+    },
+    {
+      "id": "dr-t4",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yabancı dil dersinin İngilizcesi nedir?",
+      "dogruCevap": "English",
+      "secenekler": [
+        "Turkish",
+        "Math",
+        "English",
+        "Science"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ingilizce-dersi"
+      }
+    },
+    {
+      "id": "dr-t5",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkı söylenen dersin İngilizcesi nedir?",
+      "dogruCevap": "Music",
+      "secenekler": [
+        "PE",
+        "Math",
+        "Science",
+        "Music"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-dersi"
+      }
+    },
+    {
+      "id": "dr-t6",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Boyama yapılan dersin İngilizcesi nedir?",
+      "dogruCevap": "Art",
+      "secenekler": [
+        "Art",
+        "PE",
+        "Math",
+        "Science"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "resim-dersi"
+      }
+    },
+    {
+      "id": "dr-t7",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Spor yapılan dersin İngilizcesi nedir?",
+      "dogruCevap": "PE",
+      "secenekler": [
+        "Math",
+        "Music",
+        "PE",
+        "Art"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beden-egitimi"
+      }
+    },
+    {
+      "id": "dr-t8",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Subjects\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Dersler",
+      "secenekler": [
+        "Spor",
+        "Okul",
+        "Dersler",
+        "Ev"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-panosu"
+      }
+    },
+    {
+      "id": "dr-t9",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ders programının İngilizcesi nedir?",
+      "dogruCevap": "Timetable",
+      "secenekler": [
+        "Timetable",
+        "Window",
+        "Chair",
+        "Blackboard"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-programi"
+      }
+    },
+    {
+      "id": "dr-t10",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Okuma dersinin İngilizcesi nedir?",
+      "dogruCevap": "Reading",
+      "secenekler": [
+        "Math",
+        "Art",
+        "Reading",
+        "Writing"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okuma-dersi"
+      }
+    },
+    {
+      "id": "dr-t11",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yazma dersinin İngilizcesi nedir?",
+      "dogruCevap": "Writing",
+      "secenekler": [
+        "Math",
+        "Writing",
+        "Reading",
+        "PE"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yazma-dersi"
+      }
+    },
+    {
+      "id": "dr-t12",
+      "kazanimKodu": "ING.2.9.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sosyal bilgilerin İngilizcesi nedir?",
+      "dogruCevap": "Social studies",
+      "secenekler": [
+        "Art",
+        "Science",
+        "Social studies",
+        "Math"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sosyal-dersi"
+      }
+    }
+  ]
+}

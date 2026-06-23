@@ -1,0 +1,477 @@
+{
+  "id": "tatiller",
+  "baslik": "Holidays",
+  "kazanimKodu": "ING.2.9.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Noel yaklaşıyordu. Sınıfı süslediler. \"Merry Christmas!\" dediler birbirlerine. Tatiller hep sevinç getirirdi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "tt-anlatim-1"
+        }
+      },
+      {
+        "metin": "Elanaz'ın doğum günüydü. \"Happy Birthday!\" diye şarkı söylediler. Pasta ve balonlar vardı. Kutlamak çok eğlenceliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "tt-anlatim-2"
+        }
+      },
+      {
+        "metin": "Yaz tatili başladı. \"Summer holiday is here!\" dedi Berk. Denize gittiler. Tatil dinlenmek için güzeldi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "tt-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "tt-a1",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Tatil kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "holiday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tatil-plaj"
+      }
+    },
+    {
+      "id": "tt-a2",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Noel İngilizcede \"Christmas\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "noel-agaci"
+      }
+    },
+    {
+      "id": "tt-a3",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Doğum günü kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "birthday",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogum-gunu-pasta"
+      }
+    },
+    {
+      "id": "tt-a4",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Yeni Yıl İngilizcede \"New Year\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yeni-yil"
+      }
+    },
+    {
+      "id": "tt-a5",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Bayram kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "festival",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bayram-kutlama"
+      }
+    },
+    {
+      "id": "tt-a6",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Paskalya İngilizcede \"Easter\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "paskalya-yumurtasi"
+      }
+    },
+    {
+      "id": "tt-a7",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Hediye kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "gift",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hediye-paketi"
+      }
+    },
+    {
+      "id": "tt-a8",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Doğum gününde pasta kesilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogum-gunu-pasta"
+      }
+    },
+    {
+      "id": "tt-a9",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Kutlama kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "celebration",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kutlama-partisi"
+      }
+    },
+    {
+      "id": "tt-a10",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Cadılar Bayramı İngilizcede \"Halloween\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cadilar-bayrami"
+      }
+    },
+    {
+      "id": "tt-a11",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Sevgililer Günü İngilizcede \".........\" Day olarak söylenir.",
+      "dogruCevap": "Valentine",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sevgililer-gunu"
+      }
+    },
+    {
+      "id": "tt-a12",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Yaz tatili \"Summer holiday\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yaz-tatili"
+      }
+    },
+    {
+      "id": "tt-a13",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "yazili",
+      "soru": "Balon kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "balloon",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogum-gunu-balon"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "tt-t1",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tatil kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Holiday",
+      "secenekler": [
+        "Sport",
+        "School",
+        "Holiday",
+        "Work"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tatil-plaj"
+      }
+    },
+    {
+      "id": "tt-t2",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Noelin İngilizcesi nedir?",
+      "dogruCevap": "Christmas",
+      "secenekler": [
+        "Birthday",
+        "Halloween",
+        "Christmas",
+        "Easter"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "noel-agaci"
+      }
+    },
+    {
+      "id": "tt-t3",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Doğum gününün İngilizcesi nedir?",
+      "dogruCevap": "Birthday",
+      "secenekler": [
+        "Holiday",
+        "Birthday",
+        "Party",
+        "Festival"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogum-gunu-pasta"
+      }
+    },
+    {
+      "id": "tt-t4",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yeni Yılın İngilizcesi nedir?",
+      "dogruCevap": "New Year",
+      "secenekler": [
+        "Summer",
+        "New Year",
+        "Easter",
+        "Christmas"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yeni-yil"
+      }
+    },
+    {
+      "id": "tt-t5",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hediyenin İngilizcesi nedir?",
+      "dogruCevap": "Gift",
+      "secenekler": [
+        "Candle",
+        "Gift",
+        "Balloon",
+        "Tree"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hediye-paketi"
+      }
+    },
+    {
+      "id": "tt-t6",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Paskalyanın İngilizcesi nedir?",
+      "dogruCevap": "Easter",
+      "secenekler": [
+        "Halloween",
+        "Valentine",
+        "Easter",
+        "Christmas"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "paskalya-yumurtasi"
+      }
+    },
+    {
+      "id": "tt-t7",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Cadılar Bayramının İngilizcesi nedir?",
+      "dogruCevap": "Halloween",
+      "secenekler": [
+        "Birthday",
+        "Halloween",
+        "Christmas",
+        "Easter"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cadilar-bayrami"
+      }
+    },
+    {
+      "id": "tt-t8",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Partinin İngilizcesi nedir?",
+      "dogruCevap": "Party",
+      "secenekler": [
+        "Work",
+        "Party",
+        "Sport",
+        "School"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kutlama-partisi"
+      }
+    },
+    {
+      "id": "tt-t9",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Noel Babanın İngilizcesi nedir?",
+      "dogruCevap": "Santa Claus",
+      "secenekler": [
+        "Doctor",
+        "Santa Claus",
+        "Pilot",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "noel-baba"
+      }
+    },
+    {
+      "id": "tt-t10",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yaz tatilinin İngilizcesi nedir?",
+      "dogruCevap": "Summer holiday",
+      "secenekler": [
+        "Work day",
+        "School day",
+        "Summer holiday",
+        "Winter holiday"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yaz-tatili"
+      }
+    },
+    {
+      "id": "tt-t11",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Balonun İngilizcesi nedir?",
+      "dogruCevap": "Balloon",
+      "secenekler": [
+        "Candle",
+        "Cake",
+        "Balloon",
+        "Gift"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dogum-gunu-balon"
+      }
+    },
+    {
+      "id": "tt-t12",
+      "kazanimKodu": "ING.2.9.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mumun İngilizcesi nedir?",
+      "dogruCevap": "Candle",
+      "secenekler": [
+        "Pen",
+        "Book",
+        "Ball",
+        "Candle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pasta-mumlari"
+      }
+    }
+  ]
+}

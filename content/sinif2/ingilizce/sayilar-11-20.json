@@ -1,0 +1,477 @@
+{
+  "id": "sayilar-11-20",
+  "baslik": "Numbers 11-20",
+  "kazanimKodu": "ING.2.9.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Sınıfta sayıları öğreniyorlardı. \"Eleven, twelve, thirteen!\" diye saydılar. 11'den 20'ye kadar her sayının İngilizce adı vardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-1"
+        }
+      },
+      {
+        "metin": "Tahtada sayılar yazılıydı. \"Fourteen, fifteen, sixteen!\" Berk de saydı. Saymak İngilizcede de eğlenceliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-2"
+        }
+      },
+      {
+        "metin": "17, 18, 19, 20! Son sayıya ulaştılar. \"We can count to twenty in English!\" dediler. Sayılar her yerdeydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sy-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "sy-a1",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On bir kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "eleven",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-11"
+      }
+    },
+    {
+      "id": "sy-a2",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On iki İngilizcede \"Twelve\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-12"
+      }
+    },
+    {
+      "id": "sy-a3",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On üç kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "thirteen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-13"
+      }
+    },
+    {
+      "id": "sy-a4",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On dört İngilizcede \"Fourteen\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-14"
+      }
+    },
+    {
+      "id": "sy-a5",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On beş kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "fifteen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-15"
+      }
+    },
+    {
+      "id": "sy-a6",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On altı İngilizcede \"Sixteen\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-16"
+      }
+    },
+    {
+      "id": "sy-a7",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On yedi kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "seventeen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-17"
+      }
+    },
+    {
+      "id": "sy-a8",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On sekiz İngilizcede \"Eighteen\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-18"
+      }
+    },
+    {
+      "id": "sy-a9",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On dokuz kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "nineteen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-19"
+      }
+    },
+    {
+      "id": "sy-a10",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "Yirmi İngilizcede \"Twenty\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-20"
+      }
+    },
+    {
+      "id": "sy-a11",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "Sayı kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "number",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayilar-1-20"
+      }
+    },
+    {
+      "id": "sy-a12",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "11'den sonra 12 gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-12"
+      }
+    },
+    {
+      "id": "sy-a13",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "yazili",
+      "soru": "On beşten sonra on altı gelir. İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "sixteen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-16"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "sy-t1",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "11 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Eleven",
+      "secenekler": [
+        "Ten",
+        "Thirteen",
+        "Eleven",
+        "Twelve"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-11"
+      }
+    },
+    {
+      "id": "sy-t2",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "12 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Twelve",
+      "secenekler": [
+        "Eleven",
+        "Fourteen",
+        "Thirteen",
+        "Twelve"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-12"
+      }
+    },
+    {
+      "id": "sy-t3",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "13 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Thirteen",
+      "secenekler": [
+        "Fourteen",
+        "Thirteen",
+        "Fifteen",
+        "Twelve"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-13"
+      }
+    },
+    {
+      "id": "sy-t4",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "14 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Fourteen",
+      "secenekler": [
+        "Fifteen",
+        "Fourteen",
+        "Sixteen",
+        "Thirteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-14"
+      }
+    },
+    {
+      "id": "sy-t5",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "15 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Fifteen",
+      "secenekler": [
+        "Sixteen",
+        "Fourteen",
+        "Seventeen",
+        "Fifteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-15"
+      }
+    },
+    {
+      "id": "sy-t6",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "16 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Sixteen",
+      "secenekler": [
+        "Eighteen",
+        "Seventeen",
+        "Sixteen",
+        "Fifteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-16"
+      }
+    },
+    {
+      "id": "sy-t7",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "17 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Seventeen",
+      "secenekler": [
+        "Eighteen",
+        "Sixteen",
+        "Seventeen",
+        "Nineteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-17"
+      }
+    },
+    {
+      "id": "sy-t8",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "18 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Eighteen",
+      "secenekler": [
+        "Eighteen",
+        "Seventeen",
+        "Nineteen",
+        "Twenty"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-18"
+      }
+    },
+    {
+      "id": "sy-t9",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "19 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Nineteen",
+      "secenekler": [
+        "Twenty",
+        "Eighteen",
+        "Eleven",
+        "Nineteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-19"
+      }
+    },
+    {
+      "id": "sy-t10",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "20 sayısının İngilizcesi nedir?",
+      "dogruCevap": "Twenty",
+      "secenekler": [
+        "Nineteen",
+        "Ten",
+        "Twenty",
+        "Fifteen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-20"
+      }
+    },
+    {
+      "id": "sy-t11",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "\"Number\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Sayı",
+      "secenekler": [
+        "Yemek",
+        "Hayvan",
+        "Sayı",
+        "Renk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayilar-1-20"
+      }
+    },
+    {
+      "id": "sy-t12",
+      "kazanimKodu": "ING.2.9.4",
+      "tip": "coktanSecmeli",
+      "soru": "10'dan sonra hangi sayı gelir?",
+      "dogruCevap": "Eleven",
+      "secenekler": [
+        "Eleven",
+        "Twenty",
+        "Ten",
+        "Nine"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-11"
+      }
+    }
+  ]
+}
