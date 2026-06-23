@@ -332,9 +332,46 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
           <DijitalSaat saat={4} dakika={30} />
         </View>
       );
+    case 'pr-anlatim-1':
+      return <ParaGorsel tutar={5} paraTur="karisik" />;
+    case 'pr-anlatim-2':
+      return <ParaGorsel tutar={10} paraTur="banknot" />;
+    case 'pr-anlatim-3':
+      return <ParaGorsel tutar={3} paraTur="madeni" />;
+    case 'zm-yarim-saat':
+    case 'zm-120-dakika':
+    case 'zm-180-dakika':
+      return <OlcmeSahne sahne={sahne} />;
     default:
       return <OlcmeSahne sahne={sahne} />;
   }
+}
+
+function ParaGorsel({ tutar = 5, paraTur = 'karisik' }: { tutar?: number | string; paraTur?: string }) {
+  const w = 300;
+  const h = 100;
+  const banknot = paraTur === 'banknot' || paraTur === 'karisik';
+  const madeni = paraTur === 'madeni' || paraTur === 'karisik';
+  return (
+    <SvgCanvas
+      width={w}
+      height={h}
+      labels={[{ text: `${tutar} TL`, left: w / 2, top: 82, fontSize: 14, fontWeight: '800', textAlign: 'center' }]}
+    >
+      <Svg width={w} height={h} viewBox={`0 0 ${w} ${h}`}>
+        {banknot && (
+          <Rect x={24} y={18} width={90} height={48} rx={6} fill={GEO.yesil} stroke={GEO.metin} strokeWidth={2} />
+        )}
+        {madeni && (
+          <>
+            <Circle cx={banknot ? 160 : 80} cy={42} r={22} fill={GEO.sari} stroke={GEO.metin} strokeWidth={2} />
+            <Circle cx={banknot ? 200 : 140} cy={42} r={18} fill={GEO.turuncu} stroke={GEO.metin} strokeWidth={2} />
+            <Circle cx={banknot ? 235 : 190} cy={42} r={14} fill={GEO.kirmizi} stroke={GEO.metin} strokeWidth={1.5} />
+          </>
+        )}
+      </Svg>
+    </SvgCanvas>
+  );
 }
 
 function OlcmeSahne({ sahne }: { sahne: string }) {
@@ -349,7 +386,7 @@ function OlcmeSahne({ sahne }: { sahne: string }) {
 }
 
 export function OlcmeGorsel(props: Props) {
-  const { mod, sahne, baslangic, bitis, uzunluklar, etiketler, nesne, sol, sag, durum, solBirim, sagBirim, miktar, birim, kapTip, doluluk, miktarlar, saat, dakika, saat2, dakika2 } = props;
+  const { mod, sahne, baslangic, bitis, uzunluklar, etiketler, nesne, sol, sag, durum, solBirim, sagBirim, miktar, birim, kapTip, doluluk, miktarlar, saat, dakika, saat2, dakika2, tutar, paraTur } = props;
 
   switch (mod) {
     case 'uzunluk':
@@ -375,6 +412,8 @@ export function OlcmeGorsel(props: Props) {
         return <IkiSaat saat={saat} dakika={dakika} saat2={saat2} dakika2={dakika2} />;
       }
       return <AnalogSaat saat={saat} dakika={dakika} />;
+    case 'para':
+      return <ParaGorsel tutar={tutar} paraTur={paraTur} />;
     case 'araclar':
       return <OlcmeAraclari sahne={sahne} />;
     case 'anlatim':

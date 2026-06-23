@@ -85,7 +85,7 @@ export interface GorselIslem {
   sahne?: string;
 }
 
-export type OlcmeMod = 'uzunluk' | 'tartma' | 'sivi' | 'zaman' | 'anlatim' | 'araclar';
+export type OlcmeMod = 'uzunluk' | 'tartma' | 'sivi' | 'zaman' | 'para' | 'anlatim' | 'araclar';
 
 /** Ölçme (Tema 5) — OlcmeGorsel'de tanımlı */
 export interface GorselOlcme {
@@ -111,6 +111,8 @@ export interface GorselOlcme {
   dakika?: number;
   saat2?: number;
   dakika2?: number;
+  tutar?: number | string;
+  paraTur?: string;
 }
 
 export interface VeriSatir {

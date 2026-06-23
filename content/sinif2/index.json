@@ -104,10 +104,9 @@
         },
         {
           "id": "tema-3",
-          "baslik": "Matematik — Tema 3 — Toplama ve Çıkarma",
+          "baslik": "Matematik — Tema 3 — Çıkarma (2-20)",
           "konuDosyalari": [
-            "matematik/toplama.json",
-            "matematik/cikarma.json"
+            "matematik/cikarma-2-20.json"
           ]
         },
         {
@@ -119,23 +118,21 @@
         },
         {
           "id": "tema-5",
-          "baslik": "Matematik — Tema 5 — Ölçü ve Tartı",
+          "baslik": "Matematik — Tema 5 — Bölme (2-100)",
           "konuDosyalari": [
-            "matematik/uzunluk-olcme.json",
-            "matematik/tartma.json"
+            "matematik/bolme-2-100.json"
           ]
         },
         {
           "id": "olcme-ek",
-          "baslik": "Ölçme — Sıvı ve Zaman",
+          "baslik": "Ölçme — Sıvı",
           "konuDosyalari": [
-            "matematik/sivi-miktari.json",
-            "matematik/zaman.json"
+            "matematik/sivi-miktari.json"
           ]
         },
         {
-          "id": "tema-6",
-          "baslik": "Tema 6 — Veri",
+          "id": "veri",
+          "baslik": "Veri",
           "konuDosyalari": [
             "matematik/tablo-okuma.json",
             "matematik/grafik-okuma.json",
@@ -143,12 +140,43 @@
           ]
         },
         {
-          "id": "tema-7",
-          "baslik": "Matematik — Tema 7 — Parça-Bütün",
+          "id": "tema-6",
+          "baslik": "Matematik — Tema 6 — Kesirler",
           "konuDosyalari": [
             "matematik/esit-parcalara-bolme.json",
             "matematik/yarim-ve-ceyrek.json",
             "matematik/basit-kesirler.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Matematik — Tema 7 — Ölçü",
+          "konuDosyalari": [
+            "matematik/uzunluk-olcme.json",
+            "matematik/tartma.json"
+          ]
+        },
+        {
+          "id": "tema-8",
+          "baslik": "Matematik — Tema 8 — Geometri",
+          "konuDosyalari": [
+            "matematik/geometrik-cisim-modelleri.json",
+            "matematik/geometrik-sekil-modelleri.json"
+          ]
+        },
+        {
+          "id": "tema-9",
+          "baslik": "Matematik — Tema 9 — Para",
+          "konuDosyalari": [
+            "matematik/para-birimleri.json",
+            "matematik/para-alisveris.json"
+          ]
+        },
+        {
+          "id": "tema-10",
+          "baslik": "Matematik — Tema 10 — Zaman",
+          "konuDosyalari": [
+            "matematik/zaman-tema10.json"
           ]
         }
       ]

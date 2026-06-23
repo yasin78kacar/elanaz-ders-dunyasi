@@ -48,9 +48,13 @@ import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
 import { toplama120 } from './gorev-mat-tema2-questions.mjs';
 import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
 import { sayilarVeSayma } from './gorev-mat-tema1-questions.mjs';
-import { siviMiktari, zaman } from './gorev-tema4-questions.mjs';
+import { siviMiktari, zaman, tartma, uzunlukOlcme } from './gorev-tema4-questions.mjs';
 import { carpma } from './gorev-mat-tema4-questions.mjs';
-import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
+import { bolme2100 } from './gorev-mat-tema5-questions.mjs';
+import { uzunlukOlcme as uzunlukT7, tartma as tartmaT7 } from './gorev-mat-tema7-questions.mjs';
+import { geometrikCisimModelleri as geoCisimT8, geometrikSekilModelleri as geoSekilT8 } from './gorev-mat-tema8-questions.mjs';
+import { paraBirimleriKonu, paraAlisverisKonu } from './gorev-mat-tema9-questions.mjs';
+import { zamanTema10 } from './gorev-mat-tema10-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import {
@@ -423,16 +427,25 @@ const cikarma220Konu = cikarma220(karistir);
 writeFileSync(join(contentDir, 'cikarma-2-20.json'), JSON.stringify(cikarma220Konu, null, 2));
 
 const carpmaKonu = carpma(karistir);
+const bolme2100Konu = bolme2100(karistir);
 writeFileSync(join(contentDir, 'carpma.json'), JSON.stringify(carpmaKonu, null, 2));
+writeFileSync(join(contentDir, 'bolme-2-100.json'), JSON.stringify(bolme2100Konu, null, 2));
 
 const uzunlukOlcmeKonu = uzunlukOlcme(karistir);
 const tartmaKonu = tartma(karistir);
 const siviMiktariKonu = siviMiktari(karistir);
 const zamanKonu = zaman(karistir);
+const zamanTema10Konu = zamanTema10(karistir);
 writeFileSync(join(contentDir, 'uzunluk-olcme.json'), JSON.stringify(uzunlukOlcmeKonu, null, 2));
 writeFileSync(join(contentDir, 'tartma.json'), JSON.stringify(tartmaKonu, null, 2));
 writeFileSync(join(contentDir, 'sivi-miktari.json'), JSON.stringify(siviMiktariKonu, null, 2));
 writeFileSync(join(contentDir, 'zaman.json'), JSON.stringify(zamanKonu, null, 2));
+writeFileSync(join(contentDir, 'zaman-tema10.json'), JSON.stringify(zamanTema10Konu, null, 2));
+
+const paraBirimleriT9 = paraBirimleriKonu(karistir);
+const paraAlisverisT9 = paraAlisverisKonu(karistir);
+writeFileSync(join(contentDir, 'para-birimleri.json'), JSON.stringify(paraBirimleriT9, null, 2));
+writeFileSync(join(contentDir, 'para-alisveris.json'), JSON.stringify(paraAlisverisT9, null, 2));
 
 const tabloOkumaKonu = tabloOkuma(karistir);
 const grafikOkumaKonu = grafikOkuma(karistir);
@@ -683,8 +696,8 @@ writeFileSync(join(mathDataDir, 'tema4.json'), JSON.stringify(matTema4, null, 2)
 
 const matTema5 = {
   id: 'tema-5',
-  baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
-  konular: [uzunlukOlcmeKonu, tartmaKonu],
+  baslik: 'Matematik — Tema 5 — Bölme (2-100)',
+  konular: [bolme2100Konu],
 };
 writeFileSync(join(mathDataDir, 'tema5.json'), JSON.stringify(matTema5, null, 2));
 
@@ -695,12 +708,37 @@ const matTema6 = {
 };
 writeFileSync(join(mathDataDir, 'tema6.json'), JSON.stringify(matTema6, null, 2));
 
+const uzunlukT7Konu = uzunlukT7(karistir);
+const tartmaT7Konu = tartmaT7(karistir);
 const matTema7 = {
   id: 'tema-7',
-  baslik: 'Matematik — Tema 7 — Parça-Bütün',
-  konular: [esitParcalaraBolmeKonu, yarimVeCeyrekKonu, basitKesirlerKonu],
+  baslik: 'Matematik — Tema 7 — Ölçü',
+  konular: [uzunlukT7Konu, tartmaT7Konu],
 };
 writeFileSync(join(mathDataDir, 'tema7.json'), JSON.stringify(matTema7, null, 2));
+
+const geoCisimT8Konu = geoCisimT8(karistir);
+const geoSekilT8Konu = geoSekilT8(karistir);
+const matTema8 = {
+  id: 'tema-8',
+  baslik: 'Matematik — Tema 8 — Geometri',
+  konular: [geoCisimT8Konu, geoSekilT8Konu],
+};
+writeFileSync(join(mathDataDir, 'tema8.json'), JSON.stringify(matTema8, null, 2));
+
+const matTema9 = {
+  id: 'tema-9',
+  baslik: 'Matematik — Tema 9 — Para',
+  konular: [paraBirimleriT9, paraAlisverisT9],
+};
+writeFileSync(join(mathDataDir, 'tema9.json'), JSON.stringify(matTema9, null, 2));
+
+const matTema10 = {
+  id: 'tema-10',
+  baslik: 'Matematik — Tema 10 — Zaman',
+  konular: [zamanTema10Konu],
+};
+writeFileSync(join(mathDataDir, 'tema10.json'), JSON.stringify(matTema10, null, 2));
 
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
@@ -830,23 +868,21 @@ const index = {
         },
         {
           id: 'tema-5',
-          baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
+          baslik: 'Matematik — Tema 5 — Bölme (2-100)',
           konuDosyalari: [
-            'matematik/uzunluk-olcme.json',
-            'matematik/tartma.json',
+            'matematik/bolme-2-100.json',
           ],
         },
         {
           id: 'olcme-ek',
-          baslik: 'Ölçme — Sıvı ve Zaman',
+          baslik: 'Ölçme — Sıvı',
           konuDosyalari: [
             'matematik/sivi-miktari.json',
-            'matematik/zaman.json',
           ],
         },
         {
-          id: 'tema-6',
-          baslik: 'Tema 6 — Veri',
+          id: 'veri',
+          baslik: 'Veri',
           konuDosyalari: [
             'matematik/tablo-okuma.json',
             'matematik/grafik-okuma.json',
@@ -854,12 +890,43 @@ const index = {
           ],
         },
         {
-          id: 'tema-7',
-          baslik: 'Matematik — Tema 7 — Parça-Bütün',
+          id: 'tema-6',
+          baslik: 'Matematik — Tema 6 — Kesirler',
           konuDosyalari: [
             'matematik/esit-parcalara-bolme.json',
             'matematik/yarim-ve-ceyrek.json',
             'matematik/basit-kesirler.json',
+          ],
+        },
+        {
+          id: 'tema-7',
+          baslik: 'Matematik — Tema 7 — Ölçü',
+          konuDosyalari: [
+            'matematik/uzunluk-olcme.json',
+            'matematik/tartma.json',
+          ],
+        },
+        {
+          id: 'tema-8',
+          baslik: 'Matematik — Tema 8 — Geometri',
+          konuDosyalari: [
+            'matematik/geometrik-cisim-modelleri.json',
+            'matematik/geometrik-sekil-modelleri.json',
+          ],
+        },
+        {
+          id: 'tema-9',
+          baslik: 'Matematik — Tema 9 — Para',
+          konuDosyalari: [
+            'matematik/para-birimleri.json',
+            'matematik/para-alisveris.json',
+          ],
+        },
+        {
+          id: 'tema-10',
+          baslik: 'Matematik — Tema 10 — Zaman',
+          konuDosyalari: [
+            'matematik/zaman-tema10.json',
           ],
         },
       ],
@@ -1069,7 +1136,7 @@ console.log('Sayı doğrusu:', sayiDogrusuKonu.alistirma.length, '+', sayiDogrus
 console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.length);
 console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
 console.log('Toplama 1-20:', toplama120Konu.alistirma.length, '+', toplama120Konu.test.length);
-console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.length);
+console.log('Çıkarma:', cikarma220Konu.alistirma.length, '+', cikarma220Konu.test.length);
 console.log('Çarpma:', carpmaKonu.alistirma.length, '+', carpmaKonu.test.length);
 console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
 console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);

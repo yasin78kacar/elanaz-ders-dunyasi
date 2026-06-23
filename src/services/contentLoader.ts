@@ -3,8 +3,6 @@ import ritmikSayma from '../../content/sinif2/matematik/ritmik-sayma.json';
 import sayilariOkuma from '../../content/sinif2/matematik/sayilari-okuma-yazma.json';
 import onlukBirlik from '../../content/sinif2/matematik/onluk-birlik.json';
 import geometrikCisimler from '../../content/sinif2/matematik/geometrik-cisimler.json';
-import geometrikCisimModelleri from '../../content/sinif2/matematik/geometrik-cisim-modelleri.json';
-import geometrikSekilModelleri from '../../content/sinif2/matematik/geometrik-sekil-modelleri.json';
 import bicimselOzellikler from '../../content/sinif2/matematik/bicimsel-ozellikler.json';
 import siviOlcme from '../../content/sinif2/matematik/sivi-olcme.json';
 import sayiDogrusu from '../../content/sinif2/matematik/sayi-dogrusu.json';
@@ -12,8 +10,6 @@ import oruntu from '../../content/sinif2/matematik/oruntu.json';
 import tahminEtme from '../../content/sinif2/matematik/tahmin-etme.json';
 import siviMiktari from '../../content/sinif2/matematik/sivi-miktari.json';
 import zaman from '../../content/sinif2/matematik/zaman.json';
-import uzunlukOlcme from '../../content/sinif2/matematik/uzunluk-olcme.json';
-import tartma from '../../content/sinif2/matematik/tartma.json';
 import tabloOkuma from '../../content/sinif2/matematik/tablo-okuma.json';
 import grafikOkuma from '../../content/sinif2/matematik/grafik-okuma.json';
 import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
@@ -67,7 +63,11 @@ import tema2Json from '../data/math/tema2.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
 import tema5Json from '../data/math/tema5.json';
+import tema6Json from '../data/math/tema6.json';
 import tema7Json from '../data/math/tema7.json';
+import tema8Json from '../data/math/tema8.json';
+import tema9Json from '../data/math/tema9.json';
+import tema10Json from '../data/math/tema10.json';
 import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
 import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
 import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
@@ -93,8 +93,20 @@ const [carpmaTema4] = matTema4.konular;
 const matTema5 = tema5Json as MathTheme;
 const [bolme2100Tema5] = matTema5.konular;
 
+const matTema6 = tema6Json as MathTheme;
+const [esitParcalaraBolmeTema6, yarimVeCeyrekTema6, basitKesirlerTema6] = matTema6.konular;
+
 const matTema7 = tema7Json as MathTheme;
-const [esitParcalaraBolmeTema7, yarimVeCeyrekTema7, basitKesirlerTema7] = matTema7.konular;
+const [uzunlukOlcmeTema7, tartmaTema7] = matTema7.konular;
+
+const matTema8 = tema8Json as MathTheme;
+const [geometrikCisimModelleriTema8, geometrikSekilModelleriTema8] = matTema8.konular;
+
+const matTema9 = tema9Json as MathTheme;
+const [paraBirimleriTema9, paraAlisverisTema9] = matTema9.konular;
+
+const matTema10 = tema10Json as MathTheme;
+const [zamanTema10Konu] = matTema10.konular;
 
 const theme3Ing = theme3Json as EnglishTheme;
 const [selamlasmaVeAileKonu, basitDiyaloglarKonu] = theme3Ing.konular;
@@ -122,8 +134,8 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/sayilari-okuma-yazma.json': sayilariOkuma as Konu,
   'matematik/onluk-birlik.json': onlukBirlik as Konu,
   'matematik/geometrik-cisimler.json': geometrikCisimler as Konu,
-  'matematik/geometrik-cisim-modelleri.json': geometrikCisimModelleri as Konu,
-  'matematik/geometrik-sekil-modelleri.json': geometrikSekilModelleri as Konu,
+  'matematik/geometrik-cisim-modelleri.json': geometrikCisimModelleriTema8,
+  'matematik/geometrik-sekil-modelleri.json': geometrikSekilModelleriTema8,
   'matematik/bicimsel-ozellikler.json': bicimselOzellikler as Konu,
   'matematik/sivi-olcme.json': siviOlcme as Konu,
   'matematik/sayi-dogrusu.json': sayiDogrusu as Konu,
@@ -134,16 +146,19 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/cikarma-2-20.json': cikarma220Tema3,
   'matematik/carpma.json': carpmaTema4,
   'matematik/bolme-2-100.json': bolme2100Tema5,
-  'matematik/uzunluk-olcme.json': uzunlukOlcme as Konu,
-  'matematik/tartma.json': tartma as Konu,
+  'matematik/uzunluk-olcme.json': uzunlukOlcmeTema7,
+  'matematik/tartma.json': tartmaTema7,
   'matematik/sivi-miktari.json': siviMiktari as Konu,
   'matematik/zaman.json': zaman as Konu,
+  'matematik/zaman-tema10.json': zamanTema10Konu,
+  'matematik/para-birimleri.json': paraBirimleriTema9,
+  'matematik/para-alisveris.json': paraAlisverisTema9,
   'matematik/tablo-okuma.json': tabloOkuma as Konu,
   'matematik/grafik-okuma.json': grafikOkuma as Konu,
   'matematik/veri-toplama.json': veriToplama as Konu,
-  'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema7,
-  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema7,
-  'matematik/basit-kesirler.json': basitKesirlerTema7,
+  'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema6,
+  'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema6,
+  'matematik/basit-kesirler.json': basitKesirlerTema6,
   'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
   'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
   'turkce/okuma-anlama.json': okumaAnlama as Konu,
