@@ -947,9 +947,9 @@
           "soru": "Türkçe alfabede kaç harf vardır?",
           "dogruCevap": "29",
           "secenekler": [
+            "26",
             "29",
             "30",
-            "26",
             "28"
           ],
           "ipucu": "",
@@ -996,10 +996,10 @@
           "soru": "Türkçede kaç sesli harf vardır?",
           "dogruCevap": "8",
           "secenekler": [
-            "7",
-            "10",
             "8",
-            "6"
+            "7",
+            "6",
+            "10"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1025,10 +1025,10 @@
           "soru": "Aşağıdakilerden hangisi sesli harftir?",
           "dogruCevap": "ü",
           "secenekler": [
-            "ü",
+            "s",
             "t",
-            "k",
-            "s"
+            "ü",
+            "k"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1050,9 +1050,9 @@
           "dogruCevap": "m",
           "secenekler": [
             "ı",
-            "e",
             "a",
-            "m"
+            "m",
+            "e"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1073,10 +1073,10 @@
           "soru": "Türkçe alfabenin ilk harfi hangisidir?",
           "dogruCevap": "a",
           "secenekler": [
-            "ı",
             "a",
+            "e",
             "b",
-            "e"
+            "ı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1096,10 +1096,10 @@
           "soru": "Türkçe alfabenin son harfi hangisidir?",
           "dogruCevap": "z",
           "secenekler": [
-            "w",
-            "y",
             "z",
-            "x"
+            "x",
+            "y",
+            "w"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1119,10 +1119,10 @@
           "soru": "Türkçeye özgü harflerden hangisi doğrudur?",
           "dogruCevap": "ğ",
           "secenekler": [
-            "w",
-            "q",
+            "ğ",
             "x",
-            "ğ"
+            "w",
+            "q"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1146,9 +1146,9 @@
           "dogruCevap": "d",
           "secenekler": [
             "b",
+            "d",
             "c",
-            "e",
-            "d"
+            "e"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1168,10 +1168,10 @@
           "soru": "\"elma\" kelimesinin ilk harfi hangisidir?",
           "dogruCevap": "e",
           "secenekler": [
-            "e",
+            "l",
             "a",
             "m",
-            "l"
+            "e"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1188,10 +1188,10 @@
           "soru": "\"kedi\" kelimesinin son harfi hangisidir?",
           "dogruCevap": "i",
           "secenekler": [
-            "i",
             "d",
+            "k",
             "e",
-            "k"
+            "i"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1208,8 +1208,8 @@
           "soru": "Türkçe alfabede olmayan harf hangisidir?",
           "dogruCevap": "w",
           "secenekler": [
-            "w",
             "y",
+            "w",
             "z",
             "v"
           ],
@@ -1231,9 +1231,9 @@
           "soru": "Türkçe alfabede olmayan harf hangisidir?",
           "dogruCevap": "x",
           "secenekler": [
+            "ç",
             "x",
             "ş",
-            "ç",
             "z"
           ],
           "ipucu": "",
@@ -1254,10 +1254,10 @@
           "soru": "\"okul\" kelimesinde kaç harf vardır?",
           "dogruCevap": "4",
           "secenekler": [
-            "5",
-            "3",
             "6",
-            "4"
+            "4",
+            "3",
+            "5"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1275,9 +1275,9 @@
           "dogruCevap": "n",
           "secenekler": [
             "n",
-            "m",
+            "o",
             "l",
-            "o"
+            "m"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1297,10 +1297,10 @@
           "soru": "Büyük \"A\" harfinin küçük hali hangisidir?",
           "dogruCevap": "a",
           "secenekler": [
+            "e",
             "i",
-            "ı",
             "a",
-            "e"
+            "ı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1320,10 +1320,10 @@
           "soru": "\"ö\" harfi hangi gruba girer?",
           "dogruCevap": "sesli",
           "secenekler": [
-            "sesli",
-            "yok",
+            "özel",
             "sessiz",
-            "özel"
+            "sesli",
+            "yok"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1342,10 +1342,10 @@
           "soru": "\"ş\" harfi hangi gruba girer?",
           "dogruCevap": "sessiz",
           "secenekler": [
-            "sesli",
+            "sessiz",
             "yok",
-            "özel",
-            "sessiz"
+            "sesli",
+            "özel"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1364,10 +1364,10 @@
           "soru": "\"araba\" kelimesinde kaç harf vardır?",
           "dogruCevap": "5",
           "secenekler": [
-            "6",
-            "7",
             "4",
-            "5"
+            "5",
+            "6",
+            "7"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1386,8 +1386,8 @@
           "secenekler": [
             "küçük",
             "büyük",
-            "sesli",
-            "sessiz"
+            "sessiz",
+            "sesli"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1403,10 +1403,10 @@
           "soru": "Özel isimler hangi harfle yazılır?",
           "dogruCevap": "büyük",
           "secenekler": [
-            "küçük",
-            "büyük",
             "sesli",
-            "sessiz"
+            "büyük",
+            "sessiz",
+            "küçük"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1422,10 +1422,10 @@
           "soru": "\"ı\" harfi sesli midir?",
           "dogruCevap": "evet",
           "secenekler": [
-            "hayır",
             "evet",
-            "bazen",
-            "bilinmez"
+            "hayır",
+            "bilinmez",
+            "bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1444,10 +1444,10 @@
           "soru": "\"ğ\" harfi tek başına hece olabilir mi?",
           "dogruCevap": "hayır",
           "secenekler": [
-            "hayır",
             "evet",
+            "bazen",
             "her zaman",
-            "bazen"
+            "hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1466,10 +1466,10 @@
           "soru": "Alfabede \"r\" harfinden önce hangi harf gelir?",
           "dogruCevap": "p",
           "secenekler": [
-            "s",
-            "o",
             "r",
-            "p"
+            "o",
+            "p",
+            "s"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1490,9 +1490,9 @@
           "dogruCevap": "ç",
           "secenekler": [
             "e",
-            "ç",
             "i",
-            "c"
+            "c",
+            "ç"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1509,10 +1509,10 @@
           "soru": "Türkçeye özgü harf sayısı kaçtır?",
           "dogruCevap": "6",
           "secenekler": [
+            "4",
             "5",
             "6",
-            "8",
-            "4"
+            "8"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1535,9 +1535,9 @@
           "soru": "\"defter\" kelimesinin son harfi hangisidir?",
           "dogruCevap": "r",
           "secenekler": [
-            "f",
-            "e",
             "r",
+            "e",
+            "f",
             "t"
           ],
           "ipucu": "",
@@ -1575,9 +1575,9 @@
           "soru": "Alfabede \"f\" harfinden sonra hangi harf gelir?",
           "dogruCevap": "g",
           "secenekler": [
-            "f",
             "g",
             "e",
+            "f",
             "ğ"
           ],
           "ipucu": "",
@@ -1618,10 +1618,10 @@
           "soru": "\"köpek\" kelimesinin son harfi hangisidir?",
           "dogruCevap": "k",
           "secenekler": [
-            "ö",
             "p",
+            "e",
             "k",
-            "e"
+            "ö"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1683,9 +1683,9 @@
           "dogruCevap": "4",
           "secenekler": [
             "4",
+            "6",
             "5",
-            "3",
-            "6"
+            "3"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1702,10 +1702,10 @@
           "soru": "Alfabede \"t\" harfinden sonra hangi harf gelir?",
           "dogruCevap": "u",
           "secenekler": [
-            "t",
-            "ş",
             "ü",
-            "u"
+            "ş",
+            "u",
+            "t"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1725,10 +1725,10 @@
           "soru": "\"kitap\" kelimesinin ilk harfi hangisidir?",
           "dogruCevap": "k",
           "secenekler": [
-            "t",
             "i",
+            "a",
             "k",
-            "a"
+            "t"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1746,9 +1746,9 @@
           "dogruCevap": "hayır",
           "secenekler": [
             "evet",
+            "sadece yabancı kelimelerde",
             "bazen",
-            "hayır",
-            "sadece yabancı kelimelerde"
+            "hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1769,8 +1769,8 @@
           "dogruCevap": "2",
           "secenekler": [
             "4",
-            "3",
             "1",
+            "3",
             "2"
           ],
           "ipucu": "",
@@ -1788,10 +1788,10 @@
           "soru": "Alfabede \"h\" harfinden sonra hangi harf gelir?",
           "dogruCevap": "ı",
           "secenekler": [
-            "ı",
             "i",
+            "h",
             "ğ",
-            "h"
+            "ı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1811,10 +1811,10 @@
           "soru": "\"çanta\" kelimesinde kaç harf vardır?",
           "dogruCevap": "5",
           "secenekler": [
-            "7",
             "5",
+            "4",
             "6",
-            "4"
+            "7"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1831,10 +1831,10 @@
           "soru": "\"b\" harfi hangi gruba girer?",
           "dogruCevap": "sessiz",
           "secenekler": [
-            "özel",
             "nötr",
+            "sessiz",
             "sesli",
-            "sessiz"
+            "özel"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1853,10 +1853,10 @@
           "soru": "\"pencere\" kelimesinin ilk harfi hangisidir?",
           "dogruCevap": "p",
           "secenekler": [
-            "n",
-            "e",
+            "c",
             "p",
-            "c"
+            "e",
+            "n"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1873,10 +1873,10 @@
           "soru": "\"sincap\" kelimesinin son harfi hangisidir?",
           "dogruCevap": "p",
           "secenekler": [
-            "a",
-            "p",
             "n",
-            "s"
+            "p",
+            "s",
+            "a"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1893,10 +1893,10 @@
           "soru": "\"tavşan\" kelimesinin ilk harfi hangisidir?",
           "dogruCevap": "t",
           "secenekler": [
+            "ş",
             "a",
             "v",
-            "t",
-            "ş"
+            "t"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1913,10 +1913,10 @@
           "soru": "\"bilgisayar\" kelimesinde kaç harf vardır?",
           "dogruCevap": "10",
           "secenekler": [
-            "8",
             "10",
+            "11",
             "9",
-            "11"
+            "8"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1933,10 +1933,10 @@
           "soru": "Aşağıdaki harflerden hangisi Türkçeye özgüdür?",
           "dogruCevap": "ı",
           "secenekler": [
-            "a",
+            "ı",
             "d",
             "b",
-            "ı"
+            "a"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1959,10 +1959,10 @@
           "soru": "Sesli harf sayısı ile sessiz harf sayısının toplamı kaçtır?",
           "dogruCevap": "29",
           "secenekler": [
+            "27",
             "29",
-            "21",
             "8",
-            "27"
+            "21"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2008,10 +2008,10 @@
           "soru": "\"gül\" kelimesinin son harfi hangisidir?",
           "dogruCevap": "l",
           "secenekler": [
-            "u",
-            "l",
             "ü",
-            "g"
+            "g",
+            "u",
+            "l"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2028,10 +2028,10 @@
           "soru": "Alfabede \"ğ\" harfinden önce hangi harf gelir?",
           "dogruCevap": "g",
           "secenekler": [
-            "g",
-            "f",
             "h",
-            "ğ"
+            "f",
+            "ğ",
+            "g"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2051,10 +2051,10 @@
           "soru": "Hangi harf hem sesli hem sessiz değildir — yani sessiz harftir?",
           "dogruCevap": "r",
           "secenekler": [
-            "a",
-            "e",
             "ı",
-            "r"
+            "a",
+            "r",
+            "e"
           ],
           "ipucu": "",
           "gorsel": {
@@ -2075,10 +2075,10 @@
           "soru": "Türkçe alfabede kaç sessiz harf vardır?",
           "dogruCevap": "21",
           "secenekler": [
+            "20",
             "22",
-            "19",
             "21",
-            "20"
+            "19"
           ],
           "ipucu": "",
           "gorsel": {

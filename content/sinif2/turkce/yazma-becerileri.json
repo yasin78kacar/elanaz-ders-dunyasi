@@ -415,9 +415,9 @@
       "soru": "Aşağıdakilerden hangisi tam bir cümledir?",
       "dogruCevap": "Ali okula gitti",
       "secenekler": [
-        "Güzel çiçek",
-        "Hızlı koşan",
         "Ali okula gitti",
+        "Hızlı koşan",
+        "Güzel çiçek",
         "Mavi gökyüzü"
       ],
       "ipucu": "",
@@ -439,10 +439,10 @@
       "soru": "\"Kedi süt içti. Kedi mutlu oldu.\" cümlelerini \"ve\" ile birleştir.",
       "dogruCevap": "Kedi süt içti ve mutlu oldu",
       "secenekler": [
-        "Kedi süt içti ve mutlu oldu",
         "Kedi ve süt içti",
-        "Kedi mutlu süt içti",
-        "Kedi süt içti, mutlu oldu"
+        "Kedi süt içti ve mutlu oldu",
+        "Kedi süt içti, mutlu oldu",
+        "Kedi mutlu süt içti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -459,10 +459,10 @@
       "soru": "Paragraf hangi özelliği taşır?",
       "dogruCevap": "Aynı konudaki cümleler topluluğudur",
       "secenekler": [
-        "Aynı konudaki cümleler topluluğudur",
         "Tek cümleden oluşur",
+        "Şiir gibi yazılır",
         "Her zaman 5 cümle içerir",
-        "Şiir gibi yazılır"
+        "Aynı konudaki cümleler topluluğudur"
       ],
       "ipucu": "",
       "gorsel": {
@@ -479,10 +479,10 @@
       "soru": "Hangi bağlaç neden-sonuç ilişkisi kurar?",
       "dogruCevap": "çünkü",
       "secenekler": [
-        "ile",
-        "ama",
+        "çünkü",
         "ve",
-        "çünkü"
+        "ama",
+        "ile"
       ],
       "ipucu": "",
       "gorsel": {
@@ -503,10 +503,10 @@
       "soru": "\"Hava soğuktu ___ palto giydim.\" Boşluğa hangi bağlaç gelir?",
       "dogruCevap": "çünkü",
       "secenekler": [
-        "ve",
-        "ama",
+        "veya",
         "çünkü",
-        "veya"
+        "ama",
+        "ve"
       ],
       "ipucu": "",
       "gorsel": {
@@ -523,9 +523,9 @@
       "soru": "Hikâye yazarken hangi sorular sorulur?",
       "dogruCevap": "Kim, nerede, ne yaptı",
       "secenekler": [
-        "Kaç, ne kadar, hangi",
         "Kim, nerede, ne yaptı",
         "Ne zaman, nerede, nasıl",
+        "Kaç, ne kadar, hangi",
         "Neden, nasıl, kim"
       ],
       "ipucu": "",
@@ -543,10 +543,10 @@
       "soru": "Şu paragrafın ana fikri nedir? \"Ağaçlar çok önemlidir. Hava temizler, gölge yapar, hayvanlar barınak bulur.\"",
       "dogruCevap": "Ağaçlar çok önemlidir",
       "secenekler": [
-        "Hayvanlar ağaçlarda yaşar",
-        "Ağaçlar güzeldir",
+        "Ağaçlar gölge yapar",
         "Ağaçlar çok önemlidir",
-        "Ağaçlar gölge yapar"
+        "Hayvanlar ağaçlarda yaşar",
+        "Ağaçlar güzeldir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -563,10 +563,10 @@
       "soru": "\"Ali koştu ama yorulmadı.\" cümlesinde \"ama\" ne işlevi görür?",
       "dogruCevap": "Zıtlık",
       "secenekler": [
-        "Sıralama",
+        "Ekleme",
         "Neden-sonuç",
-        "Zıtlık",
-        "Ekleme"
+        "Sıralama",
+        "Zıtlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -584,9 +584,9 @@
       "soru": "Cümleye sıfat eklemek ne işe yarar?",
       "dogruCevap": "Anlamı zenginleştirir",
       "secenekler": [
+        "Anlamı zenginleştirir",
         "Yüklemi kaldırır",
         "Özneyi değiştirir",
-        "Anlamı zenginleştirir",
         "Cümleyi kısaltır"
       ],
       "ipucu": "",
@@ -604,10 +604,10 @@
       "soru": "Hangisi paragrafın ilk cümlesi için doğrudur?",
       "dogruCevap": "Ana fikri içerir",
       "secenekler": [
-        "Her zaman soru cümlesidir",
         "Girintisiz başlar",
-        "Ana fikri içerir",
-        "En kısa cümledir"
+        "Her zaman soru cümlesidir",
+        "En kısa cümledir",
+        "Ana fikri içerir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -626,8 +626,8 @@
       "secenekler": [
         "ile",
         "çünkü",
-        "sonra",
-        "ama"
+        "ama",
+        "sonra"
       ],
       "ipucu": "",
       "gorsel": {
@@ -645,9 +645,9 @@
       "dogruCevap": "Kırmızı spor araba hızla geçti",
       "secenekler": [
         "Araba hızlı",
-        "Araba geçti",
         "Geçti araba",
-        "Kırmızı spor araba hızla geçti"
+        "Kırmızı spor araba hızla geçti",
+        "Araba geçti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -665,10 +665,10 @@
       "soru": "Hikâyenin başlangıcına ne yazılır?",
       "dogruCevap": "Kahraman ve yer tanıtımı",
       "secenekler": [
-        "Olay çözümü",
-        "Kahraman ve yer tanıtımı",
+        "Sonuç",
         "Ders",
-        "Sonuç"
+        "Olay çözümü",
+        "Kahraman ve yer tanıtımı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -686,8 +686,8 @@
       "dogruCevap": "Mehmet kitap okuyarak çok şey öğrendi",
       "secenekler": [
         "Mehmet kitap okudu çünkü çok şey öğrendi",
-        "Mehmet okuyunca şey öğrendi",
         "Mehmet kitap okuyarak çok şey öğrendi",
+        "Mehmet okuyunca şey öğrendi",
         "Mehmet ve kitap okudu"
       ],
       "ipucu": "",
@@ -705,8 +705,8 @@
       "soru": "Yazarken en önemli şey nedir?",
       "dogruCevap": "Düşünceleri açık ve anlaşılır ifade etmek",
       "secenekler": [
-        "Uzun yazmak",
         "Düşünceleri açık ve anlaşılır ifade etmek",
+        "Uzun yazmak",
         "Çok noktalama kullanmak",
         "Güzel el yazısı"
       ],
@@ -746,10 +746,10 @@
       "soru": "Paragrafta kaç ana fikir olur?",
       "dogruCevap": "Bir",
       "secenekler": [
+        "İki",
         "Üç",
         "Bir",
-        "Beş",
-        "İki"
+        "Beş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -766,10 +766,10 @@
       "soru": "Hangi cümle zıtlık bildiren bağlaç içerir?",
       "dogruCevap": "Hava soğuktu ama dışarı çıktım",
       "secenekler": [
-        "Önce geldi sonra gitti",
-        "Ali geldi ve gitti",
+        "Hava soğuktu ama dışarı çıktım",
         "Ali ile Ayşe geldi",
-        "Hava soğuktu ama dışarı çıktım"
+        "Ali geldi ve gitti",
+        "Önce geldi sonra gitti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -787,10 +787,10 @@
       "soru": "Resmi anlatırken ne yapılır?",
       "dogruCevap": "Resimdeki varlıkları ve olayları cümlelerle anlatırız",
       "secenekler": [
-        "Resmin renklerini sayarız",
-        "Resimdeki varlıkları ve olayları cümlelerle anlatırız",
         "Resmi kopyalarız",
-        "Resmi kesip yapıştırırız"
+        "Resimdeki varlıkları ve olayları cümlelerle anlatırız",
+        "Resmi kesip yapıştırırız",
+        "Resmin renklerini sayarız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -807,9 +807,9 @@
       "soru": "\"Fatma ___ çünkü hava yağmurluydu.\" Boşluğa ne gelebilir?",
       "dogruCevap": "şemsiye aldı",
       "secenekler": [
-        "güneşlendi",
         "şemsiye aldı",
         "güldü",
+        "güneşlendi",
         "yüzdü"
       ],
       "ipucu": "",
@@ -827,10 +827,10 @@
       "soru": "İyi bir hikâyede ne olmaz?",
       "dogruCevap": "Anlamsız cümleler",
       "secenekler": [
+        "Olay",
         "Kahraman",
         "Anlamsız cümleler",
-        "Yer",
-        "Olay"
+        "Yer"
       ],
       "ipucu": "",
       "gorsel": {
@@ -850,8 +850,8 @@
       "secenekler": [
         "Özneyi silme",
         "Yüklemi öne alma",
-        "Sıfat ve zarf ekleme",
-        "Daha fazla nokta"
+        "Daha fazla nokta",
+        "Sıfat ve zarf ekleme"
       ],
       "ipucu": "",
       "gorsel": {
@@ -869,9 +869,9 @@
       "dogruCevap": "Başlangıç",
       "secenekler": [
         "Başlangıç",
+        "Her yerine",
         "Orta",
-        "Sonuç",
-        "Her yerine"
+        "Sonuç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -888,10 +888,10 @@
       "soru": "Paragraf girintili neden başlar?",
       "dogruCevap": "Yeni bir konuya geçildiğini göstermek için",
       "secenekler": [
-        "Yeni bir konuya geçildiğini göstermek için",
         "Öğretmen istediği için",
-        "Güzel göründüğü için",
-        "Kural böyle olmadığı için"
+        "Kural böyle olmadığı için",
+        "Yeni bir konuya geçildiğini göstermek için",
+        "Güzel göründüğü için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -909,10 +909,10 @@
       "soru": "Hangi başlık aşağıdaki hikâyeye en uygun düşer? \"Küçük kedi kayboldu. Onu iyi kalpli bir çocuk buldu ve eve götürdü.\"",
       "dogruCevap": "Kayıp Kedi",
       "secenekler": [
-        "Büyük Köpek",
         "Orman Macerası",
+        "Yağmurlu Gün",
         "Kayıp Kedi",
-        "Yağmurlu Gün"
+        "Büyük Köpek"
       ],
       "ipucu": "",
       "gorsel": {

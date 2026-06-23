@@ -69,7 +69,6 @@ import { sesBilgisi } from './gorev-turkce-tema2-questions.mjs';
 import { kelimeYazma } from './gorev-turkce-tema3-questions.mjs';
 import { okuma } from './gorev-turkce-tema4-questions.mjs';
 import { anlam } from './gorev-turkce-tema5-questions.mjs';
-import { cumle } from './gorev-turkce-tema6-questions.mjs';
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
@@ -472,7 +471,6 @@ const sesBilgisiKonu = sesBilgisi(karistir);
 const kelimeYazmaKonu = kelimeYazma(karistir);
 const okumaKonu = okuma(karistir);
 const anlamKonu = anlam(karistir);
-const cumleKonu = cumle(karistir);
 const seslerVeHecelerKonu = seslerVeHeceler(karistir);
 const kelimeBilgisiKonu = kelimeBilgisi(karistir);
 const okumaAnlamaKonu = okumaAnlama(karistir);
@@ -483,7 +481,6 @@ writeFileSync(join(turkceDir, 'ses-bilgisi.json'), JSON.stringify(sesBilgisiKonu
 writeFileSync(join(turkceDir, 'kelime-yazma.json'), JSON.stringify(kelimeYazmaKonu, null, 2));
 writeFileSync(join(turkceDir, 'okuma.json'), JSON.stringify(okumaKonu, null, 2));
 writeFileSync(join(turkceDir, 'anlam.json'), JSON.stringify(anlamKonu, null, 2));
-writeFileSync(join(turkceDir, 'cumle.json'), JSON.stringify(cumleKonu, null, 2));
 writeFileSync(join(turkceDir, 'sesler-ve-heceler.json'), JSON.stringify(seslerVeHecelerKonu, null, 2));
 writeFileSync(join(turkceDir, 'kelime-bilgisi.json'), JSON.stringify(kelimeBilgisiKonu, null, 2));
 writeFileSync(join(turkceDir, 'okuma-anlama.json'), JSON.stringify(okumaAnlamaKonu, null, 2));
@@ -795,13 +792,6 @@ const turTema5 = {
 };
 writeFileSync(join(turkceDataDir, 'tema5.json'), JSON.stringify(turTema5, null, 2));
 
-const turTema6 = {
-  id: 'tema-6',
-  baslik: 'Türkçe — Tema 6 — Cümle',
-  konular: [cumleKonu],
-};
-writeFileSync(join(turkceDataDir, 'tema6.json'), JSON.stringify(turTema6, null, 2));
-
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -855,14 +845,7 @@ const index = {
         },
         {
           id: 'tema-6',
-          baslik: 'Türkçe — Tema 6 — Cümle',
-          konuDosyalari: [
-            'turkce/cumle.json',
-          ],
-        },
-        {
-          id: 'tema-7',
-          baslik: 'Türkçe — Tema 7 — Metin Türleri',
+          baslik: 'Türkçe — Tema 6 — Metin Türleri',
           konuDosyalari: [
             'turkce/hikaye-metni.json',
             'turkce/siir.json',
@@ -870,31 +853,33 @@ const index = {
           ],
         },
         {
-          id: 'tema-8',
-          baslik: 'Türkçe — Tema 8 — Dinleme ve İletişim',
+          id: 'tema-7',
+          baslik: 'Türkçe — Tema 7 — Yazma ve İletişim',
           konuDosyalari: [
+            'turkce/yazma-becerileri.json',
             'turkce/dinleme-ve-konusma.json',
+            'turkce/sozcuk-ve-dil-bilgisi.json',
           ],
         },
         {
-          id: 'tema-9',
-          baslik: 'Türkçe — Tema 9 — İleri Anlama ve Yazma',
+          id: 'tema-8',
+          baslik: 'Türkçe — Tema 8 — İleri Anlama ve Yazma',
           konuDosyalari: [
             'turkce/metin-anlama-ve-yorumlama.json',
             'turkce/yazma-ve-anlatim-ileri.json',
           ],
         },
         {
-          id: 'tema-10',
-          baslik: 'Türkçe — Tema 10 — Yazı Türleri',
+          id: 'tema-9',
+          baslik: 'Türkçe — Tema 9 — Yazı Türleri',
           konuDosyalari: [
             'turkce/yaz-turu-hikaye.json',
             'turkce/yaz-turu-siir.json',
           ],
         },
         {
-          id: 'tema-11',
-          baslik: 'Türkçe — Tema 11 — Olay Sırası',
+          id: 'tema-10',
+          baslik: 'Türkçe — Tema 10 — Olay Sırası',
           konuDosyalari: [
             'turkce/olay-sirasi-metin.json',
             'turkce/olay-sirasi-zaman.json',
