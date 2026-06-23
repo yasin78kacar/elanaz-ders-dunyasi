@@ -249,9 +249,9 @@
       "dogruCevap": "Sokakta",
       "secenekler": [
         "Sokakta",
+        "Okulda",
         "Parkta",
-        "Evde",
-        "Okulda"
+        "Evde"
       ],
       "ipucu": "",
       "gorsel": {
@@ -270,9 +270,9 @@
       "dogruCevap": "Ayağı incinmişti",
       "secenekler": [
         "Aç kalmıştı",
-        "Hasta görünüyordu",
         "Kaybolmuştu",
-        "Ayağı incinmişti"
+        "Ayağı incinmişti",
+        "Hasta görünüyordu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -290,8 +290,8 @@
       "soru": "Fatma ilk ne yaptı?",
       "dogruCevap": "Annesini çağırdı",
       "secenekler": [
-        "Ağladı",
         "Hastaneye gitti",
+        "Ağladı",
         "Annesini çağırdı",
         "Kediyi aldı"
       ],
@@ -311,10 +311,10 @@
       "soru": "Doktor ne yaptı?",
       "dogruCevap": "Muayene edip ayağını sardı",
       "secenekler": [
-        "Kediyi eve gönderdi",
-        "Muayene edip ayağını sardı",
+        "Kediyi bıraktı",
         "Ameliyat etti",
-        "Kediyi bıraktı"
+        "Muayene edip ayağını sardı",
+        "Kediyi eve gönderdi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -332,10 +332,10 @@
       "soru": "Bu metnin ana fikri nedir?",
       "dogruCevap": "Hayvanlara yardım etmek önemlidir",
       "secenekler": [
-        "Fatma kedi seviyor",
-        "Hayvanlara yardım etmek önemlidir",
+        "Doktorlar iyidir",
         "Kediler hastaneye gitmeli",
-        "Doktorlar iyidir"
+        "Fatma kedi seviyor",
+        "Hayvanlara yardım etmek önemlidir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -355,8 +355,8 @@
       "secenekler": [
         "Her yaz",
         "Her Mart",
-        "Her kış",
-        "Her Ekim"
+        "Her Ekim",
+        "Her kış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -374,9 +374,9 @@
       "soru": "Bu yıl ne diktiler?",
       "dogruCevap": "Elma ağacı",
       "secenekler": [
-        "Erik ağacı",
-        "Armut ağacı",
         "Kiraz ağacı",
+        "Armut ağacı",
+        "Erik ağacı",
         "Elma ağacı"
       ],
       "ipucu": "",
@@ -396,8 +396,8 @@
       "dogruCevap": "Sulama",
       "secenekler": [
         "Hasat etme",
-        "Budama",
         "Gübreleme",
+        "Budama",
         "Sulama"
       ],
       "ipucu": "",
@@ -416,10 +416,10 @@
       "soru": "Babanın \"büyüyünce elma yiyeceğiz\" demesi neyi gösterir?",
       "dogruCevap": "Sabırlı olmak gerektiğini",
       "secenekler": [
-        "Şu an elma var",
         "Ağacın küçük olduğunu",
-        "Elma sevdikleri",
-        "Sabırlı olmak gerektiğini"
+        "Sabırlı olmak gerektiğini",
+        "Şu an elma var",
+        "Elma sevdikleri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -438,10 +438,10 @@
       "soru": "Bu metnin ana fikri nedir?",
       "dogruCevap": "Emek ve sabırla güzel sonuçlar alınır",
       "secenekler": [
-        "Elma çok lezzetlidir",
-        "Babalar çocuklarıyla vakit geçirmeli",
         "Mart'ta hava güzeldir",
-        "Emek ve sabırla güzel sonuçlar alınır"
+        "Babalar çocuklarıyla vakit geçirmeli",
+        "Emek ve sabırla güzel sonuçlar alınır",
+        "Elma çok lezzetlidir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -459,10 +459,10 @@
       "soru": "Zeynep neden yalnız oturdu?",
       "dogruCevap": "Kimseyi tanımıyordu",
       "secenekler": [
+        "Yorgundu",
         "Kimseyi tanımıyordu",
         "Oyun istemedi",
-        "Hasta hissetti",
-        "Yorgundu"
+        "Hasta hissetti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -501,10 +501,10 @@
       "soru": "Zeynep neden çok sevindi?",
       "dogruCevap": "Biri onunla arkadaş olmak istedi",
       "secenekler": [
-        "Eve gidecekti",
-        "Biri onunla arkadaş olmak istedi",
         "Teneffüs uzundu",
-        "Yeni okul güzeldi"
+        "Yeni okul güzeldi",
+        "Biri onunla arkadaş olmak istedi",
+        "Eve gidecekti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -523,10 +523,10 @@
       "soru": "Selin nasıl biri olarak gösteriliyor?",
       "dogruCevap": "Yardımsever ve nazik",
       "secenekler": [
-        "Gürültücü",
         "Yardımsever ve nazik",
-        "Utangaç",
-        "Bencil"
+        "Gürültücü",
+        "Bencil",
+        "Utangaç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -545,9 +545,9 @@
       "dogruCevap": "Arkadaşlık güzel bir duygudur",
       "secenekler": [
         "Yeni okul zordur",
+        "Yeni çocuklar sevilmez",
         "Teneffüste oyun oynanır",
-        "Arkadaşlık güzel bir duygudur",
-        "Yeni çocuklar sevilmez"
+        "Arkadaşlık güzel bir duygudur"
       ],
       "ipucu": "",
       "gorsel": {
@@ -587,9 +587,9 @@
       "dogruCevap": "Okul tatil oldu",
       "secenekler": [
         "Annesi çağırdı",
-        "Korktu",
+        "Düştü",
         "Okul tatil oldu",
-        "Düştü"
+        "Korktu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -628,9 +628,9 @@
       "soru": "\"Elleri dondu ama gülümsedi\" cümlesi ne anlama gelir?",
       "dogruCevap": "Üşümesine rağmen mutluydu",
       "secenekler": [
+        "Soğuktan ağladı",
         "Üşümesine rağmen mutluydu",
         "Eve girdi",
-        "Soğuktan ağladı",
         "Ellerini ısıttı"
       ],
       "ipucu": "",
@@ -650,10 +650,10 @@
       "soru": "Berk neden \"Bu günü unutmam\" dedi?",
       "dogruCevap": "Kar tatilinden çok keyif aldı",
       "secenekler": [
-        "Kar tatilinden çok keyif aldı",
+        "Okul çok iyiydi",
         "Kötü bir gün geçirdi",
-        "Çorbayı beğenmedi",
-        "Okul çok iyiydi"
+        "Kar tatilinden çok keyif aldı",
+        "Çorbayı beğenmedi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -673,9 +673,9 @@
       "dogruCevap": "Her gece yatmadan önce",
       "secenekler": [
         "Sabahları",
+        "Her gece yatmadan önce",
         "Okulda",
-        "Teneffüste",
-        "Her gece yatmadan önce"
+        "Teneffüste"
       ],
       "ipucu": "",
       "gorsel": {
@@ -694,9 +694,9 @@
       "dogruCevap": "Işığı kapat, uyu",
       "secenekler": [
         "Kitap oku",
-        "Erken kalk",
         "Işığı kapat, uyu",
-        "Yemek ye"
+        "Yemek ye",
+        "Erken kalk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -714,9 +714,9 @@
       "soru": "Öğretmen ne dedi?",
       "dogruCevap": "Hande sınıfın en çok kitap okuyanı",
       "secenekler": [
-        "Hande sınıfın en çok kitap okuyanı",
-        "Hande akıllı",
         "Hande çok çalışkan",
+        "Hande akıllı",
+        "Hande sınıfın en çok kitap okuyanı",
         "Hande birinci"
       ],
       "ipucu": "",
@@ -735,10 +735,10 @@
       "soru": "\"Hande kızardı\" ifadesi ne anlama gelir?",
       "dogruCevap": "Utandı/heyecanlandı",
       "secenekler": [
-        "Güldü",
         "Ağladı",
-        "Sinirlendi",
-        "Utandı/heyecanlandı"
+        "Güldü",
+        "Utandı/heyecanlandı",
+        "Sinirlendi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -759,8 +759,8 @@
       "secenekler": [
         "Okulu sevmiyor",
         "Öğretmenini tanımıyor",
-        "Annesiyle anlaşamıyor",
-        "Kitap okumayı çok seviyor"
+        "Kitap okumayı çok seviyor",
+        "Annesiyle anlaşamıyor"
       ],
       "ipucu": "",
       "gorsel": {

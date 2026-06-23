@@ -860,8 +860,8 @@
       "soru": "Aşağıdakilerden hangisi ana renktir?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Turuncu",
         "Yeşil",
+        "Turuncu",
         "Mavi",
         "Mor"
       ],
@@ -880,9 +880,9 @@
       "dogruCevap": "Mor",
       "secenekler": [
         "Yeşil",
+        "Kahverengi",
         "Mor",
-        "Turuncu",
-        "Kahverengi"
+        "Turuncu"
       ],
       "ipucu": "İki ana rengin karışımı.",
       "gorsel": {
@@ -898,10 +898,10 @@
       "soru": "Hangisi sıcak renk grubundadır?",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Mor",
-        "Turuncu",
+        "Mavi",
         "Yeşil",
-        "Mavi"
+        "Turuncu",
+        "Mor"
       ],
       "ipucu": "Güneş ve ateş renkleri.",
       "gorsel": {
@@ -917,10 +917,10 @@
       "soru": "Hangisi soğuk renk grubundadır?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Turuncu",
-        "Mavi",
         "Sarı",
-        "Kırmızı"
+        "Mavi",
+        "Kırmızı",
+        "Turuncu"
       ],
       "ipucu": "Deniz ve gökyüzü.",
       "gorsel": {
@@ -938,8 +938,8 @@
       "secenekler": [
         "Palet",
         "Cetvel",
-        "Makas",
-        "Silgi"
+        "Silgi",
+        "Makas"
       ],
       "ipucu": "Boya karıştırma tahtası.",
       "gorsel": {
@@ -955,10 +955,10 @@
       "soru": "Sulu boya resmi için hangi malzeme gereklidir?",
       "dogruCevap": "Su ve fırça",
       "secenekler": [
-        "Su ve fırça",
-        "Makas",
+        "Çekiç",
         "Sadece kalem",
-        "Çekiç"
+        "Makas",
+        "Su ve fırça"
       ],
       "ipucu": "Boya inceltmek için.",
       "gorsel": {
@@ -975,9 +975,9 @@
       "dogruCevap": "Kolaj",
       "secenekler": [
         "Heykel",
-        "Ebru",
+        "Minyatür",
         "Kolaj",
-        "Minyatür"
+        "Ebru"
       ],
       "ipucu": "Yapıştırma sanatı.",
       "gorsel": {
@@ -994,9 +994,9 @@
       "dogruCevap": "Heykel",
       "secenekler": [
         "Heykel",
-        "Fotoğraf",
         "Resim",
-        "Çizim"
+        "Çizim",
+        "Fotoğraf"
       ],
       "ipucu": "Yükseklik de vardır.",
       "gorsel": {
@@ -1012,10 +1012,10 @@
       "soru": "Su üzerine boya dökerek yapılan Türk sanatı hangisidir?",
       "dogruCevap": "Ebru",
       "secenekler": [
-        "Grafiti",
-        "Kolaj",
+        "Origami",
         "Ebru",
-        "Origami"
+        "Grafiti",
+        "Kolaj"
       ],
       "ipucu": "Su üstü boyama.",
       "gorsel": {
@@ -1031,10 +1031,10 @@
       "soru": "Cami duvarlarını süsleyen geleneksel sanat hangisidir?",
       "dogruCevap": "Çini",
       "secenekler": [
-        "Origami",
         "Kolaj",
-        "Çini",
-        "Grafiti"
+        "Origami",
+        "Grafiti",
+        "Çini"
       ],
       "ipucu": "Mavi-beyaz süsleme.",
       "gorsel": {
@@ -1052,8 +1052,8 @@
       "secenekler": [
         "Eserler çok küçüktür",
         "Eserler bozulabilir",
-        "Eserler çok ağırdır",
-        "Eserler ıslaktır"
+        "Eserler ıslaktır",
+        "Eserler çok ağırdır"
       ],
       "ipucu": "Koruma kuralı.",
       "gorsel": {
@@ -1069,9 +1069,9 @@
       "soru": "Resimde yatay çizgiler genellikle ne hissi verir?",
       "dogruCevap": "Sakinlik",
       "secenekler": [
-        "Korku",
-        "Öfke",
         "Hız",
+        "Öfke",
+        "Korku",
         "Sakinlik"
       ],
       "ipucu": "Düz çizgiler.",
@@ -1088,10 +1088,10 @@
       "soru": "Daire formu genellikle neyi simgeler?",
       "dogruCevap": "Birlik ve dostluk",
       "secenekler": [
-        "Birlik ve dostluk",
+        "Korku",
         "Karanlık",
         "Hız",
-        "Korku"
+        "Birlik ve dostluk"
       ],
       "ipucu": "Yuvarlak formlar.",
       "gorsel": {
@@ -1107,10 +1107,10 @@
       "soru": "Hangisi ara renktir?",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Kırmızı",
+        "Mavi",
         "Turuncu",
         "Sarı",
-        "Mavi"
+        "Kırmızı"
       ],
       "ipucu": "Ana renklerin karışımı.",
       "gorsel": {
@@ -1126,9 +1126,9 @@
       "soru": "Beyaz renk tüm renkleri üzerinde toplar mı?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Evet",
         "Sadece kırmızıyla",
         "Sadece siyahla",
-        "Evet",
         "Hayır"
       ],
       "ipucu": "Işık birleşimi.",
@@ -1146,9 +1146,9 @@
       "dogruCevap": "Fırça veya parmakla",
       "secenekler": [
         "Makasla",
-        "Çekiçle",
+        "Fırça veya parmakla",
         "Sadece suyla",
-        "Fırça veya parmakla"
+        "Çekiçle"
       ],
       "ipucu": "Yumuşak boya.",
       "gorsel": {
@@ -1164,10 +1164,10 @@
       "soru": "Kil ile yapılan çömlek hangi sanat dalına girer?",
       "dogruCevap": "Seramik",
       "secenekler": [
+        "Ebru",
         "Seramik",
         "Minyatür",
-        "Resim",
-        "Ebru"
+        "Resim"
       ],
       "ipucu": "Kil şekillendirme.",
       "gorsel": {
@@ -1183,9 +1183,9 @@
       "soru": "Halı dokumak hangi sanat türüdür?",
       "dogruCevap": "El sanatları",
       "secenekler": [
+        "Grafiti",
         "Fotoğraf",
         "El sanatları",
-        "Grafiti",
         "Heykel"
       ],
       "ipucu": "Geleneksel dokuma.",
@@ -1202,8 +1202,8 @@
       "soru": "Resimde ön plandaki nesneler nasıl görünür?",
       "dogruCevap": "Daha büyük",
       "secenekler": [
-        "Görünmez",
         "Daha soluk",
+        "Görünmez",
         "Daha büyük",
         "Daha küçük"
       ],
@@ -1221,9 +1221,9 @@
       "soru": "Natürmort resminde genellikle ne çizilir?",
       "dogruCevap": "Cansız nesneler",
       "secenekler": [
+        "Hareketli hayvanlar",
         "Sadece binalar",
         "Cansız nesneler",
-        "Hareketli hayvanlar",
         "Sadece insanlar"
       ],
       "ipucu": "Meyve, vazo örneği.",
@@ -1240,8 +1240,8 @@
       "soru": "Kağıt katlayarak kuş yapmak hangi sanattır?",
       "dogruCevap": "Origami",
       "secenekler": [
-        "Grafiti",
         "Kolaj",
+        "Grafiti",
         "Origami",
         "Ebru"
       ],
@@ -1259,10 +1259,10 @@
       "soru": "Hangisi yanlıştır?",
       "dogruCevap": "Mavi ve sarı karışınca mor olur",
       "secenekler": [
+        "Kırmızı ve sarı turuncu yapar",
         "Beyaz renkleri açar",
         "Mavi ve sarı karışınca mor olur",
-        "Mavi ve kırmızı mor yapar",
-        "Kırmızı ve sarı turuncu yapar"
+        "Mavi ve kırmızı mor yapar"
       ],
       "ipucu": "Mavi+sarı=yeşil!",
       "gorsel": {
@@ -1279,10 +1279,10 @@
       "soru": "Resim sergisinde eserler nerede gösterilir?",
       "dogruCevap": "Pano veya duvar",
       "secenekler": [
-        "Suda",
+        "Pano veya duvar",
         "Toprakta",
-        "Yerde",
-        "Pano veya duvar"
+        "Suda",
+        "Yerde"
       ],
       "ipucu": "Sergileme alanı.",
       "gorsel": {
@@ -1298,10 +1298,10 @@
       "soru": "Manzara resmi neyi gösterir?",
       "dogruCevap": "Doğa görüntüleri",
       "secenekler": [
+        "Doğa görüntüleri",
         "Sadece yazı",
         "Sadece sayılar",
-        "Sadece insan yüzü",
-        "Doğa görüntüleri"
+        "Sadece insan yüzü"
       ],
       "ipucu": "Dağ, deniz, orman.",
       "gorsel": {
@@ -1317,9 +1317,9 @@
       "soru": "Portre resmi neyi gösterir?",
       "dogruCevap": "Bir kişinin yüzü",
       "secenekler": [
-        "Sadece bina",
-        "Sadece araba",
         "Bir kişinin yüzü",
+        "Sadece araba",
+        "Sadece bina",
         "Sadece hayvan"
       ],
       "ipucu": "Yüz çizimi.",
@@ -1336,9 +1336,9 @@
       "soru": "Sarı ve mavi karışınca hangi renk oluşur?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Yeşil",
-        "Mor",
         "Pembe",
+        "Mor",
+        "Yeşil",
         "Turuncu"
       ],
       "ipucu": "Yaprak rengi.",
@@ -1355,10 +1355,10 @@
       "soru": "Kırmızı ve sarı karışınca hangi renk oluşur?",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Mor",
-        "Yeşil",
         "Mavi",
-        "Turuncu"
+        "Yeşil",
+        "Turuncu",
+        "Mor"
       ],
       "ipucu": "Portakal rengi.",
       "gorsel": {
@@ -1374,10 +1374,10 @@
       "soru": "Hangisi resim malzemesi değildir?",
       "dogruCevap": "Çekiç",
       "secenekler": [
-        "Fırça",
+        "Boya",
         "Kağıt",
-        "Çekiç",
-        "Boya"
+        "Fırça",
+        "Çekiç"
       ],
       "ipucu": "Ağır alet.",
       "gorsel": {
@@ -1393,10 +1393,10 @@
       "soru": "Simetri ne demektir?",
       "dogruCevap": "İki taraf birbirinin aynı",
       "secenekler": [
-        "Rastgele çizim",
         "İki taraf birbirinin aynı",
-        "Sadece siyah-beyaz",
-        "Sadece tek renk"
+        "Sadece tek renk",
+        "Rastgele çizim",
+        "Sadece siyah-beyaz"
       ],
       "ipucu": "Kelebek kanatları.",
       "gorsel": {
@@ -1412,10 +1412,10 @@
       "soru": "Açık tonlar mekânda ne hissi verir?",
       "dogruCevap": "Genişlik",
       "secenekler": [
-        "Darlık",
-        "Karanlık",
+        "Genişlik",
         "Korku",
-        "Genişlik"
+        "Karanlık",
+        "Darlık"
       ],
       "ipucu": "Aydınlık alan.",
       "gorsel": {
@@ -1433,8 +1433,8 @@
       "secenekler": [
         "Boşluk",
         "Gürültü",
-        "Hız",
-        "Derinlik"
+        "Derinlik",
+        "Hız"
       ],
       "ipucu": "Gölge alanları.",
       "gorsel": {
@@ -1469,10 +1469,10 @@
       "soru": "Grafiti genellikle nerede yapılır?",
       "dogruCevap": "Duvarlarda",
       "secenekler": [
-        "Duvarlarda",
-        "Toprakta",
         "Havada",
-        "Suda"
+        "Duvarlarda",
+        "Suda",
+        "Toprakta"
       ],
       "ipucu": "Sokak sanatı.",
       "gorsel": {
@@ -1488,10 +1488,10 @@
       "soru": "Resim yaparken önlük giymek neden önemlidir?",
       "dogruCevap": "Kıyafeti korur",
       "secenekler": [
-        "Kıyafeti korur",
         "Daha hızlı boyar",
         "Renkleri karıştırır",
-        "Fırçayı keser"
+        "Fırçayı keser",
+        "Kıyafeti korur"
       ],
       "ipucu": "Temizlik.",
       "gorsel": {
@@ -1507,10 +1507,10 @@
       "soru": "Tuval nedir?",
       "dogruCevap": "Resim yapılan kumaş",
       "secenekler": [
-        "Spor topu",
         "Müzik aleti",
+        "Resim yapılan kumaş",
         "Yemek tabağı",
-        "Resim yapılan kumaş"
+        "Spor topu"
       ],
       "ipucu": "Boyama yüzeyi.",
       "gorsel": {
@@ -1526,10 +1526,10 @@
       "soru": "Kompozisyon ne demektir?",
       "dogruCevap": "Nesnelerin düzeni",
       "secenekler": [
-        "Nesnelerin düzeni",
-        "Sadece renk adı",
         "Bir hayvan adı",
-        "Bir yemek adı"
+        "Bir yemek adı",
+        "Sadece renk adı",
+        "Nesnelerin düzeni"
       ],
       "ipucu": "Yerleşim planı.",
       "gorsel": {
@@ -1545,10 +1545,10 @@
       "soru": "Hangisi soğuk renk örneğidir?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Turuncu",
+        "Sarı",
         "Kırmızı",
         "Yeşil",
-        "Sarı"
+        "Turuncu"
       ],
       "ipucu": "Doğa ve sakinlik.",
       "gorsel": {
@@ -1564,10 +1564,10 @@
       "soru": "Hangisi sıcak renk örneğidir?",
       "dogruCevap": "Kırmızı",
       "secenekler": [
-        "Mavi",
         "Yeşil",
         "Kırmızı",
-        "Mor"
+        "Mor",
+        "Mavi"
       ],
       "ipucu": "Ateş ve güneş.",
       "gorsel": {
@@ -1583,10 +1583,10 @@
       "soru": "Parmak boyası ile resim yapılır mı?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece kışın",
+        "Evet",
         "Sadece gece",
         "Hayır",
-        "Evet"
+        "Sadece kışın"
       ],
       "ipucu": "Serbest teknik.",
       "gorsel": {
@@ -1602,10 +1602,10 @@
       "soru": "Çizgi çalışması resim için neden önemlidir?",
       "dogruCevap": "Temel oluşturur",
       "secenekler": [
-        "Kağıdı yırtar",
         "Temel oluşturur",
-        "Boya bitirir",
-        "Gereksizdir"
+        "Kağıdı yırtar",
+        "Gereksizdir",
+        "Boya bitirir"
       ],
       "ipucu": "Her resim çizgiyle başlar.",
       "gorsel": {
@@ -1621,10 +1621,10 @@
       "soru": "Elanaz önce taslak çizip sonra boyarsa bu doğru mudur?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Sadece yazıda",
         "Hayır",
-        "Sadece müzikte"
+        "Sadece müzikte",
+        "Sadece yazıda",
+        "Evet"
       ],
       "ipucu": "Planlı çalışma.",
       "gorsel": {
@@ -1640,10 +1640,10 @@
       "soru": "Siyah renk neyi simgeler?",
       "dogruCevap": "Karanlık ve güç",
       "secenekler": [
-        "Sadece mutluluk",
         "Sadece su",
-        "Sadece rüzgar",
-        "Karanlık ve güç"
+        "Sadece mutluluk",
+        "Karanlık ve güç",
+        "Sadece rüzgar"
       ],
       "ipucu": "Koyu ton.",
       "gorsel": {
@@ -1659,10 +1659,10 @@
       "soru": "Pembe hangi rengin açık tonudur?",
       "dogruCevap": "Kırmızı",
       "secenekler": [
-        "Mavi",
-        "Kırmızı",
         "Siyah",
-        "Yeşil"
+        "Yeşil",
+        "Mavi",
+        "Kırmızı"
       ],
       "ipucu": "Beyaz eklenince.",
       "gorsel": {
@@ -1678,10 +1678,10 @@
       "soru": "Ahşap baskıda ne yapılır?",
       "dogruCevap": "Tahtaya oyma",
       "secenekler": [
-        "Kağıt katlama",
         "Kil yoğurma",
+        "Tahtaya oyma",
         "Suya boya",
-        "Tahtaya oyma"
+        "Kağıt katlama"
       ],
       "ipucu": "Baskı tekniği.",
       "gorsel": {
@@ -1697,10 +1697,10 @@
       "soru": "Serigrafi ne işe yarar?",
       "dogruCevap": "Tekrarlı baskı",
       "secenekler": [
-        "Müzik çalma",
         "Tekrarlı baskı",
+        "Yemek pişirme",
         "Dans etme",
-        "Yemek pişirme"
+        "Müzik çalma"
       ],
       "ipucu": "Kalıp baskısı.",
       "gorsel": {
@@ -1716,10 +1716,10 @@
       "soru": "Arka plandaki nesneler nasıl çizilir?",
       "dogruCevap": "Küçük ve soluk",
       "secenekler": [
-        "Büyük ve parlak",
-        "Sadece siyah",
+        "Küçük ve soluk",
         "Sadece kırmızı",
-        "Küçük ve soluk"
+        "Sadece siyah",
+        "Büyük ve parlak"
       ],
       "ipucu": "Uzaklık hissi.",
       "gorsel": {
@@ -1735,9 +1735,9 @@
       "soru": "Güneş resmi için en uygun renk hangisidir?",
       "dogruCevap": "Sarı",
       "secenekler": [
+        "Mor",
         "Sarı",
         "Siyah",
-        "Mor",
         "Mavi"
       ],
       "ipucu": "Güneşin rengi.",
@@ -1754,10 +1754,10 @@
       "soru": "Makas kolaj yapımında kullanılır mı?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Sadece heykelde",
-        "Evet",
         "Sadece ebruda",
-        "Hayır"
+        "Hayır",
+        "Sadece heykelde",
+        "Evet"
       ],
       "ipucu": "Kağıt kesme.",
       "gorsel": {
@@ -1773,10 +1773,10 @@
       "soru": "Kahverengi genellikle hangi nesnelerin rengidir?",
       "dogruCevap": "Toprak ve ağaç",
       "secenekler": [
-        "Kar ve bulut",
-        "Güneş ve ateş",
+        "Su ve buz",
         "Toprak ve ağaç",
-        "Su ve buz"
+        "Kar ve bulut",
+        "Güneş ve ateş"
       ],
       "ipucu": "Doğal renk.",
       "gorsel": {
@@ -1792,10 +1792,10 @@
       "soru": "Sanat yapmak bize ne kazandırır?",
       "dogruCevap": "Yaratıcılık ve estetik duyu",
       "secenekler": [
-        "Sadece yorgunluk",
+        "Sadece korku",
         "Yaratıcılık ve estetik duyu",
-        "Hiçbir şey",
-        "Sadece korku"
+        "Sadece yorgunluk",
+        "Hiçbir şey"
       ],
       "ipucu": "Sanat eğitimi.",
       "gorsel": {

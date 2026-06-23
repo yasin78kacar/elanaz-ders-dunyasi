@@ -457,10 +457,10 @@
           "soru": "İngilizcede \"Koşmak\" eyleminin karşılığı nedir?",
           "dogruCevap": "Run",
           "secenekler": [
-            "Run",
-            "Sleep",
+            "Read",
             "Walk",
-            "Read"
+            "Sleep",
+            "Run"
           ],
           "ipucu": "",
           "gorsel": {
@@ -476,10 +476,10 @@
           "soru": "Beden eğitimi dersinde zıplayan Berk hangi İngilizce hareketi yapmaktadır?",
           "dogruCevap": "Jump",
           "secenekler": [
-            "Jump",
             "Sing",
-            "Write",
-            "Eat"
+            "Jump",
+            "Eat",
+            "Write"
           ],
           "ipucu": "",
           "gorsel": {
@@ -496,9 +496,9 @@
           "dogruCevap": "Swim",
           "secenekler": [
             "Draw",
-            "Drink",
             "Swim",
-            "Dance"
+            "Dance",
+            "Drink"
           ],
           "ipucu": "",
           "gorsel": {
@@ -514,10 +514,10 @@
           "soru": "Kütüphanede sessizce kitap okuyan Selin'in yaptığı \"Okumak\" eyleminin İngilizcesi nedir?",
           "dogruCevap": "Read",
           "secenekler": [
-            "Sing",
             "Read",
+            "Jump",
             "Run",
-            "Jump"
+            "Sing"
           ],
           "ipucu": "",
           "gorsel": {
@@ -533,9 +533,9 @@
           "soru": "Defterimize ödevimizi yaparken kullandığımız \"Yazmak\" kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Write",
           "secenekler": [
+            "Sleep",
             "Play",
             "Read",
-            "Sleep",
             "Write"
           ],
           "ipucu": "",
@@ -553,8 +553,8 @@
           "dogruCevap": "Draw",
           "secenekler": [
             "Drink",
-            "Draw",
             "Eat",
+            "Draw",
             "Swim"
           ],
           "ipucu": "",
@@ -572,9 +572,9 @@
           "dogruCevap": "Sing",
           "secenekler": [
             "Dance",
-            "Sing",
             "Run",
-            "Jump"
+            "Jump",
+            "Sing"
           ],
           "ipucu": "",
           "gorsel": {
@@ -590,9 +590,9 @@
           "soru": "Müziğe ayak uydurarak yapılan \"Dans etmek\" eyleminin İngilizcesi nedir?",
           "dogruCevap": "Dance",
           "secenekler": [
+            "Write",
             "Dance",
             "Sleep",
-            "Write",
             "Read"
           ],
           "ipucu": "",
@@ -610,9 +610,9 @@
           "dogruCevap": "Play",
           "secenekler": [
             "Play",
+            "Draw",
             "Drink",
-            "Eat",
-            "Draw"
+            "Eat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -630,8 +630,8 @@
           "secenekler": [
             "Eat",
             "Sing",
-            "Swim",
-            "Drink"
+            "Drink",
+            "Swim"
           ],
           "ipucu": "",
           "gorsel": {
@@ -647,10 +647,10 @@
           "soru": "Susadığımızda yaptığımız \"İçmek\" eyleminin İngilizcesi nedir?",
           "dogruCevap": "Drink",
           "secenekler": [
-            "Read",
+            "Jump",
             "Eat",
             "Drink",
-            "Jump"
+            "Read"
           ],
           "ipucu": "",
           "gorsel": {
@@ -666,10 +666,10 @@
           "soru": "Geceleri yatağımızda yaptığımız \"Uyumak\" eyleminin İngilizce adı nedir?",
           "dogruCevap": "Sleep",
           "secenekler": [
-            "Write",
-            "Play",
             "Sleep",
-            "Run"
+            "Run",
+            "Write",
+            "Play"
           ],
           "ipucu": "",
           "gorsel": {
@@ -685,10 +685,10 @@
           "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
           "dogruCevap": "Read = Uyumak",
           "secenekler": [
-            "Swim = Yüzmek",
             "Run = Koşmak",
             "Read = Uyumak",
-            "Jump = Zıplamak"
+            "Jump = Zıplamak",
+            "Swim = Yüzmek"
           ],
           "ipucu": "Read okumak demektir!",
           "gorsel": {
@@ -706,9 +706,9 @@
           "dogruCevap": "Jump",
           "secenekler": [
             "Write",
-            "Sing",
+            "Jump",
             "Read",
-            "Jump"
+            "Sing"
           ],
           "ipucu": "",
           "gorsel": {
@@ -724,10 +724,10 @@
           "soru": "Balıklar suda hangi eylemi gerçekleştirirler?",
           "dogruCevap": "Swim",
           "secenekler": [
-            "Swim",
+            "Dance",
             "Run",
-            "Sleep",
-            "Dance"
+            "Swim",
+            "Sleep"
           ],
           "ipucu": "",
           "gorsel": {
@@ -743,10 +743,10 @@
           "soru": "\"Sing and Dance\" kelimeleri sırasıyla ne anlama gelir?",
           "dogruCevap": "Şarkı söylemek ve Dans etmek",
           "secenekler": [
-            "Uyumak ve İçmek",
-            "Koşmak ve Zıplamak",
             "Okumak ve Yazmak",
-            "Şarkı söylemek ve Dans etmek"
+            "Şarkı söylemek ve Dans etmek",
+            "Koşmak ve Zıplamak",
+            "Uyumak ve İçmek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -763,8 +763,8 @@
           "dogruCevap": "Read and Write",
           "secenekler": [
             "Swim and Run",
-            "Sing and Dance",
             "Read and Write",
+            "Sing and Dance",
             "Sleep and Eat"
           ],
           "ipucu": "",
@@ -781,9 +781,9 @@
           "soru": "\"Eat and Drink\" ifadeleri Türkçede hangi anlama gelir?",
           "dogruCevap": "Yemek ve İçmek",
           "secenekler": [
+            "Koşmak ve Yüzmek",
             "Yemek ve İçmek",
             "Dans etmek ve Uyumak",
-            "Koşmak ve Yüzmek",
             "Okumak ve Çizmek"
           ],
           "ipucu": "",
@@ -800,10 +800,10 @@
           "soru": "\"Play\" kelimesi ne anlama gelir?",
           "dogruCevap": "Oyun oynamak",
           "secenekler": [
-            "Şarkı söylemek",
             "Oyun oynamak",
+            "Uyumak",
             "Zıplamak",
-            "Uyumak"
+            "Şarkı söylemek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -819,10 +819,10 @@
           "soru": "\"Sleep\" eylemi bize ne hissettirir?",
           "dogruCevap": "Dinlendirir",
           "secenekler": [
-            "Dinlendirir",
-            "Yorar",
             "Susatır",
-            "Acıktırır"
+            "Yorar",
+            "Acıktırır",
+            "Dinlendirir"
           ],
           "ipucu": "",
           "gorsel": {
@@ -839,9 +839,9 @@
           "dogruCevap": "İkisi de eğlenceli ve sağlıklı spor eylemleridir",
           "secenekler": [
             "İkisi de yemekle ilgilidir",
-            "İkisi de müzikle yapılır",
             "İkisi de eğlenceli ve sağlıklı spor eylemleridir",
-            "İkisi de bizi uykulu yapar"
+            "İkisi de bizi uykulu yapar",
+            "İkisi de müzikle yapılır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -857,10 +857,10 @@
           "soru": "\"Read\" eylemini yaparken vücudumuzun en çok hangi bölümünü (Body Part) kullanırız?",
           "dogruCevap": "Eye",
           "secenekler": [
+            "Eye",
             "Foot",
-            "Ear",
             "Nose",
-            "Eye"
+            "Ear"
           ],
           "ipucu": "",
           "gorsel": {
@@ -877,9 +877,9 @@
           "dogruCevap": "Leg",
           "secenekler": [
             "Ear",
-            "Nose",
+            "Leg",
             "Hand",
-            "Leg"
+            "Nose"
           ],
           "ipucu": "",
           "gorsel": {
@@ -895,10 +895,10 @@
           "soru": "\"Eat\", \"Drink\" ve \"Sing\" eylemlerini yaparken vücudumuzun hangi organını kullanırız?",
           "dogruCevap": "Mouth",
           "secenekler": [
-            "Mouth",
-            "Ear",
+            "Foot",
             "Eye",
-            "Foot"
+            "Ear",
+            "Mouth"
           ],
           "ipucu": "",
           "gorsel": {
@@ -914,10 +914,10 @@
           "soru": "\"Write\" ve \"Draw\" yaparken kullandığımız marifetli organımız hangisidir?",
           "dogruCevap": "Hand",
           "secenekler": [
-            "Nose",
             "Ear",
+            "Hand",
             "Leg",
-            "Hand"
+            "Nose"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1385,8 +1385,8 @@
           "secenekler": [
             "School",
             "Home",
-            "Park",
-            "Shop"
+            "Shop",
+            "Park"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1402,10 +1402,10 @@
           "soru": "Sınıfın İngilizce adı hangisidir?",
           "dogruCevap": "Classroom",
           "secenekler": [
-            "Garden",
             "Classroom",
-            "Bedroom",
-            "Kitchen"
+            "Kitchen",
+            "Garden",
+            "Bedroom"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1421,10 +1421,10 @@
           "soru": "Öğretmenin İngilizcesi nedir?",
           "dogruCevap": "Teacher",
           "secenekler": [
-            "Driver",
             "Teacher",
             "Student",
-            "Doctor"
+            "Doctor",
+            "Driver"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1440,10 +1440,10 @@
           "soru": "Öğrenci kelimesinin İngilizcesi hangisidir?",
           "dogruCevap": "Student",
           "secenekler": [
-            "Baby",
+            "Teacher",
             "Student",
-            "Parent",
-            "Teacher"
+            "Baby",
+            "Parent"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1459,8 +1459,8 @@
           "soru": "Kitabın İngilizcesi nedir?",
           "dogruCevap": "Book",
           "secenekler": [
-            "Chair",
             "Book",
+            "Chair",
             "Bag",
             "Pen"
           ],
@@ -1478,10 +1478,10 @@
           "soru": "Hobi kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Hobby",
           "secenekler": [
-            "Food",
+            "Color",
             "Hobby",
-            "Weather",
-            "Color"
+            "Food",
+            "Weather"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1497,9 +1497,9 @@
           "soru": "Resim çizmek hobisinin İngilizcesi hangisidir?",
           "dogruCevap": "Drawing",
           "secenekler": [
-            "Drawing",
-            "Eating",
             "Sleeping",
+            "Eating",
+            "Drawing",
             "Running"
           ],
           "ipucu": "",
@@ -1517,9 +1517,9 @@
           "dogruCevap": "Wake up",
           "secenekler": [
             "Play games",
-            "Go to bed",
             "Wake up",
-            "Have dinner"
+            "Have dinner",
+            "Go to bed"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1535,10 +1535,10 @@
           "soru": "Diş fırçalamak İngilizcede nasıl ifade edilir?",
           "dogruCevap": "Brush teeth",
           "secenekler": [
+            "Comb hair",
             "Wash hands",
-            "Eat lunch",
             "Brush teeth",
-            "Comb hair"
+            "Eat lunch"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1554,8 +1554,8 @@
           "soru": "Kahvaltı yapmak İngilizcede nedir?",
           "dogruCevap": "Have breakfast",
           "secenekler": [
-            "Play football",
             "Go to school",
+            "Play football",
             "Have breakfast",
             "Read a book"
           ],
@@ -1574,8 +1574,8 @@
           "dogruCevap": "Go to school",
           "secenekler": [
             "Go swimming",
-            "Go to school",
             "Go to bed",
+            "Go to school",
             "Go shopping"
           ],
           "ipucu": "",
@@ -1592,9 +1592,9 @@
           "soru": "Futbol oynamak hobisinin İngilizcesi hangisidir?",
           "dogruCevap": "Play football",
           "secenekler": [
-            "Play football",
             "Have lunch",
             "Go to bed",
+            "Play football",
             "Brush teeth"
           ],
           "ipucu": "",
@@ -1612,8 +1612,8 @@
           "dogruCevap": "Dance",
           "secenekler": [
             "Write",
-            "Dance",
             "Read",
+            "Dance",
             "Sleep"
           ],
           "ipucu": "",
@@ -1630,10 +1630,10 @@
           "soru": "Akşam yemeği İngilizcede nasıl adlandırılır?",
           "dogruCevap": "Dinner",
           "secenekler": [
-            "Dinner",
-            "Lunch",
+            "Snack",
             "Breakfast",
-            "Snack"
+            "Lunch",
+            "Dinner"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1650,9 +1650,9 @@
           "dogruCevap": "Sleep",
           "secenekler": [
             "Sing",
-            "Sleep",
+            "Run",
             "Draw",
-            "Run"
+            "Sleep"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1669,9 +1669,9 @@
           "dogruCevap": "Board",
           "secenekler": [
             "Window",
+            "Door",
             "Board",
-            "Desk",
-            "Door"
+            "Desk"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1687,10 +1687,10 @@
           "soru": "Sandalyenin İngilizcesi hangisidir?",
           "dogruCevap": "Chair",
           "secenekler": [
-            "Desk",
-            "Book",
             "Chair",
-            "Bag"
+            "Bag",
+            "Desk",
+            "Book"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1706,10 +1706,10 @@
           "soru": "Şarkı söylemek hobisinin İngilizcesi nedir?",
           "dogruCevap": "Singing",
           "secenekler": [
-            "Sleeping",
-            "Eating",
             "Singing",
-            "Swimming"
+            "Swimming",
+            "Sleeping",
+            "Eating"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1725,9 +1725,9 @@
           "soru": "Günlük rutin İngilizcede nasıl söylenir?",
           "dogruCevap": "Daily routine",
           "secenekler": [
+            "Daily routine",
             "Daily weather",
             "Daily food",
-            "Daily routine",
             "Daily color"
           ],
           "ipucu": "",
@@ -1764,9 +1764,9 @@
           "dogruCevap": "Listen",
           "secenekler": [
             "Jump",
-            "Listen",
+            "Run",
             "Sleep",
-            "Run"
+            "Listen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1782,10 +1782,10 @@
           "soru": "\"School\" ve \"Classroom\" kelimeleri sırasıyla ne demektir?",
           "dogruCevap": "Okul ve Sınıf",
           "secenekler": [
-            "Okul ve Sınıf",
-            "Öğretmen ve Öğrenci",
+            "Kitap ve Kalem",
             "Ev ve Park",
-            "Kitap ve Kalem"
+            "Öğretmen ve Öğrenci",
+            "Okul ve Sınıf"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1805,10 +1805,10 @@
           "soru": "Hangi aktivite bir hobidir?",
           "dogruCevap": "Drawing pictures",
           "secenekler": [
-            "Have breakfast",
-            "Brush teeth",
             "Go to school",
-            "Drawing pictures"
+            "Brush teeth",
+            "Drawing pictures",
+            "Have breakfast"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1824,9 +1824,9 @@
           "soru": "Günlük rutinde sabah ilk ne yaparız?",
           "dogruCevap": "Wake up",
           "secenekler": [
-            "Go to bed",
             "Play games",
             "Have dinner",
+            "Go to bed",
             "Wake up"
           ],
           "ipucu": "",
@@ -1843,10 +1843,10 @@
           "soru": "\"Student\" kelimesinin Türkçe karşılığı nedir?",
           "dogruCevap": "Öğrenci",
           "secenekler": [
-            "Öğretmen",
             "Öğrenci",
-            "Doktor",
-            "Aşçı"
+            "Öğretmen",
+            "Aşçı",
+            "Doktor"
           ],
           "ipucu": "",
           "gorsel": {

@@ -813,10 +813,10 @@
           "soru": "Aşağıdakilerden hangisi canlıdır?",
           "dogruCevap": "Kedi",
           "secenekler": [
-            "Kitap",
             "Kaya",
             "Kedi",
-            "Masa"
+            "Masa",
+            "Kitap"
           ],
           "ipucu": "",
           "gorsel": {
@@ -840,8 +840,8 @@
           "secenekler": [
             "Taş",
             "Ağaç",
-            "Çiçek",
-            "Kedi"
+            "Kedi",
+            "Çiçek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -864,9 +864,9 @@
           "dogruCevap": "7",
           "secenekler": [
             "7",
+            "5",
             "6",
-            "8",
-            "5"
+            "8"
           ],
           "ipucu": "",
           "gorsel": {
@@ -882,10 +882,10 @@
           "soru": "Hangisi canlıların yaşam özelliğidir?",
           "dogruCevap": "Beslenir",
           "secenekler": [
-            "Kırılır",
             "Erir",
             "Parlar",
-            "Beslenir"
+            "Beslenir",
+            "Kırılır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -901,9 +901,9 @@
           "soru": "Ağaç canlı mıdır?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
-            "Hayır",
             "Belli değil",
+            "Hayır",
+            "Evet",
             "Bazen"
           ],
           "ipucu": "",
@@ -920,9 +920,9 @@
           "soru": "Araba canlı mıdır?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Evet",
-            "Bazen",
             "Hayır",
+            "Bazen",
+            "Evet",
             "Sadece hareket edince"
           ],
           "ipucu": "",
@@ -939,10 +939,10 @@
           "soru": "Canlılar büyür mü?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Sadece bitkiler",
             "Evet",
-            "Sadece hayvanlar"
+            "Sadece bitkiler",
+            "Sadece hayvanlar",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -958,9 +958,9 @@
           "soru": "🎭 Hareket eden her şey canlı mıdır?",
           "dogruCevap": "Hayır",
           "secenekler": [
+            "Sadece yürüyenler",
             "Evet",
             "Hayır",
-            "Sadece yürüyenler",
             "Sadece uçanlar"
           ],
           "ipucu": "Araba hareket eder ama canlı değildir!",
@@ -1003,10 +1003,10 @@
           "soru": "Canlılar ürer mi?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Sadece kuşlar",
             "Sadece bitkiler",
-            "Evet"
+            "Hayır",
+            "Evet",
+            "Sadece kuşlar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1041,10 +1041,10 @@
           "soru": "Hangisi canlıların yaşam özelliği değildir?",
           "dogruCevap": "Parlar",
           "secenekler": [
-            "Beslenir",
             "Büyür",
             "Parlar",
-            "Solur"
+            "Solur",
+            "Beslenir"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1060,9 +1060,9 @@
           "soru": "Çiçek canlı mıdır?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Kuruyunca",
             "Evet",
+            "Kuruyunca",
+            "Hayır",
             "Sadece yazın"
           ],
           "ipucu": "",
@@ -1079,10 +1079,10 @@
           "soru": "Kelebek canlı mıdır?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece tırtılken",
             "Sadece uçarken",
+            "Evet",
             "Hayır",
-            "Evet"
+            "Sadece tırtılken"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1099,9 +1099,9 @@
           "dogruCevap": "Hayır",
           "secenekler": [
             "Evet",
-            "Bazen",
+            "Hayır",
             "Okununca",
-            "Hayır"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1117,8 +1117,8 @@
           "soru": "🎭 Güneş canlı mıdır?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Evet",
             "Sadece gündüz",
+            "Evet",
             "Sıcak olduğu için evet",
             "Hayır"
           ],
@@ -1137,10 +1137,10 @@
           "soru": "Canlılar ölür mü?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
-            "Sadece bitkiler",
             "Hayır",
-            "Hiçbiri"
+            "Hiçbiri",
+            "Sadece bitkiler",
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1156,10 +1156,10 @@
           "soru": "Bitkinin toprağa tutunan kısmı hangisidir?",
           "dogruCevap": "Kök",
           "secenekler": [
+            "Çiçek",
             "Kök",
             "Yaprak",
-            "Meyve",
-            "Çiçek"
+            "Meyve"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1176,9 +1176,9 @@
           "dogruCevap": "Bitkiyi yükseltir",
           "secenekler": [
             "Güneşi tutar",
+            "Tohum üretir",
             "Bitkiyi yükseltir",
-            "Su içer",
-            "Tohum üretir"
+            "Su içer"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1195,8 +1195,8 @@
           "dogruCevap": "Yaprak",
           "secenekler": [
             "Yaprak",
-            "Meyve",
             "Kök",
+            "Meyve",
             "Tohum"
           ],
           "ipucu": "",
@@ -1213,9 +1213,9 @@
           "soru": "Bitkinin renkli üreme kısmı hangisidir?",
           "dogruCevap": "Çiçek",
           "secenekler": [
-            "Gövde",
             "Kök",
             "Çiçek",
+            "Gövde",
             "Kabuk"
           ],
           "ipucu": "",
@@ -1232,10 +1232,10 @@
           "soru": "Tohumları koruyan bitki parçası hangisidir?",
           "dogruCevap": "Meyve",
           "secenekler": [
-            "Kök",
-            "Yaprak",
             "Dal",
-            "Meyve"
+            "Yaprak",
+            "Meyve",
+            "Kök"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1251,10 +1251,10 @@
           "soru": "Bitkilerin yaşaması için hangisi gereklidir?",
           "dogruCevap": "Su",
           "secenekler": [
-            "Araba",
-            "Taş",
+            "Kalem",
             "Su",
-            "Kalem"
+            "Araba",
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1289,10 +1289,10 @@
           "soru": "🎭 Bitki sadece su içerse ama güneş görmezse ne olur?",
           "dogruCevap": "Sağlıklı büyüyemez",
           "secenekler": [
-            "Meyve verir",
+            "Çok hızlı büyür",
             "Sağlıklı büyüyemez",
-            "Hiç etkilenmez",
-            "Çok hızlı büyür"
+            "Meyve verir",
+            "Hiç etkilenmez"
           ],
           "ipucu": "Bitkiler hem su hem güneş ister!",
           "gorsel": {
@@ -1317,10 +1317,10 @@
           "soru": "Bitkilerin yaşaması için toprak gerekli midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece çiçekler için",
             "Evet",
+            "Sadece ağaçlar için",
             "Hayır",
-            "Sadece ağaçlar için"
+            "Sadece çiçekler için"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1336,10 +1336,10 @@
           "soru": "Bitkilerin yaşaması için hava gerekli midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
             "Sadece yazın",
+            "Hayır",
             "Sadece kök için",
-            "Hayır"
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1360,10 +1360,10 @@
           "soru": "Ağaç bitki midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece meyve verince",
-            "Sadece ormanda",
             "Evet",
-            "Hayır"
+            "Hayır",
+            "Sadece meyve verince",
+            "Sadece ormanda"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1379,10 +1379,10 @@
           "soru": "Elma nereden gelir?",
           "dogruCevap": "Bitkiden",
           "secenekler": [
-            "Hayvandan",
+            "Taştan",
             "Sudan",
             "Bitkiden",
-            "Taştan"
+            "Hayvandan"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1399,9 +1399,9 @@
           "dogruCevap": "Bitki",
           "secenekler": [
             "Bitki",
-            "Araba",
+            "Taş",
             "Hayvan",
-            "Taş"
+            "Araba"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1417,10 +1417,10 @@
           "soru": "Çiçekten sonra bitkide ne oluşabilir?",
           "dogruCevap": "Meyve",
           "secenekler": [
+            "Meyve",
             "Kök",
             "Kalem",
-            "Taş",
-            "Meyve"
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1436,9 +1436,9 @@
           "soru": "Yapraklar genellikle hangi renktedir?",
           "dogruCevap": "Yeşil",
           "secenekler": [
-            "Kırmızı",
             "Mavi",
             "Siyah",
+            "Kırmızı",
             "Yeşil"
           ],
           "ipucu": "",
@@ -1455,10 +1455,10 @@
           "soru": "🎭 Kökün görevi nedir?",
           "dogruCevap": "Toprağa tutunmak ve su almak",
           "secenekler": [
+            "Uçmak",
             "Güneşi yakalamak",
-            "Tohum üretmek",
             "Toprağa tutunmak ve su almak",
-            "Uçmak"
+            "Tohum üretmek"
           ],
           "ipucu": "Kök yerin altındadır!",
           "gorsel": {
@@ -1475,10 +1475,10 @@
           "soru": "Bitki büyür mü?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece meyve verince",
             "Sadece kışın",
-            "Evet",
-            "Hayır"
+            "Hayır",
+            "Sadece meyve verince",
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1494,10 +1494,10 @@
           "soru": "Kedinin vücut örtüsü hangisidir?",
           "dogruCevap": "Deri",
           "secenekler": [
+            "Deri",
             "Pul",
-            "Taş",
             "Tüy",
-            "Deri"
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1514,10 +1514,10 @@
           "soru": "Kuşun vücut örtüsü hangisidir?",
           "dogruCevap": "Tüy",
           "secenekler": [
-            "Deri",
+            "Kaya",
             "Tüy",
             "Pul",
-            "Kaya"
+            "Deri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1535,9 +1535,9 @@
           "dogruCevap": "Pul",
           "secenekler": [
             "Deri",
-            "Pul",
+            "Tüy",
             "Kürk",
-            "Tüy"
+            "Pul"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1554,10 +1554,10 @@
           "soru": "Kedi hangi ortamda yaşar?",
           "dogruCevap": "Kara",
           "secenekler": [
+            "Hava",
             "Su",
-            "Uzay",
             "Kara",
-            "Hava"
+            "Uzay"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1574,10 +1574,10 @@
           "soru": "Balık hangi ortamda yaşar?",
           "dogruCevap": "Su",
           "secenekler": [
-            "Hava",
             "Su",
+            "Kara",
             "Toprak",
-            "Kara"
+            "Hava"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1594,10 +1594,10 @@
           "soru": "Kuş en çok hangi ortamda hareket eder?",
           "dogruCevap": "Hava",
           "secenekler": [
-            "Mağara",
             "Hava",
-            "Su",
-            "Toprak"
+            "Mağara",
+            "Toprak",
+            "Su"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1614,9 +1614,9 @@
           "soru": "Kedi nasıl hareket eder?",
           "dogruCevap": "Yürür",
           "secenekler": [
-            "Uçar",
-            "Sürünür",
             "Yürür",
+            "Sürünür",
+            "Uçar",
             "Yüzer"
           ],
           "ipucu": "",
@@ -1634,10 +1634,10 @@
           "soru": "🎭 Yürüyen her hayvan memeli midir?",
           "dogruCevap": "Hayır",
           "secenekler": [
+            "Evet",
             "Sadece köpekler",
             "Sadece kediler",
-            "Hayır",
-            "Evet"
+            "Hayır"
           ],
           "ipucu": "Kaplumbağa da yürür ama memeli değildir!",
           "gorsel": {
@@ -1655,10 +1655,10 @@
           "soru": "Kuş nasıl hareket eder?",
           "dogruCevap": "Uçar",
           "secenekler": [
-            "Zıplar",
             "Sürünür",
-            "Uçar",
-            "Yüzer"
+            "Zıplar",
+            "Yüzer",
+            "Uçar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1675,10 +1675,10 @@
           "soru": "Balık nasıl hareket eder?",
           "dogruCevap": "Yüzer",
           "secenekler": [
-            "Yüzer",
-            "Yürür",
             "Tırmanır",
-            "Uçar"
+            "Uçar",
+            "Yüzer",
+            "Yürür"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1695,10 +1695,10 @@
           "soru": "Kedi hangi hayvan grubundadır?",
           "dogruCevap": "Memeli",
           "secenekler": [
-            "Balık",
             "Böcek",
-            "Kuş",
-            "Memeli"
+            "Memeli",
+            "Balık",
+            "Kuş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1715,9 +1715,9 @@
           "soru": "Ördek hangi hayvan grubundadır?",
           "dogruCevap": "Kuş",
           "secenekler": [
-            "Balık",
-            "Memeli",
             "Böcek",
+            "Memeli",
+            "Balık",
             "Kuş"
           ],
           "ipucu": "",
@@ -1735,8 +1735,8 @@
           "soru": "Arı hangi hayvan grubundadır?",
           "dogruCevap": "Böcek",
           "secenekler": [
-            "Böcek",
             "Kuş",
+            "Böcek",
             "Memeli",
             "Balık"
           ],
@@ -1755,10 +1755,10 @@
           "soru": "İnek hangi hayvan grubundadır?",
           "dogruCevap": "Memeli",
           "secenekler": [
-            "Kuş",
-            "Memeli",
             "Balık",
-            "Böcek"
+            "Memeli",
+            "Böcek",
+            "Kuş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1775,10 +1775,10 @@
           "soru": "Yılan nasıl hareket eder?",
           "dogruCevap": "Sürünür",
           "secenekler": [
-            "Sürünür",
-            "Yüzer",
+            "Koşar",
             "Uçar",
-            "Koşar"
+            "Yüzer",
+            "Sürünür"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1795,10 +1795,10 @@
           "soru": "🎭 Tüy örtüsü olan hayvan hangisidir?",
           "dogruCevap": "Kuş",
           "secenekler": [
-            "Balık",
+            "Kedi",
             "Kurbağa",
             "Kuş",
-            "Kedi"
+            "Balık"
           ],
           "ipucu": "Kuşların vücudu tüyle kaplıdır!",
           "gorsel": {

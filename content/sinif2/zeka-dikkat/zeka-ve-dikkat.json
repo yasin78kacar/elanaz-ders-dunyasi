@@ -1450,10 +1450,10 @@
       "soru": "2, 4, 6, 8, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "10",
       "secenekler": [
-        "8",
         "12",
         "9",
-        "10"
+        "10",
+        "8"
       ],
       "ipucu": "İkişer artıyor.",
       "gorsel": {
@@ -1489,9 +1489,9 @@
       "soru": "5, 10, 15, 20, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "25",
       "secenekler": [
-        "30",
         "20",
         "25",
+        "30",
         "22"
       ],
       "ipucu": "Beşer artıyor.",
@@ -1568,9 +1568,9 @@
       "dogruCevap": "Daire",
       "secenekler": [
         "Kare",
+        "Daire",
         "Kare",
-        "Kare",
-        "Daire"
+        "Kare"
       ],
       "ipucu": "Diğerleri kare.",
       "gorsel": {
@@ -1594,9 +1594,9 @@
       "dogruCevap": "5",
       "secenekler": [
         "5",
-        "7",
+        "6",
         "4",
-        "6"
+        "7"
       ],
       "ipucu": "Her birini say.",
       "gorsel": {
@@ -1613,10 +1613,10 @@
       "soru": "10, 9, 8, 7, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "6",
       "secenekler": [
+        "7",
         "6",
-        "5",
         "8",
-        "7"
+        "5"
       ],
       "ipucu": "Birer azalıyor.",
       "gorsel": {
@@ -1654,8 +1654,8 @@
       "secenekler": [
         "Kırmızı",
         "Sarı",
-        "Mavi",
-        "Yeşil"
+        "Yeşil",
+        "Mavi"
       ],
       "ipucu": "Renk tekrarı.",
       "gorsel": {
@@ -1693,8 +1693,8 @@
       "secenekler": [
         "Kırmızı",
         "Kırmızı",
-        "Kırmızı",
-        "Yeşil"
+        "Yeşil",
+        "Kırmızı"
       ],
       "ipucu": "Diğerleri kırmızı.",
       "gorsel": {
@@ -1717,10 +1717,10 @@
       "soru": "3, 6, 9, 12, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "15",
       "secenekler": [
-        "14",
-        "18",
         "15",
-        "12"
+        "18",
+        "12",
+        "14"
       ],
       "ipucu": "Üçer artıyor.",
       "gorsel": {
@@ -1757,8 +1757,8 @@
       "dogruCevap": "4",
       "secenekler": [
         "3",
-        "6",
         "4",
+        "6",
         "5"
       ],
       "ipucu": "Dikkatle say.",
@@ -1776,10 +1776,10 @@
       "soru": "Üçgen, daire, üçgen, daire, ? örüntüsünde eksik şekil hangisidir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Üçgen",
+        "Daire",
         "Kare",
-        "Yıldız",
-        "Daire"
+        "Üçgen",
+        "Yıldız"
       ],
       "ipucu": "İkili tekrar.",
       "gorsel": {
@@ -1815,9 +1815,9 @@
       "soru": "Aşağıdaki dizide farklı olan sayı hangisidir?",
       "dogruCevap": "7",
       "secenekler": [
-        "8",
         "2",
         "4",
+        "8",
         "7"
       ],
       "ipucu": "Diğerleri çift.",
@@ -1880,10 +1880,10 @@
       "soru": "4, 8, 12, 16, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "20",
       "secenekler": [
+        "24",
         "20",
         "16",
-        "18",
-        "24"
+        "18"
       ],
       "ipucu": "Dörder artıyor.",
       "gorsel": {
@@ -1919,9 +1919,9 @@
       "soru": "Resimde kaç top vardır?",
       "dogruCevap": "6",
       "secenekler": [
-        "6",
-        "8",
         "7",
+        "8",
+        "6",
         "5"
       ],
       "ipucu": "Her birini say.",
@@ -1939,9 +1939,9 @@
       "soru": "Mavi, sarı, mavi, sarı, ? örüntüsünde eksik renk hangisidir?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Kırmızı",
-        "Mavi",
         "Yeşil",
+        "Mavi",
+        "Kırmızı",
         "Sarı"
       ],
       "ipucu": "İki renk dönüşümlü.",
@@ -1978,9 +1978,9 @@
       "soru": "Aşağıdaki dizide farklı olan şekil hangisidir?",
       "dogruCevap": "Üçgen",
       "secenekler": [
-        "Daire",
-        "Daire",
         "Üçgen",
+        "Daire",
+        "Daire",
         "Daire"
       ],
       "ipucu": "Diğerleri daire.",
@@ -2005,9 +2005,9 @@
       "dogruCevap": "9",
       "secenekler": [
         "7",
-        "11",
+        "9",
         "8",
-        "9"
+        "11"
       ],
       "ipucu": "Tek sayılar.",
       "gorsel": {
@@ -2043,10 +2043,10 @@
       "soru": "Resimde kaç kuş vardır?",
       "dogruCevap": "3",
       "secenekler": [
+        "5",
         "2",
         "4",
-        "3",
-        "5"
+        "3"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -2065,8 +2065,8 @@
       "secenekler": [
         "28",
         "24",
-        "30",
-        "36"
+        "36",
+        "30"
       ],
       "ipucu": "Altışar artıyor.",
       "gorsel": {
@@ -2102,10 +2102,10 @@
       "soru": "Daire, kare, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Yıldız",
-        "Kare",
         "Daire",
-        "Üçgen"
+        "Yıldız",
+        "Üçgen",
+        "Kare"
       ],
       "ipucu": "İkili tekrar.",
       "gorsel": {
@@ -2141,10 +2141,10 @@
       "soru": "Sarı, kırmızı, sarı, kırmızı, ? örüntüsünde eksik renk hangisidir?",
       "dogruCevap": "Sarı",
       "secenekler": [
-        "Kırmızı",
-        "Yeşil",
         "Mavi",
-        "Sarı"
+        "Sarı",
+        "Yeşil",
+        "Kırmızı"
       ],
       "ipucu": "İki renk dönüşümlü.",
       "gorsel": {
@@ -2206,10 +2206,10 @@
       "soru": "50, 45, 40, 35, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "30",
       "secenekler": [
-        "35",
-        "25",
+        "30",
         "40",
-        "30"
+        "35",
+        "25"
       ],
       "ipucu": "Beşer azalıyor.",
       "gorsel": {
@@ -2245,9 +2245,9 @@
       "soru": "Resimde kaç çiçek vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "7",
         "8",
         "6",
+        "7",
         "9"
       ],
       "ipucu": "Her birini say.",
@@ -2265,8 +2265,8 @@
       "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "32",
       "secenekler": [
-        "32",
         "36",
+        "32",
         "28",
         "24"
       ],
@@ -2343,10 +2343,10 @@
       "soru": "Aşağıdaki grupta farklı olan hangisidir?",
       "dogruCevap": "Balık",
       "secenekler": [
-        "Elma",
+        "Armut",
         "Muz",
-        "Balık",
-        "Armut"
+        "Elma",
+        "Balık"
       ],
       "ipucu": "Diğerleri meyve.",
       "gorsel": {
@@ -2369,10 +2369,10 @@
       "soru": "11, 13, 15, 17, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "19",
       "secenekler": [
-        "21",
-        "18",
         "17",
-        "19"
+        "19",
+        "21",
+        "18"
       ],
       "ipucu": "İkişer artan tekler.",
       "gorsel": {
@@ -2408,10 +2408,10 @@
       "soru": "Resimde kaç kalem vardır?",
       "dogruCevap": "8",
       "secenekler": [
-        "9",
         "7",
         "10",
-        "8"
+        "8",
+        "9"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -2428,10 +2428,10 @@
       "soru": "100, 90, 80, 70, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "60",
       "secenekler": [
-        "80",
         "70",
         "60",
-        "50"
+        "50",
+        "80"
       ],
       "ipucu": "Onar azalıyor.",
       "gorsel": {
@@ -2467,9 +2467,9 @@
       "soru": "Yeşil, mavi, yeşil, mavi, ? örüntüsünde eksik renk hangisidir?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Yeşil",
-        "Mavi",
         "Kırmızı",
+        "Mavi",
+        "Yeşil",
         "Sarı"
       ],
       "ipucu": "İki renk dönüşümlü.",
@@ -2507,8 +2507,8 @@
       "dogruCevap": "Kare",
       "secenekler": [
         "Üçgen",
-        "Kare",
         "Üçgen",
+        "Kare",
         "Üçgen"
       ],
       "ipucu": "Diğerleri üçgen.",
@@ -2533,9 +2533,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "3",
-        "6",
+        "5",
         "4",
-        "5"
+        "6"
       ],
       "ipucu": "Birer azalıyor.",
       "gorsel": {
@@ -2571,10 +2571,10 @@
       "soru": "Resimde kaç kelebek vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "4",
         "6",
+        "7",
         "5",
-        "7"
+        "4"
       ],
       "ipucu": "Her birini say.",
       "gorsel": {
@@ -2591,10 +2591,10 @@
       "soru": "7, 14, 21, 28, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "35",
       "secenekler": [
-        "32",
         "42",
-        "35",
-        "28"
+        "28",
+        "32",
+        "35"
       ],
       "ipucu": "Yedişer artıyor.",
       "gorsel": {
@@ -2630,10 +2630,10 @@
       "soru": "Mor, turuncu, mor, turuncu, ? örüntüsünde eksik renk hangisidir?",
       "dogruCevap": "Mor",
       "secenekler": [
-        "Sarı",
+        "Mavi",
         "Mor",
         "Turuncu",
-        "Mavi"
+        "Sarı"
       ],
       "ipucu": "İki renk dönüşümlü.",
       "gorsel": {
@@ -2670,9 +2670,9 @@
       "dogruCevap": "14",
       "secenekler": [
         "20",
-        "14",
+        "10",
         "15",
-        "10"
+        "14"
       ],
       "ipucu": "14, 5'in katı değil.",
       "gorsel": {
@@ -2695,9 +2695,9 @@
       "soru": "2, 5, 8, 11, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "14",
       "secenekler": [
+        "11",
         "14",
         "17",
-        "11",
         "13"
       ],
       "ipucu": "Üçer artıyor.",
@@ -2735,9 +2735,9 @@
       "dogruCevap": "18",
       "secenekler": [
         "15",
-        "18",
         "24",
-        "21"
+        "21",
+        "18"
       ],
       "ipucu": "Üçer azalıyor.",
       "gorsel": {
@@ -2773,10 +2773,10 @@
       "soru": "Kare, üçgen, kare, üçgen, ? örüntüsünde eksik şekil hangisidir?",
       "dogruCevap": "Kare",
       "secenekler": [
-        "Kare",
+        "Daire",
         "Yıldız",
-        "Üçgen",
-        "Daire"
+        "Kare",
+        "Üçgen"
       ],
       "ipucu": "İkili tekrar.",
       "gorsel": {
@@ -2812,10 +2812,10 @@
       "soru": "Daire, daire, kare, daire, daire, ? örüntüsünde eksik şekil hangisidir?",
       "dogruCevap": "Kare",
       "secenekler": [
+        "Daire",
         "Üçgen",
         "Yıldız",
-        "Kare",
-        "Daire"
+        "Kare"
       ],
       "ipucu": "Kare her üç şekilde bir.",
       "gorsel": {
@@ -2851,9 +2851,9 @@
       "soru": "Kırmızı, kırmızı, mavi, kırmızı, kırmızı, ? örüntüsünde eksik renk hangisidir?",
       "dogruCevap": "Mavi",
       "secenekler": [
+        "Yeşil",
         "Sarı",
         "Mavi",
-        "Yeşil",
         "Kırmızı"
       ],
       "ipucu": "Mavi her üç renkte bir.",
@@ -2890,10 +2890,10 @@
       "soru": "1, 2, 3, 4, ? örüntüsünde son sayı hangisidir?",
       "dogruCevap": "5",
       "secenekler": [
-        "6",
         "7",
-        "4",
-        "5"
+        "6",
+        "5",
+        "4"
       ],
       "ipucu": "Birer artıyor.",
       "gorsel": {
@@ -2929,8 +2929,8 @@
       "soru": "Sadece kırmızı topları sayınca kaç tane bulunur?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
         "5",
+        "6",
         "4",
         "3"
       ],
@@ -2948,10 +2948,10 @@
       "soru": "25, 20, 15, 10, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "5",
       "secenekler": [
-        "15",
-        "5",
         "0",
-        "10"
+        "10",
+        "5",
+        "15"
       ],
       "ipucu": "Beşer azalıyor.",
       "gorsel": {
@@ -2987,10 +2987,10 @@
       "soru": "9, 8, 7, 6, ? örüntüsünde eksik sayı hangisidir?",
       "dogruCevap": "5",
       "secenekler": [
-        "5",
         "6",
+        "4",
         "7",
-        "4"
+        "5"
       ],
       "ipucu": "Birer azalıyor.",
       "gorsel": {
@@ -3026,10 +3026,10 @@
       "soru": "Üçgen, üçgen, daire, üçgen, üçgen, ? örüntüsünde eksik şekil hangisidir?",
       "dogruCevap": "Daire",
       "secenekler": [
-        "Üçgen",
+        "Yıldız",
         "Kare",
-        "Daire",
-        "Yıldız"
+        "Üçgen",
+        "Daire"
       ],
       "ipucu": "Daire her üç şekilde bir.",
       "gorsel": {
@@ -3065,10 +3065,10 @@
       "soru": "Hangi seçenek örüntüyü doğru tamamlar? 2, 4, 6, ?",
       "dogruCevap": "8",
       "secenekler": [
-        "7",
-        "10",
         "6",
-        "8"
+        "8",
+        "7",
+        "10"
       ],
       "ipucu": "İkişer artıyor.",
       "gorsel": {
@@ -3100,9 +3100,9 @@
       "soru": "Dikkat sorusu: Eksik parçayı bulmak için neye bakmalıyız?",
       "dogruCevap": "Desenin tekrarına",
       "secenekler": [
-        "En küçük sayıya",
         "Desenin tekrarına",
         "Rastgele rengine",
+        "En küçük sayıya",
         "En büyük şekle"
       ],
       "ipucu": "Örüntü kuralı.",

@@ -256,9 +256,9 @@
           "soru": "Futbol kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Football",
           "secenekler": [
+            "Basketball",
             "Tennis",
             "Football",
-            "Basketball",
             "Swimming"
           ],
           "ipucu": "",
@@ -275,10 +275,10 @@
           "soru": "Basketbol topunun İngilizcesi hangisidir?",
           "dogruCevap": "Basketball",
           "secenekler": [
+            "Volleyball",
             "Basketball",
             "Tennis",
-            "Football",
-            "Volleyball"
+            "Football"
           ],
           "ipucu": "",
           "gorsel": {
@@ -295,8 +295,8 @@
           "dogruCevap": "Swim",
           "secenekler": [
             "Draw",
-            "Run",
             "Jump",
+            "Run",
             "Swim"
           ],
           "ipucu": "",
@@ -314,9 +314,9 @@
           "dogruCevap": "Run",
           "secenekler": [
             "Run",
-            "Sleep",
+            "Eat",
             "Read",
-            "Eat"
+            "Sleep"
           ],
           "ipucu": "",
           "gorsel": {
@@ -332,10 +332,10 @@
           "soru": "Tenis sporunun İngilizcesi hangisidir?",
           "dogruCevap": "Tennis",
           "secenekler": [
-            "Football",
-            "Basketball",
             "Tennis",
-            "Volleyball"
+            "Basketball",
+            "Volleyball",
+            "Football"
           ],
           "ipucu": "",
           "gorsel": {
@@ -351,9 +351,9 @@
           "soru": "Voleybol kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Volleyball",
           "secenekler": [
-            "Football",
             "Basketball",
             "Volleyball",
+            "Football",
             "Tennis"
           ],
           "ipucu": "",
@@ -370,10 +370,10 @@
           "soru": "Futbol oynamak İngilizcede nasıl ifade edilir?",
           "dogruCevap": "Play football",
           "secenekler": [
+            "Play school",
             "Play football",
             "Play piano",
-            "Play food",
-            "Play school"
+            "Play food"
           ],
           "ipucu": "",
           "gorsel": {
@@ -389,10 +389,10 @@
           "soru": "Sporlar kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Sports",
           "secenekler": [
-            "Jobs",
-            "Toys",
+            "Colors",
             "Sports",
-            "Colors"
+            "Jobs",
+            "Toys"
           ],
           "ipucu": "",
           "gorsel": {
@@ -408,9 +408,9 @@
           "soru": "Zıplamak İngilizcede hangi kelimeyle söylenir?",
           "dogruCevap": "Jump",
           "secenekler": [
+            "Swim",
             "Run",
             "Sleep",
-            "Swim",
             "Jump"
           ],
           "ipucu": "",
@@ -427,10 +427,10 @@
           "soru": "Bisiklet sürmek İngilizcede nasıl söylenir?",
           "dogruCevap": "Ride a bike",
           "secenekler": [
-            "Go swimming",
-            "Read a book",
             "Ride a bike",
-            "Play football"
+            "Go swimming",
+            "Play football",
+            "Read a book"
           ],
           "ipucu": "",
           "gorsel": {
@@ -446,10 +446,10 @@
           "soru": "\"Run\" ve \"Jump\" kelimeleri ne tür eylemlerdir?",
           "dogruCevap": "Spor eylemleri",
           "secenekler": [
+            "Uyku eylemleri",
             "Yemek eylemleri",
             "Spor eylemleri",
-            "Renk eylemleri",
-            "Uyku eylemleri"
+            "Renk eylemleri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -465,10 +465,10 @@
           "soru": "Hangi top turuncu renklidir?",
           "dogruCevap": "Basketball",
           "secenekler": [
-            "Volleyball",
+            "Basketball",
             "Tennis ball",
             "Football",
-            "Basketball"
+            "Volleyball"
           ],
           "ipucu": "",
           "gorsel": {
@@ -733,10 +733,10 @@
           "soru": "Piyanonun İngilizcesi nedir?",
           "dogruCevap": "Piano",
           "secenekler": [
-            "Piano",
             "Guitar",
-            "Flute",
-            "Drum"
+            "Piano",
+            "Drum",
+            "Flute"
           ],
           "ipucu": "",
           "gorsel": {
@@ -752,10 +752,10 @@
           "soru": "Gitar kelimesinin İngilizcesi hangisidir?",
           "dogruCevap": "Guitar",
           "secenekler": [
+            "Violin",
             "Guitar",
             "Piano",
-            "Trumpet",
-            "Violin"
+            "Trumpet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -771,8 +771,8 @@
           "soru": "Kemanın İngilizcesi nedir?",
           "dogruCevap": "Violin",
           "secenekler": [
-            "Guitar",
             "Drum",
+            "Guitar",
             "Flute",
             "Violin"
           ],
@@ -790,10 +790,10 @@
           "soru": "Davul kelimesinin İngilizcesi hangisidir?",
           "dogruCevap": "Drum",
           "secenekler": [
+            "Drum",
             "Flute",
             "Guitar",
-            "Piano",
-            "Drum"
+            "Piano"
           ],
           "ipucu": "",
           "gorsel": {
@@ -809,10 +809,10 @@
           "soru": "Flütün İngilizcesi nedir?",
           "dogruCevap": "Flute",
           "secenekler": [
-            "Flute",
-            "Trumpet",
+            "Drum",
             "Violin",
-            "Drum"
+            "Flute",
+            "Trumpet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -828,10 +828,10 @@
           "soru": "Trompetin İngilizcesi hangisidir?",
           "dogruCevap": "Trumpet",
           "secenekler": [
-            "Flute",
+            "Guitar",
             "Piano",
-            "Trumpet",
-            "Guitar"
+            "Flute",
+            "Trumpet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -848,9 +848,9 @@
           "dogruCevap": "Instrument",
           "secenekler": [
             "Toy",
-            "Instrument",
+            "Job",
             "Sport",
-            "Job"
+            "Instrument"
           ],
           "ipucu": "",
           "gorsel": {
@@ -866,10 +866,10 @@
           "soru": "Piyano çalmak İngilizcede nasıl söylenir?",
           "dogruCevap": "Play the piano",
           "secenekler": [
-            "Ride a bike",
             "Play the piano",
+            "Go to school",
             "Play football",
-            "Go to school"
+            "Ride a bike"
           ],
           "ipucu": "",
           "gorsel": {
@@ -885,10 +885,10 @@
           "soru": "Gitar çalmak İngilizcede nasıl ifade edilir?",
           "dogruCevap": "Play the guitar",
           "secenekler": [
-            "Play school",
+            "Play the drum",
             "Play tennis",
-            "Play the guitar",
-            "Play the drum"
+            "Play school",
+            "Play the guitar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -904,10 +904,10 @@
           "soru": "Müzik aletleri İngilizcede nasıl adlandırılır?",
           "dogruCevap": "Musical instruments",
           "secenekler": [
-            "School supplies",
             "Sports equipment",
+            "Toys",
             "Musical instruments",
-            "Toys"
+            "School supplies"
           ],
           "ipucu": "",
           "gorsel": {
@@ -924,9 +924,9 @@
           "dogruCevap": "Davul",
           "secenekler": [
             "Flüt",
-            "Gitar",
             "Keman",
-            "Davul"
+            "Davul",
+            "Gitar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -942,10 +942,10 @@
           "soru": "Hangi enstrüman tuşludur?",
           "dogruCevap": "Piano",
           "secenekler": [
-            "Piano",
-            "Drum",
             "Guitar",
-            "Flute"
+            "Piano",
+            "Flute",
+            "Drum"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1210,10 +1210,10 @@
           "soru": "Doktor kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Doctor",
           "secenekler": [
-            "Farmer",
+            "Teacher",
             "Chef",
-            "Doctor",
-            "Teacher"
+            "Farmer",
+            "Doctor"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1229,10 +1229,10 @@
           "soru": "Öğretmenin İngilizcesi hangisidir?",
           "dogruCevap": "Teacher",
           "secenekler": [
-            "Firefighter",
             "Police officer",
             "Doctor",
-            "Teacher"
+            "Teacher",
+            "Firefighter"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1248,10 +1248,10 @@
           "soru": "Polisin İngilizcesi nedir?",
           "dogruCevap": "Police officer",
           "secenekler": [
+            "Doctor",
             "Farmer",
-            "Police officer",
             "Chef",
-            "Doctor"
+            "Police officer"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1267,10 +1267,10 @@
           "soru": "İtfaiyecinin İngilizcesi hangisidir?",
           "dogruCevap": "Firefighter",
           "secenekler": [
-            "Teacher",
             "Firefighter",
             "Chef",
-            "Doctor"
+            "Doctor",
+            "Teacher"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1287,8 +1287,8 @@
           "dogruCevap": "Chef",
           "secenekler": [
             "Doctor",
-            "Teacher",
             "Chef",
+            "Teacher",
             "Farmer"
           ],
           "ipucu": "",
@@ -1305,10 +1305,10 @@
           "soru": "Çiftçinin İngilizcesi hangisidir?",
           "dogruCevap": "Farmer",
           "secenekler": [
-            "Police officer",
-            "Chef",
             "Farmer",
-            "Doctor"
+            "Police officer",
+            "Doctor",
+            "Chef"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1325,8 +1325,8 @@
           "dogruCevap": "Job",
           "secenekler": [
             "Toy",
-            "Sport",
             "Shape",
+            "Sport",
             "Job"
           ],
           "ipucu": "",
@@ -1343,10 +1343,10 @@
           "soru": "Hastaları tedavi eden meslek hangisidir?",
           "dogruCevap": "Doctor",
           "secenekler": [
-            "Teacher",
-            "Farmer",
             "Doctor",
-            "Chef"
+            "Farmer",
+            "Chef",
+            "Teacher"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1362,10 +1362,10 @@
           "soru": "Okulda ders anlatan meslek hangisidir?",
           "dogruCevap": "Teacher",
           "secenekler": [
-            "Doctor",
-            "Firefighter",
+            "Teacher",
             "Chef",
-            "Teacher"
+            "Firefighter",
+            "Doctor"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1381,10 +1381,10 @@
           "soru": "Yangın söndüren meslek hangisidir?",
           "dogruCevap": "Firefighter",
           "secenekler": [
-            "Firefighter",
             "Police officer",
-            "Teacher",
-            "Doctor"
+            "Firefighter",
+            "Doctor",
+            "Teacher"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1400,10 +1400,10 @@
           "soru": "\"Jobs\" kelimesinin anlamı nedir?",
           "dogruCevap": "Meslekler",
           "secenekler": [
-            "Oyuncaklar",
             "Sporlar",
-            "Meslekler",
-            "Renkler"
+            "Oyuncaklar",
+            "Renkler",
+            "Meslekler"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1419,9 +1419,9 @@
           "soru": "Yemek yapan meslek hangisidir?",
           "dogruCevap": "Chef",
           "secenekler": [
-            "Chef",
-            "Teacher",
             "Doctor",
+            "Teacher",
+            "Chef",
             "Farmer"
           ],
           "ipucu": "",
@@ -1687,10 +1687,10 @@
           "soru": "Arabanın İngilizce adı nedir?",
           "dogruCevap": "Car",
           "secenekler": [
-            "Bus",
             "Car",
-            "Train",
-            "Plane"
+            "Plane",
+            "Bus",
+            "Train"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1706,10 +1706,10 @@
           "soru": "Otobüsün İngilizce adı hangisidir?",
           "dogruCevap": "Bus",
           "secenekler": [
-            "Ship",
-            "Bus",
+            "Bike",
             "Car",
-            "Bike"
+            "Ship",
+            "Bus"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1725,10 +1725,10 @@
           "soru": "Trenin İngilizce adı nedir?",
           "dogruCevap": "Train",
           "secenekler": [
-            "Car",
-            "Train",
             "Plane",
-            "Ship"
+            "Train",
+            "Ship",
+            "Car"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1744,10 +1744,10 @@
           "soru": "Uçağın İngilizce adı nedir?",
           "dogruCevap": "Plane",
           "secenekler": [
+            "Train",
             "Ship",
             "Bus",
-            "Plane",
-            "Train"
+            "Plane"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1763,10 +1763,10 @@
           "soru": "Geminin İngilizce adı hangisidir?",
           "dogruCevap": "Ship",
           "secenekler": [
-            "Bus",
-            "Car",
             "Ship",
-            "Train"
+            "Train",
+            "Car",
+            "Bus"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1782,9 +1782,9 @@
           "soru": "Bisikletin İngilizce adı nedir?",
           "dogruCevap": "Bike",
           "secenekler": [
-            "Bus",
-            "Plane",
             "Train",
+            "Plane",
+            "Bus",
             "Bike"
           ],
           "ipucu": "",
@@ -1801,10 +1801,10 @@
           "soru": "Ulaşım kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Transport",
           "secenekler": [
-            "Transport",
             "Fruit",
             "Country",
-            "Sport"
+            "Sport",
+            "Transport"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1820,10 +1820,10 @@
           "soru": "Okul otobüsünün İngilizcesi nedir?",
           "dogruCevap": "School bus",
           "secenekler": [
-            "School car",
-            "School plane",
+            "School bus",
             "School train",
-            "School bus"
+            "School plane",
+            "School car"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1839,9 +1839,9 @@
           "soru": "Hangi taşıt gökyüzünde uçar?",
           "dogruCevap": "Plane",
           "secenekler": [
-            "Bike",
             "Plane",
             "Ship",
+            "Bike",
             "Train"
           ],
           "ipucu": "",
@@ -1877,10 +1877,10 @@
           "soru": "Tren istasyonunun İngilizcesi nedir?",
           "dogruCevap": "Train station",
           "secenekler": [
-            "Bus stop",
-            "Train station",
             "Airport",
-            "Harbor"
+            "Harbor",
+            "Bus stop",
+            "Train station"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1896,10 +1896,10 @@
           "soru": "Havaalanında hangi taşıt görülür?",
           "dogruCevap": "Plane",
           "secenekler": [
-            "Bike",
             "Train",
-            "Plane",
-            "Ship"
+            "Ship",
+            "Bike",
+            "Plane"
           ],
           "ipucu": "",
           "gorsel": {

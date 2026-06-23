@@ -397,10 +397,10 @@
       "soru": "Cümlenin sonuna hangi noktalama işareti gelir?",
       "dogruCevap": ".",
       "secenekler": [
-        "!",
-        "?",
         ",",
-        "."
+        "?",
+        ".",
+        "!"
       ],
       "ipucu": "",
       "gorsel": {
@@ -416,10 +416,10 @@
       "soru": "Hangi cümle doğru yazılmıştır?",
       "dogruCevap": "Ali okula gitti.",
       "secenekler": [
-        "ali okula gitti.",
-        "ali Okula gitti.",
         "Ali okula Gitti.",
-        "Ali okula gitti."
+        "ali okula gitti.",
+        "Ali okula gitti.",
+        "ali Okula gitti."
       ],
       "ipucu": "",
       "gorsel": {
@@ -435,9 +435,9 @@
       "soru": "Soru cümlesinin sonuna hangi işaret gelir?",
       "dogruCevap": "?",
       "secenekler": [
-        ".",
         "?",
         "!",
+        ".",
         ","
       ],
       "ipucu": "",
@@ -454,9 +454,9 @@
       "soru": "\"Elma armut ve muz aldım\" cümlesine virgül nereye gelir?",
       "dogruCevap": "Elma, armut ve muz",
       "secenekler": [
+        "Elma armut, ve muz",
         "Elma, armut, ve muz",
         "Elma, armut ve, muz",
-        "Elma armut, ve muz",
         "Elma, armut ve muz"
       ],
       "ipucu": "",
@@ -474,8 +474,8 @@
       "dogruCevap": "ankara",
       "secenekler": [
         "ankara",
-        "güzel",
         "koşmak",
+        "güzel",
         "elma"
       ],
       "ipucu": "",
@@ -498,9 +498,9 @@
       "dogruCevap": "!",
       "secenekler": [
         ",",
+        ".",
         "?",
-        "!",
-        "."
+        "!"
       ],
       "ipucu": "",
       "gorsel": {
@@ -517,9 +517,9 @@
       "dogruCevap": "mehmet koştu.",
       "secenekler": [
         "mehmet koştu.",
-        "Hava güzel.",
         "Ali okula gitti.",
-        "Ayşe İstanbul'da yaşıyor."
+        "Ayşe İstanbul'da yaşıyor.",
+        "Hava güzel."
       ],
       "ipucu": "",
       "gorsel": {
@@ -536,10 +536,10 @@
       "soru": "Virgül ne zaman kullanılır?",
       "dogruCevap": "Sayarken",
       "secenekler": [
-        "Sayarken",
+        "Soru cümlelerinde",
         "Ünlem cümlelerinde",
         "Cümle bitince",
-        "Soru cümlelerinde"
+        "Sayarken"
       ],
       "ipucu": "",
       "gorsel": {
@@ -555,10 +555,10 @@
       "soru": "\"türkiye güzel bir ülkedir\" cümlesini doğru yaz.",
       "dogruCevap": "Türkiye güzel bir ülkedir.",
       "secenekler": [
-        "Türkiye güzel bir ülkedir.",
-        "türkiye güzel bir ülkedir.",
+        "Türkiye Güzel Bir Ülkedir.",
         "türkiye Güzel bir ülkedir.",
-        "Türkiye Güzel Bir Ülkedir."
+        "Türkiye güzel bir ülkedir.",
+        "türkiye güzel bir ülkedir."
       ],
       "ipucu": "",
       "gorsel": {
@@ -575,10 +575,10 @@
       "soru": "Özel isimler nasıl yazılır?",
       "dogruCevap": "Büyük harfle başlar",
       "secenekler": [
-        "Küçük harfle",
-        "Tamamı büyük harfle",
         "Fark etmez",
-        "Büyük harfle başlar"
+        "Küçük harfle",
+        "Büyük harfle başlar",
+        "Tamamı büyük harfle"
       ],
       "ipucu": "",
       "gorsel": {
@@ -600,9 +600,9 @@
       "dogruCevap": "Ali, Ayşe ve Mehmet koştu.",
       "secenekler": [
         "ali, Ayşe ve mehmet koştu.",
-        "Ali, Ayşe ve Mehmet koştu.",
         "ali, ayşe ve mehmet koştu",
-        "Ali Ayşe ve Mehmet, koştu."
+        "Ali Ayşe ve Mehmet, koştu.",
+        "Ali, Ayşe ve Mehmet koştu."
       ],
       "ipucu": "",
       "gorsel": {
@@ -619,10 +619,10 @@
       "soru": "Ünlem işareti hangi cümlenin sonuna gelir?",
       "dogruCevap": "Aferin!",
       "secenekler": [
-        "Hava güzel mi?",
-        "Aferin!",
         "Hava güzel.",
-        "Hava güzeldi."
+        "Aferin!",
+        "Hava güzeldi.",
+        "Hava güzel mi?"
       ],
       "ipucu": "",
       "gorsel": {
@@ -638,10 +638,10 @@
       "soru": "\"fatma izmir'de doğdu\" cümlesindeki hatalar nelerdir?",
       "dogruCevap": "f ve i küçük",
       "secenekler": [
-        "Hata yok",
+        "f ve i küçük",
         "Sadece i küçük",
-        "Sadece f küçük",
-        "f ve i küçük"
+        "Hata yok",
+        "Sadece f küçük"
       ],
       "ipucu": "",
       "gorsel": {
@@ -657,10 +657,10 @@
       "soru": "Kaç noktalama işareti var: \"Ali, Ayşe ve Mehmet okula gitti. Hava güzel miydi?\"",
       "dogruCevap": "3",
       "secenekler": [
-        "4",
-        "2",
         "1",
-        "3"
+        "3",
+        "4",
+        "2"
       ],
       "ipucu": "virgül + nokta + soru işareti = 3",
       "gorsel": {
@@ -677,10 +677,10 @@
       "soru": "Hangi cümle yanlış yazılmıştır?",
       "dogruCevap": "ayşe geldi.",
       "secenekler": [
-        "ayşe geldi.",
-        "Ali koştu.",
         "Hava güzel.",
-        "Mehmet uyudu."
+        "Ali koştu.",
+        "Mehmet uyudu.",
+        "ayşe geldi."
       ],
       "ipucu": "",
       "gorsel": {
@@ -697,9 +697,9 @@
       "dogruCevap": "Ünlem ve soru işareti",
       "secenekler": [
         "Ünlem ve soru işareti",
-        "İki virgül",
+        "İki nokta",
         "Nokta ve virgül",
-        "İki nokta"
+        "İki virgül"
       ],
       "ipucu": "",
       "gorsel": {
@@ -716,10 +716,10 @@
       "soru": "\"Ankara Türkiye'nin başkentidir\" cümlesinde kaç büyük harf olmalı?",
       "dogruCevap": "2",
       "secenekler": [
-        "3",
-        "2",
         "4",
-        "1"
+        "2",
+        "1",
+        "3"
       ],
       "ipucu": "Ankara ve Türkiye",
       "gorsel": {
@@ -736,9 +736,9 @@
       "soru": "Hangi cümle doğru noktalanmıştır?",
       "dogruCevap": "Aferin, çok iyisin!",
       "secenekler": [
-        "Ali okula gitti?",
         "Aferin, çok iyisin!",
         "Hava güzel mi.",
+        "Ali okula gitti?",
         "Ne güzel."
       ],
       "ipucu": "",
@@ -756,9 +756,9 @@
       "dogruCevap": "elma",
       "secenekler": [
         "İstanbul",
-        "Ayşe",
+        "Türkiye",
         "elma",
-        "Türkiye"
+        "Ayşe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -779,10 +779,10 @@
       "soru": "\"berk can selin ve hande parkta oynadı\" — kaç düzeltme gerekir?",
       "dogruCevap": "3",
       "secenekler": [
-        "2",
-        "4",
+        "3",
         "5",
-        "3"
+        "2",
+        "4"
       ],
       "ipucu": "B, C, S, H büyük + nokta = 5? Hayır: 4 büyük harf + 2 virgül + 1 nokta...",
       "gorsel": {
@@ -800,10 +800,10 @@
       "soru": "Virgül olmadan doğru yazılan cümle hangisidir?",
       "dogruCevap": "\"Ali ve Ayşe geldi.\"",
       "secenekler": [
-        "\"Ali ve Ayşe geldi.\"",
-        "\"Elma armut muz aldım\"",
         "\"Ali Ayşe Mehmet geldi\"",
-        "\"Koştum oynadım geldim\""
+        "\"Koştum oynadım geldim\"",
+        "\"Elma armut muz aldım\"",
+        "\"Ali ve Ayşe geldi.\""
       ],
       "ipucu": "",
       "gorsel": {
@@ -819,10 +819,10 @@
       "soru": "\"aferin sen çok çalışkansın\" cümlesini doğru yaz.",
       "dogruCevap": "Aferin! Sen çok çalışkansın.",
       "secenekler": [
-        "aferin! sen çok çalışkansın.",
         "AFERIN sen çok çalışkansın.",
-        "Aferin! Sen çok çalışkansın.",
-        "Aferin, sen çok çalışkansın!"
+        "Aferin, sen çok çalışkansın!",
+        "aferin! sen çok çalışkansın.",
+        "Aferin! Sen çok çalışkansın."
       ],
       "ipucu": "",
       "gorsel": {
@@ -840,9 +840,9 @@
       "soru": "Hangi cümlede gereksiz büyük harf kullanılmıştır?",
       "dogruCevap": "Hava Güzel.",
       "secenekler": [
+        "Ali okula gitti.",
         "Ayşe koştu.",
         "Hava Güzel.",
-        "Ali okula gitti.",
         "İstanbul büyük şehir."
       ],
       "ipucu": "",
@@ -859,10 +859,10 @@
       "soru": "Noktalama işaretlerinin kullanım amacı nedir?",
       "dogruCevap": "Anlamı belirginleştirmek",
       "secenekler": [
-        "Yazıyı süslemek",
         "Cümleyi uzatmak",
         "Kelime saymak",
-        "Anlamı belirginleştirmek"
+        "Anlamı belirginleştirmek",
+        "Yazıyı süslemek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -879,9 +879,9 @@
       "dogruCevap": "Bugün hava çok güzel değil mi?",
       "secenekler": [
         "Bugün hava çok güzel değil mi?",
+        "Bugün hava çok güzel değil mi.",
         "Bugün Hava Çok Güzel Değil Mi?",
-        "bugün Hava çok güzel değil mi?",
-        "Bugün hava çok güzel değil mi."
+        "bugün Hava çok güzel değil mi?"
       ],
       "ipucu": "",
       "gorsel": {

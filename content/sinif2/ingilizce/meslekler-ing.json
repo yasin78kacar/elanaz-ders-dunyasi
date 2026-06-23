@@ -252,10 +252,10 @@
       "soru": "Doktor kelimesinin İngilizcesi nedir?",
       "dogruCevap": "Doctor",
       "secenekler": [
-        "Farmer",
+        "Teacher",
         "Chef",
-        "Doctor",
-        "Teacher"
+        "Farmer",
+        "Doctor"
       ],
       "ipucu": "",
       "gorsel": {
@@ -271,10 +271,10 @@
       "soru": "Öğretmenin İngilizcesi hangisidir?",
       "dogruCevap": "Teacher",
       "secenekler": [
-        "Firefighter",
         "Police officer",
         "Doctor",
-        "Teacher"
+        "Teacher",
+        "Firefighter"
       ],
       "ipucu": "",
       "gorsel": {
@@ -290,10 +290,10 @@
       "soru": "Polisin İngilizcesi nedir?",
       "dogruCevap": "Police officer",
       "secenekler": [
+        "Doctor",
         "Farmer",
-        "Police officer",
         "Chef",
-        "Doctor"
+        "Police officer"
       ],
       "ipucu": "",
       "gorsel": {
@@ -309,10 +309,10 @@
       "soru": "İtfaiyecinin İngilizcesi hangisidir?",
       "dogruCevap": "Firefighter",
       "secenekler": [
-        "Teacher",
         "Firefighter",
         "Chef",
-        "Doctor"
+        "Doctor",
+        "Teacher"
       ],
       "ipucu": "",
       "gorsel": {
@@ -329,8 +329,8 @@
       "dogruCevap": "Chef",
       "secenekler": [
         "Doctor",
-        "Teacher",
         "Chef",
+        "Teacher",
         "Farmer"
       ],
       "ipucu": "",
@@ -347,10 +347,10 @@
       "soru": "Çiftçinin İngilizcesi hangisidir?",
       "dogruCevap": "Farmer",
       "secenekler": [
-        "Police officer",
-        "Chef",
         "Farmer",
-        "Doctor"
+        "Police officer",
+        "Doctor",
+        "Chef"
       ],
       "ipucu": "",
       "gorsel": {
@@ -367,8 +367,8 @@
       "dogruCevap": "Job",
       "secenekler": [
         "Toy",
-        "Sport",
         "Shape",
+        "Sport",
         "Job"
       ],
       "ipucu": "",
@@ -385,10 +385,10 @@
       "soru": "Hastaları tedavi eden meslek hangisidir?",
       "dogruCevap": "Doctor",
       "secenekler": [
-        "Teacher",
-        "Farmer",
         "Doctor",
-        "Chef"
+        "Farmer",
+        "Chef",
+        "Teacher"
       ],
       "ipucu": "",
       "gorsel": {
@@ -404,10 +404,10 @@
       "soru": "Okulda ders anlatan meslek hangisidir?",
       "dogruCevap": "Teacher",
       "secenekler": [
-        "Doctor",
-        "Firefighter",
+        "Teacher",
         "Chef",
-        "Teacher"
+        "Firefighter",
+        "Doctor"
       ],
       "ipucu": "",
       "gorsel": {
@@ -423,10 +423,10 @@
       "soru": "Yangın söndüren meslek hangisidir?",
       "dogruCevap": "Firefighter",
       "secenekler": [
-        "Firefighter",
         "Police officer",
-        "Teacher",
-        "Doctor"
+        "Firefighter",
+        "Doctor",
+        "Teacher"
       ],
       "ipucu": "",
       "gorsel": {
@@ -442,10 +442,10 @@
       "soru": "\"Jobs\" kelimesinin anlamı nedir?",
       "dogruCevap": "Meslekler",
       "secenekler": [
-        "Oyuncaklar",
         "Sporlar",
-        "Meslekler",
-        "Renkler"
+        "Oyuncaklar",
+        "Renkler",
+        "Meslekler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -461,9 +461,9 @@
       "soru": "Yemek yapan meslek hangisidir?",
       "dogruCevap": "Chef",
       "secenekler": [
-        "Chef",
-        "Teacher",
         "Doctor",
+        "Teacher",
+        "Chef",
         "Farmer"
       ],
       "ipucu": "",

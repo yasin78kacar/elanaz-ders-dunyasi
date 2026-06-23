@@ -776,10 +776,10 @@
           "soru": "Bitkinin toprağa tutunan kısmı hangisidir?",
           "dogruCevap": "Kök",
           "secenekler": [
-            "Kök",
-            "Yaprak",
             "Meyve",
-            "Çiçek"
+            "Çiçek",
+            "Yaprak",
+            "Kök"
           ],
           "ipucu": "",
           "gorsel": {
@@ -795,10 +795,10 @@
           "soru": "Bitkinin gövdesi ne işe yarar?",
           "dogruCevap": "Bitkiyi yükseltir",
           "secenekler": [
-            "Bitkiyi yükseltir",
-            "Su içer",
             "Güneşi tutar",
-            "Tohum üretir"
+            "Bitkiyi yükseltir",
+            "Tohum üretir",
+            "Su içer"
           ],
           "ipucu": "",
           "gorsel": {
@@ -814,10 +814,10 @@
           "soru": "Güneş enerjisini alan bitki parçası hangisidir?",
           "dogruCevap": "Yaprak",
           "secenekler": [
-            "Tohum",
-            "Yaprak",
+            "Meyve",
             "Kök",
-            "Meyve"
+            "Tohum",
+            "Yaprak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -833,10 +833,10 @@
           "soru": "Bitkinin renkli üreme kısmı hangisidir?",
           "dogruCevap": "Çiçek",
           "secenekler": [
-            "Çiçek",
-            "Kabuk",
             "Kök",
-            "Gövde"
+            "Gövde",
+            "Kabuk",
+            "Çiçek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -852,8 +852,8 @@
           "soru": "Tohumları koruyan bitki parçası hangisidir?",
           "dogruCevap": "Meyve",
           "secenekler": [
-            "Kök",
             "Dal",
+            "Kök",
             "Yaprak",
             "Meyve"
           ],
@@ -890,10 +890,10 @@
           "soru": "Bitkilerin büyümesi için hangisi gereklidir?",
           "dogruCevap": "Güneş",
           "secenekler": [
-            "Kar",
-            "Güneş",
             "Ay",
-            "Rüzgâr"
+            "Güneş",
+            "Rüzgâr",
+            "Kar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -909,10 +909,10 @@
           "soru": "🎭 Bitki sadece su içerse ama güneş görmezse ne olur?",
           "dogruCevap": "Sağlıklı büyüyemez",
           "secenekler": [
-            "Çok hızlı büyür",
             "Meyve verir",
             "Sağlıklı büyüyemez",
-            "Hiç etkilenmez"
+            "Hiç etkilenmez",
+            "Çok hızlı büyür"
           ],
           "ipucu": "Bitkiler hem su hem güneş ister!",
           "gorsel": {
@@ -937,10 +937,10 @@
           "soru": "Bitkilerin yaşaması için toprak gerekli midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece ağaçlar için",
-            "Hayır",
+            "Sadece çiçekler için",
             "Evet",
-            "Sadece çiçekler için"
+            "Sadece ağaçlar için",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -956,10 +956,10 @@
           "soru": "Bitkilerin yaşaması için hava gerekli midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece kök için",
-            "Evet",
+            "Hayır",
             "Sadece yazın",
-            "Hayır"
+            "Evet",
+            "Sadece kök için"
           ],
           "ipucu": "",
           "gorsel": {
@@ -981,9 +981,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Evet",
+            "Sadece meyve verince",
             "Hayır",
-            "Sadece ormanda",
-            "Sadece meyve verince"
+            "Sadece ormanda"
           ],
           "ipucu": "",
           "gorsel": {
@@ -999,10 +999,10 @@
           "soru": "Elma nereden gelir?",
           "dogruCevap": "Bitkiden",
           "secenekler": [
-            "Hayvandan",
+            "Bitkiden",
             "Sudan",
-            "Taştan",
-            "Bitkiden"
+            "Hayvandan",
+            "Taştan"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1018,10 +1018,10 @@
           "soru": "Havuç hangi canlı grubundadır?",
           "dogruCevap": "Bitki",
           "secenekler": [
-            "Araba",
             "Taş",
+            "Bitki",
             "Hayvan",
-            "Bitki"
+            "Araba"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1039,8 +1039,8 @@
           "secenekler": [
             "Kalem",
             "Kök",
-            "Meyve",
-            "Taş"
+            "Taş",
+            "Meyve"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1056,9 +1056,9 @@
           "soru": "Yapraklar genellikle hangi renktedir?",
           "dogruCevap": "Yeşil",
           "secenekler": [
-            "Kırmızı",
-            "Yeşil",
             "Siyah",
+            "Yeşil",
+            "Kırmızı",
             "Mavi"
           ],
           "ipucu": "",
@@ -1076,8 +1076,8 @@
           "dogruCevap": "Toprağa tutunmak ve su almak",
           "secenekler": [
             "Tohum üretmek",
-            "Uçmak",
             "Toprağa tutunmak ve su almak",
+            "Uçmak",
             "Güneşi yakalamak"
           ],
           "ipucu": "Kök yerin altındadır!",
@@ -1095,10 +1095,10 @@
           "soru": "Bitki büyür mü?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
-            "Sadece meyve verince",
             "Hayır",
-            "Sadece kışın"
+            "Sadece kışın",
+            "Sadece meyve verince",
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1114,10 +1114,10 @@
           "soru": "Susuz bırakılan bitki ne olur?",
           "dogruCevap": "Solar",
           "secenekler": [
+            "Solar",
             "Uçar",
             "Konuşur",
-            "Büyür",
-            "Solar"
+            "Büyür"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1133,9 +1133,9 @@
           "soru": "Bitkinin beş ana parçasından biri hangisidir?",
           "dogruCevap": "Gövde",
           "secenekler": [
-            "Kanat",
             "Tekerlek",
             "Pul",
+            "Kanat",
             "Gövde"
           ],
           "ipucu": "",
@@ -1151,10 +1151,10 @@
           "soru": "🎭 Meyve bitkinin hangi göreviyle ilgilidir?",
           "dogruCevap": "Tohumları korumak",
           "secenekler": [
+            "Uçmak",
             "Tohumları korumak",
-            "Parlamak",
             "Yüzmek",
-            "Uçmak"
+            "Parlamak"
           ],
           "ipucu": "Meyve tohumu sarar!",
           "gorsel": {
@@ -1171,10 +1171,10 @@
           "soru": "Bitkiler beslenir mi?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece insanlar",
-            "Sadece hayvanlar",
+            "Evet",
             "Hayır",
-            "Evet"
+            "Sadece insanlar",
+            "Sadece hayvanlar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1190,10 +1190,10 @@
           "soru": "Bitkiler solur mu?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece kuşlar",
             "Hayır",
+            "Sadece balıklar",
             "Evet",
-            "Sadece balıklar"
+            "Sadece kuşlar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1234,10 +1234,10 @@
           "soru": "🎭 Çiçeği olmayan bitki canlı olamaz mı?",
           "dogruCevap": "Olabilir, çiçeği olmayabilir",
           "secenekler": [
+            "Sadece ağaçlar çiçeksiz",
             "Olabilir, çiçeği olmayabilir",
-            "Hayır, çiçeksiz olamaz",
             "Evet, çiçek şart",
-            "Sadece ağaçlar çiçeksiz"
+            "Hayır, çiçeksiz olamaz"
           ],
           "ipucu": "Bazı bitkilerin çiçeği görülmez!",
           "gorsel": {
@@ -1254,10 +1254,10 @@
           "soru": "🎭 Bitki toprakta mı hava da mı yaşar?",
           "dogruCevap": "Toprakta",
           "secenekler": [
-            "Suda",
+            "Toprakta",
             "Taşta",
             "Havada",
-            "Toprakta"
+            "Suda"
           ],
           "ipucu": "Bitkiler kökleriyle toprakta tutunur!",
           "gorsel": {
@@ -1274,10 +1274,10 @@
           "soru": "Gül hangi canlı grubundadır?",
           "dogruCevap": "Bitki",
           "secenekler": [
-            "Araba",
-            "Taş",
+            "Bitki",
             "Hayvan",
-            "Bitki"
+            "Araba",
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1293,10 +1293,10 @@
           "soru": "Çam ağacı hangi gruptadır?",
           "dogruCevap": "Bitki",
           "secenekler": [
-            "Balık",
-            "Böcek",
             "Bitki",
-            "Kuş"
+            "Kuş",
+            "Böcek",
+            "Balık"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1312,10 +1312,10 @@
           "soru": "Domates nereden gelir?",
           "dogruCevap": "Bitkiden",
           "secenekler": [
-            "Bitkiden",
-            "Hayvandan",
+            "Sudan",
             "Taştan",
-            "Sudan"
+            "Hayvandan",
+            "Bitkiden"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1331,10 +1331,10 @@
           "soru": "Kökün görevi nedir?",
           "dogruCevap": "Toprağa tutunmak",
           "secenekler": [
-            "Toprağa tutunmak",
             "Güneşi tutmak",
-            "Uçmak",
-            "Yüzmek"
+            "Yüzmek",
+            "Toprağa tutunmak",
+            "Uçmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1350,9 +1350,9 @@
           "soru": "Yapraklar genelde hangi renktedir?",
           "dogruCevap": "Yeşil",
           "secenekler": [
-            "Sarı",
             "Yeşil",
             "Mavi",
+            "Sarı",
             "Mor"
           ],
           "ipucu": "",
@@ -1369,9 +1369,9 @@
           "soru": "Çiçeğin görevi nedir?",
           "dogruCevap": "Üremek",
           "secenekler": [
-            "Uçmak",
             "Parlamak",
             "Yüzmek",
+            "Uçmak",
             "Üremek"
           ],
           "ipucu": "",
@@ -1388,10 +1388,10 @@
           "soru": "Meyvenin içinde genelde ne bulunur?",
           "dogruCevap": "Tohum",
           "secenekler": [
-            "Taş",
-            "Kalem",
             "Su",
-            "Tohum"
+            "Tohum",
+            "Kalem",
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1407,10 +1407,10 @@
           "soru": "Bitkiler enerjiyi nereden alır?",
           "dogruCevap": "Güneşten",
           "secenekler": [
-            "Ay'dan",
             "Karanlıktan",
-            "Güneşten",
-            "Taştan"
+            "Ay'dan",
+            "Taştan",
+            "Güneşten"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1426,10 +1426,10 @@
           "soru": "Fasulye hangi gruptadır?",
           "dogruCevap": "Bitki",
           "secenekler": [
-            "Memeli",
             "Bitki",
+            "Balık",
             "Kuş",
-            "Balık"
+            "Memeli"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1445,9 +1445,9 @@
           "soru": "Kaktüs bitki midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece yazın",
-            "Hayır",
             "Sadece çölde",
+            "Hayır",
+            "Sadece yazın",
             "Evet"
           ],
           "ipucu": "",
@@ -1464,8 +1464,8 @@
           "soru": "Gövdenin görevi nedir?",
           "dogruCevap": "Bitkiyi yükseltmek",
           "secenekler": [
-            "Bitkiyi yükseltmek",
             "Uçmak",
+            "Bitkiyi yükseltmek",
             "Tohum üretmek",
             "Yüzmek"
           ],
@@ -1483,10 +1483,10 @@
           "soru": "Bitkiler ölür mü?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hiçbiri",
             "Hayır",
+            "Sadece kışın",
             "Evet",
-            "Sadece kışın"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1502,9 +1502,9 @@
           "soru": "Tohum ekilince ne olur?",
           "dogruCevap": "Filiz çıkar",
           "secenekler": [
-            "Uçar",
-            "Erir",
             "Filiz çıkar",
+            "Erir",
+            "Uçar",
             "Taş olur"
           ],
           "ipucu": "",
@@ -1522,9 +1522,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Hayır",
+            "Evet",
             "Sadece meyveliler",
-            "Sadece büyükler",
-            "Evet"
+            "Sadece büyükler"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1540,10 +1540,10 @@
           "soru": "Lale hangi gruptadır?",
           "dogruCevap": "Bitki",
           "secenekler": [
-            "Hayvan",
             "Araba",
-            "Taş",
-            "Bitki"
+            "Hayvan",
+            "Bitki",
+            "Taş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1559,10 +1559,10 @@
           "soru": "🎭 Bitki hava olmadan yaşayabilir mi?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Sadece yazın",
+            "Hayır",
             "Evet",
             "Sadece kök için",
-            "Hayır"
+            "Sadece yazın"
           ],
           "ipucu": "Bitkiler solunum için havaya ihtiyaç duyar!",
           "gorsel": {
@@ -1584,10 +1584,10 @@
           "soru": "Patates nereden gelir?",
           "dogruCevap": "Bitkiden",
           "secenekler": [
-            "Taştan",
-            "Bitkiden",
             "Sudan",
-            "Hayvandan"
+            "Taştan",
+            "Hayvandan",
+            "Bitkiden"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1603,10 +1603,10 @@
           "soru": "Çilek hangi bitki parçasıdır?",
           "dogruCevap": "Meyve",
           "secenekler": [
-            "Kök",
+            "Tohum",
             "Gövde",
-            "Meyve",
-            "Tohum"
+            "Kök",
+            "Meyve"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1622,10 +1622,10 @@
           "soru": "Bitkilerin ihtiyaçlarından biri değildir?",
           "dogruCevap": "Televizyon",
           "secenekler": [
-            "Güneş",
-            "Su",
             "Televizyon",
-            "Toprak"
+            "Toprak",
+            "Güneş",
+            "Su"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1647,9 +1647,9 @@
           "soru": "Kiraz ağacı bitki midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Evet",
             "Sadece yazın",
+            "Evet",
+            "Hayır",
             "Sadece meyve verince"
           ],
           "ipucu": "",
@@ -1667,9 +1667,9 @@
           "dogruCevap": "Güneş enerjisi almak",
           "secenekler": [
             "Yüzmek",
-            "Uçmak",
+            "Taşımak",
             "Güneş enerjisi almak",
-            "Taşımak"
+            "Uçmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1685,10 +1685,10 @@
           "soru": "Kök nerede bulunur?",
           "dogruCevap": "Toprak altında",
           "secenekler": [
-            "Toprak altında",
             "Gökyüzünde",
-            "Suda",
-            "Havada"
+            "Toprak altında",
+            "Havada",
+            "Suda"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1704,9 +1704,9 @@
           "soru": "Muz nereden gelir?",
           "dogruCevap": "Bitkiden",
           "secenekler": [
-            "Taştan",
-            "Hayvandan",
             "Bitkiden",
+            "Hayvandan",
+            "Taştan",
             "Kalemden"
           ],
           "ipucu": "",
@@ -1723,10 +1723,10 @@
           "soru": "Bitkiler ürer mi?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece hayvanlar",
             "Evet",
+            "Sadece insanlar",
             "Hayır",
-            "Sadece insanlar"
+            "Sadece hayvanlar"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1743,9 +1743,9 @@
           "dogruCevap": "Bitki",
           "secenekler": [
             "Kuş",
+            "Balık",
             "Bitki",
-            "Böcek",
-            "Balık"
+            "Böcek"
           ],
           "ipucu": "",
           "gorsel": {

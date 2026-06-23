@@ -259,9 +259,9 @@
           "soru": "İngilizcede \"Hava Durumu\" kelimesinin karşılığı nedir?",
           "dogruCevap": "Weather",
           "secenekler": [
-            "Colors",
             "Weather",
             "Months",
+            "Colors",
             "Time"
           ],
           "ipucu": "",
@@ -278,10 +278,10 @@
           "soru": "Gökyüzünün açık ve güneşli olduğu günlere İngilizcede ne deriz?",
           "dogruCevap": "Sunny",
           "secenekler": [
-            "Sunny",
-            "Snowy",
+            "Rainy",
             "Cloudy",
-            "Rainy"
+            "Sunny",
+            "Snowy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -297,10 +297,10 @@
           "soru": "Yağmurlu havaların İngilizce karşılığı aşağıdakilerden hangisidir?",
           "dogruCevap": "Rainy",
           "secenekler": [
-            "Sunny",
             "Windy",
-            "Rainy",
-            "Hot"
+            "Hot",
+            "Sunny",
+            "Rainy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -317,9 +317,9 @@
           "dogruCevap": "Snowy",
           "secenekler": [
             "Hot",
+            "Rainy",
             "Snowy",
-            "Cloudy",
-            "Rainy"
+            "Cloudy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -335,10 +335,10 @@
           "soru": "Ağaç dallarının sallandığı rüzgarlı havaların İngilizcesi nedir?",
           "dogruCevap": "Windy",
           "secenekler": [
-            "Sunny",
             "Cold",
-            "Snowy",
-            "Windy"
+            "Sunny",
+            "Windy",
+            "Snowy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -354,8 +354,8 @@
           "soru": "Güneşin görünmediği, bulutlu havalara ne ad verilir?",
           "dogruCevap": "Cloudy",
           "secenekler": [
-            "Cloudy",
             "Rainy",
+            "Cloudy",
             "Windy",
             "Sunny"
           ],
@@ -373,10 +373,10 @@
           "soru": "Havanın çok sıcak olduğunu anlatmak için hangi İngilizce kelimeyi kullanırız?",
           "dogruCevap": "Hot",
           "secenekler": [
-            "Hot",
-            "Snowy",
             "Cold",
-            "Windy"
+            "Windy",
+            "Snowy",
+            "Hot"
           ],
           "ipucu": "",
           "gorsel": {
@@ -392,10 +392,10 @@
           "soru": "Havanın buz gibi soğuk olduğunu ifade eden kelime hangisidir?",
           "dogruCevap": "Cold",
           "secenekler": [
-            "Sunny",
-            "Hot",
             "Rain",
-            "Cold"
+            "Sunny",
+            "Cold",
+            "Hot"
           ],
           "ipucu": "",
           "gorsel": {
@@ -411,10 +411,10 @@
           "soru": "\"Rainy\" kelimesinin Türkçedeki anlamı nedir?",
           "dogruCevap": "Yağmurlu",
           "secenekler": [
-            "Güneşli",
             "Yağmurlu",
-            "Karlı",
-            "Bulutlu"
+            "Bulutlu",
+            "Güneşli",
+            "Karlı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -430,9 +430,9 @@
           "soru": "Hangi havada şapka ve güneş gözlüğü takarız?",
           "dogruCevap": "Sunny",
           "secenekler": [
+            "Windy",
             "Rainy",
             "Sunny",
-            "Windy",
             "Snowy"
           ],
           "ipucu": "",
@@ -449,10 +449,10 @@
           "soru": "Hangi havada dışarıda kartopu oynamak çok keyiflidir?",
           "dogruCevap": "Snowy",
           "secenekler": [
-            "Rainy",
-            "Snowy",
             "Sunny",
-            "Hot"
+            "Hot",
+            "Rainy",
+            "Snowy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -468,10 +468,10 @@
           "soru": "\"Windy\" kelimesinin Türkçe karşılığı nedir?",
           "dogruCevap": "Rüzgarlı",
           "secenekler": [
+            "Sisli",
             "Rüzgarlı",
             "Sıcak",
-            "Yağmurlu",
-            "Sisli"
+            "Yağmurlu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -711,10 +711,10 @@
           "soru": "Gömlek kelimesinin İngilizcesi hangisidir?",
           "dogruCevap": "Shirt",
           "secenekler": [
-            "Skirt",
-            "Shirt",
             "Shoes",
-            "Scarf"
+            "Shirt",
+            "Scarf",
+            "Skirt"
           ],
           "ipucu": "",
           "gorsel": {
@@ -731,9 +731,9 @@
           "dogruCevap": "Pants",
           "secenekler": [
             "Pants",
-            "Coat",
             "Dress",
-            "Hat"
+            "Hat",
+            "Coat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -751,8 +751,8 @@
           "secenekler": [
             "Jacket",
             "Dress",
-            "Boots",
-            "Gloves"
+            "Gloves",
+            "Boots"
           ],
           "ipucu": "",
           "gorsel": {
@@ -770,8 +770,8 @@
           "secenekler": [
             "Socks",
             "Skirt",
-            "Shirt",
-            "Sweater"
+            "Sweater",
+            "Shirt"
           ],
           "ipucu": "",
           "gorsel": {
@@ -789,8 +789,8 @@
           "secenekler": [
             "Shirt",
             "Shoes",
-            "Scarf",
-            "Socks"
+            "Socks",
+            "Scarf"
           ],
           "ipucu": "",
           "gorsel": {
@@ -806,10 +806,10 @@
           "soru": "Çorap kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Socks",
           "secenekler": [
-            "Socks",
+            "Boots",
             "Gloves",
-            "Pants",
-            "Boots"
+            "Socks",
+            "Pants"
           ],
           "ipucu": "",
           "gorsel": {
@@ -844,10 +844,10 @@
           "soru": "Kaban kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Coat",
           "secenekler": [
-            "Coat",
             "Socks",
-            "Skirt",
-            "Scarf"
+            "Scarf",
+            "Coat",
+            "Skirt"
           ],
           "ipucu": "",
           "gorsel": {
@@ -863,10 +863,10 @@
           "soru": "Atkı kelimesinin İngilizce karşılığı hangisidir?",
           "dogruCevap": "Scarf",
           "secenekler": [
-            "Hat",
             "Shoes",
             "Scarf",
-            "Gloves"
+            "Gloves",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -882,10 +882,10 @@
           "soru": "Eldiven için doğru İngilizce kelime nedir?",
           "dogruCevap": "Gloves",
           "secenekler": [
-            "Pants",
-            "Gloves",
             "Dress",
-            "Boots"
+            "Pants",
+            "Boots",
+            "Gloves"
           ],
           "ipucu": "",
           "gorsel": {
@@ -901,8 +901,8 @@
           "soru": "Tişört kelimesinin İngilizcesi hangisidir?",
           "dogruCevap": "T-shirt",
           "secenekler": [
-            "Sweater",
             "Skirt",
+            "Sweater",
             "T-shirt",
             "Jacket"
           ],
@@ -920,10 +920,10 @@
           "soru": "Ceketin İngilizce karşılığı nedir?",
           "dogruCevap": "Jacket",
           "secenekler": [
+            "Coat",
             "Hat",
             "Shirt",
-            "Jacket",
-            "Coat"
+            "Jacket"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1188,10 +1188,10 @@
           "soru": "Oyuncak kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Toy",
           "secenekler": [
-            "Food",
-            "Toy",
             "Book",
-            "Shirt"
+            "Food",
+            "Shirt",
+            "Toy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1207,10 +1207,10 @@
           "soru": "Oyuncak ayının İngilizcesi hangisidir?",
           "dogruCevap": "Teddy bear",
           "secenekler": [
-            "Toy car",
-            "Ball",
             "Teddy bear",
-            "Kite"
+            "Ball",
+            "Kite",
+            "Toy car"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1246,9 +1246,9 @@
           "dogruCevap": "Doll",
           "secenekler": [
             "Ball",
-            "Doll",
+            "Bear",
             "Kite",
-            "Bear"
+            "Doll"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1264,10 +1264,10 @@
           "soru": "Oyuncak arabanın İngilizcesi nedir?",
           "dogruCevap": "Toy car",
           "secenekler": [
-            "Toy ball",
-            "Toy car",
+            "Toy bear",
             "Toy kite",
-            "Toy bear"
+            "Toy ball",
+            "Toy car"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1283,8 +1283,8 @@
           "soru": "Uçurtmanın İngilizcesi hangisidir?",
           "dogruCevap": "Kite",
           "secenekler": [
-            "Bike",
             "Doll",
+            "Bike",
             "Kite",
             "Ball"
           ],
@@ -1302,10 +1302,10 @@
           "soru": "Oyuncaklar kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Toys",
           "secenekler": [
-            "Toys",
             "Shapes",
             "Clothes",
-            "Food"
+            "Food",
+            "Toys"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1321,10 +1321,10 @@
           "soru": "Bisikletin İngilizcesi hangisidir?",
           "dogruCevap": "Bike",
           "secenekler": [
-            "Ball",
-            "Kite",
             "Doll",
-            "Bike"
+            "Bike",
+            "Kite",
+            "Ball"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1340,10 +1340,10 @@
           "soru": "Yapbozun İngilizcesi nedir?",
           "dogruCevap": "Puzzle",
           "secenekler": [
-            "Bear",
             "Doll",
-            "Ball",
-            "Puzzle"
+            "Bear",
+            "Puzzle",
+            "Ball"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1359,8 +1359,8 @@
           "soru": "\"Ball\" kelimesinin anlamı nedir?",
           "dogruCevap": "Top",
           "secenekler": [
-            "Top",
             "Uçurtma",
+            "Top",
             "Bebek",
             "Araba"
           ],
@@ -1378,10 +1378,10 @@
           "soru": "Hangi oyuncakla parkta oynarız?",
           "dogruCevap": "Ball",
           "secenekler": [
-            "Kite",
-            "Puzzle",
+            "Doll",
             "Ball",
-            "Doll"
+            "Puzzle",
+            "Kite"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1397,9 +1397,9 @@
           "soru": "\"Doll\" kelimesi ne demektir?",
           "dogruCevap": "Bebek oyuncağı",
           "secenekler": [
+            "Bebek oyuncağı",
             "Uçurtma",
             "Top",
-            "Bebek oyuncağı",
             "Oyuncak araba"
           ],
           "ipucu": "",
@@ -1655,8 +1655,8 @@
           "dogruCevap": "Spring",
           "secenekler": [
             "Spring",
-            "Autumn",
             "Winter",
+            "Autumn",
             "Summer"
           ],
           "ipucu": "",
@@ -1675,8 +1675,8 @@
           "secenekler": [
             "Autumn",
             "Spring",
-            "Summer",
-            "Winter"
+            "Winter",
+            "Summer"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1692,10 +1692,10 @@
           "soru": "Sonbaharın İngilizcesi hangisidir?",
           "dogruCevap": "Autumn",
           "secenekler": [
-            "Winter",
-            "Autumn",
             "Spring",
-            "Summer"
+            "Autumn",
+            "Summer",
+            "Winter"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1711,10 +1711,10 @@
           "soru": "Kış mevsiminin İngilizcesi nedir?",
           "dogruCevap": "Winter",
           "secenekler": [
-            "Winter",
             "Summer",
             "Spring",
-            "Autumn"
+            "Autumn",
+            "Winter"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1730,9 +1730,9 @@
           "soru": "Aşağıdakilerden hangisi yaz mevsimine daha uygundur?",
           "dogruCevap": "T-shirt",
           "secenekler": [
-            "Boots",
             "T-shirt",
             "Coat",
+            "Boots",
             "Gloves"
           ],
           "ipucu": "",
@@ -1749,10 +1749,10 @@
           "soru": "Kış mevsiminde hangi giysi daha uygundur?",
           "dogruCevap": "Coat",
           "secenekler": [
-            "Dress",
-            "Skirt",
             "T-shirt",
-            "Coat"
+            "Skirt",
+            "Coat",
+            "Dress"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1768,10 +1768,10 @@
           "soru": "Yağmurlu sonbahar gününde hangisi kullanılır?",
           "dogruCevap": "Umbrella",
           "secenekler": [
-            "Umbrella",
             "Hat",
-            "Shoes",
-            "Socks"
+            "Umbrella",
+            "Socks",
+            "Shoes"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1787,10 +1787,10 @@
           "soru": "Karlı havada ayakları sıcak tutan eşya hangisidir?",
           "dogruCevap": "Boots",
           "secenekler": [
-            "Hat",
             "Scarf",
+            "Boots",
             "Gloves",
-            "Boots"
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1807,9 +1807,9 @@
           "dogruCevap": "Scarf",
           "secenekler": [
             "Socks",
-            "Scarf",
             "Shoes",
-            "Pants"
+            "Pants",
+            "Scarf"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1825,10 +1825,10 @@
           "soru": "Ellerimizi koruyan eşya hangisidir?",
           "dogruCevap": "Gloves",
           "secenekler": [
-            "Hat",
-            "Skirt",
             "Dress",
-            "Gloves"
+            "Gloves",
+            "Skirt",
+            "Hat"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1844,10 +1844,10 @@
           "soru": "\"Swim\" aktivitesi en çok hangi mevsimde yapılır?",
           "dogruCevap": "Summer",
           "secenekler": [
-            "Spring",
-            "Winter",
             "Autumn",
-            "Summer"
+            "Summer",
+            "Winter",
+            "Spring"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1863,10 +1863,10 @@
           "soru": "\"Make a snowman\" etkinliği hangi mevsime aittir?",
           "dogruCevap": "Winter",
           "secenekler": [
+            "Winter",
             "Autumn",
-            "Summer",
             "Spring",
-            "Winter"
+            "Summer"
           ],
           "ipucu": "",
           "gorsel": {

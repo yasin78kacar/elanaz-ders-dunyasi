@@ -854,10 +854,10 @@
           "soru": "\"güzel\" kelimesinin eş anlamlısı hangisidir?",
           "dogruCevap": "hoş",
           "secenekler": [
-            "hoş",
-            "çirkin",
             "büyük",
-            "uzun"
+            "çirkin",
+            "uzun",
+            "hoş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -874,10 +874,10 @@
           "soru": "\"sıcak\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "soğuk",
           "secenekler": [
-            "ılık",
             "soğuk",
             "donuk",
-            "serin"
+            "serin",
+            "ılık"
           ],
           "ipucu": "",
           "gorsel": {
@@ -897,10 +897,10 @@
           "soru": "\"hızlı\" kelimesinin eş anlamlısı hangisidir?",
           "dogruCevap": "çabuk",
           "secenekler": [
-            "sakin",
             "yavaş",
             "ağır",
-            "çabuk"
+            "çabuk",
+            "sakin"
           ],
           "ipucu": "",
           "gorsel": {
@@ -917,9 +917,9 @@
           "soru": "\"gece\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "gündüz",
           "secenekler": [
-            "akşam",
             "öğle",
             "sabah",
+            "akşam",
             "gündüz"
           ],
           "ipucu": "",
@@ -940,8 +940,8 @@
           "soru": "\"yüz\" kelimesi aşağıdaki hangi iki anlamda kullanılır?",
           "dogruCevap": "Sayı ve vücut parçası",
           "secenekler": [
-            "Sayı ve vücut parçası",
             "Renk ve ses",
+            "Sayı ve vücut parçası",
             "Hayvan ve bitki",
             "Yiyecek ve içecek"
           ],
@@ -963,9 +963,9 @@
           "soru": "\"açık\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "kapalı",
           "secenekler": [
+            "kapalı",
             "net",
             "aydınlık",
-            "kapalı",
             "geniş"
           ],
           "ipucu": "",
@@ -983,10 +983,10 @@
           "soru": "\"şehir\" kelimesinin eş anlamlısı hangisidir?",
           "dogruCevap": "kent",
           "secenekler": [
-            "köy",
             "ülke",
+            "kent",
             "mahalle",
-            "kent"
+            "köy"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1004,8 +1004,8 @@
           "dogruCevap": "Bu işten kar etti",
           "secenekler": [
             "Bu işten kar etti",
-            "Kardan adam yaptık",
             "Kar beyazdır",
+            "Kardan adam yaptık",
             "Kar yağdı"
           ],
           "ipucu": "",
@@ -1028,8 +1028,8 @@
           "dogruCevap": "kirli",
           "secenekler": [
             "pırıl pırıl",
-            "düzgün",
             "tertipli",
+            "düzgün",
             "kirli"
           ],
           "ipucu": "",
@@ -1050,10 +1050,10 @@
           "soru": "\"büyük\" kelimesinin eş anlamlısı hangisidir?",
           "dogruCevap": "iri",
           "secenekler": [
-            "uzun",
-            "geniş",
+            "küçük",
             "iri",
-            "küçük"
+            "uzun",
+            "geniş"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1070,9 +1070,9 @@
           "soru": "\"mutlu\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "üzgün",
           "secenekler": [
-            "neşeli",
             "üzgün",
             "sevinçli",
+            "neşeli",
             "heyecanlı"
           ],
           "ipucu": "",
@@ -1093,9 +1093,9 @@
           "soru": "\"gül\" kelimesi hangi cümlede \"çiçek\" anlamında kullanılmıştır?",
           "dogruCevap": "Bahçede güller açmış",
           "secenekler": [
-            "Gülmekten ağladı",
             "Gülünç bir şey söyledi",
             "Çok güldü",
+            "Gülmekten ağladı",
             "Bahçede güller açmış"
           ],
           "ipucu": "",
@@ -1117,10 +1117,10 @@
           "soru": "\"eski\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "yeni",
           "secenekler": [
-            "yeni",
-            "pahalı",
             "kullanılmış",
-            "bozuk"
+            "bozuk",
+            "pahalı",
+            "yeni"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1137,10 +1137,10 @@
           "soru": "\"kolay\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "zor",
           "secenekler": [
-            "zor",
+            "karmaşık",
             "sıradan",
-            "basit",
-            "karmaşık"
+            "zor",
+            "basit"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1160,10 +1160,10 @@
           "soru": "Eş anlamlı kelime çifti hangisidir?",
           "dogruCevap": "hızlı - çabuk",
           "secenekler": [
-            "büyük - küçük",
-            "açık - kapalı",
+            "hızlı - çabuk",
             "güzel - çirkin",
-            "hızlı - çabuk"
+            "büyük - küçük",
+            "açık - kapalı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1184,9 +1184,9 @@
           "dogruCevap": "Kırda piknik yaptık",
           "secenekler": [
             "Camı kırma",
-            "Kırda piknik yaptık",
             "Kalemi kırdı",
-            "Kırık bir şey vardı"
+            "Kırık bir şey vardı",
+            "Kırda piknik yaptık"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1207,10 +1207,10 @@
           "soru": "\"uzun\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "kısa",
           "secenekler": [
+            "küçük",
             "dar",
             "kısa",
-            "ince",
-            "küçük"
+            "ince"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1228,9 +1228,9 @@
           "dogruCevap": "dolu - boş",
           "secenekler": [
             "dolu - boş",
-            "ev - konut",
             "hızlı - çabuk",
-            "güzel - hoş"
+            "güzel - hoş",
+            "ev - konut"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1250,10 +1250,10 @@
           "soru": "\"aydınlık\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "karanlık",
           "secenekler": [
-            "soluk",
-            "gölgeli",
             "loş",
-            "karanlık"
+            "gölgeli",
+            "karanlık",
+            "soluk"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1274,8 +1274,8 @@
           "dogruCevap": "ben (kişi - cilt lekesi)",
           "secenekler": [
             "güzel - hoş",
-            "ben (kişi - cilt lekesi)",
             "ev - konut",
+            "ben (kişi - cilt lekesi)",
             "büyük - küçük"
           ],
           "ipucu": "",
@@ -1294,10 +1294,10 @@
           "soru": "\"çirkin\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "güzel",
           "secenekler": [
+            "düz",
             "güzel",
             "soluk",
-            "sıradan",
-            "düz"
+            "sıradan"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1317,10 +1317,10 @@
           "soru": "\"dolu\" kelimesinin zıt anlamlısı hangisidir?",
           "dogruCevap": "boş",
           "secenekler": [
-            "yarım",
+            "hafif",
             "az",
             "boş",
-            "hafif"
+            "yarım"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1337,9 +1337,9 @@
           "soru": "\"yüz\" kelimesinin eş sesli olduğu iki anlam hangisidir?",
           "dogruCevap": "Sayı (100) ve vücut parçası",
           "secenekler": [
-            "Yiyecek ve içecek",
-            "Renk ve boyut",
             "Sayı (100) ve vücut parçası",
+            "Renk ve boyut",
+            "Yiyecek ve içecek",
             "Hayvan ve bitki"
           ],
           "ipucu": "",
@@ -1362,8 +1362,8 @@
           "dogruCevap": "yanlış",
           "secenekler": [
             "güzel",
-            "doğru",
             "yanlış",
+            "doğru",
             "başarı"
           ],
           "ipucu": "",
@@ -1383,8 +1383,8 @@
           "secenekler": [
             "\"güzel - hoş, büyük - küçük\"",
             "\"sıcak - soğuk, açık - kapalı\"",
-            "\"ev - konut, gece - gündüz\"",
-            "\"hızlı - çabuk, şehir - kent\""
+            "\"hızlı - çabuk, şehir - kent\"",
+            "\"ev - konut, gece - gündüz\""
           ],
           "ipucu": "eş anlamlı + zıt anlamlı çifti birlikte veren seçenek",
           "gorsel": {
@@ -1407,10 +1407,10 @@
           "soru": "\"Kulak vermek\" deyiminin anlamı nedir?",
           "dogruCevap": "Dikkatle dinlemek",
           "secenekler": [
-            "Kulağı ağrımak",
-            "Kulak takmak",
+            "Kulağını vermek",
             "Dikkatle dinlemek",
-            "Kulağını vermek"
+            "Kulak takmak",
+            "Kulağı ağrımak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1427,10 +1427,10 @@
           "soru": "\"Damlaya damlaya göl olur\" atasözü ne öğretir?",
           "dogruCevap": "Küçük birikimler büyük sonuçlar doğurur",
           "secenekler": [
+            "Küçük birikimler büyük sonuçlar doğurur",
             "Göller yağmurdan oluşur",
-            "Su tasarrufu yapmalıyız",
             "Yağmur yağınca göl oluşur",
-            "Küçük birikimler büyük sonuçlar doğurur"
+            "Su tasarrufu yapmalıyız"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1447,10 +1447,10 @@
           "soru": "\"Aslan gibi cesur savaştı\" cümlesinde \"aslan\" nasıl kullanılmıştır?",
           "dogruCevap": "Mecaz anlamında",
           "secenekler": [
-            "Mecaz anlamında",
+            "Atasözü olarak",
             "Gerçek anlamında",
-            "Deyim olarak",
-            "Atasözü olarak"
+            "Mecaz anlamında",
+            "Deyim olarak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1467,10 +1467,10 @@
           "soru": "\"El ele vermek\" deyimi ne anlama gelir?",
           "dogruCevap": "Yardımlaşmak",
           "secenekler": [
-            "El vermek",
             "Yardımlaşmak",
-            "Tokatlamak",
-            "El sıkışmak"
+            "El vermek",
+            "El sıkışmak",
+            "Tokatlamak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1487,10 +1487,10 @@
           "soru": "Hangi cümle atasözü içerir?",
           "dogruCevap": "Damlaya damlaya göl olur",
           "secenekler": [
-            "Damlaya damlaya göl olur",
-            "Bugün hava güzel",
             "Ali okula gitti",
-            "Kedi miyavladı"
+            "Bugün hava güzel",
+            "Kedi miyavladı",
+            "Damlaya damlaya göl olur"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1511,10 +1511,10 @@
           "soru": "\"Ağzı sıkı\" deyiminin anlamı nedir?",
           "dogruCevap": "Sır saklayan",
           "secenekler": [
-            "Az konuşan",
+            "Çok yemek yiyen",
             "Sır saklayan",
             "Ağzı küçük",
-            "Çok yemek yiyen"
+            "Az konuşan"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1532,9 +1532,9 @@
           "dogruCevap": "Hayır, mecaz anlam",
           "secenekler": [
             "Evet, bal var",
+            "Her zaman gerçek",
             "Bazen",
-            "Hayır, mecaz anlam",
-            "Her zaman gerçek"
+            "Hayır, mecaz anlam"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1552,9 +1552,9 @@
           "soru": "\"Bir taşla iki kuş vurmak\" deyimi ne demektir?",
           "dogruCevap": "Tek seferde iki işi bitirmek",
           "secenekler": [
-            "İki kuş avlamak",
             "Tek seferde iki işi bitirmek",
             "Çok çalışmak",
+            "İki kuş avlamak",
             "Taş atmak"
           ],
           "ipucu": "",
@@ -1572,10 +1572,10 @@
           "soru": "\"Bin düşün bir söyle\" atasözü ne öğütler?",
           "dogruCevap": "Konuşmadan önce iyice düşün",
           "secenekler": [
-            "Söz söyleme",
-            "Yavaş konuş",
             "Konuşmadan önce iyice düşün",
-            "Çok konuş"
+            "Çok konuş",
+            "Yavaş konuş",
+            "Söz söyleme"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1593,9 +1593,9 @@
           "dogruCevap": "Çok derin uyudu",
           "secenekler": [
             "Uyumadı",
-            "Taş üzerinde uyudu",
             "Çok derin uyudu",
-            "Taş gibi sert yattı"
+            "Taş gibi sert yattı",
+            "Taş üzerinde uyudu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1637,10 +1637,10 @@
           "soru": "\"Baş vurmak\" deyiminin anlamı nedir?",
           "dogruCevap": "Yardım istemek, başvurmak",
           "secenekler": [
-            "Koşmak",
-            "Başını vurmak",
             "Yardım istemek, başvurmak",
-            "Baş ağrısı"
+            "Baş ağrısı",
+            "Koşmak",
+            "Başını vurmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1657,10 +1657,10 @@
           "soru": "\"Dağ gibi adam\" ifadesinde \"dağ\" ne anlama gelir?",
           "dogruCevap": "İri ve güçlü",
           "secenekler": [
-            "Dağcı",
-            "Yürüyen dağ",
             "İri ve güçlü",
-            "Dağda yaşayan"
+            "Dağda yaşayan",
+            "Yürüyen dağ",
+            "Dağcı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1678,10 +1678,10 @@
           "soru": "Atasözü hangisidir?",
           "dogruCevap": "Bir elin nesi var, iki elin sesi var",
           "secenekler": [
-            "Ali top oynadı",
             "Bir elin nesi var, iki elin sesi var",
+            "Yağmur yağdı",
             "Güneş doğdu",
-            "Yağmur yağdı"
+            "Ali top oynadı"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1702,10 +1702,10 @@
           "soru": "\"Ağzı var dili yok\" deyimi kimi anlatır?",
           "dogruCevap": "Çok sessiz, çekingen biri",
           "secenekler": [
-            "Dilsiz biri",
             "Çok konuşan biri",
-            "Yabancı biri",
-            "Çok sessiz, çekingen biri"
+            "Dilsiz biri",
+            "Çok sessiz, çekingen biri",
+            "Yabancı biri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1722,10 +1722,10 @@
           "soru": "\"Gözden düştü\" deyimi ne anlatır?",
           "dogruCevap": "İtibarını kaybetti",
           "secenekler": [
-            "Yere düştü",
+            "İtibarını kaybetti",
             "Gözleri düştü",
             "Ağladı",
-            "İtibarını kaybetti"
+            "Yere düştü"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1743,10 +1743,10 @@
           "soru": "\"Buz gibi soğuk\" ifadesi nasıl bir kullanımdır?",
           "dogruCevap": "Mecaz anlam",
           "secenekler": [
-            "Mecaz anlam",
             "Atasözü",
-            "Deyim",
-            "Gerçek anlam"
+            "Gerçek anlam",
+            "Mecaz anlam",
+            "Deyim"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1783,9 +1783,9 @@
           "soru": "Mecaz anlam içeren cümle hangisidir?",
           "dogruCevap": "Yüreği dayanmadı",
           "secenekler": [
-            "Kedi miyavladı",
             "Yüreği dayanmadı",
             "Top yuvarlandı",
+            "Kedi miyavladı",
             "Güneş battı"
           ],
           "ipucu": "",
@@ -1808,10 +1808,10 @@
           "soru": "\"Sakla samanı gelir zamanı\" atasözü ne öğütler?",
           "dogruCevap": "Tasarruflu ol, bir gün işe yarar",
           "secenekler": [
-            "Tasarruflu ol, bir gün işe yarar",
+            "Saman topla",
             "Her şeyi harca",
-            "Zamanı iyi kullan",
-            "Saman topla"
+            "Tasarruflu ol, bir gün işe yarar",
+            "Zamanı iyi kullan"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1828,9 +1828,9 @@
           "soru": "Deyim ne demektir?",
           "dogruCevap": "Birkaç kelimenin farklı anlam oluşturması",
           "secenekler": [
-            "Yabancı kelime",
             "Kısa ve özlü söz",
             "Şiirsel söz",
+            "Yabancı kelime",
             "Birkaç kelimenin farklı anlam oluşturması"
           ],
           "ipucu": "",
@@ -1848,10 +1848,10 @@
           "soru": "\"Akıl akıldan üstündür\" atasözünün anlamı nedir?",
           "dogruCevap": "Her aklın bir değeri var, birbirinden öğrenilir",
           "secenekler": [
-            "Her aklın bir değeri var, birbirinden öğrenilir",
-            "Akıllı olmak iyidir",
             "Çok akıllı olmak kötüdür",
-            "Herkes aptal"
+            "Herkes aptal",
+            "Akıllı olmak iyidir",
+            "Her aklın bir değeri var, birbirinden öğrenilir"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1869,10 +1869,10 @@
           "soru": "Atasözü ile deyim arasındaki fark nedir?",
           "dogruCevap": "Atasözü öğüt verir, deyim farklı anlam taşır",
           "secenekler": [
-            "Fark yok",
-            "İkisi de şiirdir",
+            "Atasözü daha kısadır",
             "Atasözü öğüt verir, deyim farklı anlam taşır",
-            "Atasözü daha kısadır"
+            "Fark yok",
+            "İkisi de şiirdir"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1889,10 +1889,10 @@
           "soru": "\"İki yakasını bir araya getirememek\" ne demektir?",
           "dogruCevap": "Geçim sıkıntısı çekmek",
           "secenekler": [
+            "Ceket dikememek",
             "Çok kısa boylu olmak",
-            "Elbisesi dar gelmek",
             "Geçim sıkıntısı çekmek",
-            "Ceket dikememek"
+            "Elbisesi dar gelmek"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1909,10 +1909,10 @@
           "soru": "\"Güneş gibi parlak bir öğrenci\" cümlesinde mecaz nedir?",
           "dogruCevap": "Öğrenci çok başarılı",
           "secenekler": [
-            "Öğrenci çok başarılı",
-            "Öğrenci ışık saçıyor",
             "Güneş var sınıfta",
-            "Güneş okula girmiş"
+            "Güneş okula girmiş",
+            "Öğrenci ışık saçıyor",
+            "Öğrenci çok başarılı"
           ],
           "ipucu": "",
           "gorsel": {
