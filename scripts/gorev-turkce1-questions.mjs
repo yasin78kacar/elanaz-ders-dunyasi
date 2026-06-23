@@ -185,7 +185,7 @@ function kelimeBilgisiTest(karistir) {
   ekle("kb-t22", "\"dolu\" kelimesinin zıt anlamlısı hangisidir?", "boş", ["az", "yarım", "boş", "hafif"], "", { gorsel: sahne('dolu-bos', 'default') });
   ekle("kb-t23", "\"yüz\" kelimesinin eş sesli olduğu iki anlam hangisidir?", "Sayı (100) ve vücut parçası", ["Renk ve boyut", "Sayı (100) ve vücut parçası", "Hayvan ve bitki", "Yiyecek ve içecek"], "", { gorsel: kars(['yüz (sayı)', 'yüz (vücut)'], 'esSeslilik'), sasirtma: true });
   ekle("kb-t24", "\"hata\" kelimesinin eş anlamlısı hangisidir?", "yanlış", ["doğru", "başarı", "yanlış", "güzel"], "", { gorsel: sahne('hata-dogru', 'default') });
-  ekle("kb-t25", "Aşağıdakilerden hangisi hem eş anlamlı hem zıt anlamlı kelime içermektedir?", "\"güzel - hoş, büyük - küçük\"", ["\"güzel - hoş, büyük - küçük\"", "\"hızlı - çabuk, şehir - kent\"", "\"sıcak - soğuk, açık - kapalı\"", "\"ev - konut, gece - gündüz\""], "eş anlamlı + zıt anlamlı çifti birlikte veren seçenek", { sasirtma: true });
+  ekle("kb-t25", "Aşağıdakilerden hangisi hem eş anlamlı hem zıt anlamlı kelime içermektedir?", "\"güzel - hoş, büyük - küçük\"", ["\"güzel - hoş, büyük - küçük\"", "\"hızlı - çabuk, şehir - kent\"", "\"sıcak - soğuk, açık - kapalı\"", "\"ev - konut, gece - gündüz\""], "eş anlamlı + zıt anlamlı çifti birlikte veren seçenek", { gorsel: kars(['güzel', 'hoş', 'büyük', 'küçük'], 'es-zit'), sasirtma: true });
 
   return sorular;
 }
@@ -414,13 +414,13 @@ function noktalamaVeYazimTest(karistir) {
   ekle("nw-t11", "Hangi cümlede tüm noktalama doğrudur?", "Ali, Ayşe ve Mehmet koştu.", ["ali, ayşe ve mehmet koştu", "Ali, Ayşe ve Mehmet koştu.", "Ali Ayşe ve Mehmet, koştu.", "ali, Ayşe ve mehmet koştu."], "", { gorsel: cumle('Ali okula gitti.'), sasirtma: true });
   ekle("nw-t12", "Ünlem işareti hangi cümlenin sonuna gelir?", "Aferin!", ["Hava güzel.", "Hava güzel mi?", "Aferin!", "Hava güzeldi."], "", { gorsel: nokta('!') });
   ekle("nw-t13", "\"fatma izmir'de doğdu\" cümlesindeki hatalar nelerdir?", "f ve i küçük", ["Sadece f küçük", "Sadece i küçük", "f ve i küçük", "Hata yok"], "", { gorsel: cumle("fatma izmir'de doğdu") });
-  ekle("nw-t14", "Kaç noktalama işareti var: \"Ali, Ayşe ve Mehmet okula gitti. Hava güzel miydi?\"", "3", ["1", "3", "2", "4"], "virgül + nokta + soru işareti = 3", { sasirtma: true });
+  ekle("nw-t14", "Kaç noktalama işareti var: \"Ali, Ayşe ve Mehmet okula gitti. Hava güzel miydi?\"", "3", ["1", "3", "2", "4"], "virgül + nokta + soru işareti = 3", { gorsel: cumle("Ali, Ayşe ve Mehmet okula gitti. Hava güzel miydi?"), sasirtma: true });
   ekle("nw-t15", "Hangi cümle yanlış yazılmıştır?", "ayşe geldi.", ["Hava güzel.", "Ali koştu.", "ayşe geldi.", "Mehmet uyudu."], "", { gorsel: cumle('Ali okula gitti.') });
   ekle("nw-t16", "\"merhaba nasılsın\" cümlesine hangi noktalama işaretleri eklenmeli?", "Ünlem ve soru işareti", ["Nokta ve virgül", "İki nokta", "Ünlem ve soru işareti", "İki virgül"], "", { gorsel: sahne('selamlama', 'ogretmen') });
-  ekle("nw-t17", "\"Ankara Türkiye'nin başkentidir\" cümlesinde kaç büyük harf olmalı?", "2", ["1", "3", "2", "4"], "Ankara ve Türkiye", { sasirtma: true });
+  ekle("nw-t17", "\"Ankara Türkiye'nin başkentidir\" cümlesinde kaç büyük harf olmalı?", "2", ["1", "3", "2", "4"], "Ankara ve Türkiye", { gorsel: cumle("Ankara Türkiye'nin başkentidir."), sasirtma: true });
   ekle("nw-t18", "Hangi cümle doğru noktalanmıştır?", "Aferin, çok iyisin!", ["Ali okula gitti?", "Hava güzel mi.", "Aferin, çok iyisin!", "Ne güzel."], "", { gorsel: cumle('Ali okula gitti.') });
   ekle("nw-t19", "Büyük harfle başlaması gerekmeyen hangisidir?", "elma", ["Ayşe", "İstanbul", "elma", "Türkiye"], "", { gorsel: kart(['Ayşe','elma','Ankara','koşmak']) });
-  ekle("nw-t20", "\"berk can selin ve hande parkta oynadı\" — kaç düzeltme gerekir?", "3", ["2", "4", "3", "5"], "B, C, S, H büyük + nokta = 5? Hayır: 4 büyük harf + 2 virgül + 1 nokta...", { sasirtma: true });
+  ekle("nw-t20", "\"berk can selin ve hande parkta oynadı\" — kaç düzeltme gerekir?", "3", ["2", "4", "3", "5"], "B, C, S, H büyük + nokta = 5? Hayır: 4 büyük harf + 2 virgül + 1 nokta...", { gorsel: sahne('parkta-oyun', 'park'), sasirtma: true });
   ekle("nw-t21", "Virgül olmadan doğru yazılan cümle hangisidir?", "\"Ali ve Ayşe geldi.\"", ["\"Elma armut muz aldım\"", "\"Ali ve Ayşe geldi.\"", "\"Ali Ayşe Mehmet geldi\"", "\"Koştum oynadım geldim\""], "", { gorsel: cumle('Ali okula gitti.') });
   ekle("nw-t22", "\"aferin sen çok çalışkansın\" cümlesini doğru yaz.", "Aferin! Sen çok çalışkansın.", ["aferin! sen çok çalışkansın.", "Aferin! Sen çok çalışkansın.", "Aferin, sen çok çalışkansın!", "AFERIN sen çok çalışkansın."], "", { gorsel: sahne('selamlama', 'ogretmen'), sasirtma: true });
   ekle("nw-t23", "Hangi cümlede gereksiz büyük harf kullanılmıştır?", "Hava Güzel.", ["Ali okula gitti.", "Hava Güzel.", "Ayşe koştu.", "İstanbul büyük şehir."], "", { gorsel: cumle('Ali okula gitti.') });

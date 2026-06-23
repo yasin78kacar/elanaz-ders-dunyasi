@@ -21,17 +21,35 @@
         },
         {
           "id": "tema-3",
-          "baslik": "Türkçe — Tema 3",
+          "baslik": "Türkçe — Tema 3 — Kelime Yazma",
           "konuDosyalari": [
-            "turkce/kelime-bilgisi.json",
-            "turkce/okuma-anlama.json",
-            "turkce/cumle-bilgisi.json",
-            "turkce/noktalama-ve-yazim.json"
+            "turkce/kelime-yazma.json"
           ]
         },
         {
           "id": "tema-4",
-          "baslik": "Türkçe — Tema 4",
+          "baslik": "Türkçe — Tema 4 — Okuma",
+          "konuDosyalari": [
+            "turkce/okuma.json"
+          ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Türkçe — Tema 5 — Anlam",
+          "konuDosyalari": [
+            "turkce/anlam.json"
+          ]
+        },
+        {
+          "id": "tema-6",
+          "baslik": "Türkçe — Tema 6 — Cümle",
+          "konuDosyalari": [
+            "turkce/cumle.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Türkçe — Tema 7 — Metin Türleri",
           "konuDosyalari": [
             "turkce/hikaye-metni.json",
             "turkce/siir.json",
@@ -39,34 +57,31 @@
           ]
         },
         {
-          "id": "tema-5",
-          "baslik": "Türkçe — Tema 5",
+          "id": "tema-8",
+          "baslik": "Türkçe — Tema 8 — Dinleme ve İletişim",
           "konuDosyalari": [
-            "turkce/yazma-becerileri.json",
-            "turkce/dinleme-ve-konusma.json",
-            "turkce/sozcuk-ve-dil-bilgisi.json"
+            "turkce/dinleme-ve-konusma.json"
           ]
         },
         {
-          "id": "tema-6",
-          "baslik": "Türkçe — Tema 6",
+          "id": "tema-9",
+          "baslik": "Türkçe — Tema 9 — İleri Anlama ve Yazma",
           "konuDosyalari": [
             "turkce/metin-anlama-ve-yorumlama.json",
-            "turkce/kelime-ve-anlam-bilgisi-ileri.json",
             "turkce/yazma-ve-anlatim-ileri.json"
           ]
         },
         {
-          "id": "tema-7",
-          "baslik": "Türkçe — Tema 7",
+          "id": "tema-10",
+          "baslik": "Türkçe — Tema 10 — Yazı Türleri",
           "konuDosyalari": [
             "turkce/yaz-turu-hikaye.json",
             "turkce/yaz-turu-siir.json"
           ]
         },
         {
-          "id": "tema-8",
-          "baslik": "Türkçe — Tema 8",
+          "id": "tema-11",
+          "baslik": "Türkçe — Tema 11 — Olay Sırası",
           "konuDosyalari": [
             "turkce/olay-sirasi-metin.json",
             "turkce/olay-sirasi-zaman.json"

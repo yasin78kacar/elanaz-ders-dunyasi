@@ -451,10 +451,10 @@
       "soru": "\"güzel\" kelimesinin eş anlamlısı hangisidir?",
       "dogruCevap": "hoş",
       "secenekler": [
-        "çirkin",
         "büyük",
+        "hoş",
         "uzun",
-        "hoş"
+        "çirkin"
       ],
       "ipucu": "",
       "gorsel": {
@@ -471,8 +471,8 @@
       "soru": "\"sıcak\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "soğuk",
       "secenekler": [
-        "donuk",
         "soğuk",
+        "donuk",
         "ılık",
         "serin"
       ],
@@ -494,10 +494,10 @@
       "soru": "\"hızlı\" kelimesinin eş anlamlısı hangisidir?",
       "dogruCevap": "çabuk",
       "secenekler": [
-        "ağır",
+        "sakin",
         "yavaş",
         "çabuk",
-        "sakin"
+        "ağır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -514,10 +514,10 @@
       "soru": "\"gece\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "gündüz",
       "secenekler": [
-        "öğle",
-        "sabah",
         "akşam",
-        "gündüz"
+        "öğle",
+        "gündüz",
+        "sabah"
       ],
       "ipucu": "",
       "gorsel": {
@@ -537,10 +537,10 @@
       "soru": "\"yüz\" kelimesi aşağıdaki hangi iki anlamda kullanılır?",
       "dogruCevap": "Sayı ve vücut parçası",
       "secenekler": [
-        "Hayvan ve bitki",
-        "Sayı ve vücut parçası",
+        "Yiyecek ve içecek",
         "Renk ve ses",
-        "Yiyecek ve içecek"
+        "Sayı ve vücut parçası",
+        "Hayvan ve bitki"
       ],
       "ipucu": "",
       "gorsel": {
@@ -561,8 +561,8 @@
       "dogruCevap": "kapalı",
       "secenekler": [
         "kapalı",
-        "aydınlık",
         "net",
+        "aydınlık",
         "geniş"
       ],
       "ipucu": "",
@@ -581,9 +581,9 @@
       "dogruCevap": "kent",
       "secenekler": [
         "köy",
-        "kent",
         "mahalle",
-        "ülke"
+        "ülke",
+        "kent"
       ],
       "ipucu": "",
       "gorsel": {
@@ -601,9 +601,9 @@
       "dogruCevap": "Bu işten kar etti",
       "secenekler": [
         "Kar yağdı",
-        "Bu işten kar etti",
         "Kar beyazdır",
-        "Kardan adam yaptık"
+        "Kardan adam yaptık",
+        "Bu işten kar etti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -624,10 +624,10 @@
       "soru": "\"temiz\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "kirli",
       "secenekler": [
+        "düzgün",
         "pırıl pırıl",
         "kirli",
-        "tertipli",
-        "düzgün"
+        "tertipli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -647,10 +647,10 @@
       "soru": "\"büyük\" kelimesinin eş anlamlısı hangisidir?",
       "dogruCevap": "iri",
       "secenekler": [
-        "uzun",
         "iri",
+        "geniş",
         "küçük",
-        "geniş"
+        "uzun"
       ],
       "ipucu": "",
       "gorsel": {
@@ -667,10 +667,10 @@
       "soru": "\"mutlu\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "üzgün",
       "secenekler": [
-        "neşeli",
+        "sevinçli",
         "üzgün",
         "heyecanlı",
-        "sevinçli"
+        "neşeli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -690,10 +690,10 @@
       "soru": "\"gül\" kelimesi hangi cümlede \"çiçek\" anlamında kullanılmıştır?",
       "dogruCevap": "Bahçede güller açmış",
       "secenekler": [
-        "Çok güldü",
         "Gülmekten ağladı",
+        "Gülünç bir şey söyledi",
         "Bahçede güller açmış",
-        "Gülünç bir şey söyledi"
+        "Çok güldü"
       ],
       "ipucu": "",
       "gorsel": {
@@ -714,10 +714,10 @@
       "soru": "\"eski\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "yeni",
       "secenekler": [
-        "bozuk",
-        "yeni",
+        "kullanılmış",
         "pahalı",
-        "kullanılmış"
+        "yeni",
+        "bozuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -735,8 +735,8 @@
       "dogruCevap": "zor",
       "secenekler": [
         "karmaşık",
-        "zor",
         "basit",
+        "zor",
         "sıradan"
       ],
       "ipucu": "",
@@ -757,10 +757,10 @@
       "soru": "Eş anlamlı kelime çifti hangisidir?",
       "dogruCevap": "hızlı - çabuk",
       "secenekler": [
-        "güzel - çirkin",
-        "açık - kapalı",
         "hızlı - çabuk",
-        "büyük - küçük"
+        "güzel - çirkin",
+        "büyük - küçük",
+        "açık - kapalı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -781,9 +781,9 @@
       "dogruCevap": "Kırda piknik yaptık",
       "secenekler": [
         "Kalemi kırdı",
+        "Kırık bir şey vardı",
         "Kırda piknik yaptık",
-        "Camı kırma",
-        "Kırık bir şey vardı"
+        "Camı kırma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -825,9 +825,9 @@
       "dogruCevap": "dolu - boş",
       "secenekler": [
         "ev - konut",
+        "güzel - hoş",
         "dolu - boş",
-        "hızlı - çabuk",
-        "güzel - hoş"
+        "hızlı - çabuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -848,9 +848,9 @@
       "dogruCevap": "karanlık",
       "secenekler": [
         "soluk",
-        "loş",
         "gölgeli",
-        "karanlık"
+        "karanlık",
+        "loş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -870,10 +870,10 @@
       "soru": "Aşağıdakilerden hangisi eş sesli kelimedir?",
       "dogruCevap": "ben (kişi - cilt lekesi)",
       "secenekler": [
-        "ben (kişi - cilt lekesi)",
         "ev - konut",
+        "büyük - küçük",
         "güzel - hoş",
-        "büyük - küçük"
+        "ben (kişi - cilt lekesi)"
       ],
       "ipucu": "",
       "gorsel": {
@@ -891,10 +891,10 @@
       "soru": "\"çirkin\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "güzel",
       "secenekler": [
-        "soluk",
-        "güzel",
         "düz",
-        "sıradan"
+        "sıradan",
+        "güzel",
+        "soluk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -914,10 +914,10 @@
       "soru": "\"dolu\" kelimesinin zıt anlamlısı hangisidir?",
       "dogruCevap": "boş",
       "secenekler": [
-        "yarım",
-        "hafif",
+        "boş",
         "az",
-        "boş"
+        "hafif",
+        "yarım"
       ],
       "ipucu": "",
       "gorsel": {
@@ -934,10 +934,10 @@
       "soru": "\"yüz\" kelimesinin eş sesli olduğu iki anlam hangisidir?",
       "dogruCevap": "Sayı (100) ve vücut parçası",
       "secenekler": [
-        "Yiyecek ve içecek",
         "Renk ve boyut",
+        "Sayı (100) ve vücut parçası",
         "Hayvan ve bitki",
-        "Sayı (100) ve vücut parçası"
+        "Yiyecek ve içecek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -959,9 +959,9 @@
       "dogruCevap": "yanlış",
       "secenekler": [
         "doğru",
-        "başarı",
+        "yanlış",
         "güzel",
-        "yanlış"
+        "başarı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -978,12 +978,23 @@
       "soru": "Aşağıdakilerden hangisi hem eş anlamlı hem zıt anlamlı kelime içermektedir?",
       "dogruCevap": "\"güzel - hoş, büyük - küçük\"",
       "secenekler": [
-        "\"ev - konut, gece - gündüz\"",
+        "\"sıcak - soğuk, açık - kapalı\"",
         "\"güzel - hoş, büyük - küçük\"",
         "\"hızlı - çabuk, şehir - kent\"",
-        "\"sıcak - soğuk, açık - kapalı\""
+        "\"ev - konut, gece - gündüz\""
       ],
       "ipucu": "eş anlamlı + zıt anlamlı çifti birlikte veren seçenek",
+      "gorsel": {
+        "tur": "turkce",
+        "mod": "karsilastir",
+        "kelimeler": [
+          "güzel",
+          "hoş",
+          "büyük",
+          "küçük"
+        ],
+        "iliski": "es-zit"
+      },
       "sasirtma": true
     }
   ]
