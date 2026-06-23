@@ -14,6 +14,8 @@ import tabloOkuma from '../../content/sinif2/matematik/tablo-okuma.json';
 import grafikOkuma from '../../content/sinif2/matematik/grafik-okuma.json';
 import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
 import seslerVeHeceler from '../../content/sinif2/turkce/sesler-ve-heceler.json';
+import harfler from '../../content/sinif2/turkce/harfler.json';
+import sesBilgisi from '../../content/sinif2/turkce/ses-bilgisi.json';
 import kelimeBilgisi from '../../content/sinif2/turkce/kelime-bilgisi.json';
 import okumaAnlama from '../../content/sinif2/turkce/okuma-anlama.json';
 import cumleBilgisi from '../../content/sinif2/turkce/cumle-bilgisi.json';
@@ -159,6 +161,8 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/esit-parcalara-bolme.json': esitParcalaraBolmeTema6,
   'matematik/yarim-ve-ceyrek.json': yarimVeCeyrekTema6,
   'matematik/basit-kesirler.json': basitKesirlerTema6,
+  'turkce/harfler.json': harfler as Konu,
+  'turkce/ses-bilgisi.json': sesBilgisi as Konu,
   'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
   'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
   'turkce/okuma-anlama.json': okumaAnlama as Konu,

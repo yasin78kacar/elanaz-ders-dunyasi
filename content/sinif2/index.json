@@ -7,9 +7,22 @@
       "unite": [
         {
           "id": "tema-1",
-          "baslik": "Türkçe — Tema 1",
+          "baslik": "Türkçe — Tema 1 — Harfler",
           "konuDosyalari": [
-            "turkce/sesler-ve-heceler.json",
+            "turkce/harfler.json"
+          ]
+        },
+        {
+          "id": "tema-2",
+          "baslik": "Türkçe — Tema 2 — Ses Bilgisi ve Hece",
+          "konuDosyalari": [
+            "turkce/ses-bilgisi.json"
+          ]
+        },
+        {
+          "id": "tema-3",
+          "baslik": "Türkçe — Tema 3",
+          "konuDosyalari": [
             "turkce/kelime-bilgisi.json",
             "turkce/okuma-anlama.json",
             "turkce/cumle-bilgisi.json",
@@ -17,8 +30,8 @@
           ]
         },
         {
-          "id": "tema-2",
-          "baslik": "Türkçe — Tema 2",
+          "id": "tema-4",
+          "baslik": "Türkçe — Tema 4",
           "konuDosyalari": [
             "turkce/hikaye-metni.json",
             "turkce/siir.json",
@@ -26,8 +39,8 @@
           ]
         },
         {
-          "id": "tema-3",
-          "baslik": "Türkçe — Tema 3",
+          "id": "tema-5",
+          "baslik": "Türkçe — Tema 5",
           "konuDosyalari": [
             "turkce/yazma-becerileri.json",
             "turkce/dinleme-ve-konusma.json",
@@ -35,8 +48,8 @@
           ]
         },
         {
-          "id": "tema-4",
-          "baslik": "Türkçe — Tema 4",
+          "id": "tema-6",
+          "baslik": "Türkçe — Tema 6",
           "konuDosyalari": [
             "turkce/metin-anlama-ve-yorumlama.json",
             "turkce/kelime-ve-anlam-bilgisi-ileri.json",
@@ -44,8 +57,8 @@
           ]
         },
         {
-          "id": "tema-5",
-          "baslik": "Türkçe — Tema 5",
+          "id": "tema-7",
+          "baslik": "Türkçe — Tema 7",
           "konuDosyalari": [
             "turkce/yaz-turu-hikaye.json",
             "turkce/yaz-turu-siir.json"

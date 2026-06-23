@@ -84,7 +84,7 @@ function seslerVeHecelerTest(karistir) {
   ekle("sh-t5", "\"araba\" kelimesinde kaç sesli harf var?", "3", ["2", "4", "3", "1"], "", { gorsel: nesne("araba", "araba", 'sesli') });
   ekle("sh-t6", "Kaç heceli olduğunu bul: \"merdiven\"", "3", ["2", "4", "3", "5"], "", { gorsel: hece('merdiven', ['mer', 'di', 'ven'], 'okul') });
   ekle("sh-t7", "\"kuş\" kelimesi kaç heceli?", "1", ["2", "3", "1", "4"], "", { gorsel: hece('kuş', ['kuş'], 'kus') });
-  ekle("sh-t8", "Hangi kelimede sessiz harf sayısı sesli harf sayısından fazladır?", "kitap", ["anne", "ev", "araba", "kitap"], "kitap → k,t,p=3 sessiz, i,a=2 sesli", { sasirtma: true });
+  ekle("sh-t8", "Hangi kelimede sessiz harf sayısı sesli harf sayısından fazladır?", "kitap", ["anne", "ev", "araba", "kitap"], "kitap → k,t,p=3 sessiz, i,a=2 sesli", { gorsel: nesne("kitap", "kitap", 'sessiz'), sasirtma: true });
   ekle("sh-t9", "\"pencere\" kelimesini doğru heceleyen hangisi?", "pen-ce-re", ["pen-ce-re", "pe-nce-re", "penc-e-re", "p-en-cere"], "", { gorsel: hece('pencere', ['pen', 'ce', 're'], 'okul') });
   ekle("sh-t10", "Aşağıdaki kelimelerden hangisi 1 heceli?", "ev", ["elma", "masa", "ev", "kedi"], "", { gorsel: hece('elma', ['el', 'ma'], 'elma') });
   ekle("sh-t11", "\"çikolata\" kaç heceli?", "4", ["3", "5", "4", "2"], "", { gorsel: hece('çikolata', ['çi', 'ko', 'la', 'ta'], 'cikolata') });
@@ -92,16 +92,16 @@ function seslerVeHecelerTest(karistir) {
   ekle("sh-t13", "Aşağıdakilerden hangisi sessiz harftir?", "m", ["a", "e", "m", "i"], "", { gorsel: kart(['k', 't', 'ö', 's']) });
   ekle("sh-t14", "\"okul\" kelimesini doğru heceleyen hangisi?", "o-kul", ["o-ku-l", "ok-ul", "o-kul", "oku-l"], "", { gorsel: hece('okul', ['o', 'kul'], 'okul') });
   ekle("sh-t15", "\"anne\" kelimesinde kaç sesli harf var?", "2", ["1", "3", "2", "4"], "", { gorsel: nesne("anne", "anne", 'sesli') });
-  ekle("sh-t16", "Hangi kelimede her hece bir harften oluşur?", "u-çu-yor", ["araba", "elma", "a-ra-ba", "u-çu-yor"], "u, ça, yor — hayır! a-ra-ba her hece 1-2 harf", { sasirtma: true });
+  ekle("sh-t16", "Hangi kelimede her hece bir harften oluşur?", "u-çu-yor", ["araba", "elma", "a-ra-ba", "u-çu-yor"], "u, ça, yor — hayır! a-ra-ba her hece 1-2 harf", { gorsel: hece('uçuyor', ['u', 'çu', 'yor'], 'ucak'), sasirtma: true });
   ekle("sh-t17", "\"tavşan\" kelimesini doğru heceleyen hangisi?", "tav-şan", ["ta-vşan", "tav-şan", "tavş-an", "t-avşan"], "", { gorsel: hece('tavşan', ['tav', 'şan'], 'kus') });
   ekle("sh-t18", "Kaç sesli harf var: \"köpek\"", "2", ["1", "3", "2", "4"], "", { gorsel: nesne("köpek", "kopek", 'sesli') });
   ekle("sh-t19", "Hangi kelime 3 heceli?", "merdiven", ["ev", "kalem", "merdiven", "masa"], "", { gorsel: hece('elma', ['el', 'ma'], 'elma') });
-  ekle("sh-t20", "\"bilgisayar\" kelimesinde kaç sesli harf var?", "4", ["3", "5", "4", "2"], "bil-gi-sa-yar → i, i, a, a = 4 sesli", { sasirtma: true });
+  ekle("sh-t20", "\"bilgisayar\" kelimesinde kaç sesli harf var?", "4", ["3", "5", "4", "2"], "bil-gi-sa-yar → i, i, a, a = 4 sesli", { gorsel: nesne("bilgisayar", "okul", 'sesli'), sasirtma: true });
   ekle("sh-t21", "\"uçak\" kelimesini doğru heceleyen hangisi?", "uç-ak", ["u-ça-k", "uç-ak", "u-çak", "uça-k"], "", { gorsel: hece('uçak', ['uç', 'ak'], 'okul') });
   ekle("sh-t22", "Aşağıdaki sesli harflerden hangisi Türkçede yoktur?", "w", ["ü", "ö", "w", "ı"], "", { gorsel: kart(['k', 't', 'ö', 's']) });
   ekle("sh-t23", "\"çanta\" kaç heceli?", "2", ["1", "3", "2", "4"], "", { gorsel: hece('çanta', ['çan', 'ta'], 'canta') });
-  ekle("sh-t24", "Bir kelimede 3 sesli harf varsa kaç heceli olur?", "3", ["2", "4", "3", "1"], "Sesli harf sayısı = hece sayısı!", { sasirtma: true });
-  ekle("sh-t25", "\"çikolata\" kelimesinde sessiz harf sayısı kaçtır?", "4", ["3  B: 5", "4", "2"], "ç,k,l,t = 4 sessiz harf", { sasirtma: true });
+  ekle("sh-t24", "Bir kelimede 3 sesli harf varsa kaç heceli olur?", "3", ["2", "4", "3", "1"], "Sesli harf sayısı = hece sayısı!", { gorsel: kart(['a', 'e', 'ı', 'i', 'o', 'ö', 'u', 'ü']), sasirtma: true });
+  ekle("sh-t25", "\"çikolata\" kelimesinde sessiz harf sayısı kaçtır?", "4", ["3  B: 5", "4", "2"], "ç,k,l,t = 4 sessiz harf", { gorsel: hece('çikolata', ['çi', 'ko', 'la', 'ta'], 'cikolata'), sasirtma: true });
 
   return sorular;
 }

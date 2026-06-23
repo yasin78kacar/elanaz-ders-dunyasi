@@ -623,8 +623,19 @@ function GirisGelismeSonucGorsel() {
 
 function AnlatimSahne({ sahne }: { sahne: string }) {
   switch (sahne) {
+    case 'hr-anlatim-1':
     case 'sh-anlatim-1':
       return <AlfabeGorsel />;
+    case 'hr-anlatim-2':
+      return <HarfKartlari harfler={['ç', 'ğ', 'ı', 'ö', 'ş', 'ü', 'w', 'q', 'x']} />;
+    case 'hr-anlatim-3':
+      return (
+        <View style={styles.karsSatir}>
+          <HarfKartlari harfler={['A', 'a']} />
+          <HarfKartlari harfler={['İ', 'i']} />
+          <HarfKartlari harfler={['I', 'ı']} />
+        </View>
+      );
     case 'sh-anlatim-2':
       return <HeceKutulari kelime="araba" heceler={['a', 'ra', 'ba']} />;
     case 'sh-anlatim-3':
