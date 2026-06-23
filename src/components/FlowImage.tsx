@@ -15,9 +15,10 @@ export function FlowImage({ source, style, onError }: Props) {
   const layout = useDeviceLayout();
   const gorselStyle = useMemo(() => {
     const yatayBosluk = layout.spacing(40);
+    const maxW = Math.min(layout.flowSize(340), layout.width - yatayBosluk);
     return {
-      maxWidth: Math.min(layout.flowSize(340), layout.width - yatayBosluk),
-      height: layout.flowSize(220),
+      maxWidth: maxW,
+      height: layout.gorselBoyut.buyuk,
     };
   }, [layout]);
 

@@ -1,11 +1,12 @@
 import type { ReactElement } from 'react';
-import Svg, { Circle, Rect, Text as SvgText } from 'react-native-svg';
+import { GorselSvg, GORSEL_VIEW_W, GORSEL_VIEW_H, useGorselCanvas } from '../GorselSvg';
+import { Circle, Rect, Text as SvgText } from 'react-native-svg';
 import { SvgCanvas } from '../SvgCanvas';
 import { GEO } from '../nesneler/colors';
 import type { GorselGorselSanatlar } from '../../types/content';
 
-const W = 280;
-const H = 120;
+const W = GORSEL_VIEW_W;
+const H = GORSEL_VIEW_H;
 
 const RENKLER: Record<string, string> = {
   kirmizi: '#E53935',
@@ -30,34 +31,34 @@ function Baslik({ text }: { text: string }) {
 
 function RenkKutulari({ renkler, baslik }: { renkler: string[]; baslik: string }) {
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <Baslik text={baslik} />
       {renkler.map((r, i) => (
         <Rect key={r} x={30 + i * 50} y={35} width={36} height={50} fill={RENKLER[r] ?? r} rx={4} stroke={GEO.metin} strokeWidth={1} />
       ))}
-    </Svg>
+    </GorselSvg>
   );
 }
 
 function KarisimGorsel({ sol, sag, son, baslik }: { sol: string; sag: string; son: string; baslik: string }) {
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <Baslik text={baslik} />
       <Circle cx={60} cy={65} r={22} fill={RENKLER[sol]} />
       <SvgText x={100} y={70} fontSize={16} fill={GEO.metin} fontWeight="700">+</SvgText>
       <Circle cx={140} cy={65} r={22} fill={RENKLER[sag]} />
       <SvgText x={180} y={70} fontSize={16} fill={GEO.metin} fontWeight="700">=</SvgText>
       <Circle cx={220} cy={65} r={22} fill={RENKLER[son]} />
-    </Svg>
+    </GorselSvg>
   );
 }
 
 function NesneGorsel({ emoji, etiket }: { emoji: string; etiket: string }) {
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <Baslik text={etiket} />
       <SvgText x={W / 2} y={72} fontSize={36} textAnchor="middle">{emoji}</SvgText>
-    </Svg>
+    </GorselSvg>
   );
 }
 
@@ -117,13 +118,13 @@ function AnlatimGorsel({ sahne }: { sahne: string }) {
   }
   if (sahne === 'turk-sanatlari') {
     return (
-      <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+      <GorselSvg>
         <Baslik text="Türk sanatları" />
         <SvgText x={55} y={70} fontSize={22} textAnchor="middle">🌊</SvgText>
         <SvgText x={110} y={70} fontSize={22} textAnchor="middle">🕌</SvgText>
         <SvgText x={165} y={70} fontSize={22} textAnchor="middle">🧶</SvgText>
         <SvgText x={220} y={70} fontSize={22} textAnchor="middle">🔬</SvgText>
-      </Svg>
+      </GorselSvg>
     );
   }
   return <NesneGorsel emoji="🎨" etiket="Görsel Sanatlar" />;
@@ -165,8 +166,9 @@ function SahneSvg({ gorsel }: { gorsel: GorselGorselSanatlar }) {
 type Props = GorselGorselSanatlar;
 
 export function GorselSanatlarGorsel(props: Props) {
+  const { renderW, renderH } = useGorselCanvas();
   return (
-    <SvgCanvas width={W} height={H}>
+    <SvgCanvas width={renderW} height={renderH}>
       <SahneSvg gorsel={props} />
     </SvgCanvas>
   );

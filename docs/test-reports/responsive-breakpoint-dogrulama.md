@@ -18,7 +18,10 @@ Tarih: 2026-06-23
 | Buton yüksekliği | ✓ | 52px |
 | Buton tıklanabilir | ✓ | 52px ≥ 44px |
 | Flow ölçek | ✓ | 1.5× |
-| Görsel taşma | ✓ | görünen 350px (maxWidth 510px, width:100% ile sınırlı) |
+| Görsel küçük | ✓ | 72px (hedef 72px) |
+| Görsel orta | ✓ | 120px (hedef 120px) |
+| Görsel büyük | ✓ | 220px (hedef 220px) |
+| Görsel taşma | ✓ | görünen 340px (maxWidth 340px, width:100% ile sınırlı) |
 | Grid kart genişliği | ✓ | 165px/kart |
 | Spacing çarpanı | ✓ | 10→10 (1×) |
 
@@ -37,7 +40,10 @@ Tarih: 2026-06-23
 | Buton yüksekliği | ✓ | 68px |
 | Buton tıklanabilir | ✓ | 68px ≥ 44px |
 | Flow ölçek | ✓ | 2× |
-| Görsel taşma | ✓ | görünen 680px (maxWidth 680px, width:100% ile sınırlı) |
+| Görsel küçük | ✓ | 144px (hedef 144px) |
+| Görsel orta | ✓ | 240px (hedef 240px) |
+| Görsel büyük | ✓ | 400px (hedef 400px) |
+| Görsel taşma | ✓ | görünen 618px (maxWidth 618px, width:100% ile sınırlı) |
 | Grid kart genişliği | ✓ | 220px/kart |
 | Spacing çarpanı | ✓ | 10→15 (1.5×) |
 
@@ -56,7 +62,10 @@ Tarih: 2026-06-23
 | Buton yüksekliği | ✓ | 74px |
 | Buton tıklanabilir | ✓ | 74px ≥ 44px |
 | Flow ölçek | ✓ | 2.5× |
-| Görsel taşma | ✓ | görünen 770px (maxWidth 850px, width:100% ile sınırlı) |
+| Görsel küçük | ✓ | 180px (hedef 180px) |
+| Görsel orta | ✓ | 300px (hedef 300px) |
+| Görsel büyük | ✓ | 480px (hedef 480px) |
+| Görsel taşma | ✓ | görünen 742px (maxWidth 742px, width:100% ile sınırlı) |
 | Grid kart genişliği | ✓ | 240px/kart |
 | Spacing çarpanı | ✓ | 10→16 (1.6×) |
 
@@ -75,7 +84,10 @@ Tarih: 2026-06-23
 | Buton yüksekliği | ✓ | 80px |
 | Buton tıklanabilir | ✓ | 80px ≥ 44px |
 | Flow ölçek | ✓ | 3× |
-| Görsel taşma | ✓ | görünen 956px (maxWidth 1020px, width:100% ile sınırlı) |
+| Görsel küçük | ✓ | 216px (hedef 216px) |
+| Görsel orta | ✓ | 360px (hedef 360px) |
+| Görsel büyük | ✓ | 576px (hedef 576px) |
+| Görsel taşma | ✓ | görünen 890px (maxWidth 890px, width:100% ile sınırlı) |
 | Grid kart genişliği | ✓ | 221px/kart |
 | Spacing çarpanı | ✓ | 10→17 (1.7×) |
 

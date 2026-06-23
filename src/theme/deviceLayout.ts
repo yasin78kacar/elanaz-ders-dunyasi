@@ -62,6 +62,17 @@ const UI_IKON_MULTIPLIER: Record<DeviceTier, number> = {
   tabletLarge: 1.7,
 };
 
+/** Görsel boyut token'ları — hedef render piksel değerleri (küçük / orta / büyük). */
+export const GORSEL_BOYUT: Record<DeviceTier, { kucuk: number; orta: number; buyuk: number }> = {
+  phone: { kucuk: 72, orta: 120, buyuk: 220 },
+  tabletSmall: { kucuk: 144, orta: 240, buyuk: 400 },
+  tabletMedium: { kucuk: 180, orta: 300, buyuk: 480 },
+  tabletLarge: { kucuk: 216, orta: 360, buyuk: 576 },
+};
+
+/** Eski taban değerler — ikonSize / flowSize oranlaması için. */
+export const GORSEL_TABAN = { kucuk: 48, orta: 80, buyuk: 220 } as const;
+
 export function getWindowWidth(): number {
   return Dimensions.get('window').width;
 }
@@ -123,18 +134,22 @@ export interface DeviceLayout {
   buttonHeight: number;
   font: Typography;
   spacing: SpacingFn;
+  gorselBoyut: { kucuk: number; orta: number; buyuk: number };
   flowSize: (base: number) => number;
   ikonSize: (base: number) => number;
   avatarSize: number;
   secenekIkonBoyut: number;
+  gorselCanvas: { width: number; height: number };
 }
 
 export function buildDeviceLayout(width: number): DeviceLayout {
   const tier = getDeviceTier(width);
   const isTablet = tier !== 'phone';
   const flowScale = FLOW_SCALE[tier];
-  const ikonMult = UI_IKON_MULTIPLIER[tier];
+  const gorsel = GORSEL_BOYUT[tier];
   const spacing = buildSpacing(width);
+  const canvasHeight = gorsel.orta;
+  const canvasWidth = Math.round((canvasHeight * 280) / 120);
 
   return {
     width,
@@ -145,9 +160,11 @@ export function buildDeviceLayout(width: number): DeviceLayout {
     buttonHeight: BUTTON_HEIGHT[tier],
     font: TYPOGRAPHY[tier],
     spacing,
-    flowSize: (base: number) => Math.round(base * flowScale),
-    ikonSize: (base: number) => Math.round(base * ikonMult),
-    avatarSize: Math.round(56 * ikonMult),
-    secenekIkonBoyut: Math.round(32 * ikonMult),
+    gorselBoyut: gorsel,
+    flowSize: (base: number) => Math.round((base * gorsel.buyuk) / GORSEL_TABAN.buyuk),
+    ikonSize: (base: number) => Math.round((base * gorsel.kucuk) / GORSEL_TABAN.kucuk),
+    avatarSize: Math.round((56 * gorsel.orta) / GORSEL_TABAN.orta),
+    secenekIkonBoyut: gorsel.kucuk,
+    gorselCanvas: { width: canvasWidth, height: canvasHeight },
   };
 }

@@ -29,7 +29,7 @@ type Props = GorselOruntu;
 
 export function OruntuGorsel({ elemanlar, adimEtiketi, vurguIndeks }: Props) {
   const layout = useDeviceLayout();
-  const boyut = layout.ikonSize(40);
+  const boyut = layout.gorselBoyut.kucuk;
 
   const styles = useMemo(
     () =>

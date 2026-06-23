@@ -153,9 +153,9 @@ function TopBuyutec() {
 function TopKonumlar() {
   return (
     <View style={styles.satir}>
-      <NesnelerIcon tip="top" size={48} />
-      <NesnelerIcon tip="top" size={48} />
-      <NesnelerIcon tip="top" size={48} />
+      <NesnelerIcon tip="top" size={72} />
+      <NesnelerIcon tip="top" size={72} />
+      <NesnelerIcon tip="top" size={72} />
     </View>
   );
 }
@@ -209,7 +209,7 @@ function DevKupZar() {
   return (
     <View style={styles.satir}>
       <ModellerIcon tip="kup" size={96} />
-      <NesnelerIcon tip="zar" size={40} />
+      <NesnelerIcon tip="zar" size={60} />
     </View>
   );
 }
@@ -217,7 +217,7 @@ function DevKupZar() {
 function MisketCep() {
   return (
     <View style={styles.satir}>
-      <NesnelerIcon tip="misket" size={56} />
+      <NesnelerIcon tip="misket" size={84} />
       <Svg width={64} height={72} viewBox="0 0 64 72">
         <Path d="M 12 16 Q 32 4 52 16 L 56 56 Q 32 68 8 56 Z" fill={GEO.mavi} />
         <Circle cx={32} cy={38} r={10} fill={GEO.gri} />
@@ -230,7 +230,7 @@ function KareBuyukKucuk() {
   return (
     <View style={styles.satir}>
       <SekillerIcon tip="kare" size={72} />
-      <SekillerIcon tip="kare" size={40} />
+      <SekillerIcon tip="kare" size={60} />
     </View>
   );
 }
@@ -259,7 +259,7 @@ export function G4mGorsel({ sahne }: { sahne: string }) {
     case 'top-kucuk-buyuk':
       return (
         <View style={styles.satir}>
-          <NesnelerIcon tip="top" size={48} />
+          <NesnelerIcon tip="top" size={72} />
           <NesnelerIcon tip="top" size={88} />
         </View>
       );
@@ -335,7 +335,7 @@ export function G4mGorsel({ sahne }: { sahne: string }) {
     case 'top-degisim':
       return (
         <View style={styles.satir}>
-          <NesnelerIcon tip="top" size={48} />
+          <NesnelerIcon tip="top" size={72} />
           <Text style={styles.okMetin}>→</Text>
           <NesnelerIcon tip="futbol-topu" size={88} />
         </View>

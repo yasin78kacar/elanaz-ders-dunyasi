@@ -16,6 +16,16 @@ const FLOW_SCALE = {
   tabletLarge: 3.0,
 };
 
+/** deviceLayout.ts GORSEL_BOYUT ile senkron */
+const GORSEL_BOYUT = {
+  phone: { kucuk: 72, orta: 120, buyuk: 220 },
+  tabletSmall: { kucuk: 144, orta: 240, buyuk: 400 },
+  tabletMedium: { kucuk: 180, orta: 300, buyuk: 480 },
+  tabletLarge: { kucuk: 216, orta: 360, buyuk: 576 },
+};
+
+const GORSEL_TABAN = { kucuk: 48, orta: 80, buyuk: 220 };
+
 const TYPOGRAPHY = {
   phone: { sm: 14, md: 15, lg: 16, xl: 16 },
   tabletSmall: { sm: 18, md: 20, lg: 22, xl: 22 },
@@ -54,6 +64,7 @@ function getDeviceTier(width) {
 function buildDeviceLayout(width) {
   const tier = getDeviceTier(width);
   const flowScale = FLOW_SCALE[tier];
+  const gorsel = GORSEL_BOYUT[tier];
   const spacing = (base) => Math.round(base * SPACING_MULTIPLIER[tier]);
   return {
     width,
@@ -63,7 +74,9 @@ function buildDeviceLayout(width) {
     buttonHeight: BUTTON_HEIGHT[tier],
     font: TYPOGRAPHY[tier],
     spacing,
-    flowSize: (base) => Math.round(base * flowScale),
+    gorselBoyut: gorsel,
+    flowSize: (base) => Math.round((base * gorsel.buyuk) / GORSEL_TABAN.buyuk),
+    ikonSize: (base) => Math.round((base * gorsel.kucuk) / GORSEL_TABAN.kucuk),
   };
 }
 
@@ -78,6 +91,7 @@ const WIDTHS = [
     fontLg: 16,
     flowScale: 1.5,
     spacingMult: 1,
+    gorsel: GORSEL_BOYUT.phone,
   },
   {
     width: 768,
@@ -89,6 +103,7 @@ const WIDTHS = [
     fontLg: 22,
     flowScale: 2.0,
     spacingMult: 1.5,
+    gorsel: GORSEL_BOYUT.tabletSmall,
   },
   {
     width: 834,
@@ -100,6 +115,7 @@ const WIDTHS = [
     fontLg: 24,
     flowScale: 2.5,
     spacingMult: 1.6,
+    gorsel: GORSEL_BOYUT.tabletMedium,
   },
   {
     width: 1024,
@@ -111,6 +127,7 @@ const WIDTHS = [
     fontLg: 26,
     flowScale: 3.0,
     spacingMult: 1.7,
+    gorsel: GORSEL_BOYUT.tabletLarge,
   },
 ];
 
@@ -173,6 +190,21 @@ function runChecks(spec, layout) {
       detail: `${layout.flowScale}×`,
     },
     {
+      name: 'Görsel küçük',
+      pass: layout.gorselBoyut.kucuk === spec.gorsel.kucuk,
+      detail: `${layout.gorselBoyut.kucuk}px (hedef ${spec.gorsel.kucuk}px)`,
+    },
+    {
+      name: 'Görsel orta',
+      pass: layout.gorselBoyut.orta === spec.gorsel.orta,
+      detail: `${layout.gorselBoyut.orta}px (hedef ${spec.gorsel.orta}px)`,
+    },
+    {
+      name: 'Görsel büyük',
+      pass: layout.gorselBoyut.buyuk === spec.gorsel.buyuk,
+      detail: `${layout.gorselBoyut.buyuk}px (hedef ${spec.gorsel.buyuk}px)`,
+    },
+    {
       name: 'Görsel taşma',
       pass: flowRendered <= contentW,
       detail: `görünen ${flowRendered}px (maxWidth ${flowMax}px, width:100% ile sınırlı)`,
@@ -195,7 +227,7 @@ function renderHtml(spec, layout, checks) {
   const gap = layout.spacing(12);
   const itemW = gridItemWidth(layout);
   const flowW = Math.min(layout.flowSize(340), spec.width - layout.spacing(20) * 2);
-  const flowH = layout.flowSize(220);
+  const flowH = layout.gorselBoyut.buyuk;
   const allPass = checks.every((c) => c.pass);
 
   const kartlar = KONU_ORNEKLERI.map(

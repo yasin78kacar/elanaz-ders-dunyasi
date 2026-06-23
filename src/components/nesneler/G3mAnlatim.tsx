@@ -77,7 +77,7 @@ export function G3mAnlatim2() {
         <SekillerIcon tip="dikdortgen" size={88} renk={GEO.mavi} />
       </IllustrationColumn>
       <IllustrationColumn label="üçgen" width={80}>
-        <SekillerIcon tip="ucgen" size={80} renk={GEO.yesil} />
+        <SekillerIcon tip="ucgen" size={120} renk={GEO.yesil} />
       </IllustrationColumn>
     </View>
   );

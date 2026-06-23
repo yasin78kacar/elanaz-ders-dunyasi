@@ -32,7 +32,7 @@ interface IkonProps {
   size?: number;
 }
 
-export function NesneIkon({ tip, size = 36 }: IkonProps) {
+export function NesneIkon({ tip, size = 54 }: IkonProps) {
   const s = size;
   const h = s * 0.85;
   switch (tip) {

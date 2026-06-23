@@ -8,12 +8,15 @@ interface Props {
   tabanYukseklik?: number;
 }
 
-/** Yalnızca layout boşluğu; Flow ölçeği deviceLayout.flowSize ile yapılır. */
-export function GorselOlcek({ children, tabanYukseklik = 220 }: Props) {
+/** Yalnızca layout boşluğu; görsel yüksekliği deviceLayout.gorselBoyut.buyuk ile yapılır. */
+export function GorselOlcek({ children, tabanYukseklik }: Props) {
   const layout = useDeviceLayout();
+  const yukseklik = tabanYukseklik
+    ? layout.flowSize(tabanYukseklik)
+    : layout.gorselBoyut.buyuk;
 
   return (
-    <View style={[styles.dis, { minHeight: layout.flowSize(tabanYukseklik) }]}>
+    <View style={[styles.dis, { minHeight: yukseklik }]}>
       {children}
     </View>
   );

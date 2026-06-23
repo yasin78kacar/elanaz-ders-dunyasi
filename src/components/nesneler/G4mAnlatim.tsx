@@ -54,11 +54,11 @@ export function G4mAnlatim2() {
         <GuvenliMetin style={styles.miniEtiket} tamGenislik={false}>davul → silindir</GuvenliMetin>
       </View>
       <View style={styles.satir}>
-        <NesnelerIcon tip="zil" size={56} />
+        <NesnelerIcon tip="zil" size={84} />
         <Svg width={32} height={20} viewBox="0 0 32 20">
           <Ok x1={2} y1={10} x2={24} y2={10} />
         </Svg>
-        <SekillerIcon tip="daire" size={56} />
+        <SekillerIcon tip="daire" size={84} />
         <GuvenliMetin style={styles.miniEtiket} tamGenislik={false}>zil → daire</GuvenliMetin>
       </View>
       <View style={styles.satir}>
@@ -73,7 +73,7 @@ export function G4mAnlatim3() {
   return (
     <View style={styles.grup}>
       <View style={styles.satir}>
-        <NesnelerIcon tip="top" size={48} />
+        <NesnelerIcon tip="top" size={72} />
         <NesnelerIcon tip="top" size={88} />
       </View>
       <GuvenliMetin style={styles.vurguEtiket} tamGenislik={false}>ikisi de yuvarlak!</GuvenliMetin>

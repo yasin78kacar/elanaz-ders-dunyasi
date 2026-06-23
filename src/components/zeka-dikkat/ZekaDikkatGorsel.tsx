@@ -2,10 +2,12 @@ import { View } from 'react-native';
 import Svg, { Circle, Rect, Text as SvgText } from 'react-native-svg';
 import { SvgCanvas } from '../SvgCanvas';
 import { GEO } from '../nesneler/colors';
+import { GORSEL_VIEW_H, GORSEL_VIEW_W, useGorselCanvas } from '../GorselSvg';
+import { GorselSvg } from '../GorselSvg';
 import type { GorselZekaDikkat } from '../../types/content';
 
-const W = 280;
-const H = 120;
+const W = GORSEL_VIEW_W;
+const H = GORSEL_VIEW_H;
 
 const RENK: Record<string, string> = {
   kirmizi: '#E53935',
@@ -33,7 +35,7 @@ function FarkliDizi({ ogeler, farkliIndeks = 0 }: { ogeler: string[]; farkliInde
     return { tip: 'daire', renk: GEO.turuncu };
   };
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <SvgText x={W / 2} y={16} fontSize={11} fill={GEO.metin} textAnchor="middle" fontWeight="600">
         Farklı olanı bul
       </SvgText>
@@ -41,7 +43,7 @@ function FarkliDizi({ ogeler, farkliIndeks = 0 }: { ogeler: string[]; farkliInde
         const { tip, renk } = sekilRenk(o);
         return <Sekil key={i} tip={tip} x={40 + i * 48} y={68} renk={renk} boyut={i === farkliIndeks ? 26 : 22} />;
       })}
-    </Svg>
+    </GorselSvg>
   );
 }
 
@@ -58,7 +60,7 @@ function SayimSahne({ sahne, adet = 5 }: { sahne: string; adet?: number }) {
   const emoji = emojiMap[sahne]?.[0] ?? '🍎';
   const n = adet ?? parseInt(sahne.split('-').pop() ?? '5', 10);
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <SvgText x={W / 2} y={16} fontSize={11} fill={GEO.metin} textAnchor="middle" fontWeight="600">
         Kaç tane var?
       </SvgText>
@@ -67,7 +69,7 @@ function SayimSahne({ sahne, adet = 5 }: { sahne: string; adet?: number }) {
           {emoji}
         </SvgText>
       ))}
-    </Svg>
+    </GorselSvg>
   );
 }
 
@@ -75,18 +77,18 @@ function DikkatSahne({ sahne }: { sahne: string }) {
   if (sahne === 'kirmizi-top-say') {
     const renkler = ['kirmizi', 'mavi', 'kirmizi', 'mavi', 'kirmizi', 'kirmizi', 'mavi', 'kirmizi'];
     return (
-      <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+      <GorselSvg>
         <SvgText x={W / 2} y={16} fontSize={11} fill={GEO.metin} textAnchor="middle" fontWeight="600">
           Sadece kırmızı topları say
         </SvgText>
         {renkler.map((r, i) => (
           <Circle key={i} cx={28 + i * 30} cy={68} r={11} fill={RENK[r]} />
         ))}
-      </Svg>
+      </GorselSvg>
     );
   }
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <SvgText x={W / 2} y={16} fontSize={11} fill={GEO.metin} textAnchor="middle" fontWeight="600">
         Eksik parçayı bul
       </SvgText>
@@ -94,7 +96,7 @@ function DikkatSahne({ sahne }: { sahne: string }) {
       <Rect x={100} y={40} width={50} height={50} fill={GEO.mavi} />
       <Rect x={160} y={40} width={50} height={50} fill="none" stroke={GEO.turuncu} strokeWidth={2} strokeDasharray="4 3" />
       <Rect x={220} y={40} width={50} height={50} fill={GEO.mavi} />
-    </Svg>
+    </GorselSvg>
   );
 }
 
@@ -105,20 +107,21 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
     'sayim-anlatim': 'Dikkatli sayma',
   };
   return (
-    <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <GorselSvg>
       <SvgText x={W / 2} y={16} fontSize={11} fill={GEO.metin} textAnchor="middle" fontWeight="600">
         {baslik[sahne] ?? 'Zekâ ve Dikkat'}
       </SvgText>
       <Circle cx={70} cy={68} r={16} fill={GEO.kirmizi} />
       <Rect x={120} y={52} width={32} height={32} fill={GEO.mavi} rx={4} />
       <Circle cx={200} cy={68} r={16} fill={GEO.yesil} />
-    </Svg>
+    </GorselSvg>
   );
 }
 
 type Props = GorselZekaDikkat;
 
 export function ZekaDikkatGorsel(props: Props) {
+  const { renderW, renderH } = useGorselCanvas();
   const { mod, sahne, ogeler, farkliIndeks, adet } = props;
 
   let icerik;
@@ -136,7 +139,7 @@ export function ZekaDikkatGorsel(props: Props) {
 
   return (
     <View style={{ alignItems: 'center' }}>
-      <SvgCanvas width={W} height={H}>
+      <SvgCanvas width={renderW} height={renderH}>
         {icerik}
       </SvgCanvas>
     </View>

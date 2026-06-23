@@ -35,7 +35,7 @@ interface Props {
 }
 
 function svgYedek(svg: ReactNode) {
-  return <GorselOlcek tabanYukseklik={220}>{svg}</GorselOlcek>;
+  return <GorselOlcek>{svg}</GorselOlcek>;
 }
 
 function useKutuStyles() {
