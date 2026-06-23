@@ -16,17 +16,16 @@ import { useTheme } from '../contexts/ThemeContext';
 import { PracticeQuestion } from '../components/PracticeQuestion';
 import { SessionQuestion } from '../components/SessionQuestion';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
+import { LessonView } from '../components/LessonView';
 import { PrimaryButton } from '../components/PrimaryButton';
-import { ContentIllustration } from '../components/ContentIllustration';
-import { ElanazHeader } from '../components/ElanazHeader';
 import { ExerciseScreenLayout } from '../components/ExerciseScreenContainer';
-import { VideoIzleButton } from '../components/VideoIzleButton';
 import { getKonuAnlatimVideo } from '../assets/videoCatalog';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
 import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
 import type { DifficultyLevel } from '../types/difficulty';
+import { DIFFICULTY_POINT_MULTIPLIER } from '../types/difficulty';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TopicFlow'>;
 
@@ -70,13 +69,6 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           textTransform: 'uppercase',
           letterSpacing: 0.5,
         },
-        anlatimMetin: {
-          fontSize: layout.font.lg,
-          lineHeight: layout.spacing(34),
-          color: colors.baslik,
-          marginTop: layout.spacing(8),
-        },
-        sayac: { fontSize: layout.font.sm, color: colors.metin },
         hata: { fontSize: layout.font.md, color: colors.hata, padding: layout.spacing(20) },
         sonucBaslik: { fontSize: layout.font.xl, fontWeight: '700', color: colors.baslik },
         yildizlar: { fontSize: layout.spacing(40), textAlign: 'center' },
@@ -170,7 +162,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       dogruCevap: soruCevapAnahtari(soru),
       tip: 'alistirma',
     });
-    if (dogruMu) await recordCorrectAnswer();
+    if (dogruMu) await recordCorrectAnswer(DIFFICULTY_POINT_MULTIPLIER[zorluk]);
     await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
   };
@@ -188,7 +180,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       dogruCevap: soruCevapAnahtari(soru),
       tip: 'test',
     });
-    if (dogruMu) await recordCorrectAnswer();
+    if (dogruMu) await recordCorrectAnswer(DIFFICULTY_POINT_MULTIPLIER[zorluk]);
     await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
   };
@@ -218,9 +210,6 @@ export function TopicFlowScreen({ route, navigation }: Props) {
     bottomAction = { label: 'Haritaya Dön', onPress: () => navigation.goBack() };
   }
 
-  const anlatimVideo =
-    adim.tip === 'anlatim' ? getKonuAnlatimVideo(konuId, adim.index) : undefined;
-
   const soruAdimi = adim.tip === 'alistirma' || adim.tip === 'test';
 
   return (
@@ -234,16 +223,13 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       }
     >
       {adim.tip === 'anlatim' && (
-        <View style={styles.kutu}>
-          <ElanazHeader />
-          <Text style={styles.etiket}>Konu Anlatımı</Text>
-          <ContentIllustration gorsel={anlatimEkranlari[adim.index].gorsel} konuId={konuId} />
-          <Text style={styles.anlatimMetin}>{anlatimEkranlari[adim.index].metin}</Text>
-          {anlatimVideo ? <VideoIzleButton source={anlatimVideo} /> : null}
-          <Text style={styles.sayac}>
-            {adim.index + 1} / {anlatimEkranlari.length}
-          </Text>
-        </View>
+        <LessonView
+          ekran={anlatimEkranlari[adim.index]}
+          konuId={konuId}
+          index={adim.index}
+          toplam={anlatimEkranlari.length}
+          anlatimVideo={getKonuAnlatimVideo(konuId, adim.index)}
+        />
       )}
 
       {adim.tip === 'alistirma' && (

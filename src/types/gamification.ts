@@ -1,5 +1,18 @@
+import type { DifficultyLevel } from './difficulty';
+import { DIFFICULTY_POINT_MULTIPLIER } from './difficulty';
+
 export const POINTS_PER_CORRECT = 10;
 export const POINTS_PER_LEVEL = 500;
+
+export function pointsForCorrectAnswer(
+  multiplier = 1,
+): number {
+  return Math.round(POINTS_PER_CORRECT * multiplier);
+}
+
+export function pointsForDifficulty(level: DifficultyLevel): number {
+  return pointsForCorrectAnswer(DIFFICULTY_POINT_MULTIPLIER[level]);
+}
 
 export type BadgeId =
   | 'ilk_adim'

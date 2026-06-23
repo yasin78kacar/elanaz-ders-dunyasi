@@ -9,7 +9,7 @@ import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
 import { AnswerButton } from './AnswerButton';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
-import { QuestionScreenLayout } from './ExerciseScreenContainer';
+import { QuestionScreen } from './QuestionScreen';
 
 const MAX_DEGISIKLIK = 2;
 
@@ -67,7 +67,7 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
   };
 
   return (
-    <QuestionScreenLayout
+    <QuestionScreen
       footer={
         durum === 'bekle' ? (
           <PrimaryButton label="Cevabım Bu" onPress={onayla} disabled={!secim} />
@@ -121,6 +121,6 @@ export function TestQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </QuestionScreenLayout>
+    </QuestionScreen>
   );
 }

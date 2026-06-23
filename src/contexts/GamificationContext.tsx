@@ -10,7 +10,7 @@ import {
 } from 'react';
 import {
   BADGES,
-  POINTS_PER_CORRECT,
+  pointsForCorrectAnswer,
   type Badge,
   type BadgeId,
   type GamificationState,
@@ -32,7 +32,7 @@ const VARSAYILAN: GamificationState = {
 interface GamificationContextValue extends GamificationState {
   levelBaslik: string;
   rozetler: Badge[];
-  recordCorrectAnswer: () => Promise<BadgeId[]>;
+  recordCorrectAnswer: (pointMultiplier?: number) => Promise<BadgeId[]>;
   recordTopicComplete: (yildiz: number) => Promise<BadgeId[]>;
   recordStoryComplete: () => Promise<BadgeId[]>;
   yukleniyor: boolean;
@@ -88,9 +88,9 @@ export function GamificationProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
-  const recordCorrectAnswer = useCallback(async (): Promise<BadgeId[]> => {
+  const recordCorrectAnswer = useCallback(async (pointMultiplier = 1): Promise<BadgeId[]> => {
     const dogruToplam = state.dogruToplam + 1;
-    const points = state.points + POINTS_PER_CORRECT;
+    const points = state.points + pointsForCorrectAnswer(pointMultiplier);
     const rozetler = [...state.kazanilanRozetler];
     const eklenen = yeniRozetler(rozetler, [
       { id: 'ilk_adim', kosul: dogruToplam >= 1 },

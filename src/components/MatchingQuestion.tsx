@@ -10,7 +10,7 @@ import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { soruMetni } from '../utils/soruHelpers';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
-import { QuestionScreenLayout } from './ExerciseScreenContainer';
+import { QuestionScreen } from './QuestionScreen';
 
 const MAX_DENEME = 2;
 
@@ -162,7 +162,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
   const kalanDeneme = MAX_DENEME - deneme;
 
   return (
-    <QuestionScreenLayout
+    <QuestionScreen
       footer={
         durum === 'bekle' && !kilitli ? (
           <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!tumEslesti} />
@@ -255,7 +255,7 @@ export function MatchingQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </QuestionScreenLayout>
+    </QuestionScreen>
   );
 }
 

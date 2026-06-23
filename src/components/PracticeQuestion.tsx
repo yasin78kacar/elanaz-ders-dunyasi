@@ -7,7 +7,7 @@ import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 import { ContentIllustration } from './ContentIllustration';
-import { QuestionScreenLayout } from './ExerciseScreenContainer';
+import { QuestionScreen } from './QuestionScreen';
 import { soruMetni } from '../utils/soruHelpers';
 
 interface Props {
@@ -60,7 +60,7 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
   };
 
   return (
-    <QuestionScreenLayout
+    <QuestionScreen
       footer={
         durum === 'bekle' ? (
           <PrimaryButton label="Kontrol Et" onPress={kontrolEt} disabled={!cevap.trim()} />
@@ -98,6 +98,6 @@ export function PracticeQuestion({ soru, konuId, onAnswer }: Props) {
           styles={q}
         />
       )}
-    </QuestionScreenLayout>
+    </QuestionScreen>
   );
 }
