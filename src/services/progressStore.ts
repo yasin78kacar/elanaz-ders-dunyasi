@@ -59,6 +59,7 @@ export async function kaydetSoruCevabi(
     testSkoru: 0,
     testToplam: 0,
     yildiz: 0,
+    sureSaniye: 0,
     sorular: [],
   };
 
@@ -81,6 +82,7 @@ export async function kaydetHikayeCevabi(
     testSkoru: 0,
     testToplam: 0,
     yildiz: 0,
+    sureSaniye: 0,
     sorular: [],
   };
 
@@ -94,6 +96,7 @@ export async function tamamlaKonu(
   konuId: string,
   testDogru: number,
   testToplam: number,
+  sureSaniye = 0,
 ): Promise<KonuIlerleme> {
   const data = await load();
   const key = konuKey(dersId, konuId);
@@ -104,6 +107,7 @@ export async function tamamlaKonu(
     testSkoru: 0,
     testToplam: 0,
     yildiz: 0,
+    sureSaniye: 0,
     sorular: [],
   };
 
@@ -111,6 +115,7 @@ export async function tamamlaKonu(
   mevcut.testSkoru = testDogru;
   mevcut.testToplam = testToplam;
   mevcut.yildiz = yildizHesapla(testDogru, testToplam);
+  mevcut.sureSaniye = (mevcut.sureSaniye ?? 0) + sureSaniye;
   data.konular[key] = mevcut;
   await save(data);
   return mevcut;
@@ -121,6 +126,7 @@ export async function tamamlaHikaye(
   hikayeId: string,
   testDogru: number,
   testToplam: number,
+  sureSaniye = 0,
 ): Promise<HikayeIlerleme> {
   const data = await load();
   const key = hikayeKey(dersId, hikayeId);
@@ -131,6 +137,7 @@ export async function tamamlaHikaye(
     testSkoru: 0,
     testToplam: 0,
     yildiz: 0,
+    sureSaniye: 0,
     sorular: [],
   };
 
@@ -138,6 +145,7 @@ export async function tamamlaHikaye(
   mevcut.testSkoru = testDogru;
   mevcut.testToplam = testToplam;
   mevcut.yildiz = yildizHesapla(testDogru, testToplam);
+  mevcut.sureSaniye = (mevcut.sureSaniye ?? 0) + sureSaniye;
   data.hikayeler[key] = mevcut;
   await save(data);
   return mevcut;

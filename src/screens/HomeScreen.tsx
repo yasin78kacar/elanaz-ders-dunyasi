@@ -8,6 +8,8 @@ import { OfflineManager, type OfflineDurum } from '../services/OfflineManager';
 import { ElanazHeader } from '../components/ElanazHeader';
 import { VideoIzleButton } from '../components/VideoIzleButton';
 import { GamificationBar } from '../components/GamificationBar';
+import { StatsDisplay } from '../components/StatsDisplay';
+import { BadgeShowcase } from '../components/BadgeShowcase';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
 import { useTheme } from '../contexts/ThemeContext';
@@ -143,6 +145,8 @@ export function HomeScreen({ navigation }: Props) {
       <ScrollView contentContainerStyle={styles.scroll}>
         <ElanazHeader>
           <GamificationBar />
+          <StatsDisplay compact />
+          <BadgeShowcase compact />
           <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
           <ThemeToggle />
           {offline?.hazir ? (

@@ -1,4 +1,4 @@
-import { useLayoutEffect, useMemo, useState } from 'react';
+import { useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getHikaye } from '../services/contentLoader';
@@ -27,6 +27,11 @@ export function StoryFlowScreen({ route, navigation }: Props) {
   const { colors } = useTheme();
   const { recordCorrectAnswer, recordStoryComplete } = useGamification();
   const hikaye = getHikaye(dersId, hikayeId);
+  const baslangicRef = useRef(Date.now());
+
+  useLayoutEffect(() => {
+    baslangicRef.current = Date.now();
+  }, [dersId, hikayeId]);
 
   const styles = useMemo(
     () =>
@@ -91,7 +96,8 @@ export function StoryFlowScreen({ route, navigation }: Props) {
       setAdim({ tip: 'soru', index: adim.index + 1 });
       setCevapBekleniyor(false);
     } else {
-      const ilerleme = await tamamlaHikaye(dersId, hikayeId, dogru, sorular.length);
+      const sureSaniye = Math.max(1, Math.round((Date.now() - baslangicRef.current) / 1000));
+      const ilerleme = await tamamlaHikaye(dersId, hikayeId, dogru, sorular.length, sureSaniye);
       await recordStoryComplete();
       setAdim({
         tip: 'sonuc',

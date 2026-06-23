@@ -8,14 +8,15 @@ import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { VideoPlayer } from '../components/VideoPlayer';
 import { ThemeToggle } from '../components/ThemeToggle';
+import { StatsDisplay } from '../components/StatsDisplay';
+import { BadgeShowcase } from '../components/BadgeShowcase';
 import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
-import { BADGES } from '../types/gamification';
 
 export function ParentDashboard() {
   const [detaylar, setDetaylar] = useState<DersIlerlemeDetay[]>([]);
   const [oneriler, setOneriler] = useState<Oneri[]>([]);
   const [offline, setOffline] = useState<OfflineDurum | null>(null);
-  const { points, level, levelBaslik, kazanilanRozetler } = useGamification();
+  const { points, level, levelBaslik } = useGamification();
   const { colors } = useTheme();
   const layout = useDeviceLayout();
 
@@ -89,22 +90,6 @@ export function ParentDashboard() {
           flexWrap: 'wrap',
           gap: layout.spacing(8),
         },
-        rozetKart: {
-          backgroundColor: colors.kart,
-          borderRadius: layout.spacing(10),
-          padding: layout.spacing(10),
-          borderWidth: 1,
-          borderColor: colors.kenarlik,
-          alignItems: 'center',
-          minWidth: layout.spacing(80),
-        },
-        rozetEmoji: { fontSize: layout.spacing(24) },
-        rozetAd: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-          marginTop: layout.spacing(4),
-          textAlign: 'center',
-        },
         offlineButon: {
           backgroundColor: colors.turuncu,
           borderRadius: layout.spacing(12),
@@ -162,6 +147,9 @@ export function ParentDashboard() {
         ) : null}
       </View>
 
+      <StatsDisplay />
+      <BadgeShowcase />
+
       <Text style={styles.bolumBaslik}>Tema</Text>
       <ThemeToggle />
 
@@ -199,21 +187,6 @@ export function ParentDashboard() {
         ))
       )}
 
-      <Text style={styles.bolumBaslik}>Rozetler</Text>
-      <View style={styles.rozetSatir}>
-        {BADGES.map((b) => {
-          const kazanildi = kazanilanRozetler.includes(b.id);
-          return (
-            <View
-              key={b.id}
-              style={[styles.rozetKart, !kazanildi && { opacity: 0.35 }]}
-            >
-              <Text style={styles.rozetEmoji}>{b.emoji}</Text>
-              <Text style={styles.rozetAd}>{b.baslik}</Text>
-            </View>
-          );
-        })}
-      </View>
 
       {offline && !offline.tumuIndirildi ? (
         <Pressable style={styles.offlineButon} onPress={indirTumu}>

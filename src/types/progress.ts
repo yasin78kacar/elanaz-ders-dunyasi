@@ -17,6 +17,8 @@ export interface KonuIlerleme {
   testSkoru: number;
   testToplam: number;
   yildiz: number;
+  /** Ders oturumunda geçirilen süre (saniye). */
+  sureSaniye: number;
   sorular: SoruKaydi[];
 }
 
@@ -27,6 +29,8 @@ export interface HikayeIlerleme {
   testSkoru: number;
   testToplam: number;
   yildiz: number;
+  /** Hikâye oturumunda geçirilen süre (saniye). */
+  sureSaniye: number;
   sorular: SoruKaydi[];
 }
 

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
@@ -25,6 +25,7 @@ import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
 import type { RootStackParamList } from '../navigation/types';
 import type { Soru } from '../types/content';
+import type { DifficultyLevel } from '../types/difficulty';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TopicFlow'>;
 
@@ -41,9 +42,13 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const { recordCorrectAnswer, recordTopicComplete } = useGamification();
   const konu = getKonu(dersId, konuId);
   const [sessionSize, setSessionSize] = useState(5);
+  const [zorluk, setZorluk] = useState<DifficultyLevel>('medium');
+  const baslangicRef = useRef(Date.now());
 
   useEffect(() => {
+    baslangicRef.current = Date.now();
     Promise.all([getDifficulty(), getAdaptiveDifficulty()]).then(([level]) => {
+      setZorluk(level);
       setSessionSize(getSessionSize(level));
     });
   }, []);
@@ -86,10 +91,10 @@ export function TopicFlowScreen({ route, navigation }: Props) {
   const oturum = useMemo(() => {
     if (!konu) return null;
     return {
-      alistirmalar: oturumSorulariSec(konu.alistirma, sessionSize),
-      testler: oturumSorulariSec(konu.test, sessionSize),
+      alistirmalar: oturumSorulariSec(konu.alistirma, sessionSize, zorluk),
+      testler: oturumSorulariSec(konu.test, sessionSize, zorluk),
     };
-  }, [konu, sessionSize]);
+  }, [konu, sessionSize, zorluk]);
 
   const [adim, setAdim] = useState<Adim>({ tip: 'anlatim', index: 0 });
   const [testDogru, setTestDogru] = useState(0);
@@ -136,7 +141,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       setAdim({ tip: 'test', index: adim.index + 1 });
       setCevapBekleniyor(false);
     } else {
-      const ilerleme = await tamamlaKonu(dersId, konuId, dogru, testler.length);
+      const sureSaniye = Math.max(1, Math.round((Date.now() - baslangicRef.current) / 1000));
+      const ilerleme = await tamamlaKonu(dersId, konuId, dogru, testler.length, sureSaniye);
       await recordTopicComplete(ilerleme.yildiz);
       setAdim({
         tip: 'sonuc',

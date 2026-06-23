@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import type { DifficultyLevel } from '../types/difficulty';
-import { DIFFICULTY_LABELS } from '../types/difficulty';
+import { DIFFICULTY_LABELS, DIFFICULTY_SESSION_SIZE } from '../types/difficulty';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useTheme } from '../contexts/ThemeContext';
 
@@ -52,11 +52,15 @@ export function DifficultySelector({ value, onChange, adaptiveHint }: Props) {
         secenekMetinAktif: {
           color: colors.birincil,
         },
-        ipucu: {
-          fontSize: layout.font.sm,
-          color: colors.turuncu,
-          fontStyle: 'italic',
-        },
+      ipucu: {
+        fontSize: layout.font.sm,
+        color: colors.turuncu,
+        fontStyle: 'italic',
+      },
+      oturum: {
+        fontSize: layout.font.sm,
+        color: colors.metin,
+      },
       }),
     [layout, colors],
   );
@@ -84,6 +88,10 @@ export function DifficultySelector({ value, onChange, adaptiveHint }: Props) {
           Öneri: {DIFFICULTY_LABELS[adaptiveHint]} seviyeye geçebilirsin
         </Text>
       ) : null}
+      <Text style={styles.oturum}>
+        {DIFFICULTY_SESSION_SIZE[value]} soru ·{' '}
+        {value === 'easy' ? 'kolay sorular' : value === 'hard' ? 'zor sorular' : 'karışık sorular'}
+      </Text>
     </View>
   );
 }

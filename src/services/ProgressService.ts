@@ -9,6 +9,31 @@ import {
 } from './progressStore';
 import { getDersListesi, getDersKonuYolu, okumaKosesiMi } from './contentLoader';
 
+export interface DersSureDetay {
+  dersId: string;
+  dersBaslik: string;
+  sureSaniye: number;
+}
+
+export interface KonuSureDetay {
+  dersId: string;
+  konuId: string;
+  konuBaslik: string;
+  sureSaniye: number;
+}
+
+export interface GenelIstatistikler {
+  cozulenSoru: number;
+  dogruSoru: number;
+  dogrulukYuzde: number;
+  toplamSureSaniye: number;
+  tamamlananKonu: number;
+  tamamlananHikaye: number;
+  dersDetaylari: DersIlerlemeDetay[];
+  dersSureleri: DersSureDetay[];
+  konuSureleri: KonuSureDetay[];
+}
+
 export interface TemaIlerleme {
   temaId: string;
   temaBaslik: string;
@@ -138,6 +163,73 @@ export const ProgressService = {
     }
 
     return oneriler.slice(0, 3);
+  },
+
+  async getGenelIstatistikler(): Promise<GenelIstatistikler> {
+    const kayitlar = await getTumSoruKayitlari();
+    const ilerleme = await getTumIlerleme();
+    const dersDetaylari = await this.getDersDetaylari();
+
+    const cozulenSoru = kayitlar.length;
+    const dogruSoru = kayitlar.filter((k) => k.dogruMu).length;
+    const dogrulukYuzde = cozulenSoru > 0 ? Math.round((dogruSoru / cozulenSoru) * 100) : 0;
+
+    const konuSureleri: KonuSureDetay[] = [];
+    let toplamSureSaniye = 0;
+
+    for (const konu of Object.values(ilerleme.konular)) {
+      const sure = konu.sureSaniye ?? 0;
+      if (sure <= 0) continue;
+      toplamSureSaniye += sure;
+      const konuBilgi = getDersKonuYolu(konu.dersId).find((k) => k.id === konu.konuId);
+      konuSureleri.push({
+        dersId: konu.dersId,
+        konuId: konu.konuId,
+        konuBaslik: konuBilgi?.baslik ?? konu.konuId,
+        sureSaniye: sure,
+      });
+    }
+
+    for (const hikaye of Object.values(ilerleme.hikayeler)) {
+      const sure = hikaye.sureSaniye ?? 0;
+      toplamSureSaniye += sure;
+    }
+
+    const dersSureMap = new Map<string, number>();
+    for (const k of konuSureleri) {
+      dersSureMap.set(k.dersId, (dersSureMap.get(k.dersId) ?? 0) + k.sureSaniye);
+    }
+    for (const h of Object.values(ilerleme.hikayeler)) {
+      const sure = h.sureSaniye ?? 0;
+      if (sure > 0) {
+        dersSureMap.set(h.dersId, (dersSureMap.get(h.dersId) ?? 0) + sure);
+      }
+    }
+
+    const dersSureleri: DersSureDetay[] = getDersListesi()
+      .map((ders) => ({
+        dersId: ders.id,
+        dersBaslik: ders.baslik,
+        sureSaniye: dersSureMap.get(ders.id) ?? 0,
+      }))
+      .filter((d) => d.sureSaniye > 0);
+
+    const tamamlananKonu = Object.values(ilerleme.konular).filter((k) => k.tamamlandi).length;
+    const tamamlananHikaye = Object.values(ilerleme.hikayeler).filter((h) => h.tamamlandi).length;
+
+    konuSureleri.sort((a, b) => b.sureSaniye - a.sureSaniye);
+
+    return {
+      cozulenSoru,
+      dogruSoru,
+      dogrulukYuzde,
+      toplamSureSaniye,
+      tamamlananKonu,
+      tamamlananHikaye,
+      dersDetaylari,
+      dersSureleri,
+      konuSureleri,
+    };
   },
 };
 

@@ -1,5 +1,5 @@
 export const POINTS_PER_CORRECT = 10;
-export const POINTS_PER_LEVEL = 100;
+export const POINTS_PER_LEVEL = 500;
 
 export type BadgeId =
   | 'ilk_adim'
@@ -18,13 +18,13 @@ export interface Badge {
 }
 
 export const BADGES: Badge[] = [
-  { id: 'ilk_adim', baslik: 'İlk Adım', aciklama: 'İlk doğru cevabını verdin!', emoji: '🌱' },
-  { id: 'on_soru', baslik: 'On Soru', aciklama: '10 doğru cevap topladın.', emoji: '🔟' },
-  { id: 'elli_soru', baslik: 'Elli Soru', aciklama: '50 doğru cevap topladın.', emoji: '🏅' },
-  { id: 'bir_yildiz', baslik: 'Bir Yıldız', aciklama: 'İlk konunda yıldız kazandın.', emoji: '⭐' },
-  { id: 'uc_yildiz', baslik: 'Üç Yıldız', aciklama: 'Bir konuda 3 yıldız aldın.', emoji: '🌟' },
-  { id: 'bes_konu', baslik: 'Beş Konu', aciklama: '5 konuyu tamamladın.', emoji: '📚' },
-  { id: 'hikaye_ustasi', baslik: 'Hikâye Ustası', aciklama: '3 hikâyeyi tamamladın.', emoji: '📖' },
+  { id: 'ilk_adim', baslik: 'First Steps', aciklama: 'İlk doğru cevabını verdin!', emoji: '🌱' },
+  { id: 'on_soru', baslik: 'Sharpshooter', aciklama: '10 doğru cevap topladın.', emoji: '🎯' },
+  { id: 'elli_soru', baslik: 'On Fire', aciklama: '50 doğru cevap topladın.', emoji: '🔥' },
+  { id: 'bir_yildiz', baslik: 'Rising Star', aciklama: 'İlk konunda yıldız kazandın.', emoji: '⭐' },
+  { id: 'uc_yildiz', baslik: 'Star Champion', aciklama: 'Bir konuda 3 yıldız aldın.', emoji: '🌟' },
+  { id: 'bes_konu', baslik: 'Explorer', aciklama: '5 konuyu tamamladın.', emoji: '🧭' },
+  { id: 'hikaye_ustasi', baslik: 'Story Master', aciklama: '3 hikâyeyi tamamladın.', emoji: '📖' },
 ];
 
 export interface GamificationState {
