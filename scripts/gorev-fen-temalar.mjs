@@ -1,6 +1,6 @@
 /** Fen Bilimleri T1–T10 — tema başına 100 görselli soru. */
 
-import { hayvanlar } from './gorev-fen1-questions.mjs';
+import { hayvanlarTema3 } from './gorev-fen-tema3-questions.mjs';
 import { maddeVeOzellikleri, kuvvetVeHareket, isikVeSes } from './gorev-fen2-questions.mjs';
 import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
 import { canlilarinSiniflandirilmasi } from './gorev-fen-tema1-questions.mjs';
@@ -328,9 +328,7 @@ export { canlilarinSiniflandirilmasi };
 export { bitkilerTema2 as bitkilerTema };
 
 export function hayvanlarTema(karistir) {
-  return genislet100(hayvanlar(karistir), sablonAlistirma(HV_EK_A, K.HV, 'hv'), sablonTest(HV_EK_T, K.HV, 'hv', karistir), {
-    id: 'hayvanlar', baslik: 'Hayvanlar', kazanimKodu: K.HV, onekA: 'hv-a', onekT: 'hv-t',
-  });
+  return hayvanlarTema3(karistir);
 }
 
 export function insanVeSaglik(karistir) {

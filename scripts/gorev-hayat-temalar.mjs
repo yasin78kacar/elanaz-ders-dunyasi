@@ -1,6 +1,7 @@
 /** Hayat Bilgisi T1–T10 — tema başına 100 görselli soru. */
 
-import { okulVeSinif, aileVeArkadaslik, toplumVeCevre } from './gorev-hb1-questions.mjs';
+import { aileVeArkadaslik, toplumVeCevre } from './gorev-hb1-questions.mjs';
+import { okulTema3 } from './gorev-hayat-tema3-questions.mjs';
 import { saglikVeTemizlik, guvenliYasam, mesleklerVeCalismaHayati } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma } from './gorev-hb3-questions.mjs';
 import { aileDuygular } from './gorev-hayat-duygular-questions.mjs';
@@ -338,9 +339,7 @@ export function hayatTema2(karistir) {
 }
 
 export function hayatTema3(karistir) {
-  return genislet100(okulVeSinif(karistir), sablonA(OK_EK_A, K.OS, 'ok'), sablonT(OK_EK_T, K.OS, 'ok', karistir), {
-    id: 'okul', baslik: 'Okul', kazanimKodu: K.OS, onekA: 'ok-a', onekT: 'ok-t',
-  });
+  return okulTema3(karistir);
 }
 
 export function hayatTema4(karistir) {

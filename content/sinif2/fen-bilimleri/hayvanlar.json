@@ -408,14 +408,15 @@
       "id": "hv-a26",
       "kazanimKodu": "FEN.2.1.3",
       "tip": "yazili",
-      "soru": "Yun keçisi hangi gruptadır?",
+      "soru": "Yün keçisi hangi gruptadır?",
       "dogruCevap": "Memeli",
       "ipucu": "",
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -428,8 +429,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "kus"
       }
     },
     {
@@ -442,8 +444,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "balik"
       }
     },
     {
@@ -456,8 +459,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kelebek"
+        "mod": "hayvan",
+        "nesne": "kelebek",
+        "ozellik": "bocek"
       }
     },
     {
@@ -470,8 +474,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kaplumbaga"
+        "mod": "hayvan",
+        "nesne": "kaplumbaga",
+        "ozellik": "kara"
       }
     },
     {
@@ -486,7 +491,7 @@
         "tur": "fen",
         "mod": "hayvan",
         "nesne": "yilan",
-        "ozellik": "surunme"
+        "ozellik": "surunur"
       }
     },
     {
@@ -499,8 +504,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ordek"
+        "mod": "hayvan",
+        "nesne": "ordek",
+        "ozellik": "su"
       }
     },
     {
@@ -513,8 +519,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ari"
+        "mod": "hayvan",
+        "nesne": "ari",
+        "ozellik": "bocek"
       }
     },
     {
@@ -527,8 +534,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kopek"
+        "mod": "hayvan",
+        "nesne": "kopek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -541,8 +549,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kelebek"
+        "mod": "hayvan",
+        "nesne": "kelebek",
+        "ozellik": "bocek"
       }
     },
     {
@@ -555,8 +564,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "su"
       }
     },
     {
@@ -569,8 +579,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "kus"
       }
     },
     {
@@ -583,8 +594,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kedi"
+        "mod": "hayvan",
+        "nesne": "kedi",
+        "ozellik": "memeli"
       }
     },
     {
@@ -597,8 +609,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kurbağa"
+        "mod": "hayvan",
+        "nesne": "kurbağa",
+        "ozellik": "su"
       }
     },
     {
@@ -611,8 +624,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -625,8 +639,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kedi"
+        "mod": "hayvan",
+        "nesne": "kedi",
+        "ozellik": "yurur"
       }
     },
     {
@@ -639,8 +654,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "pul"
       }
     },
     {
@@ -653,9 +669,15 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
-      }
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "ucar"
+      },
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ]
     },
     {
       "id": "hv-a44",
@@ -667,8 +689,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ari"
+        "mod": "hayvan",
+        "nesne": "ari",
+        "ozellik": "bocek"
       }
     },
     {
@@ -681,8 +704,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kopek"
+        "mod": "hayvan",
+        "nesne": "kopek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -695,8 +719,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "yilan"
+        "mod": "hayvan",
+        "nesne": "yilan",
+        "ozellik": "surunur"
       }
     },
     {
@@ -709,8 +734,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ordek"
+        "mod": "hayvan",
+        "nesne": "ordek",
+        "ozellik": "yuzer"
       }
     },
     {
@@ -723,8 +749,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kelebek"
+        "mod": "hayvan",
+        "nesne": "kelebek",
+        "ozellik": "bocek"
       }
     },
     {
@@ -737,8 +764,9 @@
       "cevapTipi": "metin",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -764,9 +792,9 @@
       "soru": "Kedinin vücut örtüsü hangisidir?",
       "dogruCevap": "Deri",
       "secenekler": [
-        "Taş",
-        "Tüy",
         "Pul",
+        "Tüy",
+        "Taş",
         "Deri"
       ],
       "ipucu": "",
@@ -785,9 +813,9 @@
       "dogruCevap": "Tüy",
       "secenekler": [
         "Tüy",
+        "Deri",
         "Pul",
-        "Kaya",
-        "Deri"
+        "Kaya"
       ],
       "ipucu": "",
       "gorsel": {
@@ -805,8 +833,8 @@
       "dogruCevap": "Pul",
       "secenekler": [
         "Deri",
-        "Kürk",
         "Tüy",
+        "Kürk",
         "Pul"
       ],
       "ipucu": "",
@@ -824,10 +852,10 @@
       "soru": "Kedi hangi ortamda yaşar?",
       "dogruCevap": "Kara",
       "secenekler": [
-        "Su",
-        "Hava",
         "Uzay",
-        "Kara"
+        "Hava",
+        "Kara",
+        "Su"
       ],
       "ipucu": "",
       "gorsel": {
@@ -845,9 +873,9 @@
       "dogruCevap": "Su",
       "secenekler": [
         "Kara",
+        "Hava",
         "Su",
-        "Toprak",
-        "Hava"
+        "Toprak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -864,10 +892,10 @@
       "soru": "Kuş en çok hangi ortamda hareket eder?",
       "dogruCevap": "Hava",
       "secenekler": [
-        "Hava",
+        "Su",
         "Toprak",
         "Mağara",
-        "Su"
+        "Hava"
       ],
       "ipucu": "",
       "gorsel": {
@@ -884,10 +912,10 @@
       "soru": "Kedi nasıl hareket eder?",
       "dogruCevap": "Yürür",
       "secenekler": [
-        "Yüzer",
+        "Yürür",
         "Sürünür",
-        "Uçar",
-        "Yürür"
+        "Yüzer",
+        "Uçar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -904,9 +932,9 @@
       "soru": "🎭 Yürüyen her hayvan memeli midir?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Evet",
-        "Sadece köpekler",
         "Sadece kediler",
+        "Sadece köpekler",
+        "Evet",
         "Hayır"
       ],
       "ipucu": "Kaplumbağa da yürür ama memeli değildir!",
@@ -925,10 +953,10 @@
       "soru": "Kuş nasıl hareket eder?",
       "dogruCevap": "Uçar",
       "secenekler": [
-        "Yüzer",
         "Zıplar",
         "Uçar",
-        "Sürünür"
+        "Sürünür",
+        "Yüzer"
       ],
       "ipucu": "",
       "gorsel": {
@@ -945,10 +973,10 @@
       "soru": "Balık nasıl hareket eder?",
       "dogruCevap": "Yüzer",
       "secenekler": [
-        "Tırmanır",
-        "Uçar",
         "Yüzer",
-        "Yürür"
+        "Yürür",
+        "Uçar",
+        "Tırmanır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -965,10 +993,10 @@
       "soru": "Kedi hangi hayvan grubundadır?",
       "dogruCevap": "Memeli",
       "secenekler": [
-        "Kuş",
+        "Balık",
         "Memeli",
         "Böcek",
-        "Balık"
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -985,10 +1013,10 @@
       "soru": "Ördek hangi hayvan grubundadır?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Memeli",
         "Kuş",
-        "Balık",
-        "Böcek"
+        "Böcek",
+        "Memeli",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1005,10 +1033,10 @@
       "soru": "Arı hangi hayvan grubundadır?",
       "dogruCevap": "Böcek",
       "secenekler": [
-        "Memeli",
         "Kuş",
+        "Balık",
         "Böcek",
-        "Balık"
+        "Memeli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1025,9 +1053,9 @@
       "soru": "İnek hangi hayvan grubundadır?",
       "dogruCevap": "Memeli",
       "secenekler": [
-        "Böcek",
-        "Balık",
         "Memeli",
+        "Balık",
+        "Böcek",
         "Kuş"
       ],
       "ipucu": "",
@@ -1045,10 +1073,10 @@
       "soru": "Yılan nasıl hareket eder?",
       "dogruCevap": "Sürünür",
       "secenekler": [
-        "Koşar",
-        "Uçar",
+        "Sürünür",
         "Yüzer",
-        "Sürünür"
+        "Koşar",
+        "Uçar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1065,10 +1093,10 @@
       "soru": "🎭 Tüy örtüsü olan hayvan hangisidir?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Kuş",
         "Kurbağa",
-        "Balık",
-        "Kedi"
+        "Kedi",
+        "Kuş",
+        "Balık"
       ],
       "ipucu": "Kuşların vücudu tüyle kaplıdır!",
       "gorsel": {
@@ -1088,8 +1116,8 @@
       "secenekler": [
         "Kuş",
         "Kedi",
-        "Balık",
-        "Arı"
+        "Arı",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1107,9 +1135,9 @@
       "dogruCevap": "Kedi",
       "secenekler": [
         "Kedi",
-        "Balık",
+        "Kuş",
         "Kelebek",
-        "Kuş"
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1126,10 +1154,10 @@
       "soru": "Kelebek hangi hayvan grubundadır?",
       "dogruCevap": "Böcek",
       "secenekler": [
-        "Böcek",
         "Kuş",
-        "Balık",
-        "Memeli"
+        "Memeli",
+        "Böcek",
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1146,10 +1174,10 @@
       "soru": "🎭 Balık karada mı yaşar?",
       "dogruCevap": "Hayır, suda yaşar",
       "secenekler": [
-        "Toprakta",
+        "Hem karada hem havada",
         "Evet, karada",
-        "Hayır, suda yaşar",
-        "Hem karada hem havada"
+        "Toprakta",
+        "Hayır, suda yaşar"
       ],
       "ipucu": "Balıklar solungaçlarıyla suda yaşar!",
       "gorsel": {
@@ -1208,8 +1236,8 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Sadece bitkiler",
         "Evet",
+        "Sadece bitkiler",
         "Sadece taşlar"
       ],
       "ipucu": "",
@@ -1228,8 +1256,8 @@
       "secenekler": [
         "Balık",
         "Memeli",
-        "Böcek",
-        "Kuş"
+        "Kuş",
+        "Böcek"
       ],
       "ipucu": "Ördek bir kuştur!",
       "gorsel": {
@@ -1248,9 +1276,9 @@
       "dogruCevap": "Evet, memelilerde tüy veya kıl olabilir",
       "secenekler": [
         "Sadece kuşlarda tüy var",
-        "Sadece balıklarda tüy var",
+        "Hayır, hiç tüy yok",
         "Evet, memelilerde tüy veya kıl olabilir",
-        "Hayır, hiç tüy yok"
+        "Sadece balıklarda tüy var"
       ],
       "ipucu": "Kedi memelidir, vücudunda tüy bulunur!",
       "gorsel": {
@@ -1265,19 +1293,20 @@
       "id": "hv-t26",
       "kazanimKodu": "FEN.2.1.3",
       "tip": "coktanSecmeli",
-      "soru": "Yun keçisi hangi gruptadır?",
+      "soru": "Yün keçisi hangi gruptadır?",
       "dogruCevap": "Memeli",
       "secenekler": [
-        "Memeli",
+        "Böcek",
         "Balık",
-        "Kuş",
-        "Böcek"
+        "Memeli",
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1288,15 +1317,16 @@
       "dogruCevap": "Kuş",
       "secenekler": [
         "Balık",
-        "Sürüngen",
         "Kuş",
+        "Sürüngen",
         "Memeli"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "kus"
       }
     },
     {
@@ -1306,16 +1336,17 @@
       "soru": "Yun balığı hangi gruptadır?",
       "dogruCevap": "Balık",
       "secenekler": [
+        "Böcek",
         "Kuş",
         "Memeli",
-        "Böcek",
         "Balık"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "balik"
       }
     },
     {
@@ -1333,8 +1364,9 @@
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kaplumbaga"
+        "mod": "hayvan",
+        "nesne": "kaplumbaga",
+        "ozellik": "kara"
       }
     },
     {
@@ -1344,16 +1376,17 @@
       "soru": "Arılar ne üretir?",
       "dogruCevap": "Bal",
       "secenekler": [
+        "Süt",
         "Bal",
-        "Yumurta",
         "Taş",
-        "Süt"
+        "Yumurta"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ari"
+        "mod": "hayvan",
+        "nesne": "ari",
+        "ozellik": "bocek"
       }
     },
     {
@@ -1364,15 +1397,16 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Bazen",
         "Evet",
-        "Sadece kışın"
+        "Sadece kışın",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kopek"
+        "mod": "hayvan",
+        "nesne": "kopek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1382,16 +1416,17 @@
       "soru": "Balıklar nefes almak için ne kullanır?",
       "dogruCevap": "Solungaç",
       "secenekler": [
+        "Burun",
         "Kulak",
         "Solungaç",
-        "Akciğer",
-        "Burun"
+        "Akciğer"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "su"
       }
     },
     {
@@ -1402,15 +1437,16 @@
       "dogruCevap": "Sütle",
       "secenekler": [
         "Yaprakla",
+        "Suyla",
         "Taşla",
-        "Sütle",
-        "Suyla"
+        "Sütle"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kedi"
+        "mod": "hayvan",
+        "nesne": "kedi",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1420,16 +1456,17 @@
       "soru": "Kelebek hangi gruptadır?",
       "dogruCevap": "Böcek",
       "secenekler": [
+        "Böcek",
         "Balık",
-        "Memeli",
         "Kuş",
-        "Böcek"
+        "Memeli"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kelebek"
+        "mod": "hayvan",
+        "nesne": "kelebek",
+        "ozellik": "bocek"
       }
     },
     {
@@ -1439,16 +1476,17 @@
       "soru": "İnek neyle beslenir?",
       "dogruCevap": "Ot",
       "secenekler": [
+        "Taş",
         "Ot",
         "Et",
-        "Balık",
-        "Taş"
+        "Balık"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1458,16 +1496,17 @@
       "soru": "Kuşlar nasıl hareket eder?",
       "dogruCevap": "Uçarak",
       "secenekler": [
-        "Yüzerek",
         "Uçarak",
-        "Yürüyerek",
-        "Sürünerek"
+        "Sürünerek",
+        "Yüzerek",
+        "Yürüyerek"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "ucar"
       }
     },
     {
@@ -1477,16 +1516,17 @@
       "soru": "Yılan hangi gruptadır?",
       "dogruCevap": "Sürüngen",
       "secenekler": [
-        "Kuş",
         "Sürüngen",
         "Memeli",
-        "Balık"
+        "Balık",
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "yilan"
+        "mod": "hayvan",
+        "nesne": "yilan",
+        "ozellik": "surunur"
       }
     },
     {
@@ -1496,16 +1536,17 @@
       "soru": "Ördek yüzer mi?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Sadece uçar",
         "Sadece yürür",
-        "Evet",
         "Hayır",
-        "Sadece uçar"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ordek"
+        "mod": "hayvan",
+        "nesne": "ordek",
+        "ozellik": "yuzer"
       }
     },
     {
@@ -1516,15 +1557,16 @@
       "dogruCevap": "Kara ve su",
       "secenekler": [
         "Sadece kara",
-        "Uzay",
+        "Sadece hava",
         "Kara ve su",
-        "Sadece hava"
+        "Uzay"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kurbağa"
+        "mod": "hayvan",
+        "nesne": "kurbağa",
+        "ozellik": "su"
       }
     },
     {
@@ -1534,16 +1576,17 @@
       "soru": "Kedi etçil midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hiç yemez",
         "Sadece ot yer",
         "Evet",
+        "Hiç yemez",
         "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kedi"
+        "mod": "hayvan",
+        "nesne": "kedi",
+        "ozellik": "yurur"
       }
     },
     {
@@ -1553,16 +1596,17 @@
       "soru": "Balıkların vücut örtüsü nedir?",
       "dogruCevap": "Pul",
       "secenekler": [
+        "Tüy",
         "Taş",
         "Deri",
-        "Tüy",
         "Pul"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "balik"
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "pul"
       }
     },
     {
@@ -1572,16 +1616,17 @@
       "soru": "Kuşların yumurtası vardır.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Hiçbiri",
         "Doğru",
         "Sadece yazın",
-        "Hiçbiri",
         "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kus"
+        "mod": "hayvan",
+        "nesne": "kus",
+        "ozellik": "kus"
       }
     },
     {
@@ -1591,16 +1636,17 @@
       "soru": "Arı çiçeklerden ne toplar?",
       "dogruCevap": "Polen",
       "secenekler": [
-        "Kum",
+        "Polen",
         "Taş",
         "Su",
-        "Polen"
+        "Kum"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ari"
+        "mod": "hayvan",
+        "nesne": "ari",
+        "ozellik": "bocek"
       }
     },
     {
@@ -1610,16 +1656,17 @@
       "soru": "İnek memeli midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Kuş",
         "Evet",
-        "Balık"
+        "Kuş",
+        "Balık",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "inek"
+        "mod": "hayvan",
+        "nesne": "inek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1629,10 +1676,10 @@
       "soru": "Hayvanlar beslenir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Sadece bitkiler",
         "Hayır",
-        "Sadece insanlar"
+        "Sadece bitkiler",
+        "Sadece insanlar",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1648,16 +1695,17 @@
       "soru": "Köpek havlar mı?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Hayır",
         "Yüzer",
         "Uçar",
-        "Hayır",
         "Evet"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kopek"
+        "mod": "hayvan",
+        "nesne": "kopek",
+        "ozellik": "memeli"
       }
     },
     {
@@ -1667,16 +1715,17 @@
       "soru": "Kelebek uçar mı?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
         "Hayır",
+        "Evet",
         "Yüzer",
         "Sürünür"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "kelebek"
+        "mod": "hayvan",
+        "nesne": "kelebek",
+        "ozellik": "bocek"
       }
     },
     {
@@ -1686,16 +1735,17 @@
       "soru": "Ördek hangi gruptadır?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Böcek",
-        "Memeli",
+        "Balık",
         "Kuş",
-        "Balık"
+        "Memeli",
+        "Böcek"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
-        "mod": "nesne",
-        "nesne": "ordek"
+        "mod": "hayvan",
+        "nesne": "ordek",
+        "ozellik": "kus"
       }
     },
     {
@@ -1705,37 +1755,39 @@
       "soru": "Yılan nasıl hareket eder?",
       "dogruCevap": "Sürünerek",
       "secenekler": [
-        "Sürünerek",
-        "Uçarak",
         "Zıplayarak",
-        "Yüzerek"
+        "Yüzerek",
+        "Uçarak",
+        "Sürünerek"
       ],
       "ipucu": "",
       "gorsel": {
         "tur": "fen",
         "mod": "hayvan",
         "nesne": "yilan",
-        "ozellik": "surunme"
+        "ozellik": "surunur"
       }
     },
     {
       "id": "hv-t50",
       "kazanimKodu": "FEN.2.1.3",
       "tip": "coktanSecmeli",
-      "soru": "Hayvanlar canlı mıdır?",
-      "dogruCevap": "Evet",
+      "soru": "🎭 Balık karada mı yaşar?",
+      "dogruCevap": "Hayır, suda yaşar",
       "secenekler": [
-        "Bazen",
-        "Hayır",
-        "Cansız",
-        "Evet"
+        "Evet, karada",
+        "Hem karada hem havada",
+        "Toprakta",
+        "Hayır, suda yaşar"
       ],
-      "ipucu": "",
+      "ipucu": "Balıklar solungaçlarıyla suda yaşar!",
       "gorsel": {
         "tur": "fen",
-        "mod": "anlatim",
-        "sahne": "hv-anlatim-1"
-      }
+        "mod": "hayvan",
+        "nesne": "balik",
+        "ozellik": "su"
+      },
+      "sasirtma": true
     }
   ]
 }
