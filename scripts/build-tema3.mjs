@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
-import { cikarma, toplama } from './gorev-mat-tema3-questions.mjs';
+import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -19,8 +19,8 @@ function karistir(arr) {
 
 const tema3 = {
   id: 'tema-3',
-  baslik: 'Matematik — Tema 3 — Toplama ve Çıkarma',
-  konular: [toplama(karistir), cikarma(karistir)],
+  baslik: 'Matematik — Tema 3 — Çıkarma (2-20)',
+  konular: [cikarma220(karistir)],
 };
 
 const outDir = join(__dirname, '../src/data/math');
