@@ -805,10 +805,10 @@
       "soru": "Limonun sarı ve ekşi olduğunu hangi iki duyumuzla anlarız?",
       "dogruCevap": "Görme - Tatma",
       "secenekler": [
-        "Tatma - İşitme",
-        "Görme - Tatma",
+        "Görme - Dokunma",
         "İşitme - Koklama",
-        "Görme - Dokunma"
+        "Tatma - İşitme",
+        "Görme - Tatma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -825,10 +825,10 @@
       "soru": "Ayşe lastiği çekip bıraktı, eski haline döndü. Lastik nasıl bir maddedir?",
       "dogruCevap": "Esnek",
       "secenekler": [
-        "Sert",
-        "Pürüzlü",
+        "Kırılgan",
         "Esnek",
-        "Kırılgan"
+        "Sert",
+        "Pürüzlü"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -846,9 +846,9 @@
       "dogruCevap": "Kırılgan",
       "secenekler": [
         "Esnek",
-        "Kırılgan",
         "Yumuşak",
-        "Pürüzsüz"
+        "Pürüzsüz",
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -865,10 +865,10 @@
       "soru": "Gece uyurken başımızı koyduğumuz yastığın özelliği nedir?",
       "dogruCevap": "Yumuşak",
       "secenekler": [
-        "Kırılgan",
+        "Pürüzlü",
         "Sert",
         "Yumuşak",
-        "Pürüzlü"
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -886,9 +886,9 @@
       "dogruCevap": "Pürüzsüz - Pürüzlü",
       "secenekler": [
         "Pürüzsüz - Pürüzlü",
+        "Pürüzlü - Pürüzsüz",
         "Esnek - Kırılgan",
-        "Yumuşak - Sert",
-        "Pürüzlü - Pürüzsüz"
+        "Yumuşak - Sert"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -913,9 +913,9 @@
       "dogruCevap": "Kulak",
       "secenekler": [
         "Burun",
+        "Dil",
         "Kulak",
-        "Göz",
-        "Dil"
+        "Göz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -932,10 +932,10 @@
       "soru": "Ali oyun hamuruyla araba yapıyor. Oyun hamuru için hangisi söylenemez?",
       "dogruCevap": "Serttir",
       "secenekler": [
-        "Yumuşaktır",
         "Ele yapışabilir",
-        "Şekil verilebilir",
-        "Serttir"
+        "Yumuşaktır",
+        "Serttir",
+        "Şekil verilebilir"
       ],
       "ipucu": "Oyun hamuru yumuşaktır, sert değildir!",
       "kazanim": "FEN.2.2.1",
@@ -954,9 +954,9 @@
       "dogruCevap": "Pürüzlü",
       "secenekler": [
         "Pürüzsüz",
-        "Pürüzlü",
         "Esnek",
-        "Kaygan"
+        "Kaygan",
+        "Pürüzlü"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -973,10 +973,10 @@
       "soru": "Zeynep kırmızı güllerin mis gibi koktuğunu söyledi. Zeynep hangi duyularını kullandı?",
       "dogruCevap": "Görme - Koklama",
       "secenekler": [
-        "Tatma - Görme",
-        "İşitme - Koklama",
         "Dokunma - Koklama",
-        "Görme - Koklama"
+        "Görme - Koklama",
+        "Tatma - Görme",
+        "İşitme - Koklama"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -993,10 +993,10 @@
       "soru": "Evimizin demir kapısı için hangisi doğrudur?",
       "dogruCevap": "Serttir",
       "secenekler": [
-        "Serttir",
-        "Esnektir",
+        "Yumuşaktır",
         "Kırılgandır",
-        "Yumuşaktır"
+        "Serttir",
+        "Esnektir"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1013,10 +1013,10 @@
       "soru": "Annemizin yaptığı çorbanın tuzlu olup olmadığını nasıl anlarız?",
       "dogruCevap": "Tadarak",
       "secenekler": [
-        "Tadarak",
+        "Koklayarak",
         "Dokunarak",
         "Bakarak",
-        "Koklayarak"
+        "Tadarak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1034,9 +1034,9 @@
       "dogruCevap": "Yumuşak",
       "secenekler": [
         "Sert",
+        "Yumuşak",
         "Pürüzlü",
-        "Kırılgan",
-        "Yumuşak"
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1053,10 +1053,10 @@
       "soru": "Cam bilye için hangisi yanlıştır?",
       "dogruCevap": "Yumuşaktır",
       "secenekler": [
-        "Serttir",
-        "Pürüzsüzdür",
+        "Yumuşaktır",
         "Kırılgandır",
-        "Yumuşaktır"
+        "Serttir",
+        "Pürüzsüzdür"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1073,10 +1073,10 @@
       "soru": "Bulaşık süngeri suyu çekince şişer, sıkınca küçülür. Sünger nasıl bir maddedir?",
       "dogruCevap": "Esnek",
       "secenekler": [
+        "Sert",
         "Esnek",
         "Kırılgan",
-        "Pürüzsüz",
-        "Sert"
+        "Pürüzsüz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1094,8 +1094,8 @@
       "dogruCevap": "Sertti",
       "secenekler": [
         "Sertti",
-        "Esnekti",
         "Yumuşaktı",
+        "Esnekti",
         "Pürüzsüzdü"
       ],
       "ipucu": "",
@@ -1113,10 +1113,10 @@
       "soru": "Yusuf'un telefonu yere düşünce çatladı. Çünkü ekran ... .",
       "dogruCevap": "Kırılgandır",
       "secenekler": [
-        "Kırılgandır",
+        "Esnektir",
         "Pürüzlüdür",
         "Yumuşaktır",
-        "Esnektir"
+        "Kırılgandır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1134,8 +1134,8 @@
       "dogruCevap": "Yumuşak",
       "secenekler": [
         "Kırılgan",
-        "Pürüzlü",
         "Sert",
+        "Pürüzlü",
         "Yumuşak"
       ],
       "ipucu": "",
@@ -1153,10 +1153,10 @@
       "soru": "Ağacın gövdesine dokunduğumuzda elimize pütürler gelir. Bu onun ... olduğunu gösterir.",
       "dogruCevap": "Pürüzlü",
       "secenekler": [
-        "Esnek",
         "Pürüzsüz",
-        "Yumuşak",
-        "Pürüzlü"
+        "Esnek",
+        "Pürüzlü",
+        "Yumuşak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1173,10 +1173,10 @@
       "soru": "Mehmet'in gözleri kapalı. Önündeki cismin top mu kitap mı olduğunu nasıl anlayabilir?",
       "dogruCevap": "Dokunarak",
       "secenekler": [
-        "Koklayarak",
+        "Dokunarak",
         "Tadarak",
         "Dinleyerek",
-        "Dokunarak"
+        "Koklayarak"
       ],
       "ipucu": "Gözler kapalıyken dokunma duyumunu kullanırız!",
       "kazanim": "FEN.2.2.1",
@@ -1194,10 +1194,10 @@
       "soru": "Hangisi kırılgan bir madde değildir?",
       "dogruCevap": "Plastik top",
       "secenekler": [
-        "Plastik top",
-        "Cam bardak",
         "Cam şişe",
-        "Porselen tabak"
+        "Porselen tabak",
+        "Cam bardak",
+        "Plastik top"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1218,10 +1218,10 @@
       "soru": "Tükenmez kalemin içindeki küçük yay nasıl bir maddedir?",
       "dogruCevap": "Esnek",
       "secenekler": [
-        "Kırılgan",
         "Esnek",
         "Yumuşak",
-        "Pürüzsüz"
+        "Pürüzsüz",
+        "Kırılgan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1238,10 +1238,10 @@
       "soru": "Çileğin kırmızı olduğunu ..., tatlı olduğunu ... anlarız.",
       "dogruCevap": "Gözümüzle - Dilimizle",
       "secenekler": [
-        "Gözümüzle - Burnumuzla",
         "Burnumuzla - Gözümüzle",
-        "Dilimizle - Kulaklarımızla",
-        "Gözümüzle - Dilimizle"
+        "Gözümüzle - Burnumuzla",
+        "Gözümüzle - Dilimizle",
+        "Dilimizle - Kulaklarımızla"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1258,10 +1258,10 @@
       "soru": "Taş ve pamuk için hangisi doğrudur?",
       "dogruCevap": "Taş sert, pamuk yumuşaktır",
       "secenekler": [
-        "Taş sert, pamuk yumuşaktır",
-        "Taş esnek, pamuk kırılgandır",
         "İkisi de serttir",
-        "İkisi de yumuşaktır"
+        "İkisi de yumuşaktır",
+        "Taş esnek, pamuk kırılgandır",
+        "Taş sert, pamuk yumuşaktır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1285,9 +1285,9 @@
       "soru": "Çayın sıcak olduğunu anladığımız duyumuz hangisidir?",
       "dogruCevap": "Dokunma",
       "secenekler": [
-        "İşitme",
-        "Tatma",
         "Dokunma",
+        "Tatma",
+        "İşitme",
         "Görme"
       ],
       "ipucu": "",
@@ -1305,10 +1305,10 @@
       "soru": "Islak bir sabun elimizdeyken kolayca kayar. Bu onun nasıl bir yüzeye sahip olduğunu gösterir?",
       "dogruCevap": "Pürüzsüz",
       "secenekler": [
-        "Pürüzlü",
+        "Esnek",
         "Pürüzsüz",
-        "Sert",
-        "Esnek"
+        "Pürüzlü",
+        "Sert"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.1",
@@ -1325,10 +1325,10 @@
       "soru": "Cam kırılgan bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Bazen",
+        "Fark etmez",
         "Doğru",
-        "Fark etmez"
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1344,10 +1344,10 @@
       "soru": "Pamuk yumuşak bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Fark etmez",
-        "Bazen",
-        "Doğru"
+        "Yanlış",
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1363,10 +1363,10 @@
       "soru": "Demir sert bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Doğru",
-        "Bazen",
-        "Fark etmez"
+        "Fark etmez",
+        "Yanlış",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1382,10 +1382,10 @@
       "soru": "Lastik esnek bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Fark etmez",
         "Doğru",
-        "Bazen"
+        "Fark etmez",
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1401,10 +1401,10 @@
       "soru": "Elmanın rengini gözümüzle görürüz.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
+        "Yanlış",
         "Fark etmez",
-        "Doğru",
-        "Yanlış"
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1421,9 +1421,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Fark etmez",
-        "Bazen",
+        "Yanlış",
         "Doğru",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1439,10 +1439,10 @@
       "soru": "Zilin sesini kulağımızla duyarız.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Bazen",
         "Doğru",
-        "Fark etmez"
+        "Fark etmez",
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1458,10 +1458,10 @@
       "soru": "Sabun kaygan bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Doğru",
         "Bazen",
-        "Fark etmez"
+        "Fark etmez",
+        "Doğru",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1477,10 +1477,10 @@
       "soru": "Taş sert bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
+        "Fark etmez",
         "Yanlış",
-        "Fark etmez"
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1496,10 +1496,10 @@
       "soru": "Balon şişirilebilir bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Doğru",
+        "Fark etmez",
         "Bazen",
-        "Fark etmez"
+        "Yanlış",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1517,8 +1517,8 @@
       "secenekler": [
         "Yanlış",
         "Fark etmez",
-        "Bazen",
-        "Doğru"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1534,10 +1534,10 @@
       "soru": "Zımpara kağıdı pürüzlüdür.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Fark etmez",
-        "Bazen",
-        "Yanlış"
+        "Yanlış",
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1553,10 +1553,10 @@
       "soru": "Çikolatanın kokusunu burnumuzla alırız.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
+        "Doğru",
         "Fark etmez",
-        "Yanlış",
-        "Doğru"
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1572,8 +1572,8 @@
       "soru": "Yün kazak yumuşak bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Bazen",
+        "Doğru",
         "Fark etmez",
         "Yanlış"
       ],
@@ -1591,10 +1591,10 @@
       "soru": "Bilye sert ve pürüzsüzdür.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
+        "Yanlış",
         "Fark etmez",
-        "Yanlış"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1610,10 +1610,10 @@
       "soru": "Kağıt havlu emici bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Doğru",
         "Yanlış",
         "Fark etmez",
-        "Bazen",
-        "Doğru"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1629,10 +1629,10 @@
       "soru": "Oyun hamuru yumuşak ve esnektir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Fark etmez",
-        "Bazen",
         "Yanlış",
-        "Doğru"
+        "Bazen",
+        "Doğru",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1648,10 +1648,10 @@
       "soru": "Ceviz kırılgan bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Fark etmez",
-        "Yanlış",
+        "Doğru",
         "Bazen",
-        "Doğru"
+        "Fark etmez",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1667,10 +1667,10 @@
       "soru": "Çayın kokusunu burnumuzla alırız.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Fark etmez",
-        "Yanlış",
         "Doğru",
-        "Bazen"
+        "Bazen",
+        "Yanlış",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1686,10 +1686,10 @@
       "soru": "Telefon sert bir maddeden yapılmıştır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
+        "Fark etmez",
         "Yanlış",
-        "Bazen",
-        "Fark etmez"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1706,8 +1706,8 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Bazen",
-        "Yanlış",
         "Doğru",
+        "Yanlış",
         "Fark etmez"
       ],
       "ipucu": "",
@@ -1724,8 +1724,8 @@
       "soru": "Sünger esnek bir maddedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Fark etmez",
         "Bazen",
+        "Fark etmez",
         "Doğru",
         "Yanlış"
       ],
@@ -1744,8 +1744,8 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Yanlış",
-        "Doğru",
         "Bazen",
+        "Doğru",
         "Fark etmez"
       ],
       "ipucu": "",
@@ -1763,9 +1763,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Yanlış",
-        "Doğru",
         "Fark etmez",
-        "Bazen"
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1781,10 +1781,10 @@
       "soru": "Maddelerin farklı özellikleri vardır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Bazen",
+        "Doğru",
         "Fark etmez",
-        "Doğru"
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {

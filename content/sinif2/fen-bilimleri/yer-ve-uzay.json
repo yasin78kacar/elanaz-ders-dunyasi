@@ -841,9 +841,9 @@
       "soru": "Üzerinde yaşadığımız gezegenin adı nedir?",
       "dogruCevap": "Dünya",
       "secenekler": [
-        "Dünya",
         "Yıldız",
         "Güneş",
+        "Dünya",
         "Ay"
       ],
       "ipucu": "",
@@ -861,9 +861,9 @@
       "soru": "Dünyamızın şekli hangisine benzer?",
       "dogruCevap": "Küre",
       "secenekler": [
-        "Küp",
-        "Silindir",
         "Küre",
+        "Silindir",
+        "Küp",
         "Kare"
       ],
       "ipucu": "",
@@ -885,10 +885,10 @@
       "soru": "Dünyamızı ısıtan ve aydınlatan kaynak nedir?",
       "dogruCevap": "Güneş",
       "secenekler": [
+        "Ay",
         "Dünya",
-        "Yıldızlar",
         "Güneş",
-        "Ay"
+        "Yıldızlar"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -905,10 +905,10 @@
       "soru": "Gece ve gündüzü ne oluşturur?",
       "dogruCevap": "Dünya'nın kendi etrafında dönmesi",
       "secenekler": [
-        "Bulutlar",
-        "Güneş'in uyuması",
         "Ay'ın uzaklaşması",
-        "Dünya'nın kendi etrafında dönmesi"
+        "Bulutlar",
+        "Dünya'nın kendi etrafında dönmesi",
+        "Güneş'in uyuması"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -925,10 +925,10 @@
       "soru": "Ay hakkında hangisi doğrudur?",
       "dogruCevap": "Dünya'nın doğal uydusu, Güneş'i yansıtır",
       "secenekler": [
-        "Dünya'nın doğal uydusu, Güneş'i yansıtır",
-        "Kendisi ısı kaynağı",
         "Kare şekilli",
-        "Güneş'ten büyük"
+        "Dünya'nın doğal uydusu, Güneş'i yansıtır",
+        "Güneş'ten büyük",
+        "Kendisi ısı kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -945,10 +945,10 @@
       "soru": "Modeldeki mavi renkler neyi gösterir?",
       "dogruCevap": "Okyanus ve denizleri",
       "secenekler": [
-        "Ormanları",
         "Okyanus ve denizleri",
-        "Dağları",
-        "Çölleri"
+        "Ormanları",
+        "Çölleri",
+        "Dağları"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -965,10 +965,10 @@
       "soru": "Gözlerimizi korumak için ne kullanmalıyız?",
       "dogruCevap": "Güneş gözlüğü",
       "secenekler": [
-        "Mikroskop",
         "Dürbün",
-        "Büyüteç",
-        "Güneş gözlüğü"
+        "Mikroskop",
+        "Güneş gözlüğü",
+        "Büyüteç"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -985,10 +985,10 @@
       "soru": "Eski zamanlarda Dünya'nın şekli neye benzetilirdi?",
       "dogruCevap": "Düz tepsi",
       "secenekler": [
-        "Üçgen",
+        "Yuvarlak top",
         "Düz tepsi",
-        "Küre",
-        "Yuvarlak top"
+        "Üçgen",
+        "Küre"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1005,10 +1005,10 @@
       "soru": "Dünya dönünce Güneş'i gören tarafta ne yaşanır?",
       "dogruCevap": "Gündüz",
       "secenekler": [
-        "Gündüz",
         "Gece",
-        "Kış",
-        "Kar"
+        "Gündüz",
+        "Kar",
+        "Kış"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1025,8 +1025,8 @@
       "soru": "Ay neden bazen yay, bazen yuvarlak görünür?",
       "dogruCevap": "Ay'ın şeklinin değişir gibi görünmesi",
       "secenekler": [
-        "Parçaları kopuyor",
         "Ay'ın şeklinin değişir gibi görünmesi",
+        "Parçaları kopuyor",
         "Güneş'i yutuyor",
         "Bulutlar boyuyor"
       ],
@@ -1045,8 +1045,8 @@
       "soru": "Yıldızların ve gezegenlerin bulunduğu boşluğa ne denir?",
       "dogruCevap": "Uzay",
       "secenekler": [
-        "Gökyüzü",
         "Okyanus",
+        "Gökyüzü",
         "Uzay",
         "Bulut"
       ],
@@ -1065,10 +1065,10 @@
       "soru": "Bitkilerin büyümesi için neye ihtiyaç vardır?",
       "dogruCevap": "Güneş ışığına",
       "secenekler": [
-        "Karanlığa",
-        "Ay ışığına",
         "Sadece rüzgara",
-        "Güneş ışığına"
+        "Güneş ışığına",
+        "Ay ışığına",
+        "Karanlığa"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1085,9 +1085,9 @@
       "soru": "Ufuktan gelen geminin önce neresini görürüz?",
       "dogruCevap": "Direğin en üstü",
       "secenekler": [
-        "Deniz altı",
-        "Direğin en üstü",
         "Arka taraf",
+        "Direğin en üstü",
+        "Deniz altı",
         "Sadece gövdesi"
       ],
       "ipucu": "",
@@ -1105,10 +1105,10 @@
       "soru": "Büyükten küçüğe sıralama hangisidir?",
       "dogruCevap": "Güneş - Dünya - Ay",
       "secenekler": [
-        "Dünya - Güneş - Ay",
-        "Dünya - Ay - Güneş",
+        "Ay - Dünya - Güneş",
         "Güneş - Dünya - Ay",
-        "Ay - Dünya - Güneş"
+        "Dünya - Ay - Güneş",
+        "Dünya - Güneş - Ay"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1154,10 +1154,10 @@
       "soru": "Sular ve karalar nasıldır?",
       "dogruCevap": "Sular daha fazla",
       "secenekler": [
-        "Karalar daha fazla",
-        "Eşit",
         "Hiç su yok",
-        "Sular daha fazla"
+        "Sular daha fazla",
+        "Karalar daha fazla",
+        "Eşit"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1174,10 +1174,10 @@
       "soru": "Geceleri parlayan küçük ışıklara ne denir?",
       "dogruCevap": "Yıldız",
       "secenekler": [
-        "Ay",
         "Bulut",
-        "Yıldız",
-        "Gökkuşağı"
+        "Ay",
+        "Gökkuşağı",
+        "Yıldız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1194,10 +1194,10 @@
       "soru": "Plajda cildimizi korumak için ne süreriz?",
       "dogruCevap": "Güneş kremi",
       "secenekler": [
-        "Şampuan",
-        "Güneş kremi",
+        "Kolonya",
         "Sabun",
-        "Kolonya"
+        "Güneş kremi",
+        "Şampuan"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1214,10 +1214,10 @@
       "soru": "Dünyamız ortadan biraz şişkin, hafif basık bir ......... benzer.",
       "dogruCevap": "Küreye",
       "secenekler": [
-        "Konie",
-        "Küreye",
         "Silindire",
-        "Kareye"
+        "Kareye",
+        "Küreye",
+        "Konie"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1234,10 +1234,10 @@
       "soru": "Canlılar dinlenmek için hangi zaman dilimini tercih eder?",
       "dogruCevap": "Gece",
       "secenekler": [
+        "Öğle",
         "İkindi",
-        "Gündüz",
         "Gece",
-        "Öğle"
+        "Gündüz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1254,10 +1254,10 @@
       "soru": "Uzayı yakından görmek için ne kullanılır?",
       "dogruCevap": "Teleskop",
       "secenekler": [
-        "Ayna",
-        "Teleskop",
         "Büyüteç",
-        "Gözlük"
+        "Teleskop",
+        "Gözlük",
+        "Ayna"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1274,10 +1274,10 @@
       "soru": "Güneş hangi yönden doğar?",
       "dogruCevap": "Doğu",
       "secenekler": [
-        "Kuzey",
-        "Doğu",
+        "Güney",
         "Batı",
-        "Güney"
+        "Kuzey",
+        "Doğu"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1295,9 +1295,9 @@
       "dogruCevap": "Astronot",
       "secenekler": [
         "Astronot",
+        "Dalgıç",
         "Pilot",
-        "Şoför",
-        "Dalgıç"
+        "Şoför"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1314,10 +1314,10 @@
       "soru": "Uzaydan bakıldığında Dünya'da hangi renk öne çıkar?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Kırmızı",
-        "Sarı",
+        "Siyah",
         "Mavi",
-        "Siyah"
+        "Sarı",
+        "Kırmızı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.1",
@@ -1358,8 +1358,8 @@
       "soru": "Dünya küre şeklindedir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Bazen",
+        "Doğru",
         "Hiçbiri",
         "Yanlış"
       ],
@@ -1377,10 +1377,10 @@
       "soru": "Ay Dünya'nın uydusudur.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
+        "Hiçbiri",
         "Yanlış",
-        "Hiçbiri"
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1398,8 +1398,8 @@
       "secenekler": [
         "Bazen",
         "Doğru",
-        "Yanlış",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1415,8 +1415,8 @@
       "soru": "Gece gökyüzünde yıldızlar görünür.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Hiçbiri",
+        "Yanlış",
         "Doğru",
         "Bazen"
       ],
@@ -1436,8 +1436,8 @@
       "secenekler": [
         "Doğru",
         "Bazen",
-        "Yanlış",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1453,10 +1453,10 @@
       "soru": "Uzayda gezegenler vardır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Doğru",
-        "Hiçbiri",
-        "Yanlış"
+        "Bazen",
+        "Yanlış",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1474,8 +1474,8 @@
       "secenekler": [
         "Yanlış",
         "Hiçbiri",
-        "Bazen",
-        "Doğru"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1491,8 +1491,8 @@
       "soru": "Astronotlar uzaya gider.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Yanlış",
+        "Bazen",
         "Hiçbiri",
         "Doğru"
       ],
@@ -1510,10 +1510,10 @@
       "soru": "Roket uzaya fırlatılır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Hiçbiri",
+        "Doğru",
         "Bazen",
-        "Doğru"
+        "Yanlış",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1530,9 +1530,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Doğru",
-        "Bazen",
+        "Hiçbiri",
         "Yanlış",
-        "Hiçbiri"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1548,10 +1548,10 @@
       "soru": "Ay'da hava yoktur.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Hiçbiri",
-        "Bazen",
         "Doğru",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1567,9 +1567,9 @@
       "soru": "Güneş Dünya'yı ısıtır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
         "Yanlış",
+        "Bazen",
+        "Doğru",
         "Hiçbiri"
       ],
       "ipucu": "",
@@ -1587,9 +1587,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Bazen",
-        "Hiçbiri",
         "Yanlış",
-        "Doğru"
+        "Doğru",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1607,8 +1607,8 @@
       "secenekler": [
         "Bazen",
         "Doğru",
-        "Yanlış",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1624,10 +1624,10 @@
       "soru": "Uzay boşluğu derin ve geniştir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Yanlış",
         "Bazen",
-        "Hiçbiri"
+        "Yanlış",
+        "Hiçbiri",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1644,9 +1644,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Bazen",
-        "Doğru",
         "Yanlış",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1662,10 +1662,10 @@
       "soru": "Dünya mavi gezegen olarak bilinir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Doğru",
         "Bazen",
         "Yanlış",
-        "Hiçbiri",
-        "Doğru"
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1681,10 +1681,10 @@
       "soru": "Gece karanlıktır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
         "Yanlış",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1700,10 +1700,10 @@
       "soru": "Gündüz aydınlıktır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Yanlış",
         "Hiçbiri",
-        "Bazen"
+        "Doğru",
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1719,9 +1719,9 @@
       "soru": "Uzayda yerçekimi farklı olabilir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Doğru",
         "Bazen",
         "Hiçbiri",
-        "Doğru",
         "Yanlış"
       ],
       "ipucu": "",
@@ -1738,10 +1738,10 @@
       "soru": "Dünya ve uzay birbirine bağlıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
         "Yanlış",
-        "Bazen",
-        "Doğru"
+        "Doğru",
+        "Hiçbiri",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1757,10 +1757,10 @@
       "soru": "Güneş sistemi birçok gezegenden oluşur.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
-        "Hiçbiri",
+        "Yanlış",
         "Doğru",
-        "Yanlış"
+        "Bazen",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1776,10 +1776,10 @@
       "soru": "Ay'ın şekli değişir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Hiçbiri",
         "Yanlış",
-        "Bazen",
         "Doğru",
-        "Hiçbiri"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1795,10 +1795,10 @@
       "soru": "Gezegenler Güneş etrafında döner.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
-        "Yanlış",
         "Doğru",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1814,10 +1814,10 @@
       "soru": "Dünya üzerinde yaşadığımız gezegendir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
-        "Doğru",
         "Yanlış",
-        "Bazen"
+        "Hiçbiri",
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
