@@ -19,6 +19,7 @@ import sesBilgisi from '../../content/sinif2/turkce/ses-bilgisi.json';
 import kelimeYazma from '../../content/sinif2/turkce/kelime-yazma.json';
 import okuma from '../../content/sinif2/turkce/okuma.json';
 import anlam from '../../content/sinif2/turkce/anlam.json';
+import noktalama from '../../content/sinif2/turkce/noktalama.json';
 import kelimeBilgisi from '../../content/sinif2/turkce/kelime-bilgisi.json';
 import okumaAnlama from '../../content/sinif2/turkce/okuma-anlama.json';
 import cumleBilgisi from '../../content/sinif2/turkce/cumle-bilgisi.json';
@@ -169,6 +170,7 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/kelime-yazma.json': kelimeYazma as Konu,
   'turkce/okuma.json': okuma as Konu,
   'turkce/anlam.json': anlam as Konu,
+  'turkce/noktalama.json': noktalama as Konu,
   'turkce/sesler-ve-heceler.json': seslerVeHeceler as Konu,
   'turkce/kelime-bilgisi.json': kelimeBilgisi as Konu,
   'turkce/okuma-anlama.json': okumaAnlama as Konu,
