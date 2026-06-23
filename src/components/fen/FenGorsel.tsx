@@ -126,7 +126,13 @@ const NESNE: Record<string, { emoji: string; etiket: string; canli?: boolean }> 
   mum: { emoji: '🕯️', etiket: 'Mum' },
   yuzuk: { emoji: '💍', etiket: 'Yüzük' },
   mesale: { emoji: '🔥', etiket: 'Meşale' },
-  aslan: { emoji: '🦁', etiket: 'Aslan' },
+  aslan: { emoji: '🦁', etiket: 'Aslan', canli: true },
+  tavsan: { emoji: '🐰', etiket: 'Tavşan', canli: true },
+  deve: { emoji: '🐫', etiket: 'Deve', canli: true },
+  penguen: { emoji: '🐧', etiket: 'Penguen', canli: true },
+  kirpi: { emoji: '🦔', etiket: 'Kirpi', canli: true },
+  zebra: { emoji: '🦓', etiket: 'Zebra', canli: true },
+  bukalemun: { emoji: '🦎', etiket: 'Bukalemun', canli: true },
   // Tema 3 — Dünya ve Evren
   dunya: { emoji: '🌍', etiket: 'Dünya' },
   kure: { emoji: '🔵', etiket: 'Küre' },
@@ -287,6 +293,11 @@ function HayvanGorsel({ nesne, ozellik }: { nesne?: string; ozellik?: string }) 
     kus: 'Kuş',
     balik: 'Balık',
     bocek: 'Böcek',
+    otcul: 'Otçul beslenme',
+    etcil: 'Etçil beslenme',
+    koruma: 'Korunma',
+    kamuflaj: 'Kamuflaj',
+    buz: 'Buzlu ortam',
   };
   return (
     <View style={styles.hayvan}>

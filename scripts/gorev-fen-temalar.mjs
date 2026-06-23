@@ -1,6 +1,13 @@
 /** Fen Bilimleri T1–T10 — tema başına 100 görselli soru. */
 
 import { hayvanlarTema3 } from './gorev-fen-tema3-questions.mjs';
+import { insanVeSaglikTema4 } from './gorev-fen-tema4-questions.mjs';
+import { maddeTema5 } from './gorev-fen-tema5-questions.mjs';
+import { enerjiTema6 } from './gorev-fen-tema6-questions.mjs';
+import { isikTema7 } from './gorev-fen-tema7-questions.mjs';
+import { sesTema8 } from './gorev-fen-tema8-questions.mjs';
+import { kuvvetVeHareketTema9 } from './gorev-fen-tema9-questions.mjs';
+import { yerVeUzayTema10 } from './gorev-fen-tema10-questions.mjs';
 import { maddeVeOzellikleri, kuvvetVeHareket, isikVeSes } from './gorev-fen2-questions.mjs';
 import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
 import { canlilarinSiniflandirilmasi } from './gorev-fen-tema1-questions.mjs';
@@ -332,67 +339,49 @@ export function hayvanlarTema(karistir) {
 }
 
 export function insanVeSaglik(karistir) {
-  return genislet100(saglikliYasamVeCevre(karistir), sablonAlistirma(SY_EK_A, K.SY, 'sy'), sablonTest(SY_EK_T, K.SY, 'sy', karistir), {
-    id: 'insan-ve-saglik', baslik: 'İnsan ve Sağlık', kazanimKodu: K.SY, onekA: 'is-a', onekT: 'is-t',
-  });
+  return insanVeSaglikTema4(karistir);
 }
 
 export function maddeTema(karistir) {
-  return genislet100(maddeVeOzellikleri(karistir), sablonAlistirma(MO_EK_A, K.MO, 'mo'), sablonTest(MO_EK_T, K.MO, 'mo', karistir), {
-    id: 'madde', baslik: 'Madde', kazanimKodu: K.MO, onekA: 'md-a', onekT: 'md-t',
-  });
+  return maddeTema5(karistir);
 }
 
 export function enerjiTema(karistir) {
-  return genislet100(havaDurumuVeMevsimler(karistir), sablonAlistirma(EN_EK_A, K.EN, 'en'), sablonTest(EN_EK_T, K.EN, 'en', karistir), {
-    id: 'enerji', baslik: 'Enerji', kazanimKodu: K.EN, onekA: 'en-a', onekT: 'en-t',
-  });
+  return enerjiTema6(karistir);
 }
 
 export function isikTema(karistir) {
-  return genislet100(isikVeSes(karistir), sablonAlistirma(IS_EK_A, K.IS, 'is'), sablonTest(IS_EK_T, K.IS, 'is', karistir), {
-    id: 'isik', baslik: 'Işık', kazanimKodu: K.IS, onekA: 'ik-a', onekT: 'ik-t',
-  });
+  return isikTema7(karistir);
 }
 
 export function sesTema(karistir) {
-  const is = isikVeSes(karistir);
-  const { alS, teS } = isikSesAyir(is);
-  const temel = { ...is, id: 'ses', baslik: 'Ses', alistirma: alS, test: teS };
-  const seEkA2 = [
-    ['Müzik aleti sesi yapay mıdır?', 'Evet', nesne('gitar')],
-    ['Dalga sesi doğal mıdır?', 'Evet', nesne('deniz')],
-    ['Kahkaha yüksek ses midir?', 'Evet', nesne('mutluluk')],
-    ['Fısıltı düşük ses midir?', 'Evet', nesne('fisilda')],
-    ['Gürültü kulakları yorar mı?', 'Evet', nesne('kulaklik')],
-    ['Doğada kuş sesi duyulur mu?', 'Evet', nesne('kus')],
-    ['Kapı zili ses çıkarır mı?', 'Evet', nesne('zil')],
-    ['Ses dalgalar halinde yayılır.', 'Doğru', anl('is-anlatim-3')],
-    ['Kulaklarımızla işitir miyiz?', 'Evet', nesne('kulak')],
-    ['Sessiz kütüphanede ne yaparız?', 'Sessiz oluruz', nesne('kutuphane')],
-    ['Yüksek sesten kaçınmalı mıyız?', 'Evet', nesne('kulaklik')],
-    ['Sesin kaynağı titreşimdir.', 'Doğru', anl('is-anlatim-3')],
-    ['Horoz ötüşü doğal sestir.', 'Doğru', nesne('horoz')],
-  ];
-  const seEkT2 = seEkA2.map(([s, c, g]) => [s, c, [c, 'Hayır', 'Bazen', 'Hiçbiri'], g]);
-  const ekA = [...sablonAlistirma(SE_EK_A, K.SE, 'se'), ...sablonAlistirma(seEkA2, K.SE, 'se2')];
-  const ekT = [...sablonTest(SE_EK_T, K.SE, 'se', karistir), ...sablonTest(seEkT2, K.SE, 'se2', karistir)];
-  return genislet100(temel, ekA, ekT, {
-    id: 'ses', baslik: 'Ses', kazanimKodu: K.SE, onekA: 'ss-a', onekT: 'ss-t',
-  });
+  return sesTema8(karistir);
 }
 
 export function kuvvetVeHareketTema(karistir) {
-  return genislet100(kuvvetVeHareket(karistir), sablonAlistirma(KH_EK_A, K.KH, 'kh'), sablonTest(KH_EK_T, K.KH, 'kh', karistir), {
-    id: 'kuvvet-ve-hareket', baslik: 'Kuvvet ve Hareket', kazanimKodu: K.KH, onekA: 'kv-a', onekT: 'kv-t',
-  });
+  return kuvvetVeHareketTema9(karistir);
 }
 
 export function yerVeUzay(karistir) {
-  return genislet100(dunyaVeEvren(karistir), sablonAlistirma(DE_EK_A, K.DE, 'de'), sablonTest(DE_EK_T, K.DE, 'de', karistir), {
-    id: 'yer-ve-uzay', baslik: 'Yer ve Uzay', kazanimKodu: K.DE, onekA: 'yu-a', onekT: 'yu-t',
-  });
+  return yerVeUzayTema10(karistir);
 }
+
+export {
+  SY_EK_A,
+  SY_EK_T,
+  MO_EK_A,
+  MO_EK_T,
+  EN_EK_A,
+  EN_EK_T,
+  IS_EK_A,
+  IS_EK_T,
+  SE_EK_A,
+  SE_EK_T,
+  KH_EK_A,
+  KH_EK_T,
+  DE_EK_A,
+  DE_EK_T,
+};
 
 export const FEN_TEMALAR = [
   { n: 1, dosya: 'canlilarin-siniflandirilmasi.json', baslik: 'Canlıların Sınıflandırılması', fn: canlilarinSiniflandirilmasi },

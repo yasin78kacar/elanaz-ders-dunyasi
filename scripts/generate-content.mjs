@@ -1301,6 +1301,28 @@ console.log('Hayat T7 Çevre:', cevreKonu.alistirma.length, '+', cevreKonu.test.
 console.log('Hayat T8 İletişim:', iletisimKonu.alistirma.length, '+', iletisimKonu.test.length);
 console.log('Hayat T9 Duygular:', hbDuygularKonu.alistirma.length, '+', hbDuygularKonu.test.length);
 console.log('Hayat T10 Yaşam Becerileri:', yasamBecerileriKonu.alistirma.length, '+', yasamBecerileriKonu.test.length);
+
+const fenT310 =
+  hayvanlarKonu.alistirma.length + hayvanlarKonu.test.length +
+  insanVeSaglikKonu.alistirma.length + insanVeSaglikKonu.test.length +
+  maddeKonu.alistirma.length + maddeKonu.test.length +
+  enerjiKonu.alistirma.length + enerjiKonu.test.length +
+  isikKonu.alistirma.length + isikKonu.test.length +
+  sesKonu.alistirma.length + sesKonu.test.length +
+  kuvvetVeHareketKonu.alistirma.length + kuvvetVeHareketKonu.test.length +
+  yerVeUzayKonu.alistirma.length + yerVeUzayKonu.test.length;
+const hbT310 =
+  okulKonu.alistirma.length + okulKonu.test.length +
+  toplumKonu.alistirma.length + toplumKonu.test.length +
+  saglikKonu.alistirma.length + saglikKonu.test.length +
+  guvenlikKonu.alistirma.length + guvenlikKonu.test.length +
+  cevreKonu.alistirma.length + cevreKonu.test.length +
+  iletisimKonu.alistirma.length + iletisimKonu.test.length +
+  hbDuygularKonu.alistirma.length + hbDuygularKonu.test.length +
+  yasamBecerileriKonu.alistirma.length + yasamBecerileriKonu.test.length;
+console.log('=== Fen T3-10 toplam:', fenT310, 'soru ===');
+console.log('=== Hayat T3-10 toplam:', hbT310, 'soru ===');
+console.log('=== Fen+Hayat T3-10 toplam:', fenT310 + hbT310, 'soru ===');
 console.log('Alfabe ve renkler:', alfabeVeRenklerKonu.alistirma.length, '+', alfabeVeRenklerKonu.test.length);
 console.log('Sayılar ve sınıf eşyaları:', sayilarVeSinifEsyalariKonu.alistirma.length, '+', sayilarVeSinifEsyalariKonu.test.length);
 console.log('Günler ve aylar:', gunlerVeAylarKonu.alistirma.length, '+', gunlerVeAylarKonu.test.length);

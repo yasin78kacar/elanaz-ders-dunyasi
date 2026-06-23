@@ -791,10 +791,10 @@
           "soru": "Ailemizde kimler bulunabilir?",
           "dogruCevap": "Anne ve baba",
           "secenekler": [
-            "Sadece komşu",
             "Sadece öğretmen",
             "Anne ve baba",
-            "Sadece doktor"
+            "Sadece doktor",
+            "Sadece komşu"
           ],
           "ipucu": "",
           "gorsel": {
@@ -810,10 +810,10 @@
           "soru": "Ailemizde birbirimize ne göstermeliyiz?",
           "dogruCevap": "Sevgi",
           "secenekler": [
-            "Kızgınlık",
             "Sevgi",
             "Kıskançlık",
-            "Kaba davranış"
+            "Kaba davranış",
+            "Kızgınlık"
           ],
           "ipucu": "",
           "gorsel": {
@@ -851,8 +851,8 @@
           "dogruCevap": "Paylaşmalıyız",
           "secenekler": [
             "Kıskanmalıyız",
-            "Yalan söylemeliyiz",
             "Paylaşmalıyız",
+            "Yalan söylemeliyiz",
             "Kavga etmeliyiz"
           ],
           "ipucu": "",
@@ -870,10 +870,10 @@
           "soru": "Arkadaşımıza kıskanmak doğru mudur?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Her zaman",
-            "Hayır",
             "Bazen olur",
-            "Evet"
+            "Evet",
+            "Hayır",
+            "Her zaman"
           ],
           "ipucu": "",
           "gorsel": {
@@ -890,10 +890,10 @@
           "soru": "Hata yaptığımızda ne yapmalıyız?",
           "dogruCevap": "Özür dilemeliyiz",
           "secenekler": [
-            "Yalan söylemeliyiz",
-            "Bağırmalıyız",
+            "Özür dilemeliyiz",
             "Kaçmalıyız",
-            "Özür dilemeliyiz"
+            "Bağırmalıyız",
+            "Yalan söylemeliyiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -911,9 +911,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Hiç oynamamalıyız",
-            "Hayır",
             "Evet",
-            "Sadece yalnız"
+            "Sadece yalnız",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -930,8 +930,8 @@
           "soru": "🎭 Arkadaşımızın oyuncağını izinsiz almak doğru mudur?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Hayır",
             "Merak ettiğimizde evet",
+            "Hayır",
             "Evet",
             "Sadece küçükse"
           ],
@@ -951,10 +951,10 @@
           "soru": "Annemize nasıl davranmalıyız?",
           "dogruCevap": "Saygılı",
           "secenekler": [
-            "Umursamaz",
             "Kaba",
-            "Bağırarak",
-            "Saygılı"
+            "Saygılı",
+            "Umursamaz",
+            "Bağırarak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -972,9 +972,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Hiç gerekmez",
-            "Sadece annemize",
+            "Evet",
             "Hayır",
-            "Evet"
+            "Sadece annemize"
           ],
           "ipucu": "",
           "gorsel": {
@@ -991,10 +991,10 @@
           "soru": "Kardeşimize kaba davranmak doğru mudur?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Evet",
             "Bazen",
-            "Hayır",
-            "Kızdığımızda evet"
+            "Evet",
+            "Kızdığımızda evet",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1011,10 +1011,10 @@
           "soru": "Arkadaşımız üzgünse ne yapmalıyız?",
           "dogruCevap": "Yanında olmalıyız",
           "secenekler": [
-            "Gülmeliyiz",
             "Alay etmeliyiz",
-            "Uzaklaşmalıyız",
-            "Yanında olmalıyız"
+            "Yanında olmalıyız",
+            "Gülmeliyiz",
+            "Uzaklaşmalıyız"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1031,10 +1031,10 @@
           "soru": "Ailemizde sevgi önemli midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
             "Fark etmez",
-            "Hayır",
-            "Sadece bayramda"
+            "Sadece bayramda",
+            "Evet",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1051,10 +1051,10 @@
           "soru": "Arkadaşımıza yalan söylemek doğru mudur?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Bazen",
+            "Hayır",
             "Şaka için evet",
             "Evet",
-            "Hayır"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1071,10 +1071,10 @@
           "soru": "Dedemize ve nenemize nasıl davranmalıyız?",
           "dogruCevap": "Saygılı",
           "secenekler": [
-            "Umursamaz",
             "Bağırarak",
-            "Kaba",
-            "Saygılı"
+            "Umursamaz",
+            "Saygılı",
+            "Kaba"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1094,10 +1094,10 @@
           "soru": "🎭 Evde sadece annemiz mi yardımlaşmalıdır?",
           "dogruCevap": "Hayır, hepimiz yardımlaşmalıyız",
           "secenekler": [
+            "Sadece babamız",
             "Evet, sadece annemiz",
             "Hayır, hepimiz yardımlaşmalıyız",
-            "Hiç kimse yardım etmez",
-            "Sadece babamız"
+            "Hiç kimse yardım etmez"
           ],
           "ipucu": "Ailede herkes görev alır!",
           "gorsel": {
@@ -1115,8 +1115,8 @@
           "soru": "Arkadaşımızın sırrını herkese anlatmak doğru mudur?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Evet",
             "Hayır",
+            "Evet",
             "Merak ettiğimizde evet",
             "Sadece annemize"
           ],
@@ -1135,10 +1135,10 @@
           "soru": "Birbirimize \"özür dilerim\" demek güzel midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
+            "Sadece büyükler",
             "Hayır",
-            "Gereksiz",
-            "Sadece büyükler"
+            "Evet",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1156,9 +1156,9 @@
           "dogruCevap": "Paylaşır ve yardım eder",
           "secenekler": [
             "Kıskanır",
-            "Paylaşır ve yardım eder",
             "Yalan söyler",
-            "Kavga eder"
+            "Kavga eder",
+            "Paylaşır ve yardım eder"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1176,8 +1176,8 @@
           "dogruCevap": "Hayır, onu tebrik etmeliyiz",
           "secenekler": [
             "Onu eleştirmeliyiz",
-            "Evet, hep kıskanmalıyız",
             "Hayır, onu tebrik etmeliyiz",
+            "Evet, hep kıskanmalıyız",
             "Uzaklaşmalıyız"
           ],
           "ipucu": "İyi arkadaş birbirini destekler!",
@@ -1196,10 +1196,10 @@
           "soru": "Ailemizde kavga yerine ne yapmalıyız?",
           "dogruCevap": "Konuşarak çözmek",
           "secenekler": [
-            "Bağırmak",
-            "Susmak",
             "Kaçmak",
-            "Konuşarak çözmek"
+            "Bağırmak",
+            "Konuşarak çözmek",
+            "Susmak"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1216,10 +1216,10 @@
           "soru": "Arkadaşımızın oyuncağını kırarsak ne yapmalıyız?",
           "dogruCevap": "Özür dilemeliyiz",
           "secenekler": [
+            "Kaçmalıyız",
             "Gizlemeliyiz",
             "Özür dilemeliyiz",
-            "Suçlamalıyız",
-            "Kaçmalıyız"
+            "Suçlamalıyız"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1236,10 +1236,10 @@
           "soru": "Evde annemize yardım etmek güzel midir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Sadece babamız",
-            "Hayır",
+            "Evet",
             "Hiç gerekmez",
-            "Evet"
+            "Sadece babamız",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1256,10 +1256,10 @@
           "soru": "🎭 Paylaşmak sadece oyuncaklar için midir?",
           "dogruCevap": "Hayır, sevgi ve yardım da paylaşılır",
           "secenekler": [
+            "Sadece yemek için",
             "Evet, sadece oyuncak",
             "Hiç paylaşmayız",
-            "Hayır, sevgi ve yardım da paylaşılır",
-            "Sadece yemek için"
+            "Hayır, sevgi ve yardım da paylaşılır"
           ],
           "ipucu": "Paylaşmak güzel bir davranıştır!",
           "gorsel": {
@@ -1277,10 +1277,10 @@
           "soru": "🎭 Aile ve arkadaşlıkta en önemli değer hangisidir?",
           "dogruCevap": "Sevgi ve saygı",
           "secenekler": [
-            "Yalan",
-            "Sevgi ve saygı",
+            "Kaba davranış",
             "Kıskançlık",
-            "Kaba davranış"
+            "Sevgi ve saygı",
+            "Yalan"
           ],
           "ipucu": "Sevgi ve saygı ilişkilerimizi güçlendirir!",
           "gorsel": {
@@ -1297,8 +1297,8 @@
           "soru": "Evimizde odalarımız düzenli olmalı mı?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Fark etmez",
             "Evet",
+            "Fark etmez",
             "Gereksiz",
             "Hayır"
           ],
@@ -1317,9 +1317,9 @@
           "soru": "Yatak odasında uyuruz.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Fark etmez",
             "Gereksiz",
             "Doğru",
+            "Fark etmez",
             "Hayır"
           ],
           "ipucu": "",
@@ -1337,9 +1337,9 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Fark etmez",
-            "Gereksiz",
             "Hayır",
-            "Doğru"
+            "Doğru",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1356,10 +1356,10 @@
           "soru": "Banyoda temizleniriz.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Fark etmez",
-            "Doğru",
             "Gereksiz",
-            "Hayır"
+            "Hayır",
+            "Fark etmez",
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1376,9 +1376,9 @@
           "soru": "Salonda ailece vakit geçiririz.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Gereksiz",
             "Fark etmez",
             "Doğru",
+            "Gereksiz",
             "Hayır"
           ],
           "ipucu": "",
@@ -1398,8 +1398,8 @@
           "secenekler": [
             "Evet",
             "Fark etmez",
-            "Gereksiz",
-            "Hayır"
+            "Hayır",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1416,10 +1416,10 @@
           "soru": "Evde ayakkabılarımızı düzenli koymalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Gereksiz",
+            "Hayır",
             "Evet",
             "Fark etmez",
-            "Hayır"
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1436,8 +1436,8 @@
           "soru": "Evde elektrikli aletlere dikkatli yaklaşmalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
             "Fark etmez",
+            "Hayır",
             "Evet",
             "Gereksiz"
           ],
@@ -1457,9 +1457,9 @@
           "dogruCevap": "Karşılarız",
           "secenekler": [
             "Fark etmez",
-            "Gereksiz",
             "Karşılarız",
-            "Hayır"
+            "Hayır",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1477,9 +1477,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Fark etmez",
-            "Gereksiz",
             "Hayır",
-            "Evet"
+            "Evet",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1496,10 +1496,10 @@
           "soru": "Evde kitaplarımızı düzenli tutmalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
             "Fark etmez",
+            "Gereksiz",
             "Evet",
-            "Gereksiz"
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1516,10 +1516,10 @@
           "soru": "Evde çöpleri çöp kutusuna atmalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Fark etmez",
             "Gereksiz",
-            "Hayır",
-            "Evet"
+            "Evet",
+            "Fark etmez",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1535,10 +1535,10 @@
           "soru": "Evde yemek masasında birlikte otururuz.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
             "Fark etmez",
-            "Gereksiz",
-            "Hayır"
+            "Evet",
+            "Hayır",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1555,10 +1555,10 @@
           "soru": "Evde ışıkları gereksiz yere yakmamalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Gereksiz",
+            "Fark etmez",
             "Evet",
-            "Fark etmez"
+            "Hayır",
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1576,9 +1576,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Evet",
+            "Gereksiz",
             "Hayır",
-            "Fark etmez",
-            "Gereksiz"
+            "Fark etmez"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1595,10 +1595,10 @@
           "soru": "Evde yangın çıkarsa yetişkinlere haber veririz.",
           "dogruCevap": "Evet",
           "secenekler": [
+            "Evet",
             "Fark etmez",
-            "Gereksiz",
             "Hayır",
-            "Evet"
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1616,9 +1616,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Evet",
-            "Fark etmez",
             "Gereksiz",
-            "Hayır"
+            "Hayır",
+            "Fark etmez"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1635,10 +1635,10 @@
           "soru": "Evde misafirperver olmalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Gereksiz",
             "Hayır",
-            "Fark etmez",
-            "Evet"
+            "Gereksiz",
+            "Evet",
+            "Fark etmez"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1655,9 +1655,9 @@
           "soru": "Evde eşyaları paylaşmak güzeldir.",
           "dogruCevap": "Evet",
           "secenekler": [
+            "Evet",
             "Fark etmez",
             "Hayır",
-            "Evet",
             "Gereksiz"
           ],
           "ipucu": "",
@@ -1675,10 +1675,10 @@
           "soru": "Evde temiz kalmak sağlıklıdır.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
+            "Gereksiz",
             "Hayır",
             "Fark etmez",
-            "Gereksiz"
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1695,8 +1695,8 @@
           "soru": "Ev ailemizin sıcak yuvasıdır.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
             "Gereksiz",
+            "Evet",
             "Fark etmez",
             "Hayır"
           ],
@@ -1733,10 +1733,10 @@
           "soru": "Evde sessiz olmak komşulara saygıdır.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Gereksiz",
+            "Hayır",
             "Fark etmez",
             "Evet",
-            "Hayır"
+            "Gereksiz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1753,10 +1753,10 @@
           "soru": "Evde kapıyı kilitlerken dikkatli olmalıyız.",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Gereksiz",
             "Evet",
-            "Fark etmez"
+            "Fark etmez",
+            "Gereksiz",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1773,9 +1773,9 @@
           "soru": "Evde televizyon izlerken çok yaklaşmamalıyız.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
-            "Hayır",
             "Fark etmez",
+            "Hayır",
+            "Doğru",
             "Gereksiz"
           ],
           "ipucu": "",

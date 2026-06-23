@@ -2,6 +2,13 @@
 
 import { aileVeArkadaslik, toplumVeCevre } from './gorev-hb1-questions.mjs';
 import { okulTema3 } from './gorev-hayat-tema3-questions.mjs';
+import { toplumTema4 } from './gorev-hayat-tema4-questions.mjs';
+import { saglikTema5 } from './gorev-hayat-tema5-questions.mjs';
+import { guvenlikTema6 } from './gorev-hayat-tema6-questions.mjs';
+import { cevreTema7 } from './gorev-hayat-tema7-questions.mjs';
+import { iletisimTema8 } from './gorev-hayat-tema8-questions.mjs';
+import { duygularTema9 } from './gorev-hayat-tema9-questions.mjs';
+import { yasamBecerileriTema10 } from './gorev-hayat-tema10-questions.mjs';
 import { saglikVeTemizlik, guvenliYasam, mesleklerVeCalismaHayati } from './gorev-hb2-questions.mjs';
 import { dogalAfetlerVeKorunma } from './gorev-hb3-questions.mjs';
 import { aileDuygular } from './gorev-hayat-duygular-questions.mjs';
@@ -343,51 +350,47 @@ export function hayatTema3(karistir) {
 }
 
 export function hayatTema4(karistir) {
-  return genislet100(toplumVeCevre(karistir), sablonA(TP_EK_A, K.TC, 'tp'), sablonT(TP_EK_T, K.TC, 'tp', karistir), {
-    id: 'toplum', baslik: 'Toplum', kazanimKodu: K.TC, onekA: 'tp-a', onekT: 'tp-t',
-  });
+  return toplumTema4(karistir);
 }
 
 export function hayatTema5(karistir) {
-  return genislet100(saglikVeTemizlik(karistir), sablonA(SG_EK_A, K.ST, 'sg'), sablonT(SG_EK_T, K.ST, 'sg', karistir), {
-    id: 'saglik', baslik: 'Sağlık', kazanimKodu: K.ST, onekA: 'sg-a', onekT: 'sg-t',
-  });
+  return saglikTema5(karistir);
 }
 
 export function hayatTema6(karistir) {
-  return genislet100(guvenliYasam(karistir), sablonA(GV_EK_A, K.GY, 'gv'), sablonT(GV_EK_T, K.GY, 'gv', karistir), {
-    id: 'guvenlik', baslik: 'Güvenlik', kazanimKodu: K.GY, onekA: 'gv-a', onekT: 'gv-t',
-  });
+  return guvenlikTema6(karistir);
 }
 
 export function hayatTema7(karistir) {
-  return genislet100(toplumVeCevre(karistir), sablonA(CE_EK_A, K.CE, 'ce'), sablonT(CE_EK_T, K.CE, 'ce', karistir), {
-    id: 'cevre', baslik: 'Çevre', kazanimKodu: K.CE, onekA: 'ce-a', onekT: 'ce-t',
-  });
+  return cevreTema7(karistir);
 }
 
 export function hayatTema8(karistir) {
-  return genislet100(aileVeArkadaslik(karistir), sablonA(IL_EK_A, K.IL, 'il'), sablonT(IL_EK_T, K.IL, 'il', karistir), {
-    id: 'iletisim', baslik: 'İletişim', kazanimKodu: K.IL, onekA: 'il-a', onekT: 'il-t',
-  });
+  return iletisimTema8(karistir);
 }
 
 export function hayatTema9(karistir) {
-  return genislet100(aileDuygular(karistir), sablonA(DY_EK_A, K.DY, 'dy'), sablonT(DY_EK_T, K.DY, 'dy', karistir), {
-    id: 'duygular', baslik: 'Duygular', kazanimKodu: K.DY, onekA: 'dy-a', onekT: 'dy-t',
-  });
+  return duygularTema9(karistir);
 }
 
 export function hayatTema10(karistir) {
-  return birlestir100(mesleklerVeCalismaHayati(karistir), dogalAfetlerVeKorunma(karistir), {
-    id: 'yasam-becerileri',
-    baslik: 'Yaşam Becerileri',
-    kazanimKodu: K.YB,
-    onekA: 'yb-a',
-    onekT: 'yb-t',
-    anlatim: mesleklerVeCalismaHayati(karistir).anlatim,
-  });
+  return yasamBecerileriTema10(karistir);
 }
+
+export {
+  TP_EK_A,
+  TP_EK_T,
+  SG_EK_A,
+  SG_EK_T,
+  GV_EK_A,
+  GV_EK_T,
+  CE_EK_A,
+  CE_EK_T,
+  IL_EK_A,
+  IL_EK_T,
+  DY_EK_A,
+  DY_EK_T,
+};
 
 export const HAYAT_TEMALAR = [
   { n: 1, dosya: 'aile.json', baslik: 'Aile', fn: hayatTema1 },
