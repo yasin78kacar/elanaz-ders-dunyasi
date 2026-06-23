@@ -4,7 +4,7 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 import { carpma } from './gorev-mat-tema4-questions.mjs';
 import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
-import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
+import { tartma, uzunlukOlcme } from './gorev-tema4-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import { canlilar } from './gorev-fen-tema1-questions.mjs';
 import { bitkilerTema2 } from './gorev-fen-tema2-questions.mjs';
@@ -339,7 +339,7 @@ writeFileSync(join(root, 'PARTI-TURKCE-TEMA8.md'), turTema8Md);
 
 console.log(
   'PARTI-MATEMATIK-TEMA3.md:',
-  matToplama.alistirma.length + matToplama.test.length + matCikarma.alistirma.length + matCikarma.test.length,
+  matCikarma.alistirma.length + matCikarma.test.length,
   'soru',
 );
 console.log('PARTI-MATEMATIK-TEMA4.md:', matCarpma.alistirma.length + matCarpma.test.length + matBolme.alistirma.length + matBolme.test.length, 'soru');

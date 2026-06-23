@@ -12,6 +12,8 @@ import oruntu from '../../content/sinif2/matematik/oruntu.json';
 import tahminEtme from '../../content/sinif2/matematik/tahmin-etme.json';
 import siviMiktari from '../../content/sinif2/matematik/sivi-miktari.json';
 import zaman from '../../content/sinif2/matematik/zaman.json';
+import uzunlukOlcme from '../../content/sinif2/matematik/uzunluk-olcme.json';
+import tartma from '../../content/sinif2/matematik/tartma.json';
 import tabloOkuma from '../../content/sinif2/matematik/tablo-okuma.json';
 import grafikOkuma from '../../content/sinif2/matematik/grafik-okuma.json';
 import veriToplama from '../../content/sinif2/matematik/veri-toplama.json';
@@ -83,13 +85,13 @@ const matTema2 = tema2Json as MathTheme;
 const [toplama120Tema2] = matTema2.konular;
 
 const tema3 = tema3Json as MathTheme;
-const [toplamaTema3, cikarmaTema3] = tema3.konular;
+const [cikarma220Tema3] = tema3.konular;
 
 const matTema4 = tema4Json as MathTheme;
 const [carpmaTema4] = matTema4.konular;
 
 const matTema5 = tema5Json as MathTheme;
-const [uzunlukOlcmeTema5, tartmaTema5] = matTema5.konular;
+const [bolme2100Tema5] = matTema5.konular;
 
 const matTema7 = tema7Json as MathTheme;
 const [esitParcalaraBolmeTema7, yarimVeCeyrekTema7, basitKesirlerTema7] = matTema7.konular;
@@ -129,11 +131,11 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/tahmin-etme.json': tahminEtme as Konu,
   'matematik/sayilar-ve-sayma.json': sayilarVeSaymaTema1,
   'matematik/toplama-1-20.json': toplama120Tema2,
-  'matematik/toplama.json': toplamaTema3,
-  'matematik/cikarma.json': cikarmaTema3,
+  'matematik/cikarma-2-20.json': cikarma220Tema3,
   'matematik/carpma.json': carpmaTema4,
-  'matematik/uzunluk-olcme.json': uzunlukOlcmeTema5,
-  'matematik/tartma.json': tartmaTema5,
+  'matematik/bolme-2-100.json': bolme2100Tema5,
+  'matematik/uzunluk-olcme.json': uzunlukOlcme as Konu,
+  'matematik/tartma.json': tartma as Konu,
   'matematik/sivi-miktari.json': siviMiktari as Konu,
   'matematik/zaman.json': zaman as Konu,
   'matematik/tablo-okuma.json': tabloOkuma as Konu,

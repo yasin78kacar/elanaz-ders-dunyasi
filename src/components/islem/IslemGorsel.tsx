@@ -1,4 +1,5 @@
 import { View, StyleSheet } from 'react-native';
+import { useDeviceLayout } from '../../hooks/useDeviceLayout';
 import Svg, { Circle, Line, Path, Rect, Text as SvgText } from 'react-native-svg';
 import { OnlukBlokIllustration } from '../../../assets/illustrations/OnlukBlokIllustration';
 import { SayiSeridi } from '../SayiSeridi';
@@ -7,7 +8,6 @@ import { GuvenliMetin } from '../GuvenliMetin';
 import { NesneGrup } from './NesneGrup';
 import { GEO } from '../nesneler/colors';
 import { colors } from '../../theme/colors';
-import { useDeviceLayout } from '../../hooks/useDeviceLayout';
 import type { GorselIslem } from '../../types/content';
 
 type Props = GorselIslem;
@@ -87,19 +87,25 @@ function BolmeGrup({
   nesne?: string;
   renk1?: string;
 }) {
-  const grupW = 72;
+  const layout = useDeviceLayout();
+  const genislik = Math.min(layout.width - layout.spacing(32), layout.isTablet ? 440 : 340);
+  const maxSatirUst = a > 60 ? 15 : a > 36 ? 12 : 10;
+  const grupW = Math.min(96, Math.floor((genislik - 16) / Math.max(b, 2)));
   const grupBasina = a / b;
+  const maxSatirAlt = grupBasina > 10 ? 8 : 5;
+  const fontSize = layout.font.sm;
+
   return (
-    <View style={{ width: 300, alignItems: 'center' }}>
-      <NesneGrup adet={a} tip={nesne} renk={renk1} genislik={280} maxSatir={10} />
-      <View style={{ flexDirection: 'row', marginTop: 6, gap: 8 }}>
+    <View style={{ width: genislik, alignItems: 'center' }}>
+      <NesneGrup adet={a} tip={nesne} renk={renk1} genislik={genislik - 8} maxSatir={maxSatirUst} />
+      <View style={{ flexDirection: 'row', flexWrap: b > 5 ? 'wrap' : 'nowrap', marginTop: layout.spacing(6), gap: layout.spacing(6), justifyContent: 'center' }}>
         {Array.from({ length: b }, (_, i) => (
           <View key={i} style={{ borderWidth: 2, borderColor: GEO.mavi, borderRadius: 8, padding: 2 }}>
-            <NesneGrup adet={grupBasina} tip={nesne} renk={renk1} genislik={grupW} maxSatir={5} />
+            <NesneGrup adet={grupBasina} tip={nesne} renk={renk1} genislik={grupW} maxSatir={maxSatirAlt} />
           </View>
         ))}
       </View>
-      <GuvenliMetin style={{ fontSize: 14, fontWeight: '700', color: GEO.metin, marginTop: 4 }} tamGenislik={false}>
+      <GuvenliMetin style={{ fontSize, fontWeight: '700', color: GEO.metin, marginTop: layout.spacing(4) }} tamGenislik={false}>
         {`${a}÷${b}=${grupBasina}`}
       </GuvenliMetin>
     </View>
@@ -323,6 +329,12 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <Karsilastirma islemler={['Eşit paylaştırma', 'Her grupta aynı sayı']} />;
     case 'bl-anlatim-3':
       return <Karsilastirma islemler={['3 × 4 = 12', '12 ÷ 3 = 4', '12 ÷ 4 = 3']} />;
+    case 'bl5-anlatim-1':
+      return <BolmeGrup a={12} b={3} nesne="elma" renk1="yesil" />;
+    case 'bl5-anlatim-2':
+      return <Karsilastirma islemler={['Eşit paylaştırma', 'Her grupta aynı sayı']} />;
+    case 'bl5-anlatim-3':
+      return <BolmeGrup a={100} b={10} nesne="top" renk1="kirmizi" />;
     default:
       return <ProblemSahne sahne={sahne} />;
   }
