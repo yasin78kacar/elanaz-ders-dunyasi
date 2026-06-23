@@ -261,10 +261,10 @@
           "soru": "Evimizde beslediğimiz sevimli kedinin İngilizcesi nedir?",
           "dogruCevap": "Cat",
           "secenekler": [
-            "Bird",
             "Dog",
+            "Fish",
             "Cat",
-            "Fish"
+            "Bird"
           ],
           "ipucu": "",
           "gorsel": {
@@ -280,10 +280,10 @@
           "soru": "Bize dost olan ve evimizi koruyan köpeğin İngilizce adı hangisidir?",
           "dogruCevap": "Dog",
           "secenekler": [
-            "Dog",
             "Cow",
+            "Sheep",
             "Lion",
-            "Sheep"
+            "Dog"
           ],
           "ipucu": "",
           "gorsel": {
@@ -300,9 +300,9 @@
           "dogruCevap": "Bird",
           "secenekler": [
             "Bird",
-            "Elephant",
             "Fish",
-            "Monkey"
+            "Monkey",
+            "Elephant"
           ],
           "ipucu": "",
           "gorsel": {
@@ -320,8 +320,8 @@
           "secenekler": [
             "Horse",
             "Fish",
-            "Bird",
-            "Cat"
+            "Cat",
+            "Bird"
           ],
           "ipucu": "",
           "gorsel": {
@@ -338,9 +338,9 @@
           "dogruCevap": "Cow",
           "secenekler": [
             "Sheep",
-            "Dog",
             "Lion",
-            "Cow"
+            "Cow",
+            "Dog"
           ],
           "ipucu": "",
           "gorsel": {
@@ -356,10 +356,10 @@
           "soru": "Yumuşacık yünleri olan koyunun İngilizcesi hangi seçenekte doğru verilmiştir?",
           "dogruCevap": "Sheep",
           "secenekler": [
-            "Horse",
             "Bird",
+            "Sheep",
             "Monkey",
-            "Sheep"
+            "Horse"
           ],
           "ipucu": "",
           "gorsel": {
@@ -375,10 +375,10 @@
           "soru": "Çok hızlı koşan ve yelesi olan atın İngilizcesi nedir?",
           "dogruCevap": "Horse",
           "secenekler": [
-            "Cat",
-            "Horse",
+            "Elephant",
             "Chicken",
-            "Elephant"
+            "Cat",
+            "Horse"
           ],
           "ipucu": "",
           "gorsel": {
@@ -394,10 +394,10 @@
           "soru": "Çiftlikte sabahları bize yumurta veren tavuğun İngilizcesi nedir?",
           "dogruCevap": "Chicken",
           "secenekler": [
-            "Chicken",
-            "Lion",
             "Fish",
-            "Cow"
+            "Cow",
+            "Lion",
+            "Chicken"
           ],
           "ipucu": "",
           "gorsel": {
@@ -433,9 +433,9 @@
           "dogruCevap": "Elephant",
           "secenekler": [
             "Fish",
-            "Bird",
             "Elephant",
-            "Horse"
+            "Horse",
+            "Bird"
           ],
           "ipucu": "",
           "gorsel": {
@@ -451,8 +451,8 @@
           "soru": "Ağaçlarda zıplayan ve muz yemeyi çok seven maymunun İngilizce adı nedir?",
           "dogruCevap": "Monkey",
           "secenekler": [
-            "Cat",
             "Chicken",
+            "Cat",
             "Monkey",
             "Cow"
           ],
@@ -470,9 +470,9 @@
           "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
           "dogruCevap": "Koyun = Bird",
           "secenekler": [
-            "Kedi = Cat",
             "Koyun = Bird",
             "İnek = Cow",
+            "Kedi = Cat",
             "Köpek = Dog"
           ],
           "ipucu": "Sheep koyun demektir!",
@@ -744,10 +744,10 @@
           "soru": "Kahvaltıda yediğimiz ekmeğin İngilizcesi nedir?",
           "dogruCevap": "Bread",
           "secenekler": [
+            "Bread",
             "Water",
             "Apple",
-            "Milk",
-            "Bread"
+            "Milk"
           ],
           "ipucu": "",
           "gorsel": {
@@ -763,9 +763,9 @@
           "soru": "Kahvaltıların en lezzetli yiyeceği olan peynirin İngilizce adı hangisidir?",
           "dogruCevap": "Cheese",
           "secenekler": [
-            "Tea",
             "Banana",
             "Meat",
+            "Tea",
             "Cheese"
           ],
           "ipucu": "",
@@ -782,10 +782,10 @@
           "soru": "Sağlıklı kemikler için yediğimiz yumurtanın İngilizcesi nedir?",
           "dogruCevap": "Egg",
           "secenekler": [
-            "Egg",
-            "Water",
             "Juice",
-            "Chicken"
+            "Chicken",
+            "Egg",
+            "Water"
           ],
           "ipucu": "",
           "gorsel": {
@@ -801,8 +801,8 @@
           "soru": "Her gün içmemiz gereken sağlıklı sütün İngilizcesi aşağıdakilerden hangisidir?",
           "dogruCevap": "Milk",
           "secenekler": [
-            "Tea",
             "Bread",
+            "Tea",
             "Milk",
             "Meat"
           ],
@@ -820,10 +820,10 @@
           "soru": "Çok sağlıklı ve tatlı bir meyve olan elmanın İngilizce karşılığı nedir?",
           "dogruCevap": "Apple",
           "secenekler": [
+            "Banana",
             "Cheese",
             "Juice",
-            "Apple",
-            "Banana"
+            "Apple"
           ],
           "ipucu": "",
           "gorsel": {
@@ -840,9 +840,9 @@
           "dogruCevap": "Banana",
           "secenekler": [
             "Egg",
-            "Banana",
             "Water",
-            "Apple"
+            "Apple",
+            "Banana"
           ],
           "ipucu": "",
           "gorsel": {
@@ -858,10 +858,10 @@
           "soru": "Bizi güçlü yapan et yemeğinin İngilizcesi nedir?",
           "dogruCevap": "Meat",
           "secenekler": [
-            "Bread",
+            "Meat",
             "Milk",
-            "Chicken",
-            "Meat"
+            "Bread",
+            "Chicken"
           ],
           "ipucu": "",
           "gorsel": {
@@ -877,10 +877,10 @@
           "soru": "Akşam yemeğinde yediğimiz tavuk etinin İngilizcesi nedir?",
           "dogruCevap": "Chicken",
           "secenekler": [
-            "Tea",
             "Water",
             "Chicken",
-            "Cheese"
+            "Cheese",
+            "Tea"
           ],
           "ipucu": "",
           "gorsel": {
@@ -896,10 +896,10 @@
           "soru": "Susadığımızda içtiğimiz hayat kaynağımız olan suyun İngilizcesi nedir?",
           "dogruCevap": "Water",
           "secenekler": [
-            "Tea",
+            "Milk",
             "Water",
             "Juice",
-            "Milk"
+            "Tea"
           ],
           "ipucu": "",
           "gorsel": {
@@ -934,10 +934,10 @@
           "soru": "Büyüklerimizin kahvaltıda içmeyi çok sevdiği çayın İngilizce adı nedir?",
           "dogruCevap": "Tea",
           "secenekler": [
-            "Cheese",
-            "Egg",
             "Tea",
-            "Water"
+            "Water",
+            "Egg",
+            "Cheese"
           ],
           "ipucu": "",
           "gorsel": {
@@ -953,10 +953,10 @@
           "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
           "dogruCevap": "Ekmek = Water",
           "secenekler": [
-            "Et = Meat",
-            "Süt = Milk",
+            "Peynir = Cheese",
             "Ekmek = Water",
-            "Peynir = Cheese"
+            "Süt = Milk",
+            "Et = Meat"
           ],
           "ipucu": "Bread ekmek demektir!",
           "gorsel": {
@@ -1223,9 +1223,9 @@
           "dogruCevap": "Circle",
           "secenekler": [
             "Square",
-            "Triangle",
             "Star",
-            "Circle"
+            "Circle",
+            "Triangle"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1241,9 +1241,9 @@
           "soru": "Dört eşit kenarlı karenin İngilizcesi hangisidir?",
           "dogruCevap": "Square",
           "secenekler": [
-            "Circle",
-            "Square",
             "Oval",
+            "Square",
+            "Circle",
             "Heart"
           ],
           "ipucu": "",
@@ -1261,9 +1261,9 @@
           "dogruCevap": "Triangle",
           "secenekler": [
             "Triangle",
+            "Star",
             "Diamond",
-            "Rectangle",
-            "Star"
+            "Rectangle"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1280,9 +1280,9 @@
           "dogruCevap": "Rectangle",
           "secenekler": [
             "Heart",
-            "Triangle",
             "Circle",
-            "Rectangle"
+            "Rectangle",
+            "Triangle"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1299,9 +1299,9 @@
           "dogruCevap": "Star",
           "secenekler": [
             "Square",
-            "Star",
             "Diamond",
-            "Oval"
+            "Oval",
+            "Star"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1317,10 +1317,10 @@
           "soru": "Sevgi sembolü kalp şeklinin İngilizcesi hangisidir?",
           "dogruCevap": "Heart",
           "secenekler": [
-            "Triangle",
-            "Circle",
+            "Square",
             "Heart",
-            "Square"
+            "Triangle",
+            "Circle"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1336,10 +1336,10 @@
           "soru": "Şekiller kelimesinin İngilizcesi nedir?",
           "dogruCevap": "Shapes",
           "secenekler": [
-            "Animals",
-            "Colors",
             "Shapes",
-            "Numbers"
+            "Numbers",
+            "Animals",
+            "Colors"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1356,9 +1356,9 @@
           "dogruCevap": "Oval",
           "secenekler": [
             "Triangle",
+            "Star",
             "Square",
-            "Oval",
-            "Star"
+            "Oval"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1374,10 +1374,10 @@
           "soru": "Elmas şeklinin İngilizce karşılığı nedir?",
           "dogruCevap": "Diamond",
           "secenekler": [
-            "Circle",
-            "Heart",
+            "Rectangle",
             "Diamond",
-            "Rectangle"
+            "Heart",
+            "Circle"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1394,9 +1394,9 @@
           "dogruCevap": "Daire",
           "secenekler": [
             "Yıldız",
-            "Üçgen",
             "Daire",
-            "Kare"
+            "Kare",
+            "Üçgen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1412,10 +1412,10 @@
           "soru": "Çadırın çatısı hangi şekle benzer?",
           "dogruCevap": "Triangle",
           "secenekler": [
-            "Triangle",
-            "Oval",
             "Square",
-            "Circle"
+            "Triangle",
+            "Circle",
+            "Oval"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1431,10 +1431,10 @@
           "soru": "Zarın yüzleri hangi şekildedir?",
           "dogruCevap": "Square",
           "secenekler": [
-            "Heart",
-            "Star",
+            "Square",
             "Circle",
-            "Square"
+            "Star",
+            "Heart"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1704,10 +1704,10 @@
           "soru": "Saçlarımızın bulunduğu baş (kafa) bölümünün İngilizcesi nedir?",
           "dogruCevap": "Head",
           "secenekler": [
+            "Arm",
             "Head",
-            "Leg",
             "Ear",
-            "Arm"
+            "Leg"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1742,9 +1742,9 @@
           "soru": "Sesleri, müziği ve arkadaşlarımızın sesini duyduğumuz kulağın İngilizcesi nedir?",
           "dogruCevap": "Ear",
           "secenekler": [
-            "Finger",
             "Mouth",
             "Ear",
+            "Finger",
             "Leg"
           ],
           "ipucu": "",
@@ -1761,9 +1761,9 @@
           "soru": "Nefes almamızı ve mis gibi kokuları duymamızı sağlayan burnun İngilizcesi aşağıdakilerden hangisidir?",
           "dogruCevap": "Nose",
           "secenekler": [
-            "Nose",
             "Eye",
             "Arm",
+            "Nose",
             "Toe"
           ],
           "ipucu": "",
@@ -1780,10 +1780,10 @@
           "soru": "Yemek yediğimiz, konuştuğumuz ve şarkı söylediğimiz ağzın İngilizce karşılığı nedir?",
           "dogruCevap": "Mouth",
           "secenekler": [
-            "Hand",
+            "Mouth",
             "Foot",
             "Head",
-            "Mouth"
+            "Hand"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1799,10 +1799,10 @@
           "soru": "Eşyaları kaldırmamızı sağlayan kolun İngilizcesi hangi seçenekte doğru verilmiştir?",
           "dogruCevap": "Arm",
           "secenekler": [
-            "Arm",
             "Leg",
-            "Nose",
-            "Ear"
+            "Arm",
+            "Ear",
+            "Nose"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1818,9 +1818,9 @@
           "soru": "Birine el sallarken kullandığımız elin İngilizcesi nedir?",
           "dogruCevap": "Hand",
           "secenekler": [
-            "Mouth",
             "Foot",
             "Hand",
+            "Mouth",
             "Eye"
           ],
           "ipucu": "",
@@ -1856,10 +1856,10 @@
           "soru": "Yürümemizi, koşmamızı ve zıplamamızı sağlayan bacağın İngilizcesi nedir?",
           "dogruCevap": "Leg",
           "secenekler": [
-            "Leg",
             "Arm",
-            "Nose",
-            "Ear"
+            "Ear",
+            "Leg",
+            "Nose"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1875,10 +1875,10 @@
           "soru": "Ayakkabı giydiğimiz ve yere sağlam basmamızı sağlayan ayağın İngilizcesi hangisidir?",
           "dogruCevap": "Foot",
           "secenekler": [
-            "Foot",
-            "Head",
             "Hand",
-            "Eye"
+            "Eye",
+            "Head",
+            "Foot"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1894,10 +1894,10 @@
           "soru": "Ayak uçlarımızda bulunan ayak parmaklarına İngilizcede ne ad verilir?",
           "dogruCevap": "Toe",
           "secenekler": [
-            "Finger",
             "Mouth",
             "Toe",
-            "Arm"
+            "Arm",
+            "Finger"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1914,9 +1914,9 @@
           "dogruCevap": "Burun = Hand",
           "secenekler": [
             "Ağız = Mouth",
-            "Göz = Eye",
             "Burun = Hand",
-            "Kulak = Ear"
+            "Kulak = Ear",
+            "Göz = Eye"
           ],
           "ipucu": "Nose burun demektir!",
           "gorsel": {

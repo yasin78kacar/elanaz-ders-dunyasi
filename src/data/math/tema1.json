@@ -916,10 +916,10 @@
           "soru": "Resimde kaç top vardır?",
           "dogruCevap": "9",
           "secenekler": [
-            "8",
             "7",
             "9",
-            "10"
+            "10",
+            "8"
           ],
           "ipucu": "Tek tek say.",
           "gorsel": {
@@ -958,10 +958,10 @@
           "soru": "Resimde kaç balon vardır?",
           "dogruCevap": "11",
           "secenekler": [
-            "10",
             "11",
+            "13",
             "12",
-            "13"
+            "10"
           ],
           "ipucu": "Her birini say.",
           "gorsel": {
@@ -979,10 +979,10 @@
           "soru": "Resimde kaç çiçek vardır?",
           "dogruCevap": "13",
           "secenekler": [
-            "14",
-            "11",
             "12",
-            "13"
+            "14",
+            "13",
+            "11"
           ],
           "ipucu": "Tek tek say.",
           "gorsel": {
@@ -1002,8 +1002,8 @@
           "secenekler": [
             "14",
             "15",
-            "13",
-            "16"
+            "16",
+            "13"
           ],
           "ipucu": "Dikkatle say.",
           "gorsel": {
@@ -1021,10 +1021,10 @@
           "soru": "Resimde kaç kalem vardır?",
           "dogruCevap": "17",
           "secenekler": [
-            "17",
-            "18",
+            "16",
             "15",
-            "16"
+            "18",
+            "17"
           ],
           "ipucu": "Her birini say.",
           "gorsel": {
@@ -1043,9 +1043,9 @@
           "dogruCevap": "18",
           "secenekler": [
             "19",
-            "18",
             "17",
-            "16"
+            "16",
+            "18"
           ],
           "ipucu": "Tek tek say.",
           "gorsel": {
@@ -1063,10 +1063,10 @@
           "soru": "Resimde kaç elma vardır?",
           "dogruCevap": "20",
           "secenekler": [
-            "20",
+            "19",
             "21",
-            "18",
-            "19"
+            "20",
+            "18"
           ],
           "ipucu": "Hepsini say.",
           "gorsel": {
@@ -1085,9 +1085,9 @@
           "dogruCevap": "2",
           "secenekler": [
             "1",
-            "3",
             "2",
-            "4"
+            "4",
+            "3"
           ],
           "ipucu": "Az sayıda — dikkatle say.",
           "gorsel": {
@@ -1105,9 +1105,9 @@
           "soru": "Resimde kaç yıldız vardır?",
           "dogruCevap": "14",
           "secenekler": [
-            "14",
-            "15",
             "13",
+            "15",
+            "14",
             "12"
           ],
           "ipucu": "Her birini say.",
@@ -1126,10 +1126,10 @@
           "soru": "Resimde kaç balon vardır?",
           "dogruCevap": "16",
           "secenekler": [
-            "15",
             "14",
+            "16",
             "17",
-            "16"
+            "15"
           ],
           "ipucu": "Tek tek say.",
           "gorsel": {
@@ -1148,9 +1148,9 @@
           "dogruCevap": "12",
           "secenekler": [
             "13",
-            "12",
+            "11",
             "10",
-            "11"
+            "12"
           ],
           "ipucu": "Dikkatle say.",
           "gorsel": {
@@ -1168,10 +1168,10 @@
           "soru": "Resimde kaç kelebek vardır?",
           "dogruCevap": "19",
           "secenekler": [
-            "17",
-            "18",
+            "19",
             "20",
-            "19"
+            "18",
+            "17"
           ],
           "ipucu": "Her birini say.",
           "gorsel": {
@@ -1189,10 +1189,10 @@
           "soru": "Resimde hiç nesne yoksa kaç tane vardır?",
           "dogruCevap": "0",
           "secenekler": [
-            "2",
-            "1",
             "10",
-            "0"
+            "0",
+            "2",
+            "1"
           ],
           "ipucu": "Hiç yok = 0",
           "gorsel": {
@@ -1211,9 +1211,9 @@
           "dogruCevap": "7",
           "secenekler": [
             "8",
-            "6",
+            "7",
             "5",
-            "7"
+            "6"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1231,9 +1231,9 @@
           "soru": "\"on iki\" sayısının rakam karşılığı hangisidir?",
           "dogruCevap": "12",
           "secenekler": [
-            "11",
             "13",
             "10",
+            "11",
             "12"
           ],
           "ipucu": "",
@@ -1252,10 +1252,10 @@
           "soru": "\"on beş\" sayısının rakam karşılığı hangisidir?",
           "dogruCevap": "15",
           "secenekler": [
+            "15",
             "13",
-            "16",
             "14",
-            "15"
+            "16"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1274,9 +1274,9 @@
           "dogruCevap": "20",
           "secenekler": [
             "19",
+            "20",
             "21",
-            "18",
-            "20"
+            "18"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1294,10 +1294,10 @@
           "soru": "8 sayısı nasıl okunur?",
           "dogruCevap": "sekiz",
           "secenekler": [
-            "yedi",
-            "dokuz",
             "sekiz",
-            "altı"
+            "yedi",
+            "altı",
+            "dokuz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1315,10 +1315,10 @@
           "soru": "11 sayısı nasıl okunur?",
           "dogruCevap": "on bir",
           "secenekler": [
+            "on bir",
             "yirmi bir",
             "on",
-            "on iki",
-            "on bir"
+            "on iki"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1336,8 +1336,8 @@
           "soru": "16 sayısı nasıl okunur?",
           "dogruCevap": "on altı",
           "secenekler": [
-            "on yedi",
             "on dört",
+            "on yedi",
             "on beş",
             "on altı"
           ],
@@ -1357,9 +1357,9 @@
           "soru": "3 sayısının yazılışı hangisidir?",
           "dogruCevap": "üç",
           "secenekler": [
-            "üç",
             "dört",
             "iki",
+            "üç",
             "beş"
           ],
           "ipucu": "",
@@ -1378,9 +1378,9 @@
           "soru": "10 sayısının yazılışı hangisidir?",
           "dogruCevap": "on",
           "secenekler": [
-            "yirmi",
             "dokuz",
             "on bir",
+            "yirmi",
             "on"
           ],
           "ipucu": "",
@@ -1421,9 +1421,9 @@
           "dogruCevap": "8",
           "secenekler": [
             "8",
-            "6",
+            "9",
             "7",
-            "9"
+            "6"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1446,8 +1446,8 @@
           "secenekler": [
             "12",
             "10",
-            "13",
-            "11"
+            "11",
+            "13"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1469,9 +1469,9 @@
           "dogruCevap": "5",
           "secenekler": [
             "5",
+            "3",
             "4",
-            "6",
-            "3"
+            "6"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1492,9 +1492,9 @@
           "soru": "18 sayısından sonra hangi sayı gelir?",
           "dogruCevap": "19",
           "secenekler": [
+            "19",
             "20",
             "17",
-            "19",
             "18"
           ],
           "ipucu": "",
@@ -1516,10 +1516,10 @@
           "soru": "10 sayısından önce hangi sayı vardır?",
           "dogruCevap": "9",
           "secenekler": [
-            "9",
-            "8",
             "7",
-            "10"
+            "10",
+            "9",
+            "8"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1542,8 +1542,8 @@
           "secenekler": [
             "3",
             "2",
-            "4",
-            "1"
+            "1",
+            "4"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1588,10 +1588,10 @@
           "soru": "5 ile 6 arasında başka sayı var mı?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Evet, 5.5",
             "Evet, 7",
+            "Hayır",
             "Evet, 4",
-            "Hayır"
+            "Evet, 5.5"
           ],
           "ipucu": "Tam sayılarda arada sayı yok.",
           "gorsel": {
@@ -1613,9 +1613,9 @@
           "dogruCevap": "1",
           "secenekler": [
             "2",
-            "10",
+            "1",
             "0",
-            "1"
+            "10"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1635,10 +1635,10 @@
           "soru": "1'den 20'ye sayarken son sayı hangisidir?",
           "dogruCevap": "20",
           "secenekler": [
-            "18",
-            "19",
+            "20",
             "21",
-            "20"
+            "19",
+            "18"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1658,10 +1658,10 @@
           "soru": "Hangi grupta daha çok nesne vardır?",
           "dogruCevap": "9",
           "secenekler": [
-            "9",
+            "4",
             "6",
-            "5",
-            "4"
+            "9",
+            "5"
           ],
           "ipucu": "Sayıları karşılaştır.",
           "gorsel": {
@@ -1682,10 +1682,10 @@
           "soru": "Hangi sayı daha büyüktür?",
           "dogruCevap": "17",
           "secenekler": [
-            "15",
             "17",
-            "12",
-            "14"
+            "15",
+            "14",
+            "12"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1706,10 +1706,10 @@
           "soru": "Hangi sayı daha küçüktür?",
           "dogruCevap": "3",
           "secenekler": [
-            "12",
             "15",
             "3",
-            "8"
+            "8",
+            "12"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1731,9 +1731,9 @@
           "dogruCevap": "İkisi eşit",
           "secenekler": [
             "Sağ daha çok",
+            "Sol daha çok",
             "İkisi eşit",
-            "Sayılamaz",
-            "Sol daha çok"
+            "Sayılamaz"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1755,8 +1755,8 @@
           "secenekler": [
             "5",
             "8",
-            "25",
-            "15"
+            "15",
+            "25"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1778,10 +1778,10 @@
           "soru": "Hangi sayı 1-20 aralığında DEĞİLDİR?",
           "dogruCevap": "21",
           "secenekler": [
-            "21",
-            "5",
             "20",
-            "12"
+            "12",
+            "21",
+            "5"
           ],
           "ipucu": "1 ile 20 arasına bak.",
           "gorsel": {
@@ -1801,10 +1801,10 @@
           "soru": "En büyük tek basamaklı sayı hangisidir?",
           "dogruCevap": "9",
           "secenekler": [
-            "11",
+            "9",
             "10",
-            "8",
-            "9"
+            "11",
+            "8"
           ],
           "ipucu": "9'dan sonra 10 gelir.",
           "gorsel": {
@@ -1826,9 +1826,9 @@
           "dogruCevap": "6",
           "secenekler": [
             "4",
-            "5",
+            "6",
             "7",
-            "6"
+            "5"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1848,9 +1848,9 @@
           "soru": "Sayı doğrusunda işaretli sayı kaçtır?",
           "dogruCevap": "14",
           "secenekler": [
-            "13",
-            "14",
             "15",
+            "14",
+            "13",
             "12"
           ],
           "ipucu": "",
@@ -1871,10 +1871,10 @@
           "soru": "Sayı doğrusunda vurgulanan sayı kaçtır?",
           "dogruCevap": "11",
           "secenekler": [
-            "11",
-            "12",
             "9",
-            "10"
+            "10",
+            "12",
+            "11"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1894,10 +1894,10 @@
           "soru": "1 ile 5 arasında (5 dahil) kaç sayı vardır?",
           "dogruCevap": "5",
           "secenekler": [
-            "6",
-            "3",
             "5",
-            "4"
+            "4",
+            "6",
+            "3"
           ],
           "ipucu": "1, 2, 3, 4, 5",
           "gorsel": {
@@ -1919,9 +1919,9 @@
           "dogruCevap": "6",
           "secenekler": [
             "4",
-            "6",
+            "5",
             "7",
-            "5"
+            "6"
           ],
           "ipucu": "3'ten 8'e say.",
           "gorsel": {
@@ -1942,10 +1942,10 @@
           "soru": "🎭 Resimde 5 elma var. \"7 elma\" diyen doğru mu?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Bazen",
             "Bilinemez",
-            "Hayır",
-            "Evet"
+            "Evet",
+            "Bazen",
+            "Hayır"
           ],
           "ipucu": "Önce say, sonra karşılaştır!",
           "gorsel": {
@@ -1964,10 +1964,10 @@
           "soru": "🎭 0 sayısı \"hiç yok\" anlamına mı gelir?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
+            "Bilinemez",
             "Hayır",
             "Sadece büyük sayılar için",
-            "Bilinemez"
+            "Evet"
           ],
           "ipucu": "0 = hiç demektir!",
           "gorsel": {
@@ -1986,10 +1986,10 @@
           "soru": "🎭 1'den 20'ye sayarken 0 sayısını söyler miyiz?",
           "dogruCevap": "Hayır",
           "secenekler": [
-            "Her zaman",
-            "Evet, ilk sayı 0",
             "Sadece sonda",
-            "Hayır"
+            "Hayır",
+            "Evet, ilk sayı 0",
+            "Her zaman"
           ],
           "ipucu": "1'den başlarız!",
           "gorsel": {

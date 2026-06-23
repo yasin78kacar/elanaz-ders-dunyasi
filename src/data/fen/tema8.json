@@ -911,9 +911,9 @@
           "soru": "Nehrin su sesi ne tür kaynaktır?",
           "dogruCevap": "Doğal ses kaynağı",
           "secenekler": [
-            "Doğal ses kaynağı",
-            "Yapay ışık kaynağı",
             "Doğal ışık kaynağı",
+            "Yapay ışık kaynağı",
+            "Doğal ses kaynağı",
             "Yapay ses kaynağı"
           ],
           "ipucu": "",
@@ -931,10 +931,10 @@
           "soru": "Selin'in flütü ne tür ses kaynağıdır?",
           "dogruCevap": "Yapay ses kaynağı",
           "secenekler": [
-            "Doğal ses kaynağı",
             "Yapay ışık kaynağı",
-            "Doğal ışık kaynağı",
-            "Yapay ses kaynağı"
+            "Yapay ses kaynağı",
+            "Doğal ses kaynağı",
+            "Doğal ışık kaynağı"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -951,9 +951,9 @@
           "soru": "Horozun sesi nedir?",
           "dogruCevap": "Doğal ses",
           "secenekler": [
-            "Doğal ışık",
-            "Yapay ışık",
             "Doğal ses",
+            "Yapay ışık",
+            "Doğal ışık",
             "Yapay ses"
           ],
           "ipucu": "",
@@ -971,10 +971,10 @@
           "soru": "Çalar saatin sesi nasıldır?",
           "dogruCevap": "Yapay ses",
           "secenekler": [
-            "Yapay ses",
-            "Yapay ışık",
             "Doğal ses",
-            "Doğal ışık"
+            "Doğal ışık",
+            "Yapay ışık",
+            "Yapay ses"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -991,10 +991,10 @@
           "soru": "Yağmur damlalarının çıkardığı ses hangi gruba aittir?",
           "dogruCevap": "Doğal ses kaynağı",
           "secenekler": [
-            "Yapay ses",
-            "Doğal ses kaynağı",
             "Yansıtıcı",
-            "İnsan yapımı"
+            "İnsan yapımı",
+            "Doğal ses kaynağı",
+            "Yapay ses"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -1012,8 +1012,8 @@
           "dogruCevap": "Yapay ses kaynağı",
           "secenekler": [
             "Yıldız ışığı",
-            "Yapay ses kaynağı",
             "Doğal ışık kaynağı",
+            "Yapay ses kaynağı",
             "Doğal ses kaynağı"
           ],
           "ipucu": "",
@@ -1031,9 +1031,9 @@
           "soru": "Televizyondan gelen sesler hangi gruba girer?",
           "dogruCevap": "Yapay ses kaynağı",
           "secenekler": [
-            "Doğal ses kaynağı",
-            "Sessiz kaynak",
             "Yapay ses kaynağı",
+            "Sessiz kaynak",
+            "Doğal ses kaynağı",
             "Doğal ışık kaynağı"
           ],
           "ipucu": "",
@@ -1051,9 +1051,9 @@
           "soru": "Annemizin sesi hangi türe örnektir?",
           "dogruCevap": "Doğal ses kaynağı",
           "secenekler": [
+            "Mekanik ses",
             "Yapay ses kaynağı",
             "Doğal ses kaynağı",
-            "Mekanik ses",
             "Yankı kaynağı"
           ],
           "ipucu": "",
@@ -1073,8 +1073,8 @@
           "secenekler": [
             "Rüzgar sesi - Yanan Mum",
             "Araba kornası - El feneri",
-            "Radyo sesi - Yıldız",
-            "Kuş sesi - Güneş"
+            "Kuş sesi - Güneş",
+            "Radyo sesi - Yıldız"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -1100,8 +1100,8 @@
           "secenekler": [
             "Evet, yapay",
             "Kendi üretir",
-            "Evet, doğal",
-            "Hayır, sadece yansıtır"
+            "Hayır, sadece yansıtır",
+            "Evet, doğal"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -1119,9 +1119,9 @@
           "dogruCevap": "Yapay ses kaynağı",
           "secenekler": [
             "Doğal ses kaynağı",
-            "Yapay ses kaynağı",
             "Güneş ışığı",
-            "Doğal ışık kaynağı"
+            "Doğal ışık kaynağı",
+            "Yapay ses kaynağı"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.2.3",
@@ -1138,9 +1138,9 @@
           "soru": "Aslanın sesi hangi ses sınıfına girer?",
           "dogruCevap": "Doğal ses kaynağı",
           "secenekler": [
-            "İnsan yapımı",
-            "Doğal ses kaynağı",
             "Teknoloji sesi",
+            "Doğal ses kaynağı",
+            "İnsan yapımı",
             "Yapay ses kaynağı"
           ],
           "ipucu": "",
@@ -1158,10 +1158,10 @@
           "soru": "Kuş sesi doğal bir sestir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Doğru",
             "Hiçbiri",
-            "Bazen"
+            "Bazen",
+            "Doğru",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1177,10 +1177,10 @@
           "soru": "Piyano yapay ses çıkarır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
-            "Hiçbiri",
             "Yanlış",
-            "Doğru"
+            "Bazen",
+            "Doğru",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1197,9 +1197,9 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Doğru",
-            "Hiçbiri",
             "Bazen",
-            "Yanlış"
+            "Yanlış",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1215,10 +1215,10 @@
           "soru": "Yüksek ses kulaklarımıza zarar verebilir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
             "Bazen",
-            "Doğru",
-            "Yanlış"
+            "Hiçbiri",
+            "Yanlış",
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1234,9 +1234,9 @@
           "soru": "Zil çaldığında ses duyarız.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
-            "Doğru",
             "Yanlış",
+            "Doğru",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1255,8 +1255,8 @@
           "secenekler": [
             "Doğru",
             "Hiçbiri",
-            "Yanlış",
-            "Bazen"
+            "Bazen",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1293,8 +1293,8 @@
           "secenekler": [
             "Yanlış",
             "Doğru",
-            "Bazen",
-            "Hiçbiri"
+            "Hiçbiri",
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1310,10 +1310,10 @@
           "soru": "Ses kaynağı titreşimle oluşur.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Bazen",
             "Doğru",
-            "Hiçbiri"
+            "Hiçbiri",
+            "Bazen",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1329,10 +1329,10 @@
           "soru": "Ambulans siren sesi çıkarır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Bazen",
             "Doğru",
-            "Hiçbiri"
+            "Bazen",
+            "Hiçbiri",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1348,10 +1348,10 @@
           "soru": "Yağmur damlalarının sesi doğaldır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
             "Yanlış",
-            "Hiçbiri",
-            "Bazen"
+            "Doğru",
+            "Bazen",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1367,9 +1367,9 @@
           "soru": "Flüt üflemeli bir enstrümandır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
             "Hiçbiri",
             "Bazen",
+            "Yanlış",
             "Doğru"
           ],
           "ipucu": "",
@@ -1386,10 +1386,10 @@
           "soru": "Korna yüksek ses çıkarır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Bazen",
+            "Doğru",
             "Hiçbiri",
-            "Doğru"
+            "Bazen",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1405,9 +1405,9 @@
           "soru": "Televizyon sesi yapaydır.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Bazen",
             "Hiçbiri",
             "Yanlış",
-            "Bazen",
             "Doğru"
           ],
           "ipucu": "",
@@ -1424,10 +1424,10 @@
           "soru": "Köpek havlaması doğal sestir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
             "Bazen",
+            "Yanlış",
             "Doğru",
-            "Yanlış"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1443,10 +1443,10 @@
           "soru": "Tren düdüğü yapay sestir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Bazen",
             "Doğru",
-            "Hiçbiri",
             "Yanlış",
-            "Bazen"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1462,10 +1462,10 @@
           "soru": "Müzik dinlemek kulaklarımızla olur.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
             "Hiçbiri",
+            "Bazen",
             "Doğru",
-            "Bazen"
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1481,10 +1481,10 @@
           "soru": "Arı vızıltısı doğal sestir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
             "Doğru",
+            "Yanlış",
             "Bazen",
-            "Yanlış"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1500,10 +1500,10 @@
           "soru": "Ses boşlukta yayılır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
+            "Yanlış",
             "Hiçbiri",
-            "Bazen",
-            "Yanlış"
+            "Doğru",
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1519,10 +1519,10 @@
           "soru": "Her sesin bir kaynağı vardır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
+            "Doğru",
             "Hiçbiri",
             "Yanlış",
-            "Doğru"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1538,10 +1538,10 @@
           "soru": "Fısıldamak düşük sesle konuşmaktır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
             "Bazen",
-            "Yanlış",
-            "Doğru"
+            "Hiçbiri",
+            "Doğru",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1557,10 +1557,10 @@
           "soru": "Bağırmak yüksek sestir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Yanlış",
             "Bazen",
-            "Doğru",
             "Hiçbiri",
-            "Yanlış"
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1577,8 +1577,8 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Yanlış",
-            "Bazen",
             "Doğru",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1596,8 +1596,8 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Yanlış",
-            "Bazen",
             "Doğru",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1614,9 +1614,9 @@
           "soru": "Şelale suyun sesi doğaldır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
             "Bazen",
             "Doğru",
+            "Yanlış",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1634,8 +1634,8 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Hiçbiri",
-            "Bazen",
             "Hayır",
+            "Bazen",
             "Evet"
           ],
           "ipucu": "",
@@ -1652,10 +1652,10 @@
           "soru": "Dalga sesi doğal mıdır?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Hiçbiri",
             "Evet",
-            "Bazen"
+            "Bazen",
+            "Hayır",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1671,9 +1671,9 @@
           "soru": "Kahkaha yüksek ses midir?",
           "dogruCevap": "Evet",
           "secenekler": [
+            "Hayır",
             "Bazen",
             "Hiçbiri",
-            "Hayır",
             "Evet"
           ],
           "ipucu": "",
@@ -1690,10 +1690,10 @@
           "soru": "Fısıltı düşük ses midir?",
           "dogruCevap": "Evet",
           "secenekler": [
+            "Hayır",
             "Bazen",
-            "Evet",
             "Hiçbiri",
-            "Hayır"
+            "Evet"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1709,8 +1709,8 @@
           "soru": "Gürültü kulakları yorar mı?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Evet",
             "Bazen",
+            "Evet",
             "Hayır",
             "Hiçbiri"
           ],
@@ -1729,9 +1729,9 @@
           "dogruCevap": "Evet",
           "secenekler": [
             "Bazen",
+            "Evet",
             "Hiçbiri",
-            "Hayır",
-            "Evet"
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1747,8 +1747,8 @@
           "soru": "Kapı zili ses çıkarır mı?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hiçbiri",
             "Evet",
+            "Hiçbiri",
             "Bazen",
             "Hayır"
           ],
@@ -1767,9 +1767,9 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Bazen",
-            "Hayır",
             "Hiçbiri",
-            "Doğru"
+            "Doğru",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1785,10 +1785,10 @@
           "soru": "Kulaklarımızla işitir miyiz?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Bazen",
-            "Evet",
             "Hiçbiri",
-            "Hayır"
+            "Hayır",
+            "Evet",
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1804,9 +1804,9 @@
           "soru": "Sessiz kütüphanede ne yaparız?",
           "dogruCevap": "Sessiz oluruz",
           "secenekler": [
-            "Bazen",
             "Sessiz oluruz",
             "Hayır",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1823,10 +1823,10 @@
           "soru": "Yüksek sesten kaçınmalı mıyız?",
           "dogruCevap": "Evet",
           "secenekler": [
-            "Hayır",
-            "Evet",
             "Bazen",
-            "Hiçbiri"
+            "Evet",
+            "Hiçbiri",
+            "Hayır"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1843,9 +1843,9 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Hiçbiri",
-            "Bazen",
             "Doğru",
-            "Hayır"
+            "Hayır",
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1861,9 +1861,9 @@
           "soru": "🎭 Sessizlikte ses duyar mıyız?",
           "dogruCevap": "Hayır",
           "secenekler": [
+            "Hayır",
             "Her zaman",
             "Bazen çok",
-            "Hayır",
             "Evet"
           ],
           "ipucu": "Ses kaynağı olmadan ses duymayız!",
