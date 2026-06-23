@@ -60,6 +60,7 @@ import theme6Json from '../data/english/theme6.json';
 import theme7Json from '../data/english/theme7.json';
 import theme8Json from '../data/english/theme8.json';
 import theme9Json from '../data/english/theme9.json';
+import tema2Json from '../data/math/tema2.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
 import tema5Json from '../data/math/tema5.json';
@@ -73,6 +74,9 @@ import gorselSanatlarJson from '../../content/sinif2/gorsel-sanatlar/gorsel-sana
 import zekaVeDikkatJson from '../../content/sinif2/zeka-dikkat/zeka-ve-dikkat.json';
 import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
+
+const matTema2 = tema2Json as MathTheme;
+const [toplama120Tema2] = matTema2.konular;
 
 const tema3 = tema3Json as MathTheme;
 const [toplamaTema3, cikarmaTema3] = tema3.konular;
@@ -119,6 +123,7 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/sayi-dogrusu.json': sayiDogrusu as Konu,
   'matematik/oruntu.json': oruntu as Konu,
   'matematik/tahmin-etme.json': tahminEtme as Konu,
+  'matematik/toplama-1-20.json': toplama120Tema2,
   'matematik/toplama.json': toplamaTema3,
   'matematik/cikarma.json': cikarmaTema3,
   'matematik/carpma.json': carpmaTema4,
