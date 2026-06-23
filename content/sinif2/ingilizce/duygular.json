@@ -1,0 +1,919 @@
+{
+  "id": "duygular",
+  "baslik": "Feelings",
+  "kazanimKodu": "ING.2.4.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Sınıfta duygu kartları vardı. Öğretmen \"Happy, sad, angry, scared!\" dedi. Elanaz gülümsedi: \"I am happy!\" Berk biraz üzgündü: \"I am sad.\" Her çocuk kendi duygusunu İngilizce söylemeyi öğrendi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dg-anlatim-1"
+        }
+      },
+      {
+        "metin": "Öğretmen sordu: \"How are you?\" Çocuklar sırayla cevap verdi: \"I am fine!\", \"I am tired!\", \"I am excited!\" Duygularını paylaşmak sınıfı daha sıcak bir yer yaptı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dg-anlatim-2"
+        }
+      },
+      {
+        "metin": "Parkta oynarken Berk korktu: \"I am scared!\" Annesi ona sarıldı. Elanaz heyecanlandı: \"I am surprised!\" Duygularımızı İngilizce söylemek çok kolaydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "dg-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "dg-a1",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Mutlu kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "happy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-yuz"
+      }
+    },
+    {
+      "id": "dg-a2",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Üzgün kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "sad",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uzgun-yuz"
+      }
+    },
+    {
+      "id": "dg-a3",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Happy\" kelimesi mutlu anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk"
+      }
+    },
+    {
+      "id": "dg-a4",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Kızgın kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "angry",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kizgin-yuz"
+      }
+    },
+    {
+      "id": "dg-a5",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Sad\" kelimesi üzgün demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uzgun-cocuk"
+      }
+    },
+    {
+      "id": "dg-a6",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Korkmuş kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "scared",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "korkmus-yuz"
+      },
+      "alternatifCevaplar": [
+        "afraid"
+      ]
+    },
+    {
+      "id": "dg-a7",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Yorgun kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "tired",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yorgun-cocuk"
+      }
+    },
+    {
+      "id": "dg-a8",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Surprised\" kelimesi şaşırmış anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sasirmis-yuz"
+      }
+    },
+    {
+      "id": "dg-a9",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Heyecanlı kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "excited",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "heyecanli-cocuk"
+      }
+    },
+    {
+      "id": "dg-a10",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Duygular kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "feelings",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "duygu-kartlari"
+      }
+    },
+    {
+      "id": "dg-a11",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Angry\" kelimesi mutlu anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kizgin-yuz"
+      }
+    },
+    {
+      "id": "dg-a12",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Aç kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "hungry",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ac-cocuk"
+      }
+    },
+    {
+      "id": "dg-a13",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Susamış kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "thirsty",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "susuz-cocuk"
+      }
+    },
+    {
+      "id": "dg-a14",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Tired\" kelimesi yorgun demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yorgun-cocuk"
+      }
+    },
+    {
+      "id": "dg-a15",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Sıkılmış kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bored",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sikilmis-cocuk"
+      }
+    },
+    {
+      "id": "dg-a16",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Scared\" kelimesi korkmuş anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "korkmus-cocuk"
+      }
+    },
+    {
+      "id": "dg-a17",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"How are you?\" sorusuna \"I am .........\" (iyiyim) diyebiliriz.",
+      "dogruCevap": "fine",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "iyiyim-isareti"
+      },
+      "alternatifCevaplar": [
+        "good",
+        "well"
+      ]
+    },
+    {
+      "id": "dg-a18",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Excited\" kelimesi heyecanlı demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "heyecanli-cocuk"
+      }
+    },
+    {
+      "id": "dg-a19",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Gülümsemek İngilizcede \".........\" kelimesidir.",
+      "dogruCevap": "smile",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulumseyen-yuz"
+      }
+    },
+    {
+      "id": "dg-a20",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Bored\" kelimesi sıkılmış anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sikilmis-cocuk"
+      }
+    },
+    {
+      "id": "dg-a21",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Ağlamak İngilizcede \".........\" kelimesidir.",
+      "dogruCevap": "cry",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aglayan-cocuk"
+      }
+    },
+    {
+      "id": "dg-a22",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Hungry\" kelimesi aç demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ac-cocuk"
+      }
+    },
+    {
+      "id": "dg-a23",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "Sevinç kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "joy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sevincli-cocuk"
+      }
+    },
+    {
+      "id": "dg-a24",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"Thirsty\" kelimesi susamış anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "susuz-cocuk"
+      }
+    },
+    {
+      "id": "dg-a25",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "yazili",
+      "soru": "\"I feel happy\" cümlesi Türkçede \"Mutlu hissediyorum\" demektir.",
+      "dogruCevap": "Mutlu hissediyorum",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-cocuk"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "dg-t1",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Mutlu kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Happy",
+      "secenekler": [
+        "Angry",
+        "Tired",
+        "Happy",
+        "Sad"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mutlu-yuz"
+      }
+    },
+    {
+      "id": "dg-t2",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Üzgün kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Sad",
+      "secenekler": [
+        "Excited",
+        "Sad",
+        "Hungry",
+        "Happy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "uzgun-yuz"
+      }
+    },
+    {
+      "id": "dg-t3",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kızgın kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Angry",
+      "secenekler": [
+        "Happy",
+        "Angry",
+        "Tired",
+        "Bored"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kizgin-yuz"
+      }
+    },
+    {
+      "id": "dg-t4",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Korkmuş kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Scared",
+      "secenekler": [
+        "Happy",
+        "Hungry",
+        "Scared",
+        "Excited"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "korkmus-yuz"
+      }
+    },
+    {
+      "id": "dg-t5",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Yorgun kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Tired",
+      "secenekler": [
+        "Happy",
+        "Angry",
+        "Excited",
+        "Tired"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yorgun-cocuk"
+      }
+    },
+    {
+      "id": "dg-t6",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Şaşırmış kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Surprised",
+      "secenekler": [
+        "Thirsty",
+        "Surprised",
+        "Sad",
+        "Bored"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sasirmis-yuz"
+      }
+    },
+    {
+      "id": "dg-t7",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Heyecanlı kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Excited",
+      "secenekler": [
+        "Angry",
+        "Sad",
+        "Tired",
+        "Excited"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "heyecanli-cocuk"
+      }
+    },
+    {
+      "id": "dg-t8",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aç kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Hungry",
+      "secenekler": [
+        "Hungry",
+        "Thirsty",
+        "Happy",
+        "Tired"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ac-cocuk"
+      }
+    },
+    {
+      "id": "dg-t9",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Susamış kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Thirsty",
+      "secenekler": [
+        "Thirsty",
+        "Happy",
+        "Sad",
+        "Hungry"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "susuz-cocuk"
+      }
+    },
+    {
+      "id": "dg-t10",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sıkılmış kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Bored",
+      "secenekler": [
+        "Excited",
+        "Surprised",
+        "Happy",
+        "Bored"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sikilmis-cocuk"
+      }
+    },
+    {
+      "id": "dg-t11",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"How are you?\" sorusunun Türkçe anlamı nedir?",
+      "dogruCevap": "Nasılsın?",
+      "secenekler": [
+        "Nasılsın?",
+        "Hoşça kal",
+        "Görüşürüz",
+        "Merhaba"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "nasilsin-sorusu"
+      }
+    },
+    {
+      "id": "dg-t12",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"I am fine\" ifadesi ne anlama gelir?",
+      "dogruCevap": "İyiyim",
+      "secenekler": [
+        "İyiyim",
+        "Yorgunum",
+        "Üzgünüm",
+        "Kızgınım"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "iyiyim-isareti"
+      }
+    },
+    {
+      "id": "dg-t13",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Duygular kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Feelings",
+      "secenekler": [
+        "Numbers",
+        "Feelings",
+        "Colors",
+        "Family"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "duygu-kartlari"
+      }
+    },
+    {
+      "id": "dg-t14",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gülümsemek İngilizcede nasıl söylenir?",
+      "dogruCevap": "Smile",
+      "secenekler": [
+        "Run",
+        "Cry",
+        "Smile",
+        "Sleep"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulumseyen-yuz"
+      }
+    },
+    {
+      "id": "dg-t15",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Ağlamak İngilizcede hangi kelimedir?",
+      "dogruCevap": "Cry",
+      "secenekler": [
+        "Jump",
+        "Cry",
+        "Smile",
+        "Sing"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aglayan-cocuk"
+      }
+    },
+    {
+      "id": "dg-t16",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Parkta oynayan neşeli çocuğun duygusu hangisidir?",
+      "dogruCevap": "Happy",
+      "secenekler": [
+        "Scared",
+        "Sad",
+        "Angry",
+        "Happy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "parkta-oynayan"
+      }
+    },
+    {
+      "id": "dg-t17",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kaybolan oyuncağı için ağlayan çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Sad",
+      "secenekler": [
+        "Sad",
+        "Hungry",
+        "Happy",
+        "Excited"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aglayan-cocuk"
+      }
+    },
+    {
+      "id": "dg-t18",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Karanlıkta korkan çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Scared",
+      "secenekler": [
+        "Bored",
+        "Excited",
+        "Scared",
+        "Happy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "korkmus-cocuk"
+      }
+    },
+    {
+      "id": "dg-t19",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Uzun yürüyüşten sonra çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Tired",
+      "secenekler": [
+        "Angry",
+        "Tired",
+        "Surprised",
+        "Excited"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yorgun-cocuk"
+      }
+    },
+    {
+      "id": "dg-t20",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Doğum günü sürprizinde çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Surprised",
+      "secenekler": [
+        "Surprised",
+        "Thirsty",
+        "Sad",
+        "Bored"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sasirmis-cocuk"
+      }
+    },
+    {
+      "id": "dg-t21",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Öğle yemeği vakti gelince çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Hungry",
+      "secenekler": [
+        "Hungry",
+        "Tired",
+        "Happy",
+        "Thirsty"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ac-cocuk"
+      }
+    },
+    {
+      "id": "dg-t22",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sıcak günde su içmek isteyen çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Thirsty",
+      "secenekler": [
+        "Angry",
+        "Thirsty",
+        "Sad",
+        "Hungry"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "susuz-cocuk"
+      }
+    },
+    {
+      "id": "dg-t23",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"I feel excited\" cümlesi ne anlama gelir?",
+      "dogruCevap": "Heyecanlı hissediyorum",
+      "secenekler": [
+        "Üzgünüm",
+        "Yorgunum",
+        "Korkuyorum",
+        "Heyecanlı hissediyorum"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "heyecanli-cocuk"
+      }
+    },
+    {
+      "id": "dg-t24",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Arkadaşı oyuncağını alınca çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Angry",
+      "secenekler": [
+        "Excited",
+        "Happy",
+        "Bored",
+        "Angry"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kizgin-cocuk"
+      }
+    },
+    {
+      "id": "dg-t25",
+      "kazanimKodu": "ING.2.4.2",
+      "tip": "coktanSecmeli",
+      "soru": "Uzun süre bekleyen çocuk hangi duyguyu hisseder?",
+      "dogruCevap": "Bored",
+      "secenekler": [
+        "Bored",
+        "Happy",
+        "Surprised",
+        "Excited"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sikilmis-cocuk"
+      }
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 # Responsive Breakpoint Doğrulama Raporu
 
-Tarih: 2026-06-12
+Tarih: 2026-06-23
 
 > `deviceLayout.ts` mantığı dört hedef genişlikte doğrulandı. Mockup ekran görüntüleri `docs/test-screenshots/` altında.
 > Ortam: Xcode/Android SDK bu makinede yok; Expo Go simülatörü yerine otomatik doğrulama + Playwright mockup PNG kullanıldı.
 
 ## 390px — Telefon
 
-![390px mockup](../test-screenshots/responsive-390.png)
+![390px mockup](./test-screenshots/responsive-390.png)
 
 | Kontrol | Sonuç | Detay |
 |---------|-------|-------|
@@ -26,7 +26,7 @@ Tarih: 2026-06-12
 
 ## 768px — 9.7" tablet
 
-![768px mockup](../test-screenshots/responsive-768.png)
+![768px mockup](./test-screenshots/responsive-768.png)
 
 | Kontrol | Sonuç | Detay |
 |---------|-------|-------|
@@ -45,7 +45,7 @@ Tarih: 2026-06-12
 
 ## 834px — 11" tablet
 
-![834px mockup](../test-screenshots/responsive-834.png)
+![834px mockup](./test-screenshots/responsive-834.png)
 
 | Kontrol | Sonuç | Detay |
 |---------|-------|-------|
@@ -64,7 +64,7 @@ Tarih: 2026-06-12
 
 ## 1024px — 13" tablet
 
-![1024px mockup](../test-screenshots/responsive-1024.png)
+![1024px mockup](./test-screenshots/responsive-1024.png)
 
 | Kontrol | Sonuç | Detay |
 |---------|-------|-------|
@@ -80,33 +80,3 @@ Tarih: 2026-06-12
 | Spacing çarpanı | ✓ | 10→17 (1.7×) |
 
 **Genel:** GEÇTİ
-
----
-
-## Claude'a not
-
-### Test yöntemi
-- `npm run test:responsive` → `verify-responsive-breakpoints.mjs` + `capture-responsive-screenshots.py`
-- Bu makinede **Xcode/Android SDK yok**; gerçek Expo Go simülatörü çalıştırılamadı
-- Yerine: `deviceLayout.ts` ile senkron saf JS doğrulama + TopicListScreen grid mantığını yansıtan HTML mockup + Playwright PNG
-
-### Sonuç özeti (4/4 GEÇTİ)
-
-| Genişlik | Tier | Grid | Buton | Font lg | Flow | Görsel |
-|----------|------|------|-------|---------|------|--------|
-| 390px | phone | 2 | 52px | 16px | 1.5× | 350px (sınırlı) |
-| 768px | tabletSmall | 3 | 68px | 22px | 2.0× | 680px |
-| 834px | tabletMedium | 3 | 74px | 24px | 2.5× | 770px |
-| 1024px | tabletLarge | 4 | 80px | 26px | 3.0× | 956px |
-
-### Görsel taşma notu
-`FlowImage` `maxWidth` + `width:100%` kullanıyor; telefonda maxWidth 510px olsa da görünen genişlik içerik alanına (350px) sığar.
-
-### Manuel Expo Go doğrulama (önerilen)
-Patron cihazında şu simülatörlerle tekrar kontrol:
-- iPhone 14 (390px) — 2 kolon
-- iPad 9.7" (768px) — 3 kolon
-- iPad Air 11" (834px) — 3 kolon
-- iPad Pro 13" (1024px) — 4 kolon
-
-Ekran görüntüleri: `docs/test-screenshots/responsive-{390,768,834,1024}.png`

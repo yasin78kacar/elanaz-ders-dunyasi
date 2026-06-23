@@ -49,13 +49,10 @@ import tarihVeKulturumuz from '../../content/sinif2/hayat-bilgisi/tarih-ve-kultu
 import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afetler-ve-korunma.json';
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
-import selamlasmaVeAile from '../../content/sinif2/ingilizce/selamlasma-ve-aile.json';
 import yazTuruHikaye from '../../content/sinif2/turkce/yaz-turu-hikaye.json';
 import yazTuruSiir from '../../content/sinif2/turkce/yaz-turu-siir.json';
 import olaySirasiMetin from '../../content/sinif2/turkce/olay-sirasi-metin.json';
 import olaySirasiZaman from '../../content/sinif2/turkce/olay-sirasi-zaman.json';
-import giyimEsyalari from '../../content/sinif2/ingilizce/giyim-esyalari.json';
-import mevsimlerIng from '../../content/sinif2/ingilizce/mevsimler-ing.json';
 import theme3Json from '../data/english/theme3.json';
 import theme4Json from '../data/english/theme4.json';
 import tema3Json from '../data/math/tema3.json';
@@ -85,10 +82,10 @@ const matTema7 = tema7Json as MathTheme;
 const [esitParcalaraBolmeTema7, yarimVeCeyrekTema7, basitKesirlerTema7] = matTema7.konular;
 
 const theme3Ing = theme3Json as EnglishTheme;
-const [gunlerVeAylar, havaDurumu, eylemler] = theme3Ing.konular;
+const [selamlasmaVeAileKonu] = theme3Ing.konular;
 
 const theme4 = theme4Json as EnglishTheme;
-const [giyimEsyalariIng, mevsimlerIngKonu] = theme4.konular;
+const [renklerKonu, duygularKonu] = theme4.konular;
 
 const konuDosyalari: Record<string, Konu> = {
   'matematik/ritmik-sayma.json': ritmikSayma as Konu,
@@ -154,12 +151,9 @@ const konuDosyalari: Record<string, Konu> = {
   'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
   'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
   'ingilizce/sayilar-ve-sinif-esyalari.json': sayilarVeSinifEsyalari as Konu,
-  'ingilizce/gunler-ve-aylar.json': gunlerVeAylar,
-  'ingilizce/hava-durumu.json': havaDurumu,
-  'ingilizce/eylemler.json': eylemler,
-  'ingilizce/giyim-esyalari.json': giyimEsyalariIng,
-  'ingilizce/mevsimler-ing.json': mevsimlerIngKonu,
-  'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAile as Konu,
+  'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAileKonu,
+  'ingilizce/renkler.json': renklerKonu,
+  'ingilizce/duygular.json': duygularKonu,
   'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
   'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
 };

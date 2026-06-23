@@ -210,7 +210,7 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'neseli-iki-arkadas': { emoji: '😄', etiket: 'Arkadaşlar', ing: 'Dialogue' },
   'hello-diyen': { emoji: '👋', etiket: 'Merhaba', ing: 'Hello' },
   'goodbye-yazisi': { emoji: '👋', etiket: 'Hoşça kal', ing: 'Goodbye' },
-  'uzgun-yuz': { emoji: '😢', etiket: 'Üzgün', ing: 'I am fine' },
+  'uzgun-yuz': { emoji: '😢', etiket: 'Üzgün', ing: 'Sad' },
   'please-kelimesi': { emoji: '🙏', etiket: 'Lütfen', ing: 'Please' },
   'top-firlatilan': { emoji: '🏀', etiket: 'Top', ing: 'Catch the ball!' },
   'kapi-resmi': { emoji: '🚪', etiket: 'Kapı', ing: 'May I come in?' },
@@ -229,7 +229,7 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'esya-uzatan': { emoji: '🤲', etiket: 'Buyurun', ing: 'Here you are!' },
   'kapi-calan': { emoji: '🚪', etiket: 'Kapı', ing: 'May I come in?' },
   'sandalyeye-oturan': { emoji: '🪑', etiket: 'Otur', ing: 'Sit down' },
-  'gulumseyen-yuz': { emoji: '😊', etiket: 'Gülümse', ing: 'Dialogue' },
+  'gulumseyen-yuz': { emoji: '😊', etiket: 'Gülümse', ing: 'Smile' },
   'okul-kapisindan-cikan': { emoji: '🏫', etiket: 'Veda', ing: 'Goodbye' },
   'konusma-balonu-dialogue': { emoji: '💬', etiket: 'Diyalog', ing: 'Dialogue' },
   'and-you-sorusu': { emoji: '❓', etiket: 'Ya sen?', ing: 'And you?' },
@@ -283,6 +283,25 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'sayilar-1-5': { emoji: '1️⃣2️⃣3️⃣4️⃣5️⃣', etiket: '1–5', ing: 'One to Five' },
   'boya-paleti': { emoji: '🎨', etiket: 'Palet', ing: 'Colors Song' },
   'mutlu-ingilizce-sinif': { emoji: '😊', etiket: 'Sınıf', ing: 'Songs' },
+  // Tema 4 — Colors & Feelings
+  'mutlu-yuz': { emoji: '😊', etiket: 'Mutlu', ing: 'Happy' },
+  'mutlu-cocuk': { emoji: '😄', etiket: 'Mutlu Çocuk', ing: 'Happy' },
+  'kizgin-yuz': { emoji: '😠', etiket: 'Kızgın', ing: 'Angry' },
+  'kizgin-cocuk': { emoji: '😤', etiket: 'Kızgın Çocuk', ing: 'Angry' },
+  'korkmus-yuz': { emoji: '😨', etiket: 'Korkmuş', ing: 'Scared' },
+  'korkmus-cocuk': { emoji: '😱', etiket: 'Korkmuş Çocuk', ing: 'Scared' },
+  'yorgun-cocuk': { emoji: '😴', etiket: 'Yorgun', ing: 'Tired' },
+  'sasirmis-yuz': { emoji: '😲', etiket: 'Şaşırmış', ing: 'Surprised' },
+  'sasirmis-cocuk': { emoji: '😮', etiket: 'Şaşırmış Çocuk', ing: 'Surprised' },
+  'heyecanli-cocuk': { emoji: '🤩', etiket: 'Heyecanlı', ing: 'Excited' },
+  'duygu-kartlari': { emoji: '🎭', etiket: 'Duygu Kartları', ing: 'Feelings' },
+  'ac-cocuk': { emoji: '🍽️', etiket: 'Aç', ing: 'Hungry' },
+  'susuz-cocuk': { emoji: '🥤', etiket: 'Susuz', ing: 'Thirsty' },
+  'sikilmis-cocuk': { emoji: '😑', etiket: 'Sıkılmış', ing: 'Bored' },
+  'aglayan-cocuk': { emoji: '😭', etiket: 'Ağla', ing: 'Cry' },
+  'sevincli-cocuk': { emoji: '🥳', etiket: 'Sevinç', ing: 'Joy' },
+  'nasilsin-sorusu': { emoji: '❓', etiket: 'Nasılsın?', ing: 'How are you?' },
+  'parkta-oynayan': { emoji: '🛝', etiket: 'Park', ing: 'Happy' },
   // Tema 4 — Clothes & Seasons
   shirt: { emoji: '👕', etiket: 'Gömlek', ing: 'Shirt' },
   pants: { emoji: '👖', etiket: 'Pantolon', ing: 'Pants' },
@@ -963,6 +982,18 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <MevsimSahne2 />;
     case 'mv-anlatim-3':
       return <MevsimSahne3 />;
+    case 'rk-anlatim-1':
+      return <BoyaKutusuSahne />;
+    case 'rk-anlatim-2':
+      return <RenkliHarfSahne />;
+    case 'rk-anlatim-3':
+      return <RenklerSarkiSahne />;
+    case 'dg-anlatim-1':
+      return <GrupGorsel nesneler={['mutlu-yuz', 'uzgun-yuz', 'kizgin-yuz', 'korkmus-yuz']} />;
+    case 'dg-anlatim-2':
+      return <GrupGorsel nesneler={['nasilsin-sorusu', 'iyiyim-isareti', 'heyecanli-cocuk', 'yorgun-cocuk']} />;
+    case 'dg-anlatim-3':
+      return <GrupGorsel nesneler={['korkmus-cocuk', 'sasirmis-cocuk', 'mutlu-cocuk', 'aglayan-cocuk']} />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

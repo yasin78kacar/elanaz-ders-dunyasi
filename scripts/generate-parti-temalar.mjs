@@ -13,7 +13,7 @@ import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
 import { eylemler, gunlerVeAylar, havaDurumu } from './gorev-ing3-questions.mjs';
-import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
+import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-clothes-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';

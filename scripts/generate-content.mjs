@@ -73,11 +73,12 @@ import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from '
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
 import { eylemler, gunlerVeAylar, havaDurumu } from './gorev-ing3-questions.mjs';
-import { selamlasmaVeAile } from './gorev-ing1c-questions.mjs';
+import { selamlasmaVeAile } from './gorev-ing-tema3-questions.mjs';
 import { kisaHikayeler } from './gorev-ing4a-questions.mjs';
 import { basitDiyaloglar } from './gorev-ing4b-questions.mjs';
 import { ingilizceSarkilar } from './gorev-ing4c-questions.mjs';
-import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-questions.mjs';
+import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-clothes-questions.mjs';
+import { renkler, duygular } from './gorev-ing-tema4-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
 import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
@@ -538,6 +539,11 @@ const mevsimlerIngKonu = mevsimlerIng(karistir);
 writeFileSync(join(ingDir, 'giyim-esyalari.json'), JSON.stringify(giyimEsyalariKonu, null, 2));
 writeFileSync(join(ingDir, 'mevsimler-ing.json'), JSON.stringify(mevsimlerIngKonu, null, 2));
 
+const renklerKonu = renkler(karistir);
+const duygularKonu = duygular(karistir);
+writeFileSync(join(ingDir, 'renkler.json'), JSON.stringify(renklerKonu, null, 2));
+writeFileSync(join(ingDir, 'duygular.json'), JSON.stringify(duygularKonu, null, 2));
+
 const kisaHikayelerKonu = kisaHikayeler(karistir);
 const basitDiyaloglarKonu = basitDiyaloglar(karistir);
 const ingilizceSarkilarKonu = ingilizceSarkilar(karistir);
@@ -553,14 +559,14 @@ mkdirSync(mathDataDir, { recursive: true });
 const theme3Ing = {
   id: 'tema-3',
   baslik: 'İngilizce — Tema 3',
-  konular: [gunlerVeAylarKonu, havaDurumuKonu, eylemlerKonu],
+  konular: [selamlasmaVeAileKonu],
 };
 writeFileSync(join(englishDataDir, 'theme3.json'), JSON.stringify(theme3Ing, null, 2));
 
 const theme4 = {
   id: 'tema-4',
   baslik: 'İngilizce — Tema 4',
-  konular: [giyimEsyalariKonu, mevsimlerIngKonu],
+  konular: [renklerKonu, duygularKonu],
 };
 writeFileSync(join(englishDataDir, 'theme4.json'), JSON.stringify(theme4, null, 2));
 
@@ -827,7 +833,6 @@ const index = {
           baslik: 'İngilizce — Tema 1',
           konuDosyalari: [
             'ingilizce/alfabe-ve-renkler.json',
-            'ingilizce/selamlasma-ve-aile.json',
           ],
         },
         {
@@ -841,17 +846,15 @@ const index = {
           id: 'tema-3',
           baslik: 'İngilizce — Tema 3',
           konuDosyalari: [
-            'ingilizce/gunler-ve-aylar.json',
-            'ingilizce/hava-durumu.json',
-            'ingilizce/eylemler.json',
+            'ingilizce/selamlasma-ve-aile.json',
           ],
         },
         {
           id: 'tema-4',
           baslik: 'İngilizce — Tema 4',
           konuDosyalari: [
-            'ingilizce/giyim-esyalari.json',
-            'ingilizce/mevsimler-ing.json',
+            'ingilizce/renkler.json',
+            'ingilizce/duygular.json',
           ],
         },
       ] },
@@ -967,6 +970,8 @@ console.log('Olay sırası — metin:', olaySirasiMetinKonu.alistirma.length, '+
 console.log('Olay sırası — zaman:', olaySirasiZamanKonu.alistirma.length, '+', olaySirasiZamanKonu.test.length);
 console.log('Giyim eşyaları:', giyimEsyalariKonu.alistirma.length, '+', giyimEsyalariKonu.test.length);
 console.log('Mevsimler (İng):', mevsimlerIngKonu.alistirma.length, '+', mevsimlerIngKonu.test.length);
+console.log('Renkler:', renklerKonu.alistirma.length, '+', renklerKonu.test.length);
+console.log('Duygular:', duygularKonu.alistirma.length, '+', duygularKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
 console.log('Basit diyaloglar:', basitDiyaloglarKonu.alistirma.length, '+', basitDiyaloglarKonu.test.length);
 console.log('İngilizce şarkılar:', ingilizceSarkilarKonu.alistirma.length, '+', ingilizceSarkilarKonu.test.length);
