@@ -809,10 +809,10 @@
       "soru": "En çok hangi tür kitap var?",
       "dogruCevap": "Masal",
       "secenekler": [
-        "Bilim",
         "Roman",
+        "Masal",
         "Şiir",
-        "Masal"
+        "Bilim"
       ],
       "ipucu": "",
       "gorsel": {
@@ -843,10 +843,10 @@
       "soru": "Şiir kitabı sayısı kaçtır?",
       "dogruCevap": "5",
       "secenekler": [
-        "8",
-        "12",
         "5",
-        "15"
+        "8",
+        "15",
+        "12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -877,10 +877,10 @@
       "soru": "Roman ve bilim toplamı kaçtır?",
       "dogruCevap": "20",
       "secenekler": [
-        "20",
+        "22",
         "18",
         "19",
-        "22"
+        "20"
       ],
       "ipucu": "",
       "gorsel": {
@@ -913,8 +913,8 @@
       "dogruCevap": "3",
       "secenekler": [
         "4",
-        "5",
         "3",
+        "5",
         "2"
       ],
       "ipucu": "",
@@ -947,10 +947,10 @@
       "soru": "Toplam kaç kitap var?",
       "dogruCevap": "40",
       "secenekler": [
-        "40",
-        "38",
         "39",
-        "42"
+        "42",
+        "38",
+        "40"
       ],
       "ipucu": "",
       "gorsel": {
@@ -984,9 +984,9 @@
       "soru": "En çok tercih edilen oyuncak hangisi?",
       "dogruCevap": "Bebek",
       "secenekler": [
-        "Bebek",
         "Top",
         "Yapboz",
+        "Bebek",
         "Araba"
       ],
       "ipucu": "",
@@ -1019,9 +1019,9 @@
       "dogruCevap": "18",
       "secenekler": [
         "20",
-        "16",
         "18",
-        "17"
+        "17",
+        "16"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1053,10 +1053,10 @@
       "soru": "🎭 Yapboz bebek'ten kaç eksiktir?",
       "dogruCevap": "7",
       "secenekler": [
-        "7",
-        "6",
+        "9",
         "5",
-        "9"
+        "7",
+        "6"
       ],
       "ipucu": "14 - 7 = ?",
       "gorsel": {
@@ -1089,10 +1089,10 @@
       "soru": "En az tercih edilen oyuncak hangisi?",
       "dogruCevap": "Yapboz",
       "secenekler": [
-        "Bebek",
         "Yapboz",
-        "Araba",
-        "Top"
+        "Bebek",
+        "Top",
+        "Araba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1123,10 +1123,10 @@
       "soru": "Toplam kaç çocuk ankete katıldı?",
       "dogruCevap": "39",
       "secenekler": [
-        "37",
-        "40",
         "41",
-        "39"
+        "37",
+        "39",
+        "40"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1160,10 +1160,10 @@
       "soru": "En çok hangi sebze satıldı?",
       "dogruCevap": "Domates",
       "secenekler": [
-        "Patlıcan",
         "Domates",
-        "Biber",
-        "Salatalık"
+        "Salatalık",
+        "Patlıcan",
+        "Biber"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1194,10 +1194,10 @@
       "soru": "Biber ve patlıcan toplamı kaç kg?",
       "dogruCevap": "20",
       "secenekler": [
-        "19",
         "20",
         "18",
-        "22"
+        "22",
+        "19"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1229,10 +1229,10 @@
       "soru": "Salatalık domatesten kaç kg azdır?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
+        "3",
         "4",
         "5",
-        "3"
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1264,10 +1264,10 @@
       "soru": "🎭 Hangi sebzenin satışı diğer ikisinin toplamına eşittir?",
       "dogruCevap": "Domates",
       "secenekler": [
+        "Biber",
         "Patlıcan",
         "Domates",
-        "Salatalık",
-        "Biber"
+        "Salatalık"
       ],
       "ipucu": "8 + 12 = 20 = Domates",
       "gorsel": {
@@ -1301,10 +1301,10 @@
       "soru": "Toplam kaç kg sebze satıldı?",
       "dogruCevap": "56",
       "secenekler": [
-        "54",
-        "52",
+        "58",
         "56",
-        "58"
+        "52",
+        "54"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1338,10 +1338,10 @@
       "soru": "En çok öğrenci hangi mevsimde doğmuş?",
       "dogruCevap": "Yaz",
       "secenekler": [
-        "Yaz",
+        "İlkbahar",
         "Sonbahar",
         "Kış",
-        "İlkbahar"
+        "Yaz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1373,8 +1373,8 @@
       "dogruCevap": "14",
       "secenekler": [
         "12",
-        "16",
         "14",
+        "16",
         "13"
       ],
       "ipucu": "",
@@ -1407,10 +1407,10 @@
       "soru": "🎭 İlkbahar kıştan kaç fazladır?",
       "dogruCevap": "3",
       "secenekler": [
-        "3",
-        "5",
         "2",
-        "4"
+        "4",
+        "3",
+        "5"
       ],
       "ipucu": "9 - 6 = ?",
       "gorsel": {
@@ -1443,10 +1443,10 @@
       "soru": "Toplam kaç öğrenci var?",
       "dogruCevap": "35",
       "secenekler": [
+        "36",
         "35",
-        "37",
         "33",
-        "36"
+        "37"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1480,8 +1480,8 @@
       "soru": "🎭 Yaz ve ilkbahar toplamı kış ve sonbahardan kaç fazladır?",
       "dogruCevap": "7",
       "secenekler": [
-        "6",
         "5",
+        "6",
         "7",
         "9"
       ],
@@ -1518,10 +1518,10 @@
       "soru": "En çok yağış hangi gün oldu?",
       "dogruCevap": "Çarşamba",
       "secenekler": [
-        "Cuma",
         "Perşembe",
-        "Pazartesi",
-        "Çarşamba"
+        "Çarşamba",
+        "Cuma",
+        "Pazartesi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1554,10 +1554,10 @@
       "soru": "Salı günü yağış var mı?",
       "dogruCevap": "Hayır",
       "secenekler": [
+        "Belli değil",
         "Hayır",
-        "Evet, 5 mm",
         "Evet, 10 mm",
-        "Belli değil"
+        "Evet, 5 mm"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1590,10 +1590,10 @@
       "soru": "🎭 Hangi günler yağış toplamı çarşambaya eşittir?",
       "dogruCevap": "Pazartesi + Perşembe",
       "secenekler": [
-        "Salı + Perşembe",
-        "Salı + Cuma",
+        "Pazartesi + Cuma",
         "Pazartesi + Perşembe",
-        "Pazartesi + Cuma"
+        "Salı + Cuma",
+        "Salı + Perşembe"
       ],
       "ipucu": "5 + 10 = 15 = Çarşamba",
       "gorsel": {
@@ -1630,8 +1630,8 @@
       "dogruCevap": "18",
       "secenekler": [
         "20",
-        "15",
         "16",
+        "15",
         "18"
       ],
       "ipucu": "",
@@ -1666,10 +1666,10 @@
       "soru": "🎭 Beş günde toplam kaç mm yağış düştü?",
       "dogruCevap": "38",
       "secenekler": [
-        "40",
-        "38",
         "35",
-        "36"
+        "40",
+        "36",
+        "38"
       ],
       "ipucu": "5 + 0 + 15 + 10 + 8 = 38",
       "gorsel": {

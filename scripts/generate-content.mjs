@@ -76,15 +76,26 @@ import { yazi as yaziTema10 } from './gorev-turkce-tema10-questions.mjs';
 import { bilgiMetni, hikayeMetni, siir } from './gorev-turkce2-questions.mjs';
 import { dinlemeVeKonusma, sozcukVeDilBilgisi, yazmaBecerileri } from './gorev-turkce3-questions.mjs';
 import { kelimeVeAnlamBilgisiIleri, metinAnlamaVeYorumlama, yazmaVeAnlatimIleri } from './gorev-turkce4-questions.mjs';
-import { bitkiler, canlilarVeCansizlar, hayvanlar } from './gorev-fen1-questions.mjs';
-import { canlilar } from './gorev-fen-tema1-questions.mjs';
+import { canlilarinSiniflandirilmasi } from './gorev-fen-tema1-questions.mjs';
 import { bitkilerTema2 } from './gorev-fen-tema2-questions.mjs';
-import { isikVeSes, kuvvetVeHareket, maddeVeOzellikleri } from './gorev-fen2-questions.mjs';
-import { dunyaVeEvren, havaDurumuVeMevsimler, saglikliYasamVeCevre } from './gorev-fen3-questions.mjs';
-import { aileVeArkadaslik, okulVeSinif, toplumVeCevre } from './gorev-hb1-questions.mjs';
-import { aileDuygular } from './gorev-hayat-tema1-questions.mjs';
-import { guvenliYasam, mesleklerVeCalismaHayati, saglikVeTemizlik } from './gorev-hb2-questions.mjs';
-import { dogalAfetlerVeKorunma, tarihVeKulturumuz, ulkemizVeVatandaslik } from './gorev-hb3-questions.mjs';
+import { hayvanlarTema3 } from './gorev-fen-tema3-questions.mjs';
+import { insanVeSaglikTema4 } from './gorev-fen-tema4-questions.mjs';
+import { maddeTema5 } from './gorev-fen-tema5-questions.mjs';
+import { enerjiTema6 } from './gorev-fen-tema6-questions.mjs';
+import { isikTema7 } from './gorev-fen-tema7-questions.mjs';
+import { sesTema8 } from './gorev-fen-tema8-questions.mjs';
+import { kuvvetVeHareketTema9 } from './gorev-fen-tema9-questions.mjs';
+import { yerVeUzayTema10 } from './gorev-fen-tema10-questions.mjs';
+import { aileTema1 } from './gorev-hayat-tema1-questions.mjs';
+import { evTema2 } from './gorev-hayat-tema2-questions.mjs';
+import { okulTema3 } from './gorev-hayat-tema3-questions.mjs';
+import { toplumTema4 } from './gorev-hayat-tema4-questions.mjs';
+import { saglikTema5 } from './gorev-hayat-tema5-questions.mjs';
+import { guvenlikTema6 } from './gorev-hayat-tema6-questions.mjs';
+import { cevreTema7 } from './gorev-hayat-tema7-questions.mjs';
+import { iletisimTema8 } from './gorev-hayat-tema8-questions.mjs';
+import { duygularTema9 } from './gorev-hayat-tema9-questions.mjs';
+import { yasamBecerileriTema10 } from './gorev-hayat-tema10-questions.mjs';
 import { alfabeVeRenkler } from './gorev-ing1-questions.mjs';
 import { sayilarVeSinifEsyalari } from './gorev-ing2-questions.mjs';
 import { gunlerVeAylar } from './gorev-ing3-questions.mjs';
@@ -520,51 +531,47 @@ writeFileSync(join(turkceDir, 'metin-anlama-ve-yorumlama.json'), JSON.stringify(
 writeFileSync(join(turkceDir, 'kelime-ve-anlam-bilgisi-ileri.json'), JSON.stringify(kelimeVeAnlamBilgisiIleriKonu, null, 2));
 writeFileSync(join(turkceDir, 'yazma-ve-anlatim-ileri.json'), JSON.stringify(yazmaVeAnlatimIleriKonu, null, 2));
 
-const canlilarKonu = canlilar(karistir);
-const canlilarVeCansizlarKonu = canlilarVeCansizlar(karistir);
+const canlilarinSiniflandirilmasiKonu = canlilarinSiniflandirilmasi(karistir);
 const bitkilerKonu = bitkilerTema2(karistir);
-const hayvanlarKonu = hayvanlar(karistir);
-writeFileSync(join(fenDir, 'canlilar.json'), JSON.stringify(canlilarKonu, null, 2));
-writeFileSync(join(fenDir, 'canlilar-ve-cansizlar.json'), JSON.stringify(canlilarVeCansizlarKonu, null, 2));
+const hayvanlarKonu = hayvanlarTema3(karistir);
+const insanVeSaglikKonu = insanVeSaglikTema4(karistir);
+const maddeKonu = maddeTema5(karistir);
+const enerjiKonu = enerjiTema6(karistir);
+const isikKonu = isikTema7(karistir);
+const sesKonu = sesTema8(karistir);
+const kuvvetVeHareketKonu = kuvvetVeHareketTema9(karistir);
+const yerVeUzayKonu = yerVeUzayTema10(karistir);
+writeFileSync(join(fenDir, 'canlilarin-siniflandirilmasi.json'), JSON.stringify(canlilarinSiniflandirilmasiKonu, null, 2));
 writeFileSync(join(fenDir, 'bitkiler.json'), JSON.stringify(bitkilerKonu, null, 2));
 writeFileSync(join(fenDir, 'hayvanlar.json'), JSON.stringify(hayvanlarKonu, null, 2));
-
-const maddeVeOzellikleriKonu = maddeVeOzellikleri(karistir);
-const kuvvetVeHareketKonu = kuvvetVeHareket(karistir);
-const isikVeSesKonu = isikVeSes(karistir);
-writeFileSync(join(fenDir, 'madde-ve-ozellikleri.json'), JSON.stringify(maddeVeOzellikleriKonu, null, 2));
+writeFileSync(join(fenDir, 'insan-ve-saglik.json'), JSON.stringify(insanVeSaglikKonu, null, 2));
+writeFileSync(join(fenDir, 'madde.json'), JSON.stringify(maddeKonu, null, 2));
+writeFileSync(join(fenDir, 'enerji.json'), JSON.stringify(enerjiKonu, null, 2));
+writeFileSync(join(fenDir, 'isik.json'), JSON.stringify(isikKonu, null, 2));
+writeFileSync(join(fenDir, 'ses.json'), JSON.stringify(sesKonu, null, 2));
 writeFileSync(join(fenDir, 'kuvvet-ve-hareket.json'), JSON.stringify(kuvvetVeHareketKonu, null, 2));
-writeFileSync(join(fenDir, 'isik-ve-ses.json'), JSON.stringify(isikVeSesKonu, null, 2));
+writeFileSync(join(fenDir, 'yer-ve-uzay.json'), JSON.stringify(yerVeUzayKonu, null, 2));
 
-const dunyaVeEvrenKonu = dunyaVeEvren(karistir);
-const havaDurumuVeMevsimlerKonu = havaDurumuVeMevsimler(karistir);
-const saglikliYasamVeCevreKonu = saglikliYasamVeCevre(karistir);
-writeFileSync(join(fenDir, 'dunya-ve-evren.json'), JSON.stringify(dunyaVeEvrenKonu, null, 2));
-writeFileSync(join(fenDir, 'hava-durumu-ve-mevsimler.json'), JSON.stringify(havaDurumuVeMevsimlerKonu, null, 2));
-writeFileSync(join(fenDir, 'saglikli-yasam-ve-cevre.json'), JSON.stringify(saglikliYasamVeCevreKonu, null, 2));
-
-const okulVeSinifKonu = okulVeSinif(karistir);
-const aileVeArkadaslikKonu = aileVeArkadaslik(karistir);
-const aileDuygularKonu = aileDuygular(karistir);
-const toplumVeCevreKonu = toplumVeCevre(karistir);
-writeFileSync(join(hbDir, 'okul-ve-sinif.json'), JSON.stringify(okulVeSinifKonu, null, 2));
-writeFileSync(join(hbDir, 'aile-ve-arkadaslik.json'), JSON.stringify(aileVeArkadaslikKonu, null, 2));
-writeFileSync(join(hbDir, 'aile-duygular.json'), JSON.stringify(aileDuygularKonu, null, 2));
-writeFileSync(join(hbDir, 'toplum-ve-cevre.json'), JSON.stringify(toplumVeCevreKonu, null, 2));
-
-const saglikVeTemizlikKonu = saglikVeTemizlik(karistir);
-const guvenliYasamKonu = guvenliYasam(karistir);
-const mesleklerVeCalismaHayatiKonu = mesleklerVeCalismaHayati(karistir);
-writeFileSync(join(hbDir, 'saglik-ve-temizlik.json'), JSON.stringify(saglikVeTemizlikKonu, null, 2));
-writeFileSync(join(hbDir, 'guvenli-yasam.json'), JSON.stringify(guvenliYasamKonu, null, 2));
-writeFileSync(join(hbDir, 'meslekler-ve-calisma-hayati.json'), JSON.stringify(mesleklerVeCalismaHayatiKonu, null, 2));
-
-const ulkemizVeVatandaslikKonu = ulkemizVeVatandaslik(karistir);
-const tarihVeKulturumuzKonu = tarihVeKulturumuz(karistir);
-const dogalAfetlerVeKorunmaKonu = dogalAfetlerVeKorunma(karistir);
-writeFileSync(join(hbDir, 'ulkemiz-ve-vatandaslik.json'), JSON.stringify(ulkemizVeVatandaslikKonu, null, 2));
-writeFileSync(join(hbDir, 'tarih-ve-kulturumuz.json'), JSON.stringify(tarihVeKulturumuzKonu, null, 2));
-writeFileSync(join(hbDir, 'dogal-afetler-ve-korunma.json'), JSON.stringify(dogalAfetlerVeKorunmaKonu, null, 2));
+const aileKonu = aileTema1(karistir);
+const evKonu = evTema2(karistir);
+const okulKonu = okulTema3(karistir);
+const toplumKonu = toplumTema4(karistir);
+const saglikKonu = saglikTema5(karistir);
+const guvenlikKonu = guvenlikTema6(karistir);
+const cevreKonu = cevreTema7(karistir);
+const iletisimKonu = iletisimTema8(karistir);
+const hbDuygularKonu = duygularTema9(karistir);
+const yasamBecerileriKonu = yasamBecerileriTema10(karistir);
+writeFileSync(join(hbDir, 'aile.json'), JSON.stringify(aileKonu, null, 2));
+writeFileSync(join(hbDir, 'ev.json'), JSON.stringify(evKonu, null, 2));
+writeFileSync(join(hbDir, 'okul.json'), JSON.stringify(okulKonu, null, 2));
+writeFileSync(join(hbDir, 'toplum.json'), JSON.stringify(toplumKonu, null, 2));
+writeFileSync(join(hbDir, 'saglik.json'), JSON.stringify(saglikKonu, null, 2));
+writeFileSync(join(hbDir, 'guvenlik.json'), JSON.stringify(guvenlikKonu, null, 2));
+writeFileSync(join(hbDir, 'cevre.json'), JSON.stringify(cevreKonu, null, 2));
+writeFileSync(join(hbDir, 'iletisim.json'), JSON.stringify(iletisimKonu, null, 2));
+writeFileSync(join(hbDir, 'duygular.json'), JSON.stringify(hbDuygularKonu, null, 2));
+writeFileSync(join(hbDir, 'yasam-becerileri.json'), JSON.stringify(yasamBecerileriKonu, null, 2));
 
 const alfabeVeRenklerKonu = alfabeVeRenkler(karistir);
 writeFileSync(join(ingDir, 'alfabe-ve-renkler.json'), JSON.stringify(alfabeVeRenklerKonu, null, 2));
@@ -601,9 +608,13 @@ writeFileSync(join(ingDir, 'ingilizce-sarkilar.json'), JSON.stringify(ingilizceS
 const englishDataDir = join(__dirname, '../src/data/english');
 const mathDataDir = join(__dirname, '../src/data/math');
 const turkceDataDir = join(__dirname, '../src/data/turkce');
+const fenDataDir = join(__dirname, '../src/data/fen');
+const hayatDataDir = join(__dirname, '../src/data/hayat');
 mkdirSync(englishDataDir, { recursive: true });
 mkdirSync(mathDataDir, { recursive: true });
 mkdirSync(turkceDataDir, { recursive: true });
+mkdirSync(fenDataDir, { recursive: true });
+mkdirSync(hayatDataDir, { recursive: true });
 const hayvanlarIngKonu = konuParca(hayvanlarIng);
 const yiyeceklerKonu = konuParca(yiyecekler);
 const sekillerIngKonu = konuParca(sekiller);
@@ -832,6 +843,40 @@ const turTema10 = {
 };
 writeFileSync(join(turkceDataDir, 'tema10.json'), JSON.stringify(turTema10, null, 2));
 
+const fenTema1 = { id: 'tema-1', baslik: 'Fen Bilimleri — Tema 1 — Canlıların Sınıflandırılması', konular: [canlilarinSiniflandirilmasiKonu] };
+const fenTema2 = { id: 'tema-2', baslik: 'Fen Bilimleri — Tema 2 — Bitkiler', konular: [bitkilerKonu] };
+const fenTema3 = { id: 'tema-3', baslik: 'Fen Bilimleri — Tema 3 — Hayvanlar', konular: [hayvanlarKonu] };
+const fenTema4 = { id: 'tema-4', baslik: 'Fen Bilimleri — Tema 4 — İnsan ve Sağlık', konular: [insanVeSaglikKonu] };
+const fenTema5 = { id: 'tema-5', baslik: 'Fen Bilimleri — Tema 5 — Madde', konular: [maddeKonu] };
+const fenTema6 = { id: 'tema-6', baslik: 'Fen Bilimleri — Tema 6 — Enerji', konular: [enerjiKonu] };
+const fenTema7 = { id: 'tema-7', baslik: 'Fen Bilimleri — Tema 7 — Işık', konular: [isikKonu] };
+const fenTema8 = { id: 'tema-8', baslik: 'Fen Bilimleri — Tema 8 — Ses', konular: [sesKonu] };
+const fenTema9 = { id: 'tema-9', baslik: 'Fen Bilimleri — Tema 9 — Kuvvet ve Hareket', konular: [kuvvetVeHareketKonu] };
+const fenTema10 = { id: 'tema-10', baslik: 'Fen Bilimleri — Tema 10 — Yer ve Uzay', konular: [yerVeUzayKonu] };
+for (const [i, t] of [
+  [1, fenTema1], [2, fenTema2], [3, fenTema3], [4, fenTema4], [5, fenTema5],
+  [6, fenTema6], [7, fenTema7], [8, fenTema8], [9, fenTema9], [10, fenTema10],
+]) {
+  writeFileSync(join(fenDataDir, `tema${i}.json`), JSON.stringify(t, null, 2));
+}
+
+const hbTema1 = { id: 'tema-1', baslik: 'Hayat Bilgisi — Tema 1 — Aile', konular: [aileKonu] };
+const hbTema2 = { id: 'tema-2', baslik: 'Hayat Bilgisi — Tema 2 — Ev', konular: [evKonu] };
+const hbTema3 = { id: 'tema-3', baslik: 'Hayat Bilgisi — Tema 3 — Okul', konular: [okulKonu] };
+const hbTema4 = { id: 'tema-4', baslik: 'Hayat Bilgisi — Tema 4 — Toplum', konular: [toplumKonu] };
+const hbTema5 = { id: 'tema-5', baslik: 'Hayat Bilgisi — Tema 5 — Sağlık', konular: [saglikKonu] };
+const hbTema6 = { id: 'tema-6', baslik: 'Hayat Bilgisi — Tema 6 — Güvenlik', konular: [guvenlikKonu] };
+const hbTema7 = { id: 'tema-7', baslik: 'Hayat Bilgisi — Tema 7 — Çevre', konular: [cevreKonu] };
+const hbTema8 = { id: 'tema-8', baslik: 'Hayat Bilgisi — Tema 8 — İletişim', konular: [iletisimKonu] };
+const hbTema9 = { id: 'tema-9', baslik: 'Hayat Bilgisi — Tema 9 — Duygular', konular: [hbDuygularKonu] };
+const hbTema10 = { id: 'tema-10', baslik: 'Hayat Bilgisi — Tema 10 — Yaşam Becerileri', konular: [yasamBecerileriKonu] };
+for (const [i, t] of [
+  [1, hbTema1], [2, hbTema2], [3, hbTema3], [4, hbTema4], [5, hbTema5],
+  [6, hbTema6], [7, hbTema7], [8, hbTema8], [9, hbTema9], [10, hbTema10],
+]) {
+  writeFileSync(join(hayatDataDir, `tema${i}.json`), JSON.stringify(t, null, 2));
+}
+
 const hikayeDir = join(__dirname, '../content/sinif2/okuma-kosesi');
 mkdirSync(hikayeDir, { recursive: true });
 
@@ -1045,72 +1090,32 @@ const index = {
       id: 'hayat-bilgisi',
       baslik: 'Hayat Bilgisi',
       unite: [
-        {
-          id: 'tema-1',
-          baslik: 'Hayat Bilgisi — Tema 1',
-          konuDosyalari: [
-            'hayat-bilgisi/okul-ve-sinif.json',
-            'hayat-bilgisi/aile-ve-arkadaslik.json',
-            'hayat-bilgisi/aile-duygular.json',
-            'hayat-bilgisi/toplum-ve-cevre.json',
-          ],
-        },
-        {
-          id: 'tema-2',
-          baslik: 'Hayat Bilgisi — Tema 2',
-          konuDosyalari: [
-            'hayat-bilgisi/saglik-ve-temizlik.json',
-            'hayat-bilgisi/guvenli-yasam.json',
-            'hayat-bilgisi/meslekler-ve-calisma-hayati.json',
-          ],
-        },
-        {
-          id: 'tema-3',
-          baslik: 'Hayat Bilgisi — Tema 3',
-          konuDosyalari: [
-            'hayat-bilgisi/ulkemiz-ve-vatandaslik.json',
-            'hayat-bilgisi/tarih-ve-kulturumuz.json',
-            'hayat-bilgisi/dogal-afetler-ve-korunma.json',
-          ],
-        },
+        { id: 'tema-1', baslik: 'Hayat Bilgisi — Tema 1 — Aile', konuDosyalari: ['hayat-bilgisi/aile.json'] },
+        { id: 'tema-2', baslik: 'Hayat Bilgisi — Tema 2 — Ev', konuDosyalari: ['hayat-bilgisi/ev.json'] },
+        { id: 'tema-3', baslik: 'Hayat Bilgisi — Tema 3 — Okul', konuDosyalari: ['hayat-bilgisi/okul.json'] },
+        { id: 'tema-4', baslik: 'Hayat Bilgisi — Tema 4 — Toplum', konuDosyalari: ['hayat-bilgisi/toplum.json'] },
+        { id: 'tema-5', baslik: 'Hayat Bilgisi — Tema 5 — Sağlık', konuDosyalari: ['hayat-bilgisi/saglik.json'] },
+        { id: 'tema-6', baslik: 'Hayat Bilgisi — Tema 6 — Güvenlik', konuDosyalari: ['hayat-bilgisi/guvenlik.json'] },
+        { id: 'tema-7', baslik: 'Hayat Bilgisi — Tema 7 — Çevre', konuDosyalari: ['hayat-bilgisi/cevre.json'] },
+        { id: 'tema-8', baslik: 'Hayat Bilgisi — Tema 8 — İletişim', konuDosyalari: ['hayat-bilgisi/iletisim.json'] },
+        { id: 'tema-9', baslik: 'Hayat Bilgisi — Tema 9 — Duygular', konuDosyalari: ['hayat-bilgisi/duygular.json'] },
+        { id: 'tema-10', baslik: 'Hayat Bilgisi — Tema 10 — Yaşam Becerileri', konuDosyalari: ['hayat-bilgisi/yasam-becerileri.json'] },
       ],
     },
     {
       id: 'fen-bilimleri',
       baslik: 'Fen Bilimleri',
       unite: [
-        {
-          id: 'tema-1',
-          baslik: 'Fen Bilimleri — Tema 1',
-          konuDosyalari: [
-            'fen-bilimleri/canlilar.json',
-          ],
-        },
-        {
-          id: 'tema-2',
-          baslik: 'Fen Bilimleri — Tema 2',
-          konuDosyalari: [
-            'fen-bilimleri/bitkiler.json',
-          ],
-        },
-        {
-          id: 'tema-3',
-          baslik: 'Fen Bilimleri — Tema 3',
-          konuDosyalari: [
-            'fen-bilimleri/dunya-ve-evren.json',
-            'fen-bilimleri/hava-durumu-ve-mevsimler.json',
-            'fen-bilimleri/saglikli-yasam-ve-cevre.json',
-          ],
-        },
-        {
-          id: 'tema-4',
-          baslik: 'Fen Bilimleri — Tema 4',
-          konuDosyalari: [
-            'fen-bilimleri/madde-ve-ozellikleri.json',
-            'fen-bilimleri/kuvvet-ve-hareket.json',
-            'fen-bilimleri/isik-ve-ses.json',
-          ],
-        },
+        { id: 'tema-1', baslik: 'Fen Bilimleri — Tema 1 — Canlıların Sınıflandırılması', konuDosyalari: ['fen-bilimleri/canlilarin-siniflandirilmasi.json'] },
+        { id: 'tema-2', baslik: 'Fen Bilimleri — Tema 2 — Bitkiler', konuDosyalari: ['fen-bilimleri/bitkiler.json'] },
+        { id: 'tema-3', baslik: 'Fen Bilimleri — Tema 3 — Hayvanlar', konuDosyalari: ['fen-bilimleri/hayvanlar.json'] },
+        { id: 'tema-4', baslik: 'Fen Bilimleri — Tema 4 — İnsan ve Sağlık', konuDosyalari: ['fen-bilimleri/insan-ve-saglik.json'] },
+        { id: 'tema-5', baslik: 'Fen Bilimleri — Tema 5 — Madde', konuDosyalari: ['fen-bilimleri/madde.json'] },
+        { id: 'tema-6', baslik: 'Fen Bilimleri — Tema 6 — Enerji', konuDosyalari: ['fen-bilimleri/enerji.json'] },
+        { id: 'tema-7', baslik: 'Fen Bilimleri — Tema 7 — Işık', konuDosyalari: ['fen-bilimleri/isik.json'] },
+        { id: 'tema-8', baslik: 'Fen Bilimleri — Tema 8 — Ses', konuDosyalari: ['fen-bilimleri/ses.json'] },
+        { id: 'tema-9', baslik: 'Fen Bilimleri — Tema 9 — Kuvvet ve Hareket', konuDosyalari: ['fen-bilimleri/kuvvet-ve-hareket.json'] },
+        { id: 'tema-10', baslik: 'Fen Bilimleri — Tema 10 — Yer ve Uzay', konuDosyalari: ['fen-bilimleri/yer-ve-uzay.json'] },
       ],
     },
     { id: 'ingilizce', baslik: 'İngilizce', unite: [
@@ -1276,26 +1281,26 @@ console.log('Sözcük ve dil bilgisi:', sozcukVeDilBilgisiKonu.alistirma.length,
 console.log('Metin anlama ve yorumlama:', metinAnlamaVeYorumlamaKonu.alistirma.length, '+', metinAnlamaVeYorumlamaKonu.test.length);
 console.log('Kelime ve anlam bilgisi ileri:', kelimeVeAnlamBilgisiIleriKonu.alistirma.length, '+', kelimeVeAnlamBilgisiIleriKonu.test.length);
 console.log('Yazma ve anlatım ileri:', yazmaVeAnlatimIleriKonu.alistirma.length, '+', yazmaVeAnlatimIleriKonu.test.length);
-console.log('Canlılar:', canlilarKonu.alistirma.length, '+', canlilarKonu.test.length);
-console.log('Canlılar ve cansızlar:', canlilarVeCansizlarKonu.alistirma.length, '+', canlilarVeCansizlarKonu.test.length);
-console.log('Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
-console.log('Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
-console.log('Madde ve özellikleri:', maddeVeOzellikleriKonu.alistirma.length, '+', maddeVeOzellikleriKonu.test.length);
-console.log('Kuvvet ve hareket:', kuvvetVeHareketKonu.alistirma.length, '+', kuvvetVeHareketKonu.test.length);
-console.log('Işık ve ses:', isikVeSesKonu.alistirma.length, '+', isikVeSesKonu.test.length);
-console.log('Dünya ve evren:', dunyaVeEvrenKonu.alistirma.length, '+', dunyaVeEvrenKonu.test.length);
-console.log('Hava durumu ve mevsimler:', havaDurumuVeMevsimlerKonu.alistirma.length, '+', havaDurumuVeMevsimlerKonu.test.length);
-console.log('Sağlıklı yaşam ve çevre:', saglikliYasamVeCevreKonu.alistirma.length, '+', saglikliYasamVeCevreKonu.test.length);
-console.log('Okul ve sınıf:', okulVeSinifKonu.alistirma.length, '+', okulVeSinifKonu.test.length);
-console.log('Aile ve arkadaşlık:', aileVeArkadaslikKonu.alistirma.length, '+', aileVeArkadaslikKonu.test.length);
-console.log('Aile ve duygular:', aileDuygularKonu.alistirma.length, '+', aileDuygularKonu.test.length);
-console.log('Toplum ve çevre:', toplumVeCevreKonu.alistirma.length, '+', toplumVeCevreKonu.test.length);
-console.log('Sağlık ve temizlik:', saglikVeTemizlikKonu.alistirma.length, '+', saglikVeTemizlikKonu.test.length);
-console.log('Güvenli yaşam:', guvenliYasamKonu.alistirma.length, '+', guvenliYasamKonu.test.length);
-console.log('Meslekler ve çalışma hayatı:', mesleklerVeCalismaHayatiKonu.alistirma.length, '+', mesleklerVeCalismaHayatiKonu.test.length);
-console.log('Ülkemiz ve vatandaşlık:', ulkemizVeVatandaslikKonu.alistirma.length, '+', ulkemizVeVatandaslikKonu.test.length);
-console.log('Tarih ve kültürümüz:', tarihVeKulturumuzKonu.alistirma.length, '+', tarihVeKulturumuzKonu.test.length);
-console.log('Doğal afetler ve korunma:', dogalAfetlerVeKorunmaKonu.alistirma.length, '+', dogalAfetlerVeKorunmaKonu.test.length);
+console.log('Fen T1 Canlıların Sınıflandırılması:', canlilarinSiniflandirilmasiKonu.alistirma.length, '+', canlilarinSiniflandirilmasiKonu.test.length);
+console.log('Fen T2 Bitkiler:', bitkilerKonu.alistirma.length, '+', bitkilerKonu.test.length);
+console.log('Fen T3 Hayvanlar:', hayvanlarKonu.alistirma.length, '+', hayvanlarKonu.test.length);
+console.log('Fen T4 İnsan ve Sağlık:', insanVeSaglikKonu.alistirma.length, '+', insanVeSaglikKonu.test.length);
+console.log('Fen T5 Madde:', maddeKonu.alistirma.length, '+', maddeKonu.test.length);
+console.log('Fen T6 Enerji:', enerjiKonu.alistirma.length, '+', enerjiKonu.test.length);
+console.log('Fen T7 Işık:', isikKonu.alistirma.length, '+', isikKonu.test.length);
+console.log('Fen T8 Ses:', sesKonu.alistirma.length, '+', sesKonu.test.length);
+console.log('Fen T9 Kuvvet:', kuvvetVeHareketKonu.alistirma.length, '+', kuvvetVeHareketKonu.test.length);
+console.log('Fen T10 Yer ve Uzay:', yerVeUzayKonu.alistirma.length, '+', yerVeUzayKonu.test.length);
+console.log('Hayat T1 Aile:', aileKonu.alistirma.length, '+', aileKonu.test.length);
+console.log('Hayat T2 Ev:', evKonu.alistirma.length, '+', evKonu.test.length);
+console.log('Hayat T3 Okul:', okulKonu.alistirma.length, '+', okulKonu.test.length);
+console.log('Hayat T4 Toplum:', toplumKonu.alistirma.length, '+', toplumKonu.test.length);
+console.log('Hayat T5 Sağlık:', saglikKonu.alistirma.length, '+', saglikKonu.test.length);
+console.log('Hayat T6 Güvenlik:', guvenlikKonu.alistirma.length, '+', guvenlikKonu.test.length);
+console.log('Hayat T7 Çevre:', cevreKonu.alistirma.length, '+', cevreKonu.test.length);
+console.log('Hayat T8 İletişim:', iletisimKonu.alistirma.length, '+', iletisimKonu.test.length);
+console.log('Hayat T9 Duygular:', hbDuygularKonu.alistirma.length, '+', hbDuygularKonu.test.length);
+console.log('Hayat T10 Yaşam Becerileri:', yasamBecerileriKonu.alistirma.length, '+', yasamBecerileriKonu.test.length);
 console.log('Alfabe ve renkler:', alfabeVeRenklerKonu.alistirma.length, '+', alfabeVeRenklerKonu.test.length);
 console.log('Sayılar ve sınıf eşyaları:', sayilarVeSinifEsyalariKonu.alistirma.length, '+', sayilarVeSinifEsyalariKonu.test.length);
 console.log('Günler ve aylar:', gunlerVeAylarKonu.alistirma.length, '+', gunlerVeAylarKonu.test.length);

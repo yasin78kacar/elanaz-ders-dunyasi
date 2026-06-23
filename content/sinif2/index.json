@@ -205,30 +205,72 @@
       "unite": [
         {
           "id": "tema-1",
-          "baslik": "Hayat Bilgisi — Tema 1",
+          "baslik": "Hayat Bilgisi — Tema 1 — Aile",
           "konuDosyalari": [
-            "hayat-bilgisi/okul-ve-sinif.json",
-            "hayat-bilgisi/aile-ve-arkadaslik.json",
-            "hayat-bilgisi/aile-duygular.json",
-            "hayat-bilgisi/toplum-ve-cevre.json"
+            "hayat-bilgisi/aile.json"
           ]
         },
         {
           "id": "tema-2",
-          "baslik": "Hayat Bilgisi — Tema 2",
+          "baslik": "Hayat Bilgisi — Tema 2 — Ev",
           "konuDosyalari": [
-            "hayat-bilgisi/saglik-ve-temizlik.json",
-            "hayat-bilgisi/guvenli-yasam.json",
-            "hayat-bilgisi/meslekler-ve-calisma-hayati.json"
+            "hayat-bilgisi/ev.json"
           ]
         },
         {
           "id": "tema-3",
-          "baslik": "Hayat Bilgisi — Tema 3",
+          "baslik": "Hayat Bilgisi — Tema 3 — Okul",
           "konuDosyalari": [
-            "hayat-bilgisi/ulkemiz-ve-vatandaslik.json",
-            "hayat-bilgisi/tarih-ve-kulturumuz.json",
-            "hayat-bilgisi/dogal-afetler-ve-korunma.json"
+            "hayat-bilgisi/okul.json"
+          ]
+        },
+        {
+          "id": "tema-4",
+          "baslik": "Hayat Bilgisi — Tema 4 — Toplum",
+          "konuDosyalari": [
+            "hayat-bilgisi/toplum.json"
+          ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Hayat Bilgisi — Tema 5 — Sağlık",
+          "konuDosyalari": [
+            "hayat-bilgisi/saglik.json"
+          ]
+        },
+        {
+          "id": "tema-6",
+          "baslik": "Hayat Bilgisi — Tema 6 — Güvenlik",
+          "konuDosyalari": [
+            "hayat-bilgisi/guvenlik.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Hayat Bilgisi — Tema 7 — Çevre",
+          "konuDosyalari": [
+            "hayat-bilgisi/cevre.json"
+          ]
+        },
+        {
+          "id": "tema-8",
+          "baslik": "Hayat Bilgisi — Tema 8 — İletişim",
+          "konuDosyalari": [
+            "hayat-bilgisi/iletisim.json"
+          ]
+        },
+        {
+          "id": "tema-9",
+          "baslik": "Hayat Bilgisi — Tema 9 — Duygular",
+          "konuDosyalari": [
+            "hayat-bilgisi/duygular.json"
+          ]
+        },
+        {
+          "id": "tema-10",
+          "baslik": "Hayat Bilgisi — Tema 10 — Yaşam Becerileri",
+          "konuDosyalari": [
+            "hayat-bilgisi/yasam-becerileri.json"
           ]
         }
       ]
@@ -239,34 +281,72 @@
       "unite": [
         {
           "id": "tema-1",
-          "baslik": "Fen Bilimleri — Tema 1",
+          "baslik": "Fen Bilimleri — Tema 1 — Canlıların Sınıflandırılması",
           "konuDosyalari": [
-            "fen-bilimleri/canlilar.json"
+            "fen-bilimleri/canlilarin-siniflandirilmasi.json"
           ]
         },
         {
           "id": "tema-2",
-          "baslik": "Fen Bilimleri — Tema 2",
+          "baslik": "Fen Bilimleri — Tema 2 — Bitkiler",
           "konuDosyalari": [
             "fen-bilimleri/bitkiler.json"
           ]
         },
         {
           "id": "tema-3",
-          "baslik": "Fen Bilimleri — Tema 3",
+          "baslik": "Fen Bilimleri — Tema 3 — Hayvanlar",
           "konuDosyalari": [
-            "fen-bilimleri/dunya-ve-evren.json",
-            "fen-bilimleri/hava-durumu-ve-mevsimler.json",
-            "fen-bilimleri/saglikli-yasam-ve-cevre.json"
+            "fen-bilimleri/hayvanlar.json"
           ]
         },
         {
           "id": "tema-4",
-          "baslik": "Fen Bilimleri — Tema 4",
+          "baslik": "Fen Bilimleri — Tema 4 — İnsan ve Sağlık",
           "konuDosyalari": [
-            "fen-bilimleri/madde-ve-ozellikleri.json",
-            "fen-bilimleri/kuvvet-ve-hareket.json",
-            "fen-bilimleri/isik-ve-ses.json"
+            "fen-bilimleri/insan-ve-saglik.json"
+          ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Fen Bilimleri — Tema 5 — Madde",
+          "konuDosyalari": [
+            "fen-bilimleri/madde.json"
+          ]
+        },
+        {
+          "id": "tema-6",
+          "baslik": "Fen Bilimleri — Tema 6 — Enerji",
+          "konuDosyalari": [
+            "fen-bilimleri/enerji.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Fen Bilimleri — Tema 7 — Işık",
+          "konuDosyalari": [
+            "fen-bilimleri/isik.json"
+          ]
+        },
+        {
+          "id": "tema-8",
+          "baslik": "Fen Bilimleri — Tema 8 — Ses",
+          "konuDosyalari": [
+            "fen-bilimleri/ses.json"
+          ]
+        },
+        {
+          "id": "tema-9",
+          "baslik": "Fen Bilimleri — Tema 9 — Kuvvet ve Hareket",
+          "konuDosyalari": [
+            "fen-bilimleri/kuvvet-ve-hareket.json"
+          ]
+        },
+        {
+          "id": "tema-10",
+          "baslik": "Fen Bilimleri — Tema 10 — Yer ve Uzay",
+          "konuDosyalari": [
+            "fen-bilimleri/yer-ve-uzay.json"
           ]
         }
       ]

@@ -36,24 +36,26 @@ import sozcukVeDilBilgisi from '../../content/sinif2/turkce/sozcuk-ve-dil-bilgis
 import metinAnlamaVeYorumlama from '../../content/sinif2/turkce/metin-anlama-ve-yorumlama.json';
 import kelimeVeAnlamBilgisiIleri from '../../content/sinif2/turkce/kelime-ve-anlam-bilgisi-ileri.json';
 import yazmaVeAnlatimIleri from '../../content/sinif2/turkce/yazma-ve-anlatim-ileri.json';
-import canlilar from '../../content/sinif2/fen-bilimleri/canlilar.json';
+import canlilarinSiniflandirilmasi from '../../content/sinif2/fen-bilimleri/canlilarin-siniflandirilmasi.json';
 import bitkiler from '../../content/sinif2/fen-bilimleri/bitkiler.json';
-import maddeVeOzellikleri from '../../content/sinif2/fen-bilimleri/madde-ve-ozellikleri.json';
+import hayvanlar from '../../content/sinif2/fen-bilimleri/hayvanlar.json';
+import insanVeSaglik from '../../content/sinif2/fen-bilimleri/insan-ve-saglik.json';
+import madde from '../../content/sinif2/fen-bilimleri/madde.json';
+import enerji from '../../content/sinif2/fen-bilimleri/enerji.json';
+import isik from '../../content/sinif2/fen-bilimleri/isik.json';
+import ses from '../../content/sinif2/fen-bilimleri/ses.json';
 import kuvvetVeHareket from '../../content/sinif2/fen-bilimleri/kuvvet-ve-hareket.json';
-import isikVeSes from '../../content/sinif2/fen-bilimleri/isik-ve-ses.json';
-import dunyaVeEvren from '../../content/sinif2/fen-bilimleri/dunya-ve-evren.json';
-import havaDurumuVeMevsimler from '../../content/sinif2/fen-bilimleri/hava-durumu-ve-mevsimler.json';
-import saglikliYasamVeCevre from '../../content/sinif2/fen-bilimleri/saglikli-yasam-ve-cevre.json';
-import okulVeSinif from '../../content/sinif2/hayat-bilgisi/okul-ve-sinif.json';
-import aileVeArkadaslik from '../../content/sinif2/hayat-bilgisi/aile-ve-arkadaslik.json';
-import aileDuygular from '../../content/sinif2/hayat-bilgisi/aile-duygular.json';
-import toplumVeCevre from '../../content/sinif2/hayat-bilgisi/toplum-ve-cevre.json';
-import saglikVeTemizlik from '../../content/sinif2/hayat-bilgisi/saglik-ve-temizlik.json';
-import guvenliYasam from '../../content/sinif2/hayat-bilgisi/guvenli-yasam.json';
-import mesleklerVeCalismaHayati from '../../content/sinif2/hayat-bilgisi/meslekler-ve-calisma-hayati.json';
-import ulkemizVeVatandaslik from '../../content/sinif2/hayat-bilgisi/ulkemiz-ve-vatandaslik.json';
-import tarihVeKulturumuz from '../../content/sinif2/hayat-bilgisi/tarih-ve-kulturumuz.json';
-import dogalAfetlerVeKorunma from '../../content/sinif2/hayat-bilgisi/dogal-afetler-ve-korunma.json';
+import yerVeUzay from '../../content/sinif2/fen-bilimleri/yer-ve-uzay.json';
+import aile from '../../content/sinif2/hayat-bilgisi/aile.json';
+import ev from '../../content/sinif2/hayat-bilgisi/ev.json';
+import okul from '../../content/sinif2/hayat-bilgisi/okul.json';
+import toplum from '../../content/sinif2/hayat-bilgisi/toplum.json';
+import saglik from '../../content/sinif2/hayat-bilgisi/saglik.json';
+import guvenlik from '../../content/sinif2/hayat-bilgisi/guvenlik.json';
+import cevre from '../../content/sinif2/hayat-bilgisi/cevre.json';
+import iletisim from '../../content/sinif2/hayat-bilgisi/iletisim.json';
+import duygular from '../../content/sinif2/hayat-bilgisi/duygular.json';
+import yasamBecerileri from '../../content/sinif2/hayat-bilgisi/yasam-becerileri.json';
 import alfabeVeRenkler from '../../content/sinif2/ingilizce/alfabe-ve-renkler.json';
 import sayilarVeSinifEsyalari from '../../content/sinif2/ingilizce/sayilar-ve-sinif-esyalari.json';
 import yazTuruHikaye from '../../content/sinif2/turkce/yaz-turu-hikaye.json';
@@ -195,24 +197,26 @@ const konuDosyalari: Record<string, Konu> = {
   'turkce/yaz-turu-siir.json': yazTuruSiir as Konu,
   'turkce/olay-sirasi-metin.json': olaySirasiMetin as Konu,
   'turkce/olay-sirasi-zaman.json': olaySirasiZaman as Konu,
-  'fen-bilimleri/canlilar.json': canlilar as Konu,
+  'fen-bilimleri/canlilarin-siniflandirilmasi.json': canlilarinSiniflandirilmasi as Konu,
   'fen-bilimleri/bitkiler.json': bitkiler as Konu,
-  'fen-bilimleri/madde-ve-ozellikleri.json': maddeVeOzellikleri as Konu,
+  'fen-bilimleri/hayvanlar.json': hayvanlar as Konu,
+  'fen-bilimleri/insan-ve-saglik.json': insanVeSaglik as Konu,
+  'fen-bilimleri/madde.json': madde as Konu,
+  'fen-bilimleri/enerji.json': enerji as Konu,
+  'fen-bilimleri/isik.json': isik as Konu,
+  'fen-bilimleri/ses.json': ses as Konu,
   'fen-bilimleri/kuvvet-ve-hareket.json': kuvvetVeHareket as Konu,
-  'fen-bilimleri/isik-ve-ses.json': isikVeSes as Konu,
-  'fen-bilimleri/dunya-ve-evren.json': dunyaVeEvren as Konu,
-  'fen-bilimleri/hava-durumu-ve-mevsimler.json': havaDurumuVeMevsimler as Konu,
-  'fen-bilimleri/saglikli-yasam-ve-cevre.json': saglikliYasamVeCevre as Konu,
-  'hayat-bilgisi/okul-ve-sinif.json': okulVeSinif as Konu,
-  'hayat-bilgisi/aile-ve-arkadaslik.json': aileVeArkadaslik as Konu,
-  'hayat-bilgisi/aile-duygular.json': aileDuygular as Konu,
-  'hayat-bilgisi/toplum-ve-cevre.json': toplumVeCevre as Konu,
-  'hayat-bilgisi/saglik-ve-temizlik.json': saglikVeTemizlik as Konu,
-  'hayat-bilgisi/guvenli-yasam.json': guvenliYasam as Konu,
-  'hayat-bilgisi/meslekler-ve-calisma-hayati.json': mesleklerVeCalismaHayati as Konu,
-  'hayat-bilgisi/ulkemiz-ve-vatandaslik.json': ulkemizVeVatandaslik as Konu,
-  'hayat-bilgisi/tarih-ve-kulturumuz.json': tarihVeKulturumuz as Konu,
-  'hayat-bilgisi/dogal-afetler-ve-korunma.json': dogalAfetlerVeKorunma as Konu,
+  'fen-bilimleri/yer-ve-uzay.json': yerVeUzay as Konu,
+  'hayat-bilgisi/aile.json': aile as Konu,
+  'hayat-bilgisi/ev.json': ev as Konu,
+  'hayat-bilgisi/okul.json': okul as Konu,
+  'hayat-bilgisi/toplum.json': toplum as Konu,
+  'hayat-bilgisi/saglik.json': saglik as Konu,
+  'hayat-bilgisi/guvenlik.json': guvenlik as Konu,
+  'hayat-bilgisi/cevre.json': cevre as Konu,
+  'hayat-bilgisi/iletisim.json': iletisim as Konu,
+  'hayat-bilgisi/duygular.json': duygular as Konu,
+  'hayat-bilgisi/yasam-becerileri.json': yasamBecerileri as Konu,
   'ingilizce/alfabe-ve-renkler.json': alfabeVeRenkler as Konu,
   'ingilizce/sayilar-ve-sinif-esyalari.json': sayilarVeSinifEsyalari as Konu,
   'ingilizce/selamlasma-ve-aile.json': selamlasmaVeAileKonu,

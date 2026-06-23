@@ -439,10 +439,10 @@
       "soru": "Elanaz 20 tahmin etti, gerçek 25 çıktı. Nasıl tahmin etmiş?",
       "dogruCevap": "Az",
       "secenekler": [
-        "Doğru",
-        "Hiç",
         "Az",
-        "Fazla"
+        "Fazla",
+        "Doğru",
+        "Hiç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -459,10 +459,10 @@
       "soru": "Bir sınıfta kaç öğrenci olur (makul tahmin)?",
       "dogruCevap": "30",
       "secenekler": [
-        "300",
-        "30",
+        "3",
         "3000",
-        "3"
+        "300",
+        "30"
       ],
       "ipucu": "",
       "gorsel": {
@@ -477,9 +477,9 @@
       "soru": "Tahmin: 15, Gerçek: 15. Bu nasıl bir tahmin?",
       "dogruCevap": "Tam",
       "secenekler": [
-        "Az",
         "Fazla",
         "Tam",
+        "Az",
         "Kötü"
       ],
       "ipucu": "",
@@ -499,8 +499,8 @@
       "secenekler": [
         "5",
         "100",
-        "200",
-        "38"
+        "38",
+        "200"
       ],
       "ipucu": "Gerçeğe en yakın olan en iyi tahmindir!",
       "gorsel": {
@@ -520,8 +520,8 @@
       "secenekler": [
         "Fazla",
         "Doğru",
-        "Makul",
-        "Az"
+        "Az",
+        "Makul"
       ],
       "ipucu": "",
       "gorsel": {
@@ -539,8 +539,8 @@
       "dogruCevap": "Referans grup kullan",
       "secenekler": [
         "Çuvalı tart",
-        "Referans grup kullan",
         "Hiç bakma",
+        "Referans grup kullan",
         "Hepsini say"
       ],
       "ipucu": "",
@@ -556,10 +556,10 @@
       "soru": "🎭 \"Tahmin ne kadar gerçeğe yakınsa o kadar iyidir.\" Bu doğru mu?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
         "Evet",
         "Hiçbir zaman",
-        "Bazen"
+        "Bazen",
+        "Hayır"
       ],
       "ipucu": "Tahminimizin amacı gerçeğe yakın olmak!",
       "gorsel": {
@@ -576,8 +576,8 @@
       "dogruCevap": "Az",
       "secenekler": [
         "Makul değil",
-        "Az",
         "Tam",
+        "Az",
         "Fazla"
       ],
       "ipucu": "",
@@ -595,10 +595,10 @@
       "soru": "Hangisi makul bir tahmin DEĞİLDİR?",
       "dogruCevap": "Okulda 1.000.000 öğrenci",
       "secenekler": [
-        "Kalem kutusunda 10 kalem",
         "Sınıfta 28 öğrenci",
-        "Kitapta 150 sayfa",
-        "Okulda 1.000.000 öğrenci"
+        "Okulda 1.000.000 öğrenci",
+        "Kalem kutusunda 10 kalem",
+        "Kitapta 150 sayfa"
       ],
       "ipucu": "",
       "gorsel": {
@@ -615,8 +615,8 @@
       "secenekler": [
         "Orta",
         "Hayır, çok yanlış",
-        "Kötü",
-        "Evet, çok iyi"
+        "Evet, çok iyi",
+        "Kötü"
       ],
       "ipucu": "100 tahmin, 97 gerçek — fark sadece 3!",
       "gorsel": {
@@ -634,10 +634,10 @@
       "soru": "Bir ağaçta yaklaşık kaç yaprak olur?",
       "dogruCevap": "1.000",
       "secenekler": [
-        "1.000",
+        "5",
         "1.000.000",
-        "10",
-        "5"
+        "1.000",
+        "10"
       ],
       "ipucu": "",
       "gorsel": {
@@ -652,10 +652,10 @@
       "soru": "Tahmin: 60, Gerçek: 20. Nasıl tahmin edilmiş?",
       "dogruCevap": "Fazla",
       "secenekler": [
-        "Makul",
         "Az",
-        "Doğru",
-        "Fazla"
+        "Fazla",
+        "Makul",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -673,9 +673,9 @@
       "dogruCevap": "30",
       "secenekler": [
         "30",
-        "100",
         "10",
-        "20"
+        "20",
+        "100"
       ],
       "ipucu": "3 kap × 10 boncuk = ?",
       "gorsel": {
@@ -691,10 +691,10 @@
       "soru": "Elanaz saymadan önce \"yaklaşık 15\" dedi, gerçek 14 çıktı. Bu nasıl bir tahmin?",
       "dogruCevap": "Fazla ama iyi",
       "secenekler": [
-        "Fazla ama iyi",
         "Kötü",
-        "Hiç",
-        "Az ve kötü"
+        "Fazla ama iyi",
+        "Az ve kötü",
+        "Hiç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -711,10 +711,10 @@
       "soru": "Hangisi tahmin için doğru bir yaklaşımdır?",
       "dogruCevap": "Referans grup kullan",
       "secenekler": [
-        "Rastgele söyle",
-        "Referans grup kullan",
         "Saymadan cevapla",
-        "Büyük sayı söyle"
+        "Rastgele söyle",
+        "Büyük sayı söyle",
+        "Referans grup kullan"
       ],
       "ipucu": "",
       "gorsel": {
@@ -730,8 +730,8 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Sadece küçük hatalar",
         "Evet",
+        "Sadece küçük hatalar",
         "Hiçbir zaman hata olmaz"
       ],
       "ipucu": "Tahmin = kesin değil — hata olabilir, önemli olan makul olmak!",
@@ -748,10 +748,10 @@
       "soru": "Tahmin: 50, Gerçek: 48. Bu nasıl bir tahmin?",
       "dogruCevap": "Fazla ama çok iyi",
       "secenekler": [
-        "Yanlış",
-        "Az",
         "Kötü",
-        "Fazla ama çok iyi"
+        "Az",
+        "Fazla ama çok iyi",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -768,10 +768,10 @@
       "soru": "Bir fincan çayda yaklaşık kaç yudum su var?",
       "dogruCevap": "10",
       "secenekler": [
-        "10",
         "100",
-        "1",
-        "1000"
+        "1000",
+        "10",
+        "1"
       ],
       "ipucu": "",
       "gorsel": {
@@ -786,10 +786,10 @@
       "soru": "🎭 Aynı büyüklükte iki kutuda biri büyük toplarla, biri küçük toplarla dolu. Hangisinde daha az top vardır?",
       "dogruCevap": "Büyük toplarda",
       "secenekler": [
-        "İkisinde eşit",
         "Küçük toplarda",
+        "Hiçbirinde",
         "Büyük toplarda",
-        "Hiçbirinde"
+        "İkisinde eşit"
       ],
       "ipucu": "Büyük nesneler daha az sığar!",
       "gorsel": {
@@ -805,10 +805,10 @@
       "soru": "Tahmin: 25, Gerçek: 50. Nasıl tahmin edilmiş?",
       "dogruCevap": "Az",
       "secenekler": [
-        "Doğru",
-        "Az",
         "Fazla",
-        "Makul"
+        "Az",
+        "Makul",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -825,10 +825,10 @@
       "soru": "Okuldaki tüm öğrencileri tahmin etmek için ne yapabiliriz?",
       "dogruCevap": "Bir sınıfı say, sınıf sayısıyla çarp",
       "secenekler": [
-        "Sadece bak",
-        "Bir sınıfı say, sınıf sayısıyla çarp",
         "Rastgele say",
-        "Sormak yok"
+        "Bir sınıfı say, sınıf sayısıyla çarp",
+        "Sormak yok",
+        "Sadece bak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -843,10 +843,10 @@
       "soru": "🎭 Elanaz \"Tahmin 10, Gerçek 11 — bu kötü bir tahmin\" dedi. Haklı mı?",
       "dogruCevap": "Hayır, 1 fark çok iyi tahmin",
       "secenekler": [
-        "Belki",
+        "Hayır, 1 fark çok iyi tahmin",
         "Evet, haklı",
         "Tahmin söylenmez",
-        "Hayır, 1 fark çok iyi tahmin"
+        "Belki"
       ],
       "ipucu": "Sadece 1 fark — bu mükemmel tahmin sayılır!",
       "gorsel": {
@@ -884,8 +884,8 @@
       "secenekler": [
         "Az",
         "Fazla",
-        "İyi",
-        "Makul"
+        "Makul",
+        "İyi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -902,10 +902,10 @@
       "soru": "🎭 İyi tahmin yapabilmek için en önemli şey nedir?",
       "dogruCevap": "Referans kullanmak ve deneyim",
       "secenekler": [
-        "Referans kullanmak ve deneyim",
         "Hiç tahmin etmemek",
         "Şans",
-        "Hep büyük sayı söylemek"
+        "Hep büyük sayı söylemek",
+        "Referans kullanmak ve deneyim"
       ],
       "ipucu": "Referans + deneyim = iyi tahmin!",
       "gorsel": {

@@ -415,10 +415,10 @@
       "soru": "İyi bir dinleyici hangisini yapar?",
       "dogruCevap": "Konuşana bakarak sessizce dinler",
       "secenekler": [
-        "Konuşana bakarak sessizce dinler",
-        "Başka şeylerle ilgilenir",
         "Yüksek sesle güler",
-        "Konuşanın sözünü keser"
+        "Başka şeylerle ilgilenir",
+        "Konuşanın sözünü keser",
+        "Konuşana bakarak sessizce dinler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -436,9 +436,9 @@
       "dogruCevap": "Elini kaldırmalı",
       "secenekler": [
         "Arkadaşına fısıldamalı",
-        "Bağırarak söylemeli",
+        "Öğretmeni iterek geçmeli",
         "Elini kaldırmalı",
-        "Öğretmeni iterek geçmeli"
+        "Bağırarak söylemeli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -455,10 +455,10 @@
       "soru": "\"Lütfen\" sözcüğü ne zaman kullanılır?",
       "dogruCevap": "Bir şey istenirken",
       "secenekler": [
-        "Gülerken",
+        "Bir şey istenirken",
         "Veda ederken",
-        "Kızarken",
-        "Bir şey istenirken"
+        "Gülerken",
+        "Kızarken"
       ],
       "ipucu": "",
       "gorsel": {
@@ -475,10 +475,10 @@
       "soru": "Arkadaşın konuşurken ne yapmalısın?",
       "dogruCevap": "Sessizce dinlemeli",
       "secenekler": [
+        "Başka yöne bakmalı",
         "Sözünü kesmeli",
-        "Gülerek geçmeli",
         "Sessizce dinlemeli",
-        "Başka yöne bakmalı"
+        "Gülerek geçmeli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -495,10 +495,10 @@
       "soru": "\"Teşekkür ederim\" hangi durumda söylenir?",
       "dogruCevap": "Yardım alınca",
       "secenekler": [
-        "Veda ederken",
-        "Kızınca",
         "Hata yapınca",
-        "Yardım alınca"
+        "Yardım alınca",
+        "Veda ederken",
+        "Kızınca"
       ],
       "ipucu": "",
       "gorsel": {
@@ -515,10 +515,10 @@
       "soru": "Öğretmen ders anlatırken ne yapılmalıdır?",
       "dogruCevap": "Dikkatle dinlenilmeli",
       "secenekler": [
-        "Dikkatle dinlenilmeli",
         "Oyun oynanmalı",
-        "Yüksek sesle gülünmeli",
-        "Arkadaşla konuşulmalı"
+        "Dikkatle dinlenilmeli",
+        "Arkadaşla konuşulmalı",
+        "Yüksek sesle gülünmeli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -535,10 +535,10 @@
       "soru": "Birinin sözünü kesmek neden yanlıştır?",
       "dogruCevap": "Saygısızlıktır ve konuşanı rahatsız eder",
       "secenekler": [
-        "Saygısızlıktır ve konuşanı rahatsız eder",
         "Öğretmen duyar",
+        "Zaman kaybettirir",
         "Ses çıkarır",
-        "Zaman kaybettirir"
+        "Saygısızlıktır ve konuşanı rahatsız eder"
       ],
       "ipucu": "",
       "gorsel": {
@@ -557,9 +557,9 @@
       "dogruCevap": "Kibarca elini kaldırıp sorarsın",
       "secenekler": [
         "Kibarca elini kaldırıp sorarsın",
+        "Bağırırsın",
         "Arkadaşına sorarsın",
-        "Sessiz kalırsın",
-        "Bağırırsın"
+        "Sessiz kalırsın"
       ],
       "ipucu": "",
       "gorsel": {
@@ -577,9 +577,9 @@
       "dogruCevap": "Hata yapınca veya birini rahatsız edince",
       "secenekler": [
         "Gülerken",
-        "Hediye alınca",
+        "Yardım alınca",
         "Hata yapınca veya birini rahatsız edince",
-        "Yardım alınca"
+        "Hediye alınca"
       ],
       "ipucu": "",
       "gorsel": {
@@ -597,8 +597,8 @@
       "dogruCevap": "Açık, net ve saygılı",
       "secenekler": [
         "Fısıldayarak",
-        "Sadece kendi bildiği kelimelerle",
         "Açık, net ve saygılı",
+        "Sadece kendi bildiği kelimelerle",
         "Çok hızlı ve yüksek sesle"
       ],
       "ipucu": "",
@@ -616,9 +616,9 @@
       "soru": "Toplu taşımada yüksek sesle konuşmak neden yanlıştır?",
       "dogruCevap": "Etrafındaki insanları rahatsız eder",
       "secenekler": [
+        "Ses çıkarır",
         "Etrafındaki insanları rahatsız eder",
         "Kurallar var",
-        "Ses çıkarır",
         "Öğretmen duyar"
       ],
       "ipucu": "",
@@ -637,10 +637,10 @@
       "soru": "Dinlemenin önemi nedir?",
       "dogruCevap": "Bilgi öğrenmek ve saygı göstermek",
       "secenekler": [
-        "Uyumamak",
-        "Konuşmamak",
         "Zaman geçirmek",
-        "Bilgi öğrenmek ve saygı göstermek"
+        "Bilgi öğrenmek ve saygı göstermek",
+        "Konuşmamak",
+        "Uyumamak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -659,8 +659,8 @@
       "secenekler": [
         "Veda ederken",
         "Hata yapınca",
-        "Teşekküre cevap verirken",
-        "İstekte bulununca"
+        "İstekte bulununca",
+        "Teşekküre cevap verirken"
       ],
       "ipucu": "",
       "gorsel": {
@@ -677,10 +677,10 @@
       "soru": "Empati nedir?",
       "dogruCevap": "Karşındakinin duygularını anlamaya çalışmak",
       "secenekler": [
-        "Karşındakinin duygularını anlamaya çalışmak",
-        "Kendini düşünmek",
+        "Sessiz kalmak",
         "Çok konuşmak",
-        "Sessiz kalmak"
+        "Kendini düşünmek",
+        "Karşındakinin duygularını anlamaya çalışmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -698,10 +698,10 @@
       "soru": "Konuşma ile yazmanın ortak amacı nedir?",
       "dogruCevap": "Düşünceleri ve duyguları ifade etmek",
       "secenekler": [
-        "Düşünceleri ve duyguları ifade etmek",
-        "Oyun oynamak",
+        "Eğlenmek",
         "Uyumak",
-        "Eğlenmek"
+        "Oyun oynamak",
+        "Düşünceleri ve duyguları ifade etmek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -718,9 +718,9 @@
       "soru": "Sunuş yaparken nasıl konuşmalısın?",
       "dogruCevap": "Yüksek ve net",
       "secenekler": [
+        "Çok hızlı",
         "Fısıldayarak",
         "Yüksek ve net",
-        "Çok hızlı",
         "Arkaya dönerek"
       ],
       "ipucu": "",
@@ -739,9 +739,9 @@
       "dogruCevap": "Karşındakine saygı göstermek",
       "secenekler": [
         "Hep haklı olmak",
-        "Sessiz kalmak",
         "Çok konuşmak",
-        "Karşındakine saygı göstermek"
+        "Karşındakine saygı göstermek",
+        "Sessiz kalmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -760,8 +760,8 @@
       "dogruCevap": "Teselli edersin",
       "secenekler": [
         "Gülersin",
-        "Teselli edersin",
         "Kaçarsın",
+        "Teselli edersin",
         "Görmezden gelirsin"
       ],
       "ipucu": "",
@@ -779,10 +779,10 @@
       "soru": "Hangi davranış iyi iletişimi gösterir?",
       "dogruCevap": "Kibarca dinlemek ve konuşmak",
       "secenekler": [
-        "Kibarca dinlemek ve konuşmak",
         "Bağırarak konuşmak",
         "Yüzünü çevirmek",
-        "Sözünü kesmek"
+        "Sözünü kesmek",
+        "Kibarca dinlemek ve konuşmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -820,10 +820,10 @@
       "soru": "Nezaket sözcükleri nelerdir?",
       "dogruCevap": "Lütfen, teşekkür ederim, özür dilerim",
       "secenekler": [
-        "Ben, sen, o",
         "Evet, hayır, belki",
-        "Bağır, koş, git",
-        "Lütfen, teşekkür ederim, özür dilerim"
+        "Lütfen, teşekkür ederim, özür dilerim",
+        "Ben, sen, o",
+        "Bağır, koş, git"
       ],
       "ipucu": "",
       "gorsel": {
@@ -843,10 +843,10 @@
       "soru": "Kalabalıkta kaybolunca ne yaparsın?",
       "dogruCevap": "Güvenli bir yetişkine kibarca yardım istersin",
       "secenekler": [
-        "Sessiz beklersin",
-        "Koşarsın",
         "Ağlarsın",
-        "Güvenli bir yetişkine kibarca yardım istersin"
+        "Sessiz beklersin",
+        "Güvenli bir yetişkine kibarca yardım istersin",
+        "Koşarsın"
       ],
       "ipucu": "",
       "gorsel": {
@@ -863,10 +863,10 @@
       "soru": "\"Dinlemek duymaktan farklıdır\" ne anlama gelir?",
       "dogruCevap": "Dinlemek aktif anlamaya çalışmaktır, duymak sadece sesi algılamaktır",
       "secenekler": [
-        "Duymak daha iyidir",
         "İkisi de gereksizdir",
-        "İkisi aynıdır",
-        "Dinlemek aktif anlamaya çalışmaktır, duymak sadece sesi algılamaktır"
+        "Dinlemek aktif anlamaya çalışmaktır, duymak sadece sesi algılamaktır",
+        "Duymak daha iyidir",
+        "İkisi aynıdır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -884,10 +884,10 @@
       "soru": "Hangi ortamda daha dikkatli konuşmalısın?",
       "dogruCevap": "Kütüphanede",
       "secenekler": [
+        "Kütüphanede",
         "Oyun alanında",
-        "Parkta",
         "Spor alanında",
-        "Kütüphanede"
+        "Parkta"
       ],
       "ipucu": "",
       "gorsel": {
@@ -904,9 +904,9 @@
       "soru": "İyi bir iletişimci için en önemli özellik nedir?",
       "dogruCevap": "Karşındakini dinlemek ve anlamak",
       "secenekler": [
-        "Hızlı konuşmak",
-        "Karşındakini dinlemek ve anlamak",
         "Çok kelime bilmek",
+        "Karşındakini dinlemek ve anlamak",
+        "Hızlı konuşmak",
         "Yüksek sesle konuşmak"
       ],
       "ipucu": "",

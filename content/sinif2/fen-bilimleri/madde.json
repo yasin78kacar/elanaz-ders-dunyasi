@@ -1,0 +1,1797 @@
+{
+  "id": "madde",
+  "baslik": "Madde",
+  "kazanimKodu": "FEN.2.2.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Ayşe ve Berk parkta oyun oynuyorlardı. Beş duyumuz dünyadaki her maddeyi tanımamızı sağlayan sihirli dedektiflerimizdir: görme, işitme, koklama, tatma ve dokunma.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "mo-anlatim-1"
+        }
+      },
+      {
+        "metin": "Bazı maddeler yumuşak (oyuncak ayı), bazıları serttir (tahta blok). Maddelerin farklı özellikleri vardır.",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "mo-anlatim-2"
+        }
+      },
+      {
+        "metin": "Lastik esnektir, cam kırılgandır. Zımpara pürüzlü, ayna pürüzsüzdür. Dünyamız ne kadar farklı özellikle dolu!",
+        "gorsel": {
+          "tur": "fen",
+          "mod": "anlatim",
+          "sahne": "mo-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "md-a1",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Çevremizdeki maddelerin rengini ......... duyumuzla anlarız.",
+      "dogruCevap": "görme",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gozluk"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a2",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Limonun ekşi olduğunu anlamamızı sağlayan organımız ......... .",
+      "dogruCevap": "dildir",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "limon"
+      },
+      "alternatifCevaplar": [
+        "dil"
+      ],
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a3",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Taş, ......... bir maddedir.",
+      "dogruCevap": "sert",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tas"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a4",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Pamuk, sert bir maddedir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "pamuk"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a5",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Süngeri sıkıp bırakınca eski haline döner, o bir ......... maddedir.",
+      "dogruCevap": "esnek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sunger"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a6",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Cam bardak ve porselen tabak ......... maddelere örnektir.",
+      "dogruCevap": "kırılgan",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a7",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Zımpara kağıdının yüzeyi ......... bir yapıdadır.",
+      "dogruCevap": "pürüzlü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zimpara"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a8",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Aynanın yüzeyi pürüzlüdür.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ayna"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a9",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Elmanın kokusunu ......... organımızla alırız.",
+      "dogruCevap": "burun",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "elma"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a10",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Zilin sesini duyduğumuz organımız ......... .",
+      "dogruCevap": "kulak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zil"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a11",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Tahta masa, dokunduğumuzda ......... hissi verir.",
+      "dogruCevap": "sert",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "masa"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a12",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Paket lastiği, kırılgan bir maddedir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "lastik"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a13",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Yün kazak, ......... bir maddedir.",
+      "dogruCevap": "yumuşak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yun-kazak"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a14",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Cevizin kabuğu ......... ve ......... .",
+      "dogruCevap": "sert ve pürüzlü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ceviz"
+      },
+      "alternatifCevaplar": [
+        "sert, pürüzlü",
+        "pürüzlü ve sert"
+      ],
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a15",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Televizyon ekranı dokunduğumuzda ......... bir yüzeye sahiptir.",
+      "dogruCevap": "pürüzsüz",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "telefon"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a16",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Oyun hamuru kolayca şekil aldığı için ......... maddedir.",
+      "dogruCevap": "yumuşak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "oyun-hamuru"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a17",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Pencere camına top çarparsa kırılır, çünkü ......... .",
+      "dogruCevap": "kırılgandır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a18",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Şişirilmiş bir balona bastırıp bırakırsak eski haline döner, bu onun ......... olduğunu gösterir.",
+      "dogruCevap": "esnek",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "balon"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a19",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Gülün kokusunu alma işleminde görme duyumuzu kullanırız.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gul"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a20",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Çayın sıcak olduğunu ......... duyumuzla hissederiz.",
+      "dogruCevap": "dokunma",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cay"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a21",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Çikolatanın tadı tatlıdır, bunu ......... ile anlarız.",
+      "dogruCevap": "dil",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cikolata"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a22",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Ağaç gövdesine dokunduğumuzda yüzeyinin ......... olduğunu hissederiz.",
+      "dogruCevap": "pürüzlü",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a23",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Bulaşık süngerinin yeşil kısmı pürüzlü, sarı kısmı ......... .",
+      "dogruCevap": "yumuşaktır",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sunger"
+      },
+      "alternatifCevaplar": [
+        "yumuşak"
+      ],
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a24",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Su döküldüğünde suyu çeken kağıt havlu serttir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kagit-havlu"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a25",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Demir çivi esnek bir maddedir, kolayca eğilip bükülebilir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "demir-civi"
+      },
+      "kazanim": "FEN.2.2.1"
+    },
+    {
+      "id": "md-a26",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Cam kırılgan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam"
+      }
+    },
+    {
+      "id": "md-a27",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Pamuk yumuşak bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "pamuk"
+      }
+    },
+    {
+      "id": "md-a28",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Demir sert bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "demir-civi"
+      }
+    },
+    {
+      "id": "md-a29",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Lastik esnek bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "lastik"
+      }
+    },
+    {
+      "id": "md-a30",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Elmanın rengini gözümüzle görürüz.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "elma"
+      }
+    },
+    {
+      "id": "md-a31",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Limonun tadını dilimizle alırız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "limon"
+      }
+    },
+    {
+      "id": "md-a32",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Zilin sesini kulağımızla duyarız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zil"
+      }
+    },
+    {
+      "id": "md-a33",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Sabun kaygan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sabun"
+      }
+    },
+    {
+      "id": "md-a34",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Taş sert bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tas"
+      }
+    },
+    {
+      "id": "md-a35",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Balon şişirilebilir bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "balon"
+      }
+    },
+    {
+      "id": "md-a36",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Ayna pürüzsüz bir yüzeye sahiptir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ayna"
+      }
+    },
+    {
+      "id": "md-a37",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Zımpara kağıdı pürüzlüdür.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zimpara"
+      }
+    },
+    {
+      "id": "md-a38",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Çikolatanın kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cikolata"
+      }
+    },
+    {
+      "id": "md-a39",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Yün kazak yumuşak bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yun-kazak"
+      }
+    },
+    {
+      "id": "md-a40",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Bilye sert ve pürüzsüzdür.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "bilye"
+      }
+    },
+    {
+      "id": "md-a41",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Kağıt havlu emici bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kagit-havlu"
+      }
+    },
+    {
+      "id": "md-a42",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Oyun hamuru yumuşak ve esnektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "oyun-hamuru"
+      }
+    },
+    {
+      "id": "md-a43",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Ceviz kırılgan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ceviz"
+      }
+    },
+    {
+      "id": "md-a44",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Çayın kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cay"
+      }
+    },
+    {
+      "id": "md-a45",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Telefon sert bir maddeden yapılmıştır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "telefon"
+      }
+    },
+    {
+      "id": "md-a46",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Masanın yüzeyi serttir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "masa"
+      }
+    },
+    {
+      "id": "md-a47",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Sünger esnek bir maddedir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sunger"
+      }
+    },
+    {
+      "id": "md-a48",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Gülün kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gul"
+      }
+    },
+    {
+      "id": "md-a49",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Beş duyumuz maddeleri tanımamıza yardım eder.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "mo-anlatim-1"
+      }
+    },
+    {
+      "id": "md-a50",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "yazili",
+      "soru": "Maddelerin farklı özellikleri vardır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "mo-anlatim-2"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "md-t1",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Limonun sarı ve ekşi olduğunu hangi iki duyumuzla anlarız?",
+      "dogruCevap": "Görme - Tatma",
+      "secenekler": [
+        "Tatma - İşitme",
+        "Görme - Tatma",
+        "İşitme - Koklama",
+        "Görme - Dokunma"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "limon"
+      }
+    },
+    {
+      "id": "md-t2",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayşe lastiği çekip bıraktı, eski haline döndü. Lastik nasıl bir maddedir?",
+      "dogruCevap": "Esnek",
+      "secenekler": [
+        "Sert",
+        "Pürüzlü",
+        "Esnek",
+        "Kırılgan"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "lastik"
+      }
+    },
+    {
+      "id": "md-t3",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Selin cam sürahiyi taşırken çok dikkat ediyor. Çünkü sürahi nasıl bir maddedir?",
+      "dogruCevap": "Kırılgan",
+      "secenekler": [
+        "Esnek",
+        "Kırılgan",
+        "Yumuşak",
+        "Pürüzsüz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam"
+      }
+    },
+    {
+      "id": "md-t4",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gece uyurken başımızı koyduğumuz yastığın özelliği nedir?",
+      "dogruCevap": "Yumuşak",
+      "secenekler": [
+        "Kırılgan",
+        "Sert",
+        "Yumuşak",
+        "Pürüzlü"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yastik"
+      }
+    },
+    {
+      "id": "md-t5",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayna ve taşın yüzeyleri sırasıyla nasıldır?",
+      "dogruCevap": "Pürüzsüz - Pürüzlü",
+      "secenekler": [
+        "Pürüzsüz - Pürüzlü",
+        "Esnek - Kırılgan",
+        "Yumuşak - Sert",
+        "Pürüzlü - Pürüzsüz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "ayna",
+          "tas"
+        ],
+        "vurgu": [
+          "ayna",
+          "tas"
+        ]
+      }
+    },
+    {
+      "id": "md-t6",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçta öten kuşun sesini hangi organımızla algılarız?",
+      "dogruCevap": "Kulak",
+      "secenekler": [
+        "Burun",
+        "Kulak",
+        "Göz",
+        "Dil"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kus"
+      }
+    },
+    {
+      "id": "md-t7",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ali oyun hamuruyla araba yapıyor. Oyun hamuru için hangisi söylenemez?",
+      "dogruCevap": "Serttir",
+      "secenekler": [
+        "Yumuşaktır",
+        "Ele yapışabilir",
+        "Şekil verilebilir",
+        "Serttir"
+      ],
+      "ipucu": "Oyun hamuru yumuşaktır, sert değildir!",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "oyun-hamuru"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "md-t8",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Berk zımpara kağıdına dokunduğunda eli çizildi. Zımpara nasıl bir yüzeye sahiptir?",
+      "dogruCevap": "Pürüzlü",
+      "secenekler": [
+        "Pürüzsüz",
+        "Pürüzlü",
+        "Esnek",
+        "Kaygan"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zimpara"
+      }
+    },
+    {
+      "id": "md-t9",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Zeynep kırmızı güllerin mis gibi koktuğunu söyledi. Zeynep hangi duyularını kullandı?",
+      "dogruCevap": "Görme - Koklama",
+      "secenekler": [
+        "Tatma - Görme",
+        "İşitme - Koklama",
+        "Dokunma - Koklama",
+        "Görme - Koklama"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gul"
+      }
+    },
+    {
+      "id": "md-t10",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Evimizin demir kapısı için hangisi doğrudur?",
+      "dogruCevap": "Serttir",
+      "secenekler": [
+        "Serttir",
+        "Esnektir",
+        "Kırılgandır",
+        "Yumuşaktır"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "demir-kapi"
+      }
+    },
+    {
+      "id": "md-t11",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Annemizin yaptığı çorbanın tuzlu olup olmadığını nasıl anlarız?",
+      "dogruCevap": "Tadarak",
+      "secenekler": [
+        "Tadarak",
+        "Dokunarak",
+        "Bakarak",
+        "Koklayarak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "corba"
+      }
+    },
+    {
+      "id": "md-t12",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzündeki bulutlar pamuk gibidir. Pamuk hangi özelliğe sahiptir?",
+      "dogruCevap": "Yumuşak",
+      "secenekler": [
+        "Sert",
+        "Pürüzlü",
+        "Kırılgan",
+        "Yumuşak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "pamuk"
+      }
+    },
+    {
+      "id": "md-t13",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Cam bilye için hangisi yanlıştır?",
+      "dogruCevap": "Yumuşaktır",
+      "secenekler": [
+        "Serttir",
+        "Pürüzsüzdür",
+        "Kırılgandır",
+        "Yumuşaktır"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "bilye"
+      }
+    },
+    {
+      "id": "md-t14",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bulaşık süngeri suyu çekince şişer, sıkınca küçülür. Sünger nasıl bir maddedir?",
+      "dogruCevap": "Esnek",
+      "secenekler": [
+        "Esnek",
+        "Kırılgan",
+        "Pürüzsüz",
+        "Sert"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sunger"
+      }
+    },
+    {
+      "id": "md-t15",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hande cevizi kırmak için çekiç kullandı çünkü ceviz kabuğu çok ... .",
+      "dogruCevap": "Sertti",
+      "secenekler": [
+        "Sertti",
+        "Esnekti",
+        "Yumuşaktı",
+        "Pürüzsüzdü"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ceviz"
+      }
+    },
+    {
+      "id": "md-t16",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yusuf'un telefonu yere düşünce çatladı. Çünkü ekran ... .",
+      "dogruCevap": "Kırılgandır",
+      "secenekler": [
+        "Kırılgandır",
+        "Pürüzlüdür",
+        "Yumuşaktır",
+        "Esnektir"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "telefon"
+      }
+    },
+    {
+      "id": "md-t17",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Can kedi yavrusunu severken tüylerinin ne kadar ... olduğunu fark etti.",
+      "dogruCevap": "Yumuşak",
+      "secenekler": [
+        "Kırılgan",
+        "Pürüzlü",
+        "Sert",
+        "Yumuşak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kedi"
+      }
+    },
+    {
+      "id": "md-t18",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağacın gövdesine dokunduğumuzda elimize pütürler gelir. Bu onun ... olduğunu gösterir.",
+      "dogruCevap": "Pürüzlü",
+      "secenekler": [
+        "Esnek",
+        "Pürüzsüz",
+        "Yumuşak",
+        "Pürüzlü"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "agac"
+      }
+    },
+    {
+      "id": "md-t19",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mehmet'in gözleri kapalı. Önündeki cismin top mu kitap mı olduğunu nasıl anlayabilir?",
+      "dogruCevap": "Dokunarak",
+      "secenekler": [
+        "Koklayarak",
+        "Tadarak",
+        "Dinleyerek",
+        "Dokunarak"
+      ],
+      "ipucu": "Gözler kapalıyken dokunma duyumunu kullanırız!",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "goz-kapali"
+      },
+      "sasirtma": true
+    },
+    {
+      "id": "md-t20",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi kırılgan bir madde değildir?",
+      "dogruCevap": "Plastik top",
+      "secenekler": [
+        "Plastik top",
+        "Cam bardak",
+        "Cam şişe",
+        "Porselen tabak"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "cam",
+          "top"
+        ],
+        "vurgu": "top"
+      }
+    },
+    {
+      "id": "md-t21",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tükenmez kalemin içindeki küçük yay nasıl bir maddedir?",
+      "dogruCevap": "Esnek",
+      "secenekler": [
+        "Kırılgan",
+        "Esnek",
+        "Yumuşak",
+        "Pürüzsüz"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kalem"
+      }
+    },
+    {
+      "id": "md-t22",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çileğin kırmızı olduğunu ..., tatlı olduğunu ... anlarız.",
+      "dogruCevap": "Gözümüzle - Dilimizle",
+      "secenekler": [
+        "Gözümüzle - Burnumuzla",
+        "Burnumuzla - Gözümüzle",
+        "Dilimizle - Kulaklarımızla",
+        "Gözümüzle - Dilimizle"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cilek"
+      }
+    },
+    {
+      "id": "md-t23",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Taş ve pamuk için hangisi doğrudur?",
+      "dogruCevap": "Taş sert, pamuk yumuşaktır",
+      "secenekler": [
+        "Taş sert, pamuk yumuşaktır",
+        "Taş esnek, pamuk kırılgandır",
+        "İkisi de serttir",
+        "İkisi de yumuşaktır"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "grup",
+        "nesneler": [
+          "tas",
+          "pamuk"
+        ],
+        "vurgu": [
+          "tas",
+          "pamuk"
+        ]
+      }
+    },
+    {
+      "id": "md-t24",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çayın sıcak olduğunu anladığımız duyumuz hangisidir?",
+      "dogruCevap": "Dokunma",
+      "secenekler": [
+        "İşitme",
+        "Tatma",
+        "Dokunma",
+        "Görme"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cay"
+      }
+    },
+    {
+      "id": "md-t25",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Islak bir sabun elimizdeyken kolayca kayar. Bu onun nasıl bir yüzeye sahip olduğunu gösterir?",
+      "dogruCevap": "Pürüzsüz",
+      "secenekler": [
+        "Pürüzlü",
+        "Pürüzsüz",
+        "Sert",
+        "Esnek"
+      ],
+      "ipucu": "",
+      "kazanim": "FEN.2.2.1",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sabun"
+      }
+    },
+    {
+      "id": "md-t26",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Cam kırılgan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Bazen",
+        "Doğru",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cam"
+      }
+    },
+    {
+      "id": "md-t27",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pamuk yumuşak bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Fark etmez",
+        "Bazen",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "pamuk"
+      }
+    },
+    {
+      "id": "md-t28",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Demir sert bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Doğru",
+        "Bazen",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "demir-civi"
+      }
+    },
+    {
+      "id": "md-t29",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Lastik esnek bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Fark etmez",
+        "Doğru",
+        "Bazen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "lastik"
+      }
+    },
+    {
+      "id": "md-t30",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elmanın rengini gözümüzle görürüz.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Bazen",
+        "Fark etmez",
+        "Doğru",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "elma"
+      }
+    },
+    {
+      "id": "md-t31",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Limonun tadını dilimizle alırız.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Fark etmez",
+        "Bazen",
+        "Doğru",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "limon"
+      }
+    },
+    {
+      "id": "md-t32",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Zilin sesini kulağımızla duyarız.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Bazen",
+        "Doğru",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zil"
+      }
+    },
+    {
+      "id": "md-t33",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sabun kaygan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Doğru",
+        "Bazen",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sabun"
+      }
+    },
+    {
+      "id": "md-t34",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Taş sert bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Doğru",
+        "Bazen",
+        "Yanlış",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "tas"
+      }
+    },
+    {
+      "id": "md-t35",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Balon şişirilebilir bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Doğru",
+        "Bazen",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "balon"
+      }
+    },
+    {
+      "id": "md-t36",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ayna pürüzsüz bir yüzeye sahiptir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Fark etmez",
+        "Bazen",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ayna"
+      }
+    },
+    {
+      "id": "md-t37",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Zımpara kağıdı pürüzlüdür.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Doğru",
+        "Fark etmez",
+        "Bazen",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "zimpara"
+      }
+    },
+    {
+      "id": "md-t38",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çikolatanın kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Bazen",
+        "Fark etmez",
+        "Yanlış",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cikolata"
+      }
+    },
+    {
+      "id": "md-t39",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yün kazak yumuşak bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Doğru",
+        "Bazen",
+        "Fark etmez",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "yun-kazak"
+      }
+    },
+    {
+      "id": "md-t40",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bilye sert ve pürüzsüzdür.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Doğru",
+        "Bazen",
+        "Fark etmez",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "bilye"
+      }
+    },
+    {
+      "id": "md-t41",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kağıt havlu emici bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Fark etmez",
+        "Bazen",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "kagit-havlu"
+      }
+    },
+    {
+      "id": "md-t42",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Oyun hamuru yumuşak ve esnektir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Fark etmez",
+        "Bazen",
+        "Yanlış",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "oyun-hamuru"
+      }
+    },
+    {
+      "id": "md-t43",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ceviz kırılgan bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Fark etmez",
+        "Yanlış",
+        "Bazen",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "ceviz"
+      }
+    },
+    {
+      "id": "md-t44",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çayın kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Fark etmez",
+        "Yanlış",
+        "Doğru",
+        "Bazen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "cay"
+      }
+    },
+    {
+      "id": "md-t45",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Telefon sert bir maddeden yapılmıştır.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Doğru",
+        "Yanlış",
+        "Bazen",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "telefon"
+      }
+    },
+    {
+      "id": "md-t46",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Masanın yüzeyi serttir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Bazen",
+        "Yanlış",
+        "Doğru",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "masa"
+      }
+    },
+    {
+      "id": "md-t47",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sünger esnek bir maddedir.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Fark etmez",
+        "Bazen",
+        "Doğru",
+        "Yanlış"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "sunger"
+      }
+    },
+    {
+      "id": "md-t48",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Gülün kokusunu burnumuzla alırız.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Doğru",
+        "Bazen",
+        "Fark etmez"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "nesne",
+        "nesne": "gul"
+      }
+    },
+    {
+      "id": "md-t49",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beş duyumuz maddeleri tanımamıza yardım eder.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Doğru",
+        "Fark etmez",
+        "Bazen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "mo-anlatim-1"
+      }
+    },
+    {
+      "id": "md-t50",
+      "kazanimKodu": "FEN.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Maddelerin farklı özellikleri vardır.",
+      "dogruCevap": "Doğru",
+      "secenekler": [
+        "Yanlış",
+        "Bazen",
+        "Fark etmez",
+        "Doğru"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "fen",
+        "mod": "anlatim",
+        "sahne": "mo-anlatim-2"
+      }
+    }
+  ]
+}
