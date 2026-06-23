@@ -1,0 +1,818 @@
+{
+  "kitaplar": [
+    {
+      "id": "book-my-mother",
+      "baslik": "My Mother",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "A book about Mum.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "anne-resmi"
+      },
+      "sayfalar": [
+        {
+          "metin": "This is my mother. Her name is Ayşe. She has kind eyes and a warm smile.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "anne-resmi"
+          }
+        },
+        {
+          "metin": "My mother cooks yummy food. She reads stories at night. \"I love you, Mum!\" I say.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "neseli-anne"
+          }
+        },
+        {
+          "metin": "Mother helps me with homework. She hugs me when I am sad. My mother is the best!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "anne-portre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-father",
+      "baslik": "My Father",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "A book about Dad.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "baba-resmi"
+      },
+      "sayfalar": [
+        {
+          "metin": "This is my father. His name is Mehmet. He is tall and strong.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "baba-resmi"
+          }
+        },
+        {
+          "metin": "Father plays football with me. He fixes my bike. \"Good job!\" he says.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "baba-ogul"
+          }
+        },
+        {
+          "metin": "On weekends we go to the park. Father pushes me on the swing. I love my father!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "baba-portre"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-sister",
+      "baslik": "My Sister",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "A book about my sister.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kiz-kardes"
+      },
+      "sayfalar": [
+        {
+          "metin": "This is my sister. Her name is Elif. She is older than me.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kiz-kardes"
+          }
+        },
+        {
+          "metin": "We draw pictures together. She teaches me new words in English.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kiz-kardes-abla"
+          }
+        },
+        {
+          "metin": "Sometimes we argue, but we always say sorry. Sisters are special friends.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kardesler"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-brother",
+      "baslik": "My Brother",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "A book about my brother.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "erkek-kardes"
+      },
+      "sayfalar": [
+        {
+          "metin": "This is my brother. His name is Ali. He is funny and fast.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "erkek-kardes"
+          }
+        },
+        {
+          "metin": "We play hide and seek. Ali hides behind the big tree.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "erkek-kardes-ali"
+          }
+        },
+        {
+          "metin": "My brother shares his snacks with me. Brothers are great!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "baba-ogul"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-at-the-park",
+      "baslik": "At the Park",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Fun at the park.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "park-ayrilma"
+      },
+      "sayfalar": [
+        {
+          "metin": "We go to the park on Sunday. The grass is green. Children are playing.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "park-ayrilma"
+          }
+        },
+        {
+          "metin": "I slide down the slide. Whee! My friend pushes me on the swing.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "turuncu-top"
+          }
+        },
+        {
+          "metin": "We eat ice cream. \"See you next week!\" we say. The park is our favourite place.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "pembe-ucurtma"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-in-the-classroom",
+      "baslik": "In the Classroom",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Our classroom.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-ortam"
+      },
+      "sayfalar": [
+        {
+          "metin": "Our classroom is big and bright. There are desks and chairs.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sinif-ortam"
+          }
+        },
+        {
+          "metin": "The teacher writes on the board. We listen carefully. \"Open your books, please.\"",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "ogretmen-masa"
+          }
+        },
+        {
+          "metin": "We raise our hands to speak. We help each other. I like my classroom!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "board"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-colors",
+      "baslik": "My Colors",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Learning colors.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      },
+      "sayfalar": [
+        {
+          "metin": "Red like an apple. Blue like the sky. Yellow like the sun.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kirmizi-elma"
+          }
+        },
+        {
+          "metin": "Green like grass. Orange like an orange. Pink like a flower.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-gokyuzu"
+          }
+        },
+        {
+          "metin": "Purple, brown, black, and white — so many colors! Colors are everywhere.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "renk-paleti"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-numbers",
+      "baslik": "My Numbers",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Counting from one to ten.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sayi-1"
+      },
+      "sayfalar": [
+        {
+          "metin": "One, two, three — let us count! One sun. Two eyes. Three books.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sayi-1"
+          }
+        },
+        {
+          "metin": "Four chairs. Five pencils. Six balls. Seven days in a week.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sayi-2"
+          }
+        },
+        {
+          "metin": "Eight, nine, ten! Numbers help us every day. Can you count to ten?",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "one-two"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-animals",
+      "baslik": "My Animals",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Farm and pet animals.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "siyah-kedi"
+      },
+      "sayfalar": [
+        {
+          "metin": "A cat says meow. A dog says woof. A duck says quack.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "siyah-kedi"
+          }
+        },
+        {
+          "metin": "A cow says moo. A bird can sing. Animals are amazing!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sari-civciv"
+          }
+        },
+        {
+          "metin": "I love animals. We must be kind to them. They are our friends.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "yesil-kurbaga"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-food",
+      "baslik": "My Food",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Yummy food words.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma"
+      },
+      "sayfalar": [
+        {
+          "metin": "For breakfast I eat bread and cheese. I drink milk. Yummy!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kirmizi-elma"
+          }
+        },
+        {
+          "metin": "For lunch I have soup and fruit. Apples and oranges are healthy.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "turuncu-portakal"
+          }
+        },
+        {
+          "metin": "We say \"Thank you\" before we eat. Good food makes us strong!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "dort-elma"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-toys",
+      "baslik": "My Toys",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Toys we love.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-top"
+      },
+      "sayfalar": [
+        {
+          "metin": "I have many toys. A ball, a doll, and a toy car.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "turuncu-top"
+          }
+        },
+        {
+          "metin": "I share my toys with my friends. We build towers with blocks.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-araba"
+          }
+        },
+        {
+          "metin": "After playing, I put my toys away. \"Clean up time!\" says Mum.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mor-balon"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-clothes",
+      "baslik": "My Clothes",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "What we wear.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-mavi-forma"
+      },
+      "sayfalar": [
+        {
+          "metin": "I wear a T-shirt and trousers. In winter I wear a coat and a hat.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sari-mavi-forma"
+          }
+        },
+        {
+          "metin": "My shoes are blue. My socks are white. I can dress myself!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "siyah-sapka"
+          }
+        },
+        {
+          "metin": "When it rains, I take my umbrella. Clothes keep us warm and dry.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "siyah-sapka"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-weather",
+      "baslik": "My Weather",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Sun, rain, and wind.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sabah-gunes"
+      },
+      "sayfalar": [
+        {
+          "metin": "Today is sunny. The sky is blue. We play outside.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sabah-gunes"
+          }
+        },
+        {
+          "metin": "Sometimes it rains. We hear drip, drop on the window.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-deniz"
+          }
+        },
+        {
+          "metin": "Wind blows the leaves. Snow is cold and white. Weather changes every day!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "beyaz-kar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-body",
+      "baslik": "My Body",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Parts of the body.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap-okuyan-kiz"
+      },
+      "sayfalar": [
+        {
+          "metin": "I have two eyes to see. I have two ears to hear.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kitap-okuyan-kiz"
+          }
+        },
+        {
+          "metin": "I have one nose to smell. I have ten fingers on my hands.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "el-sallayan"
+          }
+        },
+        {
+          "metin": "I brush my teeth every day. My body is wonderful. I take care of it!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "merhaba-cocuklar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-school-day",
+      "baslik": "My School Day",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "From morning to afternoon.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okul-karsilasma"
+      },
+      "sayfalar": [
+        {
+          "metin": "Good morning! I put on my bag and go to school.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "okul-karsilasma"
+          }
+        },
+        {
+          "metin": "We have Turkish, Maths, and English. We sing songs too!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "sinif-ortam"
+          }
+        },
+        {
+          "metin": "School finishes at three. \"Goodbye, teacher!\" I go home happy.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "canta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-friends",
+      "baslik": "My Friends",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Friends at school.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "merhaba-cocuklar"
+      },
+      "sayfalar": [
+        {
+          "metin": "Zeynep is my friend. Can is my friend too. We sit together.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "merhaba-cocuklar"
+          }
+        },
+        {
+          "metin": "We help each other in class. \"Can I borrow your eraser?\" \"Sure!\"",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kitap-okuyan-iki"
+          }
+        },
+        {
+          "metin": "Friends play, laugh, and learn together. I am lucky to have good friends!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "el-sallayan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-house",
+      "baslik": "My House",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Rooms in my home.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "acik-kapi"
+      },
+      "sayfalar": [
+        {
+          "metin": "This is my house. It has a kitchen, a living room, and bedrooms.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "acik-kapi"
+          }
+        },
+        {
+          "metin": "In the kitchen Mum cooks. In my room I sleep and read.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "gece-yatak"
+          }
+        },
+        {
+          "metin": "Home is where my family is. I love my house!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "aksam-yemegi"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-garden",
+      "baslik": "My Garden",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Plants and flowers.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pembe-cicek"
+      },
+      "sayfalar": [
+        {
+          "metin": "We have a small garden. There are flowers and a tree.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "pembe-cicek"
+          }
+        },
+        {
+          "metin": "I water the plants. Green leaves grow in spring.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "kahverengi-agac"
+          }
+        },
+        {
+          "metin": "Bees visit the flowers. The garden smells wonderful!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "yesil-yaprak"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-birthday",
+      "baslik": "My Birthday",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "A special day.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "pasta-7"
+      },
+      "sayfalar": [
+        {
+          "metin": "Today is my birthday! I am seven years old. Hooray!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "pasta-7"
+          }
+        },
+        {
+          "metin": "My friends come to my party. We eat cake and play games.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mor-balon"
+          }
+        },
+        {
+          "metin": "I open presents. \"Thank you!\" I say. Birthdays are the best day!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "balon-5"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-feelings",
+      "baslik": "My Feelings",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Happy, sad, and more.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "neseli-anne"
+      },
+      "sayfalar": [
+        {
+          "metin": "Sometimes I feel happy. I smile and laugh with my friends.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "neseli-anne"
+          }
+        },
+        {
+          "metin": "Sometimes I feel sad. That is okay. A hug helps me feel better.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "merhaba-kiz"
+          }
+        },
+        {
+          "metin": "I can say how I feel. \"I am tired.\" \"I am excited!\" Feelings are important.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "hi-selam"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-sports",
+      "baslik": "My Sports",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Football and more.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "alti-top"
+      },
+      "sayfalar": [
+        {
+          "metin": "I like football. I kick the ball. Go, team, go!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "alti-top"
+          }
+        },
+        {
+          "metin": "We run in PE class. Running makes our hearts strong.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "turuncu-basketbol"
+          }
+        },
+        {
+          "metin": "Win or lose, we say \"Good game!\" Sport is fun and healthy.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "turuncu-top"
+          }
+        }
+      ]
+    },
+    {
+      "id": "book-my-transport",
+      "baslik": "My Transport",
+      "kazanimKodu": "ING.2.5.2",
+      "ozet": "Cars, buses, and bikes.",
+      "kapakGorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-araba"
+      },
+      "sayfalar": [
+        {
+          "metin": "I go to school by bus. The bus is yellow and big.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-araba"
+          }
+        },
+        {
+          "metin": "Dad drives a blue car. Sometimes I ride my bike in the park.",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-araba"
+          }
+        },
+        {
+          "metin": "Planes fly in the sky. Boats sail on the sea. So many ways to travel!",
+          "gorsel": {
+            "tur": "ingilizce",
+            "mod": "nesne",
+            "nesne": "mavi-deniz"
+          }
+        }
+      ]
+    }
+  ]
+}

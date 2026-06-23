@@ -86,7 +86,9 @@ import elanazKutuphaneGunu from '../../content/sinif2/okuma-kosesi/elanaz-kutuph
 import elanazBisikletOgreniyor from '../../content/sinif2/okuma-kosesi/elanaz-bisiklet-ogreniyor.json';
 import gorselSanatlarJson from '../../content/sinif2/gorsel-sanatlar/gorsel-sanatlar.json';
 import zekaVeDikkatJson from '../../content/sinif2/zeka-dikkat/zeka-ve-dikkat.json';
-import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, SinifIcerik } from '../types/content';
+import sesliHikayelerJson from '../../content/sinif2/ingilizce/sesli-hikayeler.json';
+import okumaKitaplariJson from '../../content/sinif2/ingilizce/okuma-kitaplari.json';
+import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, OkumaKitabi, SesliHikaye, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
 
 const matTema1 = tema1Json as MathTheme;
@@ -253,11 +255,29 @@ const hikayeDosyalari: Record<string, Hikaye> = {
   'okuma-kosesi/elanaz-bisiklet-ogreniyor.json': elanazBisikletOgreniyor as Hikaye,
 };
 
+interface SesliHikayelerDosya {
+  hikayeler: SesliHikaye[];
+}
+
+interface OkumaKitaplariDosya {
+  kitaplar: OkumaKitabi[];
+}
+
+const sesliHikayeDosyalari: Record<string, SesliHikaye[]> = {
+  'ingilizce/sesli-hikayeler.json': (sesliHikayelerJson as SesliHikayelerDosya).hikayeler,
+};
+
+const okumaKitapDosyalari: Record<string, OkumaKitabi[]> = {
+  'ingilizce/okuma-kitaplari.json': (okumaKitaplariJson as OkumaKitaplariDosya).kitaplar,
+};
+
 interface IndexDers {
   id: string;
   baslik: string;
   unite: { id: string; baslik: string; konuDosyalari?: string[] }[];
   hikayeDosyalari?: string[];
+  sesliHikayeDosyalari?: string[];
+  okumaKitapDosyalari?: string[];
 }
 
 function buildDersler(): Ders[] {
@@ -270,6 +290,10 @@ function buildDersler(): Ders[] {
       konular: (u.konuDosyalari ?? []).map((dosya) => konuDosyalari[dosya]).filter(Boolean),
     })),
     hikayeler: (d.hikayeDosyalari ?? []).map((dosya) => hikayeDosyalari[dosya]).filter(Boolean),
+    sesliHikayeler: (d.sesliHikayeDosyalari ?? [])
+      .flatMap((dosya) => sesliHikayeDosyalari[dosya] ?? []),
+    okumaKitaplari: (d.okumaKitapDosyalari ?? [])
+      .flatMap((dosya) => okumaKitapDosyalari[dosya] ?? []),
   }));
 }
 
@@ -321,6 +345,28 @@ export function getHikayeListesi(dersId: string): Hikaye[] {
 
 export function getHikaye(dersId: string, hikayeId: string): Hikaye | undefined {
   return getHikayeListesi(dersId).find((h) => h.id === hikayeId);
+}
+
+export function getSesliHikayeListesi(dersId: string): SesliHikaye[] {
+  return getDers(dersId)?.sesliHikayeler ?? [];
+}
+
+export function getSesliHikaye(dersId: string, hikayeId: string): SesliHikaye | undefined {
+  return getSesliHikayeListesi(dersId).find((h) => h.id === hikayeId);
+}
+
+export function getOkumaKitabiListesi(dersId: string): OkumaKitabi[] {
+  return getDers(dersId)?.okumaKitaplari ?? [];
+}
+
+export function getOkumaKitabi(dersId: string, kitapId: string): OkumaKitabi | undefined {
+  return getOkumaKitabiListesi(dersId).find((k) => k.id === kitapId);
+}
+
+export function ingilizceOkumaModuluVar(dersId: string): boolean {
+  if (dersId !== 'ingilizce') return false;
+  const ders = getDers(dersId);
+  return Boolean(ders?.sesliHikayeler?.length || ders?.okumaKitaplari?.length);
 }
 
 export function getSinif(): number {

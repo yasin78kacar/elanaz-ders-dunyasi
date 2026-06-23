@@ -319,6 +319,28 @@ export interface Hikaye {
   sorular: Soru[];
 }
 
+/** İngilizce sesli hikâye — dinleme + metin */
+export interface SesliHikaye {
+  id: string;
+  baslik: string;
+  kazanimKodu: string;
+  ozet: string;
+  metin: string;
+  ses: string;
+  sureSaniye?: number;
+  gorsel?: Gorsel;
+}
+
+/** İngilizce okuma kitabı — sayfa sayfa okuma */
+export interface OkumaKitabi {
+  id: string;
+  baslik: string;
+  kazanimKodu: string;
+  ozet: string;
+  kapakGorsel?: Gorsel;
+  sayfalar: HikayeSayfa[];
+}
+
 export interface Unite {
   id: string;
   baslik: string;
@@ -330,6 +352,8 @@ export interface Ders {
   baslik: string;
   unite: Unite[];
   hikayeler?: Hikaye[];
+  sesliHikayeler?: SesliHikaye[];
+  okumaKitaplari?: OkumaKitabi[];
 }
 
 export interface SinifIcerik {

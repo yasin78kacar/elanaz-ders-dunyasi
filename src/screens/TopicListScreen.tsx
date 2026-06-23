@@ -3,6 +3,11 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonuHaritasi, type KonuHaritaOgesi } from '../services/progressMap';
+import {
+  getOkumaKitabiListesi,
+  getSesliHikayeListesi,
+  ingilizceOkumaModuluVar,
+} from '../services/contentLoader';
 import { ElanazHeader } from '../components/ElanazHeader';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
@@ -88,6 +93,32 @@ export function TopicListScreen({ route, navigation }: Props) {
         uniteBaslikIlk: {
           marginTop: 0,
         },
+        medyaBolum: {
+          gap,
+          marginBottom: layout.spacing(8),
+        },
+        medyaKart: {
+          backgroundColor: colors.birincilAcik,
+          borderRadius: layout.spacing(16),
+          padding: layout.spacing(20),
+          borderWidth: 3,
+          borderColor: colors.birincil,
+        },
+        medyaKartKitap: {
+          backgroundColor: '#FFF3E0',
+          borderColor: colors.turuncu,
+        },
+        medyaBaslik: {
+          fontSize: layout.font.xl,
+          fontWeight: '800',
+          color: colors.baslik,
+        },
+        medyaAlt: {
+          fontSize: layout.font.md,
+          color: colors.metin,
+          marginTop: layout.spacing(6),
+          lineHeight: layout.spacing(24),
+        },
       }),
     [layout, pad, gap, itemWidth],
   );
@@ -106,6 +137,10 @@ export function TopicListScreen({ route, navigation }: Props) {
   }, [harita]);
 
   useKonuMuzikHeader(navigation, { title: `${dersBaslik} — Yol Haritası` });
+
+  const sesliHikayeler = dersId === 'ingilizce' ? getSesliHikayeListesi(dersId) : [];
+  const okumaKitaplari = dersId === 'ingilizce' ? getOkumaKitabiListesi(dersId) : [];
+  const ingilizceMedya = ingilizceOkumaModuluVar(dersId);
 
   useFocusEffect(
     useCallback(() => {
@@ -134,9 +169,45 @@ export function TopicListScreen({ route, navigation }: Props) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ElanazHeader />
+      {ingilizceMedya ? (
+        <View style={styles.medyaBolum}>
+          <Text style={[styles.uniteBaslik, styles.uniteBaslikIlk]}>Sesli Hikâyeler & Kitaplar</Text>
+          {sesliHikayeler.length > 0 ? (
+            <Pressable
+              style={({ pressed }) => [styles.medyaKart, pressed && styles.kartPressed]}
+              onPress={() => navigation.navigate('AudioStoryList', { dersId, dersBaslik })}
+            >
+              <Text style={styles.medyaBaslik}>🎧 Sesli Hikâyeler</Text>
+              <Text style={styles.medyaAlt}>
+                {sesliHikayeler.length} audio story — dinle ve İngilizce metni takip et
+              </Text>
+            </Pressable>
+          ) : null}
+          {okumaKitaplari.length > 0 ? (
+            <Pressable
+              style={({ pressed }) => [
+                styles.medyaKart,
+                styles.medyaKartKitap,
+                pressed && styles.kartPressed,
+              ]}
+              onPress={() => navigation.navigate('ReadingBookList', { dersId, dersBaslik })}
+            >
+              <Text style={styles.medyaBaslik}>📚 Okuma Kitapları</Text>
+              <Text style={styles.medyaAlt}>
+                {okumaKitaplari.length} reading book — sayfa sayfa oku
+              </Text>
+            </Pressable>
+          ) : null}
+        </View>
+      ) : null}
       {uniteGruplari.map((grup, grupIndex) => (
         <View key={grup.uniteBaslik}>
-          <Text style={[styles.uniteBaslik, grupIndex === 0 && styles.uniteBaslikIlk]}>
+          <Text
+            style={[
+              styles.uniteBaslik,
+              grupIndex === 0 && !ingilizceMedya && styles.uniteBaslikIlk,
+            ]}
+          >
             {grup.uniteBaslik}
           </Text>
           <View style={styles.grid}>
