@@ -339,6 +339,42 @@ const NESNE: Record<string, { emoji: string; etiket: string; ing?: string; renk?
   'winter-outfit': { emoji: '🧥', etiket: 'Kış Kombini', ing: 'Winter outfit' },
   'season-wheel': { emoji: '🔄', etiket: 'Mevsimler', ing: 'Seasons' },
   'season-clothes-match': { emoji: '👕', etiket: 'Mevsim-Giysi', ing: 'Season match' },
+  // Tema 5 — Shapes
+  'daire-sekil': { emoji: '⭕', etiket: 'Daire', ing: 'Circle', renk: 'red' },
+  'kare-sekil': { emoji: '🟥', etiket: 'Kare', ing: 'Square', renk: 'red' },
+  'ucgen-sekil': { emoji: '🔺', etiket: 'Üçgen', ing: 'Triangle', renk: 'orange' },
+  'dikdortgen-sekil': { emoji: '▭', etiket: 'Dikdörtgen', ing: 'Rectangle', renk: 'blue' },
+  'yildiz-sekil': { emoji: '⭐', etiket: 'Yıldız', ing: 'Star', renk: 'yellow' },
+  'kalp-sekil': { emoji: '❤️', etiket: 'Kalp', ing: 'Heart', renk: 'pink' },
+  'renkli-sekiller': { emoji: '🔷', etiket: 'Şekiller', ing: 'Shapes' },
+  'kare-kutu': { emoji: '📦', etiket: 'Kare Kutu', ing: 'Square' },
+  'oval-sekil': { emoji: '🥚', etiket: 'Oval', ing: 'Oval', renk: 'yellow' },
+  'ucgen-cad': { emoji: '⛺', etiket: 'Çadır', ing: 'Triangle' },
+  'elmas-sekil': { emoji: '💎', etiket: 'Elmas', ing: 'Diamond', renk: 'purple' },
+  'top-sekli': { emoji: '⚽', etiket: 'Top', ing: 'Circle' },
+  'kalp-cizim': { emoji: '💕', etiket: 'Kalp', ing: 'Heart', renk: 'pink' },
+  'yildiz-parlak': { emoji: '✨', etiket: 'Yıldız', ing: 'Star', renk: 'yellow' },
+  'zar-kup': { emoji: '🎲', etiket: 'Zar', ing: 'Square' },
+  'yumurta-sekil': { emoji: '🥚', etiket: 'Yumurta', ing: 'Oval' },
+  'sekil-panosu': { emoji: '📐', etiket: 'Şekil Panosu', ing: 'Shapes' },
+  'daire-kare-karsilastirma': { emoji: '⭕🟥', etiket: 'Daire & Kare', ing: 'Circle & Square' },
+  // Tema 6 — School, Hobbies & Daily
+  'hobi-resim': { emoji: '🎨', etiket: 'Hobi', ing: 'Hobby' },
+  'kahvalti-masasi': { emoji: '🍳', etiket: 'Kahvaltı', ing: 'Breakfast' },
+  'dis-fircalayan': { emoji: '🪥', etiket: 'Diş Fırçala', ing: 'Brush teeth' },
+  'ogle-yemegi': { emoji: '🍱', etiket: 'Öğle Yemeği', ing: 'Lunch' },
+  'gunluk-takvim': { emoji: '📅', etiket: 'Günlük Rutin', ing: 'Daily routine' },
+  'ders-dinleyen': { emoji: '👂', etiket: 'Dinle', ing: 'Listen' },
+  'sabah-rutini': { emoji: '🌅', etiket: 'Sabah Rutini', ing: 'Wake up' },
+  // Tema 7 — Toys
+  'oyuncak-bebek': { emoji: '🪆', etiket: 'Bebek', ing: 'Doll' },
+  'oyuncak-araba': { emoji: '🚗', etiket: 'Oyuncak Araba', ing: 'Toy car' },
+  'lego-bloklari': { emoji: '🧱', etiket: 'Lego', ing: 'Building blocks' },
+  'oyuncak-kutusu': { emoji: '📦', etiket: 'Oyuncak Kutusu', ing: 'Toy box' },
+  'oyuncak-bisiklet': { emoji: '🚲', etiket: 'Bisiklet', ing: 'Bike' },
+  yapboz: { emoji: '🧩', etiket: 'Yapboz', ing: 'Puzzle' },
+  'renkli-toplar': { emoji: '🏐', etiket: 'Toplar', ing: 'Balls' },
+  'park-topu': { emoji: '⚽', etiket: 'Park Topu', ing: 'Ball' },
   // Tema 3 — Days, Weather and Actions
   '12-aylik-takvim': { emoji: '🗓️', etiket: '12 Aylik Takvim', ing: 'Months' },
   'acik-kitap': { emoji: '📖', etiket: 'Acik Kitap', ing: 'Read' },
@@ -994,6 +1030,24 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       return <GrupGorsel nesneler={['nasilsin-sorusu', 'iyiyim-isareti', 'heyecanli-cocuk', 'yorgun-cocuk']} />;
     case 'dg-anlatim-3':
       return <GrupGorsel nesneler={['korkmus-cocuk', 'sasirmis-cocuk', 'mutlu-cocuk', 'aglayan-cocuk']} />;
+    case 'sk-anlatim-1':
+      return <GrupGorsel nesneler={['daire-sekil', 'kare-sekil', 'ucgen-sekil', 'dikdortgen-sekil']} />;
+    case 'sk-anlatim-2':
+      return <GrupGorsel nesneler={['yildiz-sekil', 'kalp-sekil', 'oval-sekil', 'elmas-sekil']} />;
+    case 'sk-anlatim-3':
+      return <GrupGorsel nesneler={['top-sekli', 'ucgen-cad', 'pencere', 'zar-kup']} />;
+    case 'oh-anlatim-1':
+      return <GrupGorsel nesneler={['classroom', 'ogretmen', 'yeni-ogrenci', 'gunaydin-cocuk']} />;
+    case 'oh-anlatim-2':
+      return <GrupGorsel nesneler={['hobi-resim', 'mikrofon-sarki', 'dans-eden', 'futbol-topu']} />;
+    case 'oh-anlatim-3':
+      return <GrupGorsel nesneler={['kahvalti-masasi', 'ogle-yemegi', 'aksam-yemegi', 'gece-yatak']} />;
+    case 'oy-anlatim-1':
+      return <GrupGorsel nesneler={['oyuncak-ayi', 'futbol-topu', 'oyuncak-bebek', 'oyuncak-araba']} />;
+    case 'oy-anlatim-2':
+      return <GrupGorsel nesneler={['ucurtma', 'futbol-topu', 'oyuncak-bisiklet', 'oyuncak-kutusu']} />;
+    case 'oy-anlatim-3':
+      return <GrupGorsel nesneler={['yapboz', 'oyuncak-ayi', 'oyuncak-araba', 'renkli-toplar']} />;
     default:
       return <NesneKart anahtar={sahne || 'default'} />;
   }

@@ -1,0 +1,483 @@
+{
+  "id": "hayvanlar",
+  "baslik": "Animals",
+  "kazanimKodu": "ING.2.2.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Ali ve Zeynep parkta yürüdü. Kedinin İngilizcesi Cat, köpeğin Dog, kuşun Bird, akvaryumdaki balığın Fish olduğunu öğrendiler. Hayvan dostlarımızın İngilizce isimlerini bilmek çok eğlenceliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hy-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk ve Fatma dedelerinin çiftliğine gittiler. İnek Cow, koyun Sheep, at Horse, tavuk Chicken! Çiftlik hayatı İngilizce kelimelerle çok daha neşeli bir yer haline gelmişti.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hy-anlatim-2"
+        }
+      },
+      {
+        "metin": "Can ve Hande doğa belgeseli izlediler. Aslan Lion, fil Elephant, maymun Monkey! Dünyamızdaki tüm hayvanları korumak ve onları çok sevmek zorundaydık.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "hy-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "hy-a1",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Kedi kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "cat",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kedi-sevimli"
+      }
+    },
+    {
+      "id": "hy-a2",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "İngilizcede köpek \"Dog\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kopek-nese"
+      }
+    },
+    {
+      "id": "hy-a3",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Kuş kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "bird",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kus-mavi"
+      }
+    },
+    {
+      "id": "hy-a4",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Balık İngilizcede \"Fish\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "balik-akvaryum"
+      }
+    },
+    {
+      "id": "hy-a5",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "İnek kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "cow",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "inek-ciftlik"
+      }
+    },
+    {
+      "id": "hy-a6",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "\"Sheep\" kelimesi Türkçede at anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "koyun-otlayan"
+      }
+    },
+    {
+      "id": "hy-a7",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "At kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "horse",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "at-kosan"
+      }
+    },
+    {
+      "id": "hy-a8",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Tavuk İngilizcede \"Chicken\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tavuk-kumes"
+      }
+    },
+    {
+      "id": "hy-a9",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Aslan kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "lion",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aslan-orman"
+      }
+    },
+    {
+      "id": "hy-a10",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Fil İngilizcede \"Elephant\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "fil-hortum"
+      }
+    },
+    {
+      "id": "hy-a11",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "Ağaçlarda zıplayan maymunun İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "monkey",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "maymun-dal"
+      }
+    },
+    {
+      "id": "hy-a12",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "\"Cat\" kelimesi Türkçede köpek demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kedi-yavrusu"
+      }
+    },
+    {
+      "id": "hy-a13",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "yazili",
+      "soru": "\"Fish\" kelimesi hem balık hem de balıklar anlamına gelebilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuzme-balik"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "hy-t1",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Evimizde beslediğimiz sevimli kedinin İngilizcesi nedir?",
+      "dogruCevap": "Cat",
+      "secenekler": [
+        "Fish",
+        "Cat",
+        "Bird",
+        "Dog"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "miyavlayan-kedi"
+      }
+    },
+    {
+      "id": "hy-t2",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bize dost olan ve evimizi koruyan köpeğin İngilizce adı hangisidir?",
+      "dogruCevap": "Dog",
+      "secenekler": [
+        "Cow",
+        "Dog",
+        "Sheep",
+        "Lion"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kuyruk-sallayan-kopek"
+      }
+    },
+    {
+      "id": "hy-t3",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçlara yuva yapan ve gökyüzünde uçan kuşun İngilizcesi nedir?",
+      "dogruCevap": "Bird",
+      "secenekler": [
+        "Elephant",
+        "Fish",
+        "Bird",
+        "Monkey"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucan-kus-gokyuzu"
+      }
+    },
+    {
+      "id": "hy-t4",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Suda nefes alan ve yüzen balığın İngilizcesi aşağıdakilerden hangisidir?",
+      "dogruCevap": "Fish",
+      "secenekler": [
+        "Fish",
+        "Cat",
+        "Horse",
+        "Bird"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-balik"
+      }
+    },
+    {
+      "id": "hy-t5",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çiftlikte bize sağlıklı süt veren ineğin İngilizce karşılığı nedir?",
+      "dogruCevap": "Cow",
+      "secenekler": [
+        "Lion",
+        "Dog",
+        "Sheep",
+        "Cow"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cimen-inek"
+      }
+    },
+    {
+      "id": "hy-t6",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yumuşacık yünleri olan koyunun İngilizcesi hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Sheep",
+      "secenekler": [
+        "Bird",
+        "Sheep",
+        "Horse",
+        "Monkey"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beyaz-koyun"
+      }
+    },
+    {
+      "id": "hy-t7",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çok hızlı koşan ve yelesi olan atın İngilizcesi nedir?",
+      "dogruCevap": "Horse",
+      "secenekler": [
+        "Horse",
+        "Chicken",
+        "Cat",
+        "Elephant"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kosan-at"
+      }
+    },
+    {
+      "id": "hy-t8",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Çiftlikte sabahları bize yumurta veren tavuğun İngilizcesi nedir?",
+      "dogruCevap": "Chicken",
+      "secenekler": [
+        "Cow",
+        "Fish",
+        "Lion",
+        "Chicken"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gidaklayan-tavuk"
+      }
+    },
+    {
+      "id": "hy-t9",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ormanların kralı olarak bilinen aslanın İngilizcesi nedir?",
+      "dogruCevap": "Lion",
+      "secenekler": [
+        "Lion",
+        "Dog",
+        "Sheep",
+        "Monkey"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kukreyen-aslan"
+      }
+    },
+    {
+      "id": "hy-t10",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hortumu ve kocaman kulakları olan filin İngilizcesi hangisidir?",
+      "dogruCevap": "Elephant",
+      "secenekler": [
+        "Elephant",
+        "Bird",
+        "Fish",
+        "Horse"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kulakli-fil"
+      }
+    },
+    {
+      "id": "hy-t11",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ağaçlarda zıplayan ve muz yemeyi çok seven maymunun İngilizce adı nedir?",
+      "dogruCevap": "Monkey",
+      "secenekler": [
+        "Cat",
+        "Cow",
+        "Monkey",
+        "Chicken"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muz-yiyen-maymun"
+      }
+    },
+    {
+      "id": "hy-t12",
+      "kazanimKodu": "ING.2.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+      "dogruCevap": "Koyun = Bird",
+      "secenekler": [
+        "Kedi = Cat",
+        "İnek = Cow",
+        "Koyun = Bird",
+        "Köpek = Dog"
+      ],
+      "ipucu": "Sheep koyun demektir!",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ciftlik-manzara"
+      },
+      "sasirtma": true
+    }
+  ]
+}

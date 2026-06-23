@@ -1,0 +1,483 @@
+{
+  "id": "vucudumuzun-bolumleri",
+  "baslik": "Body Parts",
+  "kazanimKodu": "ING.2.2.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Pırıl pırıl bir sabahtı. Can ve Zeynep aynanın karşısına geçmiş, yüzlerindeki organları inceliyorlardı. Can, ellerini başına koydu ve \"Başımızın İngilizcesi Head,\" dedi. Zeynep iri ve güzel gözlerini göstererek, \"Gözlerimiz ise Eye demek, dünyayı onların sayesinde görüyoruz!\" diye gülümsedi. Can kulaklarını işaret etti: \"Müziği ve kuşların sesini duyduğumuz kulağımız İngilizcede Ear olarak söylenir.\" Çiçeklerin mis gibi kokusunu aldığımız burnumuzun adı \"Nose\", yemek yediğimiz ve konuştuğumuz ağzımızın adı ise \"Mouth\" idi. Vücudumuzun baş (Head) bölgesi, harika şeyleri görmemizi, duymamızı, koklamamızı ve tatmamızı sağlayan harika bir komuta merkeziydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "vb-anlatim-1"
+        }
+      },
+      {
+        "metin": "Dışarı çıkıp oyun oynamaya başladıklarında Ali ve Hande birbirlerine top atıyorlardı. Ali topu fırlatırken, \"Kollarımız ne kadar güçlü, İngilizcede onlara Arm diyoruz!\" diye seslendi. Hande topu elleriyle havada yakaladı ve neşeyle cevap verdi: \"Topu tutmamı sağlayan ellerimin İngilizcesi ise Hand.\" Ellerimiz olmasaydı resim yapamaz, kalem tutamaz ve sevdiklerimize sarılamazdık. Öğretmenleri onlara şarkı söylerken parmaklarını şıklatmayı da öğretmişti. Her bir parmağın adı İngilizcede \"Finger\" idi. İki kolda (Arm) iki el (Hand) ve tam on tane marifetli parmak (Finger) vardı. Vücudumuz kusursuz çalışan çok tatlı bir makine gibiydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "vb-anlatim-2"
+        }
+      },
+      {
+        "metin": "Öğleden sonra Yusuf ve Ayşe parkta seksek oynamaya başladılar. Yusuf tek bacağının üzerinde zıplarken, \"Bacaklarımız çok sağlam, İngilizcesi Leg!\" diyerek zıpladı. Ayşe de yere sağlam basan ayaklarını gösterdi: \"Bizi ayakta tutan ve yürümemizi sağlayan ayaklarımıza ise Foot diyoruz.\" İngilizcede ayak parmakları için el parmaklarından farklı bir kelime kullanılırdı. Ayak parmaklarının adı \"Toe\" idi. Vücudumuzun bölümleri (Body Parts) muhteşem bir uyum içinde çalışıyordu. Gözlerimiz (Eye) yolu görüyor, kollarımız (Arm) denge kuruyor, bacaklarımız (Leg) ve ayaklarımız (Foot) ise bizi istediğimiz her yere sevgiyle taşıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "vb-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "vb-a1",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Vücudumuzun en üstünde bulunan baş (kafa) kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "head",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bas-kafa"
+      }
+    },
+    {
+      "id": "vb-a2",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "İngilizcede göz \"Eye\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-gozu"
+      }
+    },
+    {
+      "id": "vb-a3",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Kulak kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "ear",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-kulak"
+      }
+    },
+    {
+      "id": "vb-a4",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Burun İngilizcede \"Nose\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-burnu"
+      }
+    },
+    {
+      "id": "vb-a5",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Ağız kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "mouth",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gulumseyen-agiz"
+      }
+    },
+    {
+      "id": "vb-a6",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "\"Arm\" kelimesi Türkçede bacak anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-kolu"
+      }
+    },
+    {
+      "id": "vb-a7",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "El kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "hand",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-eli"
+      }
+    },
+    {
+      "id": "vb-a8",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "El parmaklarımıza İngilizcede \"Finger\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "el-parmaklari"
+      }
+    },
+    {
+      "id": "vb-a9",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Bacak kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "leg",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-bacagi"
+      }
+    },
+    {
+      "id": "vb-a10",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Ayak İngilizcede \"Foot\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "insan-ayagi"
+      }
+    },
+    {
+      "id": "vb-a11",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "Ayak parmaklarımızın İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "toe",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ayak-parmaklari"
+      }
+    },
+    {
+      "id": "vb-a12",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "\"Eye\" kelimesi Türkçede kulak demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cift-goz"
+      }
+    },
+    {
+      "id": "vb-a13",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "yazili",
+      "soru": "\"Hand\" kelimesi el anlamına gelir ve resim yapmamızı sağlar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "el-sallayan-el"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "vb-t1",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Saçlarımızın bulunduğu baş (kafa) bölümünün İngilizcesi nedir?",
+      "dogruCevap": "Head",
+      "secenekler": [
+        "Ear",
+        "Arm",
+        "Leg",
+        "Head"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sac-taranan-bas"
+      }
+    },
+    {
+      "id": "vb-t2",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dünyayı, renkleri ve şekilleri görmemizi sağlayan gözün İngilizce adı hangisidir?",
+      "dogruCevap": "Eye",
+      "secenekler": [
+        "Hand",
+        "Foot",
+        "Nose",
+        "Eye"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "guzel-goz"
+      }
+    },
+    {
+      "id": "vb-t3",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sesleri, müziği ve arkadaşlarımızın sesini duyduğumuz kulağın İngilizcesi nedir?",
+      "dogruCevap": "Ear",
+      "secenekler": [
+        "Leg",
+        "Mouth",
+        "Ear",
+        "Finger"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-kulak"
+      }
+    },
+    {
+      "id": "vb-t4",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Nefes almamızı ve mis gibi kokuları duymamızı sağlayan burnun İngilizcesi aşağıdakilerden hangisidir?",
+      "dogruCevap": "Nose",
+      "secenekler": [
+        "Nose",
+        "Arm",
+        "Eye",
+        "Toe"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "cicek-burun"
+      }
+    },
+    {
+      "id": "vb-t5",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yemek yediğimiz, konuştuğumuz ve şarkı söylediğimiz ağzın İngilizce karşılığı nedir?",
+      "dogruCevap": "Mouth",
+      "secenekler": [
+        "Hand",
+        "Head",
+        "Mouth",
+        "Foot"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "konusan-agiz"
+      }
+    },
+    {
+      "id": "vb-t6",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Eşyaları kaldırmamızı sağlayan kolun İngilizcesi hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Arm",
+      "secenekler": [
+        "Leg",
+        "Nose",
+        "Arm",
+        "Ear"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "guclu-kol"
+      }
+    },
+    {
+      "id": "vb-t7",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Birine el sallarken kullandığımız elin İngilizcesi nedir?",
+      "dogruCevap": "Hand",
+      "secenekler": [
+        "Hand",
+        "Foot",
+        "Mouth",
+        "Eye"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "el-sallayan-el"
+      }
+    },
+    {
+      "id": "vb-t8",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kalem tutmamızı sağlayan el parmaklarımızın İngilizcesi nedir?",
+      "dogruCevap": "Finger",
+      "secenekler": [
+        "Head",
+        "Leg",
+        "Toe",
+        "Finger"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "el-parmaklari"
+      }
+    },
+    {
+      "id": "vb-t9",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yürümemizi, koşmamızı ve zıplamamızı sağlayan bacağın İngilizcesi nedir?",
+      "dogruCevap": "Leg",
+      "secenekler": [
+        "Nose",
+        "Ear",
+        "Arm",
+        "Leg"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuruyen-bacaklar"
+      }
+    },
+    {
+      "id": "vb-t10",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ayakkabı giydiğimiz ve yere sağlam basmamızı sağlayan ayağın İngilizcesi hangisidir?",
+      "dogruCevap": "Foot",
+      "secenekler": [
+        "Head",
+        "Foot",
+        "Hand",
+        "Eye"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yere-basan-ayak"
+      }
+    },
+    {
+      "id": "vb-t11",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Ayak uçlarımızda bulunan ayak parmaklarına İngilizcede ne ad verilir?",
+      "dogruCevap": "Toe",
+      "secenekler": [
+        "Finger",
+        "Arm",
+        "Toe",
+        "Mouth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ayak-parmaklari"
+      }
+    },
+    {
+      "id": "vb-t12",
+      "kazanimKodu": "ING.2.2.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+      "dogruCevap": "Burun = Hand",
+      "secenekler": [
+        "Ağız = Mouth",
+        "Burun = Hand",
+        "Kulak = Ear",
+        "Göz = Eye"
+      ],
+      "ipucu": "Nose burun demektir!",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuz-organlari"
+      },
+      "sasirtma": true
+    }
+  ]
+}

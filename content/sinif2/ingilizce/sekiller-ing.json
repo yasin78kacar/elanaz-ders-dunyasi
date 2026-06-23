@@ -1,0 +1,477 @@
+{
+  "id": "sekiller-ing",
+  "baslik": "Shapes",
+  "kazanimKodu": "ING.2.5.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz ve Berk sınıfta şekil panosu hazırladılar. Daire Circle, kare Square, üçgen Triangle! Renkli şekiller duvara asılınca sınıf çok neşeli oldu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sk-anlatim-1"
+        }
+      },
+      {
+        "metin": "Öğretmen dikdörtgen Rectangle, yıldız Star ve kalp Heart şekillerini gösterdi. \"Shapes\" kelimesi tüm şekillerin adıydı. Her şekil farklı ve güzeldi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sk-anlatim-2"
+        }
+      },
+      {
+        "metin": "Parkta top Circle, çadır Triangle, pencere Rectangle şeklindeydi. Şekilleri İngilizce öğrenmek çevremizdeki her şeyi daha eğlenceli yapıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sk-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "sk-a1",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Daire kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "circle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "daire-sekil"
+      }
+    },
+    {
+      "id": "sk-a2",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Kare kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "square",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kare-sekil"
+      }
+    },
+    {
+      "id": "sk-a3",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Üçgen İngilizcede \"Triangle\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucgen-sekil"
+      }
+    },
+    {
+      "id": "sk-a4",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Dikdörtgen kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "rectangle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dikdortgen-sekil"
+      }
+    },
+    {
+      "id": "sk-a5",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Yıldız şeklinin İngilizcesi \"Star\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yildiz-sekil"
+      }
+    },
+    {
+      "id": "sk-a6",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Kalp şeklinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "heart",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kalp-sekil"
+      }
+    },
+    {
+      "id": "sk-a7",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "\"Circle\" kelimesi Türkçede kare demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "top-sekli"
+      }
+    },
+    {
+      "id": "sk-a8",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Şekiller kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "shapes",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-sekiller"
+      }
+    },
+    {
+      "id": "sk-a9",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "\"Square\" kelimesi dört eşit kenarlı kare şeklidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kare-kutu"
+      }
+    },
+    {
+      "id": "sk-a10",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Oval şeklinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "oval",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oval-sekil"
+      }
+    },
+    {
+      "id": "sk-a11",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "\"Triangle\" kelimesi üç kenarlı şekil demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucgen-cad"
+      }
+    },
+    {
+      "id": "sk-a12",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Elmas şeklinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "diamond",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "elmas-sekil"
+      }
+    },
+    {
+      "id": "sk-a13",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "yazili",
+      "soru": "Futbol topu bir \"Circle\" (daire) şekline benzer.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "sk-t1",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Top gibi yuvarlak şeklin İngilizcesi nedir?",
+      "dogruCevap": "Circle",
+      "secenekler": [
+        "Square",
+        "Star",
+        "Circle",
+        "Triangle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "top-sekli"
+      }
+    },
+    {
+      "id": "sk-t2",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Dört eşit kenarlı karenin İngilizcesi hangisidir?",
+      "dogruCevap": "Square",
+      "secenekler": [
+        "Oval",
+        "Circle",
+        "Square",
+        "Heart"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kare-sekil"
+      }
+    },
+    {
+      "id": "sk-t3",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Üç kenarlı şeklin İngilizce adı nedir?",
+      "dogruCevap": "Triangle",
+      "secenekler": [
+        "Star",
+        "Rectangle",
+        "Triangle",
+        "Diamond"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucgen-sekil"
+      }
+    },
+    {
+      "id": "sk-t4",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Kitap gibi uzun dörtgen şeklin İngilizcesi nedir?",
+      "dogruCevap": "Rectangle",
+      "secenekler": [
+        "Heart",
+        "Triangle",
+        "Rectangle",
+        "Circle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dikdortgen-sekil"
+      }
+    },
+    {
+      "id": "sk-t5",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzündeki parlayan yıldız şeklinin İngilizcesi nedir?",
+      "dogruCevap": "Star",
+      "secenekler": [
+        "Diamond",
+        "Oval",
+        "Square",
+        "Star"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yildiz-sekil"
+      }
+    },
+    {
+      "id": "sk-t6",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Sevgi sembolü kalp şeklinin İngilizcesi hangisidir?",
+      "dogruCevap": "Heart",
+      "secenekler": [
+        "Triangle",
+        "Circle",
+        "Heart",
+        "Square"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kalp-sekil"
+      }
+    },
+    {
+      "id": "sk-t7",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Şekiller kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Shapes",
+      "secenekler": [
+        "Shapes",
+        "Numbers",
+        "Animals",
+        "Colors"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-sekiller"
+      }
+    },
+    {
+      "id": "sk-t8",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yumurtaya benzeyen şeklin İngilizcesi nedir?",
+      "dogruCevap": "Oval",
+      "secenekler": [
+        "Star",
+        "Triangle",
+        "Oval",
+        "Square"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oval-sekil"
+      }
+    },
+    {
+      "id": "sk-t9",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Elmas şeklinin İngilizce karşılığı nedir?",
+      "dogruCevap": "Diamond",
+      "secenekler": [
+        "Rectangle",
+        "Diamond",
+        "Heart",
+        "Circle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "elmas-sekil"
+      }
+    },
+    {
+      "id": "sk-t10",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Circle\" kelimesinin Türkçe anlamı nedir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "daire-sekil"
+      }
+    },
+    {
+      "id": "sk-t11",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çadırın çatısı hangi şekle benzer?",
+      "dogruCevap": "Triangle",
+      "secenekler": [
+        "Triangle",
+        "Square",
+        "Circle",
+        "Oval"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucgen-cad"
+      }
+    },
+    {
+      "id": "sk-t12",
+      "kazanimKodu": "ING.2.5.3",
+      "tip": "coktanSecmeli",
+      "soru": "Zarın yüzleri hangi şekildedir?",
+      "dogruCevap": "Square",
+      "secenekler": [
+        "Circle",
+        "Square",
+        "Star",
+        "Heart"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "zar-kup"
+      }
+    }
+  ]
+}

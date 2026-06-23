@@ -1,0 +1,929 @@
+{
+  "id": "okul-hobiler-gunluk",
+  "baslik": "School, Hobbies & Daily",
+  "kazanimKodu": "ING.2.6.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz sabah uyandı. \"Wake up!\" dedi annesi. Dişlerini fırçaladı, kahvaltı yaptı ve \"Go to school!\" ile okula gitti. Sınıfta Teacher ve Student birlikte öğreniyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oh-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk'in hobileri çok eğlenceliydi: Drawing, Singing, Dance ve Play football! Her gün farklı bir hobi onu mutlu ediyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oh-anlatim-2"
+        }
+      },
+      {
+        "metin": "Günlük rutinleri Daily routine ile düzenliydi: Breakfast, Lunch, Dinner ve Sleep. Classroom'da Book, Board ve Chair vardı. Okul hayatı İngilizce çok kolaydı!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oh-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "oh-a1",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Okul kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "school",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "classroom"
+      }
+    },
+    {
+      "id": "oh-a2",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Sınıf kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "classroom",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-ortam"
+      }
+    },
+    {
+      "id": "oh-a3",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Öğretmen İngilizcede \"Teacher\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "oh-a4",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Öğrenci kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "student",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yeni-ogrenci"
+      }
+    },
+    {
+      "id": "oh-a5",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Kitap İngilizcede \"Book\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oh-a6",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Hobi kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "hobby",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hobi-resim"
+      }
+    },
+    {
+      "id": "oh-a7",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Resim çizmek hobisi İngilizcede \"Drawing\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "resim-cizen"
+      }
+    },
+    {
+      "id": "oh-a8",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Müzik dinlemek hobisinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "music",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-dinleyen"
+      }
+    },
+    {
+      "id": "oh-a9",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Sabah kalkmak günlük rutinimizde \"Wake up\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunaydin-cocuk"
+      }
+    },
+    {
+      "id": "oh-a10",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Diş fırçalamak İngilizcede \"Brush teeth\" olarak ifade edilir.",
+      "dogruCevap": "brush teeth",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dis-fircalayan"
+      },
+      "alternatifCevaplar": [
+        "Brush Teeth"
+      ]
+    },
+    {
+      "id": "oh-a11",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Kahvaltı yapmak İngilizcede \"Have breakfast\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahvalti-masasi"
+      }
+    },
+    {
+      "id": "oh-a12",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Okula gitmek İngilizcede \"Go to .........\" olarak söylenir.",
+      "dogruCevap": "school",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okul-karsilasma"
+      }
+    },
+    {
+      "id": "oh-a13",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "\"Play football\" futbol oynamak hobisidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "oh-a14",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Dans etmek hobisinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "dance",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dans-eden"
+      }
+    },
+    {
+      "id": "oh-a15",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Akşam yemeği İngilizcede \"Dinner\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aksam-yemegi"
+      }
+    },
+    {
+      "id": "oh-a16",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Uyumak günlük rutinimizde \".........\" olarak söylenir.",
+      "dogruCevap": "sleep",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gece-yatak"
+      }
+    },
+    {
+      "id": "oh-a17",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Tahta İngilizcede \"Board\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "board"
+      }
+    },
+    {
+      "id": "oh-a18",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Sandalye kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "chair",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "chair"
+      }
+    },
+    {
+      "id": "oh-a19",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Şarkı söylemek hobisi İngilizcede \"Singing\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mikrofon-sarki"
+      }
+    },
+    {
+      "id": "oh-a20",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Günlük rutin kelimesinin İngilizcesi \"Daily .........\" kelimesidir.",
+      "dogruCevap": "routine",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunluk-takvim"
+      }
+    },
+    {
+      "id": "oh-a21",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "\"Student\" kelimesi öğrenci demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-ortam"
+      }
+    },
+    {
+      "id": "oh-a22",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Öğle yemeği İngilizcede \".........\" olarak söylenir.",
+      "dogruCevap": "lunch",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogle-yemegi"
+      }
+    },
+    {
+      "id": "oh-a23",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Kitap okumak hem okulda hem hobide \"Reading\" olarak adlandırılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap-okuyan-kiz"
+      }
+    },
+    {
+      "id": "oh-a24",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Sınıfta ders dinlerken \"Listen\" kelimesini kullanırız.",
+      "dogruCevap": "listen",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-dinleyen"
+      }
+    },
+    {
+      "id": "oh-a25",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "yazili",
+      "soru": "Her sabah aynı işleri yapmak \"Daily routine\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sabah-rutini"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "oh-t1",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Okul kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "School",
+      "secenekler": [
+        "Park",
+        "Home",
+        "Shop",
+        "School"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "classroom"
+      }
+    },
+    {
+      "id": "oh-t2",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfın İngilizce adı hangisidir?",
+      "dogruCevap": "Classroom",
+      "secenekler": [
+        "Classroom",
+        "Bedroom",
+        "Kitchen",
+        "Garden"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sinif-ortam"
+      }
+    },
+    {
+      "id": "oh-t3",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Öğretmenin İngilizcesi nedir?",
+      "dogruCevap": "Teacher",
+      "secenekler": [
+        "Student",
+        "Doctor",
+        "Driver",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "oh-t4",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Öğrenci kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Student",
+      "secenekler": [
+        "Parent",
+        "Baby",
+        "Student",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yeni-ogrenci"
+      }
+    },
+    {
+      "id": "oh-t5",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kitabın İngilizcesi nedir?",
+      "dogruCevap": "Book",
+      "secenekler": [
+        "Book",
+        "Chair",
+        "Pen",
+        "Bag"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kitap"
+      }
+    },
+    {
+      "id": "oh-t6",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hobi kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Hobby",
+      "secenekler": [
+        "Color",
+        "Food",
+        "Hobby",
+        "Weather"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hobi-resim"
+      }
+    },
+    {
+      "id": "oh-t7",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Resim çizmek hobisinin İngilizcesi hangisidir?",
+      "dogruCevap": "Drawing",
+      "secenekler": [
+        "Sleeping",
+        "Drawing",
+        "Running",
+        "Eating"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "resim-cizen"
+      }
+    },
+    {
+      "id": "oh-t8",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sabah uyanmak İngilizcede nasıl söylenir?",
+      "dogruCevap": "Wake up",
+      "secenekler": [
+        "Play games",
+        "Wake up",
+        "Have dinner",
+        "Go to bed"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunaydin-cocuk"
+      }
+    },
+    {
+      "id": "oh-t9",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Diş fırçalamak İngilizcede nasıl ifade edilir?",
+      "dogruCevap": "Brush teeth",
+      "secenekler": [
+        "Eat lunch",
+        "Wash hands",
+        "Comb hair",
+        "Brush teeth"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dis-fircalayan"
+      }
+    },
+    {
+      "id": "oh-t10",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kahvaltı yapmak İngilizcede nedir?",
+      "dogruCevap": "Have breakfast",
+      "secenekler": [
+        "Play football",
+        "Have breakfast",
+        "Go to school",
+        "Read a book"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kahvalti-masasi"
+      }
+    },
+    {
+      "id": "oh-t11",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Okula gitmek İngilizcede nasıl söylenir?",
+      "dogruCevap": "Go to school",
+      "secenekler": [
+        "Go to bed",
+        "Go to school",
+        "Go swimming",
+        "Go shopping"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "otobus-cocuk"
+      }
+    },
+    {
+      "id": "oh-t12",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Futbol oynamak hobisinin İngilizcesi hangisidir?",
+      "dogruCevap": "Play football",
+      "secenekler": [
+        "Go to bed",
+        "Brush teeth",
+        "Have lunch",
+        "Play football"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "oh-t13",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Dans etmek İngilizcede nedir?",
+      "dogruCevap": "Dance",
+      "secenekler": [
+        "Dance",
+        "Read",
+        "Sleep",
+        "Write"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dans-eden"
+      }
+    },
+    {
+      "id": "oh-t14",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Akşam yemeği İngilizcede nasıl adlandırılır?",
+      "dogruCevap": "Dinner",
+      "secenekler": [
+        "Lunch",
+        "Dinner",
+        "Snack",
+        "Breakfast"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "aksam-yemegi"
+      }
+    },
+    {
+      "id": "oh-t15",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Uyumak İngilizcede hangi kelimeyle ifade edilir?",
+      "dogruCevap": "Sleep",
+      "secenekler": [
+        "Draw",
+        "Run",
+        "Sleep",
+        "Sing"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gece-yatak"
+      }
+    },
+    {
+      "id": "oh-t16",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tahtanın İngilizcesi nedir?",
+      "dogruCevap": "Board",
+      "secenekler": [
+        "Window",
+        "Desk",
+        "Board",
+        "Door"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "board"
+      }
+    },
+    {
+      "id": "oh-t17",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sandalyenin İngilizcesi hangisidir?",
+      "dogruCevap": "Chair",
+      "secenekler": [
+        "Chair",
+        "Bag",
+        "Desk",
+        "Book"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "chair"
+      }
+    },
+    {
+      "id": "oh-t18",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Şarkı söylemek hobisinin İngilizcesi nedir?",
+      "dogruCevap": "Singing",
+      "secenekler": [
+        "Sleeping",
+        "Eating",
+        "Singing",
+        "Swimming"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mikrofon-sarki"
+      }
+    },
+    {
+      "id": "oh-t19",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Günlük rutin İngilizcede nasıl söylenir?",
+      "dogruCevap": "Daily routine",
+      "secenekler": [
+        "Daily routine",
+        "Daily weather",
+        "Daily color",
+        "Daily food"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gunluk-takvim"
+      }
+    },
+    {
+      "id": "oh-t20",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Öğle yemeği İngilizcede nedir?",
+      "dogruCevap": "Lunch",
+      "secenekler": [
+        "Supper",
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogle-yemegi"
+      }
+    },
+    {
+      "id": "oh-t21",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sınıfta öğretmeni dinlemek için hangi kelimeyi kullanırız?",
+      "dogruCevap": "Listen",
+      "secenekler": [
+        "Jump",
+        "Run",
+        "Sleep",
+        "Listen"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ders-dinleyen"
+      }
+    },
+    {
+      "id": "oh-t22",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"School\" ve \"Classroom\" kelimeleri sırasıyla ne demektir?",
+      "dogruCevap": "Okul ve Sınıf",
+      "secenekler": [
+        "Okul ve Sınıf",
+        "Ev ve Park",
+        "Kitap ve Kalem",
+        "Öğretmen ve Öğrenci"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "grup",
+        "nesneler": [
+          "classroom",
+          "ogretmen"
+        ],
+        "vurgu": "classroom"
+      }
+    },
+    {
+      "id": "oh-t23",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi aktivite bir hobidir?",
+      "dogruCevap": "Drawing pictures",
+      "secenekler": [
+        "Have breakfast",
+        "Brush teeth",
+        "Drawing pictures",
+        "Go to school"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hobi-resim"
+      }
+    },
+    {
+      "id": "oh-t24",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "Günlük rutinde sabah ilk ne yaparız?",
+      "dogruCevap": "Wake up",
+      "secenekler": [
+        "Play games",
+        "Have dinner",
+        "Go to bed",
+        "Wake up"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sabah-rutini"
+      }
+    },
+    {
+      "id": "oh-t25",
+      "kazanimKodu": "ING.2.6.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Student\" kelimesinin Türkçe karşılığı nedir?",
+      "dogruCevap": "Öğrenci",
+      "secenekler": [
+        "Öğrenci",
+        "Öğretmen",
+        "Aşçı",
+        "Doktor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yeni-ogrenci"
+      }
+    }
+  ]
+}

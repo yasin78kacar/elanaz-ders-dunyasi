@@ -1,0 +1,483 @@
+{
+  "id": "yiyecekler-ve-icecekler",
+  "baslik": "Food and Drinks",
+  "kazanimKodu": "ING.2.2.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Güneşli ve çok tatlı bir sabahtı. Ayşe ve Yusuf erkenden uyanıp kahvaltı sofrasına oturdular. Anneleri onlar için mis gibi bir kahvaltı hazırlamıştı. Ayşe ekmeği göstererek, \"Ekmek İngilizcede Bread demektir, enerji verir,\" dedi. Yusuf tabağındaki peyniri afiyetle yerken, \"Peynir çok lezzetli, İngilizcesi ise Cheese!\" diye ekledi. Anneleri masaya haşlanmış yumurta getirdi. Yumurtanın İngilizcesi \"Egg\" idi ve kemiklerini güçlendiriyordu. Sağlıklı bir kahvaltının en önemli içeceği olan sütü yudumlarken, sütün İngilizcede \"Milk\" olarak söylendiğini hatırladılar. Güzel bir kahvaltı, güne mutlu ve güçlü başlamanın en harika yoluydu!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yi-anlatim-1"
+        }
+      },
+      {
+        "metin": "Öğle vakti geldiğinde Mehmet ve Selin okulun yemekhanesine gittiler. Tabaklarında harika bir et yemeği vardı. Mehmet, \"Etin İngilizcesi Meat'tir, çok sağlıklıdır,\" dedi. Selin ise tavuk yemeğini göstererek, \"Benim yemeğim tavuk, yani Chicken!\" diye gülümsedi. Yemeklerini bitirdikten sonra sıra en sevdikleri kısma, meyvelere gelmişti. Mehmet kıpkırmızı bir elmayı ısırırken elmanın İngilizcesinin \"Apple\" olduğunu söyledi. Selin de sarı muzunu soyarken, \"Muz İngilizcede Banana demektir, maymunlar da bunu çok sever!\" dedi. Meyveler (Fruits) ve sağlıklı yiyecekler (Food) onları hastalıklardan koruyan sihirli kalkanlardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yi-anlatim-2"
+        }
+      },
+      {
+        "metin": "Hafta sonu parkta koşup oyun oynayan Fatma ve Berk çok susamışlardı. Berk hemen matarasından kana kana su içti. \"Su, hayatımız için çok önemli. Suyun İngilizcesi Water!\" dedi neşeyle. Fatma da yanında getirdiği portakal suyunu içti. Meyve sularına İngilizcede genel olarak \"Juice\" dendiğini biliyordu. Akşam eve döndüklerinde dedeleri bahçede çay içiyordu. Dedelerine sıcak bir çay ikram ettiler. Çayın İngilizcesi \"Tea\" idi. Yiyecekler (Food) ve içecekler (Drinks) dünyasını İngilizce kelimelerle öğrenmek, her öğünü çok eğlenceli bir oyuna dönüştürmüştü.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "yi-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "yi-a1",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Ekmek kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bread",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ekmek-dilim"
+      }
+    },
+    {
+      "id": "yi-a2",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "İngilizcede peynir \"Cheese\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "peynir-tabak"
+      }
+    },
+    {
+      "id": "yi-a3",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Yumurta kelimesinin İngilizce karşılığı ......... kelimesidir.",
+      "dogruCevap": "egg",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yumurta-hasli"
+      }
+    },
+    {
+      "id": "yi-a4",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Süt İngilizcede \"Milk\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bardak-sut"
+      }
+    },
+    {
+      "id": "yi-a5",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Elma kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "apple",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-yiyecek"
+      }
+    },
+    {
+      "id": "yi-a6",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "\"Banana\" kelimesi Türkçede portakal anlamına gelir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-muz"
+      }
+    },
+    {
+      "id": "yi-a7",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Et kelimesinin İngilizce yazılışı ......... kelimesidir.",
+      "dogruCevap": "meat",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "et-yemegi"
+      }
+    },
+    {
+      "id": "yi-a8",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Tavuk eti yemeğine İngilizcede \"Chicken\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tavuk-yemek"
+      }
+    },
+    {
+      "id": "yi-a9",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Su kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "water",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bardak-su"
+      }
+    },
+    {
+      "id": "yi-a10",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Meyve suyu İngilizcede \"Juice\" olarak yazılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "meyve-suyu"
+      }
+    },
+    {
+      "id": "yi-a11",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "Çay içeceğinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "tea",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sicak-cay"
+      }
+    },
+    {
+      "id": "yi-a12",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "\"Cheese\" kelimesi Türkçede süt demektir.",
+      "dogruCevap": "Yanlış",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Hayır",
+        "hayır",
+        "yanlış"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "peynir-ekmek"
+      }
+    },
+    {
+      "id": "yi-a13",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "yazili",
+      "soru": "\"Apple\" kelimesi çok lezzetli ve sağlıklı bir meyve olan elmadır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "taze-elma"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "yi-t1",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kahvaltıda yediğimiz ekmeğin İngilizcesi nedir?",
+      "dogruCevap": "Bread",
+      "secenekler": [
+        "Apple",
+        "Milk",
+        "Bread",
+        "Water"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "dilim-ekmek"
+      }
+    },
+    {
+      "id": "yi-t2",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kahvaltıların en lezzetli yiyeceği olan peynirin İngilizce adı hangisidir?",
+      "dogruCevap": "Cheese",
+      "secenekler": [
+        "Cheese",
+        "Banana",
+        "Tea",
+        "Meat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "beyaz-peynir"
+      }
+    },
+    {
+      "id": "yi-t3",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Sağlıklı kemikler için yediğimiz yumurtanın İngilizcesi nedir?",
+      "dogruCevap": "Egg",
+      "secenekler": [
+        "Chicken",
+        "Juice",
+        "Egg",
+        "Water"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yumurta-hasli"
+      }
+    },
+    {
+      "id": "yi-t4",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Her gün içmemiz gereken sağlıklı sütün İngilizcesi aşağıdakilerden hangisidir?",
+      "dogruCevap": "Milk",
+      "secenekler": [
+        "Bread",
+        "Tea",
+        "Meat",
+        "Milk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bardak-sut"
+      }
+    },
+    {
+      "id": "yi-t5",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Çok sağlıklı ve tatlı bir meyve olan elmanın İngilizce karşılığı nedir?",
+      "dogruCevap": "Apple",
+      "secenekler": [
+        "Cheese",
+        "Juice",
+        "Banana",
+        "Apple"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kirmizi-elma-yiyecek"
+      }
+    },
+    {
+      "id": "yi-t6",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Maymunların da çok sevdiği muz meyvesinin İngilizcesi hangi seçenekte doğru verilmiştir?",
+      "dogruCevap": "Banana",
+      "secenekler": [
+        "Egg",
+        "Banana",
+        "Apple",
+        "Water"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-muz"
+      }
+    },
+    {
+      "id": "yi-t7",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Bizi güçlü yapan et yemeğinin İngilizcesi nedir?",
+      "dogruCevap": "Meat",
+      "secenekler": [
+        "Chicken",
+        "Milk",
+        "Meat",
+        "Bread"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "et-yemegi"
+      }
+    },
+    {
+      "id": "yi-t8",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Akşam yemeğinde yediğimiz tavuk etinin İngilizcesi nedir?",
+      "dogruCevap": "Chicken",
+      "secenekler": [
+        "Chicken",
+        "Cheese",
+        "Tea",
+        "Water"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kizarmis-tavuk"
+      }
+    },
+    {
+      "id": "yi-t9",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Susadığımızda içtiğimiz hayat kaynağımız olan suyun İngilizcesi nedir?",
+      "dogruCevap": "Water",
+      "secenekler": [
+        "Milk",
+        "Tea",
+        "Juice",
+        "Water"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bardak-su-temiz"
+      }
+    },
+    {
+      "id": "yi-t10",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Taze sıkılmış meyve suyunun İngilizcesi hangisidir?",
+      "dogruCevap": "Juice",
+      "secenekler": [
+        "Apple",
+        "Bread",
+        "Meat",
+        "Juice"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "portakal-suyu"
+      }
+    },
+    {
+      "id": "yi-t11",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Büyüklerimizin kahvaltıda içmeyi çok sevdiği çayın İngilizce adı nedir?",
+      "dogruCevap": "Tea",
+      "secenekler": [
+        "Cheese",
+        "Water",
+        "Tea",
+        "Egg"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sicak-cay-fincan"
+      }
+    },
+    {
+      "id": "yi-t12",
+      "kazanimKodu": "ING.2.2.2",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+      "dogruCevap": "Ekmek = Water",
+      "secenekler": [
+        "Peynir = Cheese",
+        "Süt = Milk",
+        "Ekmek = Water",
+        "Et = Meat"
+      ],
+      "ipucu": "Bread ekmek demektir!",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yiyecekler-masasi"
+      },
+      "sasirtma": true
+    }
+  ]
+}

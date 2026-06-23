@@ -1,0 +1,477 @@
+{
+  "id": "oyuncaklar",
+  "baslik": "Toys",
+  "kazanimKodu": "ING.2.7.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz oyuncak kutusunu açtı. İçinde Teddy bear, Ball, Doll ve Toy car vardı! \"I love my toys!\" dedi neşeyle.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oy-anlatim-1"
+        }
+      },
+      {
+        "metin": "Berk parka gitti. Kite uçurdu, Ball ile oynadı ve Bike sürdü. Toys onların en iyi arkadaşlarıydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oy-anlatim-2"
+        }
+      },
+      {
+        "metin": "Yağmurlu günde evde Puzzle yaptılar. Toy box doluydu: ayı, bebek, araba, top! Oyuncaklar İngilizce öğrenmeyi çok eğlenceli yapıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "oy-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "oy-a1",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Oyuncak kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "toy",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-ayi"
+      }
+    },
+    {
+      "id": "oy-a2",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Oyuncak ayının İngilizcesi \"Teddy .........\" kelimesidir.",
+      "dogruCevap": "bear",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-ayi"
+      }
+    },
+    {
+      "id": "oy-a3",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Top İngilizcede \"Ball\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "oy-a4",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Bebek oyuncağının İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "doll",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bebek"
+      }
+    },
+    {
+      "id": "oy-a5",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Araba oyuncağı İngilizcede \"Toy car\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-araba"
+      }
+    },
+    {
+      "id": "oy-a6",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Uçurtma kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "kite",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucurtma"
+      }
+    },
+    {
+      "id": "oy-a7",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Lego bloklarıyla oynamak çok eğlencelidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "lego-bloklari"
+      }
+    },
+    {
+      "id": "oy-a8",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Oyuncaklar kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "toys",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-kutusu"
+      }
+    },
+    {
+      "id": "oy-a9",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "\"Doll\" kelimesi bebek oyuncağı demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bebek"
+      }
+    },
+    {
+      "id": "oy-a10",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Bisiklet oyuncağının İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bike",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bisiklet"
+      }
+    },
+    {
+      "id": "oy-a11",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "\"Ball\" kelimesi top anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-toplar"
+      }
+    },
+    {
+      "id": "oy-a12",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Puzzle (yapboz) İngilizcede ......... olarak yazılır.",
+      "dogruCevap": "puzzle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yapboz"
+      }
+    },
+    {
+      "id": "oy-a13",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "yazili",
+      "soru": "Oyuncak ayıya \"Teddy bear\" denir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-ayi"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "oy-t1",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Oyuncak kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Toy",
+      "secenekler": [
+        "Food",
+        "Shirt",
+        "Book",
+        "Toy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-ayi"
+      }
+    },
+    {
+      "id": "oy-t2",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Oyuncak ayının İngilizcesi hangisidir?",
+      "dogruCevap": "Teddy bear",
+      "secenekler": [
+        "Teddy bear",
+        "Toy car",
+        "Kite",
+        "Ball"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-ayi"
+      }
+    },
+    {
+      "id": "oy-t3",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Topun İngilizcesi nedir?",
+      "dogruCevap": "Ball",
+      "secenekler": [
+        "Ball",
+        "Bike",
+        "Doll",
+        "Puzzle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "oy-t4",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bebek oyuncağının İngilizcesi hangisidir?",
+      "dogruCevap": "Doll",
+      "secenekler": [
+        "Bear",
+        "Ball",
+        "Doll",
+        "Kite"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bebek"
+      }
+    },
+    {
+      "id": "oy-t5",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Oyuncak arabanın İngilizcesi nedir?",
+      "dogruCevap": "Toy car",
+      "secenekler": [
+        "Toy car",
+        "Toy kite",
+        "Toy ball",
+        "Toy bear"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-araba"
+      }
+    },
+    {
+      "id": "oy-t6",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Uçurtmanın İngilizcesi hangisidir?",
+      "dogruCevap": "Kite",
+      "secenekler": [
+        "Ball",
+        "Bike",
+        "Doll",
+        "Kite"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucurtma"
+      }
+    },
+    {
+      "id": "oy-t7",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Oyuncaklar kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Toys",
+      "secenekler": [
+        "Food",
+        "Clothes",
+        "Shapes",
+        "Toys"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-kutusu"
+      }
+    },
+    {
+      "id": "oy-t8",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Bisikletin İngilizcesi hangisidir?",
+      "dogruCevap": "Bike",
+      "secenekler": [
+        "Doll",
+        "Kite",
+        "Bike",
+        "Ball"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bisiklet"
+      }
+    },
+    {
+      "id": "oy-t9",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yapbozun İngilizcesi nedir?",
+      "dogruCevap": "Puzzle",
+      "secenekler": [
+        "Doll",
+        "Bear",
+        "Ball",
+        "Puzzle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yapboz"
+      }
+    },
+    {
+      "id": "oy-t10",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Ball\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Top",
+      "secenekler": [
+        "Uçurtma",
+        "Araba",
+        "Top",
+        "Bebek"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "renkli-toplar"
+      }
+    },
+    {
+      "id": "oy-t11",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi oyuncakla parkta oynarız?",
+      "dogruCevap": "Ball",
+      "secenekler": [
+        "Doll",
+        "Ball",
+        "Puzzle",
+        "Kite"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "park-topu"
+      }
+    },
+    {
+      "id": "oy-t12",
+      "kazanimKodu": "ING.2.7.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Doll\" kelimesi ne demektir?",
+      "dogruCevap": "Bebek oyuncağı",
+      "secenekler": [
+        "Oyuncak araba",
+        "Uçurtma",
+        "Bebek oyuncağı",
+        "Top"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bebek"
+      }
+    }
+  ]
+}
