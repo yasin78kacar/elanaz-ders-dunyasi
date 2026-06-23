@@ -252,10 +252,10 @@
       "soru": "Sayıların öğrenildiği dersin İngilizcesi nedir?",
       "dogruCevap": "Math",
       "secenekler": [
-        "Art",
         "Music",
-        "PE",
-        "Math"
+        "Math",
+        "Art",
+        "PE"
       ],
       "ipucu": "",
       "gorsel": {
@@ -271,10 +271,10 @@
       "soru": "Deneylerin yapıldığı dersin İngilizcesi nedir?",
       "dogruCevap": "Science",
       "secenekler": [
-        "Science",
-        "Math",
         "Music",
-        "Art"
+        "Art",
+        "Science",
+        "Math"
       ],
       "ipucu": "",
       "gorsel": {
@@ -309,10 +309,10 @@
       "soru": "Yabancı dil dersinin İngilizcesi nedir?",
       "dogruCevap": "English",
       "secenekler": [
-        "Turkish",
         "Math",
         "English",
-        "Science"
+        "Science",
+        "Turkish"
       ],
       "ipucu": "",
       "gorsel": {
@@ -328,10 +328,10 @@
       "soru": "Şarkı söylenen dersin İngilizcesi nedir?",
       "dogruCevap": "Music",
       "secenekler": [
-        "PE",
         "Math",
         "Science",
-        "Music"
+        "Music",
+        "PE"
       ],
       "ipucu": "",
       "gorsel": {
@@ -348,9 +348,9 @@
       "dogruCevap": "Art",
       "secenekler": [
         "Art",
-        "PE",
+        "Science",
         "Math",
-        "Science"
+        "PE"
       ],
       "ipucu": "",
       "gorsel": {
@@ -366,9 +366,9 @@
       "soru": "Spor yapılan dersin İngilizcesi nedir?",
       "dogruCevap": "PE",
       "secenekler": [
-        "Math",
         "Music",
         "PE",
+        "Math",
         "Art"
       ],
       "ipucu": "",
@@ -385,10 +385,10 @@
       "soru": "\"Subjects\" kelimesinin anlamı nedir?",
       "dogruCevap": "Dersler",
       "secenekler": [
-        "Spor",
-        "Okul",
         "Dersler",
-        "Ev"
+        "Ev",
+        "Okul",
+        "Spor"
       ],
       "ipucu": "",
       "gorsel": {
@@ -404,10 +404,10 @@
       "soru": "Ders programının İngilizcesi nedir?",
       "dogruCevap": "Timetable",
       "secenekler": [
-        "Timetable",
-        "Window",
+        "Blackboard",
         "Chair",
-        "Blackboard"
+        "Timetable",
+        "Window"
       ],
       "ipucu": "",
       "gorsel": {
@@ -423,10 +423,10 @@
       "soru": "Okuma dersinin İngilizcesi nedir?",
       "dogruCevap": "Reading",
       "secenekler": [
-        "Math",
         "Art",
-        "Reading",
-        "Writing"
+        "Writing",
+        "Math",
+        "Reading"
       ],
       "ipucu": "",
       "gorsel": {
@@ -442,10 +442,10 @@
       "soru": "Yazma dersinin İngilizcesi nedir?",
       "dogruCevap": "Writing",
       "secenekler": [
-        "Math",
         "Writing",
-        "Reading",
-        "PE"
+        "Math",
+        "PE",
+        "Reading"
       ],
       "ipucu": "",
       "gorsel": {
@@ -462,8 +462,8 @@
       "dogruCevap": "Social studies",
       "secenekler": [
         "Art",
-        "Science",
         "Social studies",
+        "Science",
         "Math"
       ],
       "ipucu": "",

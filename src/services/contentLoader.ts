@@ -193,10 +193,6 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/odalar.json': odalarKonu,
   'ingilizce/dersler-ing.json': derslerIngKonu,
   'ingilizce/sayilar-11-20.json': sayilar1120Konu,
-  'ingilizce/ulkeler.json': ulkelerKonu,
-  'ingilizce/meyveler-ing.json': meyvelerIngKonu,
-  'ingilizce/yonler.json': yonlerKonu,
-  'ingilizce/sira-sayilari.json': siraSayilariKonu,
   'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
   'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
 };
