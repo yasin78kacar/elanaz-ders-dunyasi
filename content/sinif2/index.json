@@ -104,9 +104,10 @@
         },
         {
           "id": "tema-3",
-          "baslik": "Matematik — Tema 3 — Çıkarma (2-20)",
+          "baslik": "Matematik — Tema 3 — Toplama ve Çıkarma",
           "konuDosyalari": [
-            "matematik/cikarma-2-20.json"
+            "matematik/toplama.json",
+            "matematik/cikarma.json"
           ]
         },
         {
@@ -118,17 +119,16 @@
         },
         {
           "id": "tema-5",
-          "baslik": "Matematik — Tema 5 — Bölme (2-100)",
+          "baslik": "Matematik — Tema 5 — Ölçü ve Tartı",
           "konuDosyalari": [
-            "matematik/bolme-2-100.json"
+            "matematik/uzunluk-olcme.json",
+            "matematik/tartma.json"
           ]
         },
         {
           "id": "olcme-ek",
-          "baslik": "Ölçü, Tartı, Sıvı ve Zaman",
+          "baslik": "Ölçme — Sıvı ve Zaman",
           "konuDosyalari": [
-            "matematik/uzunluk-olcme.json",
-            "matematik/tartma.json",
             "matematik/sivi-miktari.json",
             "matematik/zaman.json"
           ]

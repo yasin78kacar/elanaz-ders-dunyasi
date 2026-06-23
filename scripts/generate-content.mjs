@@ -48,9 +48,9 @@ import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
 import { toplama120 } from './gorev-mat-tema2-questions.mjs';
 import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
 import { sayilarVeSayma } from './gorev-mat-tema1-questions.mjs';
-import { siviMiktari, zaman, tartma, uzunlukOlcme } from './gorev-tema4-questions.mjs';
+import { siviMiktari, zaman } from './gorev-tema4-questions.mjs';
 import { carpma } from './gorev-mat-tema4-questions.mjs';
-import { bolme2100 } from './gorev-mat-tema5-questions.mjs';
+import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import {
@@ -425,9 +425,6 @@ writeFileSync(join(contentDir, 'cikarma-2-20.json'), JSON.stringify(cikarma220Ko
 const carpmaKonu = carpma(karistir);
 writeFileSync(join(contentDir, 'carpma.json'), JSON.stringify(carpmaKonu, null, 2));
 
-const bolme2100Konu = bolme2100(karistir);
-writeFileSync(join(contentDir, 'bolme-2-100.json'), JSON.stringify(bolme2100Konu, null, 2));
-
 const uzunlukOlcmeKonu = uzunlukOlcme(karistir);
 const tartmaKonu = tartma(karistir);
 const siviMiktariKonu = siviMiktari(karistir);
@@ -686,8 +683,8 @@ writeFileSync(join(mathDataDir, 'tema4.json'), JSON.stringify(matTema4, null, 2)
 
 const matTema5 = {
   id: 'tema-5',
-  baslik: 'Matematik — Tema 5 — Bölme (2-100)',
-  konular: [bolme2100Konu],
+  baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
+  konular: [uzunlukOlcmeKonu, tartmaKonu],
 };
 writeFileSync(join(mathDataDir, 'tema5.json'), JSON.stringify(matTema5, null, 2));
 
@@ -833,17 +830,16 @@ const index = {
         },
         {
           id: 'tema-5',
-          baslik: 'Matematik — Tema 5 — Bölme (2-100)',
+          baslik: 'Matematik — Tema 5 — Ölçü ve Tartı',
           konuDosyalari: [
-            'matematik/bolme-2-100.json',
+            'matematik/uzunluk-olcme.json',
+            'matematik/tartma.json',
           ],
         },
         {
           id: 'olcme-ek',
-          baslik: 'Ölçü, Tartı, Sıvı ve Zaman',
+          baslik: 'Ölçme — Sıvı ve Zaman',
           konuDosyalari: [
-            'matematik/uzunluk-olcme.json',
-            'matematik/tartma.json',
             'matematik/sivi-miktari.json',
             'matematik/zaman.json',
           ],
@@ -1073,7 +1069,7 @@ console.log('Sayı doğrusu:', sayiDogrusuKonu.alistirma.length, '+', sayiDogrus
 console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.length);
 console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
 console.log('Toplama 1-20:', toplama120Konu.alistirma.length, '+', toplama120Konu.test.length);
-console.log('Çıkarma 2-20:', cikarma220Konu.alistirma.length, '+', cikarma220Konu.test.length);
+console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.length);
 console.log('Çarpma:', carpmaKonu.alistirma.length, '+', carpmaKonu.test.length);
 console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
 console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);
