@@ -1,168 +1,80 @@
-import { useEffect, useMemo, useRef } from 'react';
-import { Animated, StyleSheet, Text, View } from 'react-native';
-import { useGamification } from '../contexts/GamificationContext';
-import { useTheme } from '../contexts/ThemeContext';
-import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { BADGES } from '../types/gamification';
+import React from 'react';
+import { View, Text, FlatList, StyleSheet, useWindowDimensions } from 'react-native';
+import { useGameification } from '../context/GameificationContext';
 
-interface Props {
-  compact?: boolean;
-}
+export const BadgeShowcase = () => {
+  const { badges } = useGameification();
+  const { width } = useWindowDimensions();
 
-function BadgeKart({
-  kazanildi,
-  badge,
-  compact,
-  styles,
-}: {
-  kazanildi: boolean;
-  badge: (typeof BADGES)[number];
-  compact: boolean;
-  styles: ReturnType<typeof StyleSheet.create>;
-}) {
-  const scale = useRef(new Animated.Value(kazanildi ? 1 : 1)).current;
-  const glow = useRef(new Animated.Value(0)).current;
-
-  useEffect(() => {
-    if (!kazanildi) return;
-    const pulse = Animated.loop(
-      Animated.sequence([
-        Animated.parallel([
-          Animated.timing(scale, { toValue: 1.06, duration: 900, useNativeDriver: true }),
-          Animated.timing(glow, { toValue: 1, duration: 900, useNativeDriver: true }),
-        ]),
-        Animated.parallel([
-          Animated.timing(scale, { toValue: 1, duration: 900, useNativeDriver: true }),
-          Animated.timing(glow, { toValue: 0, duration: 900, useNativeDriver: true }),
-        ]),
-      ]),
-    );
-    pulse.start();
-    return () => pulse.stop();
-  }, [kazanildi, scale, glow]);
-
-  const kart = (
-    <Animated.View
-      style={[
-        styles.kart,
-        !kazanildi && styles.kartKilitli,
-        kazanildi && {
-          transform: [{ scale }],
-          shadowOpacity: glow.interpolate({ inputRange: [0, 1], outputRange: [0.15, 0.45] }),
-          shadowRadius: glow.interpolate({ inputRange: [0, 1], outputRange: [4, 12] }),
-        },
-      ]}
-    >
-      <Text style={styles.emoji}>{badge.emoji}</Text>
-      <Text style={styles.ad}>{badge.baslik}</Text>
-      {!compact ? <Text style={styles.aciklama}>{badge.aciklama}</Text> : null}
-      {kazanildi ? <Text style={styles.kilitAcildi}>✓</Text> : <Text style={styles.kilit}>🔒</Text>}
-    </Animated.View>
-  );
-
-  return kart;
-}
-
-export function BadgeShowcase({ compact = false }: Props) {
-  const { kazanilanRozetler } = useGamification();
-  const { colors } = useTheme();
-  const layout = useDeviceLayout();
-
-  const sutunSayisi = compact ? (layout.isTablet ? 4 : 3) : layout.gridColumns + 1;
-  const gap = layout.spacing(8);
-  const pad = layout.spacing(compact ? 14 : 18);
-  const kartGenislik =
-    (layout.width - pad * 2 - gap * (sutunSayisi - 1) - layout.spacing(40)) / sutunSayisi;
-
-  const styles = useMemo(
-    () =>
-      StyleSheet.create({
-        kutu: {
-          backgroundColor: colors.kart,
-          borderRadius: layout.spacing(14),
-          padding: pad,
-          borderWidth: 2,
-          borderColor: colors.kenarlik,
-          gap: layout.spacing(10),
-        },
-        baslik: {
-          fontSize: layout.font.lg,
-          fontWeight: '700',
-          color: colors.baslik,
-        },
-        ozet: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-        },
-        grid: {
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          gap,
-        },
-        kart: {
-          width: Math.max(layout.spacing(88), kartGenislik),
-          backgroundColor: colors.birincilAcik,
-          borderRadius: layout.spacing(12),
-          padding: layout.spacing(10),
-          borderWidth: 2,
-          borderColor: colors.birincil,
-          alignItems: 'center',
-          gap: layout.spacing(4),
-          shadowColor: colors.birincil,
-          shadowOffset: { width: 0, height: 2 },
-          elevation: 3,
-        },
-        kartKilitli: {
-          backgroundColor: colors.kart,
-          borderColor: colors.kenarlik,
-          opacity: 0.45,
-        },
-        emoji: { fontSize: layout.spacing(compact ? 24 : 28) },
-        ad: {
-          fontSize: layout.font.sm,
-          fontWeight: '700',
-          color: colors.baslik,
-          textAlign: 'center',
-        },
-        aciklama: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-          textAlign: 'center',
-          lineHeight: layout.spacing(18),
-        },
-        kilit: {
-          fontSize: layout.font.sm,
-          marginTop: layout.spacing(2),
-        },
-        kilitAcildi: {
-          fontSize: layout.font.sm,
-          fontWeight: '700',
-          color: colors.basari,
-          marginTop: layout.spacing(2),
-        },
-      }),
-    [layout, colors, compact, gap, pad, kartGenislik],
-  );
-
-  const kazanilanSayisi = kazanilanRozetler.length;
+  const isLarge = width > 700;
+  const numColumns = isLarge ? 4 : 3;
+  const badgeSize = (width - 40) / numColumns - 10;
 
   return (
-    <View style={styles.kutu}>
-      <Text style={styles.baslik}>Rozetler</Text>
-      <Text style={styles.ozet}>
-        {kazanilanSayisi}/{BADGES.length} rozet kazanıldı
-      </Text>
-      <View style={styles.grid}>
-        {BADGES.map((badge) => (
-          <BadgeKart
-            key={badge.id}
-            badge={badge}
-            kazanildi={kazanilanRozetler.includes(badge.id)}
-            compact={compact}
-            styles={styles}
-          />
-        ))}
-      </View>
+    <View style={[styles.container, isLarge && styles.containerLarge]}>
+      <Text style={styles.title}>Badges</Text>
+      <FlatList
+        data={badges}
+        numColumns={numColumns}
+        scrollEnabled={false}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <View 
+            style={[
+              styles.badge, 
+              { 
+                width: badgeSize, 
+                height: badgeSize,
+                opacity: item.earned ? 1 : 0.3 
+              }
+            ]}
+          >
+            <Text style={styles.icon}>{item.icon}</Text>
+            <Text style={styles.badgeName}>{item.name}</Text>
+          </View>
+        )}
+        contentContainerStyle={styles.listContent}
+      />
     </View>
   );
-}
+};
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 15,
+    backgroundColor: '#fff',
+    borderRadius: 12,
+    margin: 10
+  },
+  containerLarge: {
+    padding: 30,
+    marginHorizontal: 40
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 15,
+    color: '#333'
+  },
+  listContent: {
+    justifyContent: 'space-around'
+  },
+  badge: {
+    margin: 5,
+    backgroundColor: '#f5f5f5',
+    borderRadius: 12,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 5
+  },
+  icon: {
+    fontSize: 24,
+    marginBottom: 5
+  },
+  badgeName: {
+    fontSize: 10,
+    textAlign: 'center',
+    color: '#666',
+    fontWeight: '600'
+  }
+});

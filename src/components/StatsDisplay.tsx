@@ -1,205 +1,90 @@
-import { useCallback, useMemo, useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { useFocusEffect } from '@react-navigation/native';
-import { ProgressService, type GenelIstatistikler } from '../services/ProgressService';
-import { useGamification } from '../contexts/GamificationContext';
-import { useTheme } from '../contexts/ThemeContext';
-import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { POINTS_PER_LEVEL, BADGES } from '../types/gamification';
-import { sureMetni } from '../utils/sureMetni';
+import React from 'react';
+import { View, Text, StyleSheet, useWindowDimensions } from 'react-native';
+import { useGameification } from '../context/GameificationContext';
 
-interface Props {
-  compact?: boolean;
-}
+export const StatsDisplay = () => {
+  const { points, level } = useGameification();
+  const { width } = useWindowDimensions();
 
-export function StatsDisplay({ compact = false }: Props) {
-  const [istatistik, setIstatistik] = useState<GenelIstatistikler | null>(null);
-  const { points, level, levelBaslik, kazanilanRozetler } = useGamification();
-  const { colors } = useTheme();
-  const layout = useDeviceLayout();
-
-  const sonrakiSeviyePuan = level * POINTS_PER_LEVEL;
-  const seviyeIlerleme =
-    POINTS_PER_LEVEL > 0
-      ? Math.min(100, Math.round(((points % POINTS_PER_LEVEL) / POINTS_PER_LEVEL) * 100))
-      : 0;
-
-  useFocusEffect(
-    useCallback(() => {
-      ProgressService.getGenelIstatistikler().then(setIstatistik);
-    }, []),
-  );
-
-  const styles = useMemo(
-    () =>
-      StyleSheet.create({
-        kutu: {
-          backgroundColor: colors.kart,
-          borderRadius: layout.spacing(14),
-          padding: layout.spacing(compact ? 14 : 18),
-          borderWidth: 2,
-          borderColor: colors.kenarlik,
-          gap: layout.spacing(10),
-        },
-        baslik: {
-          fontSize: layout.font.lg,
-          fontWeight: '700',
-          color: colors.baslik,
-        },
-        satirlar: {
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          gap: layout.spacing(8),
-        },
-        hucre: {
-          flexGrow: 1,
-          flexBasis: layout.isTablet ? '22%' : '46%',
-          minWidth: layout.isTablet ? layout.spacing(120) : layout.spacing(140),
-          backgroundColor: colors.birincilAcik,
-          borderRadius: layout.spacing(10),
-          padding: layout.spacing(12),
-          borderWidth: 1,
-          borderColor: colors.birincil,
-        },
-        hucreDeger: {
-          fontSize: layout.font.xl,
-          fontWeight: '800',
-          color: colors.baslik,
-        },
-        hucreEtiket: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-          marginTop: layout.spacing(4),
-        },
-        seviyeSatir: {
-          fontSize: layout.font.md,
-          color: colors.metin,
-        },
-        ilerlemeCubuk: {
-          height: layout.spacing(8),
-          backgroundColor: colors.kenarlik,
-          borderRadius: layout.spacing(4),
-          overflow: 'hidden',
-        },
-        ilerlemeDolgu: {
-          height: '100%',
-          backgroundColor: colors.birincil,
-          borderRadius: layout.spacing(4),
-        },
-        temaBolum: { gap: layout.spacing(6), marginTop: layout.spacing(4) },
-        temaBaslik: {
-          fontSize: layout.font.md,
-          fontWeight: '700',
-          color: colors.baslik,
-        },
-        temaSatir: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-        },
-        sureSatir: {
-          fontSize: layout.font.sm,
-          color: colors.metin,
-          paddingLeft: layout.spacing(4),
-        },
-        rozetSatir: {
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          gap: layout.spacing(6),
-          marginTop: layout.spacing(4),
-        },
-        rozetChip: {
-          flexDirection: 'row',
-          alignItems: 'center',
-          gap: layout.spacing(4),
-          backgroundColor: colors.birincilAcik,
-          borderRadius: layout.spacing(8),
-          paddingVertical: layout.spacing(4),
-          paddingHorizontal: layout.spacing(8),
-          borderWidth: 1,
-          borderColor: colors.birincil,
-        },
-        rozetEmoji: { fontSize: layout.font.md },
-        rozetAd: {
-          fontSize: layout.font.sm,
-          fontWeight: '600',
-          color: colors.baslik,
-        },
-      }),
-    [layout, colors, compact],
-  );
-
-  if (!istatistik) return null;
-
-  const hucreler = [
-    { deger: `%${istatistik.dogrulukYuzde}`, etiket: 'Doğruluk' },
-    { deger: String(istatistik.dogruSoru), etiket: 'Doğru Cevap' },
-    { deger: String(istatistik.cozulenSoru), etiket: 'Çözülen Soru' },
-    { deger: sureMetni(istatistik.toplamSureSaniye), etiket: 'Toplam Süre' },
-  ];
+  const isLarge = width > 700;
+  const progress = (points % 500) / 500 * 100;
 
   return (
-    <View style={styles.kutu}>
-      <Text style={styles.baslik}>İstatistikler</Text>
-      <Text style={styles.seviyeSatir}>
-        Seviye {level} · {levelBaslik} · {points} puan
-      </Text>
-      <View style={styles.ilerlemeCubuk}>
-        <View style={[styles.ilerlemeDolgu, { width: `${seviyeIlerleme}%` }]} />
+    <View style={[styles.card, isLarge && styles.cardLarge]}>
+      <View style={styles.row}>
+        <View style={styles.stat}>
+          <Text style={styles.label}>Level</Text>
+          <Text style={styles.levelText}>{level}</Text>
+        </View>
+        <View style={styles.stat}>
+          <Text style={styles.label}>Points</Text>
+          <Text style={styles.pointsText}>{points}</Text>
+        </View>
       </View>
-      <Text style={styles.seviyeSatir}>
-        Sonraki seviye: {sonrakiSeviyePuan} puan ({seviyeIlerleme}%)
-      </Text>
-      <Text style={styles.seviyeSatir}>
-        Rozetler: {kazanilanRozetler.length}/{BADGES.length}
-      </Text>
-      {kazanilanRozetler.length > 0 ? (
-        <View style={styles.rozetSatir}>
-          {BADGES.filter((b) => kazanilanRozetler.includes(b.id)).map((b) => (
-            <View key={b.id} style={styles.rozetChip}>
-              <Text style={styles.rozetEmoji}>{b.emoji}</Text>
-              <Text style={styles.rozetAd}>{b.baslik}</Text>
-            </View>
-          ))}
-        </View>
-      ) : null}
-      <View style={styles.satirlar}>
-        {hucreler.map((h) => (
-          <View key={h.etiket} style={styles.hucre}>
-            <Text style={styles.hucreDeger}>{h.deger}</Text>
-            <Text style={styles.hucreEtiket}>{h.etiket}</Text>
-          </View>
-        ))}
+      
+      <View style={styles.progressBar}>
+        <View 
+          style={[
+            styles.progressFill, 
+            { width: `${progress}%` }
+          ]} 
+        />
       </View>
-      {!compact && istatistik.dersDetaylari.length > 0 ? (
-        <View style={styles.temaBolum}>
-          <Text style={styles.temaBaslik}>Ders / Tema Dağılımı</Text>
-          {istatistik.dersDetaylari.map((ders) => (
-            <View key={ders.dersId}>
-              <Text style={styles.temaSatir}>
-                {ders.dersBaslik}: {ders.dogruSoru}/{ders.cozulenSoru} doğru ·{' '}
-                {ders.tamamlananKonu}/{ders.toplamKonu} konu
-              </Text>
-              {ders.temalar
-                .filter((t) => t.cozulenSoru > 0 || t.tamamlananKonu > 0)
-                .map((tema) => (
-                  <Text key={tema.temaId} style={styles.sureSatir}>
-                    · {tema.temaBaslik}: {tema.dogruSoru}/{tema.cozulenSoru} doğru
-                  </Text>
-                ))}
-            </View>
-          ))}
-        </View>
-      ) : null}
-      {!compact && istatistik.konuSureleri.length > 0 ? (
-        <View style={styles.temaBolum}>
-          <Text style={styles.temaBaslik}>Ders Süreleri</Text>
-          {istatistik.konuSureleri.slice(0, 5).map((k) => (
-            <Text key={`${k.dersId}:${k.konuId}`} style={styles.sureSatir}>
-              · {k.konuBaslik}: {sureMetni(k.sureSaniye)}
-            </Text>
-          ))}
-        </View>
-      ) : null}
+      <Text style={styles.progressText}>
+        {points % 500} / 500 points to next level
+      </Text>
     </View>
   );
-}
+};
+
+const styles = StyleSheet.create({
+  card: { 
+    padding: 20, 
+    backgroundColor: '#f5f5f5',
+    borderRadius: 12,
+    margin: 10
+  },
+  cardLarge: {
+    padding: 30,
+    marginHorizontal: 40
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginBottom: 15
+  },
+  stat: {
+    alignItems: 'center'
+  },
+  label: { 
+    fontSize: 14,
+    color: '#666',
+    marginBottom: 5
+  },
+  levelText: { 
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#4CAF50'
+  },
+  pointsText: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#2196F3'
+  },
+  progressBar: {
+    height: 10,
+    backgroundColor: '#ddd',
+    borderRadius: 5,
+    overflow: 'hidden',
+    marginBottom: 8
+  },
+  progressFill: {
+    height: '100%',
+    backgroundColor: '#4CAF50'
+  },
+  progressText: {
+    fontSize: 12,
+    color: '#999',
+    textAlign: 'center'
+  }
+});
