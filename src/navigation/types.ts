@@ -9,5 +9,7 @@ export type RootStackParamList = {
   ReadingBookList: { dersId: string; dersBaslik: string };
   ReadingBookFlow: { dersId: string; kitapId: string; kitapBaslik: string };
   ParentPin: undefined;
-  ParentPanel: undefined;
+  ParentDashboard: undefined;
+  VideoCatalog: undefined;
+  VideoList: { kategori: import('../assets/videoCatalog').VideoKategori };
 };

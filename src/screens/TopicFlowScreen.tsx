@@ -1,9 +1,17 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getKonu } from '../services/contentLoader';
 import { kaydetSoruCevabi, tamamlaKonu } from '../services/progressStore';
 import { oturumSorulariSec } from '../services/sessionPicker';
+import {
+  getAdaptiveDifficulty,
+  getDifficulty,
+  getSessionSize,
+  recordAnswerForAdaptive,
+} from '../services/difficultyService';
+import { useGamification } from '../contexts/GamificationContext';
+import { useTheme } from '../contexts/ThemeContext';
 import { PracticeQuestion } from '../components/PracticeQuestion';
 import { SessionQuestion } from '../components/SessionQuestion';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
@@ -13,7 +21,6 @@ import { ElanazHeader } from '../components/ElanazHeader';
 import { ExerciseScreenLayout } from '../components/ExerciseScreenContainer';
 import { VideoIzleButton } from '../components/VideoIzleButton';
 import { getKonuAnlatimVideo } from '../assets/videoCatalog';
-import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
 import type { RootStackParamList } from '../navigation/types';
@@ -30,7 +37,16 @@ type Adim =
 export function TopicFlowScreen({ route, navigation }: Props) {
   const { dersId, konuId, konuBaslik } = route.params;
   const layout = useDeviceLayout();
+  const { colors } = useTheme();
+  const { recordCorrectAnswer, recordTopicComplete } = useGamification();
   const konu = getKonu(dersId, konuId);
+  const [sessionSize, setSessionSize] = useState(5);
+
+  useEffect(() => {
+    Promise.all([getDifficulty(), getAdaptiveDifficulty()]).then(([level]) => {
+      setSessionSize(getSessionSize(level));
+    });
+  }, []);
 
   const styles = useMemo(
     () =>
@@ -64,16 +80,16 @@ export function TopicFlowScreen({ route, navigation }: Props) {
           color: colors.metin,
         },
       }),
-    [layout],
+    [layout, colors],
   );
 
   const oturum = useMemo(() => {
     if (!konu) return null;
     return {
-      alistirmalar: oturumSorulariSec(konu.alistirma),
-      testler: oturumSorulariSec(konu.test),
+      alistirmalar: oturumSorulariSec(konu.alistirma, sessionSize),
+      testler: oturumSorulariSec(konu.test, sessionSize),
     };
-  }, [konu]);
+  }, [konu, sessionSize]);
 
   const [adim, setAdim] = useState<Adim>({ tip: 'anlatim', index: 0 });
   const [testDogru, setTestDogru] = useState(0);
@@ -121,6 +137,7 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       setCevapBekleniyor(false);
     } else {
       const ilerleme = await tamamlaKonu(dersId, konuId, dogru, testler.length);
+      await recordTopicComplete(ilerleme.yildiz);
       setAdim({
         tip: 'sonuc',
         yildiz: ilerleme.yildiz,
@@ -141,6 +158,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       dogruCevap: soruCevapAnahtari(soru),
       tip: 'alistirma',
     });
+    if (dogruMu) await recordCorrectAnswer();
+    await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
   };
 
@@ -157,6 +176,8 @@ export function TopicFlowScreen({ route, navigation }: Props) {
       dogruCevap: soruCevapAnahtari(soru),
       tip: 'test',
     });
+    if (dogruMu) await recordCorrectAnswer();
+    await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
   };
 

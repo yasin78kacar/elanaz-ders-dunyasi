@@ -31,14 +31,14 @@ export function ParentPinScreen({ navigation }: Props) {
       return;
     }
     const ok = await pinKaydet(pin);
-    if (ok) navigation.replace('ParentPanel');
+    if (ok) navigation.replace('ParentDashboard');
     else setHata('PIN kaydedilemedi.');
   };
 
   const pinGir = async () => {
     setHata('');
     const ok = await pinDogrula(pin);
-    if (ok) navigation.replace('ParentPanel');
+    if (ok) navigation.replace('ParentDashboard');
     else setHata('Yanlış PIN. Tekrar dene.');
   };
 

@@ -1,14 +1,17 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getDersListesi, okumaKosesiMi } from '../services/contentLoader';
 import { getDersIlerlemeOzeti, getHikayeIlerlemeOzeti } from '../services/progressMap';
+import { OfflineManager, type OfflineDurum } from '../services/OfflineManager';
 import { ElanazHeader } from '../components/ElanazHeader';
 import { VideoIzleButton } from '../components/VideoIzleButton';
+import { GamificationBar } from '../components/GamificationBar';
+import { ThemeToggle } from '../components/ThemeToggle';
 import { getVideoSource, SISTEM_VIDEOLARI } from '../assets/videoCatalog';
+import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
@@ -21,7 +24,9 @@ interface DersKart {
 
 export function HomeScreen({ navigation }: Props) {
   const [kartlar, setKartlar] = useState<DersKart[]>([]);
+  const [offline, setOffline] = useState<OfflineDurum | null>(null);
   const layout = useDeviceLayout();
+  const { colors } = useTheme();
 
   const styles = useMemo(
     () =>
@@ -73,9 +78,31 @@ export function HomeScreen({ navigation }: Props) {
           fontSize: layout.font.md,
           fontWeight: '600',
         },
+        offlineEtiket: {
+          fontSize: layout.font.sm,
+          color: colors.turuncu,
+          fontWeight: '600',
+        },
+        videoButon: {
+          backgroundColor: colors.birincilAcik,
+          borderRadius: layout.spacing(14),
+          padding: layout.spacing(14),
+          borderWidth: 2,
+          borderColor: colors.birincil,
+        },
+        videoMetin: {
+          fontSize: layout.font.md,
+          fontWeight: '700',
+          color: colors.birincil,
+          textAlign: 'center',
+        },
       }),
-    [layout],
+    [layout, colors],
   );
+
+  useEffect(() => {
+    OfflineManager.getDurum().then(setOffline);
+  }, []);
 
   useFocusEffect(
     useCallback(() => {
@@ -115,9 +142,22 @@ export function HomeScreen({ navigation }: Props) {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scroll}>
         <ElanazHeader>
+          <GamificationBar />
           <Text style={styles.hosgeldin}>Merhaba! Hangi derse çalışmak istersin?</Text>
+          <ThemeToggle />
+          {offline?.hazir ? (
+            <Text style={styles.offlineEtiket}>
+              Çevrimdışı hazır ({offline.indirilen}/{offline.toplam})
+            </Text>
+          ) : null}
           <VideoIzleButton source={getVideoSource(SISTEM_VIDEOLARI.acilis)} />
         </ElanazHeader>
+        <Pressable
+          style={styles.videoButon}
+          onPress={() => navigation.navigate('VideoCatalog')}
+        >
+          <Text style={styles.videoMetin}>🎬 70 Video İçerik</Text>
+        </Pressable>
         {kartlar.map((ders) => (
           <Pressable
             key={ders.id}

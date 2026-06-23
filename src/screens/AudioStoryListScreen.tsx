@@ -2,8 +2,10 @@ import { useLayoutEffect, useMemo } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getSesliHikayeListesi } from '../services/contentLoader';
+import { getCatalogVideoSource } from '../assets/videoCatalog';
+import { VideoPlayer } from '../components/VideoPlayer';
+import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
-import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'AudioStoryList'>;
@@ -12,6 +14,7 @@ export function AudioStoryListScreen({ route, navigation }: Props) {
   const { dersId, dersBaslik } = route.params;
   const hikayeler = getSesliHikayeListesi(dersId);
   const layout = useDeviceLayout();
+  const { colors } = useTheme();
 
   const styles = useMemo(
     () =>
@@ -53,7 +56,7 @@ export function AudioStoryListScreen({ route, navigation }: Props) {
           marginTop: layout.spacing(8),
         },
       }),
-    [layout],
+    [layout, colors],
   );
 
   useLayoutEffect(() => {
@@ -65,7 +68,10 @@ export function AudioStoryListScreen({ route, navigation }: Props) {
       <Text style={styles.aciklama}>
         Bir hikâye seç, dinle ve İngilizce metni takip et. Kulaklık kullanabilirsin!
       </Text>
-      {hikayeler.map((h, i) => (
+      {hikayeler.map((h, i) => {
+        const videoId = `sesli-hikaye-${String(i + 1).padStart(2, '0')}`;
+        const videoSource = getCatalogVideoSource(videoId);
+        return (
         <Pressable
           key={h.id}
           style={({ pressed }) => [styles.kart, pressed && styles.kartPressed]}
@@ -79,12 +85,14 @@ export function AudioStoryListScreen({ route, navigation }: Props) {
         >
           <Text style={styles.kartBaslik}>🎧 {h.baslik}</Text>
           <Text style={styles.kartAlt}>{h.ozet}</Text>
+          {videoSource ? <VideoPlayer source={videoSource} compact showControls={false} /> : null}
           <Text style={styles.etiket}>
             Hikâye {i + 1} / {hikayeler.length}
             {h.sureSaniye ? ` · ~${h.sureSaniye} sn` : ''}
           </Text>
         </Pressable>
-      ))}
+        );
+      })}
     </ScrollView>
   );
 }

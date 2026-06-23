@@ -3,11 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { getHikaye } from '../services/contentLoader';
 import { kaydetHikayeCevabi, tamamlaHikaye } from '../services/progressStore';
+import { recordAnswerForAdaptive } from '../services/difficultyService';
+import { useGamification } from '../contexts/GamificationContext';
+import { useTheme } from '../contexts/ThemeContext';
 import { TestQuestion } from '../components/TestQuestion';
 import { PrimaryButton } from '../components/PrimaryButton';
 import { ExerciseScreenLayout } from '../components/ExerciseScreenContainer';
 import { ContentIllustration } from '../components/ContentIllustration';
-import { colors } from '../theme/colors';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import type { RootStackParamList } from '../navigation/types';
 import { soruCevapAnahtari, soruMetni } from '../utils/soruHelpers';
@@ -22,6 +24,8 @@ type Adim =
 export function StoryFlowScreen({ route, navigation }: Props) {
   const { dersId, hikayeId, hikayeBaslik } = route.params;
   const layout = useDeviceLayout();
+  const { colors } = useTheme();
+  const { recordCorrectAnswer, recordStoryComplete } = useGamification();
   const hikaye = getHikaye(dersId, hikayeId);
 
   const styles = useMemo(
@@ -49,7 +53,7 @@ export function StoryFlowScreen({ route, navigation }: Props) {
         sonucBaslik: { fontSize: layout.font.xl, fontWeight: '700', color: colors.baslik },
         yildizlar: { fontSize: layout.spacing(40), textAlign: 'center' },
       }),
-    [layout],
+    [layout, colors],
   );
 
   const [adim, setAdim] = useState<Adim>({ tip: 'okuma', index: 0 });
@@ -88,6 +92,7 @@ export function StoryFlowScreen({ route, navigation }: Props) {
       setCevapBekleniyor(false);
     } else {
       const ilerleme = await tamamlaHikaye(dersId, hikayeId, dogru, sorular.length);
+      await recordStoryComplete();
       setAdim({
         tip: 'sonuc',
         yildiz: ilerleme.yildiz,
@@ -110,6 +115,8 @@ export function StoryFlowScreen({ route, navigation }: Props) {
       dogruCevap: soruCevapAnahtari(soru),
       tip: 'hikaye',
     });
+    if (dogruMu) await recordCorrectAnswer();
+    await recordAnswerForAdaptive(dogruMu);
     setCevapBekleniyor(true);
   };
 

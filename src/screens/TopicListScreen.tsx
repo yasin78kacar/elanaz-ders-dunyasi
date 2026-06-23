@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
@@ -8,10 +8,17 @@ import {
   getSesliHikayeListesi,
   ingilizceOkumaModuluVar,
 } from '../services/contentLoader';
+import {
+  getAdaptiveDifficulty,
+  getDifficulty,
+  setDifficulty,
+} from '../services/difficultyService';
+import type { DifficultyLevel } from '../types/difficulty';
+import { DifficultySelector } from '../components/DifficultySelector';
 import { ElanazHeader } from '../components/ElanazHeader';
+import { useTheme } from '../contexts/ThemeContext';
 import { useDeviceLayout } from '../hooks/useDeviceLayout';
 import { useKonuMuzikHeader } from '../hooks/useKonuMuzikHeader';
-import { colors } from '../theme/colors';
 import type { RootStackParamList } from '../navigation/types';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'TopicList'>;
@@ -19,7 +26,20 @@ type Props = NativeStackScreenProps<RootStackParamList, 'TopicList'>;
 export function TopicListScreen({ route, navigation }: Props) {
   const { dersId, dersBaslik } = route.params;
   const [harita, setHarita] = useState<KonuHaritaOgesi[]>([]);
+  const [zorluk, setZorluk] = useState<DifficultyLevel>('medium');
+  const [adaptiveHint, setAdaptiveHint] = useState<DifficultyLevel | undefined>();
   const layout = useDeviceLayout();
+  const { colors } = useTheme();
+
+  useEffect(() => {
+    getDifficulty().then(setZorluk);
+    getAdaptiveDifficulty().then(setAdaptiveHint);
+  }, []);
+
+  const zorlukDegistir = async (level: DifficultyLevel) => {
+    setZorluk(level);
+    await setDifficulty(level);
+  };
 
   const pad = layout.spacing(24);
   const gap = layout.spacing(12);
@@ -120,7 +140,7 @@ export function TopicListScreen({ route, navigation }: Props) {
           lineHeight: layout.spacing(24),
         },
       }),
-    [layout, pad, gap, itemWidth],
+    [layout, pad, gap, itemWidth, colors],
   );
 
   const uniteGruplari = useMemo(() => {
@@ -169,6 +189,11 @@ export function TopicListScreen({ route, navigation }: Props) {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ElanazHeader />
+      <DifficultySelector
+        value={zorluk}
+        onChange={zorlukDegistir}
+        adaptiveHint={adaptiveHint}
+      />
       {ingilizceMedya ? (
         <View style={styles.medyaBolum}>
           <Text style={[styles.uniteBaslik, styles.uniteBaslikIlk]}>Sesli Hikâyeler & Kitaplar</Text>
