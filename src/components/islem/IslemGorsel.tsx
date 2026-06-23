@@ -7,6 +7,7 @@ import { GuvenliMetin } from '../GuvenliMetin';
 import { NesneGrup } from './NesneGrup';
 import { GEO } from '../nesneler/colors';
 import { colors } from '../../theme/colors';
+import { useDeviceLayout } from '../../hooks/useDeviceLayout';
 import type { GorselIslem } from '../../types/content';
 
 type Props = GorselIslem;
@@ -42,16 +43,33 @@ function CarpmaGrup({
   nesne?: string;
   renk1?: string;
 }) {
-  const grupW = 72;
-  const genislik = Math.min(300, a * grupW + 40);
+  const layout = useDeviceLayout();
+  const maxW = Math.min(layout.flowSize(340), layout.width - layout.spacing(40));
+  const sutun = a <= 4 ? a : a <= 6 ? 3 : a <= 8 ? 4 : 5;
+  const grupW = Math.max(44, Math.floor((maxW - layout.spacing(4) * (sutun - 1)) / sutun));
+  const maxSatir = Math.min(5, Math.max(2, Math.ceil(b / 2)));
+
   return (
-    <View style={{ width: genislik, height: 110, position: 'relative', flexDirection: 'row', alignItems: 'center', gap: 4 }}>
-      {Array.from({ length: a }, (_, i) => (
-        <View key={i} style={{ width: grupW }}>
-          <NesneGrup adet={b} tip={nesne} renk={renk1} genislik={grupW} maxSatir={5} />
-        </View>
-      ))}
-      <GuvenliMetin style={{ fontSize: 14, fontWeight: '700', color: GEO.metin, marginLeft: 4 }} tamGenislik={false}>
+    <View style={{ width: maxW, alignItems: 'center', paddingVertical: layout.spacing(4) }}>
+      <View
+        style={{
+          flexDirection: 'row',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          gap: layout.spacing(4),
+          width: maxW,
+        }}
+      >
+        {Array.from({ length: a }, (_, i) => (
+          <View key={i} style={{ width: grupW }}>
+            <NesneGrup adet={b} tip={nesne} renk={renk1} genislik={grupW} maxSatir={maxSatir} />
+          </View>
+        ))}
+      </View>
+      <GuvenliMetin
+        style={{ fontSize: layout.font.sm, fontWeight: '700', color: GEO.metin, marginTop: layout.spacing(6) }}
+        tamGenislik={false}
+      >
         {`${a}×${b}=${a * b}`}
       </GuvenliMetin>
     </View>
@@ -280,6 +298,19 @@ function AnlatimSahne({ sahne }: { sahne: string }) {
       );
     case 'tcp-anlatim-3':
       return <AdimlarGorsel adimlar={[{ etiket: '1.adım', deger: 1 }, { etiket: '2.adım', deger: 2 }]} />;
+    case 's1-anlatim-1':
+      return <NesneGrup adet={5} tip="elma" renk="kirmizi" genislik={280} maxSatir={10} />;
+    case 's1-anlatim-2':
+      return (
+        <SayiSeridi tur="sayi-seridi" baslangic={1} adim={1} adimSayisi={10} vurgulananlar={[3, 7]} />
+      );
+    case 's1-anlatim-3':
+      return (
+        <View style={{ flexDirection: 'row', gap: 12, justifyContent: 'center', alignItems: 'center' }}>
+          <NesneGrup adet={6} tip="top" renk="kirmizi" genislik={120} maxSatir={6} />
+          <NesneGrup adet={9} tip="top" renk="mavi" genislik={120} maxSatir={6} />
+        </View>
+      );
     case 'cp-anlatim-1':
       return <CarpmaGrup a={3} b={4} nesne="elma" renk1="kirmizi" />;
     case 'cp-anlatim-2':
@@ -330,10 +361,43 @@ function ZihinBalon({ a, b, sonuc, cikarma }: { a: number; b: number; sonuc?: nu
   );
 }
 
+function SaymaGrup({ adet, nesne, renk1 }: { adet: number; nesne?: string; renk1?: string }) {
+  return (
+    <View style={{ alignItems: 'center', paddingVertical: 8 }}>
+      <NesneGrup adet={adet} tip={nesne} renk={renk1} genislik={280} maxSatir={10} />
+    </View>
+  );
+}
+
+function KarsilastirmaGrup({
+  a,
+  b,
+  nesne,
+  renk1,
+  renk2,
+}: {
+  a: number;
+  b: number;
+  nesne?: string;
+  renk1?: string;
+  renk2?: string;
+}) {
+  return (
+    <View style={{ flexDirection: 'row', gap: 16, justifyContent: 'center', alignItems: 'center', paddingVertical: 8 }}>
+      <NesneGrup adet={a} tip={nesne} renk={renk1} genislik={130} maxSatir={10} />
+      <NesneGrup adet={b} tip={nesne} renk={renk2 ?? 'mavi'} genislik={130} maxSatir={10} />
+    </View>
+  );
+}
+
 export function IslemGorsel(props: Props) {
   const { mod, a = 0, b = 0, sonuc, nesne, renk1, renk2, bilinmeyen, islemler, adimlar, sahne } = props;
 
   switch (mod) {
+    case 'sayma-grup':
+      return <SaymaGrup adet={a || sonuc || 0} nesne={nesne} renk1={renk1} />;
+    case 'karsilastirma-grup':
+      return <KarsilastirmaGrup a={a} b={b} nesne={nesne} renk1={renk1} renk2={renk2} />;
     case 'toplama-grup':
       return <ToplamaCikarmaGrup a={a} b={b} nesne={nesne} renk1={renk1} renk2={renk2} />;
     case 'cikarma-grup':

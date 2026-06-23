@@ -2,8 +2,8 @@
 import { writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
-import { carpma, bolme } from './gorev-mat-tema4-questions.mjs';
-import { cikarma, toplama } from './gorev-mat-tema3-questions.mjs';
+import { carpma } from './gorev-mat-tema4-questions.mjs';
+import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
 import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
 import { canlilar } from './gorev-fen-tema1-questions.mjs';
@@ -50,10 +50,8 @@ function partiMd(baslik, dosyaAdi, konular) {
   return satirlar.join('\n');
 }
 
-const matToplama = toplama(karistir);
-const matCikarma = cikarma(karistir);
+const matCikarma = cikarma220(karistir);
 const matCarpma = carpma(karistir);
-const matBolme = bolme(karistir);
 const matUzunluk = uzunlukOlcme(karistir);
 const matTartma = tartma(karistir);
 const matEsit = esitParcalaraBolme(karistir);
@@ -85,40 +83,26 @@ const turOlaySirasiZaman = olaySirasiZaman(karistir);
 
 const matMd = [
   '# Dosya Adı: PARTI-MATEMATIK-TEMA3.md',
-  '## Matematik — Tema 3: Toplama ve Çıkarma',
-  '',
-  ...matToplama.anlatim.ekranlar.map((e, i) => `### Toplama Anlatım ${i + 1}\n${e.metin}\n`),
-  '## TOPLAMA — ALIŞTIRMALAR (25)',
-  ...matToplama.alistirma.map((s, i) => satir(s, i, 'alistirma')),
-  '',
-  '## TOPLAMA — TEST (25)',
-  ...matToplama.test.map((s, i) => satir(s, i, 'test')),
+  '## Matematik — Tema 3: Çıkarma (2-20)',
   '',
   ...matCikarma.anlatim.ekranlar.map((e, i) => `### Çıkarma Anlatım ${i + 1}\n${e.metin}\n`),
-  '## ÇIKARMA — ALIŞTIRMALAR (25)',
+  '## ÇIKARMA — ALIŞTIRMALAR (50)',
   ...matCikarma.alistirma.map((s, i) => satir(s, i, 'alistirma')),
   '',
-  '## ÇIKARMA — TEST (25)',
+  '## ÇIKARMA — TEST (50)',
   ...matCikarma.test.map((s, i) => satir(s, i, 'test')),
 ].join('\n');
 
 const matTema4Md = [
   '# Dosya Adı: PARTI-MATEMATIK-TEMA4.md',
-  '## Matematik — Tema 4: Çarpma ve Bölme',
+  '## Matematik — Tema 4: Çarpma (1×1–10×10)',
   '',
   ...matCarpma.anlatim.ekranlar.map((e, i) => `### Çarpma Anlatım ${i + 1}\n${e.metin}\n`),
-  '## ÇARPMA — ALIŞTIRMALAR (25)',
+  '## ÇARPMA — ALIŞTIRMALAR (50)',
   ...matCarpma.alistirma.map((s, i) => satir(s, i, 'alistirma')),
   '',
-  '## ÇARPMA — TEST (25)',
+  '## ÇARPMA — TEST (50)',
   ...matCarpma.test.map((s, i) => satir(s, i, 'test')),
-  '',
-  ...matBolme.anlatim.ekranlar.map((e, i) => `### Bölme Anlatım ${i + 1}\n${e.metin}\n`),
-  '## BÖLME — ALIŞTIRMALAR (25)',
-  ...matBolme.alistirma.map((s, i) => satir(s, i, 'alistirma')),
-  '',
-  '## BÖLME — TEST (25)',
-  ...matBolme.test.map((s, i) => satir(s, i, 'test')),
 ].join('\n');
 
 const matTema5Md = [

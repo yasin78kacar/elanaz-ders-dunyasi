@@ -60,6 +60,7 @@ import theme6Json from '../data/english/theme6.json';
 import theme7Json from '../data/english/theme7.json';
 import theme8Json from '../data/english/theme8.json';
 import theme9Json from '../data/english/theme9.json';
+import tema1Json from '../data/math/tema1.json';
 import tema2Json from '../data/math/tema2.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
@@ -75,6 +76,9 @@ import zekaVeDikkatJson from '../../content/sinif2/zeka-dikkat/zeka-ve-dikkat.js
 import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, SinifIcerik } from '../types/content';
 import { appConfig } from '../config/appConfig';
 
+const matTema1 = tema1Json as MathTheme;
+const [sayilarVeSaymaTema1] = matTema1.konular;
+
 const matTema2 = tema2Json as MathTheme;
 const [toplama120Tema2] = matTema2.konular;
 
@@ -82,7 +86,7 @@ const tema3 = tema3Json as MathTheme;
 const [toplamaTema3, cikarmaTema3] = tema3.konular;
 
 const matTema4 = tema4Json as MathTheme;
-const [carpmaTema4, bolmeTema4] = matTema4.konular;
+const [carpmaTema4] = matTema4.konular;
 
 const matTema5 = tema5Json as MathTheme;
 const [uzunlukOlcmeTema5, tartmaTema5] = matTema5.konular;
@@ -123,11 +127,11 @@ const konuDosyalari: Record<string, Konu> = {
   'matematik/sayi-dogrusu.json': sayiDogrusu as Konu,
   'matematik/oruntu.json': oruntu as Konu,
   'matematik/tahmin-etme.json': tahminEtme as Konu,
+  'matematik/sayilar-ve-sayma.json': sayilarVeSaymaTema1,
   'matematik/toplama-1-20.json': toplama120Tema2,
   'matematik/toplama.json': toplamaTema3,
   'matematik/cikarma.json': cikarmaTema3,
   'matematik/carpma.json': carpmaTema4,
-  'matematik/bolme.json': bolmeTema4,
   'matematik/uzunluk-olcme.json': uzunlukOlcmeTema5,
   'matematik/tartma.json': tartmaTema5,
   'matematik/sivi-miktari.json': siviMiktari as Konu,

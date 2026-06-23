@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
-import { bolme, carpma } from './gorev-mat-tema4-questions.mjs';
+import { carpma } from './gorev-mat-tema4-questions.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -19,8 +19,8 @@ function karistir(arr) {
 
 const tema4 = {
   id: 'tema-4',
-  baslik: 'Matematik — Tema 4',
-  konular: [carpma(karistir), bolme(karistir)],
+  baslik: 'Matematik — Tema 4 — Çarpma (1×1–10×10)',
+  konular: [carpma(karistir)],
 };
 
 const outDir = join(__dirname, '../src/data/math');

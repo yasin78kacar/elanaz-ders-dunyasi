@@ -10,7 +10,7 @@
  * - { tur: "kap", sahne } → G5mGorsel (GOREV-3I sıvı ölçme kap illüstrasyonları)
  * - { tur: "oruntu", elemanlar, adimEtiketi? } → OruntuGorsel (GOREV-4A)
  * - { tur: "tahmin-etme", sahne, tahmin?, gercek? } → TahminEtmeGorsel (GOREV-4A)
- * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma)
+ * - { tur: "islem", mod, ... } → IslemGorsel (TEMA3 toplama/çıkarma; Tema 1 sayma-grup)
  * - { tur: "olcme", mod, ... } → OlcmeGorsel (Tema 5 ölçme)
  * - { tur: "veri", mod, ... } → VeriGorsel (TEMA5 veri)
  * - { tur: "kesir", mod, ... } → KesirGorsel (TEMA6 kesirler)
@@ -46,9 +46,10 @@ import { bicimselOzellikler } from './gorev-3h-questions.mjs';
 import { siviOlcme } from './gorev-3i-questions.mjs';
 import { oruntu, sayiDogrusu, tahminEtme } from './gorev-4a-questions.mjs';
 import { toplama120 } from './gorev-mat-tema2-questions.mjs';
-import { cikarma, toplama } from './gorev-mat-tema3-questions.mjs';
+import { cikarma220 } from './gorev-mat-tema3-questions.mjs';
+import { sayilarVeSayma } from './gorev-mat-tema1-questions.mjs';
 import { siviMiktari, zaman } from './gorev-tema4-questions.mjs';
-import { bolme, carpma } from './gorev-mat-tema4-questions.mjs';
+import { carpma, bolme } from './gorev-mat-tema4-questions.mjs';
 import { tartma, uzunlukOlcme } from './gorev-mat-tema5-questions.mjs';
 import { grafikOkuma, tabloOkuma, veriToplama } from './gorev-tema5-questions.mjs';
 import { basitKesirler, esitParcalaraBolme, yarimVeCeyrek } from './gorev-tema6-questions.mjs';
@@ -415,10 +416,11 @@ writeFileSync(join(contentDir, 'sivi-olcme.json'), JSON.stringify(siviOlcmeKonu,
 const toplama120Konu = toplama120(karistir);
 writeFileSync(join(contentDir, 'toplama-1-20.json'), JSON.stringify(toplama120Konu, null, 2));
 
-const toplamaKonu = toplama(karistir);
-const cikarmaKonu = cikarma(karistir);
-writeFileSync(join(contentDir, 'toplama.json'), JSON.stringify(toplamaKonu, null, 2));
-writeFileSync(join(contentDir, 'cikarma.json'), JSON.stringify(cikarmaKonu, null, 2));
+const sayilarVeSaymaKonu = sayilarVeSayma(karistir);
+writeFileSync(join(contentDir, 'sayilar-ve-sayma.json'), JSON.stringify(sayilarVeSaymaKonu, null, 2));
+
+const cikarma220Konu = cikarma220(karistir);
+writeFileSync(join(contentDir, 'cikarma-2-20.json'), JSON.stringify(cikarma220Konu, null, 2));
 
 const carpmaKonu = carpma(karistir);
 const bolmeKonu = bolme(karistir);
@@ -652,6 +654,14 @@ const theme9Ing = {
 };
 writeFileSync(join(englishDataDir, 'theme9.json'), JSON.stringify(theme9Ing, null, 2));
 
+
+const matTema1 = {
+  id: 'tema-1',
+  baslik: 'Matematik — Tema 1 — Sayılar ve Sayma (1-20)',
+  konular: [sayilarVeSaymaKonu],
+};
+writeFileSync(join(mathDataDir, 'tema1.json'), JSON.stringify(matTema1, null, 2));
+
 const matTema2 = {
   id: 'tema-2',
   baslik: 'Matematik — Tema 2 — Toplama (1-20)',
@@ -661,8 +671,8 @@ writeFileSync(join(mathDataDir, 'tema2.json'), JSON.stringify(matTema2, null, 2)
 
 const tema3 = {
   id: 'tema-3',
-  baslik: 'Matematik — Tema 3 — Toplama ve Çıkarma',
-  konular: [toplamaKonu, cikarmaKonu],
+  baslik: 'Matematik — Tema 3 — Çıkarma (2-20)',
+  konular: [cikarma220Konu],
 };
 writeFileSync(join(mathDataDir, 'tema3.json'), JSON.stringify(tema3, null, 2));
 
@@ -793,6 +803,13 @@ const index = {
           ],
         },
         {
+          id: 'tema-1',
+          baslik: 'Matematik — Tema 1 — Sayılar ve Sayma (1-20)',
+          konuDosyalari: [
+            'matematik/sayilar-ve-sayma.json',
+          ],
+        },
+        {
           id: 'tema-2',
           baslik: 'Matematik — Tema 2 — Toplama (1-20)',
           konuDosyalari: [
@@ -801,10 +818,9 @@ const index = {
         },
         {
           id: 'tema-3',
-          baslik: 'Matematik — Tema 3 — Toplama ve Çıkarma',
+          baslik: 'Matematik — Tema 3 — Çıkarma (2-20)',
           konuDosyalari: [
-            'matematik/toplama.json',
-            'matematik/cikarma.json',
+            'matematik/cikarma-2-20.json',
           ],
         },
         {
@@ -1056,10 +1072,8 @@ console.log('Sayı doğrusu:', sayiDogrusuKonu.alistirma.length, '+', sayiDogrus
 console.log('Örüntü:', oruntuKonu.alistirma.length, '+', oruntuKonu.test.length);
 console.log('Tahmin etme:', tahminEtmeKonu.alistirma.length, '+', tahminEtmeKonu.test.length);
 console.log('Toplama 1-20:', toplama120Konu.alistirma.length, '+', toplama120Konu.test.length);
-console.log('Toplama:', toplamaKonu.alistirma.length, '+', toplamaKonu.test.length);
 console.log('Çıkarma:', cikarmaKonu.alistirma.length, '+', cikarmaKonu.test.length);
 console.log('Çarpma:', carpmaKonu.alistirma.length, '+', carpmaKonu.test.length);
-console.log('Bölme:', bolmeKonu.alistirma.length, '+', bolmeKonu.test.length);
 console.log('Uzunluk ölçme:', uzunlukOlcmeKonu.alistirma.length, '+', uzunlukOlcmeKonu.test.length);
 console.log('Tartma:', tartmaKonu.alistirma.length, '+', tartmaKonu.test.length);
 console.log('Sıvı miktarı:', siviMiktariKonu.alistirma.length, '+', siviMiktariKonu.test.length);

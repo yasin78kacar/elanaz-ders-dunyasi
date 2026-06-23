@@ -65,7 +65,9 @@ export type IslemMod =
   | 'zihin-cik'
   | 'problem'
   | 'anlatim'
-  | 'esitlik';
+  | 'esitlik'
+  | 'sayma-grup'
+  | 'karsilastirma-grup';
 
 /** Toplama/çıkarma/problemler — IslemGorsel'de tanımlı */
 export interface GorselIslem {
