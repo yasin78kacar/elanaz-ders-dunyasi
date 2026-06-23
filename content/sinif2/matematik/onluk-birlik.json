@@ -636,10 +636,10 @@
       "soru": "Resimdeki bloklarda kaç onluk var?",
       "dogruCevap": "5",
       "secenekler": [
-        "50",
         "6",
         "5",
-        "4"
+        "4",
+        "50"
       ],
       "ipucu": "Her uzun blok 1 onluktur.",
       "gorsel": "onluk-blok-53"
@@ -651,8 +651,8 @@
       "soru": "3 onluk 7 birlik hangi sayıdır?",
       "dogruCevap": "37",
       "secenekler": [
-        "7",
         "73",
+        "7",
         "37",
         "30"
       ],
@@ -665,10 +665,10 @@
       "soru": "58 sayısında kaç birlik vardır?",
       "dogruCevap": "8",
       "secenekler": [
-        "0",
         "5",
         "8",
-        "58"
+        "58",
+        "0"
       ],
       "ipucu": "Sağdaki rakam."
     },
@@ -679,10 +679,10 @@
       "soru": "Resimde toplam kaç birlik var?",
       "dogruCevap": "4",
       "secenekler": [
-        "40",
-        "64",
         "4",
-        "6"
+        "6",
+        "64",
+        "40"
       ],
       "ipucu": "Kısa bloklar birliktir.",
       "gorsel": "onluk-blok-64"
@@ -694,10 +694,10 @@
       "soru": "9 onluk 0 birlik hangi sayıdır?",
       "dogruCevap": "90",
       "secenekler": [
-        "09",
-        "99",
+        "90",
         "9",
-        "90"
+        "99",
+        "09"
       ],
       "ipucu": "Sadece onluk."
     },
@@ -708,10 +708,10 @@
       "soru": "Resimdeki sayı kaçtır?",
       "dogruCevap": "42",
       "secenekler": [
-        "2",
         "24",
-        "40",
-        "42"
+        "2",
+        "42",
+        "40"
       ],
       "ipucu": "4 onluk 2 birlik.",
       "gorsel": "onluk-blok-42"
@@ -723,10 +723,10 @@
       "soru": "76 sayısında kaç onluk vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "76",
-        "7",
+        "6",
         "17",
-        "6"
+        "76",
+        "7"
       ],
       "ipucu": "Soldaki rakam onluk."
     },
@@ -737,9 +737,9 @@
       "soru": "2 onluk 5 birlik hangi sayıdır?",
       "dogruCevap": "25",
       "secenekler": [
-        "25",
-        "20",
         "5",
+        "20",
+        "25",
         "52"
       ],
       "ipucu": "20 + 5"
@@ -752,9 +752,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "2",
-        "38",
         "3",
-        "8"
+        "8",
+        "38"
       ],
       "ipucu": "Uzun blok sayısı.",
       "gorsel": "onluk-blok-38"
@@ -766,10 +766,10 @@
       "soru": "40 sayısında kaç birlik vardır?",
       "dogruCevap": "0",
       "secenekler": [
-        "4",
         "10",
-        "40",
-        "0"
+        "4",
+        "0",
+        "40"
       ],
       "ipucu": "4 onluk, 0 birlik."
     },
@@ -780,9 +780,9 @@
       "soru": "7 onluk 1 birlik hangi sayıdır?",
       "dogruCevap": "71",
       "secenekler": [
-        "70",
-        "1",
         "17",
+        "1",
+        "70",
         "71"
       ],
       "ipucu": "70 + 1"
@@ -794,10 +794,10 @@
       "soru": "Resimdeki bloklar hangi sayıyı gösterir?",
       "dogruCevap": "29",
       "secenekler": [
-        "92",
+        "9",
         "20",
-        "29",
-        "9"
+        "92",
+        "29"
       ],
       "ipucu": "2 onluk 9 birlik.",
       "gorsel": "onluk-blok-29"
@@ -809,10 +809,10 @@
       "soru": "85 sayısında kaç onluk vardır?",
       "dogruCevap": "8",
       "secenekler": [
-        "85",
-        "18",
         "8",
-        "5"
+        "85",
+        "5",
+        "18"
       ],
       "ipucu": "8 onluk 5 birlik."
     },
@@ -823,10 +823,10 @@
       "soru": "Hangisi 6 onluk 3 birlik DEĞİLDİR?",
       "dogruCevap": "36",
       "secenekler": [
-        "63",
-        "36",
+        "60+3",
         "603",
-        "60+3"
+        "63",
+        "36"
       ],
       "ipucu": "6 onluk 3 birlik = 63. Tuzağı fark et!",
       "sasirtma": true
@@ -838,10 +838,10 @@
       "soru": "Resimde toplam kaç onluk var?",
       "dogruCevap": "7",
       "secenekler": [
-        "9",
-        "2",
+        "7",
         "72",
-        "7"
+        "2",
+        "9"
       ],
       "ipucu": "Uzun sütunları say.",
       "gorsel": "onluk-blok-72"
@@ -853,10 +853,10 @@
       "soru": "3 onluk 7 birlik hangi sayıdır?",
       "dogruCevap": "37",
       "secenekler": [
-        "37",
-        "10",
         "73",
-        "30"
+        "30",
+        "37",
+        "10"
       ],
       "ipucu": "30 + 7"
     },
@@ -867,10 +867,10 @@
       "soru": "52 sayısında kaç onluk vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "52",
-        "7",
         "2",
-        "5"
+        "5",
+        "52",
+        "7"
       ],
       "ipucu": "Soldaki rakam."
     },
@@ -882,9 +882,9 @@
       "dogruCevap": "49",
       "secenekler": [
         "94",
-        "9",
+        "49",
         "40",
-        "49"
+        "9"
       ],
       "ipucu": "40 + 9"
     },
@@ -895,10 +895,10 @@
       "soru": "60 sayısında kaç birlik vardır?",
       "dogruCevap": "0",
       "secenekler": [
-        "60",
-        "0",
+        "10",
         "6",
-        "10"
+        "0",
+        "60"
       ],
       "ipucu": "0 birlik."
     },
@@ -909,10 +909,10 @@
       "soru": "Elanaz'ın 10'arlı 3 paket ve 5 tek balonu var. Kaç balonu vardır?",
       "dogruCevap": "35",
       "secenekler": [
+        "35",
         "30",
         "53",
-        "8",
-        "35"
+        "8"
       ],
       "ipucu": "30 + 5"
     },
@@ -923,10 +923,10 @@
       "soru": "8 onluk hangi sayıdır?",
       "dogruCevap": "80",
       "secenekler": [
-        "80",
-        "18",
+        "8",
         "88",
-        "8"
+        "18",
+        "80"
       ],
       "ipucu": "8 onluk = 80"
     },
@@ -937,10 +937,10 @@
       "soru": "26 sayısı için hangisi doğrudur?",
       "dogruCevap": "2 onluk 6 birlik",
       "secenekler": [
-        "2 onluk 2 birlik",
+        "26 onluk",
         "2 onluk 6 birlik",
         "6 onluk 2 birlik",
-        "26 onluk"
+        "2 onluk 2 birlik"
       ],
       "ipucu": "20 + 6"
     },
@@ -951,10 +951,10 @@
       "soru": "Hangisinde onluk sayısı YANLIŞ verilmiştir?",
       "dogruCevap": "38 → 8 onluk",
       "secenekler": [
-        "45 → 4 onluk",
         "72 → 7 onluk",
-        "38 → 8 onluk",
-        "91 → 9 onluk"
+        "91 → 9 onluk",
+        "45 → 4 onluk",
+        "38 → 8 onluk"
       ],
       "ipucu": "Önce gelen rakam onlukları gösterir, tek tek kontrol et",
       "sasirtma": true
@@ -967,9 +967,9 @@
       "dogruCevap": "10",
       "secenekler": [
         "10",
+        "100",
         "1",
-        "11",
-        "100"
+        "11"
       ],
       "ipucu": "1 onluk = 10 birlik"
     },
@@ -980,10 +980,10 @@
       "soru": "99 sayısı için hangisi doğrudur?",
       "dogruCevap": "9 onluk 9 birlik",
       "secenekler": [
-        "9 onluk 0 birlik",
-        "9 onluk 9 birlik",
+        "0 onluk 9 birlik",
         "99 onluk",
-        "0 onluk 9 birlik"
+        "9 onluk 0 birlik",
+        "9 onluk 9 birlik"
       ],
       "ipucu": "90 + 9"
     },
@@ -994,10 +994,10 @@
       "soru": "Hangi sayıda 5 birlik vardır?",
       "dogruCevap": "35",
       "secenekler": [
+        "53",
         "35",
         "50",
-        "5 onluk",
-        "53"
+        "5 onluk"
       ],
       "ipucu": "Birlik sağdaki rakamdır."
     },
@@ -1008,9 +1008,9 @@
       "soru": "10'arlı 7 kutu yumurta kaç yumurtadır?",
       "dogruCevap": "70",
       "secenekler": [
-        "7",
         "77",
         "17",
+        "7",
         "70"
       ],
       "ipucu": "10'ar 7 kez"
@@ -1023,9 +1023,9 @@
       "dogruCevap": "8",
       "secenekler": [
         "4",
-        "84",
+        "8",
         "12",
-        "8"
+        "84"
       ],
       "ipucu": "Soldaki rakam."
     },
@@ -1036,9 +1036,9 @@
       "soru": "Hangisi en büyüktür?",
       "dogruCevap": "1 onluk",
       "secenekler": [
-        "8 birlik",
         "9 birlik",
         "1 onluk",
+        "8 birlik",
         "5 birlik"
       ],
       "ipucu": "1 onluk = 10 birlik"
@@ -1050,10 +1050,10 @@
       "soru": "Elanaz'ın 3 onluk 2 birlik şekeri, Kerem'in 2 onluk 3 birlik şekeri var. Hangisi doğrudur?",
       "dogruCevap": "Elanaz'ınki daha çok",
       "secenekler": [
-        "Elanaz'ınki daha çok",
         "İkisi eşit",
-        "Kerem'inki daha çok",
-        "Bilinemez"
+        "Bilinemez",
+        "Elanaz'ınki daha çok",
+        "Kerem'inki daha çok"
       ],
       "ipucu": "Sayıları yaz — 32 ile 23'ü karşılaştır",
       "sasirtma": true
@@ -1065,10 +1065,10 @@
       "soru": "40 + 7 işleminin sonucu kaç onluk kaç birliktir?",
       "dogruCevap": "4 onluk 7 birlik",
       "secenekler": [
-        "7 onluk 4 birlik",
-        "4 onluk 7 birlik",
         "4 onluk 0 birlik",
-        "47 onluk"
+        "47 onluk",
+        "7 onluk 4 birlik",
+        "4 onluk 7 birlik"
       ],
       "ipucu": "47 = 4 onluk 7 birlik"
     },
@@ -1079,10 +1079,10 @@
       "soru": "Hangisi 6 onluk 1 birliktir?",
       "dogruCevap": "61",
       "secenekler": [
-        "60",
-        "6",
+        "16",
         "61",
-        "16"
+        "60",
+        "6"
       ],
       "ipucu": "60 + 1"
     },
@@ -1093,9 +1093,9 @@
       "soru": "75 sayısının onluğu ile birliği arasındaki fark kaçtır?",
       "dogruCevap": "2",
       "secenekler": [
-        "7",
-        "2",
         "12",
+        "2",
+        "7",
         "5"
       ],
       "ipucu": "7 − 5 = 2"
@@ -1107,10 +1107,10 @@
       "soru": "2 onluk 0 birlik hangi sayıdır?",
       "dogruCevap": "20",
       "secenekler": [
-        "2",
         "02",
-        "200",
-        "20"
+        "20",
+        "2",
+        "200"
       ],
       "ipucu": "20"
     },
@@ -1123,8 +1123,8 @@
       "secenekler": [
         "55",
         "12",
-        "50",
-        "21"
+        "21",
+        "50"
       ],
       "ipucu": "5 = 5"
     },
@@ -1135,8 +1135,8 @@
       "soru": "Hangisi 70'e EŞİT DEĞİLDİR?",
       "dogruCevap": "7 birlik",
       "secenekler": [
-        "70 birlik",
         "7 onluk",
+        "70 birlik",
         "7 birlik",
         "6 onluk 10 birlik"
       ],
@@ -1150,10 +1150,10 @@
       "soru": "13 sayısında kaç onluk vardır?",
       "dogruCevap": "1",
       "secenekler": [
-        "1",
         "13",
-        "0",
-        "3"
+        "1",
+        "3",
+        "0"
       ],
       "ipucu": "Soldaki rakam."
     },
@@ -1166,8 +1166,8 @@
       "secenekler": [
         "85",
         "58",
-        "508",
-        "13"
+        "13",
+        "508"
       ],
       "ipucu": "50 + 8"
     },
@@ -1178,9 +1178,9 @@
       "soru": "67 sayısı için hangisi YANLIŞTIR?",
       "dogruCevap": "7 onluğu vardır",
       "secenekler": [
-        "7 onluğu vardır",
         "7 birliği vardır",
         "60 + 7 eder",
+        "7 onluğu vardır",
         "6 onluğu vardır"
       ],
       "ipucu": "6 onluk 7 birlik."
@@ -1192,10 +1192,10 @@
       "soru": "Hangisi 100 eder?",
       "dogruCevap": "10 onluk",
       "secenekler": [
-        "1 onluk",
         "10 birlik",
-        "100 onluk",
-        "10 onluk"
+        "10 onluk",
+        "1 onluk",
+        "100 onluk"
       ],
       "ipucu": "10 onluk = 100"
     },
@@ -1206,10 +1206,10 @@
       "soru": "Elanaz 3 onluk ve 5 birlik boncukla kolye yaptı. Kolyede kaç boncuk vardır?",
       "dogruCevap": "35",
       "secenekler": [
+        "50",
         "30",
         "35",
-        "53",
-        "50"
+        "53"
       ],
       "ipucu": "30 + 5"
     },
@@ -1220,10 +1220,10 @@
       "soru": "Kalem kutusunda 42 kalemi olan Ali, bu kalemi onluk ve birliklerine nasıl ayırır?",
       "dogruCevap": "4 onluk, 2 birlik",
       "secenekler": [
-        "4 onluk, 0 birlik",
-        "2 onluk, 4 birlik",
         "4 onluk, 2 birlik",
-        "2 onluk, 2 birlik"
+        "4 onluk, 0 birlik",
+        "2 onluk, 2 birlik",
+        "2 onluk, 4 birlik"
       ],
       "ipucu": "4 onluk 2 birlik"
     },
@@ -1235,9 +1235,9 @@
       "dogruCevap": "28",
       "secenekler": [
         "80",
-        "82",
         "20",
-        "28"
+        "28",
+        "82"
       ],
       "ipucu": "20 + 8"
     },
@@ -1248,10 +1248,10 @@
       "soru": "6 birlik ve 4 onluktan oluşan sayı aşağıdakilerden hangisidir?",
       "dogruCevap": "46",
       "secenekler": [
-        "60",
         "40",
         "64",
-        "46"
+        "46",
+        "60"
       ],
       "ipucu": "Önce birliklerin mi yoksa onlukların mı söylendiğine çok dikkat etmelisin.",
       "sasirtma": true
@@ -1263,9 +1263,9 @@
       "soru": "Elanaz'ın misket torbasında 74 misket vardır. Bu misketlerin onluk ve birlik dağılımı hangisidir?",
       "dogruCevap": "7 onluk, 4 birlik",
       "secenekler": [
-        "7 onluk, 4 birlik",
         "4 onluk, 4 birlik",
         "7 onluk, 0 birlik",
+        "7 onluk, 4 birlik",
         "4 onluk, 7 birlik"
       ],
       "ipucu": "7 onluk 4 birlik"
@@ -1278,9 +1278,9 @@
       "dogruCevap": "50",
       "secenekler": [
         "15",
-        "55",
         "5",
-        "50"
+        "50",
+        "55"
       ],
       "ipucu": "5 onluk = 50"
     },
@@ -1291,10 +1291,10 @@
       "soru": "Kitaplığımızdaki kitapları sayınca 8 onluk ve 3 birlik bulduk. Kitaplıkta kaç kitap vardır?",
       "dogruCevap": "83",
       "secenekler": [
+        "38",
         "83",
-        "80",
         "30",
-        "38"
+        "80"
       ],
       "ipucu": "80 + 3"
     },
@@ -1305,9 +1305,9 @@
       "soru": "Bir boncuk kutusunda 1 onluk ve 7 birlik boncuk vardır. Kutuda kaç boncuk vardır?",
       "dogruCevap": "17",
       "secenekler": [
-        "70",
         "71",
         "17",
+        "70",
         "10"
       ],
       "ipucu": "10 + 7"
@@ -1319,8 +1319,8 @@
       "soru": "Bahçeden topladığımız 92 elma kaç onluk ve kaç birlikten oluşur?",
       "dogruCevap": "9 onluk, 2 birlik",
       "secenekler": [
-        "2 onluk, 9 birlik",
         "9 onluk, 2 birlik",
+        "2 onluk, 9 birlik",
         "2 onluk, 2 birlik",
         "9 onluk, 0 birlik"
       ],
@@ -1333,10 +1333,10 @@
       "soru": "3 onluk ve 6 birlikten oluşan boya kalemlerine 3 birlik daha eklersek hangi sayıyı buluruz?",
       "dogruCevap": "39",
       "secenekler": [
+        "63",
         "39",
-        "93",
         "36",
-        "63"
+        "93"
       ],
       "ipucu": "36 + 3"
     },
@@ -1347,9 +1347,9 @@
       "soru": "Elanaz 5 onluk ve 2 birlik tokaya sahiptir. Arkadaşı ise Elanaz'ın tokalarının onluk ve birliğinin yerini karıştırarak bir sayı söylüyor. Arkadaşının söylediği sayı kaçtır?",
       "dogruCevap": "25",
       "secenekler": [
+        "52",
         "20",
         "50",
-        "52",
         "25"
       ],
       "ipucu": "Çocukların sıkça yaptığı gibi onluk ve birliği ters çevirerek düşünmelisin.",
@@ -1362,10 +1362,10 @@
       "soru": "Bir fırıncı sabah 61 ekmek sattı. Fırıncı kaç onluk ve kaç birlik ekmek satmıştır?",
       "dogruCevap": "6 onluk, 1 birlik",
       "secenekler": [
-        "6 onluk, 0 birlik",
-        "1 onluk, 6 birlik",
+        "6 onluk, 1 birlik",
         "1 onluk, 1 birlik",
-        "6 onluk, 1 birlik"
+        "6 onluk, 0 birlik",
+        "1 onluk, 6 birlik"
       ],
       "ipucu": "6 onluk 1 birlik"
     },
@@ -1376,10 +1376,10 @@
       "soru": "Bir dükkandaki oyuncak ayıları saydığımızda 8 onluk ve 7 birlik çıktı. Toplam oyuncak ayı sayısı kaçtır?",
       "dogruCevap": "87",
       "secenekler": [
-        "87",
-        "80",
         "70",
-        "78"
+        "78",
+        "87",
+        "80"
       ],
       "ipucu": "80 + 7"
     },
@@ -1390,10 +1390,10 @@
       "soru": "Elanaz'ın annesi pazardan 4 onluk ve 9 birlik kadar çilek aldı. Annem kaç çilek almıştır?",
       "dogruCevap": "49",
       "secenekler": [
-        "94",
-        "49",
         "40",
-        "90"
+        "49",
+        "90",
+        "94"
       ],
       "ipucu": "40 + 9"
     },
@@ -1404,10 +1404,10 @@
       "soru": "Kumbaramdan çıkan paraları saydığımda 23 kuruş buldum. Bu para kaç onluk ve kaç birlikten oluşur?",
       "dogruCevap": "2 onluk, 3 birlik",
       "secenekler": [
-        "2 onluk, 3 birlik",
         "2 onluk, 0 birlik",
-        "3 onluk, 2 birlik",
-        "3 onluk, 3 birlik"
+        "3 onluk, 3 birlik",
+        "2 onluk, 3 birlik",
+        "3 onluk, 2 birlik"
       ],
       "ipucu": "2 onluk 3 birlik"
     },
@@ -1419,9 +1419,9 @@
       "dogruCevap": "66",
       "secenekler": [
         "60",
-        "66",
+        "6",
         "16",
-        "6"
+        "66"
       ],
       "ipucu": "60 + 6"
     },
@@ -1432,10 +1432,10 @@
       "soru": "8 onluk ve 4 birlikten oluşan sayı hakkında hangi ifade YANLIŞTIR?",
       "dogruCevap": "Bu sayı 48'dir.",
       "secenekler": [
-        "Sayıda 8 tane onluk grup vardır.",
         "Bu sayı 48'dir.",
-        "Bu sayı 84'tür.",
-        "Sayıda 4 tane açıkta kalan birlik vardır."
+        "Sayıda 4 tane açıkta kalan birlik vardır.",
+        "Sayıda 8 tane onluk grup vardır.",
+        "Bu sayı 84'tür."
       ],
       "ipucu": "Soruda olumsuz bir ifade arandığını unutma, şıkları tek tek incele.",
       "sasirtma": true
@@ -1447,10 +1447,10 @@
       "soru": "Elanaz panoya 7 onluk ve 1 birlik yıldız yapıştırdı. Panoda kaç yıldız oldu?",
       "dogruCevap": "71",
       "secenekler": [
-        "17",
+        "11",
         "70",
         "71",
-        "11"
+        "17"
       ],
       "ipucu": "70 + 1"
     },
@@ -1461,10 +1461,10 @@
       "soru": "Koleksiyonumdaki 59 pulu onluk ve birliklerine ayırırsam hangi seçeneğe ulaşırım?",
       "dogruCevap": "5 onluk, 9 birlik",
       "secenekler": [
-        "9 onluk, 9 birlik",
         "5 onluk, 9 birlik",
         "5 onluk, 0 birlik",
-        "9 onluk, 5 birlik"
+        "9 onluk, 5 birlik",
+        "9 onluk, 9 birlik"
       ],
       "ipucu": "5 onluk 9 birlik"
     },
@@ -1476,9 +1476,9 @@
       "dogruCevap": "12",
       "secenekler": [
         "10",
-        "12",
+        "20",
         "21",
-        "20"
+        "12"
       ],
       "ipucu": "10 + 2"
     },
@@ -1489,9 +1489,9 @@
       "soru": "Sayı boncuğunda 3 onluk ve 9 birlik gösteren Elanaz, toplam hangi sayıyı modellemiştir?",
       "dogruCevap": "39",
       "secenekler": [
+        "30",
         "90",
         "39",
-        "30",
         "93"
       ],
       "ipucu": "30 + 9"
@@ -1503,10 +1503,10 @@
       "soru": "Sınıftaki 45 öğrenciyi onarlı gruplara ayırırsak kaç onluk grup ve kaç açıkta kalan birlik öğrenci olur?",
       "dogruCevap": "4 onluk, 5 birlik",
       "secenekler": [
-        "5 onluk, 4 birlik",
-        "4 onluk, 0 birlik",
+        "4 onluk, 5 birlik",
         "5 onluk, 5 birlik",
-        "4 onluk, 5 birlik"
+        "5 onluk, 4 birlik",
+        "4 onluk, 0 birlik"
       ],
       "ipucu": "4 onluk 5 birlik"
     },
@@ -1518,9 +1518,9 @@
       "dogruCevap": "90",
       "secenekler": [
         "9",
+        "90",
         "99",
-        "19",
-        "90"
+        "19"
       ],
       "ipucu": "9 onluk = 90"
     },
@@ -1531,10 +1531,10 @@
       "soru": "Elanaz 2 onluk, arkadaşı ise 2 birlik kadar şeker getirdi. İkisinin toplam kaç şekeri oldu?",
       "dogruCevap": "22",
       "secenekler": [
-        "2",
-        "22",
+        "40",
         "20",
-        "40"
+        "22",
+        "2"
       ],
       "ipucu": "20 + 2"
     },
@@ -1545,10 +1545,10 @@
       "soru": "87 sayısında kaç onluk ve kaç birlik bulunur?",
       "dogruCevap": "8 onluk, 7 birlik",
       "secenekler": [
-        "7 onluk, 8 birlik",
-        "8 onluk, 0 birlik",
         "7 onluk, 7 birlik",
-        "8 onluk, 7 birlik"
+        "8 onluk, 7 birlik",
+        "7 onluk, 8 birlik",
+        "8 onluk, 0 birlik"
       ],
       "ipucu": "8 onluk 7 birlik"
     }

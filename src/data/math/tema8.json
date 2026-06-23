@@ -429,10 +429,10 @@
           "soru": "Zar hangi geometrik cisme benzer?",
           "dogruCevap": "Küp",
           "secenekler": [
-            "Küp",
             "Üçgen prizma",
             "Silindir",
-            "Küre"
+            "Küre",
+            "Küp"
           ],
           "ipucu": "Zarın her yüzü karedir.",
           "gorsel": {
@@ -465,9 +465,9 @@
           "soru": "Hangisi silindire benzer?",
           "dogruCevap": "Konserve kutusu",
           "secenekler": [
+            "Kitap",
             "Konserve kutusu",
             "Futbol topu",
-            "Kitap",
             "Zar"
           ],
           "ipucu": "Silindirin yuvarlak gövdesi vardır.",
@@ -501,9 +501,9 @@
           "soru": "Futbol topu hangi geometrik cisme benzer?",
           "dogruCevap": "Küre",
           "secenekler": [
-            "Silindir",
             "Kare prizma",
             "Küp",
+            "Silindir",
             "Küre"
           ],
           "ipucu": "Top her yönden yuvarlaktır.",
@@ -537,9 +537,9 @@
           "soru": "Hangisi küreye benzer?",
           "dogruCevap": "Misket",
           "secenekler": [
-            "Kibrit kutusu",
-            "Misket",
             "Çadır",
+            "Misket",
+            "Kibrit kutusu",
             "Süt kutusu"
           ],
           "ipucu": "Küre her yönden yuvarlaktır.",
@@ -573,10 +573,10 @@
           "soru": "Elanaz'ın kamp çadırı hangi cisme benzer?",
           "dogruCevap": "Üçgen prizma",
           "secenekler": [
-            "Küp",
             "Küre",
+            "Üçgen prizma",
             "Silindir",
-            "Üçgen prizma"
+            "Küp"
           ],
           "ipucu": "Çadırın çatısı üçgen şeklindedir.",
           "gorsel": {
@@ -609,9 +609,9 @@
           "soru": "🎭 Hangisi KÜP'e benzeMEZ?",
           "dogruCevap": "Konserve kutusu",
           "secenekler": [
+            "Zekâ küpü",
             "Zar",
             "Küp şeker",
-            "Zekâ küpü",
             "Konserve kutusu"
           ],
           "ipucu": "\"BenzeMEZ\" diyor — küp OLMAYANI arıyoruz!",
@@ -646,10 +646,10 @@
           "soru": "Ayakkabı kutusu hangi geometrik cisme benzer?",
           "dogruCevap": "Dikdörtgen prizma",
           "secenekler": [
-            "Silindir",
-            "Üçgen prizma",
             "Küre",
-            "Dikdörtgen prizma"
+            "Dikdörtgen prizma",
+            "Silindir",
+            "Üçgen prizma"
           ],
           "ipucu": "Ayakkabı kutusu köşeli ve uzundur.",
           "gorsel": {
@@ -682,9 +682,9 @@
           "soru": "Hangisi dikdörtgen prizmaya benzer?",
           "dogruCevap": "Kitap",
           "secenekler": [
-            "Pil",
-            "Top",
             "Kitap",
+            "Top",
+            "Pil",
             "Portakal"
           ],
           "ipucu": "Kitap köşeli ve ince bir kutudur.",
@@ -718,10 +718,10 @@
           "soru": "Teneke kutu ve pil hangi cisme benzer?",
           "dogruCevap": "İkisi de silindire",
           "secenekler": [
+            "İkisi de üçgen prizmaya",
             "Biri küre, biri küp",
             "İkisi de küpe",
-            "İkisi de silindire",
-            "İkisi de üçgen prizmaya"
+            "İkisi de silindire"
           ],
           "ipucu": "Teneke ve pil yuvarlak gövdelidir.",
           "gorsel": {
@@ -736,10 +736,10 @@
           "soru": "Dünya'mız hangi geometrik cisme benzer?",
           "dogruCevap": "Küre",
           "secenekler": [
-            "Küre",
             "Silindir",
-            "Küp",
-            "Dikdörtgen prizma"
+            "Küre",
+            "Dikdörtgen prizma",
+            "Küp"
           ],
           "ipucu": "Dünya her yönden yuvarlaktır.",
           "gorsel": {
@@ -773,9 +773,9 @@
           "dogruCevap": "Küp",
           "secenekler": [
             "Dikdörtgen prizma",
-            "Küre",
+            "Küp",
             "Silindir",
-            "Küp"
+            "Küre"
           ],
           "ipucu": "HER yüzü kare olan özel kutunun adı nedir?",
           "gorsel": {
@@ -809,10 +809,10 @@
           "soru": "Evlerin üçgen çatısı hangi cisme benzer?",
           "dogruCevap": "Üçgen prizma",
           "secenekler": [
-            "Küre",
+            "Küp",
             "Silindir",
             "Üçgen prizma",
-            "Küp"
+            "Küre"
           ],
           "ipucu": "Üçgen çatılar üçgen prizmaya benzer.",
           "gorsel": {
@@ -846,9 +846,9 @@
           "dogruCevap": "Top - Misket",
           "secenekler": [
             "Çadır - Çatı",
+            "Pil - Konserve",
             "Zar - Kutu",
-            "Top - Misket",
-            "Pil - Konserve"
+            "Top - Misket"
           ],
           "ipucu": "Top ve misket yuvarlaktır.",
           "gorsel": {
@@ -885,10 +885,10 @@
           "soru": "Kale kulesi hangi geometrik cisme benzer?",
           "dogruCevap": "Silindir",
           "secenekler": [
-            "Silindir",
-            "Küre",
             "Kare prizma",
-            "Küp"
+            "Küp",
+            "Küre",
+            "Silindir"
           ],
           "ipucu": "Kuleler genelde yuvarlak gövdelidir.",
           "gorsel": {
@@ -922,9 +922,9 @@
           "dogruCevap": "Dikdörtgen prizma",
           "secenekler": [
             "Üçgen prizma",
-            "Küre",
+            "Dikdörtgen prizma",
             "Silindir",
-            "Dikdörtgen prizma"
+            "Küre"
           ],
           "ipucu": "Süt kutusu köşeli bir kutudur.",
           "gorsel": {
@@ -957,9 +957,9 @@
           "soru": "🎭 Hangisi SİLİNDİRE benzeMEZ?",
           "dogruCevap": "Zar",
           "secenekler": [
-            "Pil",
             "Tuvalet kâğıdı rulosu",
             "Zar",
+            "Pil",
             "Konserve kutusu"
           ],
           "ipucu": "Silindirin yuvarlak gövdesi vardır — köşeli olan hangisi?",
@@ -994,10 +994,10 @@
           "soru": "Kibrit kutusu hangi geometrik cisme benzer?",
           "dogruCevap": "Dikdörtgen prizma",
           "secenekler": [
-            "Dikdörtgen prizma",
             "Silindir",
-            "Küre",
-            "Küp"
+            "Dikdörtgen prizma",
+            "Küp",
+            "Küre"
           ],
           "ipucu": "Kibrit kutusu köşeli bir kutudur.",
           "gorsel": {
@@ -1030,9 +1030,9 @@
           "soru": "Hangisi üçgen prizmaya benzer?",
           "dogruCevap": "Çadır",
           "secenekler": [
+            "Top",
             "Misket",
             "Konserve",
-            "Top",
             "Çadır"
           ],
           "ipucu": "Çadırın çatısı üçgen şeklindedir.",
@@ -1066,10 +1066,10 @@
           "soru": "Elanaz'ın kalem kutusu uzun ve kare tabanlı bir kutudur. Hangi cisme benzer?",
           "dogruCevap": "Kare prizma",
           "secenekler": [
-            "Silindir",
-            "Küre",
+            "Üçgen prizma",
             "Kare prizma",
-            "Üçgen prizma"
+            "Küre",
+            "Silindir"
           ],
           "ipucu": "Kare tabanlı uzun kutular kare prizmaya benzer.",
           "gorsel": {
@@ -1102,10 +1102,10 @@
           "soru": "Portakal ve karpuz hangi cisme benzer?",
           "dogruCevap": "Küreye",
           "secenekler": [
-            "Küreye",
             "Silindire",
-            "Küpe",
-            "Üçgen prizmaya"
+            "Küreye",
+            "Üçgen prizmaya",
+            "Küpe"
           ],
           "ipucu": "Portakal ve karpuz yuvarlaktır.",
           "gorsel": {
@@ -1120,10 +1120,10 @@
           "soru": "🎭 Kutudaki süt bitince Elanaz kutuyu geri dönüşüme attı. Boş kutu hangi cisme benzer?",
           "dogruCevap": "Dikdörtgen prizma",
           "secenekler": [
-            "Dikdörtgen prizma",
-            "Silindir",
             "Hiçbirine — boş kutu cisim değildir",
-            "Küre"
+            "Küre",
+            "Dikdörtgen prizma",
+            "Silindir"
           ],
           "ipucu": "Kutu boş da olsa dolu da olsa biçimi DEĞİŞMEZ!",
           "gorsel": {
@@ -1157,10 +1157,10 @@
           "soru": "Hangisi küpe benzer?",
           "dogruCevap": "Zar",
           "secenekler": [
-            "Zar",
             "Çadır",
             "Top",
-            "Konserve"
+            "Konserve",
+            "Zar"
           ],
           "ipucu": "Zar küp şeklindedir.",
           "gorsel": {
@@ -1193,10 +1193,10 @@
           "soru": "Bina hangi geometrik cisme benzer?",
           "dogruCevap": "Dikdörtgen prizma",
           "secenekler": [
-            "Küre",
             "Üçgen prizma",
-            "Dikdörtgen prizma",
-            "Silindir"
+            "Silindir",
+            "Küre",
+            "Dikdörtgen prizma"
           ],
           "ipucu": "Binalar köşeli ve uzun kutulardır.",
           "gorsel": {
@@ -1229,9 +1229,9 @@
           "soru": "🎭 Elanaz dondurma külahını bitirdi, elinde sadece YUVARLAK dondurma topu kaldı. Dondurma topu hangi cisme benzer?",
           "dogruCevap": "Küre",
           "secenekler": [
-            "Silindir",
             "Küre",
             "Kare prizma",
+            "Silindir",
             "Küp"
           ],
           "ipucu": "Külah gitti — elimizde kalan TOP neye benzer?",
@@ -1268,8 +1268,8 @@
           "secenekler": [
             "Top → Silindir",
             "Zar → Küre",
-            "Konserve → Silindir",
-            "Çadır → Küp"
+            "Çadır → Küp",
+            "Konserve → Silindir"
           ],
           "ipucu": "Her nesneyi doğru geometrik cisme eşleştir.",
           "gorsel": {
@@ -1741,10 +1741,10 @@
           "soru": "Resimdeki şekil hangisidir?",
           "dogruCevap": "Üçgen",
           "secenekler": [
+            "Dikdörtgen",
             "Daire",
             "Üçgen",
-            "Kare",
-            "Dikdörtgen"
+            "Kare"
           ],
           "ipucu": "Üç köşeli şekil…",
           "gorsel": {
@@ -1777,10 +1777,10 @@
           "soru": "Dört kenarı eşit olan şekil hangisidir?",
           "dogruCevap": "Kare",
           "secenekler": [
-            "Üçgen",
-            "Çember",
+            "Dikdörtgen",
             "Kare",
-            "Dikdörtgen"
+            "Üçgen",
+            "Çember"
           ],
           "ipucu": "Dört kenarı da eşit…",
           "gorsel": {
@@ -1815,8 +1815,8 @@
           "secenekler": [
             "Çember",
             "Üçgen",
-            "Daire",
-            "Kare"
+            "Kare",
+            "Daire"
           ],
           "ipucu": "İçi boş yuvarlak çizgi…",
           "gorsel": {
@@ -1849,10 +1849,10 @@
           "soru": "🎭 Resimdeki şekil hangisidir?",
           "dogruCevap": "Daire",
           "secenekler": [
-            "Kare",
             "Çember",
+            "Üçgen",
             "Daire",
-            "Üçgen"
+            "Kare"
           ],
           "ipucu": "İçi DOLU mu BOŞ mu? Boyalıysa adı değişir!",
           "gorsel": {
@@ -1886,10 +1886,10 @@
           "soru": "Hangisi üçgene benzer?",
           "dogruCevap": "Dondurma külahı",
           "secenekler": [
-            "Pencere",
-            "Kapı",
             "Dondurma külahı",
-            "Tekerlek"
+            "Tekerlek",
+            "Kapı",
+            "Pencere"
           ],
           "ipucu": "Külah ters üçgen şeklindedir.",
           "gorsel": {
@@ -1922,10 +1922,10 @@
           "soru": "Kapı hangi şekle benzer?",
           "dogruCevap": "Dikdörtgen",
           "secenekler": [
-            "Dikdörtgen",
+            "Çember",
             "Üçgen",
-            "Daire",
-            "Çember"
+            "Dikdörtgen",
+            "Daire"
           ],
           "ipucu": "Kapı köşeli ve uzundur.",
           "gorsel": {
@@ -1958,10 +1958,10 @@
           "soru": "Resimdeki evin çatısı hangi şekildir?",
           "dogruCevap": "Üçgen",
           "secenekler": [
-            "Üçgen",
+            "Kare",
             "Daire",
-            "Dikdörtgen",
-            "Kare"
+            "Üçgen",
+            "Dikdörtgen"
           ],
           "ipucu": "Çatı üçgen şeklindedir.",
           "gorsel": {
@@ -1996,8 +1996,8 @@
           "secenekler": [
             "1",
             "3",
-            "4",
-            "2"
+            "2",
+            "4"
           ],
           "ipucu": "Her vagonda 2 tekerlek, 2 vagon = 4 çember.",
           "gorsel": {
@@ -2012,10 +2012,10 @@
           "soru": "Güneş hangi şekle benzer?",
           "dogruCevap": "Daire",
           "secenekler": [
+            "Daire",
             "Kare",
-            "Üçgen",
             "Dikdörtgen",
-            "Daire"
+            "Üçgen"
           ],
           "ipucu": "Güneş içi dolu yuvarlaktır.",
           "gorsel": {
@@ -2048,10 +2048,10 @@
           "soru": "🎭 Hangisi KÖŞELİ bir şekil DEĞİLDİR?",
           "dogruCevap": "Daire",
           "secenekler": [
+            "Daire",
             "Kare",
-            "Dikdörtgen",
             "Üçgen",
-            "Daire"
+            "Dikdörtgen"
           ],
           "ipucu": "\"DEĞİLDİR\" — köşesi OLMAYAN şekli arıyoruz!",
           "gorsel": {
@@ -2085,10 +2085,10 @@
           "soru": "Resimdeki robotun gözleri hangi şekildir?",
           "dogruCevap": "Daire",
           "secenekler": [
+            "Üçgen",
             "Daire",
             "Kare",
-            "Dikdörtgen",
-            "Üçgen"
+            "Dikdörtgen"
           ],
           "ipucu": "Gözler içi dolu yuvarlaktır.",
           "gorsel": {
@@ -2121,10 +2121,10 @@
           "soru": "Resimdeki modelde kaç tane kare vardır?",
           "dogruCevap": "2",
           "secenekler": [
+            "2",
             "3",
             "4",
-            "1",
-            "2"
+            "1"
           ],
           "ipucu": "Kafa ve gövde karedir.",
           "gorsel": {
@@ -2140,9 +2140,9 @@
           "dogruCevap": "Çember",
           "secenekler": [
             "Dikdörtgen",
-            "Kare",
             "Üçgen",
-            "Çember"
+            "Çember",
+            "Kare"
           ],
           "ipucu": "Simitin ortası delik — içi boş çember.",
           "gorsel": {
@@ -2175,10 +2175,10 @@
           "soru": "Elanaz'ın çizdiği balık modelinde kuyruk hangi şekildir?",
           "dogruCevap": "Üçgen",
           "secenekler": [
-            "Üçgen",
-            "Kare",
             "Daire",
-            "Çember"
+            "Çember",
+            "Kare",
+            "Üçgen"
           ],
           "ipucu": "Kuyruk üçgen şeklindedir.",
           "gorsel": {
@@ -2211,10 +2211,10 @@
           "soru": "Aynı balığın gövdesi hangi şekildir?",
           "dogruCevap": "Daire",
           "secenekler": [
-            "Üçgen",
-            "Dikdörtgen",
             "Daire",
-            "Kare"
+            "Kare",
+            "Dikdörtgen",
+            "Üçgen"
           ],
           "ipucu": "Gövde içi dolu yuvarlaktır.",
           "gorsel": {
@@ -2247,10 +2247,10 @@
           "soru": "Karenin bir kenarını tutup yana doğru uzatırsak hangi şekil oluşur?",
           "dogruCevap": "Dikdörtgen",
           "secenekler": [
+            "Daire",
             "Çember",
-            "Üçgen",
             "Dikdörtgen",
-            "Daire"
+            "Üçgen"
           ],
           "ipucu": "Karenin uzamış hâli dikdörtgendir.",
           "gorsel": {
@@ -2283,10 +2283,10 @@
           "soru": "Trafikteki DUR levhası gibi üç köşeli levhalar hangi şekildir?",
           "dogruCevap": "Üçgen",
           "secenekler": [
-            "Daire",
             "Üçgen",
             "Kare",
-            "Dikdörtgen"
+            "Dikdörtgen",
+            "Daire"
           ],
           "ipucu": "Uyarı levhaları üçgendir.",
           "gorsel": {
@@ -2320,8 +2320,8 @@
           "dogruCevap": "Üçgen",
           "secenekler": [
             "Çember",
-            "Dikdörtgen",
             "Üçgen",
+            "Dikdörtgen",
             "Kare"
           ],
           "ipucu": "Yapraklar üçgen şeklindedir.",
@@ -2355,9 +2355,9 @@
           "soru": "Resimdeki evde toplam kaç pencere vardır ve hangi şekildir?",
           "dogruCevap": "2 kare",
           "secenekler": [
-            "2 daire",
-            "3 üçgen",
             "1 dikdörtgen",
+            "3 üçgen",
+            "2 daire",
             "2 kare"
           ],
           "ipucu": "İki kare pencere vardır.",
@@ -2373,10 +2373,10 @@
           "soru": "Pizza dilimi hangi şekle benzer?",
           "dogruCevap": "Üçgen",
           "secenekler": [
-            "Dikdörtgen",
             "Üçgen",
-            "Kare",
-            "Çember"
+            "Çember",
+            "Dikdörtgen",
+            "Kare"
           ],
           "ipucu": "Pizza dilimi üçgen şeklindedir.",
           "gorsel": {
@@ -2411,8 +2411,8 @@
           "secenekler": [
             "Boyalı çember",
             "Kare",
-            "Daire",
-            "Çember"
+            "Çember",
+            "Daire"
           ],
           "ipucu": "Kitabımız ne diyordu — çemberin içini boyayınca ne oluşur?",
           "gorsel": {
@@ -2447,8 +2447,8 @@
           "dogruCevap": "Dikdörtgen",
           "secenekler": [
             "Çember",
-            "Üçgen",
             "Daire",
+            "Üçgen",
             "Dikdörtgen"
           ],
           "ipucu": "Kitap kapağı dikdörtgendir.",
@@ -2482,10 +2482,10 @@
           "soru": "Resimdeki kelebek modelinde kaç üçgen vardır?",
           "dogruCevap": "4",
           "secenekler": [
-            "1",
-            "2",
             "3",
-            "4"
+            "4",
+            "2",
+            "1"
           ],
           "ipucu": "Dört üçgen kanat vardır.",
           "gorsel": {
@@ -2500,10 +2500,10 @@
           "soru": "🎭 Madeni para hangi şekle benzer?",
           "dogruCevap": "Daire",
           "secenekler": [
-            "Çember",
             "Daire",
+            "Kare",
             "Küre",
-            "Kare"
+            "Çember"
           ],
           "ipucu": "Paranın içi dolu! Ve dikkat — küre bir CİSİMDİ, şekil değil!",
           "gorsel": {
@@ -2537,9 +2537,9 @@
           "soru": "Hangisi doğru eşleşmedir?",
           "dogruCevap": "Çatı → Üçgen",
           "secenekler": [
-            "Tekerlek → Dikdörtgen",
             "Güneş → Kare",
             "Çatı → Üçgen",
+            "Tekerlek → Dikdörtgen",
             "Kapı → Daire"
           ],
           "ipucu": "Her nesneyi doğru şekle eşleştir.",

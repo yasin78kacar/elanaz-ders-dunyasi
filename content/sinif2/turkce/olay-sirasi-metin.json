@@ -461,9 +461,9 @@
       "soru": "Dişlerini fırçalamadan önce ne yapmıştı?",
       "dogruCevap": "Yüzünü yıkamıştı",
       "secenekler": [
-        "Yüzünü yıkamıştı",
-        "Okula gitmişti",
         "Çantasını hazırlamıştı",
+        "Okula gitmişti",
+        "Yüzünü yıkamıştı",
         "Kahvaltı etmişti"
       ],
       "ipucu": "",
@@ -482,10 +482,10 @@
       "soru": "Kahvaltıdan önceki son işlem hangisidir?",
       "dogruCevap": "Çanta hazırlama",
       "secenekler": [
-        "Oyun oynama",
+        "Okula gitme",
         "Çanta hazırlama",
         "Uyku",
-        "Okula gitme"
+        "Oyun oynama"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -505,8 +505,8 @@
       "secenekler": [
         "Okul → çanta → kahvaltı",
         "Uyandı → yıkadı → fırçaladı → çanta → kahvaltı",
-        "Fırçaladı → uyandı → yıkadı",
-        "Kahvaltı → uyandı → okul"
+        "Kahvaltı → uyandı → okul",
+        "Fırçaladı → uyandı → yıkadı"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -524,10 +524,10 @@
       "soru": "\"Ardından\" kelimesi hangi anlamı verir?",
       "dogruCevap": "Sonraki adımı",
       "secenekler": [
-        "Önceki adımı",
         "Sonraki adımı",
+        "Son olayı",
         "İlk olayı",
-        "Son olayı"
+        "Önceki adımı"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -545,9 +545,9 @@
       "soru": "Pasta yapımında ilk adım hangisidir?",
       "dogruCevap": "Yumurtaları kırmak",
       "secenekler": [
-        "Hamuru dökmek",
         "Fırına koymak",
         "Yumurtaları kırmak",
+        "Hamuru dökmek",
         "Pastayı yemek"
       ],
       "ipucu": "",
@@ -566,10 +566,10 @@
       "soru": "Hamur fırına konmadan önce ne yapıldı?",
       "dogruCevap": "Yağlı kağıda döküldü",
       "secenekler": [
-        "Un karıştırıldı",
+        "Yenildi",
         "Yağlı kağıda döküldü",
         "Yumurta kırıldı",
-        "Yenildi"
+        "Un karıştırıldı"
       ],
       "ipucu": "",
       "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
@@ -587,10 +587,10 @@
       "soru": "Pastanın sofraya gelmesinden hemen önce ne oldu?",
       "dogruCevap": "Fırında pişirildi",
       "secenekler": [
-        "Mutfak temizlendi",
         "Un alındı",
-        "Fırında pişirildi",
-        "Yumurta kırıldı"
+        "Yumurta kırıldı",
+        "Mutfak temizlendi",
+        "Fırında pişirildi"
       ],
       "ipucu": "",
       "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
@@ -609,8 +609,8 @@
       "dogruCevap": "Sandviçler çıkarıldı",
       "secenekler": [
         "Uyku",
-        "Eve dönüldü",
         "Sandviçler çıkarıldı",
+        "Eve dönüldü",
         "Yağmur yağdı"
       ],
       "ipucu": "",
@@ -651,8 +651,8 @@
       "dogruCevap": "Kartını gösterdi",
       "secenekler": [
         "Kartını gösterdi",
-        "Kitap okudu",
         "Eve döndü",
+        "Kitap okudu",
         "Koştu"
       ],
       "ipucu": "",
@@ -671,9 +671,9 @@
       "soru": "Kitabı ödünç almadan önce ne yaptı?",
       "dogruCevap": "Koltuğa oturdu",
       "secenekler": [
-        "Uyudu",
-        "Koştu",
         "Yemek yedi",
+        "Koştu",
+        "Uyudu",
         "Koltuğa oturdu"
       ],
       "ipucu": "",
@@ -692,10 +692,10 @@
       "soru": "Kütüphane metnindeki son olay nedir?",
       "dogruCevap": "Kitabı ödünç alıp eve dönmek",
       "secenekler": [
+        "Kitabı ödünç alıp eve dönmek",
         "Kitap seçmek",
-        "Kart göstermek",
         "Koşmak",
-        "Kitabı ödünç alıp eve dönmek"
+        "Kart göstermek"
       ],
       "ipucu": "",
       "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",
@@ -714,8 +714,8 @@
       "dogruCevap": "Babasının",
       "secenekler": [
         "Öğretmeninin",
-        "Babasının",
         "Kimsenin",
+        "Babasının",
         "Annesinin"
       ],
       "ipucu": "",
@@ -734,10 +734,10 @@
       "soru": "Baba tekerlekleri bıraktıktan sonra ne oldu?",
       "dogruCevap": "Can biraz sallandı ama düşmedi",
       "secenekler": [
+        "Can düştü",
         "Can biraz sallandı ama düşmedi",
-        "Yağmur yağdı",
         "Can bisikleti bıraktı",
-        "Can düştü"
+        "Yağmur yağdı"
       ],
       "ipucu": "",
       "okumaMetni": "Can bisiklet sürmeyi öğreniyordu. İlk olarak babası tekerlekleri tuttu. Sonra yavaşça bıraktı. Can biraz sallandı ama düşmedi. Ardından parkta tek başına tur attı. En son gururla gülümsedi.",
@@ -755,9 +755,9 @@
       "soru": "Bisiklet metnindeki son olay hangisidir?",
       "dogruCevap": "Gururla gülümsemek",
       "secenekler": [
-        "Gururla gülümsemek",
-        "Düşmek",
         "Ağlamak",
+        "Düşmek",
+        "Gururla gülümsemek",
         "Uyumak"
       ],
       "ipucu": "",
@@ -776,10 +776,10 @@
       "soru": "Yağmur günü metninde öğlen ne oldu?",
       "dogruCevap": "Bulutlar toplandı",
       "secenekler": [
-        "Bulutlar toplandı",
         "Gökkuşağı çıktı",
-        "Kar yağdı",
-        "Güneş parladı"
+        "Güneş parladı",
+        "Bulutlar toplandı",
+        "Kar yağdı"
       ],
       "ipucu": "",
       "okumaMetni": "Sabah güneş parlıyordu. Öğlen bulutlar toplandı. Sonra yağmur yağmaya başladı. Çocuklar şemsiyelerini açtı. Akşam yağmur durdu ve gökkuşağı çıktı.",
@@ -797,10 +797,10 @@
       "soru": "Gökkuşağı ne zaman çıktı?",
       "dogruCevap": "Akşam yağmur durunca",
       "secenekler": [
-        "Gece",
         "Sabah",
         "Öğlen",
-        "Akşam yağmur durunca"
+        "Akşam yağmur durunca",
+        "Gece"
       ],
       "ipucu": "",
       "okumaMetni": "Sabah güneş parlıyordu. Öğlen bulutlar toplandı. Sonra yağmur yağmaya başladı. Çocuklar şemsiyelerini açtı. Akşam yağmur durdu ve gökkuşağı çıktı.",
@@ -818,10 +818,10 @@
       "soru": "Olayların oluş sırasını anlamak için hangi soru sorulur?",
       "dogruCevap": "Önce ne oldu, sonra ne oldu?",
       "secenekler": [
+        "Önce ne oldu, sonra ne oldu?",
         "Kim yazdı?",
         "Kaç sayfa?",
-        "Kaç harf var?",
-        "Önce ne oldu, sonra ne oldu?"
+        "Kaç harf var?"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -840,10 +840,10 @@
       "soru": "Metinlerde olaylar genelde nasıl anlatılır?",
       "dogruCevap": "Zaman sırasına göre",
       "secenekler": [
-        "Rastgele",
+        "Alfabetik",
         "Tersten",
         "Zaman sırasına göre",
-        "Alfabetik"
+        "Rastgele"
       ],
       "ipucu": "",
       "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
@@ -861,10 +861,10 @@
       "soru": "\"Sonra\" kelimesi hangi ilişkiyi gösterir?",
       "dogruCevap": "Bir sonraki olayı",
       "secenekler": [
-        "Önceki olayı",
+        "Son olayı",
         "Bir sonraki olayı",
         "İlk olayı",
-        "Son olayı"
+        "Önceki olayı"
       ],
       "ipucu": "",
       "okumaMetni": "Suna annesiyle mutfağa girdi. İlk olarak yumurtaları kırdılar. Sonra un ve şekeri karıştırdılar. Ardından hamuru yağlı kağıda döktüler. Fırına koyup beklediler. En son sıcak pasta sofraya geldi.",
@@ -882,10 +882,10 @@
       "soru": "Hangi cümle olay sırasına uygundur?",
       "dogruCevap": "Önce yıkadı, sonra giyindi",
       "secenekler": [
-        "Sonra önce yıkadı",
+        "Giyindi önce yıkadı sonra",
         "Yıkadı giyindi önce",
-        "Önce yıkadı, sonra giyindi",
-        "Giyindi önce yıkadı sonra"
+        "Sonra önce yıkadı",
+        "Önce yıkadı, sonra giyindi"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -903,10 +903,10 @@
       "soru": "Piknik metninde yağmur başlamadan önce çocuklar ne yaptı?",
       "dogruCevap": "Parkta koştular",
       "secenekler": [
-        "Eve döndüler",
-        "Parkta koştular",
         "Uyudular",
-        "Battaniye topladılar"
+        "Battaniye topladılar",
+        "Parkta koştular",
+        "Eve döndüler"
       ],
       "ipucu": "",
       "okumaMetni": "Aile pikniğe gitti. Önce battaniyeyi serdiler. Sonra sandviçleri çıkardılar. Çocuklar parkta koştular. Akşamüzeri yağmur başlayınca toplanıp eve döndüler.",
@@ -924,10 +924,10 @@
       "soru": "Olay sırasını bozan cümle hangisidir?",
       "dogruCevap": "Sonra önce kahvaltı etti uyandı",
       "secenekler": [
-        "Önce uyandı",
-        "Sonra önce kahvaltı etti uyandı",
         "Sonra kahvaltı etti",
-        "Ardından okula gitti"
+        "Önce uyandı",
+        "Ardından okula gitti",
+        "Sonra önce kahvaltı etti uyandı"
       ],
       "ipucu": "",
       "okumaMetni": "Elanaz sabah uyandı. Önce yüzünü yıkadı. Sonra dişlerini fırçaladı. Ardından okul çantasını hazırladı. En son kahvaltı etti. Annesi kapıda onu karşıladı. Elanaz okula gitti.",
@@ -945,10 +945,10 @@
       "soru": "Bu metinlerin ortak özelliği nedir?",
       "dogruCevap": "Olaylar sırayla anlatılmıştır",
       "secenekler": [
-        "Olaylar sırayla anlatılmıştır",
-        "Hepsi şiirdir",
         "Hiç olay yoktur",
-        "Sadece soru vardır"
+        "Hepsi şiirdir",
+        "Sadece soru vardır",
+        "Olaylar sırayla anlatılmıştır"
       ],
       "ipucu": "",
       "okumaMetni": "Deniz kütüphaneye gitti. Önce kartını gösterdi. Sonra sessizce raftan kitap seçti. Ardından köşedeki koltuğa oturdu. En son kitabını ödünç alıp eve döndü.",

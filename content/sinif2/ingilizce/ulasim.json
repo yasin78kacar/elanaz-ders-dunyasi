@@ -252,9 +252,9 @@
       "soru": "Arabanın İngilizce adı nedir?",
       "dogruCevap": "Car",
       "secenekler": [
-        "Car",
         "Train",
         "Bus",
+        "Car",
         "Plane"
       ],
       "ipucu": "",
@@ -271,10 +271,10 @@
       "soru": "Otobüsün İngilizce adı hangisidir?",
       "dogruCevap": "Bus",
       "secenekler": [
-        "Bus",
-        "Car",
         "Bike",
-        "Ship"
+        "Ship",
+        "Bus",
+        "Car"
       ],
       "ipucu": "",
       "gorsel": {
@@ -291,9 +291,9 @@
       "dogruCevap": "Train",
       "secenekler": [
         "Plane",
+        "Car",
         "Ship",
-        "Train",
-        "Car"
+        "Train"
       ],
       "ipucu": "",
       "gorsel": {
@@ -309,10 +309,10 @@
       "soru": "Uçağın İngilizce adı nedir?",
       "dogruCevap": "Plane",
       "secenekler": [
-        "Plane",
-        "Train",
         "Bus",
-        "Ship"
+        "Train",
+        "Ship",
+        "Plane"
       ],
       "ipucu": "",
       "gorsel": {
@@ -328,10 +328,10 @@
       "soru": "Geminin İngilizce adı hangisidir?",
       "dogruCevap": "Ship",
       "secenekler": [
-        "Bus",
-        "Train",
         "Car",
-        "Ship"
+        "Train",
+        "Ship",
+        "Bus"
       ],
       "ipucu": "",
       "gorsel": {
@@ -347,8 +347,8 @@
       "soru": "Bisikletin İngilizce adı nedir?",
       "dogruCevap": "Bike",
       "secenekler": [
-        "Bike",
         "Train",
+        "Bike",
         "Plane",
         "Bus"
       ],
@@ -366,10 +366,10 @@
       "soru": "Ulaşım kelimesinin İngilizcesi nedir?",
       "dogruCevap": "Transport",
       "secenekler": [
-        "Sport",
-        "Fruit",
+        "Country",
         "Transport",
-        "Country"
+        "Fruit",
+        "Sport"
       ],
       "ipucu": "",
       "gorsel": {
@@ -386,9 +386,9 @@
       "dogruCevap": "School bus",
       "secenekler": [
         "School plane",
-        "School bus",
+        "School car",
         "School train",
-        "School car"
+        "School bus"
       ],
       "ipucu": "",
       "gorsel": {
@@ -404,9 +404,9 @@
       "soru": "Hangi taşıt gökyüzünde uçar?",
       "dogruCevap": "Plane",
       "secenekler": [
-        "Bike",
         "Plane",
         "Ship",
+        "Bike",
         "Train"
       ],
       "ipucu": "",
@@ -424,9 +424,9 @@
       "dogruCevap": "Ship",
       "secenekler": [
         "Ship",
-        "Bus",
         "Car",
-        "Train"
+        "Train",
+        "Bus"
       ],
       "ipucu": "",
       "gorsel": {
@@ -442,10 +442,10 @@
       "soru": "Tren istasyonunun İngilizcesi nedir?",
       "dogruCevap": "Train station",
       "secenekler": [
-        "Harbor",
         "Airport",
-        "Bus stop",
-        "Train station"
+        "Harbor",
+        "Train station",
+        "Bus stop"
       ],
       "ipucu": "",
       "gorsel": {

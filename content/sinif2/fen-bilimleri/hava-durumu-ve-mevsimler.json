@@ -495,10 +495,10 @@
       "soru": "Bir yılda kaç mevsim vardır?",
       "dogruCevap": "4",
       "secenekler": [
+        "5",
         "4",
-        "2",
         "3",
-        "5"
+        "2"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -516,8 +516,8 @@
       "dogruCevap": "Kış",
       "secenekler": [
         "Kış",
-        "Sonbahar",
         "Yaz",
+        "Sonbahar",
         "İlkbahar"
       ],
       "ipucu": "",
@@ -536,8 +536,8 @@
       "dogruCevap": "Şemsiye",
       "secenekler": [
         "Güneş gözlüğü",
-        "Deniz paleti",
         "Şemsiye",
+        "Deniz paleti",
         "İnce tişört"
       ],
       "ipucu": "",
@@ -555,10 +555,10 @@
       "soru": "Çiçeklerin açtığı, havaların ısındığı mevsim hangisidir?",
       "dogruCevap": "İlkbahar",
       "secenekler": [
+        "İlkbahar",
         "Aralık",
         "Sonbahar",
-        "Kış",
-        "İlkbahar"
+        "Kış"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -576,9 +576,9 @@
       "dogruCevap": "Yaz",
       "secenekler": [
         "Yaz",
-        "Kış",
+        "İlkbahar",
         "Sonbahar",
-        "İlkbahar"
+        "Kış"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -595,10 +595,10 @@
       "soru": "Yaprakların döküldüğü mevsim hangisidir?",
       "dogruCevap": "Sonbahar",
       "secenekler": [
-        "İlkbahar",
+        "Kış",
         "Sonbahar",
-        "Yaz",
-        "Kış"
+        "İlkbahar",
+        "Yaz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -615,10 +615,10 @@
       "soru": "Aralık, Ocak ve Şubat hangi mevsimin aylarıdır?",
       "dogruCevap": "Kış",
       "secenekler": [
-        "Yaz",
         "Kış",
+        "İlkbahar",
         "Sonbahar",
-        "İlkbahar"
+        "Yaz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -635,10 +635,10 @@
       "soru": "Kışın hangisini GİYMEMELİYİZ?",
       "dogruCevap": "Şort ve yazlık terlik",
       "secenekler": [
-        "Bere ve eldiven",
-        "Atkı",
         "Şort ve yazlık terlik",
-        "Kalın mont"
+        "Kalın mont",
+        "Bere ve eldiven",
+        "Atkı"
       ],
       "ipucu": "Kışın sıcak tutan kıyafetler giymeliyiz!",
       "kazanim": "FEN.2.3.2",
@@ -657,9 +657,9 @@
       "dogruCevap": "İnce, pamuklu, açık renkli",
       "secenekler": [
         "İnce, pamuklu, açık renkli",
+        "Kat kat kıyafet",
         "Siyah ve kalın mont",
-        "Kalın yünlü kazak",
-        "Kat kat kıyafet"
+        "Kalın yünlü kazak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -676,10 +676,10 @@
       "soru": "Hava durumunda gülen Güneş sembolü görünce hava nasıl?",
       "dogruCevap": "Güneşli",
       "secenekler": [
-        "Yağmurlu",
-        "Rüzgarlı",
+        "Karlı",
         "Güneşli",
-        "Karlı"
+        "Rüzgarlı",
+        "Yağmurlu"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -696,10 +696,10 @@
       "soru": "Ağaç dalları sallanıp yapraklar uçuşuyorsa hava nasıldır?",
       "dogruCevap": "Rüzgarlı",
       "secenekler": [
-        "Karlı",
-        "Sisli",
+        "Güneşli",
         "Rüzgarlı",
-        "Güneşli"
+        "Sisli",
+        "Karlı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -717,8 +717,8 @@
       "dogruCevap": "Havaya uygun kıyafet seçmek",
       "secenekler": [
         "Yemek öğrenmek",
-        "Havaya uygun kıyafet seçmek",
         "Çizgi film öğrenmek",
+        "Havaya uygun kıyafet seçmek",
         "Hiçbir faydası yok"
       ],
       "ipucu": "",
@@ -736,10 +736,10 @@
       "soru": "Güneşli yaz gününde ne kullanmalıyız?",
       "dogruCevap": "Şapka ve güneş gözlüğü",
       "secenekler": [
-        "Kalın atkı",
         "Kar botu",
+        "Kalın eldiven",
         "Şapka ve güneş gözlüğü",
-        "Kalın eldiven"
+        "Kalın atkı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -756,10 +756,10 @@
       "soru": "Rüzgarlı bahar gününde en eğlenceli etkinlik nedir?",
       "dogruCevap": "Uçurtma uçurmak",
       "secenekler": [
-        "Uçurtma uçurmak",
+        "Kardan adam yapmak",
         "Denize girmek",
         "Karda yatmak",
-        "Kardan adam yapmak"
+        "Uçurtma uçurmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -776,10 +776,10 @@
       "soru": "Göz gözü görmeyecek kadar yoğun pus varsa bu hava nedir?",
       "dogruCevap": "Sis",
       "secenekler": [
-        "Kar",
         "Sis",
-        "Yağmur",
-        "Dolu"
+        "Dolu",
+        "Kar",
+        "Yağmur"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -796,9 +796,9 @@
       "soru": "Haziran, Temmuz ve Ağustos hangi mevsimin ayları?",
       "dogruCevap": "Yaz",
       "secenekler": [
+        "Sonbahar",
         "Kış",
         "İlkbahar",
-        "Sonbahar",
         "Yaz"
       ],
       "ipucu": "",
@@ -816,10 +816,10 @@
       "soru": "Yağmur damlalarının buz topları şeklinde düşmesine ne denir?",
       "dogruCevap": "Dolu",
       "secenekler": [
-        "Dolu",
-        "Rüzgar",
         "Güneş",
-        "Sis"
+        "Sis",
+        "Dolu",
+        "Rüzgar"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -837,8 +837,8 @@
       "dogruCevap": "Her yer bembeyaz karla kaplanır",
       "secenekler": [
         "Her yer bembeyaz karla kaplanır",
-        "Kelebekler uçuşur",
         "Ağaçlar çiçek açar",
+        "Kelebekler uçuşur",
         "Havalar ısınır"
       ],
       "ipucu": "Kar kış mevsimine aittir!",
@@ -857,10 +857,10 @@
       "soru": "Gök gürültüsü ve şimşek hangi havada görülür?",
       "dogruCevap": "Fırtınalı ve yağmurlu",
       "secenekler": [
-        "Karlı",
         "Fırtınalı ve yağmurlu",
-        "Sisli",
-        "Güneşli"
+        "Karlı",
+        "Güneşli",
+        "Sisli"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -897,10 +897,10 @@
       "soru": "Hangi eşleştirme yanlıştır?",
       "dogruCevap": "Yaz → Yaprak dökülmesi",
       "secenekler": [
-        "Yaz → Yaprak dökülmesi",
-        "İlkbahar → Çiçekler",
         "Sonbahar → Yağmur",
-        "Kış → Kar"
+        "İlkbahar → Çiçekler",
+        "Kış → Kar",
+        "Yaz → Yaprak dökülmesi"
       ],
       "ipucu": "Yaprak dökülmesi sonbaharda olur!",
       "kazanim": "FEN.2.3.2",
@@ -920,8 +920,8 @@
       "secenekler": [
         "Güneş",
         "Kar erimesi",
-        "Havanın ısınması",
-        "Yağmur"
+        "Yağmur",
+        "Havanın ısınması"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -938,9 +938,9 @@
       "soru": "Kıyafetlerimizi neye göre seçmeliyiz?",
       "dogruCevap": "Hava durumuna",
       "secenekler": [
-        "Modaya",
-        "Oyuncaklarımıza",
         "Hava durumuna",
+        "Oyuncaklarımıza",
+        "Modaya",
         "Sadece sevdiğimiz renge"
       ],
       "ipucu": "",
@@ -959,9 +959,9 @@
       "dogruCevap": "Termometre",
       "secenekler": [
         "Dürbün",
+        "Pusula",
         "Termometre",
-        "Büyüteç",
-        "Pusula"
+        "Büyüteç"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
@@ -979,9 +979,9 @@
       "dogruCevap": "Çok faydalı ve gerekli",
       "secenekler": [
         "Kötü",
-        "Çok faydalı ve gerekli",
+        "Doğaya zararlı",
         "Tehlikeli",
-        "Doğaya zararlı"
+        "Çok faydalı ve gerekli"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.2",
