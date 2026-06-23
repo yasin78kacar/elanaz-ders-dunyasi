@@ -1,0 +1,3687 @@
+{
+  "id": "karma-oruntu",
+  "baslik": "Karma Örüntü",
+  "kazanimKodu": "ZD.2.1.9",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde karma örüntü çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "oruntu-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd9-a1",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "1, 2, 3, 4, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "5",
+      "ipucu": "1er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-a2",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "3, 5, 7, 9, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "11",
+      "ipucu": "2er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd9-a3",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "5, 8, 11, 14, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "17",
+      "ipucu": "3er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd9-a4",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "7, 11, 15, 19, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "23",
+      "ipucu": "4er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd9-a5",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "9, 14, 19, 24, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "29",
+      "ipucu": "5er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd9-a6",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "11, 17, 23, 29, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "35",
+      "ipucu": "6er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd9-a7",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "13, 20, 27, 34, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "41",
+      "ipucu": "7er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd9-a8",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "15, 25, 35, 45, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "55",
+      "ipucu": "10er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "zd9-a9",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "1, 2, 3, 4, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "5",
+      "ipucu": "1er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-a10",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "3, 5, 7, 9, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "11",
+      "ipucu": "2er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd9-a11",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "5, 8, 11, 14, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "17",
+      "ipucu": "3er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd9-a12",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "7, 11, 15, 19, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "23",
+      "ipucu": "4er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd9-a13",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "9, 14, 19, 24, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "29",
+      "ipucu": "5er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd9-a14",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "11, 17, 23, 29, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "35",
+      "ipucu": "6er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd9-a15",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "13, 20, 27, 34, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "41",
+      "ipucu": "7er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd9-a16",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "15, 25, 35, 45, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "55",
+      "ipucu": "10er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "zd9-a17",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "1, 2, 3, 4, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "5",
+      "ipucu": "1er artıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-a18",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a19",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a20",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a21",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a22",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a23",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a24",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a25",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a26",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a27",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a28",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a29",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a30",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a31",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a32",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a33",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a34",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a35",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a36",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a37",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a38",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a39",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a40",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a41",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a42",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a43",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a44",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a45",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a46",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a47",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a48",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a49",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-a50",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd9-t1",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "6",
+        "6",
+        "5"
+      ],
+      "ipucu": "1er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-t2",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "11",
+      "secenekler": [
+        "9",
+        "12",
+        "11",
+        "13"
+      ],
+      "ipucu": "2er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd9-t3",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "20",
+        "14",
+        "18",
+        "17"
+      ],
+      "ipucu": "3er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd9-t4",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "23",
+      "secenekler": [
+        "27",
+        "23",
+        "24",
+        "19"
+      ],
+      "ipucu": "4er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd9-t5",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "29",
+      "secenekler": [
+        "29",
+        "34",
+        "30",
+        "24"
+      ],
+      "ipucu": "5er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd9-t6",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "35",
+      "secenekler": [
+        "35",
+        "29",
+        "41",
+        "36"
+      ],
+      "ipucu": "6er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd9-t7",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "41",
+      "secenekler": [
+        "42",
+        "48",
+        "34",
+        "41"
+      ],
+      "ipucu": "7er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd9-t8",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "55",
+        "65",
+        "56",
+        "45"
+      ],
+      "ipucu": "10er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "zd9-t9",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "5",
+        "4",
+        "6"
+      ],
+      "ipucu": "1er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-t10",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "11",
+      "secenekler": [
+        "13",
+        "9",
+        "12",
+        "11"
+      ],
+      "ipucu": "2er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd9-t11",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "17",
+        "18",
+        "20",
+        "14"
+      ],
+      "ipucu": "3er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd9-t12",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "23",
+      "secenekler": [
+        "27",
+        "19",
+        "24",
+        "23"
+      ],
+      "ipucu": "4er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd9-t13",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "29",
+      "secenekler": [
+        "34",
+        "24",
+        "30",
+        "29"
+      ],
+      "ipucu": "5er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd9-t14",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "35",
+      "secenekler": [
+        "29",
+        "35",
+        "36",
+        "41"
+      ],
+      "ipucu": "6er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd9-t15",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "41",
+      "secenekler": [
+        "34",
+        "41",
+        "48",
+        "42"
+      ],
+      "ipucu": "7er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd9-t16",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "65",
+        "55",
+        "45",
+        "56"
+      ],
+      "ipucu": "10er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "zd9-t17",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "6",
+        "4",
+        "5"
+      ],
+      "ipucu": "1er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd9-t18",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t19",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t20",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t21",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t22",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t23",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t24",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t25",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t26",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t27",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t28",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t29",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t30",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t31",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t32",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t33",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t34",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t35",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Kırmızı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t36",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Sarı",
+        "Mavi",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t37",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t38",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t39",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Sarı",
+        "Yeşil",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t40",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t41",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t42",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Kırmızı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t43",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t44",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t45",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t46",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t47",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Mavi",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t48",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t49",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Kırmızı",
+        "Sarı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd9-t50",
+      "kazanimKodu": "ZD.2.1.9",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ]
+}

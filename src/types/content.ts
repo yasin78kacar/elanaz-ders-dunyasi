@@ -315,6 +315,8 @@ export interface HikayeSayfa {
 export interface Hikaye {
   id: string;
   baslik: string;
+  /** Okuma Köşesi — 1: başlangıç, 2: orta, 3: ileri */
+  seviye?: 1 | 2 | 3;
   sayfalar: HikayeSayfa[];
   sorular: Soru[];
 }

@@ -1,0 +1,1787 @@
+{
+  "id": "sayma-sorulari",
+  "baslik": "Sayma Soruları",
+  "kazanimKodu": "ZD.2.1.7",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde sayma soruları çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd7-a1",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a2",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a3",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a4",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a5",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a6",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a7",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a8",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a9",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a10",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a11",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a12",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a13",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a14",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a15",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a16",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a17",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a18",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a19",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a20",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a21",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a22",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a23",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a24",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a25",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a26",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a27",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a28",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a29",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a30",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a31",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a32",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a33",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a34",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a35",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a36",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a37",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a38",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a39",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a40",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a41",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a42",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a43",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a44",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç yıldız var?",
+      "dogruCevap": "4",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-a45",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç top var?",
+      "dogruCevap": "6",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-a46",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kuş var?",
+      "dogruCevap": "3",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-a47",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç çiçek var?",
+      "dogruCevap": "7",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-a48",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kalem var?",
+      "dogruCevap": "8",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-a49",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç kelebek var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-a50",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "yazili",
+      "soru": "Resimde kaç elma var?",
+      "dogruCevap": "5",
+      "ipucu": "Her birini tek tek say.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd7-t1",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t2",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "5",
+        "6",
+        "4",
+        "3"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t3",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t4",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "2",
+        "5",
+        "3",
+        "4"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t5",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "6",
+        "9",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t6",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "8",
+        "7",
+        "9",
+        "10"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t7",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "5",
+        "7",
+        "4"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t8",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "7",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t9",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "5",
+        "4",
+        "6",
+        "3"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t10",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t11",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t12",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "8",
+        "6",
+        "7",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t13",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "8",
+        "7",
+        "10",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t14",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t15",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "7",
+        "5",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t16",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "4",
+        "3",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t17",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "8",
+        "6",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t18",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "4",
+        "5",
+        "2",
+        "3"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t19",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "7",
+        "8",
+        "6",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t20",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "7",
+        "8",
+        "10",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t21",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "5",
+        "7",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t22",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t23",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t24",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t25",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t26",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "8",
+        "6",
+        "9",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t27",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "10",
+        "8",
+        "7",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t28",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "7",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t29",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t30",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "5",
+        "6",
+        "3",
+        "4"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t31",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "5",
+        "6",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t32",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t33",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t34",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "7",
+        "9",
+        "8",
+        "10"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t35",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t36",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "5",
+        "7",
+        "4",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t37",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t38",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "6",
+        "7",
+        "5",
+        "8"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t39",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "3",
+        "5",
+        "4",
+        "2"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t40",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "7",
+        "9",
+        "8",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t41",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t42",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t43",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t44",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t45",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "6",
+        "8",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t46",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "5",
+        "3",
+        "4",
+        "2"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t47",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "9",
+        "7",
+        "6",
+        "8"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t48",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "10",
+        "9",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t49",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "4",
+        "7",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t50",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "7",
+        "6",
+        "4",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    }
+  ]
+}

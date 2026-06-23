@@ -1,0 +1,3687 @@
+{
+  "id": "renk-oruntuleri",
+  "baslik": "Renk Örüntüleri",
+  "kazanimKodu": "ZD.2.1.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde renk örüntüleri çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "oruntu-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd4-a1",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a2",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a3",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a4",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a5",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a6",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a7",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a8",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a9",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a10",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a11",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a12",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a13",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a14",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a15",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a16",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a17",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a18",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a19",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a20",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a21",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a22",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a23",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a24",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a25",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a26",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a27",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a28",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a29",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a30",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a31",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a32",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a33",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a34",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a35",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a36",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a37",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a38",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a39",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a40",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a41",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a42",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a43",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a44",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a45",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a46",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Kırmızı, Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a47",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mavi, Sarı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mavi",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a48",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Yeşil, Mavi, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a49",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Sarı, Kırmızı, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "sarı",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-a50",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "yazili",
+      "soru": "Mor, Turuncu, ? örüntüsünde eksik renk ......... dir.",
+      "dogruCevap": "mor",
+      "ipucu": "Renk tekrarına bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd4-t1",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t2",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Sarı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t3",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Mavi",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t4",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t5",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Yeşil",
+        "Kırmızı",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t6",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t7",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t8",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t9",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Sarı",
+        "Yeşil",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t10",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Kırmızı",
+        "Mavi",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t11",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t12",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Kırmızı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t13",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t14",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Kırmızı",
+        "Mavi",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t15",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Yeşil",
+        "Kırmızı",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t16",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t17",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Yeşil",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t18",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t19",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t20",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Yeşil",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t21",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t22",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Kırmızı",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t23",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t24",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t25",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Yeşil",
+        "Kırmızı",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t26",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Kırmızı",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t27",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Yeşil",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t28",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Yeşil",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t29",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t30",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t31",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t32",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t33",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t34",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Sarı",
+        "Yeşil",
+        "Kırmızı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t35",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t36",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Mavi",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t37",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Yeşil",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t38",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Yeşil",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t39",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Yeşil",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t40",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t41",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t42",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Sarı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t43",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Yeşil",
+        "Mavi",
+        "Sarı",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t44",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Kırmızı",
+        "Mavi",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t45",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t46",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Yeşil",
+        "Kırmızı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t47",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Kırmızı",
+        "Sarı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t48",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Yesil",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Kırmızı",
+        "Yeşil"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "renk",
+            "deger": "yesil"
+          },
+          {
+            "tip": "renk",
+            "deger": "mavi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t49",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Sari",
+      "secenekler": [
+        "Kırmızı",
+        "Yeşil",
+        "Mavi",
+        "Sarı"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "renk",
+            "deger": "sari"
+          },
+          {
+            "tip": "renk",
+            "deger": "kirmizi"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd4-t50",
+      "kazanimKodu": "ZD.2.1.4",
+      "tip": "coktanSecmeli",
+      "soru": "Örüntüde eksik renk hangisidir?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Kırmızı",
+        "Yeşil",
+        "Sarı",
+        "Mavi"
+      ],
+      "ipucu": "Renk tekrarına bak.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "renk",
+            "deger": "mor"
+          },
+          {
+            "tip": "renk",
+            "deger": "turuncu"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ]
+}

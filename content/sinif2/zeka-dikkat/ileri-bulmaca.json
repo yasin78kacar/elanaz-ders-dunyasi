@@ -1,0 +1,3687 @@
+{
+  "id": "ileri-bulmaca",
+  "baslik": "İleri Zeka Bulmacaları",
+  "kazanimKodu": "ZD.2.1.10",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde i̇leri zeka bulmacaları çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd10-a1",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a2",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a3",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a4",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a5",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a6",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a7",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a8",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a9",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a10",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a11",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a12",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a13",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a14",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a15",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a16",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a17",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a18",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a19",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a20",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a21",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a22",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a23",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a24",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a25",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a26",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a27",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a28",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a29",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a30",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a31",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a32",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a33",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a34",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a35",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a36",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a37",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a38",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a39",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a40",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a41",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a42",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a43",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a44",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a45",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a46",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a47",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a48",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a49",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-a50",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "yazili",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı ......... dir.",
+      "dogruCevap": "32",
+      "ipucu": "İki katına çıkıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd10-t1",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "28",
+        "24",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t2",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "36",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t3",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "32",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t4",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "32",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t5",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "28",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t6",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "36",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t7",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "28",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t8",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "32",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t9",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "36",
+        "24",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t10",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "36",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t11",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "36",
+        "28",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t12",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "36",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t13",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "32",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t14",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "28",
+        "24",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t15",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "36",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t16",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "36",
+        "28",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t17",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "28",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t18",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "36",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t19",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "28",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t20",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "24",
+        "36",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t21",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "32",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t22",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "32",
+        "24",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t23",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "36",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t24",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "28",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t25",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "28",
+        "36",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t26",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "28",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t27",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "24",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t28",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "28",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t29",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "24",
+        "28",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t30",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "28",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t31",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "28",
+        "36",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t32",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "24",
+        "28",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t33",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "32",
+        "24",
+        "28",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t34",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "36",
+        "32",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t35",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "36",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t36",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t37",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t38",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "32",
+        "28",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t39",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "24",
+        "32",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t40",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "32",
+        "28",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t41",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "32",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t42",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t43",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t44",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "24",
+        "32"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t45",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "36",
+        "32",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t46",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "24",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t47",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "36",
+        "32",
+        "24",
+        "28"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t48",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "24",
+        "28",
+        "32",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t49",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "32",
+        "36",
+        "24"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    },
+    {
+      "id": "zd10-t50",
+      "kazanimKodu": "ZD.2.1.10",
+      "tip": "coktanSecmeli",
+      "soru": "2, 4, 8, 16, ? örüntüsünde son sayı hangisidir?",
+      "dogruCevap": "32",
+      "secenekler": [
+        "28",
+        "24",
+        "32",
+        "36"
+      ],
+      "ipucu": "İki katına çıkıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 16
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "×2"
+      }
+    }
+  ]
+}

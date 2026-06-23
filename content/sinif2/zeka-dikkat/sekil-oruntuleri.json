@@ -1,0 +1,3687 @@
+{
+  "id": "sekil-oruntuleri",
+  "baslik": "Şekil Örüntüleri",
+  "kazanimKodu": "ZD.2.1.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde şekil örüntüleri çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "oruntu-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd3-a1",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a2",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a3",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a4",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a5",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a6",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a7",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a8",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a9",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a10",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a11",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a12",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a13",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a14",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a15",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a16",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a17",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a18",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a19",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a20",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a21",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a22",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a23",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a24",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a25",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a26",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a27",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a28",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a29",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a30",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a31",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a32",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a33",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a34",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a35",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a36",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a37",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a38",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a39",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a40",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a41",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a42",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a43",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a44",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a45",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a46",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a47",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a48",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a49",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-a50",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "yazili",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Tekrara dikkat et.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd3-t1",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t2",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t3",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t4",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t5",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t6",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t7",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t8",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t9",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t10",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t11",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t12",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t13",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t14",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t15",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t16",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t17",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t18",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t19",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t20",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t21",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t22",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t23",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t24",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t25",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t26",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t27",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t28",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t29",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t30",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t31",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t32",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t33",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t34",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t35",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t36",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t37",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t38",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t39",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t40",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t41",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t42",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t43",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t44",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t45",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t46",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t47",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t48",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "ucgen, daire, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t49",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "kare, kare, ucgen, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "ucgen"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    },
+    {
+      "id": "zd3-t50",
+      "kazanimKodu": "ZD.2.1.3",
+      "tip": "coktanSecmeli",
+      "soru": "daire, daire, kare, ? örüntüsünde eksik şekil hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Tekrara dikkat et.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "sekil",
+            "deger": "kare"
+          },
+          {
+            "tip": "sekil",
+            "deger": "daire"
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "→"
+      }
+    }
+  ]
+}

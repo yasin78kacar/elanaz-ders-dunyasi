@@ -1,0 +1,161 @@
+/** Otomatik üretildi — scripts/generate-content.mjs */
+import type { Konu, Hikaye } from '../types/content';
+import gs_renk_teorisi from '../../content/sinif2/gorsel-sanatlar/renk-teorisi.json';
+import gs_sanat_malzemeleri from '../../content/sinif2/gorsel-sanatlar/sanat-malzemeleri.json';
+import gs_turk_sanatlari from '../../content/sinif2/gorsel-sanatlar/turk-sanatlari.json';
+import gs_resim_teknikleri from '../../content/sinif2/gorsel-sanatlar/resim-teknikleri.json';
+import gs_form_ve_cizgi from '../../content/sinif2/gorsel-sanatlar/form-ve-cizgi.json';
+import gs_kompozisyon from '../../content/sinif2/gorsel-sanatlar/kompozisyon.json';
+import gs_el_sanatlari from '../../content/sinif2/gorsel-sanatlar/el-sanatlari.json';
+import gs_baski_sanatlari from '../../content/sinif2/gorsel-sanatlar/baski-sanatlari.json';
+import gs_resim_turleri from '../../content/sinif2/gorsel-sanatlar/resim-turleri.json';
+import gs_sanat_etigi from '../../content/sinif2/gorsel-sanatlar/sanat-etigi.json';
+import zd_sayi_oruntuleri_artan from '../../content/sinif2/zeka-dikkat/sayi-oruntuleri-artan.json';
+import zd_sayi_oruntuleri_azalan from '../../content/sinif2/zeka-dikkat/sayi-oruntuleri-azalan.json';
+import zd_sekil_oruntuleri from '../../content/sinif2/zeka-dikkat/sekil-oruntuleri.json';
+import zd_renk_oruntuleri from '../../content/sinif2/zeka-dikkat/renk-oruntuleri.json';
+import zd_farkli_sekil from '../../content/sinif2/zeka-dikkat/farkli-sekil.json';
+import zd_farkli_renk_sayi from '../../content/sinif2/zeka-dikkat/farkli-renk-sayi.json';
+import zd_sayma_sorulari from '../../content/sinif2/zeka-dikkat/sayma-sorulari.json';
+import zd_dikkat_sorulari from '../../content/sinif2/zeka-dikkat/dikkat-sorulari.json';
+import zd_karma_oruntu from '../../content/sinif2/zeka-dikkat/karma-oruntu.json';
+import zd_ileri_bulmaca from '../../content/sinif2/zeka-dikkat/ileri-bulmaca.json';
+import hikaye_elanaz_kayip_boya_kalemi from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
+import hikaye_elanaz_sinif_bahcesi_tohum from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
+import hikaye_elanaz_yagmurlu_piknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
+import hikaye_elanaz_kutuphane_gunu from '../../content/sinif2/okuma-kosesi/elanaz-kutuphane-gunu.json';
+import hikaye_elanaz_bisiklet_ogreniyor from '../../content/sinif2/okuma-kosesi/elanaz-bisiklet-ogreniyor.json';
+import hikaye_elanaz_hikaye_06_kayıp_anahtar from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-06-kayıp-anahtar.json';
+import hikaye_elanaz_hikaye_07_yeni_arkadaş from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-07-yeni-arkadaş.json';
+import hikaye_elanaz_hikaye_08_sınıf_görevlisi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-08-sınıf-görevlisi.json';
+import hikaye_elanaz_hikaye_09_doğum_günü_sürprizi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-09-doğum-günü-sürprizi.json';
+import hikaye_elanaz_hikaye_10_korkulan_köpek from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-10-korkulan-köpek.json';
+import hikaye_elanaz_hikaye_11_i_lk_diş from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-11-i-lk-diş.json';
+import hikaye_elanaz_hikaye_12_pazar_alışverişi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-12-pazar-alışverişi.json';
+import hikaye_elanaz_hikaye_13_kış_manzarası from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-13-kış-manzarası.json';
+import hikaye_elanaz_hikaye_14_resim_yarışması from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-14-resim-yarışması.json';
+import hikaye_elanaz_hikaye_15_kayıp_çorap from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-15-kayıp-çorap.json';
+import hikaye_elanaz_hikaye_16_büyükanne_ziyareti from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-16-büyükanne-ziyareti.json';
+import hikaye_elanaz_hikaye_17_i_lk_yardım from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-17-i-lk-yardım.json';
+import hikaye_elanaz_hikaye_18_sessiz_kütüphane from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-18-sessiz-kütüphane.json';
+import hikaye_elanaz_hikaye_19_park_macerası from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-19-park-macerası.json';
+import hikaye_elanaz_hikaye_20_yeni_kardeş from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-20-yeni-kardeş.json';
+import hikaye_elanaz_hikaye_21_futbol_maçı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-21-futbol-maçı.json';
+import hikaye_elanaz_hikaye_22_balık_tutma from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-22-balık-tutma.json';
+import hikaye_elanaz_hikaye_23_kamp_gezisi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-23-kamp-gezisi.json';
+import hikaye_elanaz_hikaye_24_müze_gezisi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-24-müze-gezisi.json';
+import hikaye_elanaz_hikaye_25_yarış_atleti from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-25-yarış-atleti.json';
+import hikaye_elanaz_hikaye_26_sihirli_kalem from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-26-sihirli-kalem.json';
+import hikaye_elanaz_hikaye_27_kedi_dostu from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-27-kedi-dostu.json';
+import hikaye_elanaz_hikaye_28_kar_yağışı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-28-kar-yağışı.json';
+import hikaye_elanaz_hikaye_29_okul_tiyatrosu from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-29-okul-tiyatrosu.json';
+import hikaye_elanaz_hikaye_30_deniz_kenarı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-30-deniz-kenarı.json';
+import hikaye_elanaz_hikaye_31_yardım_kampanyası from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-31-yardım-kampanyası.json';
+import hikaye_elanaz_hikaye_32_zaman_makinesi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-32-zaman-makinesi.json';
+import hikaye_elanaz_hikaye_33_gizli_hazine from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-33-gizli-hazine.json';
+import hikaye_elanaz_hikaye_34_uzay_yolculuğu from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-34-uzay-yolculuğu.json';
+import hikaye_elanaz_hikaye_35_orman_yangını from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-35-orman-yangını.json';
+import hikaye_elanaz_hikaye_36_köy_ziyareti from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-36-köy-ziyareti.json';
+import hikaye_elanaz_hikaye_37_robot_arkadaş from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-37-robot-arkadaş.json';
+import hikaye_elanaz_hikaye_38_göl_kenarı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-38-göl-kenarı.json';
+import hikaye_elanaz_hikaye_39_büyük_proje from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-39-büyük-proje.json';
+import hikaye_elanaz_hikaye_40_sihirli_orman from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-40-sihirli-orman.json';
+import hikaye_elanaz_hikaye_41_zaman_yolculuğu from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-41-zaman-yolculuğu.json';
+import hikaye_elanaz_hikaye_42_denizaltı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-42-denizaltı.json';
+import hikaye_elanaz_hikaye_43_dağ_tırmanışı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-43-dağ-tırmanışı.json';
+import hikaye_elanaz_hikaye_44_gizemli_ada from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-44-gizemli-ada.json';
+import hikaye_elanaz_hikaye_45_bilim_fuarı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-45-bilim-fuarı.json';
+import hikaye_elanaz_hikaye_46_kış_sporları from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-46-kış-sporları.json';
+import hikaye_elanaz_hikaye_47_yıldız_gözlemi from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-47-yıldız-gözlemi.json';
+import hikaye_elanaz_hikaye_48_el_sanatları from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-48-el-sanatları.json';
+import hikaye_elanaz_hikaye_49_çevre_gönüllüsü from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-49-çevre-gönüllüsü.json';
+import hikaye_elanaz_hikaye_50_kitap_yazarı from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-50-kitap-yazarı.json';
+import hikaye_elanaz_hikaye_51_müzik_grubu from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-51-müzik-grubu.json';
+import hikaye_elanaz_hikaye_52_arkeoloji from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-52-arkeoloji.json';
+import hikaye_elanaz_hikaye_53_geleceğin_şehri from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-53-geleceğin-şehri.json';
+import hikaye_elanaz_hikaye_54_büyük_keşif from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-54-büyük-keşif.json';
+import hikaye_elanaz_hikaye_55_son_macera from '../../content/sinif2/okuma-kosesi/elanaz-hikaye-55-son-macera.json';
+
+export const gorselSanatlarKonuDosyalari: Record<string, Konu> = {
+  'gorsel-sanatlar/renk-teorisi.json': gs_renk_teorisi as Konu,
+  'gorsel-sanatlar/sanat-malzemeleri.json': gs_sanat_malzemeleri as Konu,
+  'gorsel-sanatlar/turk-sanatlari.json': gs_turk_sanatlari as Konu,
+  'gorsel-sanatlar/resim-teknikleri.json': gs_resim_teknikleri as Konu,
+  'gorsel-sanatlar/form-ve-cizgi.json': gs_form_ve_cizgi as Konu,
+  'gorsel-sanatlar/kompozisyon.json': gs_kompozisyon as Konu,
+  'gorsel-sanatlar/el-sanatlari.json': gs_el_sanatlari as Konu,
+  'gorsel-sanatlar/baski-sanatlari.json': gs_baski_sanatlari as Konu,
+  'gorsel-sanatlar/resim-turleri.json': gs_resim_turleri as Konu,
+  'gorsel-sanatlar/sanat-etigi.json': gs_sanat_etigi as Konu,
+};
+
+export const zekaDikkatKonuDosyalari: Record<string, Konu> = {
+  'zeka-dikkat/sayi-oruntuleri-artan.json': zd_sayi_oruntuleri_artan as Konu,
+  'zeka-dikkat/sayi-oruntuleri-azalan.json': zd_sayi_oruntuleri_azalan as Konu,
+  'zeka-dikkat/sekil-oruntuleri.json': zd_sekil_oruntuleri as Konu,
+  'zeka-dikkat/renk-oruntuleri.json': zd_renk_oruntuleri as Konu,
+  'zeka-dikkat/farkli-sekil.json': zd_farkli_sekil as Konu,
+  'zeka-dikkat/farkli-renk-sayi.json': zd_farkli_renk_sayi as Konu,
+  'zeka-dikkat/sayma-sorulari.json': zd_sayma_sorulari as Konu,
+  'zeka-dikkat/dikkat-sorulari.json': zd_dikkat_sorulari as Konu,
+  'zeka-dikkat/karma-oruntu.json': zd_karma_oruntu as Konu,
+  'zeka-dikkat/ileri-bulmaca.json': zd_ileri_bulmaca as Konu,
+};
+
+export const okumaKosesiHikayeDosyalari: Record<string, Hikaye> = {
+  'okuma-kosesi/elanaz-kayip-boya-kalemi.json': hikaye_elanaz_kayip_boya_kalemi as Hikaye,
+  'okuma-kosesi/elanaz-sinif-bahcesi-tohum.json': hikaye_elanaz_sinif_bahcesi_tohum as Hikaye,
+  'okuma-kosesi/elanaz-yagmurlu-piknik.json': hikaye_elanaz_yagmurlu_piknik as Hikaye,
+  'okuma-kosesi/elanaz-kutuphane-gunu.json': hikaye_elanaz_kutuphane_gunu as Hikaye,
+  'okuma-kosesi/elanaz-bisiklet-ogreniyor.json': hikaye_elanaz_bisiklet_ogreniyor as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-06-kayıp-anahtar.json': hikaye_elanaz_hikaye_06_kayıp_anahtar as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-07-yeni-arkadaş.json': hikaye_elanaz_hikaye_07_yeni_arkadaş as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-08-sınıf-görevlisi.json': hikaye_elanaz_hikaye_08_sınıf_görevlisi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-09-doğum-günü-sürprizi.json': hikaye_elanaz_hikaye_09_doğum_günü_sürprizi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-10-korkulan-köpek.json': hikaye_elanaz_hikaye_10_korkulan_köpek as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-11-i-lk-diş.json': hikaye_elanaz_hikaye_11_i_lk_diş as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-12-pazar-alışverişi.json': hikaye_elanaz_hikaye_12_pazar_alışverişi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-13-kış-manzarası.json': hikaye_elanaz_hikaye_13_kış_manzarası as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-14-resim-yarışması.json': hikaye_elanaz_hikaye_14_resim_yarışması as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-15-kayıp-çorap.json': hikaye_elanaz_hikaye_15_kayıp_çorap as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-16-büyükanne-ziyareti.json': hikaye_elanaz_hikaye_16_büyükanne_ziyareti as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-17-i-lk-yardım.json': hikaye_elanaz_hikaye_17_i_lk_yardım as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-18-sessiz-kütüphane.json': hikaye_elanaz_hikaye_18_sessiz_kütüphane as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-19-park-macerası.json': hikaye_elanaz_hikaye_19_park_macerası as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-20-yeni-kardeş.json': hikaye_elanaz_hikaye_20_yeni_kardeş as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-21-futbol-maçı.json': hikaye_elanaz_hikaye_21_futbol_maçı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-22-balık-tutma.json': hikaye_elanaz_hikaye_22_balık_tutma as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-23-kamp-gezisi.json': hikaye_elanaz_hikaye_23_kamp_gezisi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-24-müze-gezisi.json': hikaye_elanaz_hikaye_24_müze_gezisi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-25-yarış-atleti.json': hikaye_elanaz_hikaye_25_yarış_atleti as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-26-sihirli-kalem.json': hikaye_elanaz_hikaye_26_sihirli_kalem as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-27-kedi-dostu.json': hikaye_elanaz_hikaye_27_kedi_dostu as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-28-kar-yağışı.json': hikaye_elanaz_hikaye_28_kar_yağışı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-29-okul-tiyatrosu.json': hikaye_elanaz_hikaye_29_okul_tiyatrosu as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-30-deniz-kenarı.json': hikaye_elanaz_hikaye_30_deniz_kenarı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-31-yardım-kampanyası.json': hikaye_elanaz_hikaye_31_yardım_kampanyası as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-32-zaman-makinesi.json': hikaye_elanaz_hikaye_32_zaman_makinesi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-33-gizli-hazine.json': hikaye_elanaz_hikaye_33_gizli_hazine as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-34-uzay-yolculuğu.json': hikaye_elanaz_hikaye_34_uzay_yolculuğu as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-35-orman-yangını.json': hikaye_elanaz_hikaye_35_orman_yangını as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-36-köy-ziyareti.json': hikaye_elanaz_hikaye_36_köy_ziyareti as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-37-robot-arkadaş.json': hikaye_elanaz_hikaye_37_robot_arkadaş as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-38-göl-kenarı.json': hikaye_elanaz_hikaye_38_göl_kenarı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-39-büyük-proje.json': hikaye_elanaz_hikaye_39_büyük_proje as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-40-sihirli-orman.json': hikaye_elanaz_hikaye_40_sihirli_orman as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-41-zaman-yolculuğu.json': hikaye_elanaz_hikaye_41_zaman_yolculuğu as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-42-denizaltı.json': hikaye_elanaz_hikaye_42_denizaltı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-43-dağ-tırmanışı.json': hikaye_elanaz_hikaye_43_dağ_tırmanışı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-44-gizemli-ada.json': hikaye_elanaz_hikaye_44_gizemli_ada as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-45-bilim-fuarı.json': hikaye_elanaz_hikaye_45_bilim_fuarı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-46-kış-sporları.json': hikaye_elanaz_hikaye_46_kış_sporları as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-47-yıldız-gözlemi.json': hikaye_elanaz_hikaye_47_yıldız_gözlemi as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-48-el-sanatları.json': hikaye_elanaz_hikaye_48_el_sanatları as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-49-çevre-gönüllüsü.json': hikaye_elanaz_hikaye_49_çevre_gönüllüsü as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-50-kitap-yazarı.json': hikaye_elanaz_hikaye_50_kitap_yazarı as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-51-müzik-grubu.json': hikaye_elanaz_hikaye_51_müzik_grubu as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-52-arkeoloji.json': hikaye_elanaz_hikaye_52_arkeoloji as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-53-geleceğin-şehri.json': hikaye_elanaz_hikaye_53_geleceğin_şehri as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-54-büyük-keşif.json': hikaye_elanaz_hikaye_54_büyük_keşif as Hikaye,
+  'okuma-kosesi/elanaz-hikaye-55-son-macera.json': hikaye_elanaz_hikaye_55_son_macera as Hikaye,
+};

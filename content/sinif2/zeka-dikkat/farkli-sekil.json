@@ -1,0 +1,2387 @@
+{
+  "id": "farkli-sekil",
+  "baslik": "Farklı Olanı Bulma — Şekil",
+  "kazanimKodu": "ZD.2.1.5",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde farklı olanı bulma — şekil çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd5-a1",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a2",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a3",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a4",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a5",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a6",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a7",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a8",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a9",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a10",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a11",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a12",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a13",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a14",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a15",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a16",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a17",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a18",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a19",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a20",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a21",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a22",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a23",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a24",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a25",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a26",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a27",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a28",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a29",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a30",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a31",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a32",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a33",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a34",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a35",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a36",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a37",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a38",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a39",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a40",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a41",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a42",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a43",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a44",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a45",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a46",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a47",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a48",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "kare",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a49",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "daire",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-a50",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "yazili",
+      "soru": "Aşağıdaki dizide farklı olan şekil ......... dir.",
+      "dogruCevap": "üçgen",
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd5-t1",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t2",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t3",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t4",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t5",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t6",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t7",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t8",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t9",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t10",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t11",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t12",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t13",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t14",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t15",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t16",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t17",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t18",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t19",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t20",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t21",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t22",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t23",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t24",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t25",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t26",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Yıldız",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t27",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t28",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t29",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t30",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t31",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Yıldız",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t32",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Üçgen",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t33",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t34",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t35",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Daire",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t36",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t37",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Daire",
+        "Üçgen",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t38",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t39",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Yıldız",
+        "Kare"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t40",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t41",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Kare",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t42",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Daire",
+        "Kare",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t43",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Yıldız",
+        "Üçgen",
+        "Kare",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t44",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Yıldız",
+        "Üçgen",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t45",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Daire",
+        "Üçgen",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t46",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Yıldız",
+        "Daire"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t47",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Üçgen",
+        "Daire",
+        "Kare",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t48",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Kare",
+      "secenekler": [
+        "Yıldız",
+        "Kare",
+        "Daire",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "ucgen",
+          "ucgen",
+          "kare",
+          "ucgen",
+          "ucgen"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t49",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Daire",
+      "secenekler": [
+        "Daire",
+        "Kare",
+        "Yıldız",
+        "Üçgen"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "kare",
+          "kare",
+          "daire",
+          "kare",
+          "kare"
+        ],
+        "farkliIndeks": 2
+      }
+    },
+    {
+      "id": "zd5-t50",
+      "kazanimKodu": "ZD.2.1.5",
+      "tip": "coktanSecmeli",
+      "soru": "Aşağıdaki dizide farklı olan hangisidir?",
+      "dogruCevap": "Üçgen",
+      "secenekler": [
+        "Kare",
+        "Üçgen",
+        "Daire",
+        "Yıldız"
+      ],
+      "ipucu": "Diğerlerine dikkatle bak.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "farkli",
+        "ogeler": [
+          "daire",
+          "daire",
+          "ucgen",
+          "daire",
+          "daire"
+        ],
+        "farkliIndeks": 2
+      }
+    }
+  ]
+}

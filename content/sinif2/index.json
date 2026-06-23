@@ -433,12 +433,6 @@
             "ingilizce/sayilar-11-20.json"
           ]
         }
-      ],
-      "sesliHikayeDosyalari": [
-        "ingilizce/sesli-hikayeler.json"
-      ],
-      "okumaKitapDosyalari": [
-        "ingilizce/okuma-kitaplari.json"
       ]
     },
     {
@@ -447,9 +441,72 @@
       "unite": [
         {
           "id": "tema-1",
-          "baslik": "Görsel Sanatlar",
+          "baslik": "Görsel Sanatlar — Tema 1 — Renk Teorisi",
           "konuDosyalari": [
-            "gorsel-sanatlar/gorsel-sanatlar.json"
+            "gorsel-sanatlar/renk-teorisi.json"
+          ]
+        },
+        {
+          "id": "tema-2",
+          "baslik": "Görsel Sanatlar — Tema 2 — Sanat Malzemeleri",
+          "konuDosyalari": [
+            "gorsel-sanatlar/sanat-malzemeleri.json"
+          ]
+        },
+        {
+          "id": "tema-3",
+          "baslik": "Görsel Sanatlar — Tema 3 — Türk Sanatları",
+          "konuDosyalari": [
+            "gorsel-sanatlar/turk-sanatlari.json"
+          ]
+        },
+        {
+          "id": "tema-4",
+          "baslik": "Görsel Sanatlar — Tema 4 — Resim Teknikleri",
+          "konuDosyalari": [
+            "gorsel-sanatlar/resim-teknikleri.json"
+          ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Görsel Sanatlar — Tema 5 — Form ve Çizgi",
+          "konuDosyalari": [
+            "gorsel-sanatlar/form-ve-cizgi.json"
+          ]
+        },
+        {
+          "id": "tema-6",
+          "baslik": "Görsel Sanatlar — Tema 6 — Kompozisyon ve Derinlik",
+          "konuDosyalari": [
+            "gorsel-sanatlar/kompozisyon.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Görsel Sanatlar — Tema 7 — El Sanatları",
+          "konuDosyalari": [
+            "gorsel-sanatlar/el-sanatlari.json"
+          ]
+        },
+        {
+          "id": "tema-8",
+          "baslik": "Görsel Sanatlar — Tema 8 — Baskı Sanatları",
+          "konuDosyalari": [
+            "gorsel-sanatlar/baski-sanatlari.json"
+          ]
+        },
+        {
+          "id": "tema-9",
+          "baslik": "Görsel Sanatlar — Tema 9 — Resim Türleri",
+          "konuDosyalari": [
+            "gorsel-sanatlar/resim-turleri.json"
+          ]
+        },
+        {
+          "id": "tema-10",
+          "baslik": "Görsel Sanatlar — Tema 10 — Sanat Etiği ve Sergi",
+          "konuDosyalari": [
+            "gorsel-sanatlar/sanat-etigi.json"
           ]
         }
       ]
@@ -457,13 +514,137 @@
     {
       "id": "okuma-kosesi",
       "baslik": "Okuma Köşesi",
-      "unite": [],
+      "unite": [
+        {
+          "id": "seviye-1",
+          "baslik": "Seviye 1 — Başlangıç",
+          "hikayeDosyalari": [
+            "okuma-kosesi/elanaz-kayip-boya-kalemi.json",
+            "okuma-kosesi/elanaz-sinif-bahcesi-tohum.json",
+            "okuma-kosesi/elanaz-hikaye-06-kayıp-anahtar.json",
+            "okuma-kosesi/elanaz-hikaye-07-yeni-arkadaş.json",
+            "okuma-kosesi/elanaz-hikaye-08-sınıf-görevlisi.json",
+            "okuma-kosesi/elanaz-hikaye-09-doğum-günü-sürprizi.json",
+            "okuma-kosesi/elanaz-hikaye-10-korkulan-köpek.json",
+            "okuma-kosesi/elanaz-hikaye-11-i-lk-diş.json",
+            "okuma-kosesi/elanaz-hikaye-12-pazar-alışverişi.json",
+            "okuma-kosesi/elanaz-hikaye-13-kış-manzarası.json",
+            "okuma-kosesi/elanaz-hikaye-14-resim-yarışması.json",
+            "okuma-kosesi/elanaz-hikaye-15-kayıp-çorap.json",
+            "okuma-kosesi/elanaz-hikaye-16-büyükanne-ziyareti.json",
+            "okuma-kosesi/elanaz-hikaye-17-i-lk-yardım.json",
+            "okuma-kosesi/elanaz-hikaye-18-sessiz-kütüphane.json"
+          ]
+        },
+        {
+          "id": "seviye-2",
+          "baslik": "Seviye 2 — Orta",
+          "hikayeDosyalari": [
+            "okuma-kosesi/elanaz-yagmurlu-piknik.json",
+            "okuma-kosesi/elanaz-kutuphane-gunu.json",
+            "okuma-kosesi/elanaz-hikaye-19-park-macerası.json",
+            "okuma-kosesi/elanaz-hikaye-20-yeni-kardeş.json",
+            "okuma-kosesi/elanaz-hikaye-21-futbol-maçı.json",
+            "okuma-kosesi/elanaz-hikaye-22-balık-tutma.json",
+            "okuma-kosesi/elanaz-hikaye-23-kamp-gezisi.json",
+            "okuma-kosesi/elanaz-hikaye-24-müze-gezisi.json",
+            "okuma-kosesi/elanaz-hikaye-25-yarış-atleti.json",
+            "okuma-kosesi/elanaz-hikaye-26-sihirli-kalem.json",
+            "okuma-kosesi/elanaz-hikaye-27-kedi-dostu.json",
+            "okuma-kosesi/elanaz-hikaye-28-kar-yağışı.json",
+            "okuma-kosesi/elanaz-hikaye-29-okul-tiyatrosu.json",
+            "okuma-kosesi/elanaz-hikaye-30-deniz-kenarı.json",
+            "okuma-kosesi/elanaz-hikaye-31-yardım-kampanyası.json",
+            "okuma-kosesi/elanaz-hikaye-32-zaman-makinesi.json",
+            "okuma-kosesi/elanaz-hikaye-33-gizli-hazine.json",
+            "okuma-kosesi/elanaz-hikaye-34-uzay-yolculuğu.json",
+            "okuma-kosesi/elanaz-hikaye-35-orman-yangını.json",
+            "okuma-kosesi/elanaz-hikaye-36-köy-ziyareti.json"
+          ]
+        },
+        {
+          "id": "seviye-3",
+          "baslik": "Seviye 3 — İleri",
+          "hikayeDosyalari": [
+            "okuma-kosesi/elanaz-bisiklet-ogreniyor.json",
+            "okuma-kosesi/elanaz-hikaye-37-robot-arkadaş.json",
+            "okuma-kosesi/elanaz-hikaye-38-göl-kenarı.json",
+            "okuma-kosesi/elanaz-hikaye-39-büyük-proje.json",
+            "okuma-kosesi/elanaz-hikaye-40-sihirli-orman.json",
+            "okuma-kosesi/elanaz-hikaye-41-zaman-yolculuğu.json",
+            "okuma-kosesi/elanaz-hikaye-42-denizaltı.json",
+            "okuma-kosesi/elanaz-hikaye-43-dağ-tırmanışı.json",
+            "okuma-kosesi/elanaz-hikaye-44-gizemli-ada.json",
+            "okuma-kosesi/elanaz-hikaye-45-bilim-fuarı.json",
+            "okuma-kosesi/elanaz-hikaye-46-kış-sporları.json",
+            "okuma-kosesi/elanaz-hikaye-47-yıldız-gözlemi.json",
+            "okuma-kosesi/elanaz-hikaye-48-el-sanatları.json",
+            "okuma-kosesi/elanaz-hikaye-49-çevre-gönüllüsü.json",
+            "okuma-kosesi/elanaz-hikaye-50-kitap-yazarı.json",
+            "okuma-kosesi/elanaz-hikaye-51-müzik-grubu.json",
+            "okuma-kosesi/elanaz-hikaye-52-arkeoloji.json",
+            "okuma-kosesi/elanaz-hikaye-53-geleceğin-şehri.json",
+            "okuma-kosesi/elanaz-hikaye-54-büyük-keşif.json",
+            "okuma-kosesi/elanaz-hikaye-55-son-macera.json"
+          ]
+        }
+      ],
       "hikayeDosyalari": [
         "okuma-kosesi/elanaz-kayip-boya-kalemi.json",
         "okuma-kosesi/elanaz-sinif-bahcesi-tohum.json",
         "okuma-kosesi/elanaz-yagmurlu-piknik.json",
         "okuma-kosesi/elanaz-kutuphane-gunu.json",
-        "okuma-kosesi/elanaz-bisiklet-ogreniyor.json"
+        "okuma-kosesi/elanaz-bisiklet-ogreniyor.json",
+        "okuma-kosesi/elanaz-hikaye-06-kayıp-anahtar.json",
+        "okuma-kosesi/elanaz-hikaye-07-yeni-arkadaş.json",
+        "okuma-kosesi/elanaz-hikaye-08-sınıf-görevlisi.json",
+        "okuma-kosesi/elanaz-hikaye-09-doğum-günü-sürprizi.json",
+        "okuma-kosesi/elanaz-hikaye-10-korkulan-köpek.json",
+        "okuma-kosesi/elanaz-hikaye-11-i-lk-diş.json",
+        "okuma-kosesi/elanaz-hikaye-12-pazar-alışverişi.json",
+        "okuma-kosesi/elanaz-hikaye-13-kış-manzarası.json",
+        "okuma-kosesi/elanaz-hikaye-14-resim-yarışması.json",
+        "okuma-kosesi/elanaz-hikaye-15-kayıp-çorap.json",
+        "okuma-kosesi/elanaz-hikaye-16-büyükanne-ziyareti.json",
+        "okuma-kosesi/elanaz-hikaye-17-i-lk-yardım.json",
+        "okuma-kosesi/elanaz-hikaye-18-sessiz-kütüphane.json",
+        "okuma-kosesi/elanaz-hikaye-19-park-macerası.json",
+        "okuma-kosesi/elanaz-hikaye-20-yeni-kardeş.json",
+        "okuma-kosesi/elanaz-hikaye-21-futbol-maçı.json",
+        "okuma-kosesi/elanaz-hikaye-22-balık-tutma.json",
+        "okuma-kosesi/elanaz-hikaye-23-kamp-gezisi.json",
+        "okuma-kosesi/elanaz-hikaye-24-müze-gezisi.json",
+        "okuma-kosesi/elanaz-hikaye-25-yarış-atleti.json",
+        "okuma-kosesi/elanaz-hikaye-26-sihirli-kalem.json",
+        "okuma-kosesi/elanaz-hikaye-27-kedi-dostu.json",
+        "okuma-kosesi/elanaz-hikaye-28-kar-yağışı.json",
+        "okuma-kosesi/elanaz-hikaye-29-okul-tiyatrosu.json",
+        "okuma-kosesi/elanaz-hikaye-30-deniz-kenarı.json",
+        "okuma-kosesi/elanaz-hikaye-31-yardım-kampanyası.json",
+        "okuma-kosesi/elanaz-hikaye-32-zaman-makinesi.json",
+        "okuma-kosesi/elanaz-hikaye-33-gizli-hazine.json",
+        "okuma-kosesi/elanaz-hikaye-34-uzay-yolculuğu.json",
+        "okuma-kosesi/elanaz-hikaye-35-orman-yangını.json",
+        "okuma-kosesi/elanaz-hikaye-36-köy-ziyareti.json",
+        "okuma-kosesi/elanaz-hikaye-37-robot-arkadaş.json",
+        "okuma-kosesi/elanaz-hikaye-38-göl-kenarı.json",
+        "okuma-kosesi/elanaz-hikaye-39-büyük-proje.json",
+        "okuma-kosesi/elanaz-hikaye-40-sihirli-orman.json",
+        "okuma-kosesi/elanaz-hikaye-41-zaman-yolculuğu.json",
+        "okuma-kosesi/elanaz-hikaye-42-denizaltı.json",
+        "okuma-kosesi/elanaz-hikaye-43-dağ-tırmanışı.json",
+        "okuma-kosesi/elanaz-hikaye-44-gizemli-ada.json",
+        "okuma-kosesi/elanaz-hikaye-45-bilim-fuarı.json",
+        "okuma-kosesi/elanaz-hikaye-46-kış-sporları.json",
+        "okuma-kosesi/elanaz-hikaye-47-yıldız-gözlemi.json",
+        "okuma-kosesi/elanaz-hikaye-48-el-sanatları.json",
+        "okuma-kosesi/elanaz-hikaye-49-çevre-gönüllüsü.json",
+        "okuma-kosesi/elanaz-hikaye-50-kitap-yazarı.json",
+        "okuma-kosesi/elanaz-hikaye-51-müzik-grubu.json",
+        "okuma-kosesi/elanaz-hikaye-52-arkeoloji.json",
+        "okuma-kosesi/elanaz-hikaye-53-geleceğin-şehri.json",
+        "okuma-kosesi/elanaz-hikaye-54-büyük-keşif.json",
+        "okuma-kosesi/elanaz-hikaye-55-son-macera.json"
       ]
     },
     {
@@ -472,9 +653,72 @@
       "unite": [
         {
           "id": "tema-1",
-          "baslik": "Zekâ ve Dikkat",
+          "baslik": "Zekâ ve Dikkat — Tema 1 — Sayı Örüntüleri (Artan)",
           "konuDosyalari": [
-            "zeka-dikkat/zeka-ve-dikkat.json"
+            "zeka-dikkat/sayi-oruntuleri-artan.json"
+          ]
+        },
+        {
+          "id": "tema-2",
+          "baslik": "Zekâ ve Dikkat — Tema 2 — Sayı Örüntüleri (Azalan)",
+          "konuDosyalari": [
+            "zeka-dikkat/sayi-oruntuleri-azalan.json"
+          ]
+        },
+        {
+          "id": "tema-3",
+          "baslik": "Zekâ ve Dikkat — Tema 3 — Şekil Örüntüleri",
+          "konuDosyalari": [
+            "zeka-dikkat/sekil-oruntuleri.json"
+          ]
+        },
+        {
+          "id": "tema-4",
+          "baslik": "Zekâ ve Dikkat — Tema 4 — Renk Örüntüleri",
+          "konuDosyalari": [
+            "zeka-dikkat/renk-oruntuleri.json"
+          ]
+        },
+        {
+          "id": "tema-5",
+          "baslik": "Zekâ ve Dikkat — Tema 5 — Farklı Olanı Bulma — Şekil",
+          "konuDosyalari": [
+            "zeka-dikkat/farkli-sekil.json"
+          ]
+        },
+        {
+          "id": "tema-6",
+          "baslik": "Zekâ ve Dikkat — Tema 6 — Farklı Olanı Bulma — Renk ve Sayı",
+          "konuDosyalari": [
+            "zeka-dikkat/farkli-renk-sayi.json"
+          ]
+        },
+        {
+          "id": "tema-7",
+          "baslik": "Zekâ ve Dikkat — Tema 7 — Sayma Soruları",
+          "konuDosyalari": [
+            "zeka-dikkat/sayma-sorulari.json"
+          ]
+        },
+        {
+          "id": "tema-8",
+          "baslik": "Zekâ ve Dikkat — Tema 8 — Dikkat Soruları",
+          "konuDosyalari": [
+            "zeka-dikkat/dikkat-sorulari.json"
+          ]
+        },
+        {
+          "id": "tema-9",
+          "baslik": "Zekâ ve Dikkat — Tema 9 — Karma Örüntü",
+          "konuDosyalari": [
+            "zeka-dikkat/karma-oruntu.json"
+          ]
+        },
+        {
+          "id": "tema-10",
+          "baslik": "Zekâ ve Dikkat — Tema 10 — İleri Zeka Bulmacaları",
+          "konuDosyalari": [
+            "zeka-dikkat/ileri-bulmaca.json"
           ]
         }
       ]

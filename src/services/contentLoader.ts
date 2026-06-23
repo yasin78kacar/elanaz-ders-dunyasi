@@ -79,13 +79,11 @@ import tema7Json from '../data/math/tema7.json';
 import tema8Json from '../data/math/tema8.json';
 import tema9Json from '../data/math/tema9.json';
 import tema10Json from '../data/math/tema10.json';
-import elanazHikaye from '../../content/sinif2/okuma-kosesi/elanaz-kayip-boya-kalemi.json';
-import elanazSinifBahcesi from '../../content/sinif2/okuma-kosesi/elanaz-sinif-bahcesi-tohum.json';
-import elanazYagmurluPiknik from '../../content/sinif2/okuma-kosesi/elanaz-yagmurlu-piknik.json';
-import elanazKutuphaneGunu from '../../content/sinif2/okuma-kosesi/elanaz-kutuphane-gunu.json';
-import elanazBisikletOgreniyor from '../../content/sinif2/okuma-kosesi/elanaz-bisiklet-ogreniyor.json';
-import gorselSanatlarJson from '../../content/sinif2/gorsel-sanatlar/gorsel-sanatlar.json';
-import zekaVeDikkatJson from '../../content/sinif2/zeka-dikkat/zeka-ve-dikkat.json';
+import {
+  gorselSanatlarKonuDosyalari,
+  okumaKosesiHikayeDosyalari,
+  zekaDikkatKonuDosyalari,
+} from './contentImports.generated';
 import sesliHikayelerJson from '../../content/sinif2/ingilizce/sesli-hikayeler.json';
 import okumaKitaplariJson from '../../content/sinif2/ingilizce/okuma-kitaplari.json';
 import type { Ders, DersOzet, EnglishTheme, Hikaye, Konu, KonuOzet, MathTheme, OkumaKitabi, SesliHikaye, SinifIcerik } from '../types/content';
@@ -243,17 +241,11 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/odalar.json': odalarKonu,
   'ingilizce/dersler-ing.json': derslerIngKonu,
   'ingilizce/sayilar-11-20.json': sayilar1120Konu,
-  'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
-  'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
+  ...gorselSanatlarKonuDosyalari,
+  ...zekaDikkatKonuDosyalari,
 };
 
-const hikayeDosyalari: Record<string, Hikaye> = {
-  'okuma-kosesi/elanaz-kayip-boya-kalemi.json': elanazHikaye as Hikaye,
-  'okuma-kosesi/elanaz-sinif-bahcesi-tohum.json': elanazSinifBahcesi as Hikaye,
-  'okuma-kosesi/elanaz-yagmurlu-piknik.json': elanazYagmurluPiknik as Hikaye,
-  'okuma-kosesi/elanaz-kutuphane-gunu.json': elanazKutuphaneGunu as Hikaye,
-  'okuma-kosesi/elanaz-bisiklet-ogreniyor.json': elanazBisikletOgreniyor as Hikaye,
-};
+const hikayeDosyalari: Record<string, Hikaye> = okumaKosesiHikayeDosyalari;
 
 interface SesliHikayelerDosya {
   hikayeler: SesliHikaye[];
@@ -274,7 +266,7 @@ const okumaKitapDosyalari: Record<string, OkumaKitabi[]> = {
 interface IndexDers {
   id: string;
   baslik: string;
-  unite: { id: string; baslik: string; konuDosyalari?: string[] }[];
+  unite: { id: string; baslik: string; konuDosyalari?: string[]; hikayeDosyalari?: string[] }[];
   hikayeDosyalari?: string[];
   sesliHikayeDosyalari?: string[];
   okumaKitapDosyalari?: string[];

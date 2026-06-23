@@ -1,0 +1,120 @@
+{
+  "id": "elanaz-hikaye-11-i-lk-diş",
+  "baslik": "Elanaz ve İlk Diş",
+  "seviye": 1,
+  "sayfalar": [
+    {
+      "metin": "Elanaz sağlık ile ilgili bir gün yaşadı. büyümek hakkında öğrendi. Arkadaşı Zeynep yanındaydı.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ogretmen-konusma"
+      }
+    },
+    {
+      "metin": "Bir sorun çıktı ama Elanaz üzülmedi. Zeynep yardım etti. Birlikte çözüm buldular.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-cozum-arkadas"
+      }
+    },
+    {
+      "metin": "Sonunda her şey yoluna girdi. Elanaz mutlu oldu. büyümek hakkında bir şey öğrendi.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mutlu-piknik"
+      }
+    }
+  ],
+  "sorular": [
+    {
+      "id": "elanaz-hikaye-11-i-lk-diş-s1",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz hikâyede ne öğrendi?",
+      "dogruCevap": "Büyümek",
+      "secenekler": [
+        "Hiçbir şey",
+        "Büyümek",
+        "Korkmak",
+        "Kaçmak"
+      ],
+      "ipucu": "Hikâyenin konusuna bak.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ogretmen-konusma"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-11-i-lk-diş-s2",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'a kim yardım etti?",
+      "dogruCevap": "Zeynep",
+      "secenekler": [
+        "Ali",
+        "Zeynep",
+        "Kimse",
+        "Öğretmen"
+      ],
+      "ipucu": "Arkadaşı kimdi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-cozum-arkadas"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-11-i-lk-diş-s3",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sorun çıkınca Elanaz ne yaptı?",
+      "dogruCevap": "Çözüm aradı",
+      "secenekler": [
+        "Ağladı",
+        "Çözüm aradı",
+        "Pes etti",
+        "Kaçtı"
+      ],
+      "ipucu": "Elanaz ne yaptı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ogretmen-konusma"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-11-i-lk-diş-s4",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin sonunda Elanaz nasıl hissetti?",
+      "dogruCevap": "Mutlu",
+      "secenekler": [
+        "Kızgın",
+        "Mutlu",
+        "Korkmuş",
+        "Üzgün"
+      ],
+      "ipucu": "Son sayfaya bak.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mutlu-piknik"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-11-i-lk-diş-s5",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin ana fikri nedir?",
+      "dogruCevap": "Sabırlı ve cesur olmak gerekir",
+      "secenekler": [
+        "Vazgeçmek gerekir",
+        "Sabırlı ve cesur olmak gerekir",
+        "Yardım etmemek gerekir",
+        "Korkmak gerekir"
+      ],
+      "ipucu": "Elanaz ne öğrendi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-elanaz-okuyor"
+      }
+    }
+  ]
+}

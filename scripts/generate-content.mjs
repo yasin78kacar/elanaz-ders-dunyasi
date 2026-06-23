@@ -112,9 +112,9 @@ import { sporlar, enstrumanlar, meslekler, ulasim } from './gorev-ing-tema8-ques
 import { tatiller, odalar, dersler, sayilar1120 } from './gorev-ing-tema9-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
-import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
-import { gorselSanatlar } from './gorev-gorsel-sanatlar-questions.mjs';
-import { zekaVeDikkat } from './gorev-zeka-dikkat-questions.mjs';
+import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-tum-hikayeler.mjs';
+import { gorselSanatlarTema, GS_TEMA_META } from './gorsel-sanatlar-tema-pools.mjs';
+import { zekaDikkatTema, ZD_TEMA_META } from './zeka-dikkat-tema-pools.mjs';
 import { spawnSync } from 'child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -884,10 +884,72 @@ for (const hikaye of okumaKosesiHikayeleri) {
   writeFileSync(join(hikayeDir, `${hikaye.id}.json`), JSON.stringify(hikaye, null, 2));
 }
 
-const gorselSanatlarKonu = gorselSanatlar(karistir);
-const zekaVeDikkatKonu = zekaVeDikkat(karistir);
-writeFileSync(join(gsDir, 'gorsel-sanatlar.json'), JSON.stringify(gorselSanatlarKonu, null, 2));
-writeFileSync(join(zdDir, 'zeka-ve-dikkat.json'), JSON.stringify(zekaVeDikkatKonu, null, 2));
+const gsKonular = [];
+for (let i = 1; i <= 10; i++) {
+  const konu = gorselSanatlarTema(i, karistir);
+  gsKonular.push(konu);
+  writeFileSync(join(gsDir, `${konu.id}.json`), JSON.stringify(konu, null, 2));
+}
+
+const zdKonular = [];
+for (let i = 1; i <= 10; i++) {
+  const konu = zekaDikkatTema(i, karistir);
+  zdKonular.push(konu);
+  writeFileSync(join(zdDir, `${konu.id}.json`), JSON.stringify(konu, null, 2));
+}
+
+const gsTemaUnite = GS_TEMA_META.map((m, i) => ({
+  id: `tema-${i + 1}`,
+  baslik: `Görsel Sanatlar — Tema ${i + 1} — ${m.baslik}`,
+  konuDosyalari: [`gorsel-sanatlar/${m.id}.json`],
+}));
+
+const zdTemaUnite = ZD_TEMA_META.map((m, i) => ({
+  id: `tema-${i + 1}`,
+  baslik: `Zekâ ve Dikkat — Tema ${i + 1} — ${m.baslik}`,
+  konuDosyalari: [`zeka-dikkat/${m.id}.json`],
+}));
+
+const okumaSeviye1 = okumaKosesiHikayeleri.filter((h) => h.seviye === 1).map((h) => `okuma-kosesi/${h.id}.json`);
+const okumaSeviye2 = okumaKosesiHikayeleri.filter((h) => h.seviye === 2).map((h) => `okuma-kosesi/${h.id}.json`);
+const okumaSeviye3 = okumaKosesiHikayeleri.filter((h) => h.seviye === 3).map((h) => `okuma-kosesi/${h.id}.json`);
+
+const contentImportsPath = join(__dirname, '../src/services/contentImports.generated.ts');
+const gsImports = gsKonular.map((k) => `import gs_${k.id.replace(/-/g, '_')} from '../../content/sinif2/gorsel-sanatlar/${k.id}.json';`).join('\n');
+const zdImports = zdKonular.map((k) => `import zd_${k.id.replace(/-/g, '_')} from '../../content/sinif2/zeka-dikkat/${k.id}.json';`).join('\n');
+const hikayeImports = okumaKosesiHikayeleri
+  .map((h) => {
+    const varName = h.id.replace(/-/g, '_');
+    return `import hikaye_${varName} from '../../content/sinif2/okuma-kosesi/${h.id}.json';`;
+  })
+  .join('\n');
+const gsMap = gsKonular.map((k) => `  'gorsel-sanatlar/${k.id}.json': gs_${k.id.replace(/-/g, '_')} as Konu,`).join('\n');
+const zdMap = zdKonular.map((k) => `  'zeka-dikkat/${k.id}.json': zd_${k.id.replace(/-/g, '_')} as Konu,`).join('\n');
+const hikayeMap = okumaKosesiHikayeleri
+  .map((h) => `  'okuma-kosesi/${h.id}.json': hikaye_${h.id.replace(/-/g, '_')} as Hikaye,`)
+  .join('\n');
+
+writeFileSync(
+  contentImportsPath,
+  `/** Otomatik üretildi — scripts/generate-content.mjs */
+import type { Konu, Hikaye } from '../types/content';
+${gsImports}
+${zdImports}
+${hikayeImports}
+
+export const gorselSanatlarKonuDosyalari: Record<string, Konu> = {
+${gsMap}
+};
+
+export const zekaDikkatKonuDosyalari: Record<string, Konu> = {
+${zdMap}
+};
+
+export const okumaKosesiHikayeDosyalari: Record<string, Hikaye> = {
+${hikayeMap}
+};
+`,
+);
 
 const index = {
   sinif: 2,
@@ -1198,26 +1260,18 @@ const index = {
           ],
         },
       ] },
-    { id: 'gorsel-sanatlar', baslik: 'Görsel Sanatlar', unite: [
-        {
-          id: 'tema-1',
-          baslik: 'Görsel Sanatlar',
-          konuDosyalari: ['gorsel-sanatlar/gorsel-sanatlar.json'],
-        },
-      ] },
+    { id: 'gorsel-sanatlar', baslik: 'Görsel Sanatlar', unite: gsTemaUnite },
     {
       id: 'okuma-kosesi',
       baslik: 'Okuma Köşesi',
-      unite: [],
+      unite: [
+        { id: 'seviye-1', baslik: 'Seviye 1 — Başlangıç', hikayeDosyalari: okumaSeviye1 },
+        { id: 'seviye-2', baslik: 'Seviye 2 — Orta', hikayeDosyalari: okumaSeviye2 },
+        { id: 'seviye-3', baslik: 'Seviye 3 — İleri', hikayeDosyalari: okumaSeviye3 },
+      ],
       hikayeDosyalari: okumaKosesiHikayeleri.map((h) => `okuma-kosesi/${h.id}.json`),
     },
-    { id: 'zeka-dikkat', baslik: 'Zekâ ve Dikkat', unite: [
-        {
-          id: 'tema-1',
-          baslik: 'Zekâ ve Dikkat',
-          konuDosyalari: ['zeka-dikkat/zeka-ve-dikkat.json'],
-        },
-      ] },
+    { id: 'zeka-dikkat', baslik: 'Zekâ ve Dikkat', unite: zdTemaUnite },
   ],
 };
 
@@ -1346,8 +1400,13 @@ console.log('Renkler:', renklerKonu.alistirma.length, '+', renklerKonu.test.leng
 console.log('Duygular:', duygularKonu.alistirma.length, '+', duygularKonu.test.length);
 console.log('Kısa hikayeler:', kisaHikayelerKonu.alistirma.length, '+', kisaHikayelerKonu.test.length);
 console.log('İngilizce şarkılar:', ingilizceSarkilarKonu.alistirma.length, '+', ingilizceSarkilarKonu.test.length);
-console.log('Görsel Sanatlar:', gorselSanatlarKonu.alistirma.length, '+', gorselSanatlarKonu.test.length);
-console.log('Zekâ ve Dikkat:', zekaVeDikkatKonu.alistirma.length, '+', zekaVeDikkatKonu.test.length);
+for (const [i, k] of gsKonular.entries()) {
+  console.log(`GS T${i + 1} ${k.baslik}:`, k.alistirma.length, '+', k.test.length);
+}
+for (const [i, k] of zdKonular.entries()) {
+  console.log(`ZD T${i + 1} ${k.baslik}:`, k.alistirma.length, '+', k.test.length);
+}
+console.log('Okuma Köşesi:', okumaKosesiHikayeleri.length, 'hikâye (S1:', okumaSeviye1.length, 'S2:', okumaSeviye2.length, 'S3:', okumaSeviye3.length, ')');
 
 const bekci = spawnSync('node', [join(__dirname, 'verify-secenekler.mjs')], { stdio: 'inherit' });
 if (bekci.status !== 0) {

@@ -1,0 +1,120 @@
+{
+  "id": "elanaz-hikaye-23-kamp-gezisi",
+  "baslik": "Elanaz ve Kamp Gezisi",
+  "seviye": 2,
+  "sayfalar": [
+    {
+      "metin": "Elanaz o sabah okula gitti. çevre dersinde doğa sevgisi konusunu işlediler. Öğretmeni \"Dikkatle dinleyin\" dedi. Elanaz not aldı.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-gunesli-park"
+      }
+    },
+    {
+      "metin": "Ders sırasında beklenmedik bir durum oldu. Elanaz önce şaşırdı. Sonra düşündü ve doğru kararı verdi. Arkadaşları da ona destek oldu.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-ogretmen-konusma"
+      }
+    },
+    {
+      "metin": "Günün sonunda Elanaz başardı. Öğretmeni onu tebrik etti. Elanaz doğa sevgisi konusunda artık daha bilgiliydi ve gurur duyuyordu.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mutlu-piknik"
+      }
+    }
+  ],
+  "sorular": [
+    {
+      "id": "elanaz-hikaye-23-kamp-gezisi-s1",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz hikâyede ne öğrendi?",
+      "dogruCevap": "Doğa sevgisi",
+      "secenekler": [
+        "Hiçbir şey",
+        "Doğa sevgisi",
+        "Korkmak",
+        "Kaçmak"
+      ],
+      "ipucu": "Hikâyenin konusuna bak.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-gunesli-park"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-23-kamp-gezisi-s2",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Elanaz'a kim yardım etti?",
+      "dogruCevap": "Zeynep",
+      "secenekler": [
+        "Ali",
+        "Zeynep",
+        "Kimse",
+        "Öğretmen"
+      ],
+      "ipucu": "Arkadaşı kimdi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-cozum-arkadas"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-23-kamp-gezisi-s3",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sorun çıkınca Elanaz ne yaptı?",
+      "dogruCevap": "Çözüm aradı",
+      "secenekler": [
+        "Ağladı",
+        "Çözüm aradı",
+        "Pes etti",
+        "Kaçtı"
+      ],
+      "ipucu": "Elanaz ne yaptı?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-gunesli-park"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-23-kamp-gezisi-s4",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin sonunda Elanaz nasıl hissetti?",
+      "dogruCevap": "Mutlu",
+      "secenekler": [
+        "Kızgın",
+        "Mutlu",
+        "Korkmuş",
+        "Üzgün"
+      ],
+      "ipucu": "Son sayfaya bak.",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-mutlu-piknik"
+      }
+    },
+    {
+      "id": "elanaz-hikaye-23-kamp-gezisi-s5",
+      "kazanimKodu": "OKU.2.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hikâyenin ana fikri nedir?",
+      "dogruCevap": "Sabırlı ve cesur olmak gerekir",
+      "secenekler": [
+        "Vazgeçmek gerekir",
+        "Sabırlı ve cesur olmak gerekir",
+        "Yardım etmemek gerekir",
+        "Korkmak gerekir"
+      ],
+      "ipucu": "Elanaz ne öğrendi?",
+      "gorsel": {
+        "tur": "okuma-kosesi",
+        "sahne": "ok-elanaz-okuyor"
+      }
+    }
+  ]
+}

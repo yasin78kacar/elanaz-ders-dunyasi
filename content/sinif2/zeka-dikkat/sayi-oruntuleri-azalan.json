@@ -1,0 +1,3686 @@
+{
+  "id": "sayi-oruntuleri-azalan",
+  "baslik": "Sayı Örüntüleri (Azalan)",
+  "kazanimKodu": "ZD.2.1.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Zekâ ve Dikkat köşesinde sayı örüntüleri (azalan) çalıştı. Kuralı bulunca eksik parçayı tamamlamak kolaylaştı!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "oruntu-anlatim"
+        }
+      },
+      {
+        "metin": "Bazen dizide farklı olan tek bir parça vardır. Dikkatle bakınca farklı şekli, rengi veya sayıyı hemen buldu.",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "farkli-anlatim"
+        }
+      },
+      {
+        "metin": "Sayma sorularında her nesneyi tek tek saymak gerekir. Gözlerimizi iyi kullanalım!",
+        "gorsel": {
+          "tur": "zeka-dikkat",
+          "mod": "anlatim",
+          "sahne": "sayim-anlatim"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "zd2-a1",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "20, 19, 18, 17, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "16",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 18
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a2",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "25, 23, 21, 19, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "17",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a3",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "30, 27, 24, 21, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "18",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a4",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "35, 30, 25, 20, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "15",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a5",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "40, 30, 20, 10, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "0",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a6",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "45, 44, 43, 42, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "41",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 44
+          },
+          {
+            "tip": "sayi",
+            "deger": 43
+          },
+          {
+            "tip": "sayi",
+            "deger": 42
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a7",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "50, 48, 46, 44, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "42",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 48
+          },
+          {
+            "tip": "sayi",
+            "deger": 46
+          },
+          {
+            "tip": "sayi",
+            "deger": 44
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a8",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "55, 52, 49, 46, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "43",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 52
+          },
+          {
+            "tip": "sayi",
+            "deger": 49
+          },
+          {
+            "tip": "sayi",
+            "deger": 46
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a9",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "60, 55, 50, 45, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "40",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a10",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "65, 55, 45, 35, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "25",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 65
+          },
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a11",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "70, 69, 68, 67, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "66",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 69
+          },
+          {
+            "tip": "sayi",
+            "deger": 68
+          },
+          {
+            "tip": "sayi",
+            "deger": 67
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a12",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "75, 73, 71, 69, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "67",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 75
+          },
+          {
+            "tip": "sayi",
+            "deger": 73
+          },
+          {
+            "tip": "sayi",
+            "deger": 71
+          },
+          {
+            "tip": "sayi",
+            "deger": 69
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a13",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "80, 77, 74, 71, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "68",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 77
+          },
+          {
+            "tip": "sayi",
+            "deger": 74
+          },
+          {
+            "tip": "sayi",
+            "deger": 71
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a14",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "85, 80, 75, 70, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "65",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 85
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 75
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a15",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "90, 80, 70, 60, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "50",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 90
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a16",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "95, 94, 93, 92, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "91",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "sayi",
+            "deger": 94
+          },
+          {
+            "tip": "sayi",
+            "deger": 93
+          },
+          {
+            "tip": "sayi",
+            "deger": 92
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a17",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "100, 98, 96, 94, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "92",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 98
+          },
+          {
+            "tip": "sayi",
+            "deger": 96
+          },
+          {
+            "tip": "sayi",
+            "deger": 94
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a18",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "105, 102, 99, 96, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "93",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 102
+          },
+          {
+            "tip": "sayi",
+            "deger": 99
+          },
+          {
+            "tip": "sayi",
+            "deger": 96
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a19",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "110, 105, 100, 95, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "90",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 110
+          },
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a20",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "115, 105, 95, 85, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "75",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 115
+          },
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "sayi",
+            "deger": 85
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a21",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "120, 119, 118, 117, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "116",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "sayi",
+            "deger": 119
+          },
+          {
+            "tip": "sayi",
+            "deger": 118
+          },
+          {
+            "tip": "sayi",
+            "deger": 117
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a22",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "125, 123, 121, 119, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "117",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 125
+          },
+          {
+            "tip": "sayi",
+            "deger": 123
+          },
+          {
+            "tip": "sayi",
+            "deger": 121
+          },
+          {
+            "tip": "sayi",
+            "deger": 119
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a23",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "130, 127, 124, 121, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "118",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 127
+          },
+          {
+            "tip": "sayi",
+            "deger": 124
+          },
+          {
+            "tip": "sayi",
+            "deger": 121
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a24",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "135, 130, 125, 120, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "115",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 135
+          },
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 125
+          },
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a25",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "140, 130, 120, 110, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "100",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 140
+          },
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "sayi",
+            "deger": 110
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a26",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "145, 144, 143, 142, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "141",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "sayi",
+            "deger": 144
+          },
+          {
+            "tip": "sayi",
+            "deger": 143
+          },
+          {
+            "tip": "sayi",
+            "deger": 142
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a27",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "150, 148, 146, 144, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "142",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 150
+          },
+          {
+            "tip": "sayi",
+            "deger": 148
+          },
+          {
+            "tip": "sayi",
+            "deger": 146
+          },
+          {
+            "tip": "sayi",
+            "deger": 144
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a28",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "155, 152, 149, 146, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "143",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 152
+          },
+          {
+            "tip": "sayi",
+            "deger": 149
+          },
+          {
+            "tip": "sayi",
+            "deger": 146
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a29",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "160, 155, 150, 145, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "140",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 160
+          },
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 150
+          },
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a30",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "165, 155, 145, 135, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "125",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 165
+          },
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "sayi",
+            "deger": 135
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a31",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "170, 169, 168, 167, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "166",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "sayi",
+            "deger": 169
+          },
+          {
+            "tip": "sayi",
+            "deger": 168
+          },
+          {
+            "tip": "sayi",
+            "deger": 167
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a32",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "175, 173, 171, 169, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "167",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 175
+          },
+          {
+            "tip": "sayi",
+            "deger": 173
+          },
+          {
+            "tip": "sayi",
+            "deger": 171
+          },
+          {
+            "tip": "sayi",
+            "deger": 169
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a33",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "180, 177, 174, 171, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "168",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 177
+          },
+          {
+            "tip": "sayi",
+            "deger": 174
+          },
+          {
+            "tip": "sayi",
+            "deger": 171
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a34",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "185, 180, 175, 170, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "165",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 185
+          },
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 175
+          },
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a35",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "190, 180, 170, 160, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "150",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 190
+          },
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "sayi",
+            "deger": 160
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a36",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "195, 194, 193, 192, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "191",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "sayi",
+            "deger": 194
+          },
+          {
+            "tip": "sayi",
+            "deger": 193
+          },
+          {
+            "tip": "sayi",
+            "deger": 192
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a37",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "200, 198, 196, 194, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "192",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 200
+          },
+          {
+            "tip": "sayi",
+            "deger": 198
+          },
+          {
+            "tip": "sayi",
+            "deger": 196
+          },
+          {
+            "tip": "sayi",
+            "deger": 194
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a38",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "205, 202, 199, 196, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "193",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 202
+          },
+          {
+            "tip": "sayi",
+            "deger": 199
+          },
+          {
+            "tip": "sayi",
+            "deger": 196
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a39",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "210, 205, 200, 195, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "190",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 210
+          },
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 200
+          },
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a40",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "215, 205, 195, 185, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "175",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 215
+          },
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "sayi",
+            "deger": 185
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a41",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "220, 219, 218, 217, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "216",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "sayi",
+            "deger": 219
+          },
+          {
+            "tip": "sayi",
+            "deger": 218
+          },
+          {
+            "tip": "sayi",
+            "deger": 217
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a42",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "225, 223, 221, 219, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "217",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 225
+          },
+          {
+            "tip": "sayi",
+            "deger": 223
+          },
+          {
+            "tip": "sayi",
+            "deger": 221
+          },
+          {
+            "tip": "sayi",
+            "deger": 219
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a43",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "230, 227, 224, 221, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "218",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 227
+          },
+          {
+            "tip": "sayi",
+            "deger": 224
+          },
+          {
+            "tip": "sayi",
+            "deger": 221
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a44",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "235, 230, 225, 220, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "215",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 235
+          },
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 225
+          },
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a45",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "240, 230, 220, 210, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "200",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 240
+          },
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "sayi",
+            "deger": 210
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-a46",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "245, 244, 243, 242, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "241",
+      "ipucu": "1er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "sayi",
+            "deger": 244
+          },
+          {
+            "tip": "sayi",
+            "deger": 243
+          },
+          {
+            "tip": "sayi",
+            "deger": 242
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-a47",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "250, 248, 246, 244, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "242",
+      "ipucu": "2er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 250
+          },
+          {
+            "tip": "sayi",
+            "deger": 248
+          },
+          {
+            "tip": "sayi",
+            "deger": 246
+          },
+          {
+            "tip": "sayi",
+            "deger": 244
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-a48",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "255, 252, 249, 246, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "243",
+      "ipucu": "3er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 252
+          },
+          {
+            "tip": "sayi",
+            "deger": 249
+          },
+          {
+            "tip": "sayi",
+            "deger": 246
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-a49",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "260, 255, 250, 245, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "240",
+      "ipucu": "5er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 260
+          },
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 250
+          },
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-a50",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "yazili",
+      "soru": "265, 255, 245, 235, ? örüntüsünde eksik sayı ......... dir.",
+      "dogruCevap": "225",
+      "ipucu": "10er azalıyor.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 265
+          },
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "sayi",
+            "deger": 235
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "zd2-t1",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "20, 19, 18, 17, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "16",
+      "secenekler": [
+        "15",
+        "18",
+        "16",
+        "17"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 18
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t2",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "25, 23, 21, 19, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "19",
+        "19",
+        "15",
+        "17"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t3",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "30, 27, 24, 21, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "18",
+      "secenekler": [
+        "21",
+        "18",
+        "20",
+        "15"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "sayi",
+            "deger": 21
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t4",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "35, 30, 25, 20, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "15",
+      "secenekler": [
+        "15",
+        "20",
+        "10",
+        "17"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t5",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "40, 30, 20, 10, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "0",
+      "secenekler": [
+        "10",
+        "2",
+        "0"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 40
+          },
+          {
+            "tip": "sayi",
+            "deger": 30
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 10
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t6",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "45, 44, 43, 42, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "41",
+      "secenekler": [
+        "42",
+        "43",
+        "41",
+        "40"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 44
+          },
+          {
+            "tip": "sayi",
+            "deger": 43
+          },
+          {
+            "tip": "sayi",
+            "deger": 42
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t7",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "50, 48, 46, 44, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "42",
+      "secenekler": [
+        "44",
+        "40",
+        "42",
+        "44"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 48
+          },
+          {
+            "tip": "sayi",
+            "deger": 46
+          },
+          {
+            "tip": "sayi",
+            "deger": 44
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t8",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "55, 52, 49, 46, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "43",
+      "secenekler": [
+        "45",
+        "46",
+        "43",
+        "40"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 52
+          },
+          {
+            "tip": "sayi",
+            "deger": 49
+          },
+          {
+            "tip": "sayi",
+            "deger": 46
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t9",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "60, 55, 50, 45, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "40",
+      "secenekler": [
+        "45",
+        "35",
+        "42",
+        "40"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 50
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t10",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "65, 55, 45, 35, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "25",
+      "secenekler": [
+        "15",
+        "27",
+        "25",
+        "35"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 65
+          },
+          {
+            "tip": "sayi",
+            "deger": 55
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t11",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "70, 69, 68, 67, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "66",
+      "secenekler": [
+        "65",
+        "68",
+        "67",
+        "66"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 69
+          },
+          {
+            "tip": "sayi",
+            "deger": 68
+          },
+          {
+            "tip": "sayi",
+            "deger": 67
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t12",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "75, 73, 71, 69, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "67",
+      "secenekler": [
+        "67",
+        "65",
+        "69",
+        "69"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 75
+          },
+          {
+            "tip": "sayi",
+            "deger": 73
+          },
+          {
+            "tip": "sayi",
+            "deger": 71
+          },
+          {
+            "tip": "sayi",
+            "deger": 69
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t13",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "80, 77, 74, 71, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "68",
+      "secenekler": [
+        "65",
+        "71",
+        "68",
+        "70"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 77
+          },
+          {
+            "tip": "sayi",
+            "deger": 74
+          },
+          {
+            "tip": "sayi",
+            "deger": 71
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t14",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "85, 80, 75, 70, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "65",
+      "secenekler": [
+        "67",
+        "65",
+        "60",
+        "70"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 85
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 75
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t15",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "90, 80, 70, 60, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "50",
+      "secenekler": [
+        "52",
+        "60",
+        "50",
+        "40"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 90
+          },
+          {
+            "tip": "sayi",
+            "deger": 80
+          },
+          {
+            "tip": "sayi",
+            "deger": 70
+          },
+          {
+            "tip": "sayi",
+            "deger": 60
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t16",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "95, 94, 93, 92, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "91",
+      "secenekler": [
+        "93",
+        "91",
+        "90",
+        "92"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "sayi",
+            "deger": 94
+          },
+          {
+            "tip": "sayi",
+            "deger": 93
+          },
+          {
+            "tip": "sayi",
+            "deger": 92
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t17",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "100, 98, 96, 94, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "92",
+      "secenekler": [
+        "92",
+        "94",
+        "94",
+        "90"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 98
+          },
+          {
+            "tip": "sayi",
+            "deger": 96
+          },
+          {
+            "tip": "sayi",
+            "deger": 94
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t18",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "105, 102, 99, 96, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "93",
+      "secenekler": [
+        "95",
+        "90",
+        "96",
+        "93"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 102
+          },
+          {
+            "tip": "sayi",
+            "deger": 99
+          },
+          {
+            "tip": "sayi",
+            "deger": 96
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t19",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "110, 105, 100, 95, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "90",
+      "secenekler": [
+        "85",
+        "92",
+        "90",
+        "95"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 110
+          },
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 100
+          },
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t20",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "115, 105, 95, 85, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "75",
+      "secenekler": [
+        "65",
+        "75",
+        "77",
+        "85"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 115
+          },
+          {
+            "tip": "sayi",
+            "deger": 105
+          },
+          {
+            "tip": "sayi",
+            "deger": 95
+          },
+          {
+            "tip": "sayi",
+            "deger": 85
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t21",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "120, 119, 118, 117, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "116",
+      "secenekler": [
+        "116",
+        "117",
+        "115",
+        "118"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "sayi",
+            "deger": 119
+          },
+          {
+            "tip": "sayi",
+            "deger": 118
+          },
+          {
+            "tip": "sayi",
+            "deger": 117
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t22",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "125, 123, 121, 119, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "117",
+      "secenekler": [
+        "119",
+        "117",
+        "115",
+        "119"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 125
+          },
+          {
+            "tip": "sayi",
+            "deger": 123
+          },
+          {
+            "tip": "sayi",
+            "deger": 121
+          },
+          {
+            "tip": "sayi",
+            "deger": 119
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t23",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "130, 127, 124, 121, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "118",
+      "secenekler": [
+        "121",
+        "115",
+        "120",
+        "118"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 127
+          },
+          {
+            "tip": "sayi",
+            "deger": 124
+          },
+          {
+            "tip": "sayi",
+            "deger": 121
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t24",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "135, 130, 125, 120, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "115",
+      "secenekler": [
+        "110",
+        "117",
+        "120",
+        "115"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 135
+          },
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 125
+          },
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t25",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "140, 130, 120, 110, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "100",
+      "secenekler": [
+        "90",
+        "110",
+        "100",
+        "102"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 140
+          },
+          {
+            "tip": "sayi",
+            "deger": 130
+          },
+          {
+            "tip": "sayi",
+            "deger": 120
+          },
+          {
+            "tip": "sayi",
+            "deger": 110
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t26",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "145, 144, 143, 142, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "141",
+      "secenekler": [
+        "141",
+        "140",
+        "143",
+        "142"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "sayi",
+            "deger": 144
+          },
+          {
+            "tip": "sayi",
+            "deger": 143
+          },
+          {
+            "tip": "sayi",
+            "deger": 142
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t27",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "150, 148, 146, 144, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "142",
+      "secenekler": [
+        "142",
+        "140",
+        "144",
+        "144"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 150
+          },
+          {
+            "tip": "sayi",
+            "deger": 148
+          },
+          {
+            "tip": "sayi",
+            "deger": 146
+          },
+          {
+            "tip": "sayi",
+            "deger": 144
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t28",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "155, 152, 149, 146, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "143",
+      "secenekler": [
+        "140",
+        "145",
+        "146",
+        "143"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 152
+          },
+          {
+            "tip": "sayi",
+            "deger": 149
+          },
+          {
+            "tip": "sayi",
+            "deger": 146
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t29",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "160, 155, 150, 145, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "140",
+      "secenekler": [
+        "145",
+        "142",
+        "135",
+        "140"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 160
+          },
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 150
+          },
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t30",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "165, 155, 145, 135, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "125",
+      "secenekler": [
+        "125",
+        "115",
+        "127",
+        "135"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 165
+          },
+          {
+            "tip": "sayi",
+            "deger": 155
+          },
+          {
+            "tip": "sayi",
+            "deger": 145
+          },
+          {
+            "tip": "sayi",
+            "deger": 135
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t31",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "170, 169, 168, 167, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "166",
+      "secenekler": [
+        "168",
+        "167",
+        "165",
+        "166"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "sayi",
+            "deger": 169
+          },
+          {
+            "tip": "sayi",
+            "deger": 168
+          },
+          {
+            "tip": "sayi",
+            "deger": 167
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t32",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "175, 173, 171, 169, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "167",
+      "secenekler": [
+        "169",
+        "169",
+        "165",
+        "167"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 175
+          },
+          {
+            "tip": "sayi",
+            "deger": 173
+          },
+          {
+            "tip": "sayi",
+            "deger": 171
+          },
+          {
+            "tip": "sayi",
+            "deger": 169
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t33",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "180, 177, 174, 171, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "168",
+      "secenekler": [
+        "168",
+        "171",
+        "165",
+        "170"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 177
+          },
+          {
+            "tip": "sayi",
+            "deger": 174
+          },
+          {
+            "tip": "sayi",
+            "deger": 171
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t34",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "185, 180, 175, 170, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "165",
+      "secenekler": [
+        "165",
+        "167",
+        "170",
+        "160"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 185
+          },
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 175
+          },
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t35",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "190, 180, 170, 160, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "150",
+      "secenekler": [
+        "152",
+        "160",
+        "140",
+        "150"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 190
+          },
+          {
+            "tip": "sayi",
+            "deger": 180
+          },
+          {
+            "tip": "sayi",
+            "deger": 170
+          },
+          {
+            "tip": "sayi",
+            "deger": 160
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t36",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "195, 194, 193, 192, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "191",
+      "secenekler": [
+        "193",
+        "191",
+        "190",
+        "192"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "sayi",
+            "deger": 194
+          },
+          {
+            "tip": "sayi",
+            "deger": 193
+          },
+          {
+            "tip": "sayi",
+            "deger": 192
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t37",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "200, 198, 196, 194, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "192",
+      "secenekler": [
+        "190",
+        "194",
+        "194",
+        "192"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 200
+          },
+          {
+            "tip": "sayi",
+            "deger": 198
+          },
+          {
+            "tip": "sayi",
+            "deger": 196
+          },
+          {
+            "tip": "sayi",
+            "deger": 194
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t38",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "205, 202, 199, 196, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "193",
+      "secenekler": [
+        "190",
+        "195",
+        "193",
+        "196"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 202
+          },
+          {
+            "tip": "sayi",
+            "deger": 199
+          },
+          {
+            "tip": "sayi",
+            "deger": 196
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t39",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "210, 205, 200, 195, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "190",
+      "secenekler": [
+        "192",
+        "190",
+        "195",
+        "185"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 210
+          },
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 200
+          },
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t40",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "215, 205, 195, 185, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "175",
+      "secenekler": [
+        "175",
+        "177",
+        "165",
+        "185"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 215
+          },
+          {
+            "tip": "sayi",
+            "deger": 205
+          },
+          {
+            "tip": "sayi",
+            "deger": 195
+          },
+          {
+            "tip": "sayi",
+            "deger": 185
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t41",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "220, 219, 218, 217, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "216",
+      "secenekler": [
+        "216",
+        "215",
+        "217",
+        "218"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "sayi",
+            "deger": 219
+          },
+          {
+            "tip": "sayi",
+            "deger": 218
+          },
+          {
+            "tip": "sayi",
+            "deger": 217
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t42",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "225, 223, 221, 219, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "217",
+      "secenekler": [
+        "215",
+        "219",
+        "217",
+        "219"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 225
+          },
+          {
+            "tip": "sayi",
+            "deger": 223
+          },
+          {
+            "tip": "sayi",
+            "deger": 221
+          },
+          {
+            "tip": "sayi",
+            "deger": 219
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t43",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "230, 227, 224, 221, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "218",
+      "secenekler": [
+        "221",
+        "218",
+        "215",
+        "220"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 227
+          },
+          {
+            "tip": "sayi",
+            "deger": 224
+          },
+          {
+            "tip": "sayi",
+            "deger": 221
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t44",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "235, 230, 225, 220, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "215",
+      "secenekler": [
+        "217",
+        "215",
+        "220",
+        "210"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 235
+          },
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 225
+          },
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t45",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "240, 230, 220, 210, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "200",
+      "secenekler": [
+        "202",
+        "190",
+        "200",
+        "210"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 240
+          },
+          {
+            "tip": "sayi",
+            "deger": 230
+          },
+          {
+            "tip": "sayi",
+            "deger": 220
+          },
+          {
+            "tip": "sayi",
+            "deger": 210
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    },
+    {
+      "id": "zd2-t46",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "245, 244, 243, 242, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "241",
+      "secenekler": [
+        "243",
+        "241",
+        "242",
+        "240"
+      ],
+      "ipucu": "1er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "sayi",
+            "deger": 244
+          },
+          {
+            "tip": "sayi",
+            "deger": 243
+          },
+          {
+            "tip": "sayi",
+            "deger": 242
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-1"
+      }
+    },
+    {
+      "id": "zd2-t47",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "250, 248, 246, 244, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "242",
+      "secenekler": [
+        "242",
+        "240",
+        "244",
+        "244"
+      ],
+      "ipucu": "2er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 250
+          },
+          {
+            "tip": "sayi",
+            "deger": 248
+          },
+          {
+            "tip": "sayi",
+            "deger": 246
+          },
+          {
+            "tip": "sayi",
+            "deger": 244
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-2"
+      }
+    },
+    {
+      "id": "zd2-t48",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "255, 252, 249, 246, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "243",
+      "secenekler": [
+        "245",
+        "246",
+        "243",
+        "240"
+      ],
+      "ipucu": "3er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 252
+          },
+          {
+            "tip": "sayi",
+            "deger": 249
+          },
+          {
+            "tip": "sayi",
+            "deger": 246
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-3"
+      }
+    },
+    {
+      "id": "zd2-t49",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "260, 255, 250, 245, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "240",
+      "secenekler": [
+        "235",
+        "245",
+        "242",
+        "240"
+      ],
+      "ipucu": "5er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 260
+          },
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 250
+          },
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-5"
+      }
+    },
+    {
+      "id": "zd2-t50",
+      "kazanimKodu": "ZD.2.1.2",
+      "tip": "coktanSecmeli",
+      "soru": "265, 255, 245, 235, ? örüntüsünde eksik sayı hangisidir?",
+      "dogruCevap": "225",
+      "secenekler": [
+        "235",
+        "215",
+        "225",
+        "227"
+      ],
+      "ipucu": "10er azalıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 265
+          },
+          {
+            "tip": "sayi",
+            "deger": 255
+          },
+          {
+            "tip": "sayi",
+            "deger": 245
+          },
+          {
+            "tip": "sayi",
+            "deger": 235
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "-10"
+      }
+    }
+  ]
+}

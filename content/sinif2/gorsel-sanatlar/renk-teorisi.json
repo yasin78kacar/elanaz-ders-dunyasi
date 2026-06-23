@@ -1,0 +1,1877 @@
+{
+  "id": "renk-teorisi",
+  "baslik": "Renk Teorisi",
+  "kazanimKodu": "GS.2.1.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz Görsel Sanatlar dersinde renk teorisi konusunu öğrendi. Renkler, formlar ve sanat teknikleri bir araya gelince güzel eserler ortaya çıkar.",
+        "gorsel": {
+          "tur": "gorsel-sanatlar",
+          "mod": "anlatim",
+          "sahne": "renk-teorisi"
+        }
+      },
+      {
+        "metin": "Öğretmeni malzemeleri tanıttı ve sınıfta birlikte uygulama yaptılar. Elanaz dikkatle dinledi ve kendi çalışmasını oluşturdu.",
+        "gorsel": {
+          "tur": "gorsel-sanatlar",
+          "mod": "anlatim",
+          "sahne": "malzemeler"
+        }
+      },
+      {
+        "metin": "Ders sonunda eserlerini sergilediler. Elanaz sanatın hem eğlenceli hem öğretici olduğunu anladı.",
+        "gorsel": {
+          "tur": "gorsel-sanatlar",
+          "mod": "anlatim",
+          "sahne": "turk-sanatlari"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "gs1-a-e1",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı, mavi ve sarı ......... renklerdir.",
+      "dogruCevap": "ana",
+      "ipucu": "Üç temel renk.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e2",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Turuncu, yeşil ve mor ......... renklerdir.",
+      "dogruCevap": "ara",
+      "ipucu": "Ana renklerin karışımı.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e3",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ve sarı karışınca turuncu oluşur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-a-e4",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi ve sarı karışınca ......... rengi oluşur.",
+      "dogruCevap": "yeşil",
+      "ipucu": "Yaprak rengi.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-a-e5",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sıcak renkler bizi enerjik hissettirir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e6",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi, mor ve yeşil ......... renk grubundadır.",
+      "dogruCevap": "soğuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e7",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Beyaz tüm renkleri üzerinde toplar.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-a-e8",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Siyah tüm renklerin karışımıyla elde edilir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "siyah"
+      }
+    },
+    {
+      "id": "gs1-a-e9",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mor renk mavi ile kırmızının karışımıdır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-a-e10",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Pembe, kırmızının açık tonudur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "pembe"
+      }
+    },
+    {
+      "id": "gs1-a-e11",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Güneş, ateş ve kırmızı elma ......... renk grubundadır.",
+      "dogruCevap": "sıcak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-a-e12",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Deniz, gökyüzü ve kar ......... renk grubundadır.",
+      "dogruCevap": "soğuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-a-e13",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kahverengi toprak ve ağaç gövdesinin rengidir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kahverengi"
+      }
+    },
+    {
+      "id": "gs1-a-e14",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Açık renkler mekânı geniş gösterir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e15",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Koyu renkler derinlik hissi verir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e16",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ana renklerden biridir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e17",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi ana renklerden biridir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e18",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sarı ana renklerden biridir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e19",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Turuncu ara renktir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e20",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Yeşil ara renktir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e21",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mor ara renktir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e22",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Beyaz eklenince renkler açılır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e23",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Siyah eklenince renkler koyulaşır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e24",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ve mavi karışınca mor oluşur.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-a-e25",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sıcak renkler neşe verir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e26",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı, mavi ve sarı ......... renklerdir. (26)",
+      "dogruCevap": "ana",
+      "ipucu": "Üç temel renk.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e27",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Turuncu, yeşil ve mor ......... renklerdir. (26)",
+      "dogruCevap": "ara",
+      "ipucu": "Ana renklerin karışımı.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e28",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ve sarı karışınca turuncu oluşur. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-a-e29",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi ve sarı karışınca ......... rengi oluşur. (26)",
+      "dogruCevap": "yeşil",
+      "ipucu": "Yaprak rengi.",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-a-e30",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sıcak renkler bizi enerjik hissettirir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e31",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi, mor ve yeşil ......... renk grubundadır. (26)",
+      "dogruCevap": "soğuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e32",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Beyaz tüm renkleri üzerinde toplar. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-a-e33",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Siyah tüm renklerin karışımıyla elde edilir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "siyah"
+      }
+    },
+    {
+      "id": "gs1-a-e34",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mor renk mavi ile kırmızının karışımıdır. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-a-e35",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Pembe, kırmızının açık tonudur. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "pembe"
+      }
+    },
+    {
+      "id": "gs1-a-e36",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Güneş, ateş ve kırmızı elma ......... renk grubundadır. (26)",
+      "dogruCevap": "sıcak",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-a-e37",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Deniz, gökyüzü ve kar ......... renk grubundadır. (26)",
+      "dogruCevap": "soğuk",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-a-e38",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kahverengi toprak ve ağaç gövdesinin rengidir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kahverengi"
+      }
+    },
+    {
+      "id": "gs1-a-e39",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Açık renkler mekânı geniş gösterir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e40",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Koyu renkler derinlik hissi verir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e41",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ana renklerden biridir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e42",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mavi ana renklerden biridir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e43",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sarı ana renklerden biridir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e44",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Turuncu ara renktir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e45",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Yeşil ara renktir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e46",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Mor ara renktir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-a-e47",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Beyaz eklenince renkler açılır. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e48",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Siyah eklenince renkler koyulaşır. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-a-e49",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Kırmızı ve mavi karışınca mor oluşur. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-a-e50",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "yazili",
+      "soru": "Sıcak renkler neşe verir. (26)",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "gs1-t-e1",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi ana renktir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Yeşil",
+        "Mor",
+        "Mavi",
+        "Turuncu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e2",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı ve mavi karışınca hangi renk oluşur?",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Mor",
+        "Yeşil",
+        "Turuncu",
+        "Kahverengi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-t-e3",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sıcak renktir?",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Turuncu",
+        "Mor",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e4",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi soğuk renktir?",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Sarı",
+        "Kırmızı",
+        "Turuncu",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e5",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi ara renktir?",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Mavi",
+        "Sarı",
+        "Turuncu",
+        "Kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e6",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beyaz renk ne yapar?",
+      "dogruCevap": "Renkleri açar",
+      "secenekler": [
+        "Koyulaştırır",
+        "Renkleri açar",
+        "Karıştırmaz",
+        "Siler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-t-e7",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sarı ve mavi karışınca ne olur?",
+      "dogruCevap": "Yeşil",
+      "secenekler": [
+        "Pembe",
+        "Mor",
+        "Yeşil",
+        "Turuncu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e8",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı ve sarı karışınca ne olur?",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Turuncu",
+        "Mavi",
+        "Yeşil",
+        "Mor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-t-e9",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sıcak renk örneğidir?",
+      "dogruCevap": "Kırmızı",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Yeşil",
+        "Mor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e10",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi soğuk renk örneğidir?",
+      "dogruCevap": "Yeşil",
+      "secenekler": [
+        "Turuncu",
+        "Kırmızı",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e11",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pembe hangi rengin tonudur?",
+      "dogruCevap": "Kırmızı",
+      "secenekler": [
+        "Siyah",
+        "Mavi",
+        "Yeşil",
+        "Kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "pembe"
+      }
+    },
+    {
+      "id": "gs1-t-e12",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Siyah ne simgeler?",
+      "dogruCevap": "Karanlık",
+      "secenekler": [
+        "Mutluluk",
+        "Su",
+        "Karanlık",
+        "Rüzgar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "siyah"
+      }
+    },
+    {
+      "id": "gs1-t-e13",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Açık tonlar ne hissi verir?",
+      "dogruCevap": "Genişlik",
+      "secenekler": [
+        "Genişlik",
+        "Öfke",
+        "Korku",
+        "Darlık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-t-e14",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Koyu tonlar ne hissi verir?",
+      "dogruCevap": "Derinlik",
+      "secenekler": [
+        "Boşluk",
+        "Hız",
+        "Derinlik",
+        "Gürültü"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-t-e15",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kahverengi hangi nesnelerin rengidir?",
+      "dogruCevap": "Toprak ve ağaç",
+      "secenekler": [
+        "Güneş",
+        "Kar",
+        "Toprak ve ağaç",
+        "Su ve buz"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kahverengi"
+      }
+    },
+    {
+      "id": "gs1-t-e16",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yanlıştır?",
+      "dogruCevap": "Mavi ve sarı mor yapar",
+      "secenekler": [
+        "Beyaz renkleri açar",
+        "Kırmızı sarı turuncu yapar",
+        "Mavi ve sarı mor yapar",
+        "Mavi kırmızı mor yapar"
+      ],
+      "ipucu": "Mavi+sarı=yeşil",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e17",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ana renk sayısı kaçtır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e18",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ara renk sayısı kaçtır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "6",
+        "4",
+        "3",
+        "2"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e19",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Güneş resmi için en uygun renk?",
+      "dogruCevap": "Sarı",
+      "secenekler": [
+        "Sarı",
+        "Mavi",
+        "Siyah",
+        "Mor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e20",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Deniz resmi için uygun renk grubu?",
+      "dogruCevap": "Soğuk",
+      "secenekler": [
+        "Nötr",
+        "Soğuk",
+        "Karanlık",
+        "Sıcak"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e21",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beyaz tüm renkleri toplar mı?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Sadece siyahla",
+        "Sadece kırmızıyla",
+        "Hayır",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-t-e22",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mor hangi renklerin karışımıdır?",
+      "dogruCevap": "Mavi ve kırmızı",
+      "secenekler": [
+        "Yeşil ve mavi",
+        "Kırmızı ve sarı",
+        "Sarı ve mavi",
+        "Mavi ve kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-t-e23",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Turuncu hangi renklerin karışımıdır?",
+      "dogruCevap": "Kırmızı ve sarı",
+      "secenekler": [
+        "Mavi ve kırmızı",
+        "Yeşil ve sarı",
+        "Mavi ve sarı",
+        "Kırmızı ve sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-t-e24",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yeşil hangi renklerin karışımıdır?",
+      "dogruCevap": "Mavi ve sarı",
+      "secenekler": [
+        "Kırmızı ve sarı",
+        "Mavi ve kırmızı",
+        "Sarı ve kırmızı",
+        "Mavi ve sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e25",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sıcak renkler enerji verir mi?",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Bazen",
+        "Evet",
+        "Asla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e26",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi ana renktir? (26)",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Turuncu",
+        "Yeşil",
+        "Mavi",
+        "Mor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e27",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı ve mavi karışınca hangi renk oluşur? (26)",
+      "dogruCevap": "Mor",
+      "secenekler": [
+        "Kahverengi",
+        "Yeşil",
+        "Mor",
+        "Turuncu"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-t-e28",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sıcak renktir? (26)",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Mavi",
+        "Turuncu",
+        "Yeşil",
+        "Mor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e29",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi soğuk renktir? (26)",
+      "dogruCevap": "Mavi",
+      "secenekler": [
+        "Kırmızı",
+        "Sarı",
+        "Turuncu",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e30",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi ara renktir? (26)",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Mavi",
+        "Kırmızı",
+        "Turuncu",
+        "Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e31",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beyaz renk ne yapar? (26)",
+      "dogruCevap": "Renkleri açar",
+      "secenekler": [
+        "Karıştırmaz",
+        "Renkleri açar",
+        "Koyulaştırır",
+        "Siler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-t-e32",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sarı ve mavi karışınca ne olur? (26)",
+      "dogruCevap": "Yeşil",
+      "secenekler": [
+        "Mor",
+        "Pembe",
+        "Turuncu",
+        "Yeşil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e33",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kırmızı ve sarı karışınca ne olur? (26)",
+      "dogruCevap": "Turuncu",
+      "secenekler": [
+        "Mor",
+        "Turuncu",
+        "Mavi",
+        "Yeşil"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-t-e34",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi sıcak renk örneğidir? (26)",
+      "dogruCevap": "Kırmızı",
+      "secenekler": [
+        "Kırmızı",
+        "Mor",
+        "Yeşil",
+        "Mavi"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e35",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi soğuk renk örneğidir? (26)",
+      "dogruCevap": "Yeşil",
+      "secenekler": [
+        "Kırmızı",
+        "Turuncu",
+        "Yeşil",
+        "Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e36",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Pembe hangi rengin tonudur? (26)",
+      "dogruCevap": "Kırmızı",
+      "secenekler": [
+        "Mavi",
+        "Yeşil",
+        "Siyah",
+        "Kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "pembe"
+      }
+    },
+    {
+      "id": "gs1-t-e37",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Siyah ne simgeler? (26)",
+      "dogruCevap": "Karanlık",
+      "secenekler": [
+        "Su",
+        "Mutluluk",
+        "Rüzgar",
+        "Karanlık"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "siyah"
+      }
+    },
+    {
+      "id": "gs1-t-e38",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Açık tonlar ne hissi verir? (26)",
+      "dogruCevap": "Genişlik",
+      "secenekler": [
+        "Genişlik",
+        "Korku",
+        "Darlık",
+        "Öfke"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "acik-tonlar"
+      }
+    },
+    {
+      "id": "gs1-t-e39",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Koyu tonlar ne hissi verir? (26)",
+      "dogruCevap": "Derinlik",
+      "secenekler": [
+        "Hız",
+        "Derinlik",
+        "Gürültü",
+        "Boşluk"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "koyu-tonlar"
+      }
+    },
+    {
+      "id": "gs1-t-e40",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Kahverengi hangi nesnelerin rengidir? (26)",
+      "dogruCevap": "Toprak ve ağaç",
+      "secenekler": [
+        "Su ve buz",
+        "Toprak ve ağaç",
+        "Güneş",
+        "Kar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kahverengi"
+      }
+    },
+    {
+      "id": "gs1-t-e41",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangisi yanlıştır? (26)",
+      "dogruCevap": "Mavi ve sarı mor yapar",
+      "secenekler": [
+        "Beyaz renkleri açar",
+        "Kırmızı sarı turuncu yapar",
+        "Mavi ve sarı mor yapar",
+        "Mavi kırmızı mor yapar"
+      ],
+      "ipucu": "Mavi+sarı=yeşil",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e42",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ana renk sayısı kaçtır? (26)",
+      "dogruCevap": "3",
+      "secenekler": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ana-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e43",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Ara renk sayısı kaçtır? (26)",
+      "dogruCevap": "3",
+      "secenekler": [
+        "4",
+        "6",
+        "3",
+        "2"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "ara-renkler"
+      }
+    },
+    {
+      "id": "gs1-t-e44",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Güneş resmi için en uygun renk? (26)",
+      "dogruCevap": "Sarı",
+      "secenekler": [
+        "Mavi",
+        "Mor",
+        "Siyah",
+        "Sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e45",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Deniz resmi için uygun renk grubu? (26)",
+      "dogruCevap": "Soğuk",
+      "secenekler": [
+        "Soğuk",
+        "Karanlık",
+        "Sıcak",
+        "Nötr"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "soguk-ornek"
+      }
+    },
+    {
+      "id": "gs1-t-e46",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Beyaz tüm renkleri toplar mı? (26)",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Hayır",
+        "Sadece kırmızıyla",
+        "Sadece siyahla",
+        "Evet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "beyaz"
+      }
+    },
+    {
+      "id": "gs1-t-e47",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Mor hangi renklerin karışımıdır? (26)",
+      "dogruCevap": "Mavi ve kırmızı",
+      "secenekler": [
+        "Kırmızı ve sarı",
+        "Yeşil ve mavi",
+        "Sarı ve mavi",
+        "Mavi ve kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mor-karisim"
+      }
+    },
+    {
+      "id": "gs1-t-e48",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Turuncu hangi renklerin karışımıdır? (26)",
+      "dogruCevap": "Kırmızı ve sarı",
+      "secenekler": [
+        "Mavi ve sarı",
+        "Yeşil ve sarı",
+        "Mavi ve kırmızı",
+        "Kırmızı ve sarı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "kirmizi-sari-turuncu"
+      }
+    },
+    {
+      "id": "gs1-t-e49",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yeşil hangi renklerin karışımıdır? (26)",
+      "dogruCevap": "Mavi ve sarı",
+      "secenekler": [
+        "Sarı ve kırmızı",
+        "Kırmızı ve sarı",
+        "Mavi ve sarı",
+        "Mavi ve kırmızı"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "mavi-sari-yesil"
+      }
+    },
+    {
+      "id": "gs1-t-e50",
+      "kazanimKodu": "GS.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sıcak renkler enerji verir mi? (26)",
+      "dogruCevap": "Evet",
+      "secenekler": [
+        "Evet",
+        "Bazen",
+        "Hayır",
+        "Asla"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "gorsel-sanatlar",
+        "mod": "renk",
+        "renk": "sicak-renkler"
+      }
+    }
+  ]
+}

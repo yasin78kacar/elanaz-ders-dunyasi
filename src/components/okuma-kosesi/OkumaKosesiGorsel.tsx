@@ -366,6 +366,15 @@ function SahneSvg({ sahne }: { sahne: string }) {
     case 'ok-tek-basina':
     case 'ok-basari-surus':
       return <BasariSurus />;
+    case 'ok-yildiz':
+      return (
+        <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+          <Baslik text="Yıldızlar" />
+          {[60, 100, 140, 180, 220].map((x, i) => (
+            <SvgText key={i} x={x} y={70} fontSize={22} textAnchor="middle">⭐</SvgText>
+          ))}
+        </Svg>
+      );
     default:
       return (
         <Svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
