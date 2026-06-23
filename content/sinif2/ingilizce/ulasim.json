@@ -1,0 +1,477 @@
+{
+  "id": "ulasim",
+  "baslik": "Transport",
+  "kazanimKodu": "ING.2.8.4",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Elanaz okula otobüsle gitti: \"Go by bus!\" Babası arabayla işe gitti: \"Car!\" Her gün farklı bir taşıt kullanıyorlardı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-1"
+        }
+      },
+      {
+        "metin": "Tatilde trene bindiler: \"Train!\" Uçakla gökyüzüne çıktılar: \"Plane!\" Gemiyle denize açıldılar: \"Ship!\" Transport kelimesi tüm taşıtları kapsıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-2"
+        }
+      },
+      {
+        "metin": "Berk bisikletine bindi: \"Bike!\" Motosiklet gördü: \"Motorcycle!\" Taşıtları İngilizce öğrenmek yolculukları daha eğlenceli yapıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ul-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ul-a1",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Araba kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "car",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-araba"
+      }
+    },
+    {
+      "id": "ul-a2",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Otobüs İngilizcede \"Bus\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-otobus"
+      }
+    },
+    {
+      "id": "ul-a3",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Tren kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "train",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tren"
+      }
+    },
+    {
+      "id": "ul-a4",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Uçak İngilizcede \"Plane\" veya \"Airplane\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucak"
+      }
+    },
+    {
+      "id": "ul-a5",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Bisiklet kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "bike",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bisiklet"
+      }
+    },
+    {
+      "id": "ul-a6",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Gemi İngilizcede \"Ship\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gemi"
+      }
+    },
+    {
+      "id": "ul-a7",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Motosiklet kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "motorcycle",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "motosiklet"
+      }
+    },
+    {
+      "id": "ul-a8",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "\"Car\" kelimesi araba demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-araba"
+      }
+    },
+    {
+      "id": "ul-a9",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Okula otobüsle giderken \".........\" kullanırız.",
+      "dogruCevap": "bus",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okul-otobusu"
+      }
+    },
+    {
+      "id": "ul-a10",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Tren raylarda gider.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tren-ray"
+      }
+    },
+    {
+      "id": "ul-a11",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Taşıtlar kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "transport",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tasitlar-grup"
+      }
+    },
+    {
+      "id": "ul-a12",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "\"Plane\" kelimesi uçak demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucak-gokyuzu"
+      }
+    },
+    {
+      "id": "ul-a13",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "yazili",
+      "soru": "Denizde yüzen büyük taşıta \".........\" deriz.",
+      "dogruCevap": "ship",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gemi-deniz"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ul-t1",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Arabanın İngilizcesi nedir?",
+      "dogruCevap": "Car",
+      "secenekler": [
+        "Ship",
+        "Bus",
+        "Car",
+        "Train"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "mavi-araba"
+      }
+    },
+    {
+      "id": "ul-t2",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Otobüsün İngilizcesi hangisidir?",
+      "dogruCevap": "Bus",
+      "secenekler": [
+        "Car",
+        "Plane",
+        "Bike",
+        "Bus"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "sari-otobus"
+      }
+    },
+    {
+      "id": "ul-t3",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Trenin İngilizcesi nedir?",
+      "dogruCevap": "Train",
+      "secenekler": [
+        "Car",
+        "Train",
+        "Ship",
+        "Plane"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tren"
+      }
+    },
+    {
+      "id": "ul-t4",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Uçağın İngilizcesi hangisidir?",
+      "dogruCevap": "Plane",
+      "secenekler": [
+        "Ship",
+        "Bike",
+        "Bus",
+        "Plane"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucak"
+      }
+    },
+    {
+      "id": "ul-t5",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Bisikletin İngilizcesi nedir?",
+      "dogruCevap": "Bike",
+      "secenekler": [
+        "Train",
+        "Car",
+        "Ship",
+        "Bike"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "bisiklet-park"
+      }
+    },
+    {
+      "id": "ul-t6",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Geminin İngilizcesi hangisidir?",
+      "dogruCevap": "Ship",
+      "secenekler": [
+        "Car",
+        "Ship",
+        "Bus",
+        "Plane"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gemi-deniz"
+      }
+    },
+    {
+      "id": "ul-t7",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Motosikletin İngilizcesi nedir?",
+      "dogruCevap": "Motorcycle",
+      "secenekler": [
+        "Car",
+        "Bus",
+        "Motorcycle",
+        "Bicycle"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "motosiklet"
+      }
+    },
+    {
+      "id": "ul-t8",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Ulaşım kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Transport",
+      "secenekler": [
+        "Transport",
+        "Toy",
+        "Sport",
+        "Job"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tasitlar-grup"
+      }
+    },
+    {
+      "id": "ul-t9",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Okula otobüsle gitmek İngilizcede nasıl söylenir?",
+      "dogruCevap": "Go by bus",
+      "secenekler": [
+        "Go by ship",
+        "Go by plane",
+        "Go by bus",
+        "Go by train only"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "okul-otobusu"
+      }
+    },
+    {
+      "id": "ul-t10",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Gökyüzünde uçan taşıt hangisidir?",
+      "dogruCevap": "Plane",
+      "secenekler": [
+        "Ship",
+        "Train",
+        "Car",
+        "Plane"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ucak-gokyuzu"
+      }
+    },
+    {
+      "id": "ul-t11",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Denizde giden taşıt hangisidir?",
+      "dogruCevap": "Ship",
+      "secenekler": [
+        "Bus",
+        "Ship",
+        "Car",
+        "Bike"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gemi"
+      }
+    },
+    {
+      "id": "ul-t12",
+      "kazanimKodu": "ING.2.8.4",
+      "tip": "coktanSecmeli",
+      "soru": "Raylarda giden taşıt hangisidir?",
+      "dogruCevap": "Train",
+      "secenekler": [
+        "Ship",
+        "Plane",
+        "Train",
+        "Car"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tren-ray"
+      }
+    }
+  ]
+}

@@ -58,6 +58,7 @@ import theme4Json from '../data/english/theme4.json';
 import theme5Json from '../data/english/theme5.json';
 import theme6Json from '../data/english/theme6.json';
 import theme7Json from '../data/english/theme7.json';
+import theme8Json from '../data/english/theme8.json';
 import tema3Json from '../data/math/tema3.json';
 import tema4Json from '../data/math/tema4.json';
 import tema5Json from '../data/math/tema5.json';
@@ -98,6 +99,9 @@ const [eylemlerKonuIng, okulHobilerGunlukKonu] = theme6Ing.konular;
 
 const theme7Ing = theme7Json as EnglishTheme;
 const [havaDurumuKonuIng, giyimEsyalariKonuIng, oyuncaklarKonu, mevsimlerIngKonu] = theme7Ing.konular;
+
+const theme8Ing = theme8Json as EnglishTheme;
+const [sporlarKonu, enstrumanlarKonu, mesleklerIngKonu, ulasimKonu] = theme8Ing.konular;
 
 const konuDosyalari: Record<string, Konu> = {
   'matematik/ritmik-sayma.json': ritmikSayma as Konu,
@@ -177,6 +181,10 @@ const konuDosyalari: Record<string, Konu> = {
   'ingilizce/giyim-esyalari.json': giyimEsyalariKonuIng,
   'ingilizce/oyuncaklar.json': oyuncaklarKonu,
   'ingilizce/mevsimler-ing.json': mevsimlerIngKonu,
+  'ingilizce/sporlar.json': sporlarKonu,
+  'ingilizce/enstrumanlar.json': enstrumanlarKonu,
+  'ingilizce/meslekler-ing.json': mesleklerIngKonu,
+  'ingilizce/ulasim.json': ulasimKonu,
   'gorsel-sanatlar/gorsel-sanatlar.json': gorselSanatlarJson as Konu,
   'zeka-dikkat/zeka-ve-dikkat.json': zekaVeDikkatJson as Konu,
 };

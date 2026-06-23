@@ -1,0 +1,477 @@
+{
+  "id": "meslekler",
+  "baslik": "Jobs",
+  "kazanimKodu": "ING.2.8.3",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Sınıfta meslek panosu vardı. Doctor, Teacher, Police officer! Her meslek farklı bir iş yapıyordu. \"What is your job?\" diye sordular birbirlerine.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ms-anlatim-1"
+        }
+      },
+      {
+        "metin": "İtfaiyeci Firefighter yangını söndürdü. Aşçı Chef lezzetli yemek yaptı. Çiftçi Farmer tarlaya ekti. Jobs kelimesi tüm meslekleri kapsıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ms-anlatim-2"
+        }
+      },
+      {
+        "metin": "Elanaz \"I want to be a doctor!\" dedi. Berk \"My dream job is teacher!\" diye cevap verdi. Meslekleri İngilizce öğrenmek geleceğe hazırlıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "ms-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "ms-a1",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Meslek kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "job",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "meslekler-panosu"
+      }
+    },
+    {
+      "id": "ms-a2",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Doktor İngilizcede \"Doctor\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "doktor"
+      }
+    },
+    {
+      "id": "ms-a3",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Öğretmen kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "teacher",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "ms-a4",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Polis İngilizcede \"Police officer\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "polis"
+      }
+    },
+    {
+      "id": "ms-a5",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "İtfaiyeci kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "firefighter",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "itfaiyeci"
+      }
+    },
+    {
+      "id": "ms-a6",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Aşçı İngilizcede \"Chef\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "asci"
+      }
+    },
+    {
+      "id": "ms-a7",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Çiftçi kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "farmer",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ciftci"
+      }
+    },
+    {
+      "id": "ms-a8",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "\"Doctor\" kelimesi doktor demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "doktor-stetoskop"
+      }
+    },
+    {
+      "id": "ms-a9",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Hastaları tedavi eden kişiye \".........\" deriz.",
+      "dogruCevap": "doctor",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "doktor"
+      }
+    },
+    {
+      "id": "ms-a10",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Öğretmen okulda ders anlatır.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen-masa"
+      }
+    },
+    {
+      "id": "ms-a11",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Meslekler kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "jobs",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "meslekler-panosu"
+      }
+    },
+    {
+      "id": "ms-a12",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "\"Teacher\" kelimesi öğretmen demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "ms-a13",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "yazili",
+      "soru": "Yangın söndüren kişiye \".........\" deriz.",
+      "dogruCevap": "firefighter",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "itfaiyeci"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "ms-t1",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Doktor kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Doctor",
+      "secenekler": [
+        "Farmer",
+        "Doctor",
+        "Chef",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "doktor"
+      }
+    },
+    {
+      "id": "ms-t2",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Öğretmenin İngilizcesi hangisidir?",
+      "dogruCevap": "Teacher",
+      "secenekler": [
+        "Teacher",
+        "Doctor",
+        "Firefighter",
+        "Police officer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen"
+      }
+    },
+    {
+      "id": "ms-t3",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Polisin İngilizcesi nedir?",
+      "dogruCevap": "Police officer",
+      "secenekler": [
+        "Doctor",
+        "Chef",
+        "Police officer",
+        "Farmer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "polis"
+      }
+    },
+    {
+      "id": "ms-t4",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "İtfaiyecinin İngilizcesi hangisidir?",
+      "dogruCevap": "Firefighter",
+      "secenekler": [
+        "Doctor",
+        "Chef",
+        "Firefighter",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "itfaiyeci"
+      }
+    },
+    {
+      "id": "ms-t5",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Aşçının İngilizcesi nedir?",
+      "dogruCevap": "Chef",
+      "secenekler": [
+        "Farmer",
+        "Teacher",
+        "Doctor",
+        "Chef"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "asci"
+      }
+    },
+    {
+      "id": "ms-t6",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Çiftçinin İngilizcesi hangisidir?",
+      "dogruCevap": "Farmer",
+      "secenekler": [
+        "Chef",
+        "Farmer",
+        "Police officer",
+        "Doctor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ciftci"
+      }
+    },
+    {
+      "id": "ms-t7",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Meslek kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Job",
+      "secenekler": [
+        "Sport",
+        "Toy",
+        "Job",
+        "Shape"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "meslekler-panosu"
+      }
+    },
+    {
+      "id": "ms-t8",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Hastaları tedavi eden meslek hangisidir?",
+      "dogruCevap": "Doctor",
+      "secenekler": [
+        "Teacher",
+        "Chef",
+        "Doctor",
+        "Farmer"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "doktor-stetoskop"
+      }
+    },
+    {
+      "id": "ms-t9",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Okulda ders anlatan meslek hangisidir?",
+      "dogruCevap": "Teacher",
+      "secenekler": [
+        "Doctor",
+        "Firefighter",
+        "Chef",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ogretmen-masa"
+      }
+    },
+    {
+      "id": "ms-t10",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yangın söndüren meslek hangisidir?",
+      "dogruCevap": "Firefighter",
+      "secenekler": [
+        "Firefighter",
+        "Teacher",
+        "Police officer",
+        "Doctor"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "itfaiyeci-arac"
+      }
+    },
+    {
+      "id": "ms-t11",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "\"Jobs\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Meslekler",
+      "secenekler": [
+        "Sporlar",
+        "Oyuncaklar",
+        "Meslekler",
+        "Renkler"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "meslekler-grup"
+      }
+    },
+    {
+      "id": "ms-t12",
+      "kazanimKodu": "ING.2.8.3",
+      "tip": "coktanSecmeli",
+      "soru": "Yemek yapan meslek hangisidir?",
+      "dogruCevap": "Chef",
+      "secenekler": [
+        "Farmer",
+        "Chef",
+        "Doctor",
+        "Teacher"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "asci-mutfak"
+      }
+    }
+  ]
+}

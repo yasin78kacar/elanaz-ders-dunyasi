@@ -1,0 +1,477 @@
+{
+  "id": "sporlar",
+  "baslik": "Sports",
+  "kazanimKodu": "ING.2.8.1",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Berk ve Yusuf spor parkında çok eğleniyordu. Berk koştu: \"Run!\" Yusuf zıpladı: \"Jump!\" Can yüzdü: \"Swim!\" Spor yapmak İngilizcede harikaydı.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sp-anlatim-1"
+        }
+      },
+      {
+        "metin": "Okul bahçesinde futbol oynadılar. \"Play football!\" dedi öğretmen. Turuncu basketbol topuyla \"Basketball\" ve fileyle \"Volleyball\" öğrendiler.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sp-anlatim-2"
+        }
+      },
+      {
+        "metin": "Tenis kortunda raket salladılar: \"Tennis!\" Bisiklete bindiler: \"Ride a bike!\" Sports kelimesi tüm sporları kapsıyordu. Her gün yeni bir spor öğrenmek çok eğlenceliydi!",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "sp-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "sp-a1",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Spor kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "sport",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "sp-a2",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Futbol İngilizcede \"Football\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "sp-a3",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Basketbol kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "basketball",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-basketbol"
+      }
+    },
+    {
+      "id": "sp-a4",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Yüzmek İngilizcede \"Swim\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuzme-havuz"
+      }
+    },
+    {
+      "id": "sp-a5",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Koşmak kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "run",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hizli-kosan-sporcu"
+      }
+    },
+    {
+      "id": "sp-a6",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Tenis İngilizcede \"Tennis\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tenis-raketi"
+      }
+    },
+    {
+      "id": "sp-a7",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Voleybol kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "volleyball",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "voleybol-topu"
+      }
+    },
+    {
+      "id": "sp-a8",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "\"Run\" kelimesi koşmak anlamına gelir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kosu-parkur"
+      }
+    },
+    {
+      "id": "sp-a9",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Bisiklet sürmek İngilizcede \"Ride a .........\" olarak söylenir.",
+      "dogruCevap": "bike",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bisiklet"
+      }
+    },
+    {
+      "id": "sp-a10",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Futbol oynamak \"Play football\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-oynayan"
+      }
+    },
+    {
+      "id": "sp-a11",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Sporlar kelimesinin İngilizcesi \".........\" kelimesidir.",
+      "dogruCevap": "sports",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spor-sahasi"
+      }
+    },
+    {
+      "id": "sp-a12",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "\"Swim\" kelimesi yüzmek demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuzme-havuz"
+      }
+    },
+    {
+      "id": "sp-a13",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "yazili",
+      "soru": "Zıplamak kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "jump",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan-cocuk"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "sp-t1",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Futbol kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Football",
+      "secenekler": [
+        "Tennis",
+        "Swimming",
+        "Basketball",
+        "Football"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-topu"
+      }
+    },
+    {
+      "id": "sp-t2",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Basketbol topunun İngilizcesi hangisidir?",
+      "dogruCevap": "Basketball",
+      "secenekler": [
+        "Tennis",
+        "Volleyball",
+        "Basketball",
+        "Football"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-basketbol"
+      }
+    },
+    {
+      "id": "sp-t3",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Yüzmek İngilizcede nasıl söylenir?",
+      "dogruCevap": "Swim",
+      "secenekler": [
+        "Jump",
+        "Draw",
+        "Swim",
+        "Run"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "yuzme-havuz"
+      }
+    },
+    {
+      "id": "sp-t4",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Koşmak kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Run",
+      "secenekler": [
+        "Read",
+        "Run",
+        "Sleep",
+        "Eat"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "hizli-kosan-sporcu"
+      }
+    },
+    {
+      "id": "sp-t5",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Tenis sporunun İngilizcesi hangisidir?",
+      "dogruCevap": "Tennis",
+      "secenekler": [
+        "Volleyball",
+        "Football",
+        "Tennis",
+        "Basketball"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "tenis-raketi"
+      }
+    },
+    {
+      "id": "sp-t6",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Voleybol kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Volleyball",
+      "secenekler": [
+        "Football",
+        "Basketball",
+        "Tennis",
+        "Volleyball"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "voleybol-topu"
+      }
+    },
+    {
+      "id": "sp-t7",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Futbol oynamak İngilizcede nasıl ifade edilir?",
+      "dogruCevap": "Play football",
+      "secenekler": [
+        "Play football",
+        "Play piano",
+        "Play food",
+        "Play school"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "futbol-oynayan"
+      }
+    },
+    {
+      "id": "sp-t8",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Sporlar kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Sports",
+      "secenekler": [
+        "Jobs",
+        "Toys",
+        "Colors",
+        "Sports"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "spor-sahasi"
+      }
+    },
+    {
+      "id": "sp-t9",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Zıplamak İngilizcede hangi kelimeyle söylenir?",
+      "dogruCevap": "Jump",
+      "secenekler": [
+        "Jump",
+        "Run",
+        "Swim",
+        "Sleep"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "ziplayan-cocuk"
+      }
+    },
+    {
+      "id": "sp-t10",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Bisiklet sürmek İngilizcede nasıl söylenir?",
+      "dogruCevap": "Ride a bike",
+      "secenekler": [
+        "Read a book",
+        "Go swimming",
+        "Ride a bike",
+        "Play football"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "oyuncak-bisiklet"
+      }
+    },
+    {
+      "id": "sp-t11",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "\"Run\" ve \"Jump\" kelimeleri ne tür eylemlerdir?",
+      "dogruCevap": "Spor eylemleri",
+      "secenekler": [
+        "Uyku eylemleri",
+        "Renk eylemleri",
+        "Yemek eylemleri",
+        "Spor eylemleri"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "kosu-havuz"
+      }
+    },
+    {
+      "id": "sp-t12",
+      "kazanimKodu": "ING.2.8.1",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi top turuncu renklidir?",
+      "dogruCevap": "Basketball",
+      "secenekler": [
+        "Football",
+        "Volleyball",
+        "Basketball",
+        "Tennis ball"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "turuncu-basketbol"
+      }
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": "enstrumanlar",
+  "baslik": "Instruments",
+  "kazanimKodu": "ING.2.8.2",
+  "anlatim": {
+    "ekranlar": [
+      {
+        "metin": "Müzik sınıfında Elanaz piyanoya dokundu: \"Piano!\" Berk gitar çaldı: \"Guitar!\" Öğretmen keman gösterdi: \"Violin!\" Musical instruments çok eğlenceliydi.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "en-anlatim-1"
+        }
+      },
+      {
+        "metin": "Davula vurdular: \"Drum!\" Flüt üflediler: \"Flute!\" Trompet sesi sınıfı doldurdu. Her enstrüman farklı ve güzel bir ses çıkarıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "en-anlatim-2"
+        }
+      },
+      {
+        "metin": "Orkestra konserinde birçok instrument bir arada çaldı. \"Play the piano, play the guitar!\" İngilizce enstrüman adları müziği daha da renkli yapıyordu.",
+        "gorsel": {
+          "tur": "ingilizce",
+          "mod": "anlatim",
+          "sahne": "en-anlatim-3"
+        }
+      }
+    ]
+  },
+  "alistirma": [
+    {
+      "id": "en-a1",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Enstrüman kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "instrument",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-enstrumanlari"
+      }
+    },
+    {
+      "id": "en-a2",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Piyano İngilizcede \"Piano\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    },
+    {
+      "id": "en-a3",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Gitar kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "guitar",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gitar-calan"
+      }
+    },
+    {
+      "id": "en-a4",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Keman İngilizcede \"Violin\" olarak söylenir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "keman-calan"
+      }
+    },
+    {
+      "id": "en-a5",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Davul kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "drum",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "davul-calan"
+      }
+    },
+    {
+      "id": "en-a6",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Flüt İngilizcede \"Flute\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "flut-calan"
+      }
+    },
+    {
+      "id": "en-a7",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Trompet kelimesinin İngilizcesi ......... kelimesidir.",
+      "dogruCevap": "trumpet",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "trompet-calan"
+      }
+    },
+    {
+      "id": "en-a8",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Piano\" kelimesi piyano demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    },
+    {
+      "id": "en-a9",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Müzik aletleri İngilizcede \"Musical .........\" olarak adlandırılır.",
+      "dogruCevap": "instruments",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-enstrumanlari"
+      }
+    },
+    {
+      "id": "en-a10",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Gitar çalmak \"Play the guitar\" demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gitar-calan"
+      }
+    },
+    {
+      "id": "en-a11",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Piyano çalmak İngilizcede \"Play the .........\" olarak söylenir.",
+      "dogruCevap": "piano",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-calan"
+      }
+    },
+    {
+      "id": "en-a12",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "\"Drum\" kelimesi davul demektir.",
+      "dogruCevap": "Doğru",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "alternatifCevaplar": [
+        "Evet",
+        "evet",
+        "doğru"
+      ],
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "davul-calan"
+      }
+    },
+    {
+      "id": "en-a13",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "yazili",
+      "soru": "Keman çalan kişiye \".........\" player deriz.",
+      "dogruCevap": "violin",
+      "ipucu": "",
+      "cevapTipi": "metin",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "keman-calan"
+      }
+    }
+  ],
+  "test": [
+    {
+      "id": "en-t1",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Piyanonun İngilizcesi nedir?",
+      "dogruCevap": "Piano",
+      "secenekler": [
+        "Drum",
+        "Flute",
+        "Guitar",
+        "Piano"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    },
+    {
+      "id": "en-t2",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gitar kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Guitar",
+      "secenekler": [
+        "Piano",
+        "Violin",
+        "Guitar",
+        "Trumpet"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gitar-calan"
+      }
+    },
+    {
+      "id": "en-t3",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Kemanın İngilizcesi nedir?",
+      "dogruCevap": "Violin",
+      "secenekler": [
+        "Drum",
+        "Guitar",
+        "Violin",
+        "Flute"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "keman-calan"
+      }
+    },
+    {
+      "id": "en-t4",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Davul kelimesinin İngilizcesi hangisidir?",
+      "dogruCevap": "Drum",
+      "secenekler": [
+        "Piano",
+        "Drum",
+        "Flute",
+        "Guitar"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "davul-calan"
+      }
+    },
+    {
+      "id": "en-t5",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Flütün İngilizcesi nedir?",
+      "dogruCevap": "Flute",
+      "secenekler": [
+        "Trumpet",
+        "Drum",
+        "Flute",
+        "Violin"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "flut-calan"
+      }
+    },
+    {
+      "id": "en-t6",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Trompetin İngilizcesi hangisidir?",
+      "dogruCevap": "Trumpet",
+      "secenekler": [
+        "Trumpet",
+        "Piano",
+        "Guitar",
+        "Flute"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "trompet-calan"
+      }
+    },
+    {
+      "id": "en-t7",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Enstrüman kelimesinin İngilizcesi nedir?",
+      "dogruCevap": "Instrument",
+      "secenekler": [
+        "Instrument",
+        "Sport",
+        "Job",
+        "Toy"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-enstrumanlari"
+      }
+    },
+    {
+      "id": "en-t8",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Piyano çalmak İngilizcede nasıl söylenir?",
+      "dogruCevap": "Play the piano",
+      "secenekler": [
+        "Go to school",
+        "Play football",
+        "Ride a bike",
+        "Play the piano"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-calan"
+      }
+    },
+    {
+      "id": "en-t9",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Gitar çalmak İngilizcede nasıl ifade edilir?",
+      "dogruCevap": "Play the guitar",
+      "secenekler": [
+        "Play tennis",
+        "Play the drum",
+        "Play the guitar",
+        "Play school"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "gitar-calan"
+      }
+    },
+    {
+      "id": "en-t10",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Müzik aletleri İngilizcede nasıl adlandırılır?",
+      "dogruCevap": "Musical instruments",
+      "secenekler": [
+        "Toys",
+        "School supplies",
+        "Musical instruments",
+        "Sports equipment"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "muzik-sinifi"
+      }
+    },
+    {
+      "id": "en-t11",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "\"Drum\" kelimesinin anlamı nedir?",
+      "dogruCevap": "Davul",
+      "secenekler": [
+        "Keman",
+        "Gitar",
+        "Davul",
+        "Flüt"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "davul-vuran"
+      }
+    },
+    {
+      "id": "en-t12",
+      "kazanimKodu": "ING.2.8.2",
+      "tip": "coktanSecmeli",
+      "soru": "Hangi enstrüman tuşludur?",
+      "dogruCevap": "Piano",
+      "secenekler": [
+        "Guitar",
+        "Piano",
+        "Flute",
+        "Drum"
+      ],
+      "ipucu": "",
+      "gorsel": {
+        "tur": "ingilizce",
+        "mod": "nesne",
+        "nesne": "piyano-tuslari"
+      }
+    }
+  ]
+}

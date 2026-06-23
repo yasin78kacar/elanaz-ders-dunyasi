@@ -81,7 +81,10 @@ import { giyimEsyalari, mevsimlerIng } from './gorev-ing-tema4-clothes-questions
 import { renkler, duygular } from './gorev-ing-tema4-questions.mjs';
 import { hayvanlar as hayvanlarIng, yiyecekler, sekiller, vucudBolumleri } from './gorev-ing-tema5-questions.mjs';
 import { eylemler, okulHobilerGunluk } from './gorev-ing-tema6-questions.mjs';
-import { havaDurumu, oyuncaklar } from './gorev-ing-tema7-questions.mjs';
+import { giyimEsyalari as giyimT7, havaDurumu as havaT7, mevsimlerIng as mevsimT7, oyuncaklar } from './gorev-ing-tema7-questions.mjs';
+import { spor, meslekler, enstrumanlar, ulasim } from './gorev-ing-tema8-questions.mjs';
+import { tatiller, odalar, dersler, sayilar1120 } from './gorev-ing-tema9-questions.mjs';
+import { sporlar, enstrumanlar, meslekler, ulasim } from './gorev-ing-tema8-questions.mjs';
 import { yazTuruHikaye, yazTuruSiir } from './gorev-turkce5-questions.mjs';
 import { olaySirasiMetin, olaySirasiZaman } from './gorev-turkce8-questions.mjs';
 import { okumaKosesiHikayeleri } from './gorev-okuma-kosesi-hikayeler.mjs';
@@ -570,14 +573,32 @@ const okulHobilerGunlukKonu = okulHobilerGunluk(karistir);
 writeFileSync(join(ingDir, 'eylemler.json'), JSON.stringify(eylemlerKonuIng, null, 2));
 writeFileSync(join(ingDir, 'okul-hobiler-gunluk.json'), JSON.stringify(okulHobilerGunlukKonu, null, 2));
 
-const havaDurumuKonuIng = konuParca(havaDurumu);
-const giyimEsyalariKonuIng = konuParca(giyimEsyalari);
-const mevsimlerIngKonuParca = konuParca(mevsimlerIng);
+const havaDurumuKonuIng = konuParca(havaT7);
+const giyimEsyalariKonuIng = konuParca(giyimT7);
+const mevsimlerIngKonuParca = konuParca(mevsimT7);
 const oyuncaklarKonu = konuParca(oyuncaklar);
 writeFileSync(join(ingDir, 'hava-durumu.json'), JSON.stringify(havaDurumuKonuIng, null, 2));
 writeFileSync(join(ingDir, 'giyim-esyalari.json'), JSON.stringify(giyimEsyalariKonuIng, null, 2));
 writeFileSync(join(ingDir, 'mevsimler-ing.json'), JSON.stringify(mevsimlerIngKonuParca, null, 2));
 writeFileSync(join(ingDir, 'oyuncaklar.json'), JSON.stringify(oyuncaklarKonu, null, 2));
+
+const sporKonu = konuParca(spor);
+const mesleklerKonu = konuParca(meslekler);
+const enstrumanlarKonu = konuParca(enstrumanlar);
+const ulasimKonu = konuParca(ulasim);
+writeFileSync(join(ingDir, 'spor.json'), JSON.stringify(sporKonu, null, 2));
+writeFileSync(join(ingDir, 'meslekler-ing.json'), JSON.stringify(mesleklerKonu, null, 2));
+writeFileSync(join(ingDir, 'enstrumanlar.json'), JSON.stringify(enstrumanlarKonu, null, 2));
+writeFileSync(join(ingDir, 'ulasim.json'), JSON.stringify(ulasimKonu, null, 2));
+
+const tatillerKonu = konuParca(tatiller);
+const odalarKonu = konuParca(odalar);
+const derslerKonu = konuParca(dersler);
+const sayilar1120Konu = konuParca(sayilar1120);
+writeFileSync(join(ingDir, 'tatiller.json'), JSON.stringify(tatillerKonu, null, 2));
+writeFileSync(join(ingDir, 'odalar.json'), JSON.stringify(odalarKonu, null, 2));
+writeFileSync(join(ingDir, 'dersler-ing.json'), JSON.stringify(derslerKonu, null, 2));
+writeFileSync(join(ingDir, 'sayilar-11-20.json'), JSON.stringify(sayilar1120Konu, null, 2));
 
 const theme3Ing = {
   id: 'tema-3',
@@ -613,6 +634,22 @@ const theme7Ing = {
   konular: [havaDurumuKonuIng, giyimEsyalariKonuIng, oyuncaklarKonu, mevsimlerIngKonuParca],
 };
 writeFileSync(join(englishDataDir, 'theme7.json'), JSON.stringify(theme7Ing, null, 2));
+
+const sporlarKonu = konuParca(sporlar);
+const enstrumanlarKonu = konuParca(enstrumanlar);
+const mesleklerKonu = konuParca(meslekler);
+const ulasimKonu = konuParca(ulasim);
+writeFileSync(join(ingDir, 'sporlar.json'), JSON.stringify(sporlarKonu, null, 2));
+writeFileSync(join(ingDir, 'enstrumanlar.json'), JSON.stringify(enstrumanlarKonu, null, 2));
+writeFileSync(join(ingDir, 'meslekler-ing.json'), JSON.stringify(mesleklerKonu, null, 2));
+writeFileSync(join(ingDir, 'ulasim.json'), JSON.stringify(ulasimKonu, null, 2));
+
+const theme8Ing = {
+  id: 'tema-8',
+  baslik: 'İngilizce — Tema 8',
+  konular: [sporlarKonu, enstrumanlarKonu, mesleklerKonu, ulasimKonu],
+};
+writeFileSync(join(englishDataDir, 'theme8.json'), JSON.stringify(theme8Ing, null, 2));
 
 const tema3 = {
   id: 'tema-3',
@@ -928,6 +965,16 @@ const index = {
             'ingilizce/giyim-esyalari.json',
             'ingilizce/oyuncaklar.json',
             'ingilizce/mevsimler-ing.json',
+          ],
+        },
+        {
+          id: 'tema-8',
+          baslik: 'İngilizce — Tema 8',
+          konuDosyalari: [
+            'ingilizce/sporlar.json',
+            'ingilizce/enstrumanlar.json',
+            'ingilizce/meslekler-ing.json',
+            'ingilizce/ulasim.json',
           ],
         },
       ] },
