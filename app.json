@@ -35,6 +35,19 @@
     },
     "updates": {
       "url": "https://u.expo.dev/22548fb0-a061-4c3e-b03f-5c7516bf42ab"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "lang": "tr",
+      "name": "Elanaz'ın Ders Dünyası",
+      "shortName": "Ders Dünyası",
+      "description": "2. sınıf öğrencileri için interaktif dersler, 7500+ soru ve oyunlaştırma. Çevrimdışı çalışır.",
+      "themeColor": "#4A90D9",
+      "backgroundColor": "#FFF8F0",
+      "display": "standalone",
+      "orientation": "portrait",
+      "favicon": "./assets/images/A_simple_app_logo_on_202606121017.jpeg"
     }
   }
 }
