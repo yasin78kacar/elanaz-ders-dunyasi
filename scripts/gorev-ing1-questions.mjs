@@ -167,7 +167,48 @@ function test(karistir) {
   return s;
 }
 
+function secenekleriTemizle(secenekler) {
+  return secenekler.map((s) => s.replace(/^[A-D]\)\s*/, ''));
+}
+
+function sampleTest(karistir) {
+  const mc = (id, soru, raw, harf, gorsel) => {
+    const secenekler = secenekleriTemizle(raw);
+    return {
+      id,
+      kazanimKodu: KAZANIM,
+      tip: 'coktanSecmeli',
+      soru,
+      dogruCevap: secenekler[harf.charCodeAt(0) - 65],
+      secenekler: karistir(secenekler),
+      ipucu: '',
+      gorsel,
+    };
+  };
+
+  return [
+    mc(
+      'en_t1_01',
+      'Which letter is missing in the alphabet sequence? \n A - B - C - (...) - E',
+      ['A) F', 'B) D', 'C) G', 'D) H'],
+      'B',
+      nesne('alfabe-tablosu'),
+    ),
+    mc(
+      'en_t1_02',
+      'What is the first letter of the word in the picture?',
+      ['A) B', 'B) A', 'C) C', 'D) E'],
+      'B',
+      nesne('kirmizi-elma'),
+    ),
+  ];
+}
+
 export function alfabeVeRenkler(karistir) {
+  const baseTest = test(karistir);
+  const mevcutIdler = new Set(baseTest.map((s) => s.id));
+  const ornekTest = sampleTest(karistir).filter((s) => !mevcutIdler.has(s.id));
+
   return {
     id: 'alfabe-ve-renkler',
     baslik: 'Alphabet and Colors',
@@ -192,6 +233,6 @@ export function alfabeVeRenkler(karistir) {
       ],
     },
     alistirma: alistirma(),
-    test: test(karistir),
+    test: [...baseTest, ...ornekTest],
   };
 }

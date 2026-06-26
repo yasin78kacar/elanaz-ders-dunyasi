@@ -167,7 +167,55 @@ function test(karistir) {
   return s;
 }
 
+function secenekleriTemizle(secenekler) {
+  return secenekler.map((s) => s.replace(/^[A-D]\)\s*/, ''));
+}
+
+function sampleTest(karistir) {
+  const mc = (id, soru, raw, harf, gorsel) => {
+    const secenekler = secenekleriTemizle(raw);
+    return {
+      id,
+      kazanimKodu: KAZANIM,
+      tip: 'coktanSecmeli',
+      soru,
+      dogruCevap: secenekler[harf.charCodeAt(0) - 65],
+      secenekler: karistir(secenekler),
+      ipucu: '',
+      gorsel,
+    };
+  };
+
+  return [
+    mc(
+      'en_t2_01',
+      'How many pencils are there in the box?',
+      ['A) Three', 'B) Four', 'C) Five', 'D) Six'],
+      'C',
+      nesne('bes-kalem'),
+    ),
+    mc(
+      'en_t2_02',
+      'What is the name of this classroom object?',
+      ['A) Ruler', 'B) Eraser', 'C) Notebook', 'D) Chair'],
+      'B',
+      nesne('silgi'),
+    ),
+    mc(
+      'en_t2_03',
+      'Look at the picture. Which number is it?',
+      ['A) Ten', 'B) Eleven', 'C) Twelve', 'D) Twenty'],
+      'C',
+      nesne('sayi-12'),
+    ),
+  ];
+}
+
 export function sayilarVeSinifEsyalari(karistir) {
+  const baseTest = test(karistir);
+  const mevcutIdler = new Set(baseTest.map((s) => s.id));
+  const ornekTest = sampleTest(karistir).filter((s) => !mevcutIdler.has(s.id));
+
   return {
     id: 'sayilar-ve-sinif-esyalari',
     baslik: 'Numbers and Classroom',
@@ -192,6 +240,6 @@ export function sayilarVeSinifEsyalari(karistir) {
       ],
     },
     alistirma: alistirma(),
-    test: test(karistir),
+    test: [...baseTest, ...ornekTest],
   };
 }

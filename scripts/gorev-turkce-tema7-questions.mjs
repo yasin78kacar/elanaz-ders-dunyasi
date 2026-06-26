@@ -111,10 +111,85 @@ function noktalamaEkTest(karistir) {
   return sorular;
 }
 
+function secenekleriTemizle(secenekler) {
+  return secenekler.map((s) => s.replace(/^[A-D]\)\s*/, ''));
+}
+
+function harfdenCevap(secenekler, harf) {
+  return secenekleriTemizle(secenekler)[harf.charCodeAt(0) - 65];
+}
+
+function sampleTestSorulari(karistir) {
+  const mc = (id, soru, raw, harf, gorsel) => {
+    const secenekler = secenekleriTemizle(raw);
+    return {
+      id,
+      kazanimKodu: KAZANIM,
+      tip: 'coktanSecmeli',
+      soru,
+      dogruCevap: secenekler[harf.charCodeAt(0) - 65],
+      secenekler: karistir(secenekler),
+      ipucu: '',
+      gorsel,
+    };
+  };
+
+  return [
+    mc(
+      'tr_t6_01',
+      'Pazardan elma, armut, muz ve çilek aldık. Bu cümlede virgül hangi amaçla kullanılmıştır?',
+      [
+        'A) Eş görevli kelimeleri ayırmak',
+        'B) Hitap kelimesinden sonra',
+        'C) Sıralı cümleleri ayırmak',
+        'D) Sayıların yazımında',
+      ],
+      'A',
+      kart(['elma', 'armut', 'muz', 'çilek']),
+    ),
+    mc(
+      'tr_t6_02',
+      "Cümledeki boşluğa hangisi gelmelidir?\n'Sevgili Öğretmenim ( ) sizi çok özledim.'",
+      ['A) .', 'B) ,', 'C) !', 'D) ?'],
+      'B',
+      sahne('selamlama', 'ogretmen'),
+    ),
+    mc(
+      'tr_t6_03',
+      'Eve geldim, ellerimi yıkadım, yemeğe oturdum. Bu cümlede virgüller ne için kullanılmıştır?',
+      [
+        'A) Korku ifadesi için',
+        'B) Soru sormak için',
+        'C) Sıralı cümleleri ayırmak için',
+        'D) Tarih belirtmek için',
+      ],
+      'C',
+      cumle('Eve geldim, ellerimi yıkadım, yemeğe oturdum.'),
+    ),
+    mc(
+      'tr_t6_51',
+      'Yarınki sınavda başarılar dilerim( ) Cümlenin sonuna hangi işaret gelmelidir?',
+      ['A) ?', 'B) !', 'C) .', 'D) ,'],
+      'C',
+      cumle('Yarınki sınavda başarılar dilerim.'),
+    ),
+    mc(
+      'tr_t6_52',
+      'Eyvah, süt döküldü ( ) cümlesinde parantez içine hangi işaret gelmelidir?',
+      ['A) !', 'B) ?', 'C) .', 'D) :'],
+      'A',
+      nokta('!'),
+    ),
+  ];
+}
+
 export function noktalama(karistir) {
   const temel = noktalamaVeYazim(karistir);
   const ekA = noktalamaEkAlistirma();
   const ekT = noktalamaEkTest(karistir);
+  const baseTest = yenidenNumarala([...temel.test, ...ekT], 'nk-t');
+  const mevcutIdler = new Set(baseTest.map((s) => s.id));
+  const ornekTest = sampleTestSorulari(karistir).filter((s) => !mevcutIdler.has(s.id));
 
   return {
     id: 'noktalama',
@@ -122,6 +197,6 @@ export function noktalama(karistir) {
     kazanimKodu: KAZANIM,
     anlatim: temel.anlatim,
     alistirma: yenidenNumarala([...temel.alistirma, ...ekA], 'nk-a'),
-    test: yenidenNumarala([...temel.test, ...ekT], 'nk-t'),
+    test: [...baseTest, ...ornekTest],
   };
 }
