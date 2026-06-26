@@ -13,6 +13,7 @@ import { ParentPinScreen } from '../screens/ParentPinScreen';
 import { ParentDashboard } from '../screens/ParentDashboard';
 import { VideoCatalogScreen } from '../screens/VideoListScreen';
 import { VideoListScreen } from '../screens/VideoListScreen';
+import { BallCollectionDemoScreen } from '../screens/BallCollectionDemoScreen';
 import { uygulamaBasligi } from '../config/appConfig';
 import { useTheme } from '../contexts/ThemeContext';
 import { linking } from './linking';
@@ -74,6 +75,11 @@ export function RootNavigator() {
           options={{ title: 'Videolar' }}
         />
         <Stack.Screen name="VideoList" component={VideoListScreen} />
+        <Stack.Screen
+          name="BallCollectionDemo"
+          component={BallCollectionDemoScreen}
+          options={{ title: 'Top Toplama' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -162,6 +162,12 @@ export function HomeScreen({ navigation }: Props) {
         >
           <Text style={styles.videoMetin}>🎬 70 Video İçerik</Text>
         </Pressable>
+        <Pressable
+          style={styles.videoButon}
+          onPress={() => navigation.navigate('BallCollectionDemo')}
+        >
+          <Text style={styles.videoMetin}>🔵 Top Toplama Animasyonu (MP4)</Text>
+        </Pressable>
         {kartlar.map((ders) => (
           <Pressable
             key={ders.id}

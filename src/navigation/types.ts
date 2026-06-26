@@ -12,4 +12,5 @@ export type RootStackParamList = {
   ParentDashboard: undefined;
   VideoCatalog: undefined;
   VideoList: { kategori: import('../assets/videoCatalog').VideoKategori };
+  BallCollectionDemo: undefined;
 };
