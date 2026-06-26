@@ -815,6 +815,13 @@ const turTema5 = {
 };
 writeFileSync(join(turkceDataDir, 'tema5.json'), JSON.stringify(turTema5, null, 2));
 
+const turTema6 = {
+  id: 'tema-6',
+  baslik: 'Türkçe — Tema 6 — Metin Türleri',
+  konular: [hikayeMetniKonu, siirKonu, bilgiMetniKonu],
+};
+writeFileSync(join(turkceDataDir, 'tema6.json'), JSON.stringify(turTema6, null, 2));
+
 const turTema7 = {
   id: 'tema-7',
   baslik: 'Türkçe — Tema 7 — Noktalama',
