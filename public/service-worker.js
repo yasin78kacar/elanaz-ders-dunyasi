@@ -4,10 +4,15 @@
  * Soru verileri JS bundle içinde paketlenir; tüm statik varlıklar önbelleğe alınır.
  */
 
+const BASE_PATH = '@@BASE_PATH@@';
 const CACHE_VERSION = '@@CACHE_VERSION@@';
 const SHELL_PRECACHE = @@SHELL_PRECACHE@@;
 
 const CACHEABLE_EXTENSIONS = /\.(js|css|json|html|ico|jpg|jpeg|png|gif|webp|svg|woff2?|ttf|eot|mp3|mp4|wav|ogg)$/i;
+
+function isAppRootPath(pathname) {
+  return pathname === BASE_PATH || pathname === `${BASE_PATH}/`;
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -42,8 +47,8 @@ function shouldCache(request, response) {
   if (request.method !== 'GET') return false;
   if (!isSameOrigin(request)) return false;
   const path = new URL(request.url).pathname;
-  if (path === '/service-worker.js') return false;
-  return CACHEABLE_EXTENSIONS.test(path) || path === '/' || path.endsWith('/');
+  if (path === `${BASE_PATH}/service-worker.js`) return false;
+  return CACHEABLE_EXTENSIONS.test(path) || isAppRootPath(path) || path.endsWith('/');
 }
 
 self.addEventListener('fetch', (event) => {
@@ -51,21 +56,22 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET' || !isSameOrigin(request)) return;
 
   const url = new URL(request.url);
+  const indexHtmlUrl = `${BASE_PATH}/index.html`;
 
-  if (request.mode === 'navigate' || url.pathname === '/' || url.pathname.endsWith('.html')) {
+  if (request.mode === 'navigate' || isAppRootPath(url.pathname) || url.pathname.endsWith('.html')) {
     event.respondWith(
-      caches.match('/index.html').then(
+      caches.match(indexHtmlUrl).then(
         (cached) =>
           cached ||
           fetch(request)
             .then((response) => {
               if (shouldCache(request, response)) {
                 const clone = response.clone();
-                caches.open(CACHE_VERSION).then((cache) => cache.put('/index.html', clone));
+                caches.open(CACHE_VERSION).then((cache) => cache.put(indexHtmlUrl, clone));
               }
               return response;
             })
-            .catch(() => caches.match('/index.html')),
+            .catch(() => caches.match(indexHtmlUrl)),
       ),
     );
     return;

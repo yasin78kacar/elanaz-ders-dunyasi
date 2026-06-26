@@ -2,11 +2,12 @@
 <html lang="%LANG_ISO_CODE%">
   <head>
     <meta charset="utf-8" />
+    <base href="/elanaz-ders-dunyasi/" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
     <title>%WEB_TITLE%</title>
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.jpg" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.jpg" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Ders Dünyası" />
@@ -35,7 +36,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function () {
-          navigator.serviceWorker.register('/service-worker.js').catch(function (err) {
+          navigator.serviceWorker.register('service-worker.js').catch(function (err) {
             console.warn('Service worker kaydı başarısız:', err);
           });
         });

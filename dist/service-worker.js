@@ -4,19 +4,24 @@
  * Soru verileri JS bundle içinde paketlenir; tüm statik varlıklar önbelleğe alınır.
  */
 
-const CACHE_VERSION = 'elanaz-712871342502';
+const BASE_PATH = '/elanaz-ders-dunyasi';
+const CACHE_VERSION = 'elanaz-627bdc482fc5';
 const SHELL_PRECACHE = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/metadata.json",
-  "/_expo/static/js/web/index-3bace6afdf5084c13a522af4ccdb051a.js",
-  "/icons/icon-192.jpg",
-  "/icons/icon-512.jpg",
-  "/icons/apple-touch-icon.jpg"
+  "/elanaz-ders-dunyasi/",
+  "/elanaz-ders-dunyasi/index.html",
+  "/elanaz-ders-dunyasi/manifest.json",
+  "/elanaz-ders-dunyasi/metadata.json",
+  "/elanaz-ders-dunyasi/_expo/static/js/web/index-c908ac5aaf9a7b9d3bafc1b702eaab57.js",
+  "/elanaz-ders-dunyasi/icons/icon-192.jpg",
+  "/elanaz-ders-dunyasi/icons/icon-512.jpg",
+  "/elanaz-ders-dunyasi/icons/apple-touch-icon.jpg"
 ];
 
 const CACHEABLE_EXTENSIONS = /\.(js|css|json|html|ico|jpg|jpeg|png|gif|webp|svg|woff2?|ttf|eot|mp3|mp4|wav|ogg)$/i;
+
+function isAppRootPath(pathname) {
+  return pathname === BASE_PATH || pathname === `${BASE_PATH}/`;
+}
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -51,8 +56,8 @@ function shouldCache(request, response) {
   if (request.method !== 'GET') return false;
   if (!isSameOrigin(request)) return false;
   const path = new URL(request.url).pathname;
-  if (path === '/service-worker.js') return false;
-  return CACHEABLE_EXTENSIONS.test(path) || path === '/' || path.endsWith('/');
+  if (path === `${BASE_PATH}/service-worker.js`) return false;
+  return CACHEABLE_EXTENSIONS.test(path) || isAppRootPath(path) || path.endsWith('/');
 }
 
 self.addEventListener('fetch', (event) => {
@@ -60,21 +65,22 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET' || !isSameOrigin(request)) return;
 
   const url = new URL(request.url);
+  const indexHtmlUrl = `${BASE_PATH}/index.html`;
 
-  if (request.mode === 'navigate' || url.pathname === '/' || url.pathname.endsWith('.html')) {
+  if (request.mode === 'navigate' || isAppRootPath(url.pathname) || url.pathname.endsWith('.html')) {
     event.respondWith(
-      caches.match('/index.html').then(
+      caches.match(indexHtmlUrl).then(
         (cached) =>
           cached ||
           fetch(request)
             .then((response) => {
               if (shouldCache(request, response)) {
                 const clone = response.clone();
-                caches.open(CACHE_VERSION).then((cache) => cache.put('/index.html', clone));
+                caches.open(CACHE_VERSION).then((cache) => cache.put(indexHtmlUrl, clone));
               }
               return response;
             })
-            .catch(() => caches.match('/index.html')),
+            .catch(() => caches.match(indexHtmlUrl)),
       ),
     );
     return;

@@ -11,6 +11,19 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const DIST = join(ROOT, 'dist');
 const SW_PATH = join(DIST, 'service-worker.js');
 
+/** GitHub Pages alt dizin yolu — app.json experiments.baseUrl ile eşleşmeli */
+const BASE_PATH = '/elanaz-ders-dunyasi';
+
+function withBasePath(urlPath) {
+  if (!urlPath.startsWith('/')) {
+    return `${BASE_PATH}/${urlPath}`;
+  }
+  if (urlPath === '/') {
+    return `${BASE_PATH}/`;
+  }
+  return `${BASE_PATH}${urlPath}`;
+}
+
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
   const files = [];
@@ -39,26 +52,27 @@ async function main() {
 
   const jsBundles = urls.filter((u) => u.includes('/_expo/static/js/web/') && u.endsWith('.js'));
   const shellUrls = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/metadata.json',
-    ...jsBundles,
-    '/icons/icon-192.jpg',
-    '/icons/icon-512.jpg',
-    '/icons/apple-touch-icon.jpg',
+    `${BASE_PATH}/`,
+    withBasePath('/index.html'),
+    withBasePath('/manifest.json'),
+    withBasePath('/metadata.json'),
+    ...jsBundles.map(withBasePath),
+    withBasePath('/icons/icon-192.jpg'),
+    withBasePath('/icons/icon-512.jpg'),
+    withBasePath('/icons/apple-touch-icon.jpg'),
   ].filter((url, i, arr) => arr.indexOf(url) === i);
 
   const hash = createHash('sha256').update(urls.join('\n')).digest('hex').slice(0, 12);
   const cacheVersion = `elanaz-${hash}`;
 
   let sw = await readFile(SW_PATH, 'utf8');
+  sw = sw.replaceAll('@@BASE_PATH@@', BASE_PATH);
   sw = sw.replaceAll('@@CACHE_VERSION@@', cacheVersion);
   sw = sw.replace('@@SHELL_PRECACHE@@', JSON.stringify(shellUrls, null, 2));
 
   await writeFile(SW_PATH, sw, 'utf8');
 
-  console.log(`PWA postbuild: cache=${cacheVersion}`);
+  console.log(`PWA postbuild: base=${BASE_PATH}, cache=${cacheVersion}`);
   console.log(`  Shell precache: ${shellUrls.length} URL`);
   console.log(`  Toplam dist dosyası: ${urls.length}`);
   console.log(`  JS bundle (soru verisi dahil): ${jsBundles.join(', ') || '(yok)'}`);
