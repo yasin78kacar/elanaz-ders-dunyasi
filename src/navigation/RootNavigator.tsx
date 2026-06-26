@@ -15,6 +15,7 @@ import { VideoCatalogScreen } from '../screens/VideoListScreen';
 import { VideoListScreen } from '../screens/VideoListScreen';
 import { uygulamaBasligi } from '../config/appConfig';
 import { useTheme } from '../contexts/ThemeContext';
+import { linking } from './linking';
 import type { RootStackParamList } from './types';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -35,7 +36,7 @@ export function RootNavigator() {
   };
 
   return (
-    <NavigationContainer theme={navTheme}>
+    <NavigationContainer theme={navTheme} linking={linking}>
       <Stack.Navigator
         screenOptions={{
           headerStyle: { backgroundColor: colors.arkaPlan },
