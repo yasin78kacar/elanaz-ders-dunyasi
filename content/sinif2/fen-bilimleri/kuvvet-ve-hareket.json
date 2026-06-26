@@ -955,8 +955,8 @@
       "dogruCevap": "İtme",
       "secenekler": [
         "İtme",
-        "Yavaşlatma",
         "Döndürme",
+        "Yavaşlatma",
         "Çekme"
       ],
       "ipucu": "",
@@ -975,9 +975,9 @@
       "dogruCevap": "Çekme",
       "secenekler": [
         "Dönme",
+        "Hızlandırma",
         "İtme",
-        "Çekme",
-        "Hızlandırma"
+        "Çekme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -994,9 +994,9 @@
       "soru": "Yokuş aşağı giden bisiklet kendi kendine hangi hareketi yapar?",
       "dogruCevap": "Hızlanma",
       "secenekler": [
+        "Durma",
         "Yavaşlama",
         "Hızlanma",
-        "Durma",
         "Dönme"
       ],
       "ipucu": "",
@@ -1014,10 +1014,10 @@
       "soru": "Şoför frenine basarak hangi hareketi yaptı?",
       "dogruCevap": "Yavaşlama ve durma",
       "secenekler": [
-        "Dönme",
-        "Yavaşlama ve durma",
+        "Hızlanma",
         "Yön değiştirme",
-        "Hızlanma"
+        "Yavaşlama ve durma",
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1034,10 +1034,10 @@
       "soru": "Can'ın topu çembere çarpıp geri döndü. Çemberle çarpışınca ne oldu?",
       "dogruCevap": "Yön değiştirdi",
       "secenekler": [
-        "Döndü",
+        "Yavaşladı",
         "Yön değiştirdi",
         "Hızlandı",
-        "Yavaşladı"
+        "Döndü"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1054,9 +1054,9 @@
       "soru": "Masadaki kitabı kendimize yaklaştırmak için ne yapmalıyız?",
       "dogruCevap": "Çekmeliyiz",
       "secenekler": [
-        "Döndürmeliyiz",
         "İtmeliyiz",
         "Çekmeliyiz",
+        "Döndürmeliyiz",
         "Durdurmalıyız"
       ],
       "ipucu": "",
@@ -1075,9 +1075,9 @@
       "dogruCevap": "İtme kuvveti",
       "secenekler": [
         "Çekme kuvveti",
-        "İtme kuvveti",
         "Durdurucu kuvvet",
-        "Döndürme kuvveti"
+        "Döndürme kuvveti",
+        "İtme kuvveti"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1094,9 +1094,9 @@
       "soru": "Ali uçurtmanın uçmaması için ipe hangi kuvveti uyguluyor?",
       "dogruCevap": "Çekme",
       "secenekler": [
-        "Yavaşlatma",
         "Döndürme",
         "İtme",
+        "Yavaşlatma",
         "Çekme"
       ],
       "ipucu": "",
@@ -1114,8 +1114,8 @@
       "soru": "Virajlı yolda okul servisi ne yapmak zorundadır?",
       "dogruCevap": "Yön değiştirme",
       "secenekler": [
-        "Yön değiştirme",
         "Çekme",
+        "Yön değiştirme",
         "Dönme",
         "Hızlanma"
       ],
@@ -1134,10 +1134,10 @@
       "soru": "Direksiyonu sağa sola çevirdiğimizde direksiyonun hareketi nedir?",
       "dogruCevap": "Dönme",
       "secenekler": [
-        "Hızlanma",
-        "Dönme",
         "Çekme",
-        "İtme"
+        "İtme",
+        "Hızlanma",
+        "Dönme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1154,10 +1154,10 @@
       "soru": "Top havaya fırlatılınca en tepeye ulaşana kadar nasıl hareket eder?",
       "dogruCevap": "Giderek yavaşlar",
       "secenekler": [
-        "Giderek hızlanır",
-        "Giderek yavaşlar",
+        "Yön değiştirir",
         "Döner",
-        "Yön değiştirir"
+        "Giderek hızlanır",
+        "Giderek yavaşlar"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1174,10 +1174,10 @@
       "soru": "Kaleci Mehmet topu elleriyle tuttu. Topun hareketini ne yaptı?",
       "dogruCevap": "Durdurdu",
       "secenekler": [
-        "Durdurdu",
-        "Yön değiştirdi",
         "Hızlandırdı",
-        "Döndürdü"
+        "Yön değiştirdi",
+        "Döndürdü",
+        "Durdurdu"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1194,10 +1194,10 @@
       "soru": "Rüzgargülünün hareketi nedir?",
       "dogruCevap": "Dönme",
       "secenekler": [
-        "Hızlanma",
-        "Çekme",
         "Dönme",
-        "Yavaşlama"
+        "Çekme",
+        "Yavaşlama",
+        "Hızlanma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1214,10 +1214,10 @@
       "soru": "Montumuzun fermuarını kapatmak için yukarı doğru ne yaparız?",
       "dogruCevap": "Çekeriz",
       "secenekler": [
-        "Çekeriz",
-        "Sıkıştırırız",
         "İteriz",
-        "Döndürürüz"
+        "Çekeriz",
+        "Döndürürüz",
+        "Sıkıştırırız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1256,8 +1256,8 @@
       "secenekler": [
         "Döndürme",
         "İtme (Bastırma)",
-        "Çekme",
-        "Hızlandırma"
+        "Hızlandırma",
+        "Çekme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1275,9 +1275,9 @@
       "dogruCevap": "İtme",
       "secenekler": [
         "İtme",
-        "Yavaşlatma",
+        "Çekme",
         "Durdurma",
-        "Çekme"
+        "Yavaşlatma"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1294,9 +1294,9 @@
       "soru": "Dalından kopan yaprak yere inerken hangi hareketi yapar?",
       "dogruCevap": "Hızlanma",
       "secenekler": [
-        "Çekme",
         "Hızlanma",
         "Yukarı yön değiştirme",
+        "Çekme",
         "Durma"
       ],
       "ipucu": "",
@@ -1354,10 +1354,10 @@
       "soru": "Bağcıkları sıkıca bağlamak için ipleri kendimize doğru ne yaparız?",
       "dogruCevap": "Çekeriz",
       "secenekler": [
-        "Döndürürüz",
-        "İteriz",
         "Yavaşlatırız",
-        "Çekeriz"
+        "Çekeriz",
+        "Döndürürüz",
+        "İteriz"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1374,9 +1374,9 @@
       "soru": "Pili biten treni hareket ettirmek için parmağımızla hangi kuvveti uygularız?",
       "dogruCevap": "İtme",
       "secenekler": [
+        "İtme",
         "Durdurma",
         "Dönme",
-        "İtme",
         "Çekme"
       ],
       "ipucu": "",
@@ -1414,10 +1414,10 @@
       "soru": "Küreği toprağa batıran Zeynep, küreğe ayağıyla hangi kuvveti uygular?",
       "dogruCevap": "İtme",
       "secenekler": [
-        "Çekme",
         "Yavaşlatma",
         "Döndürme",
-        "İtme"
+        "İtme",
+        "Çekme"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.2",
@@ -1434,8 +1434,8 @@
       "soru": "Marangoz testereyi ileri iter ve kendine çeker. Hangi kuvvetleri kullanmış olur?",
       "dogruCevap": "İtme ve çekme",
       "secenekler": [
-        "Yalnızca döndürme",
         "Sadece itme",
+        "Yalnızca döndürme",
         "İtme ve çekme",
         "Sadece çekme"
       ],
@@ -1454,10 +1454,10 @@
       "soru": "İtme kuvveti nesneyi uzağa götürür.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Doğru",
+        "Hiçbiri",
         "Yanlış",
-        "Hiçbiri"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1473,10 +1473,10 @@
       "soru": "Çekme kuvveti nesneyi kendimize doğru getirir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Bazen",
-        "Hiçbiri",
-        "Yanlış"
+        "Yanlış",
+        "Doğru",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1492,10 +1492,10 @@
       "soru": "Fren yapmak yavaşlatma kuvvetidir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Bazen",
         "Hiçbiri",
-        "Yanlış",
         "Doğru",
-        "Bazen"
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1531,9 +1531,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Doğru",
-        "Hiçbiri",
         "Yanlış",
-        "Bazen"
+        "Bazen",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1549,10 +1549,10 @@
       "soru": "Salıncağı itince hareket eder.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Hiçbiri",
         "Yanlış",
         "Bazen",
-        "Doğru",
-        "Hiçbiri"
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1568,10 +1568,10 @@
       "soru": "Uçurtmayı rüzgar iter.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
         "Doğru",
-        "Bazen",
-        "Yanlış"
+        "Hiçbiri",
+        "Yanlış",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1587,10 +1587,10 @@
       "soru": "Çekiç çivi çakmak için kuvvet kullanır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Bazen",
+        "Doğru",
         "Hiçbiri",
-        "Doğru"
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1606,10 +1606,10 @@
       "soru": "Otobüs motoru itme kuvveti uygular.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Hiçbiri",
-        "Bazen",
-        "Yanlış"
+        "Yanlış",
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1644,9 +1644,9 @@
       "soru": "Bebek arabasını itmek itme kuvvetidir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Yanlış",
         "Hiçbiri",
+        "Doğru",
         "Bazen"
       ],
       "ipucu": "",
@@ -1663,10 +1663,10 @@
       "soru": "Çekmeceyi çekmek çekme kuvvetidir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Hiçbiri",
-        "Bazen",
         "Doğru",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1682,10 +1682,10 @@
       "soru": "Kuvvet hareketi başlatabilir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Yanlış",
+        "Hiçbiri",
         "Bazen",
-        "Hiçbiri"
+        "Yanlış",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1701,10 +1701,10 @@
       "soru": "Kuvvet hareketi durdurabilir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Hiçbiri",
+        "Yanlış",
         "Doğru",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1720,9 +1720,9 @@
       "soru": "Kuvvet yön değiştirebilir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Yanlış",
         "Hiçbiri",
+        "Doğru",
         "Bazen"
       ],
       "ipucu": "",
@@ -1739,9 +1739,9 @@
       "soru": "Dönme dolap dönerken kuvvet uygulanır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Doğru",
         "Hiçbiri",
+        "Bazen",
         "Yanlış"
       ],
       "ipucu": "",
@@ -1758,10 +1758,10 @@
       "soru": "Rüzgargülü rüzgar kuvvetiyle döner.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Bazen",
         "Hiçbiri",
-        "Doğru",
-        "Yanlış"
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1777,9 +1777,9 @@
       "soru": "Fişi çekmek çekme kuvvetidir.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Bazen",
         "Yanlış",
         "Doğru",
-        "Bazen",
         "Hiçbiri"
       ],
       "ipucu": "",
@@ -1796,10 +1796,10 @@
       "soru": "Kapıyı itmek itme kuvvetidir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
-        "Bazen",
         "Yanlış",
-        "Doğru"
+        "Hiçbiri",
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1815,10 +1815,10 @@
       "soru": "Bisiklet pedalı çevirmek kuvvet uygular.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Doğru",
         "Hiçbiri",
-        "Bazen",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1834,10 +1834,10 @@
       "soru": "Top yuvarlanırken sürtünme etkiler.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Hiçbiri",
+        "Doğru",
         "Yanlış",
-        "Doğru"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1854,9 +1854,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Yanlış",
-        "Bazen",
         "Doğru",
-        "Hiçbiri"
+        "Hiçbiri",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1891,10 +1891,10 @@
       "soru": "Kuvvet günlük hayatta sık kullanılır.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Hiçbiri",
-        "Bazen",
         "Doğru",
-        "Yanlış"
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1911,9 +1911,9 @@
       "dogruCevap": "Hayır",
       "secenekler": [
         "Sadece rüzgarda",
-        "Her zaman",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Her zaman"
       ],
       "ipucu": "Hareket başlatmak için kuvvet gerekir!",
       "gorsel": {

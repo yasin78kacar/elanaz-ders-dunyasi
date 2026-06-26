@@ -252,8 +252,8 @@
       "soru": "Uyuduğumuz odanın İngilizcesi nedir?",
       "dogruCevap": "Bedroom",
       "secenekler": [
-        "Bathroom",
         "Garage",
+        "Bathroom",
         "Kitchen",
         "Bedroom"
       ],
@@ -271,10 +271,10 @@
       "soru": "Yemek pişirilen odanın İngilizcesi nedir?",
       "dogruCevap": "Kitchen",
       "secenekler": [
-        "Bedroom",
         "Garage",
         "Kitchen",
-        "Garden"
+        "Garden",
+        "Bedroom"
       ],
       "ipucu": "",
       "gorsel": {
@@ -292,8 +292,8 @@
       "secenekler": [
         "Kitchen",
         "Balcony",
-        "Bathroom",
-        "Bedroom"
+        "Bedroom",
+        "Bathroom"
       ],
       "ipucu": "",
       "gorsel": {
@@ -309,10 +309,10 @@
       "soru": "TV izlediğimiz odanın İngilizcesi nedir?",
       "dogruCevap": "Living room",
       "secenekler": [
-        "Garage",
-        "Kitchen",
         "Garden",
-        "Living room"
+        "Kitchen",
+        "Living room",
+        "Garage"
       ],
       "ipucu": "",
       "gorsel": {
@@ -328,10 +328,10 @@
       "soru": "\"Room\" kelimesinin anlamı nedir?",
       "dogruCevap": "Oda",
       "secenekler": [
-        "Oda",
-        "Kapı",
+        "Ev",
         "Pencere",
-        "Ev"
+        "Kapı",
+        "Oda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -347,10 +347,10 @@
       "soru": "Yemek yenilen odanın İngilizcesi nedir?",
       "dogruCevap": "Dining room",
       "secenekler": [
-        "Bedroom",
-        "Dining room",
+        "Garage",
         "Bathroom",
-        "Garage"
+        "Bedroom",
+        "Dining room"
       ],
       "ipucu": "",
       "gorsel": {
@@ -366,9 +366,9 @@
       "soru": "Balkonun İngilizcesi nedir?",
       "dogruCevap": "Balcony",
       "secenekler": [
+        "Balcony",
         "Stairs",
         "Bedroom",
-        "Balcony",
         "Kitchen"
       ],
       "ipucu": "",
@@ -385,10 +385,10 @@
       "soru": "Arabanın park ettiği yerin İngilizcesi nedir?",
       "dogruCevap": "Garage",
       "secenekler": [
-        "Kitchen",
-        "Garden",
         "Bedroom",
-        "Garage"
+        "Garage",
+        "Garden",
+        "Kitchen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -405,8 +405,8 @@
       "dogruCevap": "Stairs",
       "secenekler": [
         "Window",
-        "Balcony",
         "Stairs",
+        "Balcony",
         "Door"
       ],
       "ipucu": "",
@@ -423,8 +423,8 @@
       "soru": "Koridorun İngilizcesi nedir?",
       "dogruCevap": "Hallway",
       "secenekler": [
-        "Hallway",
         "Garden",
+        "Hallway",
         "Kitchen",
         "Garage"
       ],
@@ -443,9 +443,9 @@
       "dogruCevap": "Study room",
       "secenekler": [
         "Study room",
-        "Garage",
         "Balcony",
-        "Bathroom"
+        "Bathroom",
+        "Garage"
       ],
       "ipucu": "",
       "gorsel": {
@@ -461,8 +461,8 @@
       "soru": "Kapının İngilizcesi nedir?",
       "dogruCevap": "Door",
       "secenekler": [
-        "Window",
         "Wall",
+        "Window",
         "Floor",
         "Door"
       ],

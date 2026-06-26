@@ -443,8 +443,8 @@
       "dogruCevap": "Saat 6",
       "secenekler": [
         "Saat 6",
-        "Saat 3",
         "Saat 12",
+        "Saat 3",
         "Saat 9"
       ],
       "ipucu": "",
@@ -464,9 +464,9 @@
       "dogruCevap": "Saati",
       "secenekler": [
         "Saniye",
-        "Günü",
         "Dakika",
-        "Saati"
+        "Saati",
+        "Günü"
       ],
       "ipucu": "",
       "gorsel": {
@@ -503,10 +503,10 @@
       "soru": "1 saat kaç dakikadır?",
       "dogruCevap": "60",
       "secenekler": [
-        "24",
-        "100",
+        "30",
         "60",
-        "30"
+        "24",
+        "100"
       ],
       "ipucu": "",
       "gorsel": {
@@ -522,10 +522,10 @@
       "soru": "Uzun kol 6'da, kısa kol 5 ile 6 arasında. Saat kaç?",
       "dogruCevap": "Saat 5 buçuk",
       "secenekler": [
+        "Saat 6 buçuk",
         "Saat 5",
-        "Saat 6",
         "Saat 5 buçuk",
-        "Saat 6 buçuk"
+        "Saat 6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -543,10 +543,10 @@
       "soru": "Okul saat 8'de başladı, saat 12'de bitti. Kaç saat sürdü?",
       "dogruCevap": "4",
       "secenekler": [
-        "6",
         "5",
         "4",
-        "3"
+        "3",
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -566,10 +566,10 @@
       "soru": "Hangi dijital saat \"saat 7 buçuk\"u gösterir?",
       "dogruCevap": "07:30",
       "secenekler": [
-        "07:00",
         "07:15",
-        "07:30",
-        "17:30"
+        "17:30",
+        "07:00",
+        "07:30"
       ],
       "ipucu": "",
       "gorsel": {
@@ -585,10 +585,10 @@
       "soru": "🎭 Ayşe saat 3'te uyudu, 3 saat uyudu. Hangi saatte uyandı?",
       "dogruCevap": "Saat 6",
       "secenekler": [
-        "Saat 7",
-        "Saat 4",
+        "Saat 6",
         "Saat 5",
-        "Saat 6"
+        "Saat 7",
+        "Saat 4"
       ],
       "ipucu": "3 + 3 = ?",
       "gorsel": {
@@ -609,8 +609,8 @@
       "soru": "Uzun kol 12'de, kısa kol 10'da. Saat kaç?",
       "dogruCevap": "Saat 10",
       "secenekler": [
-        "Saat 10",
         "Saat 1",
+        "Saat 10",
         "Saat 12",
         "Saat 2"
       ],
@@ -630,9 +630,9 @@
       "soru": "1 günde kaç saat vardır?",
       "dogruCevap": "24",
       "secenekler": [
-        "60",
         "24",
         "30",
+        "60",
         "12"
       ],
       "ipucu": "",
@@ -649,10 +649,10 @@
       "soru": "Film saat 4 buçukta başladı, 2 saat sürdü. Hangi saatte bitti?",
       "dogruCevap": "Saat 6 buçuk",
       "secenekler": [
-        "Saat 6 buçuk",
-        "Saat 6",
         "Saat 5 buçuk",
-        "Saat 7"
+        "Saat 7",
+        "Saat 6",
+        "Saat 6 buçuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -672,10 +672,10 @@
       "soru": "🎭 Saat kaçta olduğunu söyle: Uzun kol tam 6'da, kısa kol tam 8 ile 9'un ortasında.",
       "dogruCevap": "Saat 8 buçuk",
       "secenekler": [
-        "Saat 8 buçuk",
-        "Saat 8",
+        "Saat 9 buçuk",
         "Saat 9",
-        "Saat 9 buçuk"
+        "Saat 8",
+        "Saat 8 buçuk"
       ],
       "ipucu": "Buçukta uzun kol 6'dadır!",
       "gorsel": {
@@ -695,8 +695,8 @@
       "dogruCevap": "Saat 8 buçuk",
       "secenekler": [
         "Saat 7 buçuk",
-        "Saat 8 buçuk",
         "Saat 8",
+        "Saat 8 buçuk",
         "Saat 9"
       ],
       "ipucu": "",
@@ -736,10 +736,10 @@
       "soru": "🎭 Selin saat 9'da derse girdi, 60 dakika ders işledi. Ders hangi saatte bitti?",
       "dogruCevap": "Saat 10",
       "secenekler": [
-        "Saat 10",
         "Saat 9 buçuk",
         "Saat 11",
-        "Saat 9"
+        "Saat 9",
+        "Saat 10"
       ],
       "ipucu": "60 dakika = 1 saat",
       "gorsel": {
@@ -760,10 +760,10 @@
       "soru": "Dijital saat 11:00. Analog saatte kısa kol nerede?",
       "dogruCevap": "11'de",
       "secenekler": [
-        "11'de",
         "10'da",
-        "1'de",
-        "12'de"
+        "12'de",
+        "11'de",
+        "1'de"
       ],
       "ipucu": "",
       "gorsel": {
@@ -781,10 +781,10 @@
       "soru": "Sabah kahvaltısı saat 7 buçukta, akşam yemeği saat 7'de. Aralarında kaç saat var?",
       "dogruCevap": "11 buçuk",
       "secenekler": [
-        "12 buçuk",
         "10",
-        "11 buçuk",
-        "12"
+        "12",
+        "12 buçuk",
+        "11 buçuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -804,10 +804,10 @@
       "soru": "🎭 Can saat 2'de parka gitti. 2,5 saat oynadı. Hangi saatte eve döndü?",
       "dogruCevap": "Saat 4 buçuk",
       "secenekler": [
-        "Saat 3 buçuk",
         "Saat 4",
+        "Saat 5",
         "Saat 4 buçuk",
-        "Saat 5"
+        "Saat 3 buçuk"
       ],
       "ipucu": "2 + 2,5 = 4,5 = saat 4 buçuk",
       "gorsel": {
@@ -828,10 +828,10 @@
       "soru": "Uzun kol 6'da, kısa kol 1 ile 2 arasında. Saat kaç?",
       "dogruCevap": "Saat 1 buçuk",
       "secenekler": [
-        "Saat 2 buçuk",
-        "Saat 1 buçuk",
         "Saat 2",
-        "Saat 1"
+        "Saat 1",
+        "Saat 1 buçuk",
+        "Saat 2 buçuk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -849,10 +849,10 @@
       "soru": "Hangi dijital saat \"saat 11 buçuk\"u gösterir?",
       "dogruCevap": "11:30",
       "secenekler": [
-        "11:00",
+        "11:30",
         "11:15",
         "01:30",
-        "11:30"
+        "11:00"
       ],
       "ipucu": "",
       "gorsel": {
@@ -868,10 +868,10 @@
       "soru": "🎭 Hande sabah 7'de uyandı. 8 saat sonra ne zaman olur?",
       "dogruCevap": "Saat 15",
       "secenekler": [
+        "Saat 13",
         "Saat 14",
-        "Saat 15",
         "Saat 16",
-        "Saat 13"
+        "Saat 15"
       ],
       "ipucu": "7 + 8 = ?",
       "gorsel": {
@@ -892,10 +892,10 @@
       "soru": "Ders saat 10'da başladı. 1 saat 30 dakika sonra bitti. Hangi saatte?",
       "dogruCevap": "Saat 11 buçuk",
       "secenekler": [
-        "Saat 12",
+        "Saat 11 buçuk",
         "Saat 10 buçuk",
         "Saat 11",
-        "Saat 11 buçuk"
+        "Saat 12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -915,10 +915,10 @@
       "soru": "Uzun kol 12'de, kısa kol 8'de. Saat kaç?",
       "dogruCevap": "Saat 8",
       "secenekler": [
-        "Saat 6",
         "Saat 8",
-        "Saat 4",
-        "Saat 12"
+        "Saat 6",
+        "Saat 12",
+        "Saat 4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -936,8 +936,8 @@
       "soru": "🎭 Yusuf her gün 8 saat uyuyor. Haftada kaç saat uyur?",
       "dogruCevap": "56",
       "secenekler": [
-        "64",
         "56",
+        "64",
         "48",
         "40"
       ],

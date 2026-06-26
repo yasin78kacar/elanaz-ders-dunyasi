@@ -974,10 +974,10 @@
           "soru": "Bir yılda kaç mevsim vardır?",
           "dogruCevap": "4",
           "secenekler": [
-            "3",
-            "4",
+            "5",
             "2",
-            "5"
+            "3",
+            "4"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -994,10 +994,10 @@
           "soru": "Hangi mevsimde kar yağar ve kardan adam yaparız?",
           "dogruCevap": "Kış",
           "secenekler": [
-            "Sonbahar",
             "İlkbahar",
+            "Yaz",
             "Kış",
-            "Yaz"
+            "Sonbahar"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1014,10 +1014,10 @@
           "soru": "Yağmurlu havada yanımıza ne almalıyız?",
           "dogruCevap": "Şemsiye",
           "secenekler": [
-            "Deniz paleti",
             "Güneş gözlüğü",
             "İnce tişört",
-            "Şemsiye"
+            "Şemsiye",
+            "Deniz paleti"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1034,10 +1034,10 @@
           "soru": "Çiçeklerin açtığı, havaların ısındığı mevsim hangisidir?",
           "dogruCevap": "İlkbahar",
           "secenekler": [
-            "İlkbahar",
-            "Sonbahar",
             "Kış",
-            "Aralık"
+            "İlkbahar",
+            "Aralık",
+            "Sonbahar"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1054,10 +1054,10 @@
           "soru": "Denize girdiğimiz, çok sıcak mevsim nedir?",
           "dogruCevap": "Yaz",
           "secenekler": [
-            "Yaz",
             "Sonbahar",
+            "Kış",
             "İlkbahar",
-            "Kış"
+            "Yaz"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1074,10 +1074,10 @@
           "soru": "Yaprakların döküldüğü mevsim hangisidir?",
           "dogruCevap": "Sonbahar",
           "secenekler": [
-            "Sonbahar",
-            "Yaz",
             "Kış",
-            "İlkbahar"
+            "Sonbahar",
+            "İlkbahar",
+            "Yaz"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1094,9 +1094,9 @@
           "soru": "Aralık, Ocak ve Şubat hangi mevsimin aylarıdır?",
           "dogruCevap": "Kış",
           "secenekler": [
+            "Kış",
             "Yaz",
             "İlkbahar",
-            "Kış",
             "Sonbahar"
           ],
           "ipucu": "",
@@ -1114,10 +1114,10 @@
           "soru": "Kışın hangisini GİYMEMELİYİZ?",
           "dogruCevap": "Şort ve yazlık terlik",
           "secenekler": [
-            "Atkı",
             "Şort ve yazlık terlik",
-            "Bere ve eldiven",
-            "Kalın mont"
+            "Atkı",
+            "Kalın mont",
+            "Bere ve eldiven"
           ],
           "ipucu": "Kışın sıcak tutan kıyafetler giymeliyiz!",
           "kazanim": "FEN.2.3.2",
@@ -1137,8 +1137,8 @@
           "secenekler": [
             "Kalın yünlü kazak",
             "Siyah ve kalın mont",
-            "İnce, pamuklu, açık renkli",
-            "Kat kat kıyafet"
+            "Kat kat kıyafet",
+            "İnce, pamuklu, açık renkli"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1155,10 +1155,10 @@
           "soru": "Hava durumunda gülen Güneş sembolü görünce hava nasıl?",
           "dogruCevap": "Güneşli",
           "secenekler": [
-            "Rüzgarlı",
-            "Yağmurlu",
+            "Karlı",
             "Güneşli",
-            "Karlı"
+            "Rüzgarlı",
+            "Yağmurlu"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1175,10 +1175,10 @@
           "soru": "Ağaç dalları sallanıp yapraklar uçuşuyorsa hava nasıldır?",
           "dogruCevap": "Rüzgarlı",
           "secenekler": [
-            "Sisli",
-            "Karlı",
+            "Güneşli",
             "Rüzgarlı",
-            "Güneşli"
+            "Karlı",
+            "Sisli"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1196,9 +1196,9 @@
           "dogruCevap": "Havaya uygun kıyafet seçmek",
           "secenekler": [
             "Hiçbir faydası yok",
-            "Yemek öğrenmek",
+            "Havaya uygun kıyafet seçmek",
             "Çizgi film öğrenmek",
-            "Havaya uygun kıyafet seçmek"
+            "Yemek öğrenmek"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1215,8 +1215,8 @@
           "soru": "Güneşli yaz gününde ne kullanmalıyız?",
           "dogruCevap": "Şapka ve güneş gözlüğü",
           "secenekler": [
-            "Şapka ve güneş gözlüğü",
             "Kalın eldiven",
+            "Şapka ve güneş gözlüğü",
             "Kalın atkı",
             "Kar botu"
           ],
@@ -1235,9 +1235,9 @@
           "soru": "Rüzgarlı bahar gününde en eğlenceli etkinlik nedir?",
           "dogruCevap": "Uçurtma uçurmak",
           "secenekler": [
-            "Uçurtma uçurmak",
-            "Karda yatmak",
             "Denize girmek",
+            "Karda yatmak",
+            "Uçurtma uçurmak",
             "Kardan adam yapmak"
           ],
           "ipucu": "",
@@ -1256,8 +1256,8 @@
           "dogruCevap": "Sis",
           "secenekler": [
             "Yağmur",
-            "Sis",
             "Kar",
+            "Sis",
             "Dolu"
           ],
           "ipucu": "",
@@ -1275,10 +1275,10 @@
           "soru": "Haziran, Temmuz ve Ağustos hangi mevsimin ayları?",
           "dogruCevap": "Yaz",
           "secenekler": [
-            "Sonbahar",
             "Yaz",
             "İlkbahar",
-            "Kış"
+            "Kış",
+            "Sonbahar"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1296,9 +1296,9 @@
           "dogruCevap": "Dolu",
           "secenekler": [
             "Dolu",
+            "Güneş",
             "Rüzgar",
-            "Sis",
-            "Güneş"
+            "Sis"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1316,9 +1316,9 @@
           "dogruCevap": "Her yer bembeyaz karla kaplanır",
           "secenekler": [
             "Havalar ısınır",
-            "Ağaçlar çiçek açar",
+            "Kelebekler uçuşur",
             "Her yer bembeyaz karla kaplanır",
-            "Kelebekler uçuşur"
+            "Ağaçlar çiçek açar"
           ],
           "ipucu": "Kar kış mevsimine aittir!",
           "kazanim": "FEN.2.3.2",
@@ -1336,10 +1336,10 @@
           "soru": "Gök gürültüsü ve şimşek hangi havada görülür?",
           "dogruCevap": "Fırtınalı ve yağmurlu",
           "secenekler": [
-            "Güneşli",
+            "Karlı",
             "Fırtınalı ve yağmurlu",
-            "Sisli",
-            "Karlı"
+            "Güneşli",
+            "Sisli"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1356,10 +1356,10 @@
           "soru": "Ali bere ve eldiven taktı. Hangi mevsim?",
           "dogruCevap": "Kış",
           "secenekler": [
-            "Sonbahar",
             "İlkbahar",
+            "Kış",
             "Yaz",
-            "Kış"
+            "Sonbahar"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1376,9 +1376,9 @@
           "soru": "Hangi eşleştirme yanlıştır?",
           "dogruCevap": "Yaz → Yaprak dökülmesi",
           "secenekler": [
+            "Yaz → Yaprak dökülmesi",
             "Sonbahar → Yağmur",
             "Kış → Kar",
-            "Yaz → Yaprak dökülmesi",
             "İlkbahar → Çiçekler"
           ],
           "ipucu": "Yaprak dökülmesi sonbaharda olur!",
@@ -1397,10 +1397,10 @@
           "soru": "Gri su dolu bulutlar görünce ne bekleriz?",
           "dogruCevap": "Yağmur",
           "secenekler": [
+            "Kar erimesi",
             "Güneş",
             "Havanın ısınması",
-            "Yağmur",
-            "Kar erimesi"
+            "Yağmur"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1417,10 +1417,10 @@
           "soru": "Kıyafetlerimizi neye göre seçmeliyiz?",
           "dogruCevap": "Hava durumuna",
           "secenekler": [
-            "Hava durumuna",
             "Modaya",
+            "Sadece sevdiğimiz renge",
             "Oyuncaklarımıza",
-            "Sadece sevdiğimiz renge"
+            "Hava durumuna"
           ],
           "ipucu": "",
           "kazanim": "FEN.2.3.2",
@@ -1437,8 +1437,8 @@
           "soru": "Havanın sıcaklığını ölçmek için ne kullanırız?",
           "dogruCevap": "Termometre",
           "secenekler": [
-            "Pusula",
             "Termometre",
+            "Pusula",
             "Dürbün",
             "Büyüteç"
           ],
@@ -1457,9 +1457,9 @@
           "soru": "Mevsimlerin ve farklı hava durumlarının yaşanması doğa için nasıldır?",
           "dogruCevap": "Çok faydalı ve gerekli",
           "secenekler": [
-            "Doğaya zararlı",
             "Tehlikeli",
             "Çok faydalı ve gerekli",
+            "Doğaya zararlı",
             "Kötü"
           ],
           "ipucu": "",
@@ -1477,10 +1477,10 @@
           "soru": "Güneş bir enerji kaynağıdır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Doğru",
             "Hiçbiri",
-            "Bazen"
+            "Doğru",
+            "Bazen",
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1496,10 +1496,10 @@
           "soru": "Rüzgar türbinleri elektrik üretir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
-            "Hiçbiri",
             "Bazen",
-            "Yanlış"
+            "Doğru",
+            "Yanlış",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1516,8 +1516,8 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Doğru",
-            "Bazen",
             "Yanlış",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1534,10 +1534,10 @@
           "soru": "Güneş panelleri güneş enerjisini elektriğe çevirir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Bazen",
             "Doğru",
             "Yanlış",
-            "Hiçbiri",
-            "Bazen"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1553,10 +1553,10 @@
           "soru": "Yiyecekler vücudumuza enerji verir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
             "Bazen",
+            "Yanlış",
             "Doğru",
-            "Yanlış"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1572,9 +1572,9 @@
           "soru": "Benzin araçlara enerji sağlar.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
             "Bazen",
             "Doğru",
+            "Yanlış",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1592,9 +1592,9 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Hiçbiri",
-            "Yanlış",
+            "Bazen",
             "Doğru",
-            "Bazen"
+            "Yanlış"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1610,10 +1610,10 @@
           "soru": "Mum yandığında ışık ve ısı enerjisi verir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
-            "Yanlış",
             "Bazen",
-            "Doğru"
+            "Yanlış",
+            "Doğru",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1629,10 +1629,10 @@
           "soru": "Bitkiler güneş enerjisini kullanır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Hiçbiri",
+            "Doğru",
             "Bazen",
             "Yanlış",
-            "Doğru"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1648,10 +1648,10 @@
           "soru": "Elektrikli lambalar yapay ışık verir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
             "Hiçbiri",
+            "Doğru",
             "Yanlış",
-            "Doğru"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1667,10 +1667,10 @@
           "soru": "Enerji tasarrufu önemlidir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Hiçbiri",
             "Doğru",
             "Yanlış",
-            "Bazen",
-            "Hiçbiri"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1686,10 +1686,10 @@
           "soru": "Güneş en büyük doğal enerji kaynağıdır.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Hiçbiri",
             "Doğru",
             "Yanlış",
-            "Bazen",
-            "Hiçbiri"
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1705,9 +1705,9 @@
           "soru": "Rüzgar enerjisi yenilenebilir bir enerjidir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Hiçbiri",
             "Bazen",
             "Doğru",
-            "Hiçbiri",
             "Yanlış"
           ],
           "ipucu": "",
@@ -1724,10 +1724,10 @@
           "soru": "Piller bitince yenisiyle değiştirilir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Hiçbiri",
+            "Doğru",
             "Bazen",
-            "Doğru"
+            "Yanlış",
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1743,10 +1743,10 @@
           "soru": "Enerji olmadan ışık yanmaz.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
-            "Doğru",
             "Hiçbiri",
-            "Yanlış"
+            "Yanlış",
+            "Bazen",
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1762,10 +1762,10 @@
           "soru": "Yemek yemek bize enerji verir.",
           "dogruCevap": "Doğru",
           "secenekler": [
+            "Yanlış",
             "Bazen",
             "Doğru",
-            "Hiçbiri",
-            "Yanlış"
+            "Hiçbiri"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1782,8 +1782,8 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Yanlış",
-            "Bazen",
             "Doğru",
+            "Bazen",
             "Hiçbiri"
           ],
           "ipucu": "",
@@ -1800,8 +1800,8 @@
           "soru": "Elektrik fişe takılınca çalışır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
             "Hiçbiri",
+            "Yanlış",
             "Bazen",
             "Doğru"
           ],
@@ -1819,10 +1819,10 @@
           "soru": "Isı enerjisi bizi ısıtır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
             "Yanlış",
+            "Hiçbiri",
             "Bazen",
-            "Hiçbiri"
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1838,10 +1838,10 @@
           "soru": "Güneşten gelen enerji bitmez.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Yanlış",
-            "Doğru",
             "Bazen",
-            "Hiçbiri"
+            "Yanlış",
+            "Hiçbiri",
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1857,8 +1857,8 @@
           "soru": "Enerji hareket ettirmek için kullanılır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
             "Hiçbiri",
+            "Doğru",
             "Bazen",
             "Yanlış"
           ],
@@ -1876,10 +1876,10 @@
           "soru": "Enerji günlük yaşamımız için gereklidir.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Doğru",
             "Bazen",
+            "Yanlış",
             "Hiçbiri",
-            "Yanlış"
+            "Doğru"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1896,8 +1896,8 @@
           "dogruCevap": "Doğru",
           "secenekler": [
             "Bazen",
-            "Hiçbiri",
             "Doğru",
+            "Hiçbiri",
             "Yanlış"
           ],
           "ipucu": "",
@@ -1914,10 +1914,10 @@
           "soru": "Yiyecekleri pişirmek ısı enerjisi kullanır.",
           "dogruCevap": "Doğru",
           "secenekler": [
-            "Bazen",
-            "Doğru",
+            "Yanlış",
             "Hiçbiri",
-            "Yanlış"
+            "Doğru",
+            "Bazen"
           ],
           "ipucu": "",
           "gorsel": {
@@ -1934,9 +1934,9 @@
           "dogruCevap": "Hayır, yenilenebilir",
           "secenekler": [
             "Pillerle biter",
-            "Hayır, yenilenebilir",
+            "Evet, biter",
             "Sadece yazın",
-            "Evet, biter"
+            "Hayır, yenilenebilir"
           ],
           "ipucu": "Güneş sürekli enerji verir!",
           "gorsel": {

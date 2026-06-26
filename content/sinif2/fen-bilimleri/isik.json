@@ -941,10 +941,10 @@
       "soru": "Ali karanlık odada oyuncağını görmek istiyor. Neye ihtiyacı var?",
       "dogruCevap": "Işığa",
       "secenekler": [
-        "Müzik sesine",
-        "Daha iyi gözlüğe",
         "Büyütece",
-        "Işığa"
+        "Işığa",
+        "Daha iyi gözlüğe",
+        "Müzik sesine"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -963,8 +963,8 @@
       "secenekler": [
         "Yıldızlar",
         "Güneş",
-        "El feneri",
-        "Sokak lambası"
+        "Sokak lambası",
+        "El feneri"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -981,10 +981,10 @@
       "soru": "Ay hakkında hangi bilgi doğrudur?",
       "dogruCevap": "Kendi ışığı yok, Güneş'i yansıtır",
       "secenekler": [
-        "İnsanlar yaptı",
-        "Dünyayı ısıtır",
         "Kendi ışığı yok, Güneş'i yansıtır",
-        "En büyük doğal ışık kaynağı"
+        "İnsanlar yaptı",
+        "En büyük doğal ışık kaynağı",
+        "Dünyayı ısıtır"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1001,9 +1001,9 @@
       "soru": "Evdeki ampul hangi gruba girer?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
-        "Yapay ses kaynağı",
         "Doğal ışık kaynağı",
+        "Yapay ses kaynağı",
+        "Doğal ses kaynağı",
         "Yapay ışık kaynağı"
       ],
       "ipucu": "",
@@ -1021,10 +1021,10 @@
       "soru": "Ateş böceği ne tür bir kaynaktır?",
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
+        "Doğal ışık kaynağı",
         "Işık kaynağı değildir",
-        "Doğal ses kaynağı",
         "Yapay ışık kaynağı",
-        "Doğal ışık kaynağı"
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1041,10 +1041,10 @@
       "soru": "Üzerine fener tutulunca parlayan ayna ışık kaynağı mıdır?",
       "dogruCevap": "Hayır, sadece yansıtır",
       "secenekler": [
-        "Evet, doğal",
+        "Evet, yapay",
         "Hayır, sadece yansıtır",
-        "Hem ses hem ışık",
-        "Evet, yapay"
+        "Evet, doğal",
+        "Hem ses hem ışık"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1061,10 +1061,10 @@
       "soru": "Trafik lambaları ne tür kaynaktır?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
         "Güneş yansıtıcısı",
+        "Yapay ışık kaynağı",
         "Doğal ışık kaynağı",
-        "Yapay ışık kaynağı"
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1081,8 +1081,8 @@
       "soru": "Deniz feneri hangi gruba girer?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Yapay ses kaynağı",
         "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
         "Yapay ışık kaynağı",
         "Doğal ışık kaynağı"
       ],
@@ -1101,10 +1101,10 @@
       "soru": "Nehrin su sesi ne tür kaynaktır?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
-        "Yapay ses kaynağı",
         "Doğal ışık kaynağı",
-        "Yapay ışık kaynağı"
+        "Yapay ışık kaynağı",
+        "Doğal ses kaynağı",
+        "Yapay ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1121,10 +1121,10 @@
       "soru": "Selin'in flütü ne tür ses kaynağıdır?",
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
+        "Doğal ışık kaynağı",
         "Yapay ışık kaynağı",
         "Doğal ses kaynağı",
-        "Yapay ses kaynağı",
-        "Doğal ışık kaynağı"
+        "Yapay ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1141,10 +1141,10 @@
       "soru": "Horozun sesi nedir?",
       "dogruCevap": "Doğal ses",
       "secenekler": [
-        "Doğal ses",
-        "Doğal ışık",
+        "Yapay ses",
         "Yapay ışık",
-        "Yapay ses"
+        "Doğal ses",
+        "Doğal ışık"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1161,9 +1161,9 @@
       "soru": "Çalar saatin sesi nasıldır?",
       "dogruCevap": "Yapay ses",
       "secenekler": [
+        "Yapay ses",
         "Yapay ışık",
         "Doğal ışık",
-        "Yapay ses",
         "Doğal ses"
       ],
       "ipucu": "",
@@ -1181,8 +1181,8 @@
       "soru": "Yağmur damlalarının çıkardığı ses hangi gruba aittir?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "İnsan yapımı",
         "Yapay ses",
+        "İnsan yapımı",
         "Yansıtıcı",
         "Doğal ses kaynağı"
       ],
@@ -1202,9 +1202,9 @@
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
         "Doğal ses kaynağı",
+        "Yapay ses kaynağı",
         "Doğal ışık kaynağı",
-        "Yıldız ışığı",
-        "Yapay ses kaynağı"
+        "Yıldız ışığı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1222,8 +1222,8 @@
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
         "Doğal ışık kaynağı",
-        "Işık yansıtıcısı",
         "Yapay ışık kaynağı",
+        "Işık yansıtıcısı",
         "Yapay ses kaynağı"
       ],
       "ipucu": "",
@@ -1241,10 +1241,10 @@
       "soru": "Televizyondan gelen sesler hangi gruba girer?",
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
-        "Yapay ses kaynağı",
-        "Doğal ışık kaynağı",
+        "Sessiz kaynak",
         "Doğal ses kaynağı",
-        "Sessiz kaynak"
+        "Yapay ses kaynağı",
+        "Doğal ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1261,10 +1261,10 @@
       "soru": "Annemizin sesi hangi türe örnektir?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Mekanik ses",
         "Yapay ses kaynağı",
-        "Doğal ses kaynağı",
-        "Yankı kaynağı"
+        "Mekanik ses",
+        "Yankı kaynağı",
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1282,9 +1282,9 @@
       "dogruCevap": "Rüzgar sesi - Yanan Mum",
       "secenekler": [
         "Kuş sesi - Güneş",
-        "Radyo sesi - Yıldız",
         "Araba kornası - El feneri",
-        "Rüzgar sesi - Yanan Mum"
+        "Rüzgar sesi - Yanan Mum",
+        "Radyo sesi - Yıldız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1309,9 +1309,9 @@
       "dogruCevap": "Doğal ışık kaynağı",
       "secenekler": [
         "Yapay ses",
-        "Sadece ses",
         "Yapay ışık kaynağı",
-        "Doğal ışık kaynağı"
+        "Doğal ışık kaynağı",
+        "Sadece ses"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1328,9 +1328,9 @@
       "soru": "Vitrendeki yüzük ışık kaynağı mıdır?",
       "dogruCevap": "Hayır, sadece yansıtır",
       "secenekler": [
-        "Evet, doğal",
         "Kendi üretir",
         "Evet, yapay",
+        "Evet, doğal",
         "Hayır, sadece yansıtır"
       ],
       "ipucu": "",
@@ -1348,10 +1348,10 @@
       "soru": "Arkadaşımızın şiirini duymamızı sağlayan organ hangisidir?",
       "dogruCevap": "Kulağımız",
       "secenekler": [
-        "Kulağımız",
-        "Burnumuz",
         "Dilimiz",
-        "Gözümüz"
+        "Gözümüz",
+        "Burnumuz",
+        "Kulağımız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1368,10 +1368,10 @@
       "soru": "Trenin düdük sesi ne tür kaynaktan gelir?",
       "dogruCevap": "Yapay ses kaynağı",
       "secenekler": [
-        "Doğal ışık kaynağı",
+        "Doğal ses kaynağı",
         "Güneş ışığı",
         "Yapay ses kaynağı",
-        "Doğal ses kaynağı"
+        "Doğal ışık kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1388,10 +1388,10 @@
       "soru": "İnsanların yaktığı meşale ne tür ışık kaynağıdır?",
       "dogruCevap": "Yapay ışık kaynağı",
       "secenekler": [
-        "Doğal ışık kaynağı",
-        "Yapay ses kaynağı",
+        "Doğal ses kaynağı",
         "Yapay ışık kaynağı",
-        "Doğal ses kaynağı"
+        "Doğal ışık kaynağı",
+        "Yapay ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1408,10 +1408,10 @@
       "soru": "Aslanın sesi hangi ses sınıfına girer?",
       "dogruCevap": "Doğal ses kaynağı",
       "secenekler": [
-        "Doğal ses kaynağı",
         "Teknoloji sesi",
         "İnsan yapımı",
-        "Yapay ses kaynağı"
+        "Yapay ses kaynağı",
+        "Doğal ses kaynağı"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1430,8 +1430,8 @@
       "secenekler": [
         "Evet, doğal",
         "Işığı yansıtır",
-        "Evet, yapay",
-        "Hayır, ışık yaymadığı için o an değildir"
+        "Hayır, ışık yaymadığı için o an değildir",
+        "Evet, yapay"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.2.3",
@@ -1448,9 +1448,9 @@
       "soru": "Güneş doğal bir ışık kaynağıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Bazen",
         "Hiçbiri",
         "Yanlış",
-        "Bazen",
         "Doğru"
       ],
       "ipucu": "",
@@ -1467,10 +1467,10 @@
       "soru": "Ay kendi ışığını üretmez.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
-        "Yanlış",
         "Doğru",
-        "Bazen"
+        "Hiçbiri",
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1486,10 +1486,10 @@
       "soru": "Lamba yapay ışık kaynağıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Yanlış",
         "Doğru",
-        "Hiçbiri",
         "Bazen",
-        "Yanlış"
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1505,10 +1505,10 @@
       "soru": "Karanlıkta nesneleri göremeyiz.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
-        "Bazen",
         "Hiçbiri",
-        "Doğru"
+        "Doğru",
+        "Yanlış",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1524,10 +1524,10 @@
       "soru": "Ayna ışığı yansıtır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
-        "Yanlış",
+        "Doğru",
         "Bazen",
-        "Doğru"
+        "Yanlış",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1543,8 +1543,8 @@
       "soru": "Güneş gözlüğü gözlerimizi korur.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Bazen",
+        "Doğru",
         "Yanlış",
         "Hiçbiri"
       ],
@@ -1562,10 +1562,10 @@
       "soru": "Mum yandığında ışık verir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Doğru",
-        "Hiçbiri",
-        "Bazen"
+        "Yanlış",
+        "Bazen",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1581,8 +1581,8 @@
       "soru": "Yıldızlar uzaktan ışık verir.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Yanlış",
+        "Doğru",
         "Bazen",
         "Hiçbiri"
       ],
@@ -1600,10 +1600,10 @@
       "soru": "Fener kamp ışığı sağlar.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
+        "Yanlış",
         "Hiçbiri",
-        "Bazen",
-        "Yanlış"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1619,10 +1619,10 @@
       "soru": "Gündüz Güneş ışığı vardır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Doğru",
-        "Bazen",
-        "Hiçbiri"
+        "Yanlış",
+        "Hiçbiri",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1638,10 +1638,10 @@
       "soru": "Işık düz çizgiler halinde yayılır.",
       "dogruCevap": "Doğru",
       "secenekler": [
+        "Doğru",
         "Bazen",
-        "Yanlış",
         "Hiçbiri",
-        "Doğru"
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1657,9 +1657,9 @@
       "soru": "Güneşe doğrudan bakmak zararlıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Hiçbiri",
         "Doğru",
+        "Yanlış",
         "Bazen"
       ],
       "ipucu": "",
@@ -1676,10 +1676,10 @@
       "soru": "El feneri yapay ışık kaynağıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
-        "Hiçbiri",
         "Doğru",
-        "Yanlış"
+        "Hiçbiri",
+        "Yanlış",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1697,8 +1697,8 @@
       "secenekler": [
         "Doğru",
         "Hiçbiri",
-        "Bazen",
-        "Yanlış"
+        "Yanlış",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1717,10 +1717,10 @@
       "soru": "Gece gökyüzünde yıldızlar görünür.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
+        "Hiçbiri",
         "Yanlış",
-        "Hiçbiri"
+        "Doğru",
+        "Bazen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1736,10 +1736,10 @@
       "soru": "Işık olmadan renkleri ayırt edemeyiz.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
-        "Bazen",
         "Yanlış",
-        "Hiçbiri"
+        "Bazen",
+        "Hiçbiri",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1755,10 +1755,10 @@
       "soru": "Gökkuşağı ışığın kırılmasıyla oluşur.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
         "Yanlış",
-        "Doğru",
-        "Bazen"
+        "Hiçbiri",
+        "Bazen",
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1775,9 +1775,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Hiçbiri",
-        "Doğru",
+        "Yanlış",
         "Bazen",
-        "Yanlış"
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1793,8 +1793,8 @@
       "soru": "Güneş bitkiler için ışık kaynağıdır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Yanlış",
+        "Bazen",
         "Doğru",
         "Hiçbiri"
       ],
@@ -1813,9 +1813,9 @@
       "dogruCevap": "Doğru",
       "secenekler": [
         "Yanlış",
-        "Doğru",
+        "Bazen",
         "Hiçbiri",
-        "Bazen"
+        "Doğru"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1831,10 +1831,10 @@
       "soru": "Ayna yüzeyinde yansıma olur.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Hiçbiri",
+        "Bazen",
         "Doğru",
         "Yanlış",
-        "Bazen"
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1850,10 +1850,10 @@
       "soru": "Görmek için ışığa ihtiyacımız vardır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Bazen",
         "Doğru",
-        "Hiçbiri",
-        "Yanlış"
+        "Yanlış",
+        "Bazen",
+        "Hiçbiri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1869,10 +1869,10 @@
       "soru": "Gündüz aydınlıktır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Yanlış",
         "Hiçbiri",
         "Doğru",
-        "Bazen"
+        "Bazen",
+        "Yanlış"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1888,9 +1888,9 @@
       "soru": "Gece karanlıktır.",
       "dogruCevap": "Doğru",
       "secenekler": [
-        "Doğru",
         "Bazen",
         "Yanlış",
+        "Doğru",
         "Hiçbiri"
       ],
       "ipucu": "",
@@ -1908,9 +1908,9 @@
       "dogruCevap": "Hayır, ışık gerekir",
       "secenekler": [
         "Bazen",
+        "Evet",
         "Gözlerimiz yeter",
-        "Hayır, ışık gerekir",
-        "Evet"
+        "Hayır, ışık gerekir"
       ],
       "ipucu": "Görmek için ışığa ihtiyacımız vardır!",
       "gorsel": {

@@ -790,10 +790,10 @@
       "soru": "Resimde kaç elma vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "7",
+        "5",
         "4",
         "6",
-        "5"
+        "7"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -810,10 +810,10 @@
       "soru": "Resimde kaç yıldız vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "5",
-        "6",
         "4",
-        "3"
+        "3",
+        "5",
+        "6"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -830,10 +830,10 @@
       "soru": "Resimde kaç top vardır?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
+        "8",
         "6",
-        "7",
-        "8"
+        "5",
+        "7"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -850,10 +850,10 @@
       "soru": "Resimde kaç kuş vardır?",
       "dogruCevap": "3",
       "secenekler": [
-        "2",
-        "5",
+        "4",
         "3",
-        "4"
+        "5",
+        "2"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -870,10 +870,10 @@
       "soru": "Resimde kaç çiçek vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "6",
-        "9",
+        "7",
         "8",
-        "7"
+        "6",
+        "9"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -885,6 +885,146 @@
     },
     {
       "id": "zd7-t6",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kalem vardır?",
+      "dogruCevap": "8",
+      "secenekler": [
+        "9",
+        "10",
+        "8",
+        "7"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kalem-8",
+        "adet": 8
+      }
+    },
+    {
+      "id": "zd7-t7",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kelebek vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kelebek-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t8",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç elma vardır?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "7",
+        "5",
+        "4",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "elma-5",
+        "adet": 5
+      }
+    },
+    {
+      "id": "zd7-t9",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç yıldız vardır?",
+      "dogruCevap": "4",
+      "secenekler": [
+        "3",
+        "4",
+        "6",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "yildiz-4",
+        "adet": 4
+      }
+    },
+    {
+      "id": "zd7-t10",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç top vardır?",
+      "dogruCevap": "6",
+      "secenekler": [
+        "7",
+        "5",
+        "8",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "top-6",
+        "adet": 6
+      }
+    },
+    {
+      "id": "zd7-t11",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç kuş vardır?",
+      "dogruCevap": "3",
+      "secenekler": [
+        "2",
+        "4",
+        "3",
+        "5"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "kus-3",
+        "adet": 3
+      }
+    },
+    {
+      "id": "zd7-t12",
+      "kazanimKodu": "ZD.2.1.7",
+      "tip": "coktanSecmeli",
+      "soru": "Resimde kaç çiçek vardır?",
+      "dogruCevap": "7",
+      "secenekler": [
+        "7",
+        "8",
+        "9",
+        "6"
+      ],
+      "ipucu": "Dikkatle say.",
+      "gorsel": {
+        "tur": "zeka-dikkat",
+        "mod": "sayim",
+        "sahne": "cicek-7",
+        "adet": 7
+      }
+    },
+    {
+      "id": "zd7-t13",
       "kazanimKodu": "ZD.2.1.7",
       "tip": "coktanSecmeli",
       "soru": "Resimde kaç kalem vardır?",
@@ -904,156 +1044,16 @@
       }
     },
     {
-      "id": "zd7-t7",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç kelebek vardır?",
-      "dogruCevap": "5",
-      "secenekler": [
-        "6",
-        "5",
-        "7",
-        "4"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "kelebek-5",
-        "adet": 5
-      }
-    },
-    {
-      "id": "zd7-t8",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç elma vardır?",
-      "dogruCevap": "5",
-      "secenekler": [
-        "4",
-        "7",
-        "6",
-        "5"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "elma-5",
-        "adet": 5
-      }
-    },
-    {
-      "id": "zd7-t9",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç yıldız vardır?",
-      "dogruCevap": "4",
-      "secenekler": [
-        "5",
-        "4",
-        "6",
-        "3"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "yildiz-4",
-        "adet": 4
-      }
-    },
-    {
-      "id": "zd7-t10",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç top vardır?",
-      "dogruCevap": "6",
-      "secenekler": [
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "top-6",
-        "adet": 6
-      }
-    },
-    {
-      "id": "zd7-t11",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç kuş vardır?",
-      "dogruCevap": "3",
-      "secenekler": [
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "kus-3",
-        "adet": 3
-      }
-    },
-    {
-      "id": "zd7-t12",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç çiçek vardır?",
-      "dogruCevap": "7",
-      "secenekler": [
-        "8",
-        "6",
-        "7",
-        "9"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "cicek-7",
-        "adet": 7
-      }
-    },
-    {
-      "id": "zd7-t13",
-      "kazanimKodu": "ZD.2.1.7",
-      "tip": "coktanSecmeli",
-      "soru": "Resimde kaç kalem vardır?",
-      "dogruCevap": "8",
-      "secenekler": [
-        "8",
-        "7",
-        "10",
-        "9"
-      ],
-      "ipucu": "Dikkatle say.",
-      "gorsel": {
-        "tur": "zeka-dikkat",
-        "mod": "sayim",
-        "sahne": "kalem-8",
-        "adet": 8
-      }
-    },
-    {
       "id": "zd7-t14",
       "kazanimKodu": "ZD.2.1.7",
       "tip": "coktanSecmeli",
       "soru": "Resimde kaç kelebek vardır?",
       "dogruCevap": "5",
       "secenekler": [
+        "5",
         "7",
-        "4",
         "6",
-        "5"
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1070,9 +1070,9 @@
       "soru": "Resimde kaç elma vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "4",
         "7",
         "5",
+        "4",
         "6"
       ],
       "ipucu": "Dikkatle say.",
@@ -1090,8 +1090,8 @@
       "soru": "Resimde kaç yıldız vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "4",
         "3",
+        "4",
         "6",
         "5"
       ],
@@ -1112,8 +1112,8 @@
       "secenekler": [
         "8",
         "6",
-        "7",
-        "5"
+        "5",
+        "7"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1130,10 +1130,10 @@
       "soru": "Resimde kaç kuş vardır?",
       "dogruCevap": "3",
       "secenekler": [
-        "4",
-        "5",
         "2",
-        "3"
+        "5",
+        "3",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1150,10 +1150,10 @@
       "soru": "Resimde kaç çiçek vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "7",
-        "8",
         "6",
-        "9"
+        "9",
+        "7",
+        "8"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1172,8 +1172,8 @@
       "secenekler": [
         "7",
         "8",
-        "10",
-        "9"
+        "9",
+        "10"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1190,10 +1190,10 @@
       "soru": "Resimde kaç kelebek vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "4",
         "5",
+        "6",
         "7",
-        "6"
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1211,8 +1211,8 @@
       "dogruCevap": "5",
       "secenekler": [
         "4",
-        "6",
         "7",
+        "6",
         "5"
       ],
       "ipucu": "Dikkatle say.",
@@ -1230,9 +1230,9 @@
       "soru": "Resimde kaç yıldız vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "4",
         "5",
         "6",
+        "4",
         "3"
       ],
       "ipucu": "Dikkatle say.",
@@ -1250,8 +1250,8 @@
       "soru": "Resimde kaç top vardır?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
         "6",
+        "5",
         "8",
         "7"
       ],
@@ -1271,9 +1271,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "3",
-        "5",
         "4",
-        "2"
+        "2",
+        "5"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1290,10 +1290,10 @@
       "soru": "Resimde kaç çiçek vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "8",
-        "6",
         "9",
-        "7"
+        "7",
+        "6",
+        "8"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1310,10 +1310,10 @@
       "soru": "Resimde kaç kalem vardır?",
       "dogruCevap": "8",
       "secenekler": [
-        "10",
+        "9",
         "8",
-        "7",
-        "9"
+        "10",
+        "7"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1331,9 +1331,9 @@
       "dogruCevap": "5",
       "secenekler": [
         "4",
+        "5",
         "7",
-        "6",
-        "5"
+        "6"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1350,10 +1350,10 @@
       "soru": "Resimde kaç elma vardır?",
       "dogruCevap": "5",
       "secenekler": [
+        "7",
         "5",
-        "4",
         "6",
-        "7"
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1370,9 +1370,9 @@
       "soru": "Resimde kaç yıldız vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "5",
-        "6",
         "3",
+        "6",
+        "5",
         "4"
       ],
       "ipucu": "Dikkatle say.",
@@ -1390,10 +1390,10 @@
       "soru": "Resimde kaç top vardır?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
         "6",
+        "7",
         "8",
-        "7"
+        "5"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1410,10 +1410,10 @@
       "soru": "Resimde kaç kuş vardır?",
       "dogruCevap": "3",
       "secenekler": [
-        "3",
-        "4",
+        "5",
         "2",
-        "5"
+        "3",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1432,8 +1432,8 @@
       "secenekler": [
         "6",
         "8",
-        "7",
-        "9"
+        "9",
+        "7"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1451,9 +1451,9 @@
       "dogruCevap": "8",
       "secenekler": [
         "7",
-        "9",
         "8",
-        "10"
+        "10",
+        "9"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1470,10 +1470,10 @@
       "soru": "Resimde kaç kelebek vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "4",
-        "6",
         "7",
-        "5"
+        "6",
+        "5",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1491,8 +1491,8 @@
       "dogruCevap": "5",
       "secenekler": [
         "5",
-        "7",
         "4",
+        "7",
         "6"
       ],
       "ipucu": "Dikkatle say.",
@@ -1511,9 +1511,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "5",
-        "3",
+        "4",
         "6",
-        "4"
+        "3"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1552,8 +1552,8 @@
       "secenekler": [
         "3",
         "5",
-        "4",
-        "2"
+        "2",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1590,10 +1590,10 @@
       "soru": "Resimde kaç kalem vardır?",
       "dogruCevap": "8",
       "secenekler": [
-        "9",
-        "10",
+        "7",
         "8",
-        "7"
+        "9",
+        "10"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1611,9 +1611,9 @@
       "dogruCevap": "5",
       "secenekler": [
         "6",
-        "4",
+        "5",
         "7",
-        "5"
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1630,10 +1630,10 @@
       "soru": "Resimde kaç elma vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "6",
-        "4",
         "7",
-        "5"
+        "5",
+        "6",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1650,10 +1650,10 @@
       "soru": "Resimde kaç yıldız vardır?",
       "dogruCevap": "4",
       "secenekler": [
-        "4",
         "3",
-        "5",
-        "6"
+        "4",
+        "6",
+        "5"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1670,10 +1670,10 @@
       "soru": "Resimde kaç top vardır?",
       "dogruCevap": "6",
       "secenekler": [
-        "6",
         "8",
+        "5",
         "7",
-        "5"
+        "6"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1690,10 +1690,10 @@
       "soru": "Resimde kaç kuş vardır?",
       "dogruCevap": "3",
       "secenekler": [
+        "2",
         "5",
-        "3",
         "4",
-        "2"
+        "3"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1710,10 +1710,10 @@
       "soru": "Resimde kaç çiçek vardır?",
       "dogruCevap": "7",
       "secenekler": [
-        "9",
         "7",
+        "8",
         "6",
-        "8"
+        "9"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1730,10 +1730,10 @@
       "soru": "Resimde kaç kalem vardır?",
       "dogruCevap": "8",
       "secenekler": [
+        "7",
         "10",
-        "9",
         "8",
-        "7"
+        "9"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {
@@ -1750,9 +1750,9 @@
       "soru": "Resimde kaç kelebek vardır?",
       "dogruCevap": "5",
       "secenekler": [
+        "7",
         "6",
         "4",
-        "7",
         "5"
       ],
       "ipucu": "Dikkatle say.",
@@ -1770,10 +1770,10 @@
       "soru": "Resimde kaç elma vardır?",
       "dogruCevap": "5",
       "secenekler": [
-        "7",
         "6",
-        "4",
-        "5"
+        "5",
+        "7",
+        "4"
       ],
       "ipucu": "Dikkatle say.",
       "gorsel": {

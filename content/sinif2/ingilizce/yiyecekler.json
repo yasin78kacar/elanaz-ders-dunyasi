@@ -257,10 +257,10 @@
       "soru": "Kahvaltıda yediğimiz ekmeğin İngilizcesi nedir?",
       "dogruCevap": "Bread",
       "secenekler": [
-        "Bread",
+        "Milk",
         "Water",
-        "Apple",
-        "Milk"
+        "Bread",
+        "Apple"
       ],
       "ipucu": "",
       "gorsel": {
@@ -276,10 +276,10 @@
       "soru": "Kahvaltıların en lezzetli yiyeceği olan peynirin İngilizce adı hangisidir?",
       "dogruCevap": "Cheese",
       "secenekler": [
-        "Banana",
         "Meat",
         "Tea",
-        "Cheese"
+        "Cheese",
+        "Banana"
       ],
       "ipucu": "",
       "gorsel": {
@@ -296,9 +296,9 @@
       "dogruCevap": "Egg",
       "secenekler": [
         "Juice",
+        "Water",
         "Chicken",
-        "Egg",
-        "Water"
+        "Egg"
       ],
       "ipucu": "",
       "gorsel": {
@@ -314,10 +314,10 @@
       "soru": "Her gün içmemiz gereken sağlıklı sütün İngilizcesi aşağıdakilerden hangisidir?",
       "dogruCevap": "Milk",
       "secenekler": [
-        "Bread",
-        "Tea",
         "Milk",
-        "Meat"
+        "Meat",
+        "Bread",
+        "Tea"
       ],
       "ipucu": "",
       "gorsel": {
@@ -333,10 +333,10 @@
       "soru": "Çok sağlıklı ve tatlı bir meyve olan elmanın İngilizce karşılığı nedir?",
       "dogruCevap": "Apple",
       "secenekler": [
+        "Apple",
         "Banana",
-        "Cheese",
         "Juice",
-        "Apple"
+        "Cheese"
       ],
       "ipucu": "",
       "gorsel": {
@@ -353,8 +353,8 @@
       "dogruCevap": "Banana",
       "secenekler": [
         "Egg",
-        "Water",
         "Apple",
+        "Water",
         "Banana"
       ],
       "ipucu": "",
@@ -371,10 +371,10 @@
       "soru": "Bizi güçlü yapan et yemeğinin İngilizcesi nedir?",
       "dogruCevap": "Meat",
       "secenekler": [
+        "Chicken",
         "Meat",
         "Milk",
-        "Bread",
-        "Chicken"
+        "Bread"
       ],
       "ipucu": "",
       "gorsel": {
@@ -390,10 +390,10 @@
       "soru": "Akşam yemeğinde yediğimiz tavuk etinin İngilizcesi nedir?",
       "dogruCevap": "Chicken",
       "secenekler": [
-        "Water",
         "Chicken",
-        "Cheese",
-        "Tea"
+        "Tea",
+        "Water",
+        "Cheese"
       ],
       "ipucu": "",
       "gorsel": {
@@ -409,8 +409,8 @@
       "soru": "Susadığımızda içtiğimiz hayat kaynağımız olan suyun İngilizcesi nedir?",
       "dogruCevap": "Water",
       "secenekler": [
-        "Milk",
         "Water",
+        "Milk",
         "Juice",
         "Tea"
       ],
@@ -428,10 +428,10 @@
       "soru": "Taze sıkılmış meyve suyunun İngilizcesi hangisidir?",
       "dogruCevap": "Juice",
       "secenekler": [
-        "Bread",
         "Juice",
+        "Apple",
         "Meat",
-        "Apple"
+        "Bread"
       ],
       "ipucu": "",
       "gorsel": {
@@ -447,10 +447,10 @@
       "soru": "Büyüklerimizin kahvaltıda içmeyi çok sevdiği çayın İngilizce adı nedir?",
       "dogruCevap": "Tea",
       "secenekler": [
-        "Tea",
-        "Water",
+        "Cheese",
         "Egg",
-        "Cheese"
+        "Tea",
+        "Water"
       ],
       "ipucu": "",
       "gorsel": {
@@ -466,9 +466,9 @@
       "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
       "dogruCevap": "Ekmek = Water",
       "secenekler": [
-        "Peynir = Cheese",
         "Ekmek = Water",
         "Süt = Milk",
+        "Peynir = Cheese",
         "Et = Meat"
       ],
       "ipucu": "Bread ekmek demektir!",

@@ -775,9 +775,9 @@
       "soru": "Mutlu olduğumuzda yüzümüzde ne olur?",
       "dogruCevap": "Gülümseriz",
       "secenekler": [
+        "Gülümseriz",
         "Kaşlarımızı çatarız",
         "Uyuruz",
-        "Gülümseriz",
         "Ağlarız"
       ],
       "ipucu": "",
@@ -794,10 +794,10 @@
       "soru": "Üzgün olduğumuzda ne hissedebiliriz?",
       "dogruCevap": "Gözlerimiz dolabilir",
       "secenekler": [
-        "Koşmak isteriz",
         "Güleriz",
-        "Çok enerjik oluruz",
-        "Gözlerimiz dolabilir"
+        "Koşmak isteriz",
+        "Gözlerimiz dolabilir",
+        "Çok enerjik oluruz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -813,10 +813,10 @@
       "soru": "Ailemizde duygularımızı paylaşmak doğru mudur?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hiç paylaşmayız",
-        "Sadece üzüntüyü",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Hiç paylaşmayız",
+        "Sadece üzüntüyü"
       ],
       "ipucu": "",
       "gorsel": {
@@ -833,9 +833,9 @@
       "soru": "Kızgın olduğumuzda ne yapmalıyız?",
       "dogruCevap": "Sakinleşip konuşmalıyız",
       "secenekler": [
-        "Kaçmalıyız",
         "Eşyalara vurmalıyız",
         "Bağırmalıyız",
+        "Kaçmalıyız",
         "Sakinleşip konuşmalıyız"
       ],
       "ipucu": "",
@@ -852,10 +852,10 @@
       "soru": "Annemize sarılmak hangi duyguyu gösterir?",
       "dogruCevap": "Sevgi",
       "secenekler": [
-        "Korku",
         "Sevgi",
-        "Kızgınlık",
-        "Üzüntü"
+        "Korku",
+        "Üzüntü",
+        "Kızgınlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -871,10 +871,10 @@
       "soru": "Kardeşimiz ağlıyorsa ne yapmalıyız?",
       "dogruCevap": "Yanında olup teselli etmeliyiz",
       "secenekler": [
-        "Uzaklaşmalıyız",
-        "Yanında olup teselli etmeliyiz",
+        "Bağırmalıyız",
         "Gülmeliyiz",
-        "Bağırmalıyız"
+        "Yanında olup teselli etmeliyiz",
+        "Uzaklaşmalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -891,8 +891,8 @@
       "soru": "Korktuğumuzda kime güvenebiliriz?",
       "dogruCevap": "Ailemize",
       "secenekler": [
-        "Sadece arkadaşlara",
         "Yabancılara",
+        "Sadece arkadaşlara",
         "Kimseye",
         "Ailemize"
       ],
@@ -910,10 +910,10 @@
       "soru": "🎭 Duygularımızı hiç paylaşmamak sağlıklı mıdır?",
       "dogruCevap": "Hayır, paylaşmak önemlidir",
       "secenekler": [
-        "Hayır, paylaşmak önemlidir",
         "Evet, hep saklamalıyız",
+        "Sadece mutluluğu paylaşırız",
         "Fark etmez",
-        "Sadece mutluluğu paylaşırız"
+        "Hayır, paylaşmak önemlidir"
       ],
       "ipucu": "Duygularımızı ailemizle konuşmak bizi rahatlatır!",
       "gorsel": {
@@ -931,10 +931,10 @@
       "soru": "Empati ne demektir?",
       "dogruCevap": "Başkalarının duygularını anlamaya çalışmak",
       "secenekler": [
-        "Oyun oynamak",
-        "Çok konuşmak",
         "Başkalarının duygularını anlamaya çalışmak",
-        "Sadece kendini düşünmek"
+        "Sadece kendini düşünmek",
+        "Oyun oynamak",
+        "Çok konuşmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -950,9 +950,9 @@
       "soru": "Ailemizde kavga çıktığında ne yapmalıyız?",
       "dogruCevap": "Sakin konuşarak çözüm bulmalıyız",
       "secenekler": [
-        "Sakin konuşarak çözüm bulmalıyız",
         "Susmalıyız",
         "Kaçmalıyız",
+        "Sakin konuşarak çözüm bulmalıyız",
         "Daha çok bağırmalıyız"
       ],
       "ipucu": "",
@@ -971,8 +971,8 @@
       "dogruCevap": "Pişmanlık ve saygı",
       "secenekler": [
         "Sevinç",
-        "Korku",
         "Kızgınlık",
+        "Korku",
         "Pişmanlık ve saygı"
       ],
       "ipucu": "",
@@ -990,10 +990,10 @@
       "soru": "Kıskançlık hangi tür duygudur?",
       "dogruCevap": "Olumsuz",
       "secenekler": [
-        "Nötr",
-        "Gerekli",
+        "Olumsuz",
         "Olumlu",
-        "Olumsuz"
+        "Nötr",
+        "Gerekli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1010,10 +1010,10 @@
       "soru": "Ailemizde \"seni seviyorum\" demek güzel midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Gereksiz",
         "Evet",
-        "Sadece bayramda",
-        "Hayır"
+        "Hayır",
+        "Gereksiz",
+        "Sadece bayramda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1029,8 +1029,8 @@
       "soru": "Üzüldüğümüzde annemiz bizi nasıl rahatlatır?",
       "dogruCevap": "Sarılarak ve dinleyerek",
       "secenekler": [
-        "Cezalandırarak",
         "Görmezden gelerek",
+        "Cezalandırarak",
         "Bağırmakla",
         "Sarılarak ve dinleyerek"
       ],
@@ -1049,9 +1049,9 @@
       "soru": "Sinirlendiğimizde eşyalara vurmak doğru mudur?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Her zaman",
-        "Evet",
         "Bazen",
+        "Evet",
+        "Her zaman",
         "Hayır"
       ],
       "ipucu": "",
@@ -1068,10 +1068,10 @@
       "soru": "🎭 Sadece mutlu duyguları paylaşmak yeterli midir?",
       "dogruCevap": "Hayır, tüm duygularımızı paylaşabiliriz",
       "secenekler": [
-        "Evet, sadece mutluluk",
-        "Sadece kızgınlık",
+        "Hiç paylaşmayız",
         "Hayır, tüm duygularımızı paylaşabiliriz",
-        "Hiç paylaşmayız"
+        "Sadece kızgınlık",
+        "Evet, sadece mutluluk"
       ],
       "ipucu": "Üzüntü ve korkuyu da paylaşmak önemlidir!",
       "gorsel": {
@@ -1089,9 +1089,9 @@
       "soru": "Ailemizde güven duygusu nasıl oluşur?",
       "dogruCevap": "Dürüst ve sevgi dolu davranarak",
       "secenekler": [
-        "Susarak",
-        "Yalan söyleyerek",
         "Kavga ederek",
+        "Yalan söyleyerek",
+        "Susarak",
         "Dürüst ve sevgi dolu davranarak"
       ],
       "ipucu": "",
@@ -1111,8 +1111,8 @@
       "secenekler": [
         "Uzaklaşmalıyız",
         "Onu tebrik etmeliyiz",
-        "Eleştirmeliyiz",
-        "Kıskanmalıyız"
+        "Kıskanmalıyız",
+        "Eleştirmeliyiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1131,8 +1131,8 @@
       "secenekler": [
         "Bizi yalnız bırakır",
         "Görmezden gelir",
-        "Bağırmaya başlar",
-        "Yanımızda olur"
+        "Yanımızda olur",
+        "Bağırmaya başlar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1149,10 +1149,10 @@
       "soru": "Ailecek birlikte vakit geçirmek ne sağlar?",
       "dogruCevap": "Birliktelik ve mutluluk",
       "secenekler": [
-        "Korku",
-        "Kavga",
+        "Yalnızlık",
         "Birliktelik ve mutluluk",
-        "Yalnızlık"
+        "Kavga",
+        "Korku"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1169,9 +1169,9 @@
       "soru": "Duygularımızı kelimelerle ifade etmek neden önemlidir?",
       "dogruCevap": "Başkaları bizi daha iyi anlar",
       "secenekler": [
-        "Sadece yazı için",
-        "Gereksizdir",
         "Kimse anlamaz",
+        "Gereksizdir",
+        "Sadece yazı için",
         "Başkaları bizi daha iyi anlar"
       ],
       "ipucu": "",
@@ -1190,9 +1190,9 @@
       "dogruCevap": "Sarılarak güvende olduğumuzu söyler",
       "secenekler": [
         "Görmezden gelir",
-        "Sarılarak güvende olduğumuzu söyler",
         "Cezalandırır",
-        "Bağırmaya devam eder"
+        "Bağırmaya devam eder",
+        "Sarılarak güvende olduğumuzu söyler"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1209,10 +1209,10 @@
       "soru": "Aile büyüklerimize saygı göstermeli miyiz?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
+        "Sadece bayramda",
         "Hayır",
-        "Gereksiz",
-        "Sadece bayramda"
+        "Evet",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1232,10 +1232,10 @@
       "soru": "Mutlu bir ailede en çok hangi duygu vardır?",
       "dogruCevap": "Sevgi",
       "secenekler": [
-        "Sevgi",
         "Korku",
-        "Kıskançlık",
-        "Kızgınlık"
+        "Sevgi",
+        "Kızgınlık",
+        "Kıskançlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1251,10 +1251,10 @@
       "soru": "🎭 Ailemiz bizi sadece başarılı olduğumuzda mı sever?",
       "dogruCevap": "Hayır, her halimizle sever",
       "secenekler": [
-        "Hiç sevmez",
         "Hayır, her halimizle sever",
-        "Sadece mutlu olduğumuzda",
-        "Evet, sadece başarılıyken"
+        "Evet, sadece başarılıyken",
+        "Hiç sevmez",
+        "Sadece mutlu olduğumuzda"
       ],
       "ipucu": "Aile sevgisi koşulsuzdur!",
       "gorsel": {
@@ -1272,9 +1272,9 @@
       "dogruCevap": "Daha hızlı",
       "secenekler": [
         "Daha hızlı",
-        "Fark etmez",
         "Durur",
-        "Yavaşlar"
+        "Yavaşlar",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1290,10 +1290,10 @@
       "soru": "Üzüntüyü paylaşmak bizi rahatlatır mı?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Fark etmez",
-        "Daha kötü yapar",
+        "Hayır",
         "Evet",
-        "Hayır"
+        "Daha kötü yapar",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1310,10 +1310,10 @@
       "soru": "Kardeşimizle kavga ettikten sonra ne yapmalıyız?",
       "dogruCevap": "Özür dileyip barışmalıyız",
       "secenekler": [
-        "Asla konuşmamalıyız",
         "Daha çok kavga etmeliyiz",
+        "Özür dileyip barışmalıyız",
         "Kaçmalıyız",
-        "Özür dileyip barışmalıyız"
+        "Asla konuşmamalıyız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1331,8 +1331,8 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Güveni azaltır",
-        "Hayır",
         "Evet",
+        "Hayır",
         "Fark etmez"
       ],
       "ipucu": "",
@@ -1370,9 +1370,9 @@
       "dogruCevap": "Gözlerimiz büyür",
       "secenekler": [
         "Ağlarız",
+        "Koşarız",
         "Gözlerimiz büyür",
-        "Uyuruz",
-        "Koşarız"
+        "Uyuruz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1388,10 +1388,10 @@
       "soru": "Hasta olduğumuzda annemizin ilgisi bize ne hissettirir?",
       "dogruCevap": "Sevildiğimizi",
       "secenekler": [
-        "Yalnız olduğumuzu",
-        "Sevildiğimizi",
+        "Cezalandırıldığımızı",
         "Kızdığımızı",
-        "Cezalandırıldığımızı"
+        "Sevildiğimizi",
+        "Yalnız olduğumuzu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1409,9 +1409,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
+        "Sadece büyüklerin",
         "Evet",
-        "Hiç gerekmez",
-        "Sadece büyüklerin"
+        "Hiç gerekmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1428,10 +1428,10 @@
       "soru": "🎭 Kızgınken hemen karar vermek doğru mudur?",
       "dogruCevap": "Hayır, önce sakinleşmeliyiz",
       "secenekler": [
-        "Evet, hemen bağırmalıyız",
         "Eşyalara vurmalıyız",
         "Hayır, önce sakinleşmeliyiz",
-        "Kaçmalıyız"
+        "Kaçmalıyız",
+        "Evet, hemen bağırmalıyız"
       ],
       "ipucu": "Sakinleşince daha iyi karar veririz!",
       "gorsel": {
@@ -1449,9 +1449,9 @@
       "dogruCevap": "Güzel bir haber aldığımızda",
       "secenekler": [
         "Güzel bir haber aldığımızda",
+        "Üzüldüğümüzde",
         "Uyurken",
-        "Korktuğumuzda",
-        "Üzüldüğümüzde"
+        "Korktuğumuzda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1467,10 +1467,10 @@
       "soru": "Babamız bizi sevdiğini nasıl gösterir?",
       "dogruCevap": "Bizi korur ve ilgilenir",
       "secenekler": [
-        "Bağırmakla",
-        "Cezalandırmakla",
+        "Görmezden gelmekle",
         "Bizi korur ve ilgilenir",
-        "Görmezden gelmekle"
+        "Bağırmakla",
+        "Cezalandırmakla"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1507,9 +1507,9 @@
       "dogruCevap": "Kendimizi daha iyi anlarız",
       "secenekler": [
         "Kendimizi daha iyi anlarız",
-        "Gereksizdir",
         "Sadece büyükler için",
-        "Kimse anlamaz"
+        "Kimse anlamaz",
+        "Gereksizdir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1525,10 +1525,10 @@
       "soru": "Ninemiz bize masal anlatınca ne hissederiz?",
       "dogruCevap": "Mutluluk ve huzur",
       "secenekler": [
-        "Kızgınlık",
-        "Korku",
+        "Mutluluk ve huzur",
         "Üzüntü",
-        "Mutluluk ve huzur"
+        "Kızgınlık",
+        "Korku"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1545,10 +1545,10 @@
       "soru": "Kardeşimizle oyuncak paylaşırken hangi duygu önemlidir?",
       "dogruCevap": "Cömertlik",
       "secenekler": [
-        "Korku",
         "Kızgınlık",
-        "Cömertlik",
-        "Kıskançlık"
+        "Korku",
+        "Kıskançlık",
+        "Cömertlik"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1565,10 +1565,10 @@
       "soru": "Üzüntümüzü annemize anlatmak doğru mudur?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Evet",
         "Gizlemeliyiz",
         "Hayır",
-        "Sadece babaya",
-        "Evet"
+        "Sadece babaya"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1585,10 +1585,10 @@
       "soru": "Ailemizde herkesin duygusu değerli midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Fark etmez",
-        "Evet",
         "Sadece büyüklerin",
-        "Hayır"
+        "Hayır",
+        "Evet",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1606,8 +1606,8 @@
       "dogruCevap": "Hayır, herkes her duyguyu hisseder",
       "secenekler": [
         "Erkekler ağlamaz",
-        "Evet, sadece kızlar üzülür",
         "Hayır, herkes her duyguyu hisseder",
+        "Evet, sadece kızlar üzülür",
         "Duygu yoktur"
       ],
       "ipucu": "Tüm duygular herkes için doğaldır!",
@@ -1627,8 +1627,8 @@
       "secenekler": [
         "Sadece okulda",
         "Gereksizdir",
-        "Başkalarını incitmemek için",
-        "Daha çok bağırmak için"
+        "Daha çok bağırmak için",
+        "Başkalarını incitmemek için"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1644,10 +1644,10 @@
       "soru": "Mutlu bir anı paylaşmak aileyi nasıl etkiler?",
       "dogruCevap": "Herkesi mutlu eder",
       "secenekler": [
-        "Kavga çıkarır",
         "Üzer",
+        "Herkesi mutlu eder",
         "Fark etmez",
-        "Herkesi mutlu eder"
+        "Kavga çıkarır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1666,8 +1666,8 @@
       "secenekler": [
         "Daha heyecanlı yapar",
         "Evet",
-        "Hayır",
-        "Fark etmez"
+        "Fark etmez",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1685,8 +1685,8 @@
       "secenekler": [
         "Susmak",
         "Kavga etmek",
-        "Bağırmak",
-        "Sarılmak"
+        "Sarılmak",
+        "Bağırmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1721,9 +1721,9 @@
       "soru": "Temel duygulardan biri hangisidir?",
       "dogruCevap": "Mutluluk",
       "secenekler": [
+        "Araba",
         "Kalem",
         "Masa",
-        "Araba",
         "Mutluluk"
       ],
       "ipucu": "",
@@ -1740,10 +1740,10 @@
       "soru": "🎭 Aile ve duygularda en önemli değer hangisidir?",
       "dogruCevap": "Sevgi ve empati",
       "secenekler": [
-        "Kıskançlık",
         "Sevgi ve empati",
+        "Yalan söylemek",
         "Kaba davranış",
-        "Yalan söylemek"
+        "Kıskançlık"
       ],
       "ipucu": "Sevgi ve empati aileyi güçlendirir!",
       "gorsel": {

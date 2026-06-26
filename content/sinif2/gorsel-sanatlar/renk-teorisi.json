@@ -930,9 +930,9 @@
       "soru": "Hangisi ana renktir?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Yeşil",
-        "Mor",
         "Mavi",
+        "Mor",
+        "Yeşil",
         "Turuncu"
       ],
       "ipucu": "",
@@ -968,10 +968,10 @@
       "soru": "Hangisi sıcak renktir?",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Turuncu",
         "Mor",
+        "Mavi",
         "Yeşil",
-        "Mavi"
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -987,10 +987,10 @@
       "soru": "Hangisi soğuk renktir?",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Sarı",
-        "Kırmızı",
         "Turuncu",
-        "Mavi"
+        "Sarı",
+        "Mavi",
+        "Kırmızı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1006,10 +1006,10 @@
       "soru": "Hangisi ara renktir?",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Mavi",
         "Sarı",
-        "Turuncu",
-        "Kırmızı"
+        "Mavi",
+        "Kırmızı",
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1025,9 +1025,9 @@
       "soru": "Beyaz renk ne yapar?",
       "dogruCevap": "Renkleri açar",
       "secenekler": [
+        "Karıştırmaz",
         "Koyulaştırır",
         "Renkleri açar",
-        "Karıştırmaz",
         "Siler"
       ],
       "ipucu": "",
@@ -1044,10 +1044,10 @@
       "soru": "Sarı ve mavi karışınca ne olur?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Pembe",
-        "Mor",
+        "Turuncu",
         "Yeşil",
-        "Turuncu"
+        "Mor",
+        "Pembe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1064,9 +1064,9 @@
       "dogruCevap": "Turuncu",
       "secenekler": [
         "Turuncu",
-        "Mavi",
         "Yeşil",
-        "Mor"
+        "Mor",
+        "Mavi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1082,9 +1082,9 @@
       "soru": "Hangisi sıcak renk örneğidir?",
       "dogruCevap": "Kırmızı",
       "secenekler": [
-        "Mavi",
-        "Kırmızı",
         "Yeşil",
+        "Kırmızı",
+        "Mavi",
         "Mor"
       ],
       "ipucu": "",
@@ -1101,10 +1101,10 @@
       "soru": "Hangisi soğuk renk örneğidir?",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Turuncu",
+        "Sarı",
         "Kırmızı",
         "Yeşil",
-        "Sarı"
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1120,10 +1120,10 @@
       "soru": "Pembe hangi rengin tonudur?",
       "dogruCevap": "Kırmızı",
       "secenekler": [
-        "Siyah",
-        "Mavi",
         "Yeşil",
-        "Kırmızı"
+        "Kırmızı",
+        "Mavi",
+        "Siyah"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1139,10 +1139,10 @@
       "soru": "Siyah ne simgeler?",
       "dogruCevap": "Karanlık",
       "secenekler": [
-        "Mutluluk",
+        "Rüzgar",
         "Su",
         "Karanlık",
-        "Rüzgar"
+        "Mutluluk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1159,9 +1159,9 @@
       "dogruCevap": "Genişlik",
       "secenekler": [
         "Genişlik",
-        "Öfke",
         "Korku",
-        "Darlık"
+        "Darlık",
+        "Öfke"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1177,10 +1177,10 @@
       "soru": "Koyu tonlar ne hissi verir?",
       "dogruCevap": "Derinlik",
       "secenekler": [
-        "Boşluk",
         "Hız",
         "Derinlik",
-        "Gürültü"
+        "Gürültü",
+        "Boşluk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1196,9 +1196,9 @@
       "soru": "Kahverengi hangi nesnelerin rengidir?",
       "dogruCevap": "Toprak ve ağaç",
       "secenekler": [
-        "Güneş",
         "Kar",
         "Toprak ve ağaç",
+        "Güneş",
         "Su ve buz"
       ],
       "ipucu": "",
@@ -1215,10 +1215,10 @@
       "soru": "Hangisi yanlıştır?",
       "dogruCevap": "Mavi ve sarı mor yapar",
       "secenekler": [
-        "Beyaz renkleri açar",
+        "Mavi kırmızı mor yapar",
         "Kırmızı sarı turuncu yapar",
         "Mavi ve sarı mor yapar",
-        "Mavi kırmızı mor yapar"
+        "Beyaz renkleri açar"
       ],
       "ipucu": "Mavi+sarı=yeşil",
       "gorsel": {
@@ -1234,10 +1234,10 @@
       "soru": "Ana renk sayısı kaçtır?",
       "dogruCevap": "3",
       "secenekler": [
-        "5",
-        "4",
         "3",
-        "2"
+        "5",
+        "2",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1254,9 +1254,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "6",
+        "2",
         "4",
-        "3",
-        "2"
+        "3"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1272,10 +1272,10 @@
       "soru": "Güneş resmi için en uygun renk?",
       "dogruCevap": "Sarı",
       "secenekler": [
-        "Sarı",
-        "Mavi",
+        "Mor",
         "Siyah",
-        "Mor"
+        "Mavi",
+        "Sarı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1291,10 +1291,10 @@
       "soru": "Deniz resmi için uygun renk grubu?",
       "dogruCevap": "Soğuk",
       "secenekler": [
-        "Nötr",
         "Soğuk",
+        "Sıcak",
         "Karanlık",
-        "Sıcak"
+        "Nötr"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1311,9 +1311,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Sadece siyahla",
+        "Evet",
         "Sadece kırmızıyla",
-        "Hayır",
-        "Evet"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1329,10 +1329,10 @@
       "soru": "Mor hangi renklerin karışımıdır?",
       "dogruCevap": "Mavi ve kırmızı",
       "secenekler": [
-        "Yeşil ve mavi",
         "Kırmızı ve sarı",
+        "Mavi ve kırmızı",
         "Sarı ve mavi",
-        "Mavi ve kırmızı"
+        "Yeşil ve mavi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1348,10 +1348,10 @@
       "soru": "Turuncu hangi renklerin karışımıdır?",
       "dogruCevap": "Kırmızı ve sarı",
       "secenekler": [
-        "Mavi ve kırmızı",
+        "Kırmızı ve sarı",
         "Yeşil ve sarı",
-        "Mavi ve sarı",
-        "Kırmızı ve sarı"
+        "Mavi ve kırmızı",
+        "Mavi ve sarı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1367,10 +1367,10 @@
       "soru": "Yeşil hangi renklerin karışımıdır?",
       "dogruCevap": "Mavi ve sarı",
       "secenekler": [
-        "Kırmızı ve sarı",
-        "Mavi ve kırmızı",
         "Sarı ve kırmızı",
-        "Mavi ve sarı"
+        "Kırmızı ve sarı",
+        "Mavi ve sarı",
+        "Mavi ve kırmızı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1386,10 +1386,10 @@
       "soru": "Sıcak renkler enerji verir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
         "Bazen",
-        "Evet",
-        "Asla"
+        "Asla",
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1405,9 +1405,9 @@
       "soru": "Hangisi ana renktir? (26)",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Turuncu",
         "Yeşil",
         "Mavi",
+        "Turuncu",
         "Mor"
       ],
       "ipucu": "",
@@ -1424,10 +1424,10 @@
       "soru": "Kırmızı ve mavi karışınca hangi renk oluşur? (26)",
       "dogruCevap": "Mor",
       "secenekler": [
-        "Kahverengi",
-        "Yeşil",
         "Mor",
-        "Turuncu"
+        "Kahverengi",
+        "Turuncu",
+        "Yeşil"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1443,10 +1443,10 @@
       "soru": "Hangisi sıcak renktir? (26)",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Mavi",
-        "Turuncu",
         "Yeşil",
-        "Mor"
+        "Mavi",
+        "Mor",
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1462,10 +1462,10 @@
       "soru": "Hangisi soğuk renktir? (26)",
       "dogruCevap": "Mavi",
       "secenekler": [
-        "Kırmızı",
         "Sarı",
-        "Turuncu",
-        "Mavi"
+        "Kırmızı",
+        "Mavi",
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1481,10 +1481,10 @@
       "soru": "Hangisi ara renktir? (26)",
       "dogruCevap": "Turuncu",
       "secenekler": [
-        "Mavi",
-        "Kırmızı",
         "Turuncu",
-        "Sarı"
+        "Sarı",
+        "Kırmızı",
+        "Mavi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1500,9 +1500,9 @@
       "soru": "Beyaz renk ne yapar? (26)",
       "dogruCevap": "Renkleri açar",
       "secenekler": [
+        "Koyulaştırır",
         "Karıştırmaz",
         "Renkleri açar",
-        "Koyulaştırır",
         "Siler"
       ],
       "ipucu": "",
@@ -1519,9 +1519,9 @@
       "soru": "Sarı ve mavi karışınca ne olur? (26)",
       "dogruCevap": "Yeşil",
       "secenekler": [
+        "Turuncu",
         "Mor",
         "Pembe",
-        "Turuncu",
         "Yeşil"
       ],
       "ipucu": "",
@@ -1538,10 +1538,10 @@
       "soru": "Kırmızı ve sarı karışınca ne olur? (26)",
       "dogruCevap": "Turuncu",
       "secenekler": [
+        "Yeşil",
         "Mor",
-        "Turuncu",
         "Mavi",
-        "Yeşil"
+        "Turuncu"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1559,8 +1559,8 @@
       "secenekler": [
         "Kırmızı",
         "Mor",
-        "Yeşil",
-        "Mavi"
+        "Mavi",
+        "Yeşil"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1576,9 +1576,9 @@
       "soru": "Hangisi soğuk renk örneğidir? (26)",
       "dogruCevap": "Yeşil",
       "secenekler": [
-        "Kırmızı",
-        "Turuncu",
         "Yeşil",
+        "Turuncu",
+        "Kırmızı",
         "Sarı"
       ],
       "ipucu": "",
@@ -1595,10 +1595,10 @@
       "soru": "Pembe hangi rengin tonudur? (26)",
       "dogruCevap": "Kırmızı",
       "secenekler": [
-        "Mavi",
+        "Kırmızı",
         "Yeşil",
-        "Siyah",
-        "Kırmızı"
+        "Mavi",
+        "Siyah"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1614,10 +1614,10 @@
       "soru": "Siyah ne simgeler? (26)",
       "dogruCevap": "Karanlık",
       "secenekler": [
-        "Su",
-        "Mutluluk",
+        "Karanlık",
         "Rüzgar",
-        "Karanlık"
+        "Su",
+        "Mutluluk"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1633,10 +1633,10 @@
       "soru": "Açık tonlar ne hissi verir? (26)",
       "dogruCevap": "Genişlik",
       "secenekler": [
-        "Genişlik",
-        "Korku",
         "Darlık",
-        "Öfke"
+        "Öfke",
+        "Genişlik",
+        "Korku"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1652,10 +1652,10 @@
       "soru": "Koyu tonlar ne hissi verir? (26)",
       "dogruCevap": "Derinlik",
       "secenekler": [
-        "Hız",
-        "Derinlik",
+        "Boşluk",
         "Gürültü",
-        "Boşluk"
+        "Derinlik",
+        "Hız"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1671,10 +1671,10 @@
       "soru": "Kahverengi hangi nesnelerin rengidir? (26)",
       "dogruCevap": "Toprak ve ağaç",
       "secenekler": [
+        "Kar",
         "Su ve buz",
-        "Toprak ve ağaç",
         "Güneş",
-        "Kar"
+        "Toprak ve ağaç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1690,10 +1690,10 @@
       "soru": "Hangisi yanlıştır? (26)",
       "dogruCevap": "Mavi ve sarı mor yapar",
       "secenekler": [
+        "Mavi kırmızı mor yapar",
         "Beyaz renkleri açar",
         "Kırmızı sarı turuncu yapar",
-        "Mavi ve sarı mor yapar",
-        "Mavi kırmızı mor yapar"
+        "Mavi ve sarı mor yapar"
       ],
       "ipucu": "Mavi+sarı=yeşil",
       "gorsel": {
@@ -1710,9 +1710,9 @@
       "dogruCevap": "3",
       "secenekler": [
         "5",
-        "4",
         "2",
-        "3"
+        "3",
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1728,10 +1728,10 @@
       "soru": "Ara renk sayısı kaçtır? (26)",
       "dogruCevap": "3",
       "secenekler": [
-        "4",
-        "6",
         "3",
-        "2"
+        "2",
+        "4",
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1747,8 +1747,8 @@
       "soru": "Güneş resmi için en uygun renk? (26)",
       "dogruCevap": "Sarı",
       "secenekler": [
-        "Mavi",
         "Mor",
+        "Mavi",
         "Siyah",
         "Sarı"
       ],
@@ -1766,10 +1766,10 @@
       "soru": "Deniz resmi için uygun renk grubu? (26)",
       "dogruCevap": "Soğuk",
       "secenekler": [
-        "Soğuk",
-        "Karanlık",
         "Sıcak",
-        "Nötr"
+        "Soğuk",
+        "Nötr",
+        "Karanlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1785,10 +1785,10 @@
       "soru": "Beyaz tüm renkleri toplar mı? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Evet",
         "Hayır",
         "Sadece kırmızıyla",
-        "Sadece siyahla",
-        "Evet"
+        "Sadece siyahla"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1804,9 +1804,9 @@
       "soru": "Mor hangi renklerin karışımıdır? (26)",
       "dogruCevap": "Mavi ve kırmızı",
       "secenekler": [
+        "Sarı ve mavi",
         "Kırmızı ve sarı",
         "Yeşil ve mavi",
-        "Sarı ve mavi",
         "Mavi ve kırmızı"
       ],
       "ipucu": "",
@@ -1825,8 +1825,8 @@
       "secenekler": [
         "Mavi ve sarı",
         "Yeşil ve sarı",
-        "Mavi ve kırmızı",
-        "Kırmızı ve sarı"
+        "Kırmızı ve sarı",
+        "Mavi ve kırmızı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1842,10 +1842,10 @@
       "soru": "Yeşil hangi renklerin karışımıdır? (26)",
       "dogruCevap": "Mavi ve sarı",
       "secenekler": [
-        "Sarı ve kırmızı",
+        "Mavi ve kırmızı",
         "Kırmızı ve sarı",
         "Mavi ve sarı",
-        "Mavi ve kırmızı"
+        "Sarı ve kırmızı"
       ],
       "ipucu": "",
       "gorsel": {

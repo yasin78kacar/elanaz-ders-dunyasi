@@ -691,10 +691,10 @@
       "soru": "Veri toplamak için hangi yöntem kullanılabilir?",
       "dogruCevap": "Anket yapmak",
       "secenekler": [
-        "Anket yapmak",
-        "Rastgele söylemek",
+        "Tahmin etmek",
         "Hayal etmek",
-        "Tahmin etmek"
+        "Rastgele söylemek",
+        "Anket yapmak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -747,9 +747,9 @@
       "soru": "Aynı ankette toplam kaç kişi oy kullandı?",
       "dogruCevap": "25",
       "secenekler": [
-        "25",
-        "24",
         "27",
+        "24",
+        "25",
         "23"
       ],
       "ipucu": "",
@@ -787,9 +787,9 @@
       "dogruCevap": "Veri göstermek",
       "secenekler": [
         "Veri tahmin etmek",
+        "Veri saklamak",
         "Veri silmek",
-        "Veri göstermek",
-        "Veri saklamak"
+        "Veri göstermek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -805,10 +805,10 @@
       "soru": "Anket: 20 kişi katıldı. Kırmızı:7, Mavi:9, Sarı:?. Sarı kaç oy aldı?",
       "dogruCevap": "4",
       "secenekler": [
-        "3",
         "6",
+        "4",
         "5",
-        "4"
+        "3"
       ],
       "ipucu": "20 - 7 - 9 = 4",
       "gorsel": {
@@ -842,10 +842,10 @@
       "soru": "🎭 Veriler doğru mu? Futbol:10, Yüzme:8, Toplam:20",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Yaklaşık doğru",
-        "Evet",
+        "Belli değil",
         "Hayır",
-        "Belli değil"
+        "Yaklaşık doğru",
+        "Evet"
       ],
       "ipucu": "10 + 8 = 18 ≠ 20",
       "gorsel": {
@@ -879,10 +879,10 @@
       "soru": "Grafik okurken en uzun sütun neyi gösterir?",
       "dogruCevap": "En büyük değeri",
       "secenekler": [
-        "Ortalamayı",
-        "En az değeri",
         "En büyük değeri",
-        "Toplamı"
+        "Toplamı",
+        "Ortalamayı",
+        "En az değeri"
       ],
       "ipucu": "",
       "gorsel": {
@@ -915,8 +915,8 @@
       "secenekler": [
         "21",
         "22",
-        "20",
-        "24"
+        "24",
+        "20"
       ],
       "ipucu": "",
       "gorsel": {
@@ -953,9 +953,9 @@
       "soru": "🎭 Aynı veride en az ile en çok arasındaki fark kaçtır?",
       "dogruCevap": "7",
       "secenekler": [
-        "5",
-        "6",
         "7",
+        "6",
+        "5",
         "9"
       ],
       "ipucu": "12 - 5 = 7",
@@ -994,10 +994,10 @@
       "soru": "Hangi veri toplama yöntemi en doğru sonucu verir?",
       "dogruCevap": "Gözlem ve sayma",
       "secenekler": [
-        "Gözlem ve sayma",
-        "Tahmin",
+        "Hayal",
         "Rastgele",
-        "Hayal"
+        "Tahmin",
+        "Gözlem ve sayma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1052,9 +1052,9 @@
       "soru": "🎭 Aynı veride güneşli günler diğerlerinin toplamından fazla mı?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Hayır",
-        "Belli değil",
         "Eşit",
+        "Belli değil",
+        "Hayır",
         "Evet"
       ],
       "ipucu": "3 > 2 + 2 = 4? Hayır! 3 < 4",
@@ -1092,8 +1092,8 @@
       "soru": "25 kişiye anket yapıldı. Erkek:13, kız kaçtır?",
       "dogruCevap": "12",
       "secenekler": [
-        "12",
         "13",
+        "12",
         "11",
         "14"
       ],
@@ -1111,10 +1111,10 @@
       "soru": "Tablo ile grafik arasındaki fark nedir?",
       "dogruCevap": "Grafik görsel, tablo sayısal",
       "secenekler": [
-        "Grafikte sayı yok",
+        "Tabloda sayı yok",
         "İkisi aynıdır",
         "Grafik görsel, tablo sayısal",
-        "Tabloda sayı yok"
+        "Grafikte sayı yok"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1131,9 +1131,9 @@
       "dogruCevap": "Hayır",
       "secenekler": [
         "Hayır",
-        "Yaklaşık",
+        "Evet",
         "Belli değil",
-        "Evet"
+        "Yaklaşık"
       ],
       "ipucu": "6 + 4 + 5 = 15, 16 değil!",
       "gorsel": {
@@ -1173,10 +1173,10 @@
       "soru": "Spor anketi: Futbol:18, Yüzme:12, Basketbol:9. Futbol yüzmeden kaç fazla?",
       "dogruCevap": "6",
       "secenekler": [
-        "5",
         "4",
-        "6",
-        "8"
+        "5",
+        "8",
+        "6"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1211,10 +1211,10 @@
       "soru": "Aynı ankette toplam kaç kişi var?",
       "dogruCevap": "39",
       "secenekler": [
-        "40",
+        "41",
         "37",
         "39",
-        "41"
+        "40"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1250,9 +1250,9 @@
       "soru": "🎭 Verilerden hangisi yorum yapılamaz?",
       "dogruCevap": "Gelecekte ne olacak",
       "secenekler": [
-        "En çok tercih",
-        "En az tercih",
         "Gelecekte ne olacak",
+        "En az tercih",
+        "En çok tercih",
         "Toplam katılımcı"
       ],
       "ipucu": "Veriler geçmişi gösterir, geleceği değil!",
@@ -1270,10 +1270,10 @@
       "soru": "30 kişilik ankette: Kedi:12, Köpek:10, Kuş:?. Kuş kaç kişi?",
       "dogruCevap": "8",
       "secenekler": [
-        "10",
-        "8",
         "7",
-        "6"
+        "10",
+        "6",
+        "8"
       ],
       "ipucu": "30 - 12 - 10 = 8",
       "gorsel": {
@@ -1307,10 +1307,10 @@
       "soru": "🎭 Hangi grafik türü sütun grafiği ile aynı işlevi görür?",
       "dogruCevap": "Çizgi grafik",
       "secenekler": [
-        "Tablo",
+        "Harita",
         "Çizgi grafik",
         "Fotoğraf",
-        "Harita"
+        "Tablo"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1327,10 +1327,10 @@
       "soru": "Mevsim doğum anketi: Kış:5, İlkbahar:9, Yaz:11, Sonbahar:7. En çok hangi mevsimde doğulmuş?",
       "dogruCevap": "Yaz",
       "secenekler": [
-        "Yaz",
-        "İlkbahar",
         "Kış",
-        "Sonbahar"
+        "Yaz",
+        "Sonbahar",
+        "İlkbahar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1366,9 +1366,9 @@
       "soru": "Aynı ankette toplam kaç kişi?",
       "dogruCevap": "32",
       "secenekler": [
-        "30",
         "34",
         "32",
+        "30",
         "31"
       ],
       "ipucu": "",
@@ -1408,10 +1408,10 @@
       "soru": "🎭 İlkbahar ve sonbahar toplamı kış ve yazın toplamından az mı?",
       "dogruCevap": "Eşit",
       "secenekler": [
-        "Evet",
         "Belli değil",
+        "Eşit",
         "Hayır",
-        "Eşit"
+        "Evet"
       ],
       "ipucu": "9 + 7 = 16, 5 + 11 = 16... Eşit!",
       "gorsel": {
@@ -1452,8 +1452,8 @@
       "dogruCevap": "Sayarız ve yazarız",
       "secenekler": [
         "Sayarız ve yazarız",
-        "Okuruz",
         "Tahmin ederiz",
+        "Okuruz",
         "Çizeriz"
       ],
       "ipucu": "",
@@ -1470,10 +1470,10 @@
       "soru": "🎭 40 kişilik ankette 4 seçenek var ve hepsi eşit oy aldı. Her seçenek kaç oy aldı?",
       "dogruCevap": "10",
       "secenekler": [
-        "9",
         "8",
-        "12",
-        "10"
+        "9",
+        "10",
+        "12"
       ],
       "ipucu": "40 ÷ 4 = 10",
       "gorsel": {

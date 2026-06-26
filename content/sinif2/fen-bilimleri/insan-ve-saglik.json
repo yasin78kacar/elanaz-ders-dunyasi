@@ -832,9 +832,9 @@
       "dogruCevap": "Günde en az iki kez",
       "secenekler": [
         "Ayda bir",
-        "Sadece ağrıyınca",
         "Hiç",
-        "Günde en az iki kez"
+        "Günde en az iki kez",
+        "Sadece ağrıyınca"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -851,8 +851,8 @@
       "soru": "Hangisi sağlıklı büyümemiz için faydalıdır?",
       "dogruCevap": "Elma ve havuç",
       "secenekler": [
-        "Asitli içecekler",
         "Hazır şekerlemeler",
+        "Asitli içecekler",
         "Çok cips",
         "Elma ve havuç"
       ],
@@ -871,8 +871,8 @@
       "soru": "Ellerimizi ne zaman yıkamalıyız?",
       "dogruCevap": "Yemeklerden önce, sonra ve tuvaletten çıkınca",
       "secenekler": [
-        "Sadece banyoda",
         "Haftada bir",
+        "Sadece banyoda",
         "Yemeklerden önce, sonra ve tuvaletten çıkınca",
         "Sadece çamurluysa"
       ],
@@ -891,9 +891,9 @@
       "soru": "Kemik ve kasların güçlenmesi için ne yapmalıyız?",
       "dogruCevap": "Düzenli spor yapmalıyız",
       "secenekler": [
-        "Sürekli uyumalıyız",
-        "Düzenli spor yapmalıyız",
         "Sadece TV izlemeliyiz",
+        "Düzenli spor yapmalıyız",
+        "Sürekli uyumalıyız",
         "Bilgisayar oynamalıyız"
       ],
       "ipucu": "",
@@ -911,10 +911,10 @@
       "soru": "Büyüme hormonları için ne gereklidir?",
       "dogruCevap": "Erken yatıp yeterli uyku",
       "secenekler": [
-        "Erken yatıp yeterli uyku",
         "Çok şeker",
-        "Çok yemek",
-        "Geç saate kadar TV"
+        "Geç saate kadar TV",
+        "Erken yatıp yeterli uyku",
+        "Çok yemek"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -932,9 +932,9 @@
       "dogruCevap": "Geri dönüşüm kutularına",
       "secenekler": [
         "Sokağa",
+        "Ormana",
         "Geri dönüşüm kutularına",
-        "Denize",
-        "Ormana"
+        "Denize"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -951,10 +951,10 @@
       "soru": "Çevreyi temiz tutmak için ne yapmalıyız?",
       "dogruCevap": "Çöpleri çöp kutusuna atmak",
       "secenekler": [
-        "Parka bırakmak",
-        "Pencereden atmak",
+        "Çöpleri yere atmak",
         "Çöpleri çöp kutusuna atmak",
-        "Çöpleri yere atmak"
+        "Pencereden atmak",
+        "Parka bırakmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -971,10 +971,10 @@
       "soru": "Hapşırırken ne yapmalıyız?",
       "dogruCevap": "Mendil veya kolumuzla ağzı kapatmak",
       "secenekler": [
-        "Yüzlere hapşırmak",
-        "Bağırmak",
         "Hiçbir şey",
-        "Mendil veya kolumuzla ağzı kapatmak"
+        "Bağırmak",
+        "Mendil veya kolumuzla ağzı kapatmak",
+        "Yüzlere hapşırmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -991,10 +991,10 @@
       "soru": "Tırnaklarımız uzayınca ne yapmalıyız?",
       "dogruCevap": "Düzenli kesmeliyiz",
       "secenekler": [
+        "Çok uzatmalıyız",
         "Dişle koparmalıyız",
-        "Boyamalıyız",
         "Düzenli kesmeliyiz",
-        "Çok uzatmalıyız"
+        "Boyamalıyız"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1011,10 +1011,10 @@
       "soru": "Vücudumuzu temizlemek için ne yapmalıyız?",
       "dogruCevap": "Düzenli banyo yapmak",
       "secenekler": [
+        "Sadece yüz yıkamak",
         "Islak mendil kullanmak",
         "Düzenli banyo yapmak",
-        "Parfüm sıkmak",
-        "Sadece yüz yıkamak"
+        "Parfüm sıkmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1032,9 +1032,9 @@
       "dogruCevap": "Gözler",
       "secenekler": [
         "Burun",
+        "Mide",
         "Kulaklar",
-        "Gözler",
-        "Mide"
+        "Gözler"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1051,10 +1051,10 @@
       "soru": "Kemik ve dişleri güçlendiren içecek nedir?",
       "dogruCevap": "Süt",
       "secenekler": [
-        "Süt",
         "Gazoz",
+        "Asitli içecek",
         "Kahve",
-        "Asitli içecek"
+        "Süt"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1071,10 +1071,10 @@
       "soru": "Doğayı korumak için en güzel davranış nedir?",
       "dogruCevap": "Fidan dikmek",
       "secenekler": [
-        "Çiçek koparmak",
-        "Fidan dikmek",
         "Çimleri ezmek",
-        "Dal kırmak"
+        "Dal kırmak",
+        "Çiçek koparmak",
+        "Fidan dikmek"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1111,10 +1111,10 @@
       "soru": "Hastalanınca kime gidmeliyiz?",
       "dogruCevap": "Doktora",
       "secenekler": [
-        "Öğretmene",
-        "İtfaiyeciye",
         "Doktora",
-        "Polise"
+        "İtfaiyeciye",
+        "Polise",
+        "Öğretmene"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1131,8 +1131,8 @@
       "soru": "Hangisi kişisel temizlik kuralıdır?",
       "dogruCevap": "Banyo ve temiz kıyafet",
       "secenekler": [
-        "Odayı dağıtmak",
         "Çöp bırakmak",
+        "Odayı dağıtmak",
         "Çamurlu ayakkabı ile eve girmek",
         "Banyo ve temiz kıyafet"
       ],
@@ -1151,10 +1151,10 @@
       "soru": "Çok şeker ve cips tüketmek neye neden olur?",
       "dogruCevap": "Diş çürümesi ve hastalık",
       "secenekler": [
-        "Zeka artışı",
         "Boy uzaması",
-        "Diş çürümesi ve hastalık",
-        "Güçlü olmak"
+        "Güçlü olmak",
+        "Zeka artışı",
+        "Diş çürümesi ve hastalık"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1171,10 +1171,10 @@
       "soru": "Seksek ve ip atlamak ne tür etkinliktir?",
       "dogruCevap": "Fiziksel aktivite",
       "secenekler": [
-        "Zeka oyunu",
         "Tembellik",
+        "Fiziksel aktivite",
         "Bilgisayar oyunu",
-        "Fiziksel aktivite"
+        "Zeka oyunu"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1192,9 +1192,9 @@
       "dogruCevap": "Sağlıklı kahvaltı yapmak",
       "secenekler": [
         "Sağlıklı kahvaltı yapmak",
-        "Hiç yemeden gitmek",
         "Hemen uyumak",
-        "Sadece çikolata yemek"
+        "Sadece çikolata yemek",
+        "Hiç yemeden gitmek"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1211,10 +1211,10 @@
       "soru": "Hayvan dostlarımıza nasıl davranmalıyız?",
       "dogruCevap": "Sevgiyle yaklaşıp su ve mama koymak",
       "secenekler": [
-        "Rahatsız etmek",
-        "Sevgiyle yaklaşıp su ve mama koymak",
         "Görmezden gelmek",
-        "Zarar vermek"
+        "Sevgiyle yaklaşıp su ve mama koymak",
+        "Zarar vermek",
+        "Rahatsız etmek"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1231,10 +1231,10 @@
       "soru": "Meyve ve sebzeleri yemeden önce ne yapmalıyız?",
       "dogruCevap": "Bol suyla yıkamak",
       "secenekler": [
-        "Bol suyla yıkamak",
-        "Güneşte bekletmek",
+        "Hemen yemek",
         "Peçeteyle silmek",
-        "Hemen yemek"
+        "Güneşte bekletmek",
+        "Bol suyla yıkamak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1251,10 +1251,10 @@
       "soru": "Bol ağaçlı ve yeşillik alanlara ne denir?",
       "dogruCevap": "Orman",
       "secenekler": [
-        "Çöl",
-        "Otopark",
+        "Otoban",
         "Orman",
-        "Otoban"
+        "Çöl",
+        "Otopark"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1271,10 +1271,10 @@
       "soru": "Odamız güneş alıyorken ne yapmalıyız?",
       "dogruCevap": "Gereksiz lambaları kapatmak",
       "secenekler": [
-        "Gereksiz lambaları kapatmak",
         "Perde kapatıp lamba yakmak",
         "Tüm lambaları açmak",
-        "El feneri kullanmak"
+        "El feneri kullanmak",
+        "Gereksiz lambaları kapatmak"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1291,10 +1291,10 @@
       "soru": "En temel içeceğimiz nedir?",
       "dogruCevap": "Temiz su",
       "secenekler": [
+        "Soğuk çay",
         "Asitli içecek",
-        "Limonata",
         "Temiz su",
-        "Soğuk çay"
+        "Limonata"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1311,10 +1311,10 @@
       "soru": "Sağlıklı ve temiz yaşayan çocuk etrafına ne verir?",
       "dogruCevap": "Neşe ve mutluluk",
       "secenekler": [
-        "Şikayet",
         "Neşe ve mutluluk",
+        "Mutsuzluk",
         "Üzüntü",
-        "Mutsuzluk"
+        "Şikayet"
       ],
       "ipucu": "",
       "kazanim": "FEN.2.3.3",
@@ -1332,9 +1332,9 @@
       "dogruCevap": "En az iki kez",
       "secenekler": [
         "En az iki kez",
+        "Fark etmez",
         "Gereksiz",
-        "Hayır",
-        "Fark etmez"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1352,8 +1352,8 @@
       "secenekler": [
         "Fark etmez",
         "Evet",
-        "Gereksiz",
-        "Hayır"
+        "Hayır",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1369,10 +1369,10 @@
       "soru": "Meyve ve sebze yemek sağlıklı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Fark etmez",
-        "Hayır",
         "Gereksiz",
-        "Evet"
+        "Fark etmez",
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1392,9 +1392,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Gereksiz",
-        "Evet",
+        "Fark etmez",
         "Hayır",
-        "Fark etmez"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1410,10 +1410,10 @@
       "soru": "Uyumak vücudumuzu dinlendirir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Fark etmez",
+        "Gereksiz",
         "Evet",
-        "Hayır",
-        "Gereksiz"
+        "Fark etmez",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1429,10 +1429,10 @@
       "soru": "Ellerimizi yemekten önce yıkamalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Gereksiz",
         "Fark etmez",
-        "Evet"
+        "Hayır",
+        "Evet",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1448,9 +1448,9 @@
       "soru": "Güneşte çok kalmak cildimize zarar verir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Fark etmez",
         "Gereksiz",
         "Evet",
-        "Fark etmez",
         "Hayır"
       ],
       "ipucu": "",
@@ -1468,9 +1468,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Evet",
         "Gereksiz",
-        "Fark etmez"
+        "Fark etmez",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1488,8 +1488,8 @@
       "secenekler": [
         "Hayır",
         "Evet",
-        "Gereksiz",
-        "Fark etmez"
+        "Fark etmez",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1506,8 +1506,8 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Gereksiz",
-        "Hayır",
         "Fark etmez",
+        "Hayır",
         "Evet"
       ],
       "ipucu": "",
@@ -1524,10 +1524,10 @@
       "soru": "Gözlerimizi güneşten korumalı mıyız?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Gereksiz",
         "Hayır",
-        "Evet",
         "Fark etmez",
-        "Gereksiz"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1544,9 +1544,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Gereksiz",
         "Evet",
-        "Fark etmez"
+        "Fark etmez",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1566,10 +1566,10 @@
       "soru": "Yürüyüş yapmak sağlıklı bir alışkanlık mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Hayır",
+        "Gereksiz",
         "Fark etmez",
-        "Gereksiz"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1586,9 +1586,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Gereksiz",
         "Fark etmez",
-        "Evet"
+        "Evet",
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1604,9 +1604,9 @@
       "soru": "Bol uyku çocukların büyümesine yardım eder mi?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Hayır",
         "Gereksiz",
         "Evet",
-        "Hayır",
         "Fark etmez"
       ],
       "ipucu": "",
@@ -1623,10 +1623,10 @@
       "soru": "Temiz kıyafet giymek hijyen için önemli midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Hayır",
         "Gereksiz",
-        "Fark etmez"
+        "Evet",
+        "Fark etmez",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1642,10 +1642,10 @@
       "soru": "Parklarda oynamak sağlığımıza iyi gelir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
+        "Fark etmez",
         "Gereksiz",
         "Evet",
-        "Fark etmez"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1661,10 +1661,10 @@
       "soru": "Vitaminli besinler bağışıklığı güçlendirir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Hayır",
         "Fark etmez",
-        "Gereksiz"
+        "Gereksiz",
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1681,9 +1681,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Gereksiz",
-        "Fark etmez",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Fark etmez"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1699,10 +1699,10 @@
       "soru": "Kirli ellerle yemek yemek mikrop bulaştırır mı?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Hayır",
         "Evet",
-        "Gereksiz",
         "Fark etmez",
-        "Hayır"
+        "Gereksiz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1718,10 +1718,10 @@
       "soru": "Sağlıklı yaşam için spor önemli midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Gereksiz",
+        "Fark etmez",
         "Hayır",
-        "Evet",
-        "Fark etmez"
+        "Gereksiz",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1737,10 +1737,10 @@
       "soru": "Çöpleri yere atmamak çevreyi korur mu?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Fark etmez",
         "Evet",
-        "Gereksiz"
+        "Fark etmez",
+        "Gereksiz",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1756,9 +1756,9 @@
       "soru": "Güneş ışığı kemikler için faydalı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Hayır",
         "Fark etmez",
+        "Hayır",
+        "Evet",
         "Gereksiz"
       ],
       "ipucu": "",
@@ -1775,10 +1775,10 @@
       "soru": "Stresten kurtulmak için dinlenmek faydalı mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Fark etmez",
         "Gereksiz",
         "Hayır",
-        "Evet",
-        "Fark etmez"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1794,10 +1794,10 @@
       "soru": "🎭 Sadece şeker yiyerek sağlıklı olabilir miyiz?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Evet",
-        "Her gün",
         "Sadece yazın",
-        "Hayır"
+        "Evet",
+        "Hayır",
+        "Her gün"
       ],
       "ipucu": "Dengeli beslenme gerekir!",
       "gorsel": {

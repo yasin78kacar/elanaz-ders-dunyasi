@@ -990,10 +990,10 @@
       "soru": "Cansız nesnelerin resmi?",
       "dogruCevap": "Natürmort",
       "secenekler": [
-        "Manzara",
+        "Heykel",
         "Portre",
         "Natürmort",
-        "Heykel"
+        "Manzara"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1009,8 +1009,8 @@
       "soru": "Doğa görüntülerinin resmi?",
       "dogruCevap": "Manzara",
       "secenekler": [
-        "Manzara",
         "Portre",
+        "Manzara",
         "Kolaj",
         "Natürmort"
       ],
@@ -1028,10 +1028,10 @@
       "soru": "Yüz resmi?",
       "dogruCevap": "Portre",
       "secenekler": [
-        "Natürmort",
-        "Manzara",
         "Grafiti",
-        "Portre"
+        "Portre",
+        "Natürmort",
+        "Manzara"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1047,10 +1047,10 @@
       "soru": "Natürmort ne içerebilir?",
       "dogruCevap": "Meyve ve vazo",
       "secenekler": [
-        "Meyve ve vazo",
         "Araba",
+        "Hayvan",
         "Uçak",
-        "Hayvan"
+        "Meyve ve vazo"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1066,10 +1066,10 @@
       "soru": "Manzara ne gösterir?",
       "dogruCevap": "Dağ ve deniz",
       "secenekler": [
-        "Sadece yüz",
-        "Sadece araba",
         "Sadece elma",
-        "Dağ ve deniz"
+        "Dağ ve deniz",
+        "Sadece yüz",
+        "Sadece araba"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1085,10 +1085,10 @@
       "soru": "Özçekim hangi türdür?",
       "dogruCevap": "Portre",
       "secenekler": [
-        "Portre",
-        "Manzara",
+        "Kolaj",
         "Natürmort",
-        "Kolaj"
+        "Manzara",
+        "Portre"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1104,9 +1104,9 @@
       "soru": "Natürmort hareketli midir?",
       "dogruCevap": "Hayır",
       "secenekler": [
-        "Her zaman",
         "Bazen",
         "Evet",
+        "Her zaman",
         "Hayır"
       ],
       "ipucu": "",
@@ -1123,10 +1123,10 @@
       "soru": "Manzara nerede çizilir?",
       "dogruCevap": "Açık havada",
       "secenekler": [
-        "Havada",
-        "Açık havada",
         "Toprakta",
-        "Suda"
+        "Suda",
+        "Havada",
+        "Açık havada"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1142,9 +1142,9 @@
       "soru": "Portre neyi gösterir?",
       "dogruCevap": "Yüz",
       "secenekler": [
+        "Ayak",
         "Yüz",
         "Araba",
-        "Ayak",
         "Deniz"
       ],
       "ipucu": "",
@@ -1161,10 +1161,10 @@
       "soru": "Natürmort ne için iyidir?",
       "dogruCevap": "Renk çalışması",
       "secenekler": [
-        "Renk çalışması",
-        "Uyuma",
         "Koşma",
-        "Yüzme"
+        "Yüzme",
+        "Renk çalışması",
+        "Uyuma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1180,9 +1180,9 @@
       "soru": "Manzara ne öğretir?",
       "dogruCevap": "Perspektif",
       "secenekler": [
-        "Uyuma",
         "Perspektif",
         "Yüzme",
+        "Uyuma",
         "Yemek"
       ],
       "ipucu": "",
@@ -1199,10 +1199,10 @@
       "soru": "Portre neyi yansıtır?",
       "dogruCevap": "Karakter",
       "secenekler": [
-        "Karakter",
+        "Toprak",
         "Su",
         "Hava",
-        "Toprak"
+        "Karakter"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1219,8 +1219,8 @@
       "dogruCevap": "Cansız",
       "secenekler": [
         "Cansız",
-        "Sesli",
         "Canlı",
+        "Sesli",
         "Hareketli"
       ],
       "ipucu": "",
@@ -1237,10 +1237,10 @@
       "soru": "Manzara ne yansıtır?",
       "dogruCevap": "Doğa sevgisi",
       "secenekler": [
-        "Doğa sevgisi",
         "Korku",
         "Öfke",
-        "Açlık"
+        "Açlık",
+        "Doğa sevgisi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1256,9 +1256,9 @@
       "soru": "Portre ne odaklıdır?",
       "dogruCevap": "İnsan",
       "secenekler": [
-        "Araba",
-        "İnsan",
         "Bina",
+        "İnsan",
+        "Araba",
         "Hayvan"
       ],
       "ipucu": "",
@@ -1276,9 +1276,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Hayır",
-        "Uzayda",
         "Evet",
-        "Suda"
+        "Suda",
+        "Uzayda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1296,8 +1296,8 @@
       "secenekler": [
         "Evet",
         "Asla",
-        "Hayır",
-        "Yasak"
+        "Yasak",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1314,9 +1314,9 @@
       "dogruCevap": "Evet",
       "secenekler": [
         "Yasak",
+        "Hayır",
         "Asla",
-        "Evet",
-        "Hayır"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1332,10 +1332,10 @@
       "soru": "Hangisi açık hava resmidir?",
       "dogruCevap": "Manzara",
       "secenekler": [
-        "Kolaj",
+        "Portre",
         "Natürmort",
         "Manzara",
-        "Portre"
+        "Kolaj"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1352,8 +1352,8 @@
       "dogruCevap": "Portre",
       "secenekler": [
         "Manzara",
-        "Heykel",
         "Portre",
+        "Heykel",
         "Natürmort"
       ],
       "ipucu": "",
@@ -1372,8 +1372,8 @@
       "secenekler": [
         "Manzara",
         "Natürmort",
-        "Portre",
-        "Grafiti"
+        "Grafiti",
+        "Portre"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1389,10 +1389,10 @@
       "soru": "Manzara geniş alan gösterir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Asla",
         "Küçük",
         "Evet",
-        "Hayır"
+        "Hayır",
+        "Asla"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1408,10 +1408,10 @@
       "soru": "Portre yakın çekim midir?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
+        "Hayır",
         "Uzak",
         "Geniş",
-        "Hayır"
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1427,10 +1427,10 @@
       "soru": "Natürmort ışık gölge çalışması mıdır?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Ses",
         "Hayır",
-        "Evet",
-        "Dans"
+        "Ses",
+        "Dans",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1446,9 +1446,9 @@
       "soru": "Portre duyguları yansıtabilir mi?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Yasak",
         "Asla",
         "Hayır",
+        "Yasak",
         "Evet"
       ],
       "ipucu": "",
@@ -1465,10 +1465,10 @@
       "soru": "Cansız nesnelerin resmi? (26)",
       "dogruCevap": "Natürmort",
       "secenekler": [
-        "Portre",
         "Natürmort",
         "Heykel",
-        "Manzara"
+        "Manzara",
+        "Portre"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1484,10 +1484,10 @@
       "soru": "Doğa görüntülerinin resmi? (26)",
       "dogruCevap": "Manzara",
       "secenekler": [
-        "Portre",
         "Natürmort",
+        "Manzara",
         "Kolaj",
-        "Manzara"
+        "Portre"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1503,10 +1503,10 @@
       "soru": "Yüz resmi? (26)",
       "dogruCevap": "Portre",
       "secenekler": [
-        "Natürmort",
-        "Grafiti",
         "Manzara",
-        "Portre"
+        "Portre",
+        "Natürmort",
+        "Grafiti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1522,10 +1522,10 @@
       "soru": "Natürmort ne içerebilir? (26)",
       "dogruCevap": "Meyve ve vazo",
       "secenekler": [
-        "Uçak",
-        "Meyve ve vazo",
+        "Hayvan",
         "Araba",
-        "Hayvan"
+        "Uçak",
+        "Meyve ve vazo"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1541,9 +1541,9 @@
       "soru": "Manzara ne gösterir? (26)",
       "dogruCevap": "Dağ ve deniz",
       "secenekler": [
-        "Sadece yüz",
-        "Dağ ve deniz",
         "Sadece araba",
+        "Dağ ve deniz",
+        "Sadece yüz",
         "Sadece elma"
       ],
       "ipucu": "",
@@ -1561,9 +1561,9 @@
       "dogruCevap": "Portre",
       "secenekler": [
         "Kolaj",
+        "Portre",
         "Natürmort",
-        "Manzara",
-        "Portre"
+        "Manzara"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1598,10 +1598,10 @@
       "soru": "Manzara nerede çizilir? (26)",
       "dogruCevap": "Açık havada",
       "secenekler": [
-        "Suda",
         "Açık havada",
+        "Toprakta",
         "Havada",
-        "Toprakta"
+        "Suda"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1617,10 +1617,10 @@
       "soru": "Portre neyi gösterir? (26)",
       "dogruCevap": "Yüz",
       "secenekler": [
-        "Deniz",
         "Ayak",
-        "Yüz",
-        "Araba"
+        "Deniz",
+        "Araba",
+        "Yüz"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1637,9 +1637,9 @@
       "dogruCevap": "Renk çalışması",
       "secenekler": [
         "Yüzme",
-        "Uyuma",
+        "Renk çalışması",
         "Koşma",
-        "Renk çalışması"
+        "Uyuma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1655,9 +1655,9 @@
       "soru": "Manzara ne öğretir? (26)",
       "dogruCevap": "Perspektif",
       "secenekler": [
+        "Perspektif",
         "Yüzme",
         "Uyuma",
-        "Perspektif",
         "Yemek"
       ],
       "ipucu": "",
@@ -1675,8 +1675,8 @@
       "dogruCevap": "Karakter",
       "secenekler": [
         "Karakter",
-        "Su",
         "Toprak",
+        "Su",
         "Hava"
       ],
       "ipucu": "",
@@ -1693,10 +1693,10 @@
       "soru": "Natürmort ne anlama gelir? (26)",
       "dogruCevap": "Cansız",
       "secenekler": [
-        "Cansız",
         "Hareketli",
-        "Sesli",
-        "Canlı"
+        "Cansız",
+        "Canlı",
+        "Sesli"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1712,10 +1712,10 @@
       "soru": "Manzara ne yansıtır? (26)",
       "dogruCevap": "Doğa sevgisi",
       "secenekler": [
-        "Açlık",
-        "Doğa sevgisi",
         "Korku",
-        "Öfke"
+        "Doğa sevgisi",
+        "Öfke",
+        "Açlık"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1731,9 +1731,9 @@
       "soru": "Portre ne odaklıdır? (26)",
       "dogruCevap": "İnsan",
       "secenekler": [
+        "İnsan",
         "Araba",
         "Hayvan",
-        "İnsan",
         "Bina"
       ],
       "ipucu": "",
@@ -1750,10 +1750,10 @@
       "soru": "Natürmort sınıfta yapılabilir mi? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
         "Evet",
         "Suda",
-        "Uzayda"
+        "Uzayda",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1771,8 +1771,8 @@
       "secenekler": [
         "Hayır",
         "Yasak",
-        "Asla",
-        "Evet"
+        "Evet",
+        "Asla"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1788,10 +1788,10 @@
       "soru": "Portre model gerektirir mi? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Yasak",
         "Evet",
-        "Hayır",
-        "Asla"
+        "Yasak",
+        "Asla",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1807,10 +1807,10 @@
       "soru": "Hangisi açık hava resmidir? (26)",
       "dogruCevap": "Manzara",
       "secenekler": [
-        "Natürmort",
-        "Manzara",
         "Kolaj",
-        "Portre"
+        "Manzara",
+        "Portre",
+        "Natürmort"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1826,10 +1826,10 @@
       "soru": "Hangisi yüz resmidir? (26)",
       "dogruCevap": "Portre",
       "secenekler": [
-        "Heykel",
-        "Natürmort",
         "Manzara",
-        "Portre"
+        "Portre",
+        "Heykel",
+        "Natürmort"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1845,10 +1845,10 @@
       "soru": "Hangisi meyve resmidir? (26)",
       "dogruCevap": "Natürmort",
       "secenekler": [
-        "Manzara",
-        "Natürmort",
+        "Portre",
         "Grafiti",
-        "Portre"
+        "Natürmort",
+        "Manzara"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1864,10 +1864,10 @@
       "soru": "Manzara geniş alan gösterir mi? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Asla",
         "Evet",
+        "Hayır",
         "Küçük",
-        "Hayır"
+        "Asla"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1883,10 +1883,10 @@
       "soru": "Portre yakın çekim midir? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Hayır",
-        "Evet",
+        "Geniş",
         "Uzak",
-        "Geniş"
+        "Hayır",
+        "Evet"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1902,10 +1902,10 @@
       "soru": "Natürmort ışık gölge çalışması mıdır? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
-        "Hayır",
+        "Dans",
         "Ses",
-        "Dans"
+        "Evet",
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1921,10 +1921,10 @@
       "soru": "Portre duyguları yansıtabilir mi? (26)",
       "dogruCevap": "Evet",
       "secenekler": [
+        "Asla",
         "Evet",
-        "Hayır",
         "Yasak",
-        "Asla"
+        "Hayır"
       ],
       "ipucu": "",
       "gorsel": {

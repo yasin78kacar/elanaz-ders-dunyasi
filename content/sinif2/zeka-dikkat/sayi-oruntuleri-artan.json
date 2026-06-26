@@ -1740,9 +1740,9 @@
       "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "5",
       "secenekler": [
-        "5",
-        "6",
         "4",
+        "6",
+        "5",
         "6"
       ],
       "ipucu": "1er artıyor.",
@@ -1779,8 +1779,8 @@
       "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "11",
       "secenekler": [
-        "13",
         "9",
+        "13",
         "11",
         "12"
       ],
@@ -1818,10 +1818,10 @@
       "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "17",
       "secenekler": [
+        "18",
         "17",
         "20",
-        "14",
-        "18"
+        "14"
       ],
       "ipucu": "3er artıyor.",
       "gorsel": {
@@ -1857,10 +1857,10 @@
       "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "23",
       "secenekler": [
-        "19",
-        "27",
         "23",
-        "24"
+        "24",
+        "27",
+        "19"
       ],
       "ipucu": "4er artıyor.",
       "gorsel": {
@@ -1896,10 +1896,10 @@
       "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "29",
       "secenekler": [
-        "29",
         "30",
         "24",
-        "34"
+        "34",
+        "29"
       ],
       "ipucu": "5er artıyor.",
       "gorsel": {
@@ -1936,8 +1936,8 @@
       "dogruCevap": "35",
       "secenekler": [
         "29",
-        "35",
         "36",
+        "35",
         "41"
       ],
       "ipucu": "6er artıyor.",
@@ -1975,8 +1975,8 @@
       "dogruCevap": "41",
       "secenekler": [
         "41",
-        "42",
         "48",
+        "42",
         "34"
       ],
       "ipucu": "7er artıyor.",
@@ -2014,8 +2014,8 @@
       "dogruCevap": "55",
       "secenekler": [
         "56",
-        "65",
         "45",
+        "65",
         "55"
       ],
       "ipucu": "10er artıyor.",
@@ -2052,10 +2052,10 @@
       "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "5",
       "secenekler": [
+        "5",
         "6",
-        "4",
         "6",
-        "5"
+        "4"
       ],
       "ipucu": "1er artıyor.",
       "gorsel": {
@@ -2091,10 +2091,10 @@
       "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "11",
       "secenekler": [
-        "9",
         "12",
+        "11",
         "13",
-        "11"
+        "9"
       ],
       "ipucu": "2er artıyor.",
       "gorsel": {
@@ -2130,10 +2130,10 @@
       "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "17",
       "secenekler": [
-        "20",
         "14",
-        "17",
-        "18"
+        "20",
+        "18",
+        "17"
       ],
       "ipucu": "3er artıyor.",
       "gorsel": {
@@ -2169,10 +2169,10 @@
       "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "23",
       "secenekler": [
+        "24",
         "27",
-        "19",
         "23",
-        "24"
+        "19"
       ],
       "ipucu": "4er artıyor.",
       "gorsel": {
@@ -2208,10 +2208,10 @@
       "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "29",
       "secenekler": [
-        "34",
+        "24",
         "30",
         "29",
-        "24"
+        "34"
       ],
       "ipucu": "5er artıyor.",
       "gorsel": {
@@ -2286,10 +2286,10 @@
       "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "41",
       "secenekler": [
-        "41",
         "42",
-        "34",
-        "48"
+        "41",
+        "48",
+        "34"
       ],
       "ipucu": "7er artıyor.",
       "gorsel": {
@@ -2320,318 +2320,6 @@
     },
     {
       "id": "zd1-t16",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "55",
-      "secenekler": [
-        "56",
-        "55",
-        "65",
-        "45"
-      ],
-      "ipucu": "10er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 15
-          },
-          {
-            "tip": "sayi",
-            "deger": 25
-          },
-          {
-            "tip": "sayi",
-            "deger": 35
-          },
-          {
-            "tip": "sayi",
-            "deger": 45
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+10"
-      }
-    },
-    {
-      "id": "zd1-t17",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "5",
-      "secenekler": [
-        "5",
-        "4",
-        "6",
-        "6"
-      ],
-      "ipucu": "1er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 1
-          },
-          {
-            "tip": "sayi",
-            "deger": 2
-          },
-          {
-            "tip": "sayi",
-            "deger": 3
-          },
-          {
-            "tip": "sayi",
-            "deger": 4
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+1"
-      }
-    },
-    {
-      "id": "zd1-t18",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "11",
-      "secenekler": [
-        "11",
-        "12",
-        "9",
-        "13"
-      ],
-      "ipucu": "2er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 3
-          },
-          {
-            "tip": "sayi",
-            "deger": 5
-          },
-          {
-            "tip": "sayi",
-            "deger": 7
-          },
-          {
-            "tip": "sayi",
-            "deger": 9
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+2"
-      }
-    },
-    {
-      "id": "zd1-t19",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "17",
-      "secenekler": [
-        "17",
-        "18",
-        "14",
-        "20"
-      ],
-      "ipucu": "3er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 5
-          },
-          {
-            "tip": "sayi",
-            "deger": 8
-          },
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 14
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+3"
-      }
-    },
-    {
-      "id": "zd1-t20",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "23",
-      "secenekler": [
-        "27",
-        "19",
-        "23",
-        "24"
-      ],
-      "ipucu": "4er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 7
-          },
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 15
-          },
-          {
-            "tip": "sayi",
-            "deger": 19
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+4"
-      }
-    },
-    {
-      "id": "zd1-t21",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "29",
-      "secenekler": [
-        "24",
-        "30",
-        "34",
-        "29"
-      ],
-      "ipucu": "5er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 9
-          },
-          {
-            "tip": "sayi",
-            "deger": 14
-          },
-          {
-            "tip": "sayi",
-            "deger": 19
-          },
-          {
-            "tip": "sayi",
-            "deger": 24
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+5"
-      }
-    },
-    {
-      "id": "zd1-t22",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "35",
-      "secenekler": [
-        "36",
-        "35",
-        "41",
-        "29"
-      ],
-      "ipucu": "6er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 17
-          },
-          {
-            "tip": "sayi",
-            "deger": 23
-          },
-          {
-            "tip": "sayi",
-            "deger": 29
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+6"
-      }
-    },
-    {
-      "id": "zd1-t23",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "41",
-      "secenekler": [
-        "41",
-        "42",
-        "34",
-        "48"
-      ],
-      "ipucu": "7er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 13
-          },
-          {
-            "tip": "sayi",
-            "deger": 20
-          },
-          {
-            "tip": "sayi",
-            "deger": 27
-          },
-          {
-            "tip": "sayi",
-            "deger": 34
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+7"
-      }
-    },
-    {
-      "id": "zd1-t24",
       "kazanimKodu": "ZD.2.1.1",
       "tip": "coktanSecmeli",
       "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
@@ -2670,15 +2358,327 @@
       }
     },
     {
+      "id": "zd1-t17",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "4",
+        "6",
+        "6",
+        "5"
+      ],
+      "ipucu": "1er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd1-t18",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "11",
+      "secenekler": [
+        "11",
+        "9",
+        "13",
+        "12"
+      ],
+      "ipucu": "2er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd1-t19",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "17",
+        "14",
+        "18",
+        "20"
+      ],
+      "ipucu": "3er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd1-t20",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "23",
+      "secenekler": [
+        "23",
+        "19",
+        "24",
+        "27"
+      ],
+      "ipucu": "4er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd1-t21",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "29",
+      "secenekler": [
+        "29",
+        "30",
+        "24",
+        "34"
+      ],
+      "ipucu": "5er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd1-t22",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "35",
+      "secenekler": [
+        "35",
+        "36",
+        "41",
+        "29"
+      ],
+      "ipucu": "6er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd1-t23",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "41",
+      "secenekler": [
+        "48",
+        "34",
+        "42",
+        "41"
+      ],
+      "ipucu": "7er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd1-t24",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "45",
+        "65",
+        "56",
+        "55"
+      ],
+      "ipucu": "10er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
       "id": "zd1-t25",
       "kazanimKodu": "ZD.2.1.1",
       "tip": "coktanSecmeli",
       "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "5",
       "secenekler": [
+        "6",
+        "6",
         "5",
-        "6",
-        "6",
         "4"
       ],
       "ipucu": "1er artıyor.",
@@ -2715,10 +2715,10 @@
       "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "11",
       "secenekler": [
-        "11",
         "13",
+        "9",
         "12",
-        "9"
+        "11"
       ],
       "ipucu": "2er artıyor.",
       "gorsel": {
@@ -2754,8 +2754,8 @@
       "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "17",
       "secenekler": [
-        "18",
         "14",
+        "18",
         "17",
         "20"
       ],
@@ -2793,10 +2793,10 @@
       "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "23",
       "secenekler": [
-        "23",
-        "27",
         "24",
-        "19"
+        "27",
+        "19",
+        "23"
       ],
       "ipucu": "4er artıyor.",
       "gorsel": {
@@ -2833,9 +2833,9 @@
       "dogruCevap": "29",
       "secenekler": [
         "29",
+        "34",
         "24",
-        "30",
-        "34"
+        "30"
       ],
       "ipucu": "5er artıyor.",
       "gorsel": {
@@ -2871,10 +2871,10 @@
       "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "35",
       "secenekler": [
-        "41",
         "36",
+        "29",
         "35",
-        "29"
+        "41"
       ],
       "ipucu": "6er artıyor.",
       "gorsel": {
@@ -2910,10 +2910,10 @@
       "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "41",
       "secenekler": [
-        "41",
+        "42",
         "48",
-        "34",
-        "42"
+        "41",
+        "34"
       ],
       "ipucu": "7er artıyor.",
       "gorsel": {
@@ -2949,10 +2949,10 @@
       "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "55",
       "secenekler": [
-        "45",
         "65",
         "55",
-        "56"
+        "56",
+        "45"
       ],
       "ipucu": "10er artıyor.",
       "gorsel": {
@@ -2983,6 +2983,318 @@
     },
     {
       "id": "zd1-t33",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "5",
+      "secenekler": [
+        "6",
+        "4",
+        "5",
+        "6"
+      ],
+      "ipucu": "1er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 1
+          },
+          {
+            "tip": "sayi",
+            "deger": 2
+          },
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 4
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+1"
+      }
+    },
+    {
+      "id": "zd1-t34",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "11",
+      "secenekler": [
+        "9",
+        "11",
+        "12",
+        "13"
+      ],
+      "ipucu": "2er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 3
+          },
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+2"
+      }
+    },
+    {
+      "id": "zd1-t35",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "17",
+      "secenekler": [
+        "14",
+        "20",
+        "18",
+        "17"
+      ],
+      "ipucu": "3er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 5
+          },
+          {
+            "tip": "sayi",
+            "deger": 8
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+3"
+      }
+    },
+    {
+      "id": "zd1-t36",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "23",
+      "secenekler": [
+        "24",
+        "27",
+        "19",
+        "23"
+      ],
+      "ipucu": "4er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 7
+          },
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+4"
+      }
+    },
+    {
+      "id": "zd1-t37",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "29",
+      "secenekler": [
+        "30",
+        "29",
+        "24",
+        "34"
+      ],
+      "ipucu": "5er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 9
+          },
+          {
+            "tip": "sayi",
+            "deger": 14
+          },
+          {
+            "tip": "sayi",
+            "deger": 19
+          },
+          {
+            "tip": "sayi",
+            "deger": 24
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+5"
+      }
+    },
+    {
+      "id": "zd1-t38",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "35",
+      "secenekler": [
+        "29",
+        "41",
+        "35",
+        "36"
+      ],
+      "ipucu": "6er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 11
+          },
+          {
+            "tip": "sayi",
+            "deger": 17
+          },
+          {
+            "tip": "sayi",
+            "deger": 23
+          },
+          {
+            "tip": "sayi",
+            "deger": 29
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+6"
+      }
+    },
+    {
+      "id": "zd1-t39",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "41",
+      "secenekler": [
+        "41",
+        "42",
+        "48",
+        "34"
+      ],
+      "ipucu": "7er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 13
+          },
+          {
+            "tip": "sayi",
+            "deger": 20
+          },
+          {
+            "tip": "sayi",
+            "deger": 27
+          },
+          {
+            "tip": "sayi",
+            "deger": 34
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+7"
+      }
+    },
+    {
+      "id": "zd1-t40",
+      "kazanimKodu": "ZD.2.1.1",
+      "tip": "coktanSecmeli",
+      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
+      "dogruCevap": "55",
+      "secenekler": [
+        "45",
+        "55",
+        "65",
+        "56"
+      ],
+      "ipucu": "10er artıyor.",
+      "gorsel": {
+        "tur": "oruntu",
+        "elemanlar": [
+          {
+            "tip": "sayi",
+            "deger": 15
+          },
+          {
+            "tip": "sayi",
+            "deger": 25
+          },
+          {
+            "tip": "sayi",
+            "deger": 35
+          },
+          {
+            "tip": "sayi",
+            "deger": 45
+          },
+          {
+            "tip": "soru"
+          }
+        ],
+        "adimEtiketi": "+10"
+      }
+    },
+    {
+      "id": "zd1-t41",
       "kazanimKodu": "ZD.2.1.1",
       "tip": "coktanSecmeli",
       "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
@@ -3021,318 +3333,6 @@
       }
     },
     {
-      "id": "zd1-t34",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "11",
-      "secenekler": [
-        "11",
-        "12",
-        "13",
-        "9"
-      ],
-      "ipucu": "2er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 3
-          },
-          {
-            "tip": "sayi",
-            "deger": 5
-          },
-          {
-            "tip": "sayi",
-            "deger": 7
-          },
-          {
-            "tip": "sayi",
-            "deger": 9
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+2"
-      }
-    },
-    {
-      "id": "zd1-t35",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "17",
-      "secenekler": [
-        "20",
-        "14",
-        "18",
-        "17"
-      ],
-      "ipucu": "3er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 5
-          },
-          {
-            "tip": "sayi",
-            "deger": 8
-          },
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 14
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+3"
-      }
-    },
-    {
-      "id": "zd1-t36",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "23",
-      "secenekler": [
-        "19",
-        "27",
-        "23",
-        "24"
-      ],
-      "ipucu": "4er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 7
-          },
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 15
-          },
-          {
-            "tip": "sayi",
-            "deger": 19
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+4"
-      }
-    },
-    {
-      "id": "zd1-t37",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "29",
-      "secenekler": [
-        "24",
-        "29",
-        "30",
-        "34"
-      ],
-      "ipucu": "5er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 9
-          },
-          {
-            "tip": "sayi",
-            "deger": 14
-          },
-          {
-            "tip": "sayi",
-            "deger": 19
-          },
-          {
-            "tip": "sayi",
-            "deger": 24
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+5"
-      }
-    },
-    {
-      "id": "zd1-t38",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "11, 17, 23, 29, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "35",
-      "secenekler": [
-        "41",
-        "29",
-        "35",
-        "36"
-      ],
-      "ipucu": "6er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 11
-          },
-          {
-            "tip": "sayi",
-            "deger": 17
-          },
-          {
-            "tip": "sayi",
-            "deger": 23
-          },
-          {
-            "tip": "sayi",
-            "deger": 29
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+6"
-      }
-    },
-    {
-      "id": "zd1-t39",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "13, 20, 27, 34, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "41",
-      "secenekler": [
-        "34",
-        "42",
-        "41",
-        "48"
-      ],
-      "ipucu": "7er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 13
-          },
-          {
-            "tip": "sayi",
-            "deger": 20
-          },
-          {
-            "tip": "sayi",
-            "deger": 27
-          },
-          {
-            "tip": "sayi",
-            "deger": 34
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+7"
-      }
-    },
-    {
-      "id": "zd1-t40",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "15, 25, 35, 45, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "55",
-      "secenekler": [
-        "56",
-        "45",
-        "65",
-        "55"
-      ],
-      "ipucu": "10er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 15
-          },
-          {
-            "tip": "sayi",
-            "deger": 25
-          },
-          {
-            "tip": "sayi",
-            "deger": 35
-          },
-          {
-            "tip": "sayi",
-            "deger": 45
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+10"
-      }
-    },
-    {
-      "id": "zd1-t41",
-      "kazanimKodu": "ZD.2.1.1",
-      "tip": "coktanSecmeli",
-      "soru": "1, 2, 3, 4, ? örüntüsünde ? yerine hangi sayı gelir?",
-      "dogruCevap": "5",
-      "secenekler": [
-        "4",
-        "5",
-        "6",
-        "6"
-      ],
-      "ipucu": "1er artıyor.",
-      "gorsel": {
-        "tur": "oruntu",
-        "elemanlar": [
-          {
-            "tip": "sayi",
-            "deger": 1
-          },
-          {
-            "tip": "sayi",
-            "deger": 2
-          },
-          {
-            "tip": "sayi",
-            "deger": 3
-          },
-          {
-            "tip": "sayi",
-            "deger": 4
-          },
-          {
-            "tip": "soru"
-          }
-        ],
-        "adimEtiketi": "+1"
-      }
-    },
-    {
       "id": "zd1-t42",
       "kazanimKodu": "ZD.2.1.1",
       "tip": "coktanSecmeli",
@@ -3341,8 +3341,8 @@
       "secenekler": [
         "12",
         "11",
-        "13",
-        "9"
+        "9",
+        "13"
       ],
       "ipucu": "2er artıyor.",
       "gorsel": {
@@ -3378,10 +3378,10 @@
       "soru": "5, 8, 11, 14, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "17",
       "secenekler": [
+        "14",
         "18",
-        "17",
         "20",
-        "14"
+        "17"
       ],
       "ipucu": "3er artıyor.",
       "gorsel": {
@@ -3417,10 +3417,10 @@
       "soru": "7, 11, 15, 19, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "23",
       "secenekler": [
-        "23",
-        "19",
         "27",
-        "24"
+        "24",
+        "19",
+        "23"
       ],
       "ipucu": "4er artıyor.",
       "gorsel": {
@@ -3456,10 +3456,10 @@
       "soru": "9, 14, 19, 24, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "29",
       "secenekler": [
-        "24",
+        "29",
         "30",
         "34",
-        "29"
+        "24"
       ],
       "ipucu": "5er artıyor.",
       "gorsel": {
@@ -3496,9 +3496,9 @@
       "dogruCevap": "35",
       "secenekler": [
         "29",
-        "41",
+        "36",
         "35",
-        "36"
+        "41"
       ],
       "ipucu": "6er artıyor.",
       "gorsel": {
@@ -3574,8 +3574,8 @@
       "dogruCevap": "55",
       "secenekler": [
         "55",
-        "65",
         "45",
+        "65",
         "56"
       ],
       "ipucu": "10er artıyor.",
@@ -3614,8 +3614,8 @@
       "secenekler": [
         "4",
         "6",
-        "6",
-        "5"
+        "5",
+        "6"
       ],
       "ipucu": "1er artıyor.",
       "gorsel": {
@@ -3651,10 +3651,10 @@
       "soru": "3, 5, 7, 9, ? örüntüsünde ? yerine hangi sayı gelir?",
       "dogruCevap": "11",
       "secenekler": [
-        "11",
         "12",
         "13",
-        "9"
+        "9",
+        "11"
       ],
       "ipucu": "2er artıyor.",
       "gorsel": {

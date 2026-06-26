@@ -453,10 +453,10 @@
       "soru": "İngilizcede \"Koşmak\" eyleminin karşılığı nedir?",
       "dogruCevap": "Run",
       "secenekler": [
+        "Run",
         "Read",
-        "Sleep",
         "Walk",
-        "Run"
+        "Sleep"
       ],
       "ipucu": "",
       "gorsel": {
@@ -472,10 +472,10 @@
       "soru": "Beden eğitimi dersinde zıplayan Berk hangi İngilizce hareketi yapmaktadır?",
       "dogruCevap": "Jump",
       "secenekler": [
-        "Write",
+        "Eat",
         "Sing",
         "Jump",
-        "Eat"
+        "Write"
       ],
       "ipucu": "",
       "gorsel": {
@@ -491,10 +491,10 @@
       "soru": "Suda ilerlemek için yaptığımız \"Yüzmek\" eyleminin İngilizcesi hangisidir?",
       "dogruCevap": "Swim",
       "secenekler": [
-        "Swim",
-        "Dance",
         "Drink",
-        "Draw"
+        "Draw",
+        "Swim",
+        "Dance"
       ],
       "ipucu": "",
       "gorsel": {
@@ -512,8 +512,8 @@
       "secenekler": [
         "Sing",
         "Read",
-        "Run",
-        "Jump"
+        "Jump",
+        "Run"
       ],
       "ipucu": "",
       "gorsel": {
@@ -529,10 +529,10 @@
       "soru": "Defterimize ödevimizi yaparken kullandığımız \"Yazmak\" kelimesinin İngilizcesi nedir?",
       "dogruCevap": "Write",
       "secenekler": [
-        "Read",
-        "Write",
+        "Sleep",
         "Play",
-        "Sleep"
+        "Write",
+        "Read"
       ],
       "ipucu": "",
       "gorsel": {
@@ -548,9 +548,9 @@
       "soru": "Renkli kalemlerle resim \"Çizmek\" İngilizcede nasıl söylenir?",
       "dogruCevap": "Draw",
       "secenekler": [
+        "Draw",
         "Swim",
         "Drink",
-        "Draw",
         "Eat"
       ],
       "ipucu": "",
@@ -567,10 +567,10 @@
       "soru": "Sahnede güzel sesiyle \"Şarkı söyleyen\" Can'ın yaptığı eylem hangisidir?",
       "dogruCevap": "Sing",
       "secenekler": [
-        "Sing",
         "Run",
-        "Dance",
-        "Jump"
+        "Jump",
+        "Sing",
+        "Dance"
       ],
       "ipucu": "",
       "gorsel": {
@@ -586,9 +586,9 @@
       "soru": "Müziğe ayak uydurarak yapılan \"Dans etmek\" eyleminin İngilizcesi nedir?",
       "dogruCevap": "Dance",
       "secenekler": [
+        "Read",
         "Write",
         "Sleep",
-        "Read",
         "Dance"
       ],
       "ipucu": "",
@@ -605,10 +605,10 @@
       "soru": "Arkadaşımızla veya oyuncaklarımızla \"Oyun oynamak\" İngilizcede nedir?",
       "dogruCevap": "Play",
       "secenekler": [
+        "Drink",
         "Play",
-        "Eat",
         "Draw",
-        "Drink"
+        "Eat"
       ],
       "ipucu": "",
       "gorsel": {
@@ -624,10 +624,10 @@
       "soru": "Acıktığımızda yaptığımız \"Yemek yemek\" eyleminin İngilizcesi hangisidir?",
       "dogruCevap": "Eat",
       "secenekler": [
+        "Eat",
         "Swim",
         "Sing",
-        "Drink",
-        "Eat"
+        "Drink"
       ],
       "ipucu": "",
       "gorsel": {
@@ -643,9 +643,9 @@
       "soru": "Susadığımızda yaptığımız \"İçmek\" eyleminin İngilizcesi nedir?",
       "dogruCevap": "Drink",
       "secenekler": [
-        "Drink",
-        "Jump",
         "Eat",
+        "Jump",
+        "Drink",
         "Read"
       ],
       "ipucu": "",
@@ -662,10 +662,10 @@
       "soru": "Geceleri yatağımızda yaptığımız \"Uyumak\" eyleminin İngilizce adı nedir?",
       "dogruCevap": "Sleep",
       "secenekler": [
-        "Play",
-        "Write",
         "Run",
-        "Sleep"
+        "Sleep",
+        "Play",
+        "Write"
       ],
       "ipucu": "",
       "gorsel": {
@@ -681,9 +681,9 @@
       "soru": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
       "dogruCevap": "Read = Uyumak",
       "secenekler": [
-        "Read = Uyumak",
         "Swim = Yüzmek",
         "Run = Koşmak",
+        "Read = Uyumak",
         "Jump = Zıplamak"
       ],
       "ipucu": "Read okumak demektir!",
@@ -701,10 +701,10 @@
       "soru": "Kurbağalar en çok hangi hareketi (Action) yaparlar?",
       "dogruCevap": "Jump",
       "secenekler": [
-        "Read",
-        "Sing",
         "Jump",
-        "Write"
+        "Sing",
+        "Write",
+        "Read"
       ],
       "ipucu": "",
       "gorsel": {
@@ -722,8 +722,8 @@
       "secenekler": [
         "Sleep",
         "Dance",
-        "Swim",
-        "Run"
+        "Run",
+        "Swim"
       ],
       "ipucu": "",
       "gorsel": {
@@ -739,10 +739,10 @@
       "soru": "\"Sing and Dance\" kelimeleri sırasıyla ne anlama gelir?",
       "dogruCevap": "Şarkı söylemek ve Dans etmek",
       "secenekler": [
-        "Okumak ve Yazmak",
+        "Koşmak ve Zıplamak",
         "Şarkı söylemek ve Dans etmek",
-        "Uyumak ve İçmek",
-        "Koşmak ve Zıplamak"
+        "Okumak ve Yazmak",
+        "Uyumak ve İçmek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -758,10 +758,10 @@
       "soru": "Sınıfta öğrenciler en çok hangi iki eylemi yaparlar?",
       "dogruCevap": "Read and Write",
       "secenekler": [
-        "Read and Write",
-        "Sing and Dance",
+        "Sleep and Eat",
         "Swim and Run",
-        "Sleep and Eat"
+        "Read and Write",
+        "Sing and Dance"
       ],
       "ipucu": "",
       "gorsel": {
@@ -777,10 +777,10 @@
       "soru": "\"Eat and Drink\" ifadeleri Türkçede hangi anlama gelir?",
       "dogruCevap": "Yemek ve İçmek",
       "secenekler": [
-        "Yemek ve İçmek",
-        "Koşmak ve Yüzmek",
         "Dans etmek ve Uyumak",
-        "Okumak ve Çizmek"
+        "Okumak ve Çizmek",
+        "Koşmak ve Yüzmek",
+        "Yemek ve İçmek"
       ],
       "ipucu": "",
       "gorsel": {
@@ -796,10 +796,10 @@
       "soru": "\"Play\" kelimesi ne anlama gelir?",
       "dogruCevap": "Oyun oynamak",
       "secenekler": [
-        "Zıplamak",
-        "Uyumak",
+        "Oyun oynamak",
         "Şarkı söylemek",
-        "Oyun oynamak"
+        "Zıplamak",
+        "Uyumak"
       ],
       "ipucu": "",
       "gorsel": {
@@ -815,10 +815,10 @@
       "soru": "\"Sleep\" eylemi bize ne hissettirir?",
       "dogruCevap": "Dinlendirir",
       "secenekler": [
-        "Dinlendirir",
-        "Susatır",
         "Yorar",
-        "Acıktırır"
+        "Acıktırır",
+        "Susatır",
+        "Dinlendirir"
       ],
       "ipucu": "",
       "gorsel": {
@@ -853,10 +853,10 @@
       "soru": "\"Read\" eylemini yaparken vücudumuzun en çok hangi bölümünü (Body Part) kullanırız?",
       "dogruCevap": "Eye",
       "secenekler": [
-        "Ear",
-        "Eye",
         "Foot",
-        "Nose"
+        "Nose",
+        "Ear",
+        "Eye"
       ],
       "ipucu": "",
       "gorsel": {
@@ -891,9 +891,9 @@
       "soru": "\"Eat\", \"Drink\" ve \"Sing\" eylemlerini yaparken vücudumuzun hangi organını kullanırız?",
       "dogruCevap": "Mouth",
       "secenekler": [
+        "Eye",
         "Ear",
         "Foot",
-        "Eye",
         "Mouth"
       ],
       "ipucu": "",
@@ -910,10 +910,10 @@
       "soru": "\"Write\" ve \"Draw\" yaparken kullandığımız marifetli organımız hangisidir?",
       "dogruCevap": "Hand",
       "secenekler": [
-        "Hand",
-        "Ear",
         "Leg",
-        "Nose"
+        "Nose",
+        "Hand",
+        "Ear"
       ],
       "ipucu": "",
       "gorsel": {

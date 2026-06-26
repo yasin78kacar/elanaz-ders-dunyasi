@@ -418,10 +418,10 @@
       "soru": "\"Önce\" kelimesi neyi gösterir?",
       "dogruCevap": "İlk yapılan işi",
       "secenekler": [
-        "Son işi",
-        "Rastgele olayı",
         "İlk yapılan işi",
-        "Yarını"
+        "Yarını",
+        "Rastgele olayı",
+        "Son işi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -438,9 +438,9 @@
       "soru": "\"Sonra\" kelimesi hangi anlamı verir?",
       "dogruCevap": "Bir sonraki adımı",
       "secenekler": [
-        "Başlığı",
-        "Önceki adımı",
         "Son cümleyi",
+        "Önceki adımı",
+        "Başlığı",
         "Bir sonraki adımı"
       ],
       "ipucu": "",
@@ -458,10 +458,10 @@
       "soru": "\"En son\" ifadesi neyi anlatır?",
       "dogruCevap": "Son yapılan işi",
       "secenekler": [
+        "Son yapılan işi",
         "Yarınki işi",
-        "Ortadaki işi",
         "İlk işi",
-        "Son yapılan işi"
+        "Ortadaki işi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -478,10 +478,10 @@
       "soru": "Günün zamanları doğru sırayla hangisidir?",
       "dogruCevap": "Sabah, öğlen, akşam",
       "secenekler": [
-        "Akşam, sabah, öğlen",
         "Sabah, öğlen, akşam",
-        "Gece, sabah, öğlen",
-        "Öğlen, akşam, sabah"
+        "Akşam, sabah, öğlen",
+        "Öğlen, akşam, sabah",
+        "Gece, sabah, öğlen"
       ],
       "ipucu": "",
       "gorsel": {
@@ -518,10 +518,10 @@
       "soru": "Hikâyede gelişme bölümü neyi anlatır?",
       "dogruCevap": "Olayların büyüdüğü kısmı",
       "secenekler": [
-        "Olayların büyüdüğü kısmı",
-        "Kitap kapağını",
         "Noktalama işaretini",
-        "Sadece selamı"
+        "Kitap kapağını",
+        "Sadece selamı",
+        "Olayların büyüdüğü kısmı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -538,10 +538,10 @@
       "soru": "Giriş, gelişme, sonuç hangi sırayla gelir?",
       "dogruCevap": "Giriş → gelişme → sonuç",
       "secenekler": [
-        "Gelişme → sonuç → giriş",
-        "Giriş → gelişme → sonuç",
         "Sonuç → giriş → gelişme",
-        "Rastgele"
+        "Giriş → gelişme → sonuç",
+        "Rastgele",
+        "Gelişme → sonuç → giriş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -559,9 +559,9 @@
       "dogruCevap": "Uyandı → çantasını aldı → okula gitti",
       "secenekler": [
         "Uyandı → çantasını aldı → okula gitti",
+        "Uyandı → okul → çanta",
         "Çanta → okul → uyandı",
-        "Okula gitti → uyandı → çanta",
-        "Uyandı → okul → çanta"
+        "Okula gitti → uyandı → çanta"
       ],
       "ipucu": "",
       "gorsel": {
@@ -578,10 +578,10 @@
       "soru": "Cümleleri doğru sıraya koy: Sofraya oturdu / Ellerini yıkadı / Yemek yedi",
       "dogruCevap": "Sofraya oturdu → ellerini yıkadı → yemek yedi",
       "secenekler": [
-        "Oturu → yedi → yıkadı",
-        "Yemek yedi → sofra → yıkadı",
         "Sofraya oturdu → ellerini yıkadı → yemek yedi",
-        "Yıkadı → yedi → oturdu"
+        "Yıkadı → yedi → oturdu",
+        "Yemek yedi → sofra → yıkadı",
+        "Oturu → yedi → yıkadı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -598,10 +598,10 @@
       "soru": "Cümleleri doğru sıraya koy: Kütüphaneye gitti / Kitap seçti / Okudu",
       "dogruCevap": "Gitti → seçti → okudu",
       "secenekler": [
-        "Seçti → okudu → gitti",
         "Okudu → gitti → seçti",
+        "Gitti → okudu → seçti",
         "Gitti → seçti → okudu",
-        "Gitti → okudu → seçti"
+        "Seçti → okudu → gitti"
       ],
       "ipucu": "",
       "gorsel": {
@@ -618,9 +618,9 @@
       "soru": "\"Ertesi gün\" ifadesi neyi gösterir?",
       "dogruCevap": "Bir sonraki günü",
       "secenekler": [
+        "Geceyi",
         "Dünü",
         "Bir sonraki günü",
-        "Geceyi",
         "Öğleni"
       ],
       "ipucu": "",
@@ -638,10 +638,10 @@
       "soru": "Olay örgüsü ne demektir?",
       "dogruCevap": "Olayların sıralı düzeni",
       "secenekler": [
-        "Noktalama kuralı",
-        "Olayların sıralı düzeni",
+        "Şiir kafiyesi",
         "Hece sayısı",
-        "Şiir kafiyesi"
+        "Olayların sıralı düzeni",
+        "Noktalama kuralı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -658,10 +658,10 @@
       "soru": "Zaman ifadeleri metinde ne işe yarar?",
       "dogruCevap": "Olayların sırasını gösterir",
       "secenekler": [
-        "Olayların sırasını gösterir",
-        "Hece sayar",
         "Başlık yazar",
-        "Renk verir"
+        "Renk verir",
+        "Olayların sırasını gösterir",
+        "Hece sayar"
       ],
       "ipucu": "",
       "gorsel": {
@@ -678,10 +678,10 @@
       "soru": "Hangi cümle olay sırasına uygundur?",
       "dogruCevap": "Önce yıkadı, sonra giyindi",
       "secenekler": [
-        "Sonra önce yıkadı",
-        "Yıkadı sonra önce",
         "Giyindi önce sonra yıkadı",
-        "Önce yıkadı, sonra giyindi"
+        "Sonra önce yıkadı",
+        "Önce yıkadı, sonra giyindi",
+        "Yıkadı sonra önce"
       ],
       "ipucu": "",
       "gorsel": {
@@ -698,10 +698,10 @@
       "soru": "Hikâye anlatırken ilk söylenen bölüm hangisidir?",
       "dogruCevap": "Giriş",
       "secenekler": [
-        "Sonuç",
         "Kapanış şiiri",
         "Gelişme",
-        "Giriş"
+        "Giriş",
+        "Sonuç"
       ],
       "ipucu": "",
       "gorsel": {
@@ -718,9 +718,9 @@
       "soru": "Resimleri sıraya dizmek hangi beceriyi geliştirir?",
       "dogruCevap": "Olay sırasını anlama",
       "secenekler": [
-        "Olay sırasını anlama",
-        "Çarpım tablosu",
         "Noktalama",
+        "Çarpım tablosu",
+        "Olay sırasını anlama",
         "Hece sayma"
       ],
       "ipucu": "",
@@ -738,10 +738,10 @@
       "soru": "Bir günlük yazarken olaylar nasıl yazılmalı?",
       "dogruCevap": "Zaman sırasına göre",
       "secenekler": [
-        "Tersten",
+        "Zaman sırasına göre",
         "Rastgele",
-        "Sadece tek cümle",
-        "Zaman sırasına göre"
+        "Tersten",
+        "Sadece tek cümle"
       ],
       "ipucu": "",
       "gorsel": {
@@ -758,9 +758,9 @@
       "soru": "\"Ardından\" kelimesi hangi ilişkiyi gösterir?",
       "dogruCevap": "Hemen sonraki olayı",
       "secenekler": [
-        "Başlığı",
         "Son cümleyi",
         "Hemen sonraki olayı",
+        "Başlığı",
         "Önceki günü"
       ],
       "ipucu": "",
@@ -779,9 +779,9 @@
       "dogruCevap": "Metni daha iyi anlamamızı sağlar",
       "secenekler": [
         "Metni daha iyi anlamamızı sağlar",
+        "Okumayı zorlaştırır",
         "Hiç etkilemez",
-        "Metni uzatır",
-        "Okumayı zorlaştırır"
+        "Metni uzatır"
       ],
       "ipucu": "",
       "gorsel": {
@@ -799,9 +799,9 @@
       "soru": "Cümleleri doğru sıraya koy: Forma giydi / Sahaya çıktı / Top oynadı",
       "dogruCevap": "Forma → sahaya çıktı → top oynadı",
       "secenekler": [
-        "Sahaya → top → forma",
-        "Top oynadı → forma → sahaya",
         "Forma → sahaya çıktı → top oynadı",
+        "Top oynadı → forma → sahaya",
+        "Sahaya → top → forma",
         "Forma → top → sahaya"
       ],
       "ipucu": "",
@@ -819,10 +819,10 @@
       "soru": "Cümleleri doğru sıraya koy: Diş fırçaladı / Pijama giydi / Uyudu",
       "dogruCevap": "Fırçaladı → pijama → uyudu",
       "secenekler": [
-        "Fırçaladı → pijama → uyudu",
-        "Uyudu → fırçaladı → pijama",
         "Uyudu → pijama → fırçaladı",
-        "Pijama → uyudu → fırçaladı"
+        "Fırçaladı → pijama → uyudu",
+        "Pijama → uyudu → fırçaladı",
+        "Uyudu → fırçaladı → pijama"
       ],
       "ipucu": "",
       "gorsel": {
@@ -839,8 +839,8 @@
       "soru": "Hangi kelime grubu zaman sırasını gösterir?",
       "dogruCevap": "Önce, sonra, en son",
       "secenekler": [
-        "Kırmızı, mavi, yeşil",
         "Elma, armut, muz",
+        "Kırmızı, mavi, yeşil",
         "Önce, sonra, en son",
         "Kedi, köpek, kuş"
       ],
@@ -859,10 +859,10 @@
       "soru": "Hikâyede sonuç bölümü neyi anlatır?",
       "dogruCevap": "Olayın nasıl bittiğini",
       "secenekler": [
-        "Olayın nasıl bittiğini",
-        "Kahramanın adını",
+        "Hece sayısını",
         "Sadece rengi",
-        "Hece sayısını"
+        "Kahramanın adını",
+        "Olayın nasıl bittiğini"
       ],
       "ipucu": "",
       "gorsel": {
@@ -879,10 +879,10 @@
       "soru": "Olay sırasını bozan ifade hangisidir?",
       "dogruCevap": "Sonra önce karışık anlattı",
       "secenekler": [
-        "Sonra önce karışık anlattı",
-        "Önce yıkadı",
         "Sonra giyindi",
-        "En son uyudu"
+        "En son uyudu",
+        "Önce yıkadı",
+        "Sonra önce karışık anlattı"
       ],
       "ipucu": "",
       "gorsel": {
@@ -899,10 +899,10 @@
       "soru": "Olayların oluş sırası konusunun amacı nedir?",
       "dogruCevap": "Metindeki olayları doğru sırayla anlamak",
       "secenekler": [
-        "Hece saymak",
         "Metindeki olayları doğru sırayla anlamak",
-        "Sadece yazı yazmak",
-        "Renk öğrenmek"
+        "Renk öğrenmek",
+        "Hece saymak",
+        "Sadece yazı yazmak"
       ],
       "ipucu": "",
       "gorsel": {

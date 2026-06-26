@@ -927,10 +927,10 @@
       "soru": "En çok hangi hayvan var?",
       "dogruCevap": "Köpek",
       "secenekler": [
-        "Tavşan",
-        "Kuş",
         "Köpek",
-        "Kedi"
+        "Kedi",
+        "Tavşan",
+        "Kuş"
       ],
       "ipucu": "",
       "gorsel": {
@@ -967,9 +967,9 @@
       "dogruCevap": "13",
       "secenekler": [
         "13",
-        "12",
+        "11",
         "10",
-        "11"
+        "12"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1006,10 +1006,10 @@
       "soru": "En az hangi hayvan var?",
       "dogruCevap": "Kuş",
       "secenekler": [
-        "Tavşan",
         "Kuş",
         "Köpek",
-        "Kedi"
+        "Kedi",
+        "Tavşan"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1046,8 +1046,8 @@
       "dogruCevap": "3",
       "secenekler": [
         "4",
-        "2",
         "3",
+        "2",
         "5"
       ],
       "ipucu": "",
@@ -1085,10 +1085,10 @@
       "soru": "Toplam kaç hayvan var?",
       "dogruCevap": "33",
       "secenekler": [
-        "35",
-        "31",
         "33",
-        "30"
+        "30",
+        "35",
+        "31"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1127,10 +1127,10 @@
       "soru": "En çok ekmek hangi gün satıldı?",
       "dogruCevap": "Cuma",
       "secenekler": [
-        "Cuma",
+        "Salı",
         "Pazartesi",
-        "Perşembe",
-        "Salı"
+        "Cuma",
+        "Perşembe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1169,9 +1169,9 @@
       "dogruCevap": "35",
       "secenekler": [
         "32",
-        "35",
         "33",
-        "37"
+        "37",
+        "35"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1210,10 +1210,10 @@
       "soru": "En az ekmek hangi gün satıldı?",
       "dogruCevap": "Salı",
       "secenekler": [
-        "Pazartesi",
+        "Salı",
         "Perşembe",
         "Çarşamba",
-        "Salı"
+        "Pazartesi"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1251,10 +1251,10 @@
       "soru": "🎭 Çarşamba ile perşembe farkı kaçtır?",
       "dogruCevap": "4",
       "secenekler": [
-        "3",
+        "4",
         "2",
-        "6",
-        "4"
+        "3",
+        "6"
       ],
       "ipucu": "22 - 18 = ?",
       "gorsel": {
@@ -1294,8 +1294,8 @@
       "soru": "Beş günde toplam kaç ekmek satıldı?",
       "dogruCevap": "100",
       "secenekler": [
-        "95",
         "100",
+        "95",
         "98",
         "105"
       ],
@@ -1339,10 +1339,10 @@
       "soru": "En çok sevilen ders hangisi?",
       "dogruCevap": "Matematik",
       "secenekler": [
-        "Türkçe",
-        "Fen",
+        "Müzik",
         "Matematik",
-        "Müzik"
+        "Fen",
+        "Türkçe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1378,10 +1378,10 @@
       "soru": "Fen ile müzik toplamı kaçtır?",
       "dogruCevap": "21",
       "secenekler": [
+        "21",
         "23",
-        "20",
         "19",
-        "21"
+        "20"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1419,9 +1419,9 @@
       "dogruCevap": "4",
       "secenekler": [
         "3",
-        "6",
+        "4",
         "5",
-        "4"
+        "6"
       ],
       "ipucu": "14 - 10 = ?",
       "gorsel": {
@@ -1459,10 +1459,10 @@
       "soru": "En az sevilen ders hangisi?",
       "dogruCevap": "Fen",
       "secenekler": [
-        "Türkçe",
         "Müzik",
+        "Matematik",
         "Fen",
-        "Matematik"
+        "Türkçe"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1498,10 +1498,10 @@
       "soru": "Toplam kaç öğrenci ankete katıldı?",
       "dogruCevap": "45",
       "secenekler": [
-        "44",
+        "45",
         "43",
-        "47",
-        "45"
+        "44",
+        "47"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1541,9 +1541,9 @@
       "dogruCevap": "Elma",
       "secenekler": [
         "Kiraz",
-        "Elma",
         "Armut",
-        "Muz"
+        "Muz",
+        "Elma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1579,10 +1579,10 @@
       "soru": "🎭 Muz ve armut toplamı elma satışından fazla mı?",
       "dogruCevap": "Evet",
       "secenekler": [
-        "Evet",
+        "Eşit",
         "Hayır",
-        "Belli değil",
-        "Eşit"
+        "Evet",
+        "Belli değil"
       ],
       "ipucu": "9 + 12 = 21, 21 > 18",
       "gorsel": {
@@ -1622,9 +1622,9 @@
       "dogruCevap": "6",
       "secenekler": [
         "8",
-        "4",
+        "5",
         "6",
-        "5"
+        "4"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1661,10 +1661,10 @@
       "soru": "Toplam kaç kg meyve satıldı?",
       "dogruCevap": "54",
       "secenekler": [
-        "56",
-        "58",
         "54",
-        "52"
+        "56",
+        "52",
+        "58"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1703,10 +1703,10 @@
       "soru": "🎭 Elma satışı hangi iki meyvenin toplamına eşittir?",
       "dogruCevap": "Hiçbiri",
       "secenekler": [
-        "Hiçbiri",
         "Armut + Kiraz",
+        "Muz + Armut",
         "Muz + Kiraz",
-        "Muz + Armut"
+        "Hiçbiri"
       ],
       "ipucu": "Hiçbir ikili toplam 18 etmez",
       "gorsel": {
@@ -1747,8 +1747,8 @@
       "dogruCevap": "Ali",
       "secenekler": [
         "Ali",
-        "Fatma",
         "Ayşe",
+        "Fatma",
         "Mehmet"
       ],
       "ipucu": "",
@@ -1787,8 +1787,8 @@
       "soru": "Fatma hangi gün nöbetçi?",
       "dogruCevap": "Perşembe",
       "secenekler": [
-        "Cuma",
         "Salı",
+        "Cuma",
         "Çarşamba",
         "Perşembe"
       ],
@@ -1829,8 +1829,8 @@
       "dogruCevap": "Mehmet",
       "secenekler": [
         "Berk",
-        "Ali",
         "Ayşe",
+        "Ali",
         "Mehmet"
       ],
       "ipucu": "",
@@ -1870,10 +1870,10 @@
       "soru": "Berk hangi gün nöbetçi?",
       "dogruCevap": "Cuma",
       "secenekler": [
-        "Salı",
-        "Cuma",
+        "Pazartesi",
         "Perşembe",
-        "Pazartesi"
+        "Salı",
+        "Cuma"
       ],
       "ipucu": "",
       "gorsel": {
@@ -1913,8 +1913,8 @@
       "secenekler": [
         "Ali",
         "Mehmet",
-        "Fatma",
-        "Ayşe"
+        "Ayşe",
+        "Fatma"
       ],
       "ipucu": "Salı = Ayşe, Perşembe = Fatma → yer değiştirince Perşembe = Ayşe",
       "gorsel": {
