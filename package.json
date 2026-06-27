@@ -12,6 +12,7 @@
     "ios": "expo start --ios",
     "catalog-images": "node scripts/catalog-flow-images.mjs",
     "catalog-math-tema3-videos": "node scripts/catalog-math-tema3-videos.mjs",
+    "catalog-all-theme-videos": "python3 scripts/catalog-all-theme-videos.py",
     "test:responsive": "node scripts/verify-responsive-breakpoints.mjs && python3 scripts/capture-responsive-screenshots.py",
     "validate": "npx tsc --noEmit && node scripts/verify-secenekler.mjs && node scripts/verify-responsive-breakpoints.mjs && node scripts/verify-gamification.mjs"
   },
