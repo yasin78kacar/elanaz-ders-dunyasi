@@ -9,6 +9,8 @@ import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 import { ContentIllustration } from './ContentIllustration';
 import { QuestionScreen } from './QuestionScreen';
 import { soruMetni } from '../utils/soruHelpers';
+import { getMathTema3SoruVideo } from '../assets/mathTema3Videos';
+import { VideoIzleButton } from './VideoIzleButton';
 
 interface Props {
   soru: Soru;
@@ -49,6 +51,11 @@ export const PracticeQuestion = memo(function PracticeQuestion({ soru, konuId, o
     [layout],
   );
 
+  const soruVideo = useMemo(
+    () => getMathTema3SoruVideo(konuId, soru.gorsel),
+    [konuId, soru.gorsel],
+  );
+
   const kontrolEt = useCallback(() => {
     const normalize = normalizeCevap(cevap);
     const kabul = [soru.dogruCevap, ...(soru.alternatifCevaplar ?? [])]
@@ -68,6 +75,7 @@ export const PracticeQuestion = memo(function PracticeQuestion({ soru, konuId, o
       }
     >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
+      {soruVideo ? <VideoIzleButton source={soruVideo} /> : null}
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       {soru.okumaMetni ? <Text style={q.okumaMetni}>{soru.okumaMetni}</Text> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>

@@ -7,6 +7,8 @@ import { useQuestionStyles } from '../hooks/useQuestionStyles';
 import { PrimaryButton } from './PrimaryButton';
 import { ContentIllustration } from './ContentIllustration';
 import { soruMetni } from '../utils/soruHelpers';
+import { getMathTema3SoruVideo } from '../assets/mathTema3Videos';
+import { VideoIzleButton } from './VideoIzleButton';
 import { AnswerButton } from './AnswerButton';
 import { QuestionFeedback, SasirtmaUyariVideo } from './QuestionFeedback';
 import { QuestionScreen } from './QuestionScreen';
@@ -61,6 +63,11 @@ export const TestQuestion = memo(function TestQuestion({ soru, konuId, onAnswer 
     [kilitli, durum, secim, degisiklikSayisi],
   );
 
+  const soruVideo = useMemo(
+    () => getMathTema3SoruVideo(konuId, soru.gorsel),
+    [konuId, soru.gorsel],
+  );
+
   const onayla = useCallback(() => {
     if (!secim) return;
     const dogruMu = secim === soru.dogruCevap;
@@ -78,6 +85,7 @@ export const TestQuestion = memo(function TestQuestion({ soru, konuId, onAnswer 
       }
     >
       <ContentIllustration gorsel={soru.gorsel} konuId={konuId} />
+      {soruVideo ? <VideoIzleButton source={soruVideo} /> : null}
       {soru.sasirtma && durum === 'bekle' ? <SasirtmaUyariVideo /> : null}
       {soru.okumaMetni ? <Text style={q.okumaMetni}>{soru.okumaMetni}</Text> : null}
       <Text style={q.soru}>{soruMetni(soru)}</Text>

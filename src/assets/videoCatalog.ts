@@ -1,4 +1,5 @@
 import { FLOW_VIDEOS, type FlowVideoKey } from './flowVideos.generated';
+import { getMathTema3AnlatimVideo, mathTema3KonuVideoDestekler } from './mathTema3Videos';
 
 export type { FlowVideoKey };
 
@@ -100,6 +101,9 @@ export function getVideoSource(key: FlowVideoKey): number {
 
 /** Konu anlatımında gösterilecek video (ekran indeksine göre) */
 export function getKonuAnlatimVideo(konuId: string, ekranIndex = 0): number | undefined {
+  const mathTema3Video = getMathTema3AnlatimVideo(konuId, ekranIndex);
+  if (mathTema3Video !== undefined) return mathTema3Video;
+
   const keys = KONU_ANLATIM_VIDEOLARI[konuId];
   if (!keys?.length) return undefined;
   const key = keys[Math.min(ekranIndex, keys.length - 1)];
@@ -107,7 +111,7 @@ export function getKonuAnlatimVideo(konuId: string, ekranIndex = 0): number | un
 }
 
 export function konuAnlatimindaVideoVar(konuId: string): boolean {
-  return Boolean(KONU_ANLATIM_VIDEOLARI[konuId]?.length);
+  return mathTema3KonuVideoDestekler(konuId) || Boolean(KONU_ANLATIM_VIDEOLARI[konuId]?.length);
 }
 
 export const SISTEM_VIDEOLARI = {
